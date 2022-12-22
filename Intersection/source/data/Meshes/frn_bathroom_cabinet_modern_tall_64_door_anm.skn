@@ -1,0 +1,31 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("frn_bathroom_capboard_door.mat", "frn_bathroom_capboard_door.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Wood", "", "")
+}
+
+Skin("sur_sens")
+{
+    Replace("frn_bathroom_capboard_door.mat", "sur_sens.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Wood", "", "")
+}
+
+Skin("sur_sens_debug")
+{
+    Replace("frn_bathroom_capboard_door.mat", "sur_sens$npp.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Wood", "", "")
+}

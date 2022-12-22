@@ -1,0 +1,91 @@
+exporter version : 1.77
+build date: 00:15:03, Oct 29 2021
+log started : 4.12.2021, 18:12
+computer name : M_PICHETA
+user name : mpicheta
+max file: E:\artsource\Pinhead\Objects\city\interiors\Interior_Kitchen_system_2020\frn_kitchen_cabinet_main_a\Kitchen_beta_2021.max
+
+Options:
+[attrib channel] = 10
+[color stream] = 1
+[export attributes] = 1
+[unit_scale] = 0.010000
+[convert cm to m] = 1
+[check static objects] = 0
+[detect bone helpers] = 0
+[create materials] = 0
+[create skin] = 1
+[add special bone helpers] = 0
+[add camera helpers] = 0
+[add inverse bone helpers] = 0
+[copy uv0 to uv1] = 0
+[export specified normals] = 0
+[preview width] = 0
+[preview height] = 0
+[use mesh pivot] = 0
+[auto-generate trace hull] = 1
+[generate collision from trace hull] = 1
+[generate primitive collision] = 0
+
+materials:
+frn_kitchen_fridge_big_door_a.mat
+
+surfaces (1): Metal (200)
+
+data format: 
+position: FLOAT3
+normal tangent: FLOAT3
+texcoord: FLOAT2
+
+
+BONE: bone_root v: 0 f: 0 s: 1 lod: 0 bpv: 0 
+ bounds origin: [0.1, 0.0, 0.0] span: [0.1, 0.0, 0.0]
+ 0: no mat o: 0 c: 14
+{
+    HELPER: Dlockpick_lock 
+    BONE: bone_door_L v: 0 f: 0 s: 1 lod: 0 bpv: 0 
+     bounds origin: [0.4, 0.0, 0.0] span: [0.4, 1.2, 0.0]
+     0: no mat o: 0 c: 34
+    {
+        MESH: frn_old_wardrobe_a_door_L_anm v: 1259 f: 1296 s: 1 lod: 1 bpv: 0  colltree
+         bounds origin: [0.3, 1.6, 0.0] span: [0.3, 0.8, 0.1]
+         Trace hull tree v: 60 f: 88 p: 0
+          used surfaces and total face count: Metal (200) details: Metal (88)
+         Collision hull tree v: 8 f: 12 p: 0
+          used surfaces and total face count: Metal (200) details: Metal (12)
+         color[0] stream present
+         0: frn_kitchen_fridge_big_door_a o: 0 c: 1296
+    }
+    BONE: bone_door_R v: 0 f: 0 s: 1 lod: 0 bpv: 0 
+     bounds origin: [0.4, 0.0, 0.0] span: [0.4, 1.2, 0.0]
+     0: no mat o: 0 c: 34
+    {
+        MESH: frn_old_wardrobe_a_door_R_anm v: 1257 f: 1296 s: 1 lod: 1 bpv: 0  colltree
+         bounds origin: [-0.3, 1.6, 0.0] span: [0.3, 0.8, 0.1]
+         Trace hull tree v: 60 f: 88 p: 0
+          used surfaces and total face count: Metal (200) details: Metal (88)
+         Collision hull tree v: 8 f: 12 p: 0
+          used surfaces and total face count: Metal (200) details: Metal (12)
+         color[0] stream present
+         0: frn_kitchen_fridge_big_door_a o: 0 c: 1296
+    }
+    HELPER: hook_loot 
+    {
+        HELPER: hook_loot_04 
+        HELPER: hook_loot_05 
+        HELPER: hook_loot_weapon 
+    }
+    HELPER: trigger_icon 
+}
+
+---- MESSAGES ----
+Trace hull: tracehull_door_l_0 found for node: frn_old_wardrobe_a_door_L_anm
+Trace hull: tracehull_door_r_0 found for node: frn_old_wardrobe_a_door_R_anm
+
+Summary:
+MSH exported successfully!
+
+---------------- DETAILS ----------------
+Materials: frn_kitchen_fridge_big_door_a
+
+Surfaces 1: Metal 200

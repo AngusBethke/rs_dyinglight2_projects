@@ -1,0 +1,981 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "SpawnType": {
+        "User": "2"
+      },
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "330",
+                "Name": "SkinName"
+              }
+            ]
+          },
+          {
+            "Name": "UserData",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|SIMPLE;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "330",
+                "Name": "UserData"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000028, 0.0, 0.0, 1.0000009, 0.9999999, 0.9999999]],
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "room_box"],
+            "m_Rotate": [14, [-0.0, -0.0, 0.0000049]],
+            "m_Scale": [14, [2.8800005, 1.9199999, 1.9199999]],
+            "m_Translate": [14, [0.9604492, 1.8800046, 1.9503171]]
+          },
+          "Fields": {
+            "BlendingEnabled": "0",
+            "Priority": "3",
+            "m_SolidTrianglesVertices": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.3933105, 1.8800048, 0.0166625, 2.8800013, 1.9200026, 1.9200028]],
+            "m_Name": [12, "Bathroom"],
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "room_logic"],
+            "m_PresetNames": [12, "Reverb_Group;Bathroom_Medium"],
+            "m_Translate": [14, [1.35376, 0.0000019, 1.933655]]
+          },
+          "Fields": {
+            "m_Areas": "/~56;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 91],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-0.0, 0.0, -0.000036]],
+            "m_Scale": [14, [5.7600002, 3.8399999, 1.0]],
+            "m_Translate": [14, [0.959962, 1.9200017, 0.0801995]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 95],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Scale": [14, [3.8399999, 3.8399999, 1.0]],
+            "m_Translate": [14, [-1.8399616, 1.9199999, 1.9200433]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 96],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, 179.9999847]],
+            "m_Scale": [14, [1.9199998, 3.8399994, 0.9999998]],
+            "m_Translate": [14, [2.8798823, 1.9199978, 3.7601311]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000057, 0.0, 0.0, 0.5000019, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 103],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, -0.000022]],
+            "m_Scale": [14, [0.9599999, 3.8399999, 1.0]],
+            "m_Translate": [14, [3.76025, 1.9199967, 0.4800423]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000057, 0.0, 0.0, 0.5000019, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 104],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, -0.000022]],
+            "m_Scale": [14, [0.9599999, 3.8399999, 1.0]],
+            "m_Translate": [14, [3.7602498, 1.9199955, 3.3600466]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 105],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [1.9199999, 0.6399999, 1.0]],
+            "m_Translate": [14, [3.7602541, 3.5199961, 1.9201041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 106],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-179.9999847, -0.0000096, 179.9999694]],
+            "m_Scale": [14, [0.9599999, 3.8399994, 0.9999998]],
+            "m_Translate": [14, [1.4399397, 1.9200005, 3.7601323]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 107],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-179.9999847, -0.0000096, 179.9999694]],
+            "m_Scale": [14, [0.9599999, 3.8399994, 0.9999998]],
+            "m_Translate": [14, [-1.4400639, 1.9199986, 3.7601327]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 108],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-179.9999847, -0.0000096, 179.9999694]],
+            "m_Scale": [14, [1.9199998, 0.6399999, 0.9999998]],
+            "m_Translate": [14, [-0.0001218, 3.5199995, 3.760137]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004973, -0.4969998, 0.0004975, 2.9004991, 0.1880001, 1.9404989]],
+            "m_PcId": [6, 119],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_ceilingdeco_suspende_sqr_3x2a_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000096, 179.9999694]],
+            "m_Translate": [14, [0.960205, 3.8400039, 1.9201047]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "concrete_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, 1.9134289, 0.0705, 1.9346425, 1.9275709, 0.0905]],
+            "m_PcId": [6, 120],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_2x_a_dr"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Translate": [14, [3.8401148, -0.0000027, 1.9199217]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "marbletiles_beige_light",
+            "m_CollisionFlags": "6219"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000014, 0.0, 0.0, 0.5000004, 0.5, 0.0049999]],
+            "m_PcId": [6, 123],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [3.8800001, 0.9599999, 1.0]],
+            "m_Translate": [14, [3.840084, 3.3599972, 1.9199233]]
+          },
+          "Fields": {
+            "RenderFlags": "191"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 124],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [1.0, 2.9, 1.0]],
+            "m_Translate": [14, [3.8400838, 1.4399966, 3.3599245]]
+          },
+          "Fields": {
+            "RenderFlags": "191"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 125],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [1.0, 2.9, 1.0]],
+            "m_Translate": [14, [3.8400843, 1.4399975, 0.4799208]]
+          },
+          "Fields": {
+            "RenderFlags": "191"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, 1.9134289, 0.0705, 1.9346424, 1.9275709, 0.0905]],
+            "m_PcId": [6, 143],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_2x_a_dr"],
+            "m_Rotate": [14, [-179.9999847, -0.0000096, 179.9999694]],
+            "m_Translate": [14, [0.0000609, 9.999999974752428e-7, 3.8399965]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "marbletiles_beige_light",
+            "m_CollisionFlags": "6219"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5000001, 0.5, 0.0049999]],
+            "m_PcId": [6, 146],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-179.9999847, -0.0000097, 179.9999694]],
+            "m_Scale": [14, [3.8799998, 0.9599996, 0.9999998]],
+            "m_Translate": [14, [0.0000585, 3.3600006, 3.839967]]
+          },
+          "Fields": {
+            "RenderFlags": "191"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.5, 0.0049999]],
+            "m_PcId": [6, 147],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-179.9999847, -0.0000096, 179.9999694]],
+            "m_Scale": [14, [0.9999998, 2.8999998, 0.9999998]],
+            "m_Translate": [14, [-1.4399416, 1.4399999, 3.8399665]]
+          },
+          "Fields": {
+            "RenderFlags": "191"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.5, 0.0049999]],
+            "m_PcId": [6, 148],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-179.9999847, -0.0000096, 179.9999694]],
+            "m_Scale": [14, [0.9999998, 2.8999998, 0.9999998]],
+            "m_Translate": [14, [1.4400614, 1.4400018, 3.839966]]
+          },
+          "Fields": {
+            "RenderFlags": "191"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 1.9341471, 1.9270759, 0.0125025]],
+            "m_PcId": [6, 149],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_2x_a_em"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Translate": [14, [-1.9198, 0.0, 1.9200439]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "marbletiles_beige_light",
+            "UserData": "4294967295 0 0 0",
+            "m_CollisionFlags": "6219"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.974147, 1.9270759, 0.0125025]],
+            "m_PcId": [6, 154],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, 179.9999847]],
+            "m_Translate": [14, [2.879883, -0.0000016, 3.8401339]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "marbletiles_beige_light",
+            "UserData": "4294967295 0 0 0",
+            "m_CollisionFlags": "6219"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
+            "m_PcId": [6, 174],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
+            "m_Rotate": [14, [-0.0, 0.0, -0.000036]],
+            "m_Translate": [14, [-0.9598078, 0.0000039, 0.0000758]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "marbletiles_beige_light",
+            "UserData": "4294967295 0 0 0",
+            "m_CollisionFlags": "6219"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 1.9341471, 1.9270759, 0.0125025]],
+            "m_PcId": [6, 179],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_2x_a_em"],
+            "m_Rotate": [14, [-0.0, 0.0, -0.000036]],
+            "m_Translate": [14, [1.919952, 0.0000019, 0.0002436]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "marbletiles_beige_light",
+            "UserData": "4294967295 0 0 0",
+            "m_CollisionFlags": "6219"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004994, -0.00775, 0.0004999, 2.9005007, 0.0122499, 1.9404984]],
+            "m_PcId": [6, 184],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_floordeco_sqr_3x2a_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, 179.9999694]],
+            "m_Translate": [14, [0.960205, 0.0000039, 1.9201047]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "SkinName": "ceramictiles_c_grey"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.5000001, 0.0049999]],
+            "m_PcId": [6, 196],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000022]],
+            "m_Scale": [14, [3.8800001, 3.8399982, 1.0]],
+            "m_Translate": [14, [-1.9197924, 1.919998, 1.9200433]]
+          },
+          "Fields": {
+            "RenderFlags": "32"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 197],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [179.9999847, -0.0018223, 179.9999847]],
+            "m_Scale": [14, [1.9199998, 3.8399994, 0.9999998]],
+            "m_Translate": [14, [2.8798797, 1.8799978, 3.7601311]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1466325, 0.0195815, -0.178974, 1.6247217, 0.005005, 1.354349]],
+            "m_PcId": [6, 244],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_flat_roundbig_a"],
+            "m_Rotate": [14, [179.9999847, 39.9999961, 179.9999847]],
+            "m_Translate": [14, [1.7486801, 0.0000038, 1.6389465]]
+          },
+          "Fields": {
+            "RenderFlags": "32",
+            "m_CollisionFlags": "14",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, -0.0000057, 0.4999999, 0.4999999, 0.0050019]],
+            "m_PcId": [6, 254],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, 0.0018117, -0.000036]],
+            "m_Scale": [14, [1.9199999, 3.8399999, 1.0]],
+            "m_Translate": [14, [-0.9598038, 1.880004, 0.0800777]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.5, 0.0049999]],
+            "m_PcId": [6, 255],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [3.517117619367127e-8, 2.0629191510579404e-7, -0.0000445]],
+            "m_Scale": [14, [3.8800001, 3.839998, 1.0]],
+            "m_Translate": [14, [1.9199532, 1.9199999, 0.0002503]]
+          },
+          "Fields": {
+            "RenderFlags": "32"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.4738397, 2.1600048, 0.082505, 0.4861578, 0.960005, 0.082505]],
+            "m_PcId": [6, 256],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_wall_frame_left_c"],
+            "m_Rotate": [14, [-179.9999847, -0.0000091, 179.9999694]],
+            "m_Translate": [14, [0.7700501, -0.3939346, 3.8399958]]
+          },
+          "Fields": {
+            "RenderFlags": "48"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0000071, 0.0195201, 0.1233298, 0.1747739, 0.0195202]],
+            "m_PcId": [6, 257],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;vent_a"],
+            "m_Translate": [14, [-1.3996578, 2.9546029, 0.1496579]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "0",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.4738455, 2.1600048, 0.082505, 0.4861597, 0.960005, 0.082505]],
+            "m_PcId": [6, 258],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_wall_frame_left_c"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Translate": [14, [3.8401145, -0.3939386, 1.1499327]]
+          },
+          "Fields": {
+            "RenderFlags": "48"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.4132198, 0.0092272, 1.5473413, 1.2539473, 0.0052499, 1.3891651]],
+            "m_PcId": [6, 259],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_flat_cornerbig_a"],
+            "m_Rotate": [14, [-0.0000446, -0.0000016, -179.9999847]],
+            "m_Translate": [14, [3.8399999, 3.5199999, 0.0]]
+          },
+          "Fields": {
+            "RenderFlags": "48"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.8639233, -1.139887, 0.402325, 0.6989292, 0.8198968, 0.2373251]],
+            "m_PcId": [6, 266],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_wall_cor_right_a"],
+            "m_Rotate": [14, [0.000036, 0.0000097, -0.000036]],
+            "m_Translate": [14, [-1.9198298, 3.8400061, 0.0000759]]
+          },
+          "Fields": {
+            "RenderFlags": "176",
+            "m_CollisionFlags": "2048"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000068, -0.7999946, 0.1695024, 0.8183915, 0.4800049, 0.0050024]],
+            "m_PcId": [6, 267],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_wall_top_1x_c"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Translate": [14, [-1.9198, 3.8399999, 2.1123659]]
+          },
+          "Fields": {
+            "RenderFlags": "191",
+            "m_CollisionFlags": "2048"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3471629, 0.2605001, 0.0009501, 0.363564, 0.2605003, 0.0217256]],
+            "m_PcId": [6, 273],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_bathroom_cabinet_door_modern"],
+            "m_Rotate": [14, [-90.0000152, 0.000035, 165.0]],
+            "m_Translate": [14, [3.1896657, 0.0189462, 0.5604245]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0355651, 0.154392, 0.0720477, 0.4071631, 0.154392, 0.4184052]],
+            "m_PcId": [6, 274],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_cloth_small_a"],
+            "m_Rotate": [14, [-0.0000575, -29.0000209, -0.0000244]],
+            "m_Translate": [14, [0.556594, 0.0000029, 0.5480955]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "75",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1134884, -0.0280801, -0.1982628, 0.4696686, 0.1535589, 0.2665581]],
+            "m_PcId": [6, 275],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_pile_0x1_a"],
+            "m_Rotate": [14, [-0.000022, 0.0000048, -0.000036]],
+            "m_Scale": [14, [0.6518902, 0.6518905, 0.6518902]],
+            "m_Translate": [14, [1.0612485, 0.3512305, 0.7834466]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.039775, 0.1979712, 0.0494184, 0.5028693, 0.1979712, 0.4229176]],
+            "m_PcId": [6, 276],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_cloth_small_b"],
+            "m_Rotate": [14, [-0.0000012, 30.0000076, -0.0000413]],
+            "m_Scale": [14, [0.6170508, 0.6170507, 0.6170508]],
+            "m_Translate": [14, [2.7328186, 0.3393456, 0.517211]]
+          },
+          "Fields": {
+            "RenderFlags": "51",
+            "m_CollisionFlags": "75",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1094343, 0.1663284, -0.1186214, 0.440431, 0.1663284, 0.1430159]],
+            "m_PcId": [6, 277],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_pile_0x1_b"],
+            "m_Rotate": [14, [-0.0000283, -9.9999961, -0.0000364]],
+            "m_Translate": [14, [2.2534945, 0.9010009, 0.3795759]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0863746, 0.6393142, 0.0005, 0.2575046, 0.6393142, 0.0855509]],
+            "m_PcId": [6, 280],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;towel_rack_standing_modern_a"],
+            "m_Rotate": [14, [0.000035, -1.499999, -0.000036]],
+            "m_Translate": [14, [0.1506049, 0.0000035, 0.3199459]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.020149, -0.3009583, 0.0592316, 0.2403775, 0.4962691, 0.0592321]],
+            "m_PcId": [6, 281],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;towel_rack_wall_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.000036]],
+            "m_Translate": [14, [-1.7582987, 1.4600038, 1.6387639]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0006276, 0.0240276, 0.0007081, 0.6385593, 0.0240276, 0.3196561]],
+            "m_PcId": [6, 282],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;rug_small_a"],
+            "m_Rotate": [14, [-179.9999847, -19.0, -179.9999847]],
+            "m_Translate": [14, [-1.0016168, -0.0037744, 1.581665]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0001672, 0.1981256, 0.0006664, 0.140822, 0.1981257, 0.1106634]],
+            "m_PcId": [6, 292],
+            "m_PrefabName": [12, "physics_object"],
+            "m_Rotate": [14, [90.0000152, -0.0000185, -13.4999923]],
+            "m_Translate": [14, [-1.6043092, 0.0826034, 2.3081052]]
+          },
+          "Fields": {
+            "RenderFlags": "51",
+            "m_MeshName": "prp_plastic_can_b.msh"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.2452558, 1.3257079, 0.0825052, 0.2552686, 0.960005, 0.0825052]],
+            "m_PcId": [6, 293],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_wall_frame_right_b"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Translate": [14, [-1.9197998, -0.1822247, 2.1840817]]
+          },
+          "Fields": {
+            "RenderFlags": "48"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0034771, 0.424704, -0.0195925, 0.1266602, 0.4247038, 0.0592141]],
+            "m_PcId": [6, 298],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;paper_stand_modern_a"],
+            "m_Rotate": [14, [179.9999389, -29.999998, 179.9999542]],
+            "m_Translate": [14, [3.6004099, 0.0000013, 3.4122929]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0980167, 0.0892259, 0.0803609, 1.3152668, 0.0906139, 0.4918809]],
+            "m_PcId": [6, 299],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_pile_1x1_g"],
+            "m_Rotate": [14, [179.9999542, -13.9999952, 179.9999542]],
+            "m_Translate": [14, [2.8343119, 0.0155773, 3.109009]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.4132199, 0.0092272, 1.5473413, 1.2539474, 0.0052499, 1.3891651]],
+            "m_PcId": [6, 306],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_flat_cornerbig_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-1.919792, 0.0000038, 3.8401031]]
+          },
+          "Fields": {
+            "RenderFlags": "32",
+            "m_CollisionFlags": "2062",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, 0.0655443, 0.8469629, 1.8443068, 0.0655443, 0.70057]],
+            "m_PcId": [6, 310],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_trashgroup_flr_2side_office_c"],
+            "m_Rotate": [14, [179.9999847, -0.0000092, 179.9999847]],
+            "m_Translate": [14, [0.0000379, 0.0, 3.8400115]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.4010836, 0.0106811, 0.0000051, 0.2430399, 0.0050024, 0.9600049]],
+            "m_PcId": [6, 311],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_flat_side_d"],
+            "m_Rotate": [14, [0.0, 90.0, -179.9999694]],
+            "m_Translate": [14, [-0.239822, 3.5199999, 0.0000797]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0080144, 0.592804, 0.3630677, 1.3171761, 0.5289779, 0.3565392]],
+            "m_PcId": [6, 312],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_bathroom_cabinet_modern_btm_256"],
+            "m_Rotate": [14, [-0.000022, 0.0000048, -0.000036]],
+            "m_Translate": [14, [1.919952, 0.0000019, 0.1602164]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 0.0151445, 0.0204422, 1.7604999, 1.0854632, 0.0205577]],
+            "m_PcId": [6, 313],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_mirror_big_352_a"],
+            "m_Rotate": [14, [-0.000022, 0.0000048, -0.000036]],
+            "m_Translate": [14, [1.9199533, 2.0000019, 0.1602157]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0000049, 0.0000024, 0.1001585, 0.1003909, 0.0050024]],
+            "m_PcId": [6, 317],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;contact_a"],
+            "m_Rotate": [14, [-0.000022, 0.0000048, -0.000036]],
+            "m_Translate": [14, [3.0399472, 0.8063082, 0.1702979]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "0",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0000049, 0.0000024, 0.1001585, 0.1003909, 0.0050024]],
+            "m_PcId": [6, 318],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;contact_a"],
+            "m_Rotate": [14, [-0.000022, 0.0000048, -0.000036]],
+            "m_Translate": [14, [2.8799433, 0.8063082, 0.1702979]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "0",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.7610287, 0.0093115, 0.0004999, 0.6010249, 0.0057457, 1.8226783]],
+            "m_PcId": [6, 319],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_flat_sidebig_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.000022]],
+            "m_Translate": [14, [1.919952, 0.0000019, 0.0002436]]
+          },
+          "Fields": {
+            "RenderFlags": "32",
+            "m_CollisionFlags": "14",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.9117273, 1.1545811, 0.9128503, 0.7518703, 1.3884595, 0.7564962]],
+            "m_PcId": [6, 320],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_shower_modern_a"],
+            "m_Rotate": [14, [0.000036, 0.0, -0.000036]],
+            "m_Translate": [14, [-1.9198029, 0.0000051, 0.000088]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1197725, 0.0140374, 1.2065342, 0.9605001, 0.0052499, 1.0483576]],
+            "m_PcId": [6, 321],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_flat_corner_a"],
+            "m_Rotate": [14, [0.000036, 0.0, -0.000036]],
+            "m_Translate": [14, [-1.9179526, 0.0000051, 0.0029909]]
+          },
+          "Fields": {
+            "RenderFlags": "32",
+            "m_CollisionFlags": "2062",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.003273, 1.0792462, 0.3085846, 0.7293293, 0.8142462, 0.3085844]],
+            "m_PcId": [6, 322],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_bathroom_cabinet_modern_tall_64"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Translate": [14, [-1.8398127, 1.424176474529304e-7, 2.4848787]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0033842, 1.139852, 0.0002274, 0.5133848, 1.159852, 0.0210028]],
+            "m_Name": [12, "container"],
+            "m_PcId": [6, 323],
+            "m_PrefabName": [12, "complexcontainer"],
+            "m_PresetNames": [12, "Type;frn_bathroom_cabinet_modern_tall_64_door"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Translate": [14, [-1.4200967, 6.691902854072396e-8, 2.2304227]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0000049, 0.0000024, 0.1001585, 0.1003909, 0.0050024]],
+            "m_PcId": [6, 326],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;contact_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Translate": [14, [-1.7497446, 0.2463068, 2.0048825]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "0",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0000049, 0.0000024, 0.1001585, 0.1003909, 0.0050024]],
+            "m_PcId": [6, 327],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;contact_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000017]],
+            "m_Translate": [14, [-1.7497446, 0.2463068, 1.8448785]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "0",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0536226, -0.0410182, 0.065285, 0.3754526, 0.6731971, 0.0662545]],
+            "m_PcId": [6, 328],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_heater_modern_a"],
+            "m_Rotate": [14, [-179.9999847, 0.0000043, -179.9999847]],
+            "m_Translate": [14, [2.2492284, 1.5033457, 3.6801142]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0325628, 0.6155219, 0.3952709, 0.3052904, 0.5379549, 0.3952715]],
+            "m_PcId": [6, 329],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_toilet_modern_a"],
+            "m_Rotate": [14, [179.9999542, 0.0000346, 179.9999389]],
+            "m_Translate": [14, [3.0160138, -0.0000035, 3.680145]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3692422, 0.0096025, 0.0000048, 0.2101462, 0.0050024, 0.9600048]],
+            "m_PcId": [6, 330],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_flat_side_e"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Translate": [14, [2.7748639, -0.0000035, 3.8401489]]
+          },
+          "Fields": {
+            "RenderFlags": "32",
+            "m_CollisionFlags": "2062",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 0.1693469, 0.0004999, 0.4436107, 0.1699693, 0.297688]],
+            "m_PcId": [6, 331],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_sink_vessel_modern_a"],
+            "m_Rotate": [14, [-0.0000239, 0.0000512, -0.0000086]],
+            "m_Translate": [14, [1.9376535, 0.900002, 0.5787029]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

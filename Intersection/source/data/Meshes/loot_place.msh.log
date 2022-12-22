@@ -1,0 +1,75 @@
+exporter version : 1.53
+build date: 09:27:27, Jun  6 2016
+log started : 22.9.2017, 14:4
+computer name : M_KUBAS
+user name : mkubas
+max file: C:\Users\mkubas.TECHLAND\Downloads\loot_place.max
+
+Options:
+[attrib channel] = 10
+[color stream] = 1
+[export attributes] = 1
+[face area threshold] = 0.999999
+[check face area] = 0
+[bones dip] = 45
+[unit_scale] = 0.010000
+[convert cm to m] = 1
+[mesh welding threshold] = 0.000100
+[check static objects] = 1
+[detect bone helpers] = 0
+[create materials] = 0
+[create skin] = 1
+[add special bone helpers] = 1
+[add camera helpers] = 1
+[preview rendering] = 0
+[preview width] = 96
+[preview height] = 96
+
+materials:
+dummy.mat
+
+surfaces (1): Stone (13)
+
+data format: 
+position: FLOAT3
+normal tangent: FLOAT3
+texcoord: FLOAT2
+
+Trace hull tree v: 8 f: 12 p: 0
+ used surfaces and total face count: Stone (13) details: Stone (12)
+Collision hull tree v: 0 f: 0 p: 1
+ used surfaces and total face count: Stone (13) details: 
+
+MESH: loot_place v: 24 f: 12 s: 1 lod: 1 bpv: 0 
+ bounds origin: [0.0, -0.1, 0.0] span: [0.1, 0.1, 0.1]
+ color[0] stream present
+ 0: dummy o: 0 c: 12
+{
+    HELPER: hook_loot 
+    {
+        HELPER: hook_loot_001 
+    }
+}
+
+---- MESSAGES ----
+No Pelvis or Bip01 node! HSpine cannot be added
+
+No Spine or Spine0 node! HSpine cannot be added
+
+No Spine3 node! HSpine1 cannot be added
+
+No Neck or Neck1 node! HSpine1 cannot be added
+
+No L_Clavicle node! HSpine1 cannot be added
+
+No R_Clavicle node! HSpine1 cannot be added
+
+No HSpine1 node! EyeCamera and RefCamera cannot be correctly processed
+
+No EyeCamera node! EyeCamera and RefCamera cannot be correctly processed
+
+
+Summary:
+Materials: dummy
+
+Surfaces 1: Stone 13

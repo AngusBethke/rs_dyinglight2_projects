@@ -1,0 +1,13 @@
+!include("startprop.def")
+!include("musicpresets_loading.scr")
+
+Map("Intersection")
+{
+    LevelName("Intersection")
+    LoadingMusic(LOADING_MUSIC_SLUMS)
+    LoadingBackground("loading_02c", 1024, 1024)
+    LoadingMaterial("loadingscreen.mat")
+    MapInfo("Intersection_map.dds", 4096, 4096, 512, 512, "", 1, 0) 
+
+    //XlastId(CONTEXT_SP_MAP_)
+}

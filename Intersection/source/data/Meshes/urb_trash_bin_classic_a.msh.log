@@ -1,0 +1,61 @@
+exporter version : 1.74
+build date: 00:12:28, Oct  6 2020
+log started : 6.10.2020, 13:40
+computer name : P-MARON
+user name : pmaron
+max file: d:\Perforce\pinhead\artsources-pinhead\Objects\props\urb_street_decors\urb_street_decors.max
+
+Options:
+[attrib channel] = 10
+[color stream] = 1
+[export attributes] = 1
+[unit_scale] = 0.010000
+[convert cm to m] = 1
+[check static objects] = 0
+[detect bone helpers] = 0
+[create materials] = 0
+[create skin] = 1
+[add special bone helpers] = 0
+[add camera helpers] = 0
+[add inverse bone helpers] = 0
+[copy uv0 to uv1] = 1
+[export specified normals] = 0
+[preview width] = 0
+[preview height] = 0
+[use mesh pivot] = 1
+[auto-generate trace hull] = 0
+[generate collision from trace hull] = 0
+[generate primitive collision] = 0
+
+materials:
+urb_trash_bin_classic_a.mat
+urb_trash_a.mat
+
+surfaces (1): Metal (388)
+
+data format: 
+position: FLOAT3
+normal tangent: FLOAT3
+texcoord: FLOAT2
+
+Trace hull tree v: 315 f: 387 p: 0
+ used surfaces and total face count: Metal (388) details: Metal (387)
+Collision hull tree v: 0 f: 0 p: 1
+ used surfaces and total face count: Metal (388) details: 
+
+MESH: urb_trash_bin_classic_a v: 994 f: 1029 s: 2 lod: 1 bpv: 0 
+ bounds origin: [-0.0, 0.5, -0.0] span: [0.3, 0.5, 0.3]
+ color[0] stream present
+ 0: urb_trash_bin_classic_a o: 0 c: 918
+ 1: urb_trash_a o: 918 c: 111
+
+---- MESSAGES ----
+Trace hull: @TH_02 found for node: urb_trash_bin_classic_a
+
+Summary:
+MSH exported successfully!
+
+---------------- DETAILS ----------------
+Materials: urb_trash_bin_classic_a, urb_trash_a
+
+Surfaces 1: Metal 388

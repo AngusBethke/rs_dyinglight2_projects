@@ -1,0 +1,125 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "50",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3015656, 4.9030799, -0.4190428, 3.3748562, 5.0899543, 2.9020962]],
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_tree_decid_dead_a"],
+            "m_Scale": [14, [0.8999999, 0.8999999, 0.8999999]]
+          },
+          "Fields": {
+            "RenderFlags": "111",
+            "m_CollisionFlags": "786443"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0508001, 0.3751027, -0.0250089, 0.4205007, 0.3838638, 0.2382967]],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_small_grass_c"],
+            "m_Rotate": [14, [-0.0, 75.0, -0.0]],
+            "m_Translate": [14, [0.51001, 0.0299999, 0.340027]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "2122",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0119851, 0.3683154, -0.3568562, 0.8963202, 0.4347044, 0.8206962]],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_plane_grass_e"],
+            "m_Rotate": [14, [-0.0, -80.0000305, -0.0]],
+            "m_Scale": [14, [0.6802719, 0.6802719, 0.6802719]],
+            "m_Translate": [14, [0.4899899, 0.0199999, -0.76001]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "64",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0508001, 0.3751027, -0.0250089, 0.4205006, 0.3838638, 0.2382967]],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_small_grass_c"],
+            "m_Rotate": [14, [179.9999847, 84.0001068, 179.9999847]],
+            "m_Translate": [14, [-0.7399898, -0.0099999, 0.26001]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "2122",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0060442, 0.0182984, -0.0015662, 1.112555, 0.0050024, 1.1125512]],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_tree_grating_a"],
+            "m_Rotate": [14, [-0.0, -72.0000076, -0.0]],
+            "m_Scale": [14, [1.1, 1.1, 1.1]],
+            "m_Translate": [14, [0.0, -0.0054998, 0.0]]
+          },
+          "Fields": {
+            "RenderFlags": "32",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0928986, -0.0010632, -0.0276722, 1.8041827, 0.0380918, 2.1136903]],
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_roots_deco_a"],
+            "m_Rotate": [14, [-0.0, -2.0000147, -0.0]],
+            "m_Scale": [14, [1.1, 1.1, 1.1]],
+            "m_Translate": [14, [0.0000308, -0.0054998, 0.0]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "2122"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

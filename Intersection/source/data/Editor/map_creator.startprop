@@ -1,0 +1,13 @@
+!include("startprop.def")
+!include("musicpresets_loading.scr")
+
+Map("%%MAP_DIR_NAME%%")
+{
+    LevelName("%%MAP_NAME%%")
+    LoadingMusic(LOADING_MUSIC_SLUMS)
+    LoadingBackground("loading_02c", 1024, 1024)
+    LoadingMaterial("loadingscreen.mat")
+    MapInfo("%%MAP_DIR_NAME%%_map.dds", 4096, 4096, 512, 512, "", 1, 0) 
+
+    //XlastId(CONTEXT_SP_MAP_)
+}

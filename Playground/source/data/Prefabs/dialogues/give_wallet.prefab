@@ -1,0 +1,142 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "PrefabInterfaces": [
+        "IRestrictedArea",
+        "Dialog::IDialog"
+      ],
+      "Interface": {
+        "Pipes": [
+          {
+            "Type": "PipeIn",
+            "Name": "Dialog::IDialog::m_PipeGetGraph"
+          }
+        ],
+        "VirtualFields": [
+          {
+            "Name": "m_Bindings",
+            "Init": "f:EDIT;e:EDIT;c:Dialog properties;",
+            "DestinationFields": [
+              {
+                "Uuid": "47",
+                "Name": "m_Bindings"
+              }
+            ]
+          }
+        ]
+      },
+      "Bindings": {
+        "Properties": [],
+        "Pipes": [
+          {
+            "src_uuid": "0",
+            "src": "Dialog::IDialog::m_PipeGetGraph",
+            "dest_uuid": "47",
+            "dest": "m_PipeGetGraph"
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "Dialog::CoDialog",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 47]
+          },
+          "Fields": {
+            "m_SelfActive": "1",
+            "m_StandaloneDialog": ""
+          }
+        },
+        {
+          "Class": "CoHierarchy",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 50],
+            "m_RootXform": [11, true]
+          }
+        },
+        {
+          "Class": "CoMeshEditorHelper",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 77],
+            "m_XformComponent": [6, 81]
+          },
+          "Fields": {
+            "m_AllowScaleVisualization": "1",
+            "m_MeshName": "dialog_helper.msh"
+          }
+        },
+        {
+          "Class": "CoHierarchy",
+          "PrefabFieldsNative": {
+            "m_ParentComponent": [6, 50],
+            "m_PcId": [6, 81]
+          },
+          "Fields": {
+            "Transform": "9.000000 -0.000000 0.000000 0.000000 0.000000 9.000000 -0.000000 0.000000 0.000000 0.000000 9.000000 0.000000"
+          }
+        },
+        {
+          "Class": "CoHierarchy",
+          "PrefabFieldsNative": {
+            "m_ParentComponent": [6, 50],
+            "m_PcId": [6, 89]
+          },
+          "Fields": {
+            "Transform": "1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 -0.100000 0.000000 0.000000 1.000000 0.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [9.98377799987793e-7, 0.0064186, 9.98377799987793e-7, 0.1813481, 0.0216026, 0.1823469]],
+            "m_Name": [12, "SlotPlayer_beg"],
+            "m_ParentComponent": [6, 50],
+            "m_PcId": [6, 90],
+            "m_PrefabName": [12, "player_position"],
+            "m_Rotate": [14, [-179.9999847, -6.0, -179.9999847]],
+            "m_Translate": [14, [0.0000049, 0.0000049, 1.650024]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [5.960464477539063e-8, 0.1500049, 0.1779811, 0.5000001, 0.1500049, 0.6779813]],
+            "m_ForceXformHierarchyInGameInternal": [11, true],
+            "m_Name": [12, "Slot1_beg"],
+            "m_ParentComponent": [6, 50],
+            "m_PcId": [6, 91],
+            "m_PrefabName": [12, "behaviorplace_npc"],
+            "m_PresetNames": [12, "Type;Dialogs"],
+            "m_Rotate": [14, [-0.0, -4.999999, -0.0]],
+            "m_Translate": [14, [0.0000049, 0.0000049, 0.0000308]]
+          },
+          "Fields": {
+            "m_BPPreset": "<no preset>",
+            "m_BehaviorName": "single_static_m_stand_idle_placeholder_01"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_ForceXformHierarchyInGameInternal": [11, true],
+            "m_Name": [12, "lights"],
+            "m_ParentComponent": [6, 50],
+            "m_PcId": [6, 92],
+            "m_PrefabName": [12, "template_dlg_lights"],
+            "m_Rotate": [14, [-0.0, 4.999999, -0.0]],
+            "m_Translate": [14, [-0.0000076, -0.0000049, -0.0000304]]
+          },
+          "Fields": {
+            "Light preset": "Disabled",
+            "m_SelfActive": "0"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "DialogPrefab": "1"
+    }
+  }
+}

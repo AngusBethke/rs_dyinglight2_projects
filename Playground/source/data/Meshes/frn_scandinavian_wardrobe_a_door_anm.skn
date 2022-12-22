@@ -1,0 +1,15 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("frn_scandinavian_furniture_a_light.mat", "frn_scandinavian_furniture_a_light.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Wood", "", "")
+}
+
+Skin("sur_sens")
+{
+    Replace("frn_scandinavian_furniture_a_light.mat", "sur_sens.mat")
+}

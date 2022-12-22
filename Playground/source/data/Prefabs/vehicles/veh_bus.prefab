@@ -1,0 +1,296 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "101",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "playerfallamortizer"],
+            "m_PresetNames": [12, "PlayerFallAmortizer;vehicle"],
+            "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
+            "m_Scale": [14, [3.4690001, 3.3010001, 12.4390001]],
+            "m_Translate": [14, [-0.0050352, 3.4078419, 0.201416]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 3.427267074584961e-7, 0.5, 0.4999999, 0.5000001]],
+            "m_Name": [12, "AAZ_veh_bus_b"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "audioambientzone"],
+            "m_Rotate": [14, [-0.000449, -0.0064619, 0.0003573]],
+            "m_Scale": [14, [3.1808669, 3.3159902, 12.2621994]],
+            "m_Translate": [14, [0.0073242, 0.2817305, 0.21875]]
+          },
+          "Fields": {
+            "m_AcousticInsulation": "30",
+            "m_ActiveRadius": "10.000000",
+            "m_AuxBusName": "Car",
+            "m_EventName": "ambience_camper"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0252275, 1.9363746, -0.0673236, 2.1782963, 1.9363746, 6.3677697]],
+            "m_PcId": [6, 41],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;veh_bus_b"],
+            "m_Rotate": [14, [179.9999847, -0.0000098, 179.9999847]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.024548, 0.5661595, -0.7046632, 0.2397377, 0.5128801, 0.6330664]],
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_sitting_a"],
+            "m_Rotate": [14, [16.3368263, 0.1656221, -3.912898]],
+            "m_Scale": [14, [1.0000008, 1.0000001, 0.9999998]],
+            "m_Translate": [14, [1.2075196, 0.1731967, -1.2586666]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0082965, 0.557373, -0.7810183, 0.2456282, 0.5524837, 0.4299872]],
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_sitting_c"],
+            "m_Rotate": [14, [0.000022, -12.9991827, 0.0000064]],
+            "m_Translate": [14, [1.116942, 0.5234165, 4.9750981]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [5.437735950408751e-8, 60.000782, 0.0000126]],
+            "m_Translate": [14, [1.0915515, 1.2547512, 4.002686]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [5.437735950408751e-8, 60.000782, 0.0000126]],
+            "m_Translate": [14, [1.086426, 1.1466921, -1.8576045]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762703, 0.0736729, 0.0725374]],
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [176.2256622, 1.2085684, -171.1955566]],
+            "m_Scale": [14, [1.0000009, 1.0, 0.9999998]],
+            "m_Translate": [14, [-0.7097166, 0.4737927, 0.0574948]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0201376, 0.1540088, 0.0067224, 0.3516908, 0.1587462, 0.2405659]],
+            "m_Name": [12, "Backpack"],
+            "m_PcId": [6, 91],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;Backpack_c;Loot Type;Streets;Loot Tier;Easy"],
+            "m_Rotate": [14, [179.9994812, 27.5000038, -179.9992828]],
+            "m_Translate": [14, [-1.1202088, 0.9080671, 4.7262244]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0199016, 0.2919898, 0.0024205, 0.1857422, 0.2945698, 0.2809853]],
+            "m_Name": [12, "Backpack"],
+            "m_PcId": [6, 92],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;Backpack_d;Loot Type;Streets;Loot Tier;Easy"],
+            "m_Rotate": [14, [-0.000773, -42.5000114, -0.0008903]],
+            "m_Translate": [14, [-1.3928072, 0.315775, -2.0682897]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 0.1968547, 0.0005991, 0.2411401, 0.1977284, 0.4172346]],
+            "m_Name": [12, "Backpack"],
+            "m_PcId": [6, 93],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;Backpack_e;Loot Tier;Medium;Loot Type;Streets"],
+            "m_Rotate": [14, [179.9995422, 12.499999, -179.9994201]],
+            "m_Translate": [14, [1.3230582, 1.2748843, -3.2444791]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.0052357, 0.0000047, 0.2437439, 0.0050025, 0.3778582]],
+            "m_PcId": [6, 94],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_rorschach_a_l"],
+            "m_Rotate": [14, [0.0000122, 25.5007629, 0.000009]],
+            "m_Translate": [14, [-1.2214355, 0.2446001, -0.1707762]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.0052357, 0.000005, 0.4927574, 0.0050024, 0.4150428]],
+            "m_PcId": [6, 95],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_droplets_a"],
+            "m_Rotate": [14, [-179.9999847, 38.9992218, 179.9999847]],
+            "m_Scale": [14, [1.2199994, 1.2199993, 1.2200001]],
+            "m_Translate": [14, [-1.0748287, 0.2394766, -0.8798828]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.0052357, 0.000005, 0.4927573, 0.0050025, 0.4150428]],
+            "m_PcId": [6, 96],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_droplets_a"],
+            "m_Rotate": [14, [0.0000032, 45.5007705, 0.0000102]],
+            "m_Scale": [14, [1.3018871, 1.3018869, 1.3018865]],
+            "m_Translate": [14, [1.2864991, 0.291229, -1.5037833]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.0052357, 0.0000057, 0.4927574, 0.0050025, 0.415043]],
+            "m_PcId": [6, 97],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_droplets_a"],
+            "m_Rotate": [14, [-82.5536346, 0.0970849, 89.9754714]],
+            "m_Scale": [14, [0.7633584, 0.7633593, 0.7633594]],
+            "m_Translate": [14, [1.6469731, 1.0037095, -2.0337519]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000021, 0.0052353, 0.000005, 0.4927583, 0.0050026, 0.4150428]],
+            "m_PcId": [6, 98],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_droplets_a"],
+            "m_Rotate": [14, [-3.6617336, 60.0514564, 0.0000027]],
+            "m_Scale": [14, [1.1799999, 1.1799993, 1.1799993]],
+            "m_Translate": [14, [1.3199448, 0.3852787, 4.2577519]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.0052357, 0.000005, 0.4927575, 0.0050025, 0.4150428]],
+            "m_PcId": [6, 99],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_droplets_a"],
+            "m_Rotate": [14, [-72.6278686, -1.4357427, 90.7467727]],
+            "m_Scale": [14, [1.0000001, 1.0000009, 1.0000001]],
+            "m_Translate": [14, [1.6464833, 1.0195218, 4.2462162]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.0052357, 0.000005, 0.4927575, 0.0050025, 0.4150428]],
+            "m_PcId": [6, 100],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_droplets_a"],
+            "m_Rotate": [14, [-0.0000092, 53.0007629, 0.0000201]],
+            "m_Scale": [14, [1.2200001, 1.2199995, 1.2199999]],
+            "m_Translate": [14, [-0.6729735, 0.2394766, 0.4384762]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000036, 0.0052357, 0.0000107, 0.104631, 0.0050025, 0.1051711]],
+            "m_PcId": [6, 101],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blood_basic_hand_a_l"],
+            "m_Rotate": [14, [-162.8967742, 1.466217, 90.5306396]],
+            "m_Scale": [14, [1.0000009, 1.0000008, 1.0]],
+            "m_Translate": [14, [1.648926, 0.7768039, -1.7965693]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, -0.0949999, 0.0000049, 0.1000049, 0.1049999, 0.1000049]],
+            "m_PcId": [6, 102],
+            "m_PrefabName": [12, "litecomplexcontainer"],
+            "m_Rotate": [14, [179.9994812, 27.5000038, -179.9992828]],
+            "m_Translate": [14, [-1.0247037, 1.2749588, -2.7952198]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, -0.0949999, 0.0000011, 0.1000049, 0.1049999, 0.1000049]],
+            "m_PcId": [6, 104],
+            "m_PrefabName": [12, "litecomplexcontainer"],
+            "m_Rotate": [14, [179.9994812, 27.5000038, -179.9992828]],
+            "m_Translate": [14, [1.2262883, 1.2746156, 2.7755923]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, -0.0949999, 0.0000069, 0.1000049, 0.1049999, 0.1000049]],
+            "m_PcId": [6, 106],
+            "m_PrefabName": [12, "litecomplexcontainer"],
+            "m_Rotate": [14, [179.9994812, 27.5000038, -179.9992828]],
+            "m_Translate": [14, [-0.9571011, 0.9077997, 4.0189924]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.056893, 0.0984982, -0.852353, 0.3580667, 0.1313106, 0.9157634]],
+            "m_PcId": [6, 110],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_laying_down_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0000163, 22.000822, 0.000007]],
+            "m_Translate": [14, [-0.385742, 0.2478082, 1.0094603]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
