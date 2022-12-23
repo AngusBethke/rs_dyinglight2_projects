@@ -57,6 +57,82 @@ sub materials()
 		preset(0);
 		weight(0.000000);
 	}
+	material(3)
+	{
+		name("Grass_a");
+		clr_tex("ter_base_grass_a_dif.png");
+		nrm_tex("ter_base_grass_a_nrm.png");
+		spc_tex("ter_base_grass_a_spc.png");
+		rgh_tex("ter_base_grass_a_rgh.png");
+		dpt_tex("default_dpt.dds");
+		clr2_tex("ter_base_grass_a_dif.png");
+		nrm2_tex("ter_base_grass_a_nrm.png");
+		spc2_tex("ter_base_grass_a_spc.png");
+		rgh2_tex("ter_base_grass_a_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(4)
+	{
+		name("Grass_b");
+		clr_tex("ter_detail_grass_b_dif.png");
+		nrm_tex("ter_detail_grass_b_nrm.png");
+		spc_tex("ter_detail_grass_b_spc.png");
+		rgh_tex("ter_detail_grass_b_rgh.png");
+		dpt_tex("ter_detail_grass_b_dpt.png");
+		clr2_tex("ter_detail_grass_b_dif.png");
+		nrm2_tex("ter_detail_grass_b_nrm.png");
+		spc2_tex("ter_detail_grass_b_spc.png");
+		rgh2_tex("ter_detail_grass_b_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(5)
+	{
+		name("Hex_Pave");
+		clr_tex("ter_detail_pavement_d_dif.png");
+		nrm_tex("ter_detail_pavement_d_nrm.png");
+		spc_tex("ter_detail_pavement_d_spc.png");
+		rgh_tex("ter_detail_pavement_d_rgh.png");
+		dpt_tex("ter_detail_pavement_d_dpt.png");
+		clr2_tex("ter_detail_pavement_d_dif.png");
+		nrm2_tex("ter_detail_pavement_d_nrm.png");
+		spc2_tex("ter_detail_pavement_d_spc.png");
+		rgh2_tex("ter_detail_pavement_d_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(6)
+	{
+		name("Hex_Pave_b");
+		clr_tex("ter_detail_pavement_f_dif.png");
+		nrm_tex("ter_detail_pavement_f_nrm.png");
+		spc_tex("ter_detail_pavement_f_spc.png");
+		rgh_tex("ter_detail_pavement_f_rgh.png");
+		dpt_tex("ter_detail_pavement_f_dpt.png");
+		clr2_tex("ter_detail_pavement_f_dif.png");
+		nrm2_tex("ter_detail_pavement_f_nrm.png");
+		spc2_tex("ter_detail_pavement_f_spc.png");
+		rgh2_tex("ter_detail_pavement_f_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
 }
 sub layers()
 {
@@ -72,6 +148,20 @@ sub layers()
 		name("Road");
 		mat_top(1);
 		mat_side(1);
+		param(0.500000);
+	}
+	layer(2)
+	{
+		name("Grass");
+		mat_top(4);
+		mat_side(4);
+		param(0.500000);
+	}
+	layer(3)
+	{
+		name("Hex_Pave");
+		mat_top(5);
+		mat_side(5);
 		param(0.500000);
 	}
 }
