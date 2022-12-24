@@ -1,0 +1,705 @@
+{14:20:48.559} INFO: [FileSystem] > [CZip_dir::Initialize] 'e:/steam/steamapps/common/dying light 2 / ph/source/data0.pak' took: 0.000000ms
+{14:20:48.574} INFO: [FileSystem] > [CZip_dir::Initialize] 'e:/steam/steamapps/common/dying light 2 / ph/source/data1.pak' took: 0.000000ms
+{14:20:48.576} INFO: [FileSystem] > [CZip_dir::Initialize] 'e:/steam/steamapps/common/dying light 2 / ph/source/databt.mpak' took: 0.000000ms
+{14:20:48.629} RETL: [GameApp] > Command line: -launched_from_editor  /keep_resources -ami -generateprefabs -debugconf=debugconf_temp.scr -workshop="e:/steam/steamapps/common/dying light 2\DevTools\projects\Intersection"
+{14:20:48.797} RETL: [CPUID]   > [MEM] Total Page File: 34726 MiB
+{14:20:48.798} RETL: [CPUID]   > [MEM] Total Physical:  32678 MiB
+{14:20:48.798} RETL: [CPUID]   > [MEM] Available Page File: 11627 MiB
+{14:20:48.798} RETL: [CPUID]   > [MEM] Available Physical:  17116 MiB
+{14:20:48.798} RETL: [CPUID]   > [MEM] Memory Load:  47%
+{14:20:49.291} RETL: [GAME]    > arguments (7): 'E:\Steam\steamapps\common\Dying Light 2\DevTools\bin\DyingLightGame_x64_rwdi.exe', '-launched_from_editor', '/keep_resources', '-ami', '-generateprefabs', '-debugconf=debugconf_temp.scr', '-workshop=e:/steam/steamapps/common/dying light 2\DevTools\projects\Intersection'
+{14:20:50.292} INFO: [FileSystem] > [CZip_dir::Initialize] 'e:/steam/steamapps/common/dying light 2 / ph/source/data_lang/dataen.pak' took: 0.000000ms
+{14:20:50.326} RETL: [CPUID]   > [MEM] Total Page File: 34726 MiB
+{14:20:50.326} RETL: [CPUID]   > [MEM] Total Physical:  32678 MiB
+{14:20:50.326} RETL: [CPUID]   > [MEM] Available Page File: 11434 MiB
+{14:20:50.326} RETL: [CPUID]   > [MEM] Available Physical:  16923 MiB
+{14:20:50.326} RETL: [CPUID]   > [MEM] Memory Load:  48%
+{14:20:50.341} INFO: [Renderer]   > [CVideoSettings::LoadSettings] Loading video settings using 'out/Settings/Video.scr'
+{14:20:50.357} INFO: [Renderer]   > [r_Initialize] Loaded from rd3d11_x64_rwdi.dll.
+{14:20:50.357} INFO: [Renderer]   > MonitorIdx=0, SecondaryMonitorIdx=-1
+{14:20:50.360} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:945[PluginManager] Streamline v1.1.1 - built on Fri Jul 29 07:43:20 2022 - SHA: 45d487a
+{14:20:50.360} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:355[findPlugins] Looking for plugins in E:\Steam\steamapps\common\Dying Light 2\DevTools\bin\ ...
+{14:20:50.372} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]secureloadlibrary.cpp:477[verifyEmbeddedSignature] File 'E:\Steam\steamapps\common\Dying Light 2\DevTools\bin\/sl.common.dll' is signed by NVIDIA and the signature was verified.
+{14:20:50.389} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]commoninterface.cpp:113[getGPUInfo] -----------------------------------------
+{14:20:50.389} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]commoninterface.cpp:116[getGPUInfo] NVIDIA driver 527.37
+{14:20:50.390} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]commoninterface.cpp:125[getGPUInfo] GPU 0 architecture 0x130 adapter mask 0x1
+{14:20:50.390} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]commoninterface.cpp:127[getGPUInfo] -----------------------------------------
+{14:20:50.394} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]commonentry.cpp:659[getSupportedAdapterMask] Detected Windows OS version 10.0.22621
+{14:20:50.394} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:501[mapPlugins] Loaded plugin 'sl.common' - version 1.1.1 - id 4294967295 - priority 0 - adapter mask 0xffffffff - namespace 'common'
+{14:20:50.400} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]secureloadlibrary.cpp:477[verifyEmbeddedSignature] File 'E:\Steam\steamapps\common\Dying Light 2\DevTools\bin\/sl.dlss.dll' is signed by NVIDIA and the signature was verified.
+{14:20:50.402} ERRR: [Renderer]   > [24.12.2022 14-20-50][streamline][error]pluginmanager.cpp:448[mapPlugins] Ignoring plugin 'sl.dlss' since it is not supported on this platform
+{14:20:50.407} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]secureloadlibrary.cpp:477[verifyEmbeddedSignature] File 'E:\Steam\steamapps\common\Dying Light 2\DevTools\bin\/sl.nis.dll' is signed by NVIDIA and the signature was verified.
+{14:20:50.409} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:501[mapPlugins] Loaded plugin 'sl.nis' - version 1.1.1 - id 2 - priority 1 - adapter mask 0xffffffff - namespace 'nis'
+{14:20:50.415} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]secureloadlibrary.cpp:477[verifyEmbeddedSignature] File 'E:\Steam\steamapps\common\Dying Light 2\DevTools\bin\/sl.reflex.dll' is signed by NVIDIA and the signature was verified.
+{14:20:50.417} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:501[mapPlugins] Loaded plugin 'sl.reflex' - version 1.1.1 - id 3 - priority 1 - adapter mask 0xffffffff - namespace 'reflex'
+{14:20:50.417} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:679[loadPlugins] Plugin execution order based on priority:
+{14:20:50.417} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:682[loadPlugins] P0 - sl.common
+{14:20:50.417} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:682[loadPlugins] P1 - sl.nis
+{14:20:50.417} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:682[loadPlugins] P1 - sl.reflex
+{14:20:50.417} INFO: [Renderer]   > Enumerating D3D11 video adapters:
+{14:20:50.418} INFO: [Renderer]   > Adapter 0: NVIDIA GeForce GTX 1080 Ti 11121MB/16339MB/0MB
+{14:20:50.418} INFO: [Renderer]   |   Output 0: [0,0 - 2560,1440] \\.\DISPLAY1
+{14:20:50.418} INFO: [Renderer]   |   Output 1: [2560,0 - 4480,1080] \\.\DISPLAY2
+{14:20:50.418} INFO: [Renderer]   > Adapter 1: Microsoft Basic Render Driver 0MB/16339MB/0MB
+{14:20:50.421} INFO: [Renderer]   > Sorted adapter 0: NVIDIA GeForce GTX 1080 Ti 11121MB/16339MB/0MB
+{14:20:50.421} INFO: [Renderer]   > Sorted adapter 1: Microsoft Basic Render Driver 0MB/16339MB/0MB
+{14:20:50.421} INFO: [Renderer]   > Picking adapter: NVIDIA GeForce GTX 1080 Ti
+{14:20:50.421} INFO: [Renderer]   | Primary monitor: [0,0 - 2560,1440]
+{14:20:50.421} INFO: [Renderer]   | Secondary monitor: [2560,0 - 4480,1080]
+{14:20:50.553} INFO: [Renderer]   > Renderer started in DX11 mode.
+{14:20:50.553} INFO: [Renderer]   > DX11 reported 11'121M free texture memory.
+{14:20:50.649} INFO: [Renderer]   > [d3d12rt-checker] Raytracing tier lower than D3D12_RAYTRACING_TIER_1_1.
+{14:20:50.808} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:836[initializePlugins] Initializing plugins - api 0.0.1 - application ID 101095511
+{14:20:50.808} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:109[init] GPU nodes 1 - visible node mask 1
+{14:20:50.809} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel fonts.cs:main hash 10788421720787293069
+{14:20:50.809} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]generic.cpp:377[createBuffer] Buffer (sl.chi.fontTexture), m_allocCount=1, currentSize 0.0 MB, totalSize 0.0 MB
+{14:20:50.809} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]generic.cpp:377[createBuffer] Buffer (sl.chi.dynamicText), m_allocCount=2, currentSize 0.0 MB, totalSize 0.0 MB
+{14:20:50.809} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]generic.cpp:377[createBuffer] Buffer (sl.chi.dynamicTextUpload), m_allocCount=3, currentSize 0.0 MB, totalSize 0.0 MB
+{14:20:50.809} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:751[processPluginHooks] Hook sl.common:slHookVkCreateImage:after - skipped
+{14:20:50.809} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:751[processPluginHooks] Hook sl.common:slHookVkPresent:before - skipped
+{14:20:50.809} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:751[processPluginHooks] Hook sl.common:slHookVkCmdPipelineBarrier:after - skipped
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:751[processPluginHooks] Hook sl.common:slHookVkCmdBindPipeline:after - skipped
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:751[processPluginHooks] Hook sl.common:slHookVkCmdBindDescriptorSets:after - skipped
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:751[processPluginHooks] Hook sl.common:slHookVkBeginCommandBuffer:after - skipped
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:762[processPluginHooks] Hook sl.common:slHookCreateCommittedResource:after - OK
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:762[processPluginHooks] Hook sl.common:slHookCreatePlacedResource:after - OK
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:762[processPluginHooks] Hook sl.common:slHookCreateReservedResource:after - OK
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:762[processPluginHooks] Hook sl.common:slHookResourceBarrier:after - OK
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:762[processPluginHooks] Hook sl.common:slHookResizeSwapChainPre:before - OK
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:762[processPluginHooks] Hook sl.common:slHookPresent:before - OK
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:762[processPluginHooks] Hook sl.common:slHookPresent1:before - OK
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Sharpen_V0_H0.cs:main hash 12119078810223182601
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Sharpen_V0_H1.cs:main hash 14419830676434324791
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Sharpen_V0_H2.cs:main hash 13730826108899015964
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Sharpen_V1_H0.cs:main hash 13539734034720596618
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Sharpen_V1_H1.cs:main hash 6716256702433400594
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Sharpen_V1_H2.cs:main hash 16030675145760948415
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Scaler_V0_H0.cs:main hash 11221851537279599687
+{14:20:50.810} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Scaler_V0_H1.cs:main hash 2383697960582834213
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Scaler_V0_H2.cs:main hash 1766102099082287508
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Scaler_V1_H0.cs:main hash 1990562918408001413
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Scaler_V1_H1.cs:main hash 1981919493558556299
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]d3d11.cpp:330[createKernel] Creating DXBC kernel NIS_Scaler_V1_H2.cs:main hash 10490254860623785046
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:900[mapPluginCallbacks] Callback sl.nis:slSetConstants:0x7ff81ccd11d0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:901[mapPluginCallbacks] Callback sl.nis:slGetSettings:0x0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:902[mapPluginCallbacks] Callback sl.nis:slAllocateResources:0x0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:903[mapPluginCallbacks] Callback sl.nis:slFreeResources:0x0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:730[processPluginHooks] Plugin 'sl.nis' has no registered hooks
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:900[mapPluginCallbacks] Callback sl.reflex:slSetConstants:0x7ff85c9d17b0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:901[mapPluginCallbacks] Callback sl.reflex:slGetSettings:0x7ff85c9d1bf0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:902[mapPluginCallbacks] Callback sl.reflex:slAllocateResources:0x0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:903[mapPluginCallbacks] Callback sl.reflex:slFreeResources:0x0
+{14:20:50.811} INFO: [Renderer]   > [24.12.2022 14-20-50][streamline][info]pluginmanager.cpp:730[processPluginHooks] Plugin 'sl.reflex' has no registered hooks
+{14:20:50.811} ERRR: [Renderer]   > [24.12.2022 14-20-50][streamline][error]sl.cpp:157[slIsFeatureSupported] Feature 'eFeatureDLSS' is not supported or missing
+{14:20:50.811} INFO: [Renderer]   > Renderer: supported display modes:
+{14:20:50.811} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.812} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 2560x1440, bpp:24, hz:144.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 2560x1440, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 2560x1440, bpp:24, hz:99.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 2560x1440, bpp:24, hz:84.98, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:0, 2560x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:72.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:50.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:75.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:72.19, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:60.32, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:56.25, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:75.03, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:70.07, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:75.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:50.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.813} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:75.03, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:60.02, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:59.89, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:59.95, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:50.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1768x992, bpp:24, hz:50.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:144.01, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:120.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:119.88, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:60.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:59.94, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:50.00, fmt: A8R8G8B8
+{14:20:50.814} INFO: [Renderer]   | Texture streaming mem 0 MB
+{14:20:50.814} INFO: [INFO]       > Texture streaming buffer set to 0MB
+{14:20:50.814} INFO: [INFO]       > Texture streaming lowest priority distance set to 100m
+{14:20:51.501} DEBG: [DXGI]       > WM_SIZE 0, 2560x1421
+{14:20:51.502} INFO: [INFO]       > CGame::AppWindowInit: window client area: 0x0, 2560x1421
+{14:20:51.502} DEBG: [DXGI]       > [RChangeDeviceState] 2560x1440, 1.000000, borderless, 0/0 Hz
+{14:20:51.502} DEBG: [DXGI]       >                  was 1920x1080, 1.000000, , 0/1 Hz
+{14:20:51.504} INFO: [Renderer]   > [24.12.2022 14-20-51][streamline][info]dxgiswapchain.cpp:210[SetFullscreenState] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+{14:20:51.505} DEBG: [DXGI]       > WM_SIZE 0, 0x0
+{14:20:51.507} DEBG: [DXGI]       > WM_SIZE 0, 2560x1440
+{14:20:52.484} INFO: [INFO]       > Texture streaming buffer set to 4000MB
+{14:20:52.486} INFO: [Video]      > //Video settings:
+{14:20:52.486} INFO: [Video]      > RendererMode("d3d11")
+{14:20:52.486} INFO: [Video]      > AsyncCompute(0)
+{14:20:52.486} INFO: [Video]      > WindowMode(1)
+{14:20:52.486} INFO: [Video]      > Resolution(2560,1440)
+{14:20:52.486} INFO: [Video]      > Scale3D(1.000000)
+{14:20:52.486} INFO: [Video]      > FSR(1.000000)
+{14:20:52.486} INFO: [Video]      > Upscaler(0)
+{14:20:52.486} INFO: [Video]      > Upscaling(3)
+{14:20:52.486} INFO: [Video]      > Monitor(0)
+{14:20:52.486} INFO: [Video]      > DisableDWM(0)
+{14:20:52.486} INFO: [Video]      > TextureQuality("High")
+{14:20:52.486} INFO: [Video]      > ShadowsQuality(3)
+{14:20:52.486} INFO: [Video]      > ShadowMapSize(2048)
+{14:20:52.486} INFO: [Video]      > SpotShadowMapSize(4096)
+{14:20:52.486} INFO: [Video]      > GammaFloat(0.85)
+{14:20:52.486} INFO: [Video]      > GrassQuality(0)
+{14:20:52.486} INFO: [Video]      > FrameRate(1)
+{14:20:52.486} INFO: [Video]      > Reflex(1)
+{14:20:52.486} INFO: [Video]      > MotionBlur(1)
+{14:20:52.486} INFO: [Video]      > MotionBlurIntensity(1.00)
+{14:20:52.486} INFO: [Video]      > Bokeh(1)
+{14:20:52.486} INFO: [Video]      > SSSSQuality(1)
+{14:20:52.486} INFO: [Video]      > MotionBlurQuality("High")
+{14:20:52.486} INFO: [Video]      > ChromaticAberration(1)
+{14:20:52.486} INFO: [Video]      > FilmGrain(0)
+{14:20:52.486} INFO: [Video]      > ColorGrading(0)
+{14:20:52.486} INFO: [Video]      > AntiAliasing(1)
+{14:20:52.486} INFO: [Video]      > AntiAliasingMode(0)
+{14:20:52.486} INFO: [Video]      > FogQuality(2)
+{14:20:52.486} INFO: [Video]      > ReflectionsQuality(2)
+{14:20:52.486} INFO: [Video]      > ContactShadowsQuality(4)
+{14:20:52.486} INFO: [Video]      > SpotShadowsQuality(2)
+{14:20:52.486} INFO: [Video]      > AmbientOcclusion(1)
+{14:20:52.486} INFO: [Video]      > AmbientOcclusionQuality(2)
+{14:20:52.486} INFO: [Video]      > ColorBlindMode(0)
+{14:20:52.486} INFO: [Video]      > GpuFxQuality(1)
+{14:20:52.486} INFO: [Video]      > VoxelGiQuality(3)
+{14:20:52.486} INFO: [Video]      > LodQuality(1)
+{14:20:52.486} INFO: [Video]      > LodMultiplier(100)
+{14:20:52.486} INFO: [Video]      > AnisoOptMaxAnisotropy(16)
+{14:20:52.486} INFO: [Video]      > Version(1700)
+{14:20:52.487} INFO: [ResPack]    > Free resource loading disabled
+{14:20:52.600} INFO: [ResPack]    > Acquired prefab data: 150472, 164704
+{14:20:52.601} INFO: [ResPack]    >  -> 0 prefabs, 32 presets available in engine_pc.rpack
+{14:20:53.403} INFO: [ResPack]    > Acquired prefab data: 17204128, 12722864
+{14:20:53.425} INFO: [ResPack]    >  -> 2043 prefabs, 406 presets available in common_prefabs_pc.rpack
+{14:20:53.832} INFO: [INFO]       > [Input] Keyboard 0 enumerated: intance_name = Keyboard, product_name = Keyboard, GUID = {6f1d2b61-d5a0-11cf-bfc7-444553540000}
+{14:20:53.929} INFO: [INFO]       > [CInput::SelectKeyboard] Keyboard 0 selected: Keyboard, Keyboard
+{14:20:53.937} DEBG: [DXGI]       > WM_SIZE 0, 2560x1440
+{14:20:53.944} RETL: [CPUID]   > [MEM] Total Page File: 34726 MiB
+{14:20:53.944} RETL: [CPUID]   > [MEM] Total Physical:  32678 MiB
+{14:20:53.944} RETL: [CPUID]   > [MEM] Available Page File: 7029 MiB
+{14:20:53.944} RETL: [CPUID]   > [MEM] Available Physical:  15284 MiB
+{14:20:53.944} RETL: [CPUID]   > [MEM] Memory Load:  53%
+{14:20:56.144} INFO: [INFO]       > [gpufx] preloaded 1172 sequences. It took 1727.911133 ms
+{14:20:56.145} RETL: [Game]    > game version: '0.0.99', '1.0.202212211635'
+{14:20:56.286} RETL: [CPUID]   > Computer Info: Manufacturer: ASUS, Model: System Product Name
+{14:21:01.328} RETL: [Game]    > Stage = 'InitialScreen' (prev value 'Intro')
+{14:21:01.328} RETL: [Game]    > Stage = 'InitialScreen_SigningIn' (prev value 'InitialScreen')
+{14:21:01.364} RETL: [Game]    > Stage = 'InitialScreen_SigningInFinished' (prev value 'InitialScreen_SigningIn')
+{14:21:01.364} RETL: [Game]    > Stage = 'InitialScreen_SignedIn' (prev value 'InitialScreen_SigningInFinished')
+{14:21:01.379} RETL: [Game]    > Stage = 'InitialScreen_Complete' (prev value 'InitialScreen_SignedIn')
+{14:21:01.911} RETL: [Lobby.Storage.Steam] > [AddSavegamesToCache] save_main_0.sav added
+{14:21:01.911} RETL: [Lobby.Storage.Steam] > [AddSavegamesToCache] save_main_0_chp000.sbk added
+{14:21:01.911} RETL: [Lobby.Storage.Steam] > [AddSavegamesToCache] save_main_1.sav added
+{14:21:01.911} RETL: [Savegame]            > ScanForSavegames: saves 3 (prev value -1)
+{14:21:01.914} RETL: [Game]                > Stage = 'Complete' (prev value 'InitialScreen_Complete')
+{14:21:01.914} RETL: [Game]                > ===== CreateSession ===== 
+{14:21:02.048} RETL: [Savegame]            > SessionContextState: 'OnCreate' [game_type 'Campaign', game_mode 'Coop', save_name '' (slot -1), map 'intersection' (id:-9864543), (first), difficulty [current: Normal, savegame: Normal, min_savegame: Normal, initial: Normal, lobby_settings: Normal], save_version 85, build: '1.0.202212211635 / 2', perforce_stream: '//tech/rel-ph-devtools']
+{14:21:02.450} INFO: [Video]      > //Video settings:
+{14:21:02.450} INFO: [Video]      > RendererMode("d3d11")
+{14:21:02.450} INFO: [Video]      > AsyncCompute(0)
+{14:21:02.450} INFO: [Video]      > WindowMode(1)
+{14:21:02.450} INFO: [Video]      > Resolution(2560,1440)
+{14:21:02.450} INFO: [Video]      > Scale3D(1.000000)
+{14:21:02.450} INFO: [Video]      > FSR(1.000000)
+{14:21:02.450} INFO: [Video]      > Upscaler(0)
+{14:21:02.450} INFO: [Video]      > Upscaling(3)
+{14:21:02.450} INFO: [Video]      > Monitor(0)
+{14:21:02.450} INFO: [Video]      > DisableDWM(0)
+{14:21:02.450} INFO: [Video]      > TextureQuality("High")
+{14:21:02.450} INFO: [Video]      > ShadowsQuality(3)
+{14:21:02.450} INFO: [Video]      > ShadowMapSize(2048)
+{14:21:02.450} INFO: [Video]      > SpotShadowMapSize(4096)
+{14:21:02.450} INFO: [Video]      > GammaFloat(0.85)
+{14:21:02.450} INFO: [Video]      > GrassQuality(0)
+{14:21:02.450} INFO: [Video]      > FrameRate(1)
+{14:21:02.450} INFO: [Video]      > Reflex(1)
+{14:21:02.450} INFO: [Video]      > MotionBlur(1)
+{14:21:02.450} INFO: [Video]      > MotionBlurIntensity(1.00)
+{14:21:02.450} INFO: [Video]      > Bokeh(1)
+{14:21:02.450} INFO: [Video]      > SSSSQuality(1)
+{14:21:02.450} INFO: [Video]      > MotionBlurQuality("High")
+{14:21:02.450} INFO: [Video]      > ChromaticAberration(1)
+{14:21:02.450} INFO: [Video]      > FilmGrain(0)
+{14:21:02.450} INFO: [Video]      > ColorGrading(0)
+{14:21:02.450} INFO: [Video]      > AntiAliasing(1)
+{14:21:02.450} INFO: [Video]      > AntiAliasingMode(0)
+{14:21:02.450} INFO: [Video]      > FogQuality(2)
+{14:21:02.450} INFO: [Video]      > ReflectionsQuality(2)
+{14:21:02.450} INFO: [Video]      > ContactShadowsQuality(4)
+{14:21:02.450} INFO: [Video]      > SpotShadowsQuality(2)
+{14:21:02.450} INFO: [Video]      > AmbientOcclusion(1)
+{14:21:02.450} INFO: [Video]      > AmbientOcclusionQuality(2)
+{14:21:02.450} INFO: [Video]      > ColorBlindMode(0)
+{14:21:02.450} INFO: [Video]      > GpuFxQuality(1)
+{14:21:02.450} INFO: [Video]      > VoxelGiQuality(3)
+{14:21:02.450} INFO: [Video]      > LodQuality(1)
+{14:21:02.450} INFO: [Video]      > LodMultiplier(100)
+{14:21:02.450} INFO: [Video]      > AnisoOptMaxAnisotropy(16)
+{14:21:02.450} INFO: [Video]      > Version(1700)
+{14:21:02.514} INFO: [Video]      > //Video settings:
+{14:21:02.514} INFO: [Video]      > RendererMode("d3d11")
+{14:21:02.514} INFO: [Video]      > AsyncCompute(0)
+{14:21:02.514} INFO: [Video]      > WindowMode(1)
+{14:21:02.514} INFO: [Video]      > Resolution(2560,1440)
+{14:21:02.514} INFO: [Video]      > Scale3D(1.000000)
+{14:21:02.514} INFO: [Video]      > FSR(1.000000)
+{14:21:02.514} INFO: [Video]      > Upscaler(0)
+{14:21:02.514} INFO: [Video]      > Upscaling(3)
+{14:21:02.514} INFO: [Video]      > Monitor(0)
+{14:21:02.514} INFO: [Video]      > DisableDWM(0)
+{14:21:02.514} INFO: [Video]      > TextureQuality("High")
+{14:21:02.514} INFO: [Video]      > ShadowsQuality(3)
+{14:21:02.514} INFO: [Video]      > ShadowMapSize(2048)
+{14:21:02.514} INFO: [Video]      > SpotShadowMapSize(4096)
+{14:21:02.514} INFO: [Video]      > GammaFloat(0.85)
+{14:21:02.514} INFO: [Video]      > GrassQuality(0)
+{14:21:02.514} INFO: [Video]      > FrameRate(1)
+{14:21:02.514} INFO: [Video]      > Reflex(1)
+{14:21:02.514} INFO: [Video]      > MotionBlur(1)
+{14:21:02.514} INFO: [Video]      > MotionBlurIntensity(1.00)
+{14:21:02.514} INFO: [Video]      > Bokeh(1)
+{14:21:02.514} INFO: [Video]      > SSSSQuality(1)
+{14:21:02.514} INFO: [Video]      > MotionBlurQuality("High")
+{14:21:02.514} INFO: [Video]      > ChromaticAberration(1)
+{14:21:02.514} INFO: [Video]      > FilmGrain(0)
+{14:21:02.514} INFO: [Video]      > ColorGrading(0)
+{14:21:02.514} INFO: [Video]      > AntiAliasing(1)
+{14:21:02.514} INFO: [Video]      > AntiAliasingMode(0)
+{14:21:02.514} INFO: [Video]      > FogQuality(2)
+{14:21:02.514} INFO: [Video]      > ReflectionsQuality(2)
+{14:21:02.514} INFO: [Video]      > ContactShadowsQuality(4)
+{14:21:02.514} INFO: [Video]      > SpotShadowsQuality(2)
+{14:21:02.514} INFO: [Video]      > AmbientOcclusion(1)
+{14:21:02.514} INFO: [Video]      > AmbientOcclusionQuality(2)
+{14:21:02.514} INFO: [Video]      > ColorBlindMode(0)
+{14:21:02.514} INFO: [Video]      > GpuFxQuality(1)
+{14:21:02.514} INFO: [Video]      > VoxelGiQuality(3)
+{14:21:02.514} INFO: [Video]      > LodQuality(1)
+{14:21:02.514} INFO: [Video]      > LodMultiplier(100)
+{14:21:02.514} INFO: [Video]      > AnisoOptMaxAnisotropy(16)
+{14:21:02.514} INFO: [Video]      > Version(1700)
+{14:21:05.388} RETL: [Game]                > >>>>> <1334533539> Changing level from <> to <intersection>
+{14:21:07.477} INFO: [AssetMgr]   > Asset out of date 'maps/intersection/build/intersection_satellite_texture_0_dif.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_0_dif.dds`: `2022-12-24 14:20:27:583` is newer than distributed file `2022-12-22 18:18:25:876`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_0_dif.dds`: `2022-12-24 14:20:27:583` is newer than distributed file `2022-12-22 18:18:25:876`
+{14:21:07.510} RETL: [CPUID]               > [MEM] Total Page File: 34726 MiB
+{14:21:07.510} RETL: [CPUID]               > [MEM] Total Physical:  32678 MiB
+{14:21:07.510} RETL: [CPUID]               > [MEM] Available Page File: 5287 MiB
+{14:21:07.510} RETL: [CPUID]               > [MEM] Available Physical:  12068 MiB
+{14:21:07.510} RETL: [CPUID]               > [MEM] Memory Load:  63%
+{14:21:07.528} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_0_dif.dds' succeeded!
+{14:21:07.540} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_0_nrm.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_0_nrm.dds`: `2022-12-24 14:20:28:332` is newer than distributed file `2022-12-22 18:18:26:596`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_0_nrm.dds`: `2022-12-24 14:20:28:332` is newer than distributed file `2022-12-22 18:18:26:596`
+{14:21:07.570} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_0_nrm.dds' succeeded!
+{14:21:07.582} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_0_spc.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_0_spc.dds`: `2022-12-24 14:20:29:064` is newer than distributed file `2022-12-22 18:18:27:294`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_0_spc.dds`: `2022-12-24 14:20:29:064` is newer than distributed file `2022-12-22 18:18:27:294`
+{14:21:07.607} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_0_spc.dds' succeeded!
+{14:21:07.616} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_0_rgh.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_0_rgh.dds`: `2022-12-24 14:20:29:758` is newer than distributed file `2022-12-22 18:18:27:962`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_0_rgh.dds`: `2022-12-24 14:20:29:758` is newer than distributed file `2022-12-22 18:18:27:962`
+{14:21:07.643} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_0_rgh.dds' succeeded!
+{14:21:07.658} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_2_dif.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_2_dif.dds`: `2022-12-24 14:20:27:936` is newer than distributed file `2022-12-22 18:18:26:209`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_2_dif.dds`: `2022-12-24 14:20:27:936` is newer than distributed file `2022-12-22 18:18:26:209`
+{14:21:07.685} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_2_dif.dds' succeeded!
+{14:21:07.696} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_2_nrm.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_2_nrm.dds`: `2022-12-24 14:20:28:659` is newer than distributed file `2022-12-22 18:18:26:905`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_2_nrm.dds`: `2022-12-24 14:20:28:659` is newer than distributed file `2022-12-22 18:18:26:905`
+{14:21:07.723} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_2_nrm.dds' succeeded!
+{14:21:07.733} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_2_spc.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_2_spc.dds`: `2022-12-24 14:20:29:409` is newer than distributed file `2022-12-22 18:18:27:625`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_2_spc.dds`: `2022-12-24 14:20:29:409` is newer than distributed file `2022-12-22 18:18:27:625`
+{14:21:07.760} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_2_spc.dds' succeeded!
+{14:21:07.772} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_2_rgh.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_2_rgh.dds`: `2022-12-24 14:20:30:106` is newer than distributed file `2022-12-22 18:18:28:295`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_2_rgh.dds`: `2022-12-24 14:20:30:106` is newer than distributed file `2022-12-22 18:18:28:295`
+{14:21:07.799} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_2_rgh.dds' succeeded!
+{14:21:07.840} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_1_dif.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_1_dif.dds`: `2022-12-24 14:20:27:761` is newer than distributed file `2022-12-22 18:18:26:046`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_1_dif.dds`: `2022-12-24 14:20:27:761` is newer than distributed file `2022-12-22 18:18:26:046`
+{14:21:07.865} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_1_dif.dds' succeeded!
+{14:21:07.876} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_1_nrm.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_1_nrm.dds`: `2022-12-24 14:20:28:496` is newer than distributed file `2022-12-22 18:18:26:750`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_1_nrm.dds`: `2022-12-24 14:20:28:496` is newer than distributed file `2022-12-22 18:18:26:750`
+{14:21:07.905} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_1_nrm.dds' succeeded!
+{14:21:07.914} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_1_spc.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_1_spc.dds`: `2022-12-24 14:20:29:237` is newer than distributed file `2022-12-22 18:18:27:459`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_1_spc.dds`: `2022-12-24 14:20:29:237` is newer than distributed file `2022-12-22 18:18:27:459`
+{14:21:07.940} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_1_spc.dds' succeeded!
+{14:21:07.950} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_1_rgh.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_1_rgh.dds`: `2022-12-24 14:20:29:933` is newer than distributed file `2022-12-22 18:18:28:130`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_1_rgh.dds`: `2022-12-24 14:20:29:933` is newer than distributed file `2022-12-22 18:18:28:130`
+{14:21:07.977} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_1_rgh.dds' succeeded!
+{14:21:08.004} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_3_dif.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_3_dif.dds`: `2022-12-24 14:20:28:112` is newer than distributed file `2022-12-22 18:18:26:377`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_3_dif.dds`: `2022-12-24 14:20:28:112` is newer than distributed file `2022-12-22 18:18:26:377`
+{14:21:08.031} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_3_dif.dds' succeeded!
+{14:21:08.039} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_3_nrm.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_3_nrm.dds`: `2022-12-24 14:20:28:822` is newer than distributed file `2022-12-22 18:18:27:060`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_3_nrm.dds`: `2022-12-24 14:20:28:822` is newer than distributed file `2022-12-22 18:18:27:060`
+{14:21:08.070} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_3_nrm.dds' succeeded!
+{14:21:08.083} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_3_spc.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_3_spc.dds`: `2022-12-24 14:20:29:587` is newer than distributed file `2022-12-22 18:18:27:794`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_3_spc.dds`: `2022-12-24 14:20:29:587` is newer than distributed file `2022-12-22 18:18:27:794`
+{14:21:08.110} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_3_spc.dds' succeeded!
+{14:21:08.122} INFO: [AssetMgr]     > Asset out of date 'maps/intersection/build/intersection_satellite_texture_3_rgh.dds' reason: Local source file `maps/intersection/build/intersection_satellite_texture_3_rgh.dds`: `2022-12-24 14:20:30:280` is newer than distributed file `2022-12-22 18:18:28:462`(DependentFileTimeStampDifferent) Local source file `maps/intersection/build/intersection_satellite_texture_3_rgh.dds`: `2022-12-24 14:20:30:280` is newer than distributed file `2022-12-22 18:18:28:462`
+{14:21:08.149} INFO: [All_AssetMgr] > Building asset 'maps/intersection/build/intersection_satellite_texture_3_rgh.dds' succeeded!
+{14:21:08.668} RETL: [Savegame]            > SessionContextState: 'OnUpdate after ChangeMap' [game_type 'Campaign', game_mode 'Coop', save_name '' (slot -1), map 'intersection' (id:-9864543), (first), difficulty [current: Normal, savegame: Normal, min_savegame: Normal, initial: Normal, lobby_settings: Normal], save_version 85, build: '1.0.202212211635 / 2', perforce_stream: '//tech/rel-ph-devtools']
+{14:21:49.234} INFO: [INFO]         > ---------------------------------------------------------
+{14:21:49.234} INFO: [INFO]         > Time of playing game: 59.950073s
+{14:21:49.234} INFO: [INFO]         > Updated frames: 2771 Rendered frames: 2333
+{14:21:49.234} INFO: [INFO]         > Average FPS: 38.915714
+{14:21:49.234} INFO: [INFO]         > ---------------------------------------------------------
+{14:21:49.695} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]dxgiswapchain.cpp:210[SetFullscreenState] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+{14:21:49.696} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]pluginmanager.cpp:691[unloadPlugins] Unloading all plugins ...
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Sharpen_V0_H2.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Sharpen_V0_H0.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Sharpen_V0_H1.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Sharpen_V1_H2.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Sharpen_V1_H0.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Sharpen_V1_H1.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Scaler_V0_H2.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Scaler_V0_H0.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Scaler_V0_H1.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Scaler_V1_H0.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Scaler_V1_H1.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:361[destroyKernel] Destroying kernel NIS_Scaler_V1_H2.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:231[shutdown] Destroying kernel fonts.cs
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]generic.cpp:465[destroyResource] Scheduled to destroy 0x15c8b86b130(sl.chi.fontTexture) - frame 4361
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]generic.cpp:465[destroyResource] Scheduled to destroy 0x15c8b86ae30(sl.chi.dynamicText) - frame 4361
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]generic.cpp:465[destroyResource] Scheduled to destroy 0x15c8b8696b0(sl.chi.dynamicTextUpload) - frame 4361
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]generic.cpp:520[collectGarbage] Destroying 0x15c8b86b130(sl.chi.fontTexture) - scheduled at frame 4361 - finished frame 4361 - forced yes
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:1298[destroyResourceDeferredImpl] Releasing resource 0x15c8b86b130 (sl.chi.fontTexture) ref count 3 - currentSize 0.00 - totalSize 0.03
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]generic.cpp:520[collectGarbage] Destroying 0x15c8b86ae30(sl.chi.dynamicText) - scheduled at frame 4361 - finished frame 4361 - forced yes
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:1298[destroyResourceDeferredImpl] Releasing resource 0x15c8b86ae30 (sl.chi.dynamicText) ref count 3 - currentSize 0.02 - totalSize 0.02
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]generic.cpp:520[collectGarbage] Destroying 0x15c8b8696b0(sl.chi.dynamicTextUpload) - scheduled at frame 4361 - finished frame 4361 - forced yes
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]d3d11.cpp:1298[destroyResourceDeferredImpl] Releasing resource 0x15c8b8696b0 (sl.chi.dynamicTextUpload) ref count 3 - currentSize 0.02 - totalSize 0.00
+{14:21:49.697} INFO: [Renderer]     > [24.12.2022 14-21-49][streamline][info]generic.cpp:267[shutdown] Delayed destroy resource list count 0
+{14:21:50.099} INFO: [Renderer]     > [r_Shutdown] Dll released
