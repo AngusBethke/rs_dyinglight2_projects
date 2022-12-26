@@ -1,0 +1,75 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_Scale": [14, [46.6480445, 1.0, 21.6389999]],
+            "m_Translate": [14, [20.7922382, -9.999999974752428e-7, 18.4283294]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "10",
+            "m_PointsSource": "12",
+            "m_Preset": "Character;Biter"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_2",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.4999999, 0.5, 0.5]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_Scale": [14, [87.6949005, 1.0, 68.0014419]],
+            "m_Translate": [14, [-46.759056, -9.999999974752428e-7, 41.6095504]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "20",
+            "m_PointsSource": "12",
+            "m_Preset": "Character;Biter"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_2",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.4999999]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_Scale": [14, [107.1460189, 23.0996131, 58.5051498]],
+            "m_Translate": [14, [25.966814, 0.0000019, -60.0378799]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "30",
+            "m_PointsSource": "12",
+            "m_Preset": "Character;Biter"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_2",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
