@@ -52,6 +52,50 @@
           "Fields": {
             "SkinName": ""
           }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5000001, 0.0, 0.5, 0.5000001, 0.5000001]],
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [15.4976882, 5.3725218, 17.4628276]],
+            "m_Translate": [14, [-8.9650382, 13.7455911, -9.6052789]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "3",
+            "m_PointsSource": "12",
+            "m_Preset": "Character;Biter"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_2",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.4999999, 0.5, 0.5]],
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [15.4976854, 5.3725209, 17.4628238]],
+            "m_Translate": [14, [-8.9650382, 4.8429055, -9.605277]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "6",
+            "m_PointsSource": "12",
+            "m_Preset": "Character;Biter_Resting"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_2",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
         }
       ]
     },

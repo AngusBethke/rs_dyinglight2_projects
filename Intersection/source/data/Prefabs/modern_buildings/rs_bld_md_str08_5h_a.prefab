@@ -6,7 +6,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [6.4680781, 2.8799996, -4.3571162, 7.9099726, 2.8800005, 6.8848261]],
+            "m_EntityComponentsExtents": [69, [6.4680786, 2.8799993, -4.3571162, 7.9099731, 2.8800003, 6.8848261]],
             "m_PcId": [6, 63],
             "m_PrefabName": [12, "storey_outline"],
             "m_Rotate": [14, [-0.0000173, 0.0, 0.0000173]],
@@ -20,7 +20,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [6.4677729, 7.9199995, -4.3920288, 7.9096674, 7.9199995, 6.8920288]],
+            "m_EntityComponentsExtents": [69, [6.4677734, 7.92, -4.3920288, 7.9096679, 7.92, 6.8920288]],
             "m_PcId": [6, 141],
             "m_PrefabName": [12, "storey_outline"],
             "m_Translate": [14, [-14.4350585, 4.831942, -6.1759028]]
@@ -57,10 +57,31 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 215],
             "m_PrefabName": [12, "rs_bld_md_str08_5h_a_btm"],
-            "m_Translate": [14, [0.0003582, 0.000118, 0.0004307]]
+            "m_Translate": [14, [0.0003581, 0.000118, 0.0004306]]
           },
           "Fields": {
             "m_CollisionFlags": "2059"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
+            "m_PcId": [6, 216],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_Scale": [14, [15.4574956, 2.290342, 13.5597915]],
+            "m_Translate": [14, [-7.9481544, 20.1968193, -10.5577049]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "3",
+            "m_PointsSource": "12",
+            "m_Preset": "Character;Biter"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_2",
+            "DestinationField": "m_DifficultyRangeSource"
           }
         }
       ]

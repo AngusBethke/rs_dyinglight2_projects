@@ -1,3 +1,876 @@
 <!-- CEPGenerateLightProbes::Process main loop --> 
 <!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=0 --> 
 <!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::SpawnWorldAround spawning LOD0: o=[-127.673019; 61.491802] s=[3.895004; 2.919998]; LOD1: o=[-127.673019; 61.491802] s=[202.895004; 201.919998], region=-1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=1 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=2 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=3 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=4 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=5 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=6 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=7 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=8 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=9 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=10 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=11 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=12 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=13 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=14 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD345E1B32AB1805 num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34501B32AB003B num_samples=12 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD34471B32AAF0F0 num_samples=40 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteGrid guid=BD37E61B32AE34F4 num_samples=30 door_variant=0 --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM' --> 
+<!-- CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs' --> 
+<!-- CShCoeffsManager::DumpCoeffs slots_to_dump=94 --> 
+<!-- CEPGenerateLightProbes::Envp_ExecuteBounce sync --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD345E1B32AB1805 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34501B32AB003B preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD34471B32AAF0F0 preparing OUT_DATA --> 
+<!-- CGridsToUpdate::SGrid::Sync guid=BD37E61B32AE34F4 preparing OUT_DATA --> 
+<!-- CEPGenerateLightProbes::Process main loop --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=0 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=1 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=2 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=3 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=4 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=5 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=6 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=7 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=8 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=9 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=10 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=11 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=12 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=13 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteLightingPreset lighting_preset_id=14 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD345E1B32AB1805  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34501B32AB003B  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD34471B32AAF0F0  --> 
+<!-- CEPGenerateLightProbes::Refl_ExecuteGrid guid=BD37E61B32AE34F4  --> 
+<!-- CEPGenerateLightProbes::Process main loop --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=0 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=1 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=2 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=3 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=4 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=5 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=6 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=7 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=8 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=9 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=10 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=11 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=12 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=13 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+<!-- CEPGenerateLightProbes::CMap_ExecuteLightingPreset lighting_preset_id=14 --> 
+<!-- CEPGenerateLightProbes::UpdateWeather setting weather --> 
+  <node tag="CEPGenerateLightProbes::Process main loop" execution_time="26.865906">
+   <node tag="CEPGenerateLightProbes::Envp_ExecuteLightingPreset lighting_preset_id=0" execution_time="26.858706">
+     <node tag="CEPGenerateLightProbes::UpdateWeather setting weather" execution_time="4.193566"></node>
+     <node tag="CEPGenerateLightProbes::Envp_ExecuteBounce bounce=0" execution_time="20.118048">
+       <node tag="CEPGenerateLightProbes::SpawnWorldAround spawning LOD0: o=[75.724190; -58.487434] s=[2.919998; 2.920002]; LOD1: o=[75.724190; -58.487434] s=[201.919998; 201.919998], region=-1" execution_time="0.001095"></node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C484EBA17CFEE2 num_samples=8 door_variant=0" execution_time="1.417572">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000039"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C0E4EBA179B92B num_samples=8 door_variant=0" execution_time="1.106701">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000014"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C049EBA178B1CA num_samples=8 door_variant=0" execution_time="1.010814">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D2AE96B48EEB4B num_samples=40 door_variant=0" execution_time="5.223061">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000019"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D30896B48F8439 num_samples=12 door_variant=0" execution_time="1.633548">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D30596B48F7F20 num_samples=16 door_variant=0" execution_time="2.064881">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D38796B4905C06 num_samples=8 door_variant=0" execution_time="1.024900">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000016"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D64B96B4922BE9 num_samples=30 door_variant=0" execution_time="3.940722">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000037"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D64A96B4922A36 num_samples=8 door_variant=0" execution_time="1.017849">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000032"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0CBF696B48946F5 num_samples=12 door_variant=0" execution_time="1.570062">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000017"></node>
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs'" execution_time="0.000059"></node>
+         <node tag="CShCoeffsManager::DumpCoeffs slots_to_dump=150" execution_time="0.042232"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteBounce sync" execution_time="0.000048"></node>
+     </node>
+     <node tag="CEPGenerateLightProbes::Envp_ExecuteBounce bounce=1" execution_time="1.292381">
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C484EBA17CFEE2 num_samples=8 door_variant=0" execution_time="0.076904">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000030"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C0E4EBA179B92B num_samples=8 door_variant=0" execution_time="0.074383">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000018"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C049EBA178B1CA num_samples=8 door_variant=0" execution_time="0.069631">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D2AE96B48EEB4B num_samples=40 door_variant=0" execution_time="0.329394">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000016"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D30896B48F8439 num_samples=12 door_variant=0" execution_time="0.099002">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000016"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D30596B48F7F20 num_samples=16 door_variant=0" execution_time="0.126797">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000017"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D38796B4905C06 num_samples=8 door_variant=0" execution_time="0.062920">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000022"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D64B96B4922BE9 num_samples=30 door_variant=0" execution_time="0.234970">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000030"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D64A96B4922A36 num_samples=8 door_variant=0" execution_time="0.067079">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000024"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0CBF696B48946F5 num_samples=12 door_variant=0" execution_time="0.113289">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs'" execution_time="0.000081"></node>
+         <node tag="CShCoeffsManager::DumpCoeffs slots_to_dump=150" execution_time="0.018753"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteBounce sync" execution_time="0.000053"></node>
+     </node>
+     <node tag="CEPGenerateLightProbes::Envp_ExecuteBounce bounce=2" execution_time="1.254658">
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C484EBA17CFEE2 num_samples=8 door_variant=0" execution_time="0.067026">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000025"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C0E4EBA179B92B num_samples=8 door_variant=0" execution_time="0.066417">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000016"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=67C049EBA178B1CA num_samples=8 door_variant=0" execution_time="0.062650">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D2AE96B48EEB4B num_samples=40 door_variant=0" execution_time="0.314779">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D30896B48F8439 num_samples=12 door_variant=0" execution_time="0.098382">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000016"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D30596B48F7F20 num_samples=16 door_variant=0" execution_time="0.128382">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D38796B4905C06 num_samples=8 door_variant=0" execution_time="0.063365">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000016"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D64B96B4922BE9 num_samples=30 door_variant=0" execution_time="0.236153">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000025"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0D64A96B4922A36 num_samples=8 door_variant=0" execution_time="0.066680">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000025"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteGrid guid=B0CBF696B48946F5 num_samples=12 door_variant=0" execution_time="0.112860">
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () generating HSM'" execution_time="0.000015"></node>
+         <node tag="CEPGenerateLightProbes::Envp_GenSHEMapConstantsGpu::<lambda_1>::operator () triggered='i_envprobe_calc_shcoeffs'" execution_time="0.000075"></node>
+         <node tag="CShCoeffsManager::DumpCoeffs slots_to_dump=150" execution_time="0.018740"></node>
+       </node>
+       <node tag="CEPGenerateLightProbes::Envp_ExecuteBounce sync" execution_time="0.000158">
+         <node tag="CGridsToUpdate::SGrid::Sync guid=67C484EBA17CFEE2 preparing OUT_DATA" execution_time="0.000013"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=67C0E4EBA179B92B preparing OUT_DATA" execution_time="0.000011"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=67C049EBA178B1CA preparing OUT_DATA" execution_time="0.000010"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=B0D2AE96B48EEB4B preparing OUT_DATA" execution_time="0.000010"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=B0D30896B48F8439 preparing OUT_DATA" execution_time="0.000010"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=B0D30596B48F7F20 preparing OUT_DATA" execution_time="0.000010"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=B0D38796B4905C06 preparing OUT_DATA" execution_time="0.000010"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=B0D64B96B4922BE9 preparing OUT_DATA" execution_time="0.000010"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=B0D64A96B4922A36 preparing OUT_DATA" execution_time="0.000009"></node>
+         <node tag="CGridsToUpdate::SGrid::Sync guid=B0CBF696B48946F5 preparing OUT_DATA" execution_time="0.000012"></node>
+       </node>
+     </node>
+   </node>
+  </node>
