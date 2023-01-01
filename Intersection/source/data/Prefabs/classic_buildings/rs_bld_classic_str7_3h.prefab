@@ -106,6 +106,28 @@
             "m_PrefabName": [12, "rs_bld_classic_str7_mid_c"],
             "m_Translate": [14, [0.0, 8.6400003, 0.0]]
           }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5000001, 0.0, 0.5, 0.5000001, 0.5]],
+            "m_PcId": [6, 160],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_Rotate": [14, [179.9999847, -1.0895553970158289e-7, 179.9999847]],
+            "m_Scale": [14, [13.6633529, 1.7109011, 17.4112148]],
+            "m_Translate": [14, [-7.1706542, 4.8091583, -8.6861686]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "5",
+            "m_PointsSource": "12",
+            "m_Preset": "Character;Biter_Resting"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_2",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
         }
       ]
     },

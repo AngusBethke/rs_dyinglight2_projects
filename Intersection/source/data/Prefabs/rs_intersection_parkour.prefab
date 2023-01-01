@@ -1,0 +1,994 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_ropebridge_sml"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999989, 0.9999988, 0.9999976]],
+            "m_Translate": [14, [249.5566406, 10.3908767, 191.3088073]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_ropebridge_lrg"],
+            "m_Rotate": [14, [-0.0, -15.0000038, -0.0]],
+            "m_Scale": [14, [0.9999989, 0.9999988, 0.9999979]],
+            "m_Translate": [14, [185.3004455, 10.2454338, 229.8150634]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_bdp_connector_pole_bridges_start_a"],
+            "m_Rotate": [14, [179.9999847, 30.0, 179.9999847]],
+            "m_Scale": [14, [0.9999976, 0.9999976, 0.9999976]],
+            "m_Translate": [14, [238.3992156, 12.4068145, 162.4354858]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_generic_amortizer_01"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000218]],
+            "m_Scale": [14, [0.9999976, 0.9999988, 0.9999988]],
+            "m_Seed": [6, 1234455826],
+            "m_Translate": [14, [143.5347137, -3.6002469, 177.1362915]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bdp_connector_amortizer_ramp_start_randomizer"],
+            "m_Rotate": [14, [0.000022, 29.9999809, -0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999988, 0.9999979]],
+            "m_Seed": [6, 1234455826],
+            "m_Translate": [14, [139.2908325, 30.4819049, 170.5591888]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_roofs_connector_dummybridge_20m"],
+            "m_Rotate": [14, [0.0, -2.4999957, 0.0000218]],
+            "m_Scale": [14, [0.9999976, 0.9999988, 0.9999986]],
+            "m_Translate": [14, [121.6455307, 13.7752704, 243.6881561]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [0.0000312, 45.0000076, -0.0000446]],
+            "m_Scale": [14, [0.9999976, 0.9999986, 0.9999976]],
+            "m_Translate": [14, [281.5293884, 18.0438518, 147.4836578]]
+          },
+          "Fields": {
+            "m_EditorHookPoint": "0.000000 0.000000 0.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000145, 179.9999847]],
+            "m_Scale": [14, [0.9999976, 0.9999986, 0.9999976]],
+            "m_Translate": [14, [142.5934295, 10.108242, 251.4311065]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "rs_ropebridge_med"],
+            "m_Rotate": [14, [-0.0, -45.0000038, -0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999986, 0.9999976]],
+            "m_Translate": [14, [100.7296905, 14.0452575, 258.6851806]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 31],
+            "m_PrefabName": [12, "rs_ropebridge_ext_start"],
+            "m_Rotate": [14, [-180.0, 45.0, -180.0]],
+            "m_Translate": [14, [95.3927154, 13.383543, 253.4376831]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "rs_ropebridge_ext_start"],
+            "m_Rotate": [14, [179.9999847, 30.0000038, 179.9999847]],
+            "m_Translate": [14, [244.4841003, 9.6931552, 188.3727569]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "rs_bdp_connector_pole_bridges_start_a"],
+            "m_Rotate": [14, [179.9999694, 0.0000016, 179.9999847]],
+            "m_Scale": [14, [0.9999976, 0.9999976, 0.9999976]],
+            "m_Translate": [14, [241.6660156, 17.1682262, 181.9956665]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "rs_ropebridge_ext_start"],
+            "m_Rotate": [14, [-0.0000282, -14.999998, 0.0000199]],
+            "m_Translate": [14, [216.5946807, 9.5582027, 238.0150299]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "rs_ropebridge_sml"],
+            "m_Rotate": [14, [-180.0, -60.0000038, -180.0]],
+            "m_Scale": [14, [0.9999989, 0.9999986, 0.9999979]],
+            "m_Translate": [14, [168.0437011, 10.2920303, 230.681549]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "rs_ropebridge_lrg"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999989, 0.9999986, 0.9999976]],
+            "m_Translate": [14, [269.2256164, 12.7836265, 162.1748809]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-2.8549294, 1.3467922, 0.2886943, 4.3996038, 1.5369029, 3.6111922]],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_02_b"],
+            "m_Rotate": [14, [-0.0, 15.0000019, -0.0]],
+            "m_Translate": [14, [268.1868286, 10.3876323, 193.4787445]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "rs_bdp_connector_fast_line_a"],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999979]],
+            "m_Translate": [14, [206.6633911, 4.5746622, 151.2070007]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 40],
+            "m_PrefabName": [12, "rs_bdp_connector_fast_line_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [87.6498565, 4.3744421, 232.5063934]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "rs_ropebridge_med"],
+            "m_Rotate": [14, [-0.0, 59.9999694, -0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999986, 0.9999982]],
+            "m_Translate": [14, [178.186203, 10.2223196, 217.9692535]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "rs_zipline_a"],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999982]],
+            "m_Translate": [14, [165.0838928, 18.3357677, 163.9825134]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "rs_zipline_b"],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999979]],
+            "m_Translate": [14, [186.3672637, 18.3357696, 147.0955963]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 73],
+            "m_PrefabName": [12, "rs_hanging_wall_wooden"],
+            "m_Rotate": [14, [-0.0, 25.9999732, -0.0]],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999985]],
+            "m_Translate": [14, [185.7764739, 11.401287, 192.9509277]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 74],
+            "m_PrefabName": [12, "rs_hanging_wall_wooden"],
+            "m_Rotate": [14, [-0.0, 34.4999771, -0.0]],
+            "m_Scale": [14, [0.9999989, 0.9999992, 0.9999985]],
+            "m_Translate": [14, [179.4794311, 12.0102224, 181.5567474]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 88],
+            "m_PrefabName": [12, "rs_crane_parkour"],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999982]],
+            "m_Translate": [14, [182.4057006, 26.6282901, 184.589035]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0055392, -3.5275011, 0.3967999, 0.5004028, 4.1313505, 0.5625044]],
+            "m_PcId": [6, 89],
+            "m_PrefabName": [12, "unlockable_ladder"],
+            "m_Rotate": [14, [179.9999847, -29.9999752, 179.9999847]],
+            "m_Scale": [14, [0.9999988, 0.9999991, 0.9999982]],
+            "m_Translate": [14, [159.1139221, 10.174303, 159.4691314]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0055392, -3.5275011, 0.3967999, 0.5004028, 4.1313505, 0.5625044]],
+            "m_PcId": [6, 91],
+            "m_PrefabName": [12, "unlockable_ladder"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000024]],
+            "m_Scale": [14, [0.9999979, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [174.1216125, 9.2064695, 131.9920654]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-2.8549299, 1.3467922, 0.2886943, 4.3996047, 1.5369031, 3.6111927]],
+            "m_PcId": [6, 92],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_02_b"],
+            "m_Rotate": [14, [-180.0, 14.9999856, -180.0]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999979]],
+            "m_Translate": [14, [163.6856079, -3.3514947, 160.8516082]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0055392, -3.5275006, 0.3967999, 0.5004028, 4.1313495, 0.5625044]],
+            "m_PcId": [6, 93],
+            "m_PrefabName": [12, "unlockable_ladder"],
+            "m_Rotate": [14, [179.9999847, 0.0000032, 179.9999847]],
+            "m_Scale": [14, [0.9999988, 0.9999989, 0.9999976]],
+            "m_Translate": [14, [117.8256301, 10.174303, 170.794342]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0306642, 0.6344044, 0.2240152, 3.6890051, 0.7952972, 2.2679193]],
+            "m_PcId": [6, 94],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_06_b"],
+            "m_Rotate": [14, [-180.0, -14.9999923, -180.0]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999979]],
+            "m_Translate": [14, [207.6972351, -3.2438962, 221.433258]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-2.0956187, 0.5938564, 0.08568, 2.8462884, 0.7561051, 2.178322]],
+            "m_PcId": [6, 95],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_09"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [255.3088989, -3.4012155, 203.8882751]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-2.8549299, 1.3467922, 0.2886943, 4.3996047, 1.5369029, 3.6111927]],
+            "m_PcId": [6, 97],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_02_b"],
+            "m_Rotate": [14, [-0.0, 29.9999752, -0.0]],
+            "m_Scale": [14, [0.9999988, 0.9999992, 0.9999982]],
+            "m_Translate": [14, [184.2756805, -3.36787, 227.6421966]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3125032, 2.5251886, 3.4396083, 1.4636077, 2.6571247, 3.6309068]],
+            "m_PcId": [6, 98],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_bazar_ramp_a"],
+            "m_Rotate": [14, [-0.0, 44.9999694, -0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999992, 0.9999985]],
+            "m_Translate": [14, [176.5199279, -3.4478905, 133.6494293]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.4103655, 2.5693109, 0.2030076, 2.1128468, 2.5693109, 2.2840743]],
+            "m_PcId": [6, 99],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_bazar_shed_bridge_c"],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999979]],
+            "m_Translate": [14, [174.8988494, -2.5256164, 132.1188659]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 104],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_ground"],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999982]],
+            "m_Translate": [14, [117.605339, -2.2860293, 170.7138061]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.4031071, 0.7214444, 0.2145607, 3.1077859, 0.8845706, 2.6665933]],
+            "m_PcId": [6, 105],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_17_b"],
+            "m_Rotate": [14, [-0.0, 74.9999847, -0.0]],
+            "m_Scale": [14, [0.9999982, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [115.6752777, -3.3700137, 173.904953]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 177],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999979]],
+            "m_Translate": [14, [241.7780456, 2.0286984, 221.387207]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 178],
+            "m_PrefabName": [12, "rs_ropebridge_sml"],
+            "m_Rotate": [14, [179.9999847, 0.0000051, 179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999986, 0.9999973]],
+            "m_Translate": [14, [256.3029174, 2.9750499, 220.9636383]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 179],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999989, 0.9999979]],
+            "m_Translate": [14, [236.2992248, 5.058113, 221.3874206]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 180],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000223]],
+            "m_Scale": [14, [0.9999982, 0.9999989, 0.9999986]],
+            "m_Translate": [14, [232.4553375, 5.058113, 225.2071838]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 182],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, -29.9999828, -180.0]],
+            "m_Scale": [14, [0.9999988, 0.9999988, 0.9999979]],
+            "m_Translate": [14, [223.750595, 8.7986526, 233.4895629]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0131932, 0.0432568, -1.0280919, 0.3952266, 0.0444341, 1.182285]],
+            "m_PcId": [6, 187],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;ot_handmade_ramp_f"],
+            "m_Rotate": [14, [-180.0, 44.9999732, -180.0]],
+            "m_Scale": [14, [0.9999991, 0.9999994, 0.9999989]],
+            "m_Translate": [14, [233.620819, 6.0436363, 221.1401977]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 197],
+            "m_PrefabName": [12, "rs_ropebridge_ext_support"],
+            "m_Rotate": [14, [-0.0, -44.9999809, -0.0]],
+            "m_Scale": [14, [0.9999992, 0.9999995, 0.9999991]],
+            "m_Translate": [14, [217.2794799, 7.1551332, 238.2473297]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 199],
+            "m_PrefabName": [12, "rs_ropebridge_ext_support"],
+            "m_Rotate": [14, [-0.0, -75.0, -0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999995, 0.9999992]],
+            "m_Translate": [14, [245.8352966, 2.5084481, 221.0331726]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 200],
+            "m_PrefabName": [12, "rs_ropebridge_ext_support"],
+            "m_Rotate": [14, [-0.0, -75.0000228, -0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [259.9120178, 2.5084486, 221.0331726]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 201],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, -29.9999828, 179.9999847]],
+            "m_Scale": [14, [0.9999986, 0.9999986, 0.9999979]],
+            "m_Translate": [14, [210.7529296, 12.615796, 240.9937591]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 202],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, -29.9999847, 179.9999847]],
+            "m_Scale": [14, [0.9999986, 0.9999986, 0.9999979]],
+            "m_Translate": [14, [205.7645111, 12.6152982, 243.8735961]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 203],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, 0.0000102, 179.9999847]],
+            "m_Scale": [14, [0.9999988, 0.9999985, 0.9999976]],
+            "m_Translate": [14, [199.6473999, 14.9995756, 245.941513]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 204],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, 0.0000102, 179.9999847]],
+            "m_Scale": [14, [0.9999986, 0.9999982, 0.9999976]],
+            "m_Translate": [14, [194.5372619, 18.6108703, 245.941513]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-2.8549299, 1.3467922, 0.2886943, 4.3996047, 1.5369031, 3.6111922]],
+            "m_PcId": [6, 205],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_02_b"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999991, 0.9999985]],
+            "m_Translate": [14, [232.6785583, -3.36787, 201.8709716]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 206],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999989, 0.9999979]],
+            "m_Translate": [14, [272.8665771, 2.028701, 221.5356597]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 207],
+            "m_PrefabName": [12, "rs_ropebridge_med"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999985, 0.9999982]],
+            "m_Translate": [14, [240.6169586, 10.4090881, 215.7413024]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 208],
+            "m_PrefabName": [12, "rs_ropebridge_ext_start"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000332]],
+            "m_Scale": [14, [0.9999991, 0.9999997, 1.0000003]],
+            "m_Translate": [14, [240.5437164, 9.6841382, 223.1216735]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 209],
+            "m_PrefabName": [12, "rs_zipline_c"],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999976]],
+            "m_Translate": [14, [125.3274917, 18.3357696, 170.0204925]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 210],
+            "m_PrefabName": [12, "rs_zipline_d"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999989, 0.9999988]],
+            "m_Translate": [14, [134.5882568, 9.7290468, 219.6385192]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 211],
+            "m_PrefabName": [12, "rs_zipline_e"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999989, 0.9999988]],
+            "m_Translate": [14, [208.4203338, 10.7048759, 161.1653137]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 212],
+            "m_PrefabName": [12, "rs_ropebridge_lrg"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999986, 0.9999988]],
+            "m_Translate": [14, [106.433197, 10.2126321, 198.110382]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 214],
+            "m_PrefabName": [12, "rs_ropebridge_anchor"],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999982]],
+            "m_Translate": [14, [106.3021621, 12.7776479, 177.7779235]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 215],
+            "m_PrefabName": [12, "rs_zipline_f"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999989, 0.9999986]],
+            "m_Translate": [14, [132.8375854, 14.6141347, 171.7119903]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.005542, -3.5275011, 0.3968057, 0.5004038, 4.1313505, 0.5625063]],
+            "m_PcId": [6, 216],
+            "m_PrefabName": [12, "unlockable_ladder"],
+            "m_Rotate": [14, [180.0, 30.0000076, 179.9999847]],
+            "m_Scale": [14, [0.9999986, 0.9999989, 0.9999979]],
+            "m_Translate": [14, [173.3893585, 10.4392795, 230.7195434]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 217],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_ground"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999991, 0.9999991]],
+            "m_Translate": [14, [173.456726, -0.4367195, 234.3077697]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 218],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_ground"],
+            "m_Rotate": [14, [-0.0, 59.9999847, -0.0]],
+            "m_Scale": [14, [0.9999982, 0.9999991, 0.9999988]],
+            "m_Translate": [14, [171.7592315, -0.4372192, 240.1318817]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 219],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_ground"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [170.3175811, -0.4372191, 246.0164947]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0197546, 1.7815917, 0.011594, 2.827476, 1.6484221, 0.1325109]],
+            "m_PcId": [6, 220],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_add_3x_1h_b"],
+            "m_Rotate": [14, [-0.0, 59.9999847, -0.0]],
+            "m_Scale": [14, [0.9999982, 0.9999989, 0.9999985]],
+            "m_Translate": [14, [172.4917602, -3.3937916, 240.5587768]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0197546, 1.7815918, 0.011594, 2.827476, 1.6484222, 0.1325109]],
+            "m_PcId": [6, 221],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_add_3x_1h_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [169.4687347, -3.3937914, 246.0199279]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0197546, 1.7815918, 0.011594, 2.8274762, 1.6484222, 0.1325109]],
+            "m_PcId": [6, 222],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_add_3x_1h_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999988, 0.9999985]],
+            "m_Translate": [14, [172.6078796, -3.3932921, 234.311203]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 225],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000011]],
+            "m_Scale": [14, [0.9999976, 0.9999985, 0.9999986]],
+            "m_Translate": [14, [164.7130126, 3.2645485, 252.0923919]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 226],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [0.0, 90.0, -0.000011]],
+            "m_Scale": [14, [0.9999976, 0.9999982, 0.9999986]],
+            "m_Translate": [14, [164.7132263, 6.4555406, 257.8523559]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-2.0956196, 0.5938564, 0.08568, 2.8462893, 0.7561051, 2.1783227]],
+            "m_PcId": [6, 243],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_prkr_ramp_09"],
+            "m_Rotate": [14, [-180.0, -29.9999828, -180.0]],
+            "m_Scale": [14, [0.9999985, 0.9999991, 0.9999979]],
+            "m_Translate": [14, [188.5906982, -3.2528631, 243.3663024]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 245],
+            "m_PrefabName": [12, "rs_zipline_g"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999989, 0.9999986]],
+            "m_Translate": [14, [158.280548, 7.1456069, 265.010559]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 246],
+            "m_PrefabName": [12, "rs_zipline_h"],
+            "m_Rotate": [14, [-0.0, 14.9999895, -0.0]],
+            "m_Scale": [14, [0.9999985, 0.9999988, 0.9999973]],
+            "m_Translate": [14, [87.3601531, 7.1456069, 165.2106628]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 247],
+            "m_PrefabName": [12, "rs_zipline_i"],
+            "m_Rotate": [14, [-180.0, -14.9999942, -180.0]],
+            "m_Scale": [14, [0.9999982, 0.9999988, 0.9999973]],
+            "m_Translate": [14, [208.451126, 23.9099521, 230.6306915]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 248],
+            "m_PrefabName": [12, "rs_generic_amortizer_01"],
+            "m_Rotate": [14, [-0.0000218, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999988, 0.9999976]],
+            "m_Seed": [6, 1234455826],
+            "m_Translate": [14, [212.1725616, -3.6002469, 232.355133]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 249],
+            "m_PrefabName": [12, "rs_bdp_connector_amortizer_ramp_start_randomizer"],
+            "m_Rotate": [14, [-179.9999847, -29.9999828, -180.0]],
+            "m_Scale": [14, [0.9999985, 0.9999988, 0.9999979]],
+            "m_Seed": [6, 1234455826],
+            "m_Translate": [14, [216.7848968, 21.2713203, 238.1708221]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 250],
+            "m_PrefabName": [12, "rs_bdp_connector_amortizer_ramp_start_randomizer"],
+            "m_Rotate": [14, [-179.9999847, -29.9999847, 179.9999847]],
+            "m_Scale": [14, [0.9999985, 0.9999986, 0.9999979]],
+            "m_Seed": [6, 1234455826],
+            "m_Translate": [14, [119.2440338, 13.9323892, 264.0684204]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 251],
+            "m_PrefabName": [12, "rs_generic_amortizer_01"],
+            "m_Rotate": [14, [-0.0000218, 14.999998, 0.0]],
+            "m_Scale": [14, [0.9999985, 0.9999986, 0.9999976]],
+            "m_Seed": [6, 1234455826],
+            "m_Translate": [14, [114.5326995, -3.6002373, 257.0866394]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 255],
+            "m_PrefabName": [12, "rs_ropeswing_10m"],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999979]],
+            "m_Translate": [14, [91.84626, 23.9954319, 267.1811523]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004997, -0.3999165, -0.0204858, 3.9574263, 0.3949812, 0.2445111]],
+            "m_PcId": [6, 256],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_windmills_pp_moving_ledge_hor_winch_beam_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999991, 0.9999989]],
+            "m_Translate": [14, [91.8592147, 24.6049556, 275.2582702]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004997, -0.3999165, -0.0204858, 3.9574265, 0.3949812, 0.2445111]],
+            "m_PcId": [6, 257],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_windmills_pp_moving_ledge_hor_winch_beam_a"],
+            "m_Rotate": [14, [179.9999847, -44.9999732, 179.9999847]],
+            "m_Scale": [14, [0.9999982, 0.9999989, 0.9999982]],
+            "m_Translate": [14, [89.0049896, 24.6049556, 274.0029296]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005056, 0.0005, 0.0004999, 1.2845671, 0.0129631, 0.6916774]],
+            "m_PcId": [6, 267],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_road_sign_ramps_a"],
+            "m_Rotate": [14, [-0.0000032, -74.9999847, 12.4999885]],
+            "m_Scale": [14, [0.9999982, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [90.5243225, 18.4724159, 257.8853149]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005006, -0.0494999, 0.0005009, 0.9605002, 0.0805, 0.0405009]],
+            "m_PcId": [6, 268],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_roofbeam_str_1x1h_b"],
+            "m_Rotate": [14, [-0.0, 14.9999818, -0.0]],
+            "m_Scale": [14, [1.2999986, 1.2999986, 1.2999974]],
+            "m_Translate": [14, [90.3322677, 18.6795349, 259.1226806]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 269],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [-3.369599141933577e-7, 0.0000135, -0.0000312]],
+            "m_Scale": [14, [0.9999979, 0.9999986, 0.999997]],
+            "m_Translate": [14, [319.3198242, -8.1746377, 131.5525512]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 270],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [179.9999847, 14.9999771, -179.9999694]],
+            "m_Scale": [14, [0.9999979, 0.9999985, 0.999997]],
+            "m_Translate": [14, [333.0963134, -8.1746444, 158.7187194]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 271],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000129]],
+            "m_Scale": [14, [0.999997, 0.9999982, 0.9999982]],
+            "m_Translate": [14, [295.4901123, -8.1746196, 166.1987915]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 272],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000129]],
+            "m_Scale": [14, [0.9999969, 0.9999982, 0.9999979]],
+            "m_Translate": [14, [266.3529663, -8.1746158, 181.1876068]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 273],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000129]],
+            "m_Scale": [14, [0.9999969, 0.9999982, 0.9999979]],
+            "m_Translate": [14, [127.7504882, -3.4269716, 204.912384]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 274],
+            "m_PrefabName": [12, "rs_bdp_connector_swing_rope_start_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000129]],
+            "m_Scale": [14, [0.9999967, 0.9999982, 0.9999979]],
+            "m_Translate": [14, [115.4577026, -3.4269683, 219.9434509]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 275],
+            "m_PrefabName": [12, "rs_ropeswing_10m"],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999979]],
+            "m_Translate": [14, [259.9491271, 10.2067346, 216.6560211]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004997, -0.3999165, -0.0204858, 3.9574263, 0.3949812, 0.2445111]],
+            "m_PcId": [6, 276],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_windmills_pp_moving_ledge_hor_winch_beam_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999991, 0.9999988]],
+            "m_Translate": [14, [259.9620971, 10.8162584, 224.7331237]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004997, -0.3999165, -0.0204858, 3.9574265, 0.3949811, 0.2445111]],
+            "m_PcId": [6, 277],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_windmills_pp_moving_ledge_hor_winch_beam_a"],
+            "m_Rotate": [14, [179.9999847, -44.9999809, 179.9999847]],
+            "m_Scale": [14, [0.9999982, 0.9999989, 0.9999979]],
+            "m_Translate": [14, [257.1078491, 10.8162584, 223.4777984]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 278],
+            "m_PrefabName": [12, "rs_hanging_wall_wooden"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0000097]],
+            "m_Scale": [14, [0.9999974, 0.9999991, 0.9999991]],
+            "m_Translate": [14, [72.8989105, 16.999998, 272.4598693]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 279],
+            "m_PrefabName": [12, "rs_hanging_wall_top"],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999976]],
+            "m_Translate": [14, [72.8906402, 23.4759654, 273.5744934]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 280],
+            "m_PrefabName": [12, "rs_scaffold_overgrown_building"],
+            "m_Rotate": [14, [179.9999847, -0.0000098, 179.9999847]],
+            "m_Scale": [14, [0.9999983, 0.999998, 0.9999971]],
+            "m_Translate": [14, [81.3488616, 15.6373014, 275.035736]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 281],
+            "m_PrefabName": [12, "rs_ropeswing_10m"],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999973]],
+            "m_Translate": [14, [62.4458618, 25.9052429, 274.4667663]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
