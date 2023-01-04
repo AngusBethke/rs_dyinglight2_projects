@@ -24,12 +24,28 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="45" y="30"/>
+			<Position x="300" y="15"/>
 		</Editor>
 	</Node>
 	<Connect start="7182900421694469259" output="Out" input="In" end="7182575287828822138">
 		<Start class="Story::FreezeTimeLogic"/>
 		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7184466941873231551">
+		<Logic type="Story::DisableGenericHintsLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-270" y="15"/>
+		</Editor>
+	</Node>
+	<Connect start="7184466941873231551" output="Out" input="In" end="7182899329858872340">
+		<Start class="Story::DisableGenericHintsLogic"/>
+		<End class="Story::SetDayTimeLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7182899329858872340">
 		<Logic type="Story::SetDayTimeLogic">
@@ -42,7 +58,7 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="-270" y="15"/>
+			<Position x="-15" y="30"/>
 		</Editor>
 	</Node>
 	<Connect start="7182899329858872340" output="Out" input="In" end="7182900421694469259">
@@ -62,9 +78,9 @@
 			<Position x="-630" y="30"/>
 		</Editor>
 	</Node>
-	<Connect start="7182575613092932649" output="Out" input="In" end="7182899329858872340">
+	<Connect start="7182575613092932649" output="Out" input="In" end="7184466941873231551">
 		<Start class="Story::SetPlayerPresetLogic"/>
-		<End class="Story::SetDayTimeLogic"/>
+		<End class="Story::DisableGenericHintsLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7182575288105120813">
 		<Logic type="Actions::StartLogic"/>
@@ -81,7 +97,7 @@
 			<Attribute name="m_IsFinishing" value="0"/>
 		</Logic>
 		<Editor>
-			<Position x="240" y="15"/>
+			<Position x="495" y="30"/>
 		</Editor>
 	</Node>
 </Node>

@@ -121,12 +121,66 @@
           "Fields": {
             "m_NumOfAIsToSpawn": "5",
             "m_PointsSource": "12",
-            "m_Preset": "Character;Biter_Resting"
+            "m_Preset": "Character;Biter_Resting",
+            "m_SpawnPoints": "/~164;/~162;/~163;"
           },
           "EmbeddedObject": {
             "Class": "UserDefinedDifficultyRange",
             "PresetNames": "Difficulty;Tier_2",
             "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.5, 0.5]],
+            "m_PcId": [6, 161],
+            "m_PrefabName": [12, "gameplay_modifier_area"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Scale": [14, [13.7746677, 4.0799369, 17.7593708]],
+            "m_Translate": [14, [-7.1046218, 6.8407506, -8.6268081]]
+          },
+          "Fields": {
+            "m_ModifierFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-3.725290298461914e-8, 1.5195729, 0.230906, 0.0690794, 1.5195729, 0.270789]],
+            "m_PcId": [6, 162],
+            "m_PrefabName": [12, "ai_spawn_point"],
+            "m_Rotate": [14, [-0.0000063, 14.9999914, 0.0000051]],
+            "m_Translate": [14, [-11.712181, 4.7999911, -7.3486328]]
+          },
+          "Fields": {
+            "m_Preset": "Character;Viral_Resting"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.2707889]],
+            "m_PcId": [6, 163],
+            "m_PrefabName": [12, "ai_spawn_point"],
+            "m_Rotate": [14, [180.0, -59.9999923, 180.0]],
+            "m_Translate": [14, [-11.6633224, 4.7999911, -15.7488021]]
+          },
+          "Fields": {
+            "m_Preset": "Character;Viral_Resting"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.270789]],
+            "m_PcId": [6, 164],
+            "m_PrefabName": [12, "ai_spawn_point"],
+            "m_Rotate": [14, [-179.9999847, 60.0000038, 179.9999847]],
+            "m_Translate": [14, [-1.4854507, 4.799993, -6.0854034]]
+          },
+          "Fields": {
+            "m_Preset": "Character;Viral_Resting"
           }
         }
       ]
