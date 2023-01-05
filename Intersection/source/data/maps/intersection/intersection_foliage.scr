@@ -623,7 +623,7 @@
  }
  Layer("roof_bush_nature")
  {
-    RenderRangesLod(24.00, 100.00, 0.00)
+    RenderRangesLod(34.00, 100.00, 0.00)
     BlendRangesLod(0, 2.00, 4.00)
     BlendRangesLod(1, 2.00, 5.00)
     DensityMap("city_foliage_roof_bush_nature")
@@ -683,10 +683,9 @@
  }
  Layer("roof_small_nature_r01a")
  {
-    RenderRangesLod(24.00, 100.00, 200.00)
+    RenderRangesLod(34.00, 100.00, 0.00)
     BlendRangesLod(0, 2.00, 4.00)
     BlendRangesLod(1, 2.00, 5.00)
-    BlendRangesLod(2, 2.00, 5.00)
     DensityMap("city_foliage_roof_small_nature_r01a")
     InstancesPerMeter(2.00)
     ExpensiveTraces(0)
@@ -695,7 +694,6 @@
     {
         MeshLod(0, "nat_fern_b_to.msh", "")
         MeshLod(1, "hiding_spot_lod2.msh", "")
-        MeshLod(2, "hiding_spot_lod2.msh", "")
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(200)
@@ -706,7 +704,6 @@
     {
         MeshLod(0, "nat_ivy_floor_small_a_to.msh", "")
         MeshLod(1, "hiding_spot_lod2.msh", "")
-        MeshLod(2, "hiding_spot_lod2.msh", "")
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(200)
@@ -717,7 +714,6 @@
     {
         MeshLod(0, "nat_shrub_c.msh", "")
         MeshLod(1, "hiding_spot_lod2.msh", "")
-        MeshLod(2, "hiding_spot_lod2.msh", "")
         Priority(10)
         AlignToNormal(0)
         NormalCutoff(0)
