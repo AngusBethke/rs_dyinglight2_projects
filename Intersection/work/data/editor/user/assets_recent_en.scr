@@ -2,17 +2,16 @@ sub main()
 {
 	Recent("_atlas_connectors.prefab", 1, "Fri Dec 30 10:23:13 2022");
 	Recent("ai_spawn_point.prefab", 1, "Tue Jan 3 20:56:46 2023");
+	Recent("ai_spawner_number.prefab", 1, "Sun Jan 8 20:29:21 2023");
 	Recent("area.prefab", 1, "Tue Jan 3 16:57:30 2023");
 	Recent("audioambientzone.prefab", 1, "Fri Jan 6 11:24:03 2023");
 	Recent("beehive_a.prefab", 1, "Mon Jan 2 14:04:10 2023");
 	Recent("beehive_b.prefab", 1, "Mon Jan 2 14:03:57 2023");
 	Recent("bld_ce_a_scaffold_str_custommove_3x_c_challenge.prefab", 1, "Wed Jan 4 10:38:39 2023");
 	Recent("cable.prefab", 1, "Sun Jan 1 17:28:57 2023");
-	Recent("car_group_2x_e.prefab", 1, "Thu Dec 29 12:44:24 2022");
+	Recent("collectableobject.prefab", 1, "Sun Jan 8 21:37:56 2023");
 	Recent("crane_module_a.prefab", 1, "Fri Dec 30 08:20:31 2022");
 	Recent("crane_module_atlas.prefab", 1, "Fri Dec 30 08:20:08 2022");
-	Recent("crane_module_b.prefab", 1, "Fri Dec 30 08:20:06 2022");
-	Recent("crane_module_c.prefab", 1, "Fri Dec 30 08:20:04 2022");
 	Recent("crane_module_d.prefab", 1, "Fri Dec 30 08:20:34 2022");
 	Recent("crane_module_e.prefab", 1, "Fri Dec 30 08:20:36 2022");
 	Recent("crane_module_f.prefab", 1, "Fri Dec 30 08:20:48 2022");
@@ -37,14 +36,13 @@ sub main()
 	Recent("ladder_d_middle_4x.prefab", 1, "Fri Dec 30 20:38:53 2022");
 	Recent("loc_gym_r02_ext_scaffolding.prefab", 1, "Fri Jan 6 15:28:43 2023");
 	Recent("lootplant_bush.prefab", 1, "Mon Jan 2 14:05:34 2023");
-	Recent("mesh.prefab", 1, "Fri Jan 6 16:56:42 2023")
+	Recent("mesh.prefab", 1, "Sun Jan 8 21:39:36 2023")
 	{
 		Preset("Meshes;backyard_debris_b", 1, "Fri Jan 6 09:07:33 2023");
 		Preset("Meshes;backyard_debris_circle_a", 1, "Fri Jan 6 09:05:03 2023");
 		Preset("Meshes;bdp_bldg_decal_greenery_str_2x_2h_a", 1, "Fri Jan 6 15:10:52 2023");
 		Preset("Meshes;bdp_bldg_decal_greenery_str_4x_0h_a", 1, "Fri Jan 6 15:10:32 2023");
 		Preset("Meshes;bdp_bldg_decal_greenery_str_4x_1h_a", 1, "Fri Jan 6 15:11:19 2023");
-		Preset("Meshes;bld_ce_a_billboard_base_02_small_a", 1, "Wed Jan 4 09:39:50 2023");
 		Preset("Meshes;bld_ce_a_scaffold_btm_2x_0h_a", 1, "Fri Jan 6 14:25:39 2023");
 		Preset("Meshes;bld_ce_a_scaffold_btm_add_1x_1h_a", 1, "Fri Jan 6 16:40:35 2023");
 		Preset("Meshes;bld_ce_a_scaffold_btm_add_1x_1h_b", 1, "Fri Jan 6 16:39:56 2023");
@@ -61,7 +59,6 @@ sub main()
 		Preset("Meshes;cd_blendshape_h", 1, "Thu Jan 5 20:49:50 2023");
 		Preset("Meshes;decal_flat_round_a", 1, "Fri Jan 6 08:50:51 2023");
 		Preset("Meshes;dummy_box", 1, "Wed Jan 4 11:19:15 2023");
-		Preset("Meshes;grass_128", 1, "Wed Jan 4 10:19:22 2023");
 		Preset("Meshes;gre_climb_tower_ledge_short", 1, "Fri Jan 6 16:06:21 2023");
 		Preset("Meshes;hideout_bushes_a", 1, "Wed Jan 4 16:25:16 2023");
 		Preset("Meshes;hideout_bushes_f", 1, "Wed Jan 4 16:26:17 2023");
@@ -91,11 +88,10 @@ sub main()
 		Preset("Meshes;slums_antenna_cable_corner_a", 1, "Fri Jan 6 14:20:56 2023");
 		Preset("Meshes;street_prkr_ramp_04_b", 1, "Fri Jan 6 09:03:04 2023");
 		Preset("Meshes;street_prkr_ramp_09", 1, "Fri Jan 6 09:03:37 2023");
-		Preset("Meshes;urb_ac_unit_a", 1, "Wed Jan 4 11:02:01 2023");
-		Preset("Meshes;urb_ac_unit_c", 1, "Wed Jan 4 11:02:03 2023");
+		Preset("Meshes;survivor_sense_trail_blob", 1, "Sun Jan 8 21:14:31 2023");
+		Preset("Meshes;survivor_sense_trail_sphere_a", 1, "Sun Jan 8 21:16:10 2023");
 		Preset("Meshes;urb_ac_vent_corner_a", 1, "Wed Jan 4 11:27:11 2023");
 		Preset("Meshes;urb_ac_vent_set_b", 1, "Wed Jan 4 11:25:51 2023");
-		Preset("Meshes;urb_ac_vent_set_d", 1, "Wed Jan 4 11:13:18 2023");
 		Preset("Meshes;urb_concrete_barrier_a_fence", 1, "Fri Jan 6 16:36:10 2023");
 		Preset("Meshes;urb_container_addon_generator_big", 1, "Fri Jan 6 12:14:27 2023");
 		Preset("Meshes;urb_park_fence_wall_a_1x", 1, "Fri Jan 6 16:55:07 2023");
@@ -103,6 +99,9 @@ sub main()
 		Preset("Meshes;urb_park_fence_wall_a_3x", 1, "Fri Jan 6 16:51:09 2023");
 		Preset("Meshes;urb_park_fence_wall_a_door", 1, "Fri Jan 6 16:56:42 2023");
 		Preset("Meshes;urb_park_fence_wall_a_gate", 1, "Fri Jan 6 16:52:12 2023");
+		Preset("Meshes;wn_throwing_knife_a", 1, "Sun Jan 8 21:39:05 2023");
+		Preset("Meshes;wpn_throwing_knife_a_fpp", 1, "Sun Jan 8 21:39:36 2023");
+		Preset("Meshes;wpn_throwing_knife_a_tpp", 1, "Sun Jan 8 21:39:28 2023");
 	}
 	Recent("mesh_no_collision.prefab", 1, "Wed Jan 4 13:08:30 2023")
 	{
@@ -119,9 +118,9 @@ sub main()
 	}
 	Recent("nat_tree_decid_huge_c_deci.prefab", 1, "Tue Jan 3 21:27:44 2023");
 	Recent("pa_sur_fence_2x_barbed_wire_a.prefab", 1, "Sun Jan 1 16:22:18 2023");
-	Recent("prototype_hiding_spot.prefab", 1, "Thu Dec 29 13:24:49 2022");
 	Recent("ps_destination_generator_a.prefab", 1, "Fri Jan 6 11:33:29 2023");
 	Recent("ps_source_generator_a.prefab", 1, "Fri Jan 6 11:33:34 2023");
+	Recent("qi_paper_notes.prefab", 1, "Sun Jan 8 21:37:24 2023");
 	Recent("rendering_settings.prefab", 1, "Wed Jan 4 13:11:46 2023");
 	Recent("road_grass_a.prefab", 1, "Tue Jan 3 21:22:02 2023");
 	Recent("road_grass_c.prefab", 1, "Tue Jan 3 21:22:23 2023");
@@ -134,13 +133,14 @@ sub main()
 	Recent("rs_occluder_billboard_greenery.prefab", 1, "Tue Jan 3 20:54:06 2023");
 	Recent("rs_scaffold_overgrown_building.prefab", 1, "Fri Jan 6 16:58:39 2023");
 	Recent("sensor.prefab", 1, "Fri Dec 30 12:24:20 2022");
-	Recent("sensorgoto.prefab", 1, "Thu Dec 29 16:28:42 2022");
 	Recent("skinned_mesh.prefab", 1, "Fri Dec 30 11:05:30 2022")
 	{
 		Preset("SkinnedMeshes;int_ce_a_door_basement_a_anm", 1, "Fri Dec 23 20:33:05 2022");
 		Preset("SkinnedMeshes;urb_wooden_board_a_anm", 1, "Fri Dec 30 11:05:30 2022");
 	}
 	Recent("spawnpoint.prefab", 1, "Wed Jan 4 10:45:05 2023");
+	Recent("survivor_sense_icon.prefab", 1, "Sun Jan 8 21:12:50 2023");
+	Recent("survivor_sense_morphed.prefab", 1, "Sun Jan 8 20:37:38 2023");
 	Recent("tiny_object_helper.prefab", 1, "Fri Jan 6 10:34:10 2023");
 	Recent("unlockable_ladder.prefab", 1, "Sun Jan 1 13:31:16 2023");
 	Recent("varlist_blend_by_distance_box.prefab", 1, "Wed Jan 4 13:09:51 2023");
