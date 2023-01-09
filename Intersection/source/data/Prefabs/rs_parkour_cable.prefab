@@ -30,7 +30,7 @@
           "Fields": {
             "CableSourceSkin": "Default",
             "Number": "1",
-            "cbs::IEnable::m_State": "1",
+            "cbs::IEnable::m_State": "0",
             "m_CableLength": "52.000000",
             "m_DestinationEntity": "/~1/~5"
           }
@@ -106,7 +106,7 @@
             "CableSourceSkin": "Default",
             "Number": "4",
             "cbs::IEnable::m_State": "0",
-            "m_CableLength": "75.000000",
+            "m_CableLength": "72.000000",
             "m_DestinationEntity": "/~10/~5",
             "m_Detachable": "1"
           }
@@ -198,9 +198,9 @@
             "m_Name": [12, "rs_cable_destination_6"],
             "m_PcId": [6, 13],
             "m_PrefabName": [12, "ps_destination_generator_a"],
-            "m_Rotate": [14, [0.0000032, 29.9999942, -0.0000128]],
-            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999992]],
-            "m_Translate": [14, [36.0900573, 11.9858551, 123.6105041]]
+            "m_Rotate": [14, [0.000003, 29.9999961, -0.0000127]],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999989]],
+            "m_Translate": [14, [36.5618743, 11.9858551, 123.3380966]]
           },
           "Fields": {
             "CableDestSkin": "Default",
@@ -230,8 +230,8 @@
             "m_Name": [12, "rs_cable_source_7"],
             "m_PcId": [6, 15],
             "m_PrefabName": [12, "ps_source_generator_a"],
-            "m_Rotate": [14, [-0.0, 30.0, -0.0]],
-            "m_Translate": [14, [34.905838, 11.9860019, 123.8732147]]
+            "m_Rotate": [14, [-0.0, 29.999998, -0.0]],
+            "m_Translate": [14, [35.0200042, 11.9860019, 123.8072967]]
           },
           "Fields": {
             "CableSourceSkin": "Default",
@@ -320,7 +320,7 @@
             "CableSourceSkin": "Default",
             "Number": "a",
             "cbs::IEnable::m_State": "0",
-            "m_CableLength": "40.000000",
+            "m_CableLength": "120.000000",
             "m_DestinationEntity": "/~83/~5"
           }
         },
@@ -2387,6 +2387,17 @@
             "m_PresetNames": [12, "Meshes;pa_interaction_plank_b"],
             "m_Rotate": [14, [-179.9999847, 30.0000076, -179.9999847]],
             "m_Translate": [14, [45.0924263, 13.5922107, 131.3739929]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 208],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0, 30.0, -90.0]],
+            "m_Translate": [14, [36.3636016, 13.5242595, 123.5340576]]
           }
         }
       ]

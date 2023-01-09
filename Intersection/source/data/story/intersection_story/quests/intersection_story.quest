@@ -9,9 +9,27 @@
 			<Attribute name="objective" value="Default"/>
 		</Object>
 	</Logic>
+	<Node file="setupquest.quest">
+		<Editor>
+			<Position x="-900" y="45"/>
+		</Editor>
+	</Node>
+	<Connect start="7186603224649848035" output="Out:End" input="In:Start" end="7186583766428578563">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
+	<Node file="signsoflife.quest">
+		<Editor>
+			<Position x="-540" y="30"/>
+		</Editor>
+	</Node>
+	<Connect start="7186583766428578563" output="Out:End" input="In:Start" end="7182575286715479825">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
 	<Node file="explore.quest">
 		<Editor>
-			<Position x="-210" y="15"/>
+			<Position x="-210" y="45"/>
 		</Editor>
 	</Node>
 	<Connect start="7182575286715479825" output="Out:End" input="In" end="7182574531691833107">
@@ -19,18 +37,20 @@
 		<End class="Actions::EndLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7182574531691833107">
-		<Logic type="Actions::EndLogic"/>
+		<Logic type="Actions::EndLogic">
+			<Attribute name="m_IsFinishing" value="0"/>
+		</Logic>
 		<Editor>
-			<Position x="195" y="15"/>
+			<Position x="150" y="30"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Node" uid="7182574532219298364">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>
-			<Position x="-450" y="15"/>
+			<Position x="-1110" y="30"/>
 		</Editor>
 	</Node>
-	<Connect start="7182574532219298364" output="Out" input="In:Start" end="7182575286715479825">
+	<Connect start="7182574532219298364" output="Out" input="In:Start" end="7186603224649848035">
 		<Start class="Actions::StartLogic"/>
 		<End class="Story::QuestLogic"/>
 	</Connect>

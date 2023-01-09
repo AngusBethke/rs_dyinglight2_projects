@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7186603224649848035">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7186603223341448040"/>
+		<Attribute name="m_Name" value="SetupQuest"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7186603317638115739">
+		<Logic type="Story::DisableGenericHintsLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-615" y="90"/>
+		</Editor>
+	</Node>
+	<Connect start="7186603317638115739" output="Out" input="In" end="7186603318078180587">
+		<Start class="Story::DisableGenericHintsLogic"/>
+		<End class="Story::SetDayTimeLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186603318078180587">
+		<Logic type="Story::SetDayTimeLogic">
+			<Attribute name="m_Hour" value="17"/>
+			<Attribute name="m_Weather" value="Cloudy"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-345" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7186603318078180587" output="Out" input="In" end="7186603319164798487">
+		<Start class="Story::SetDayTimeLogic"/>
+		<End class="Story::FreezeTimeLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186603224551167983">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="150" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7186603317192251653">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Setup"/>
+			<Attribute name="m_Size" value="1085.000000 266.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="-990" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7186603319164798487">
+		<Logic type="Story::FreezeTimeLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-45" y="90"/>
+		</Editor>
+	</Node>
+	<Connect start="7186603319164798487" output="Out" input="In" end="7186603224551167983">
+		<Start class="Story::FreezeTimeLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186603319153663565">
+		<Logic type="Story::SetPlayerPresetLogic">
+			<Attribute name="m_PresetName" value="GIVE_ALL"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-975" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7186603319153663565" output="Out" input="In" end="7186603317638115739">
+		<Start class="Story::SetPlayerPresetLogic"/>
+		<End class="Story::DisableGenericHintsLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186603223410048892">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-1185" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7186603223410048892" output="Out" input="In" end="7186603319153663565">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::SetPlayerPresetLogic"/>
+	</Connect>
+</Node>
+
