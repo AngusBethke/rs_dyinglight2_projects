@@ -32,16 +32,16 @@
 			<Position x="-210" y="45"/>
 		</Editor>
 	</Node>
-	<Connect start="7182575286715479825" output="Out:End" input="In" end="7182574531691833107">
+	<Connect start="7182575286715479825" output="Out:End" input="In:Start" end="7186729177650300998">
 		<Start class="Story::QuestLogic"/>
-		<End class="Actions::EndLogic"/>
+		<End class="Story::QuestLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7182574531691833107">
 		<Logic type="Actions::EndLogic">
 			<Attribute name="m_IsFinishing" value="0"/>
 		</Logic>
 		<Editor>
-			<Position x="150" y="30"/>
+			<Position x="480" y="45"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Node" uid="7182574532219298364">
@@ -53,6 +53,15 @@
 	<Connect start="7182574532219298364" output="Out" input="In:Start" end="7186603224649848035">
 		<Start class="Actions::StartLogic"/>
 		<End class="Story::QuestLogic"/>
+	</Connect>
+	<Node file="escapetheintersection.quest">
+		<Editor>
+			<Position x="135" y="30"/>
+		</Editor>
+	</Node>
+	<Connect start="7186729177650300998" output="Out:End" input="In" end="7182574531691833107">
+		<Start class="Story::QuestLogic"/>
+		<End class="Actions::EndLogic"/>
 	</Connect>
 </Node>
 

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7186729177650300998">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7186729176808066583"/>
+		<Attribute name="m_Name" value="EscapeTheIntersection"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7186729177386758791">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-435" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7186729177386758791" output="Out" input="In" end="7186729263232891365">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::PlaySequenceLogic"/>
+	</Connect>
+	<Connect start="7186729177386758791" output="Out" input="In" end="7186729597937599338">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186729177346589094">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="200" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7186729263232891365">
+		<Logic type="Story::PlaySequenceLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_SequenceEntity">
+				<Entity name="intersection/~2512/rs_barricade_gate_sq"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-195" y="135"/>
+		</Editor>
+	</Node>
+	<Connect start="7186729263232891365" output="Out" input="In" end="7186729177346589094">
+		<Start class="Story::PlaySequenceLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186729597937599338">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities"/>
+		</Logic>
+		<Editor>
+			<Position x="-120" y="-120"/>
+		</Editor>
+	</Node>
+</Node>
+
