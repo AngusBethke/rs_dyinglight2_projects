@@ -1,0 +1,144 @@
+---
+- Sequence:
+  - ClassName: CutsceneSequence
+  - Field:
+    - Name: m_HideHud
+    - Value: 0
+  - Field:
+    - Name: m_Length
+    - Value: 5.000000
+  - Field:
+    - Name: m_ConfigName
+    - Value: Cutscene
+  - Field:
+    - Name: m_Uid
+    - Value: 7187042813662032162
+  - Track:
+    - ClassName: Actions::SceneTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Scene
+    - Field:
+      - Name: m_Uid
+      - Value: 7187042813022169899
+  - Track:
+    - ClassName: Actions::EntityTrack
+    - Field:
+      - Name: m_EntityPath
+      - Value: ./spin_light
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Entity
+    - Field:
+      - Name: m_Uid
+      - Value: 7187043143636755420
+    - SubTrack:
+      - ClassName: Actions::EntityPositionSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7187043145076728026
+      - Key:
+        - ClassName: Actions::PositionKey
+        - Field:
+          - Name: m_Point
+          - Value: -130.064957 5.378999 6.156999
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043214020676108
+      - Key:
+        - ClassName: Actions::PositionKey
+        - Field:
+          - Name: m_Point
+          - Value: -130.064957 5.378999 6.156999
+        - Field:
+          - Name: m_Start
+          - Value: 2.490000
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043299222082763
+    - SubTrack:
+      - ClassName: Actions::EntityRotationSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7187043145101887468
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_InPoint
+          - Value: 0.000000 14.999998 0.000000
+        - Field:
+          - Name: m_OutPoint
+          - Value: 0.000000 14.999998 0.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043213536045216
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: 0.000000 -180.000000 0.000000
+        - Field:
+          - Name: m_InPoint
+          - Value: 0.000000 -945.000000 0.000000
+        - Field:
+          - Name: m_OutPoint
+          - Value: 0.000000 -945.000000 0.000000
+        - Field:
+          - Name: m_Start
+          - Value: 2.490000
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043298203646703
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: 0.000000 -360.000000 0.000000
+        - Field:
+          - Name: m_Start
+          - Value: 4.991699
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043857409148593
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: 0.000000 -360.000000 0.000000
+        - Field:
+          - Name: m_InPoint
+          - Value: 0.000000 -29.999985 0.000000
+        - Field:
+          - Name: m_OutPoint
+          - Value: 0.000000 -29.999985 0.000000
+        - Field:
+          - Name: m_Start
+          - Value: 5.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043776215708948
+    - SubTrack:
+      - ClassName: Actions::EntityScaleSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7187043145006944572
+      - Key:
+        - ClassName: Actions::ScaleKey
+        - Field:
+          - Name: m_Point
+          - Value: 19.999987 19.999987 19.999987
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043212819845887
+      - Key:
+        - ClassName: Actions::ScaleKey
+        - Field:
+          - Name: m_Point
+          - Value: 19.999987 19.999987 19.999987
+        - Field:
+          - Name: m_Start
+          - Value: 2.490000
+        - Field:
+          - Name: m_Uid
+          - Value: 7187043298720898622
+...

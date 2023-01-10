@@ -9,6 +9,21 @@
 			<Attribute name="objective" value="Default"/>
 		</Object>
 	</Logic>
+	<Node type="Actions::Node" uid="7187052473379068573">
+		<Logic type="Story::FinishCampaignLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_SpawnPoint">
+				<Entity name=""/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="480" y="180"/>
+		</Editor>
+	</Node>
 	<Node file="setupquest.quest">
 		<Editor>
 			<Position x="-900" y="45"/>
@@ -60,6 +75,10 @@
 	<Connect start="7186729177650300998" output="Out:End" input="In" end="7182574531691833107">
 		<Start class="Story::QuestLogic"/>
 		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Connect start="7186729177650300998" output="Out:End" input="In" end="7187052473379068573">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::FinishCampaignLogic"/>
 	</Connect>
 </Node>
 

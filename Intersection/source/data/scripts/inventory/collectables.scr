@@ -18434,8 +18434,36 @@ sub main()
 
     Item("Collectable_Note_Runner_1", CategoryType_Collectable)
     {
-        Name("&obj_7182575286504599899_text&");
-        Description('&obj_7182575286504599899_descr&');
+        Name("&obj_7187058280632117038_text&");
+        Description('&obj_7187058280632117038_descr&');
+        ItemType(ItemType_Note);
+        Price(0);
+        Mesh("coll_note_a.msh");
+        Skin("Letter_D");
+        use PickupSounds_Default();
+        Texture("coll_item_letter_icon");
+        Color(Color_Orange);
+        HudIcon("coll_item_letter_icon");
+    }
+
+    Item("Collectable_Note_Journal_1", CategoryType_Collectable)
+    {
+        Name("&obj_7187058139013871809_text&");
+        Description('&obj_7187058139013871809_descr&');
+        ItemType(ItemType_Note);
+        Price(0);
+        Mesh("coll_note_a.msh");
+        Skin("Letter_D");
+        use PickupSounds_Default();
+        Texture("coll_item_letter_icon");
+        Color(Color_Orange);
+        HudIcon("coll_item_letter_icon");
+    }
+
+    Item("Collectable_Note_Journal_2", CategoryType_Collectable)
+    {
+        Name("&obj_7187058241162902021_text&");
+        Description('&obj_7187058241162902021_descr&');
         ItemType(ItemType_Note);
         Price(0);
         Mesh("coll_note_a.msh");

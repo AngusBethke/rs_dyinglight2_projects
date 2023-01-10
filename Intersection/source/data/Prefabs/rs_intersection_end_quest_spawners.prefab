@@ -113,7 +113,7 @@
             "m_Name": [12, "rs_end_quest_ai_spawner_wave"],
             "m_PcId": [6, 10],
             "m_PrefabName": [12, "ai_spawner_wave"],
-            "m_PresetNames": [12, "Spawner_Difficulty;Tier_2"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
             "m_Scale": [14, [61.8838272, 6.7944679, 50.6547241]],
             "m_Translate": [14, [-18.4821624, -0.9480196, -3.1134176]]
           },
@@ -125,13 +125,14 @@
             "m_NumberOfWaves": "5",
             "m_PointsSource": "4",
             "m_Preset": "Character;Viral",
+            "m_PresetPoolName": "Darkzone_Viral_Mix_Generic",
             "m_ShuffleSpawnPoints": "1",
             "m_WaveMaxDelay": "0.000000",
             "m_WaveMinDelay": "0.000000"
           },
           "EmbeddedObject": {
             "Class": "UserDefinedDifficultyRange",
-            "PresetNames": "Difficulty;Tier_2",
+            "PresetNames": "Difficulty;Tier_7",
             "DestinationField": "m_DifficultyRangeSource"
           }
         },

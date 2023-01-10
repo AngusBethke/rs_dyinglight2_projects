@@ -5,23 +5,23 @@ sub main()
 {
     Entry(`obj_7186729176808066583_descr`)
     {
-        Text(En, ALL, ``);
+        Text(En, ALL, `I need to get the Eastern gate open now that I have got the power up and running. It should be fairly straightforward… hit the button, fight off the Infected, make a run for it. I hope it goes according to plan.`);
     }
     Entry(`obj_7186729176808066583_text`)
     {
-        Text(En, ALL, `EscapeTheIntersection`);
+        Text(En, ALL, `Escape the Intersection`);
     }
     Entry(`obj_7186918456685678849_compl_desc`)
     {
-        Text(En, ALL, `Survive the Attack`);
+        Text(En, ALL, `Survived the Attack.`);
     }
     Entry(`obj_7186918456685678849_descr`)
     {
-        Text(En, ALL, `Survive the Attack`);
+        Text(En, ALL, `Here come the Virals, exactly what Jean said would happen. Time to take care of them.`);
     }
     Entry(`obj_7186918456685678849_fail_desc`)
     {
-        Text(En, ALL, `Survive the Attack`);
+        Text(En, ALL, `Survived the Attack.`);
     }
     Entry(`obj_7186918456685678849_text`)
     {
@@ -29,18 +29,34 @@ sub main()
     }
     Entry(`obj_7186918516227521266_compl_desc`)
     {
-        Text(En, ALL, `Escape`);
+        Text(En, ALL, `Escaped the Intersection.`);
     }
     Entry(`obj_7186918516227521266_descr`)
     {
-        Text(En, ALL, `Escape`);
+        Text(En, ALL, `Gate’s open, time to get out of this god forsaken intersection.`);
     }
     Entry(`obj_7186918516227521266_fail_desc`)
     {
-        Text(En, ALL, `Escape`);
+        Text(En, ALL, `Escaped the Intersection.`);
     }
     Entry(`obj_7186918516227521266_text`)
     {
         Text(En, ALL, `Escape`);
+    }
+    Entry(`obj_7187044893018058239_compl_desc`)
+    {
+        Text(En, ALL, `Opened the Gate.`);
+    }
+    Entry(`obj_7187044893018058239_descr`)
+    {
+        Text(En, ALL, `The gate’s all powered up, all that’s left to do is open the gate and kick this all off.`);
+    }
+    Entry(`obj_7187044893018058239_fail_desc`)
+    {
+        Text(En, ALL, `Opened the Gate.`);
+    }
+    Entry(`obj_7187044893018058239_text`)
+    {
+        Text(En, ALL, `Open the Gate`);
     }
 }
