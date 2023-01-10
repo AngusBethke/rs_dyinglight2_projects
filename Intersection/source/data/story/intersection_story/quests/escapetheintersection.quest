@@ -15,26 +15,82 @@
 			<Entity name=""/>
 		</Entities>
 	</Logic>
+	<Node type="Actions::Node" uid="7186918739969993344">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Setup the Attack and Sequence"/>
+			<Attribute name="m_Size" value="960.000000 182.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="-480" y="-225"/>
+		</Editor>
+	</Node>
 	<Node type="Actions::Node" uid="7186729177386758791">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>
-			<Position x="-435" y="0"/>
+			<Position x="-1035" y="-150"/>
 		</Editor>
 	</Node>
-	<Connect start="7186729177386758791" output="Out" input="In" end="7186729263232891365">
+	<Connect start="7186729177386758791" output="Out" input="In" end="7186921518897493522">
 		<Start class="Actions::StartLogic"/>
-		<End class="Story::PlaySequenceLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
-	<Connect start="7186729177386758791" output="Out" input="In" end="7186729597937599338">
-		<Start class="Actions::StartLogic"/>
-		<End class="Story::EnableLogic"/>
+	<Node type="Actions::Node" uid="7186918152255663504">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7186918516227521266"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-570" y="360"/>
+		</Editor>
+	</Node>
+	<Connect start="7186918152255663504" output="Out" input="In" end="7186918181519690216">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::GoToLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7186729177346589094">
 		<Logic type="Actions::EndLogic"/>
 		<Editor>
-			<Position x="200" y="0"/>
+			<Position x="600" y="0"/>
 		</Editor>
 	</Node>
+	<Node type="Actions::Node" uid="7186918112532345807">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7186918456685678849"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="180" y="150"/>
+		</Editor>
+	</Node>
+	<Connect start="7186918112532345807" output="Out" input="In" end="7186918152255663504">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186918151431647706">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7186918516227521266"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="180" y="360"/>
+		</Editor>
+	</Node>
+	<Connect start="7186918151431647706" output="Out" input="In" end="7186729177346589094">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7186729263232891365">
 		<Logic type="Story::PlaySequenceLogic">
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -47,12 +103,121 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-195" y="135"/>
+			<Position x="215" y="-160"/>
 		</Editor>
 	</Node>
-	<Connect start="7186729263232891365" output="Out" input="In" end="7186729177346589094">
-		<Start class="Story::PlaySequenceLogic"/>
-		<End class="Actions::EndLogic"/>
+	<Node type="Actions::Node" uid="7186918181519690216">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="7.500000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="intersection/MapEnd"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-210" y="360"/>
+		</Editor>
+	</Node>
+	<Connect start="7186918181519690216" output="Out" input="In" end="7186918151431647706">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186918087294236656">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7186918456685678849"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-570" y="150"/>
+		</Editor>
+	</Node>
+	<Connect start="7186918087294236656" output="Out" input="In" end="7186917951211892801">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186924169553406216">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="15.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-465" y="-165"/>
+		</Editor>
+	</Node>
+	<Connect start="7186924169553406216" output="Out" input="In" end="7186729597937599338">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186921518897493522">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Escape Attack"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="intersection/Q3_RP_1_SurviveAttack"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-795" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7186921518897493522" output="Out" input="In" end="7186918087294236656">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Connect start="7186921518897493522" output="Out" input="In" end="7186924169553406216">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7186918659965107239">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Surive the Attack"/>
+			<Attribute name="m_Size" value="1065.000000 182.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="-590" y="85"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7186918710032882733">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Escape"/>
+			<Attribute name="m_Size" value="1065.000000 228.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="-590" y="295"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7186917951211892801">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="160.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-195" y="150"/>
+		</Editor>
+	</Node>
+	<Connect start="7186917951211892801" output="Out" input="In" end="7186918112532345807">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7186729597937599338">
 		<Logic type="Story::EnableLogic">
@@ -61,11 +226,17 @@
 				<Attribute name="indicator_type" value="Default"/>
 				<Attribute name="objective" value="Default"/>
 			</Object>
-			<Entities name="m_Entities"/>
+			<Entities name="m_Entities">
+				<Entity name="intersection/~2513/rs_end_quest_ai_spawner_wave"/>
+			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-120" y="-120"/>
+			<Position x="-135" y="-165"/>
 		</Editor>
 	</Node>
+	<Connect start="7186729597937599338" output="Out" input="In" end="7186729263232891365">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::PlaySequenceLogic"/>
+	</Connect>
 </Node>
 

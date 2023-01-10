@@ -203,9 +203,9 @@
 			<Position x="-90" y="0"/>
 		</Editor>
 	</Node>
-	<Connect start="7186357692222656430" output="Out:End" input="In:Start" end="7186609489558962112">
+	<Connect start="7186357692222656430" output="Out:End" input="In" end="7186921249529345390">
 		<Start class="Story::GroupLogic"/>
-		<End class="Story::GroupLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
 	<Node type="Actions::Group" uid="7186357954243884722">
 		<Logic type="Story::GroupLogic">
@@ -708,6 +708,26 @@
 		<Start class="Story::GroupLogic"/>
 		<End class="Story::GroupLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7186921227487254004">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Restore Power Banshee"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="intersection/Q2_RP_2_KillBanshee"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1215" y="-15"/>
+		</Editor>
+	</Node>
+	<Connect start="7186921227487254004" output="Out" input="In:Start" end="7186357954243884722">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
 	<Node type="Actions::Group" uid="7186357728042936615">
 		<Logic type="Story::GroupLogic">
 			<Attribute name="m_Name" value="Puzzle Objective 9"/>
@@ -804,15 +824,35 @@
 		<Start class="Story::GroupLogic"/>
 		<End class="Story::GroupLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7186919986446786603">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Restore Power Start"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="intersection/Q2_RP_1_StartPoint"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1230" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7186919986446786603" output="Out" input="In:Start" end="7186650060140403605">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7182575288105120813">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>
-			<Position x="-1185" y="-301"/>
+			<Position x="-1485" y="-300"/>
 		</Editor>
 	</Node>
-	<Connect start="7182575288105120813" output="Out" input="In:Start" end="7186650060140403605">
+	<Connect start="7182575288105120813" output="Out" input="In" end="7186919986446786603">
 		<Start class="Actions::StartLogic"/>
-		<End class="Story::GroupLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
 	<Node type="Actions::Group" uid="7186357258991239478">
 		<Logic type="Story::GroupLogic">
@@ -1238,6 +1278,26 @@
 		<Start class="Story::GroupLogic"/>
 		<End class="Story::GroupLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7186921249529345390">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Restore Power Demolisher"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="intersection/Q2_RP_3_KillDemolisher"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1215" y="135"/>
+		</Editor>
+	</Node>
+	<Connect start="7186921249529345390" output="Out" input="In:Start" end="7186609489558962112">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
 	<Node type="Actions::Group" uid="7186356873588244852">
 		<Logic type="Story::GroupLogic">
 			<Attribute name="m_Name" value="Puzzle Objective 1"/>
@@ -1522,9 +1582,9 @@
 			<Position x="180" y="-150"/>
 		</Editor>
 	</Node>
-	<Connect start="7186357581553013881" output="Out:End" input="In:Start" end="7186357954243884722">
+	<Connect start="7186357581553013881" output="Out:End" input="In" end="7186921227487254004">
 		<Start class="Story::GroupLogic"/>
-		<End class="Story::GroupLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7182575287828822138">
 		<Logic type="Actions::EndLogic"/>
