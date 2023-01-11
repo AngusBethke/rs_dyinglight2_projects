@@ -181,9 +181,9 @@
 			<Position x="-975" y="210"/>
 		</Editor>
 	</Node>
-	<Connect start="7187057717745355852" output="Out" input="In" end="7186603317638115739">
+	<Connect start="7187057717745355852" output="Out" input="In" end="7187444873263104876">
 		<Start class="Story::SetRewardLogic"/>
-		<End class="Story::DisableGenericHintsLogic"/>
+		<End class="Story::DisableLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7186603319153663565">
 		<Logic type="Story::SetPlayerPresetLogic">
@@ -201,6 +201,27 @@
 	<Connect start="7186603319153663565" output="Out" input="In" end="7187057717745355852">
 		<Start class="Story::SetPlayerPresetLogic"/>
 		<End class="Story::SetRewardLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7187444873263104876">
+		<Logic type="Story::DisableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="intersection/rs_quest_respawn_1"/>
+				<Entity name="intersection/rs_quest_respawn_2"/>
+				<Entity name="intersection/rs_quest_respawn_3"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-975" y="390"/>
+		</Editor>
+	</Node>
+	<Connect start="7187444873263104876" output="Out" input="In" end="7186603317638115739">
+		<Start class="Story::DisableLogic"/>
+		<End class="Story::DisableGenericHintsLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7187058435008674419">
 		<Logic type="Story::CompleteObjectiveLogic">
