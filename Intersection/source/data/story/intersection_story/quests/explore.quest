@@ -24,10 +24,11 @@
 			</Object>
 			<Entities name="m_Entities">
 				<Entity name="intersection/rs_quest_respawn_2"/>
+				<Entity name="intersection/~2482/rs_cable_source_6"/>
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-1200" y="-120"/>
+			<Position x="-1170" y="-135"/>
 		</Editor>
 	</Node>
 	<Connect start="7187445278127558804" output="Out" input="In:Start" end="7186357954243884722">
@@ -880,6 +881,26 @@
 		<Start class="Story::GroupLogic"/>
 		<End class="Story::GroupLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7188024663990140649">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Restore Power Puzzle Start"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="intersection/Q2_RP_1_StartPoint"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1455" y="-165"/>
+		</Editor>
+	</Node>
+	<Connect start="7188024663990140649" output="Out" input="In:Start" end="7186356873588244852">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7186921227487254004">
 		<Logic type="Story::PointOfInterestLogic">
 			<Attribute name="m_Name" value="Restore Power Banshee"/>
@@ -1206,6 +1227,7 @@
 			</Object>
 			<Entities name="m_Entities">
 				<Entity name="intersection/rs_quest_respawn_3"/>
+				<Entity name="intersection/~2482/rs_cable_source_9"/>
 			</Entities>
 		</Logic>
 		<Editor>
@@ -1445,9 +1467,9 @@
 			<Position x="-390" y="-300"/>
 		</Editor>
 	</Node>
-	<Connect start="7186650210496348778" output="Out:End" input="In:Start" end="7186356873588244852">
+	<Connect start="7186650210496348778" output="Out:End" input="In" end="7188024663990140649">
 		<Start class="Story::GroupLogic"/>
-		<End class="Story::GroupLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
 	<Node type="Actions::Group" uid="7186357663024139372">
 		<Logic type="Story::GroupLogic">

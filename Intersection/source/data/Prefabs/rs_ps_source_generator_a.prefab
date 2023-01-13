@@ -1,0 +1,379 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "m_DestinationEntity",
+            "Init": "e:EDIT;f:EDIT;l:m_DestinationEntity;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "m_DestinationEntity"
+              }
+            ]
+          },
+          {
+            "Name": "m_CableLength",
+            "Init": "e:EDIT;f:EDIT;l:m_CableLength;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "m_CableLength"
+              }
+            ]
+          },
+          {
+            "Name": "m_Detachable",
+            "Init": "e:EDIT;f:EDIT;l:m_Detachable;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "m_Detachable"
+              }
+            ]
+          },
+          {
+            "Name": "Number",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Virtual fields;l:Number;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Wall_Decal_Painted"
+              }
+            ]
+          },
+          {
+            "Name": "m_ClippingXformEntity",
+            "Init": "f:EDIT;e:BROWSE_OBJECT;c:Light;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "m_ClippingXformEntity"
+              },
+              {
+                "Uuid": "11",
+                "Name": "m_ClippingXformEntity"
+              }
+            ]
+          },
+          {
+            "Name": "m_ClippingXformEntity_1",
+            "Init": "f:EDIT;e:BROWSE_OBJECT;c:Light;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "m_ClippingXformEntity_1"
+              },
+              {
+                "Uuid": "11",
+                "Name": "m_ClippingXformEntity_1"
+              }
+            ]
+          },
+          {
+            "Name": "EnvProbeGenExclude",
+            "Init": "f:EDIT;e:EDIT;c:Light;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "EnvProbeGenExclude"
+              },
+              {
+                "Uuid": "11",
+                "Name": "EnvProbeGenExclude"
+              }
+            ]
+          },
+          {
+            "Name": "cbs::IEnable::m_State",
+            "Init": "e:EDIT;f:EDIT|QUEST;l:Enabled;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "cbs::IEnable::m_State"
+              },
+              {
+                "Uuid": "2",
+                "Name": "cbs::IEnable::m_State"
+              },
+              {
+                "Uuid": "15",
+                "Name": "cbs::IEnable::m_State"
+              }
+            ]
+          },
+          {
+            "Name": "CableSourceSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Virtual fields;l:CableSourceSkin;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Bindings": {
+        "Properties": [],
+        "Pipes": [
+          {
+            "src_uuid": "6",
+            "src": "m_PipeOnCableAttached",
+            "dest_uuid": "11",
+            "dest": "m_PipeActivate"
+          },
+          {
+            "src_uuid": "6",
+            "src": "m_PipeOnCableAttached",
+            "dest_uuid": "2",
+            "dest": "m_PipeDeactivate"
+          },
+          {
+            "src_uuid": "6",
+            "src": "m_PipeOnCableDetached",
+            "dest_uuid": "2",
+            "dest": "m_PipeActivate"
+          },
+          {
+            "src_uuid": "6",
+            "src": "m_PipeOnCableDetached",
+            "dest_uuid": "11",
+            "dest": "m_PipeDeactivate"
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0068753, 1.1908195, 0.0176412, 0.2899285, 1.1994733, 0.3590951]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;es_cable_source_a"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000122]],
+            "m_Translate": [14, [0.0, 0.0, 0.238655]]
+          },
+          "Fields": {
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, -3.5762786865234377e-7, 1.0, 1.0, 1.0000001]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Omni;LightVisibility;Exterior"],
+            "m_Rotate": [14, [-98.4999923, 0.0, -0.0]],
+            "m_Scale": [14, [2.5999999, 2.8340001, 2.6000003]],
+            "m_Translate": [14, [-0.0042722, 1.8541419, -0.7067871]]
+          },
+          "Fields": {
+            "Attenuation": "10.000000",
+            "Color": "0.600000 1.000000 0.000000",
+            "EnvProbeGenExclude": "1",
+            "Intensity": "1.000000",
+            "cbs::IEnable::m_CanBeBatched": "0",
+            "cbs::IEnable::m_State": "0",
+            "m_UseLodMesh": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.2027828, 1.2028973, 0.0380147, 0.4597828, 1.2078974, 0.3345097]],
+            "m_Name": [12, "cable_source"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "quest_cable_source"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [0.0, 0.0, 0.238655]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_SelfActive": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, -4.172325134277344e-7, 1.0000002, 1.0000002, 1.0000002]],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "LightVisibility;Exterior"],
+            "m_Rotate": [14, [-98.5, 0.0, -0.0]],
+            "m_Scale": [14, [2.5999999, 2.8340001, 2.6000001]],
+            "m_Translate": [14, [-0.0042722, 1.8541419, -0.7067871]]
+          },
+          "Fields": {
+            "Attenuation": "2.000000",
+            "Color": "1.000000 1.000000 0.000000",
+            "EnvProbeGenExclude": "1",
+            "Intensity": "0.600000",
+            "Projector": "ph/source/data/textures/light_projectors/soft/soft_dark_center_b_prj.png",
+            "Projector mip range": "0.000000 0.000000",
+            "cbs::IEnable::m_State": "1",
+            "m_SelfActive": "0",
+            "m_UseLodMesh": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "wall_decal_painted"],
+            "m_PresetNames": [12, "Wall_Decal_Painted_skin;hash;Generic_prop_color;Beige_b"],
+            "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
+            "m_Scale": [14, [0.2659991, 0.2659991, 0.2659991]],
+            "m_Translate": [14, [-0.0013423, 2.0625228, -0.0255126]]
+          },
+          "Fields": {
+            "UserData": "4286588421 128 4294901760 0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0072238, 0.316679, -0.0515863, 0.3523895, 0.3085488, 0.0288945]],
+            "m_Name": [12, "APE_cable_source_loop"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "audiopointemitter"],
+            "m_Rotate": [14, [-0.0003382, 82.0000152, 0.0003365]],
+            "m_Translate": [14, [-0.0044554, 1.5065946, -0.0246581]]
+          },
+          "Fields": {
+            "EventName": "sfx_cable_source_loop",
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0131697, 0.0175835, 0.0000114, 0.4007746, 0.015169, 0.4007785]],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "lamp"],
+            "m_PresetNames": [12, "Lamp Preset;glowstick_a green"],
+            "m_Rotate": [14, [174.6913299, -83.645317, 169.4297485]],
+            "m_Scale": [14, [0.6528661, 0.6528664, 0.6528651]],
+            "m_Translate": [14, [0.0038719, 2.3847281, -0.0009917]]
+          },
+          "Fields": {
+            "UserData": "70818560 128 4294901760 0",
+            "m_ExternalLights": "",
+            "m_LampEmissiveMaxValue": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0000027, 1.0773998, 1.0774004, 1.0774009]],
+            "m_Name": [12, "light omni med"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Omni"],
+            "m_Rotate": [14, [-171.480957, 36.136116, -96.387825]],
+            "m_Scale": [14, [2.3645508, 4.1537518, 4.6159162]],
+            "m_Translate": [14, [0.032627, 2.5283651, 0.0053329]]
+          },
+          "Fields": {
+            "Attenuation": "3.000000",
+            "Color": "0.450980 1.000000 0.792157",
+            "Intensity": "0.500000",
+            "cbs::IEnable::m_State": "1",
+            "m_ClippingXformEntity": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, -1.1920928955078126e-7, 1.0773999, 1.0773999, 1.0773999]],
+            "m_Name": [12, "light omni small"],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Omni"],
+            "m_Rotate": [14, [-171.4809722, 36.1360816, -96.3877563]],
+            "m_Scale": [14, [0.7251185, 1.019469, 1.0652265]],
+            "m_Translate": [14, [0.0058479, 2.5284261, -0.014366]]
+          },
+          "Fields": {
+            "Attenuation": "2.000000",
+            "Color": "0.411765 1.000000 0.607843",
+            "Intensity": "0.800000",
+            "cbs::IEnable::m_State": "1",
+            "m_ClippingXformEntity": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Nodes": [
+        {
+          "Uuid": "1",
+          "Type": "1",
+          "X": "-615.00",
+          "Y": "-975.00"
+        },
+        {
+          "Uuid": "2",
+          "Type": "1",
+          "X": "1140.00",
+          "Y": "240.00"
+        },
+        {
+          "Uuid": "6",
+          "Type": "1",
+          "X": "270.00",
+          "Y": "600.00"
+        },
+        {
+          "Uuid": "11",
+          "Type": "1",
+          "X": "1140.00",
+          "Y": "1140.00"
+        },
+        {
+          "Uuid": "12",
+          "Type": "1",
+          "X": "285.00",
+          "Y": "-90.00"
+        },
+        {
+          "Uuid": "14",
+          "Type": "1",
+          "X": "-180.00",
+          "Y": "-960.00"
+        },
+        {
+          "Uuid": "15",
+          "Type": "1",
+          "X": "300.00",
+          "Y": "-1140.00"
+        },
+        {
+          "Uuid": "7",
+          "Type": "4",
+          "X": "-745.00",
+          "Y": "640.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "8",
+          "Type": "4",
+          "X": "-720.00",
+          "Y": "660.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "9",
+          "Type": "4",
+          "X": "-405.00",
+          "Y": "945.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}

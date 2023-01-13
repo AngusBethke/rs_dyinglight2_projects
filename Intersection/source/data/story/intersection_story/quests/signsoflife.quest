@@ -151,6 +151,27 @@
 		<Start class="Story::GroupLogic"/>
 		<End class="Story::SetRewardLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7188003842306361010">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="intersection/rs_respawn_1"/>
+				<Entity name="intersection/rs_respawn_2"/>
+				<Entity name="intersection/rs_respawn_3"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-585" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7188003842306361010" output="Out" input="In:Start" end="7186644609037920708">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
 	<Node type="Actions::Group" uid="7186644609037920708">
 		<Logic type="Story::GroupLogic">
 			<Attribute name="m_Name" value="FindInfo"/>
@@ -345,9 +366,9 @@
 			<Position x="-720" y="0"/>
 		</Editor>
 	</Node>
-	<Connect start="7186659771342993487" output="Out:End" input="In:Start" end="7186644609037920708">
+	<Connect start="7186659771342993487" output="Out:End" input="In" end="7188003842306361010">
 		<Start class="Story::GroupLogic"/>
-		<End class="Story::GroupLogic"/>
+		<End class="Story::EnableLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7186583767030482044">
 		<Logic type="Actions::StartLogic"/>

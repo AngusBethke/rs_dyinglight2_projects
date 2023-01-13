@@ -8,14 +8,14 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_1"],
             "m_PcId": [6, 1],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Translate": [14, [144.4733123, 21.115942, 107.8328552]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~4/~6;",
-            "Number": "1"
+            "ControlledObjects": "/~4;",
+            "Number": "1",
+            "m_Detachable": "1"
           }
         },
         {
@@ -23,14 +23,12 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_1"],
             "m_PcId": [6, 2],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [-180.0, -0.0000051, -180.0]],
             "m_Translate": [14, [168.4710083, 1.0096035, 93.5751266]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "1",
-            "cbs::IEnable::m_State": "0",
             "m_CableLength": "52.000000",
             "m_DestinationEntity": "/~1/~5"
           }
@@ -49,14 +47,12 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_2"],
             "m_PcId": [6, 4],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Translate": [14, [142.1215057, 21.1150035, 107.1543579]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "2",
-            "cbs::IEnable::m_State": "0",
             "m_CableLength": "60.000000",
             "m_DestinationEntity": "/~5/~5"
           }
@@ -66,14 +62,14 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_2"],
             "m_PcId": [6, 5],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Translate": [14, [133.3136138, 13.9571332, 157.3322601]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~6/~6;",
-            "Number": "2"
+            "ControlledObjects": "/~6;",
+            "Number": "2",
+            "m_Detachable": "1"
           }
         },
         {
@@ -81,14 +77,12 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_3"],
             "m_PcId": [6, 6],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Translate": [14, [133.6660156, 13.9570026, 158.9133758]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "3",
-            "cbs::IEnable::m_State": "0",
             "m_CableLength": "105.000000",
             "m_DestinationEntity": "/~8/~5"
           }
@@ -98,17 +92,14 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_4"],
             "m_PcId": [6, 7],
-            "m_PrefabName": [12, "ps_source_generator_a"],
-            "m_Rotate": [14, [-0.0, 15.0000066, -0.0]],
-            "m_Translate": [14, [65.1308593, 13.8348989, 194.714981]]
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Translate": [14, [65.6020965, 13.8348989, 194.6643066]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "4",
-            "cbs::IEnable::m_State": "0",
-            "m_CableLength": "72.000000",
-            "m_DestinationEntity": "/~10/~5",
-            "m_Detachable": "1"
+            "m_CableLength": "75.000000",
+            "m_DestinationEntity": "/~10/~5"
           }
         },
         {
@@ -116,13 +107,12 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_3"],
             "m_PcId": [6, 8],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
-            "m_Rotate": [14, [-180.0, -15.0000047, -180.0]],
-            "m_Translate": [14, [65.2902679, 13.8350296, 195.333374]]
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [179.9999847, 30.0, 180.0]],
+            "m_Translate": [14, [65.2775497, 13.8350296, 195.2142944]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~7/~6;",
+            "ControlledObjects": "/~7;",
             "Number": "3"
           }
         },
@@ -131,14 +121,12 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_5"],
             "m_PcId": [6, 9],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [-0.0, 29.9999961, -0.0]],
             "m_Translate": [14, [67.2486419, 24.9857711, 137.3835144]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "5",
-            "cbs::IEnable::m_State": "0",
             "m_CableLength": "40.000000",
             "m_DestinationEntity": "/~12/~5"
           }
@@ -148,14 +136,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_4"],
             "m_PcId": [6, 10],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.0000046, -60.0000038, 0.0000096]],
             "m_Scale": [14, [0.9999994, 0.9999994, 0.9999992]],
             "m_Translate": [14, [68.1684875, 24.9859008, 138.6100158]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~9/~6;",
+            "ControlledObjects": "/~9;",
             "Number": "4"
           }
         },
@@ -164,15 +151,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_6"],
             "m_PcId": [6, 11],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [-0.0, 30.0, -0.0]],
             "m_Translate": [14, [48.0664749, 28.0330219, 116.2845306]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "6",
-            "cbs::IEnable::m_State": "0",
-            "m_CableLength": "40.000000",
+            "m_CableLength": "28.000000",
             "m_DestinationEntity": "/~13/~5"
           }
         },
@@ -181,14 +166,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_5"],
             "m_PcId": [6, 12],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [179.9999847, 60.0000038, -179.9999847]],
             "m_Scale": [14, [0.9999992, 0.9999994, 0.9999992]],
             "m_Translate": [14, [45.6601028, 28.9540824, 119.3215637]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~11/~6;",
+            "ControlledObjects": "/~11;",
             "Number": "5"
           }
         },
@@ -197,14 +181,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_6"],
             "m_PcId": [6, 13],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.000003, 29.9999961, -0.0000127]],
             "m_Scale": [14, [0.9999991, 0.9999991, 0.9999989]],
             "m_Translate": [14, [36.5618743, 11.9858551, 123.3380966]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~15/~6;",
+            "ControlledObjects": "/~15;",
             "Number": "6"
           }
         },
@@ -213,14 +196,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_7"],
             "m_PcId": [6, 14],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.0000032, 30.0, -0.0000128]],
             "m_Scale": [14, [0.9999991, 0.9999991, 0.9999991]],
             "m_Translate": [14, [34.0759506, 28.9465332, 126.2906341]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~16/~6;",
+            "ControlledObjects": "/~16;",
             "Number": "7"
           }
         },
@@ -229,15 +211,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_7"],
             "m_PcId": [6, 15],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [-0.0, 29.999998, -0.0]],
             "m_Translate": [14, [35.0200042, 11.9860019, 123.8072967]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "7",
-            "cbs::IEnable::m_State": "0",
-            "m_CableLength": "40.000000",
+            "m_CableLength": "52.000000",
             "m_DestinationEntity": "/~14/~5"
           }
         },
@@ -246,14 +226,12 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_8"],
             "m_PcId": [6, 16],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [-180.0, -29.9999961, -180.0]],
             "m_Translate": [14, [24.1133575, 33.9869041, 136.3647766]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "8",
-            "cbs::IEnable::m_State": "0",
             "m_CableLength": "95.000000",
             "m_DestinationEntity": "/~17/~5"
           }
@@ -263,14 +241,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_8"],
             "m_PcId": [6, 17],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.0, -90.0, -0.000011]],
             "m_Scale": [14, [0.9999992, 0.9999991, 0.9999991]],
             "m_Translate": [14, [1.5717697, 17.6009845, 210.9825744]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~18/~6;",
+            "ControlledObjects": "/~18;",
             "Number": "8"
           }
         },
@@ -279,15 +256,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_9"],
             "m_PcId": [6, 18],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [-180.0, 0.0000168, -180.0]],
             "m_Translate": [14, [-25.6924972, -0.0058169, 232.2140808]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "9",
-            "cbs::IEnable::m_State": "0",
-            "m_CableLength": "60.000000",
+            "m_CableLength": "75.000000",
             "m_DestinationEntity": "/~19/~5"
           }
         },
@@ -296,14 +271,13 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_9"],
             "m_PcId": [6, 19],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.0, -90.0, -0.000011]],
             "m_Scale": [14, [0.9999991, 0.9999989, 0.9999989]],
             "m_Translate": [14, [-65.3687667, 23.9621334, 249.3054046]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
-            "ControlledObjects": "/~20/~6;",
+            "ControlledObjects": "/~20;",
             "Number": "9"
           }
         },
@@ -312,22 +286,20 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_source_a"],
             "m_PcId": [6, 20],
-            "m_PrefabName": [12, "ps_source_generator_a"],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Translate": [14, [-65.0167312, 23.9620037, 247.7038574]]
           },
           "Fields": {
-            "CableSourceSkin": "Default",
             "Number": "a",
-            "cbs::IEnable::m_State": "0",
-            "m_CableLength": "120.000000",
+            "m_CableLength": "115.000000",
             "m_DestinationEntity": "/~83/~5"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.1520933, -0.4793545, 0.00086, 0.5029376, 0.5079443, 0.0814132]],
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079424, 0.0814132]],
             "m_PcId": [6, 21],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
@@ -360,7 +332,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
             "m_PcId": [6, 24],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -420,7 +392,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.055175]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
             "m_PcId": [6, 29],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -444,7 +416,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.055175]],
             "m_PcId": [6, 31],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -456,7 +428,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.055175]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.055175]],
             "m_PcId": [6, 32],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -468,7 +440,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.055175]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.0551751]],
             "m_PcId": [6, 33],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -503,7 +475,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
             "m_PcId": [6, 36],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -514,7 +486,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003198, 0.3328385, 0.5000052, 0.055176]],
             "m_PcId": [6, 37],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -525,7 +497,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003198, 0.3328385, 0.5000052, 0.055176]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
             "m_PcId": [6, 38],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -537,7 +509,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003198, 0.3328385, 0.5000051, 0.055176]],
             "m_PcId": [6, 39],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -585,7 +557,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
             "m_PcId": [6, 43],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -609,7 +581,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
             "m_PcId": [6, 45],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -621,7 +593,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
             "m_PcId": [6, 46],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -633,7 +605,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
             "m_PcId": [6, 47],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -645,7 +617,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
             "m_PcId": [6, 48],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -657,7 +629,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
             "m_PcId": [6, 49],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -669,7 +641,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003113, 0.3328385, 0.5000052, 0.055177]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
             "m_PcId": [6, 50],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -681,7 +653,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003112, 0.3328385, 0.5000052, 0.055177]],
             "m_PcId": [6, 51],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -693,7 +665,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003113, 0.3328385, 0.5000052, 0.055177]],
             "m_PcId": [6, 52],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -717,7 +689,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.0008599, 0.5029357, 0.5079423, 0.0814132]],
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.0008599, 0.5029357, 0.5079424, 0.0814132]],
             "m_PcId": [6, 54],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
@@ -740,7 +712,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003169, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003198, 0.3328385, 0.5000052, 0.055176]],
             "m_PcId": [6, 56],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -752,7 +724,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079424, 0.0814132]],
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079423, 0.0814132]],
             "m_PcId": [6, 57],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
@@ -763,7 +735,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
             "m_PcId": [6, 58],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -775,7 +747,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
             "m_PcId": [6, 59],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -787,7 +759,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
             "m_PcId": [6, 60],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -799,7 +771,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.4999951, 0.000317, 0.3328404, 0.5000051, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
             "m_PcId": [6, 61],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -811,7 +783,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003198, 0.3328385, 0.5000051, 0.055176]],
             "m_PcId": [6, 62],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -835,7 +807,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
             "m_PcId": [6, 64],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -880,7 +852,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [-7.152557373046875e-7, -0.4999952, 0.000317, 0.3328404, 0.5000052, 0.0551751]],
             "m_PcId": [6, 68],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -892,7 +864,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999895, 0.000317, 0.3328385, 0.5000071, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328386, 0.5000053, 0.0551751]],
             "m_PcId": [6, 69],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -903,7 +875,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999895, 0.000317, 0.3328385, 0.5000071, 0.0551751]],
             "m_PcId": [6, 70],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -915,7 +887,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.4999952, 0.000317, 0.3328404, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
             "m_PcId": [6, 71],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -927,7 +899,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.4999951, 0.000317, 0.3328404, 0.5000051, 0.055175]],
+            "m_EntityComponentsExtents": [69, [0.0000049, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
             "m_PcId": [6, 72],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -939,7 +911,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.4999952, 0.000317, 0.3328404, 0.5000052, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.5000066, 0.000317, 0.3328385, 0.500009, 0.0551751]],
             "m_PcId": [6, 73],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -951,7 +923,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000066, 0.000317, 0.3328404, 0.500009, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.5000009, 0.000317, 0.3328385, 0.5000071, 0.055175]],
             "m_PcId": [6, 74],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -963,7 +935,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000009, 0.000317, 0.3328404, 0.5000071, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.5000009, 0.000317, 0.3328385, 0.5000071, 0.0551751]],
             "m_PcId": [6, 75],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -975,7 +947,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.500001, 0.000317, 0.3328404, 0.5000072, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.000005, -0.500001, 0.000317, 0.3328385, 0.5000072, 0.0551751]],
             "m_PcId": [6, 76],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -987,7 +959,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000009, 0.000317, 0.3328404, 0.5000071, 0.055175]],
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.4999951, 0.000317, 0.3328404, 0.5000051, 0.055175]],
             "m_PcId": [6, 77],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -999,7 +971,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000009, 0.000317, 0.3328403, 0.5000071, 0.055175]],
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000066, 0.000317, 0.3328404, 0.500009, 0.0551751]],
             "m_PcId": [6, 78],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -1011,7 +983,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.5000009, 0.000317, 0.3328385, 0.5000071, 0.055175]],
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000066, 0.000317, 0.3328404, 0.500009, 0.0551751]],
             "m_PcId": [6, 79],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -1023,7 +995,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, -0.5000009, 0.000317, 0.3328385, 0.5000071, 0.0551751]],
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000009, 0.000317, 0.3328404, 0.5000071, 0.055175]],
             "m_PcId": [6, 80],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
@@ -1060,13 +1032,12 @@
           "PrefabFieldsNative": {
             "m_Name": [12, "rs_cable_destination_a"],
             "m_PcId": [6, 83],
-            "m_PrefabName": [12, "ps_destination_generator_a"],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
             "m_Rotate": [14, [0.0, -90.0, -0.0000109]],
             "m_Scale": [14, [0.9999988, 0.9999988, 0.9999988]],
             "m_Translate": [14, [-25.0735549, 0.1673803, 164.4412078]]
           },
           "Fields": {
-            "CableDestSkin": "Default",
             "Number": "a"
           }
         },
@@ -1741,7 +1712,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
             "m_PcId": [6, 142],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1752,7 +1723,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
             "m_PcId": [6, 143],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1763,7 +1734,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
             "m_PcId": [6, 144],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1807,7 +1778,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897122, 0.0004996, 1.8364892, 1.9938499, 0.8764854]],
             "m_PcId": [6, 148],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1818,7 +1789,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897122, 0.0004996, 1.8364887, 1.9938499, 0.8764854]],
             "m_PcId": [6, 149],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1830,7 +1801,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364886, 1.9938493, 0.8764852]],
             "m_PcId": [6, 150],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1854,7 +1825,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897122, 0.0004996, 1.8364887, 1.9938499, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897117, 0.0004996, 1.8364892, 1.9938495, 0.8764852]],
             "m_PcId": [6, 152],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1866,7 +1837,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364887, 1.9938493, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897122, 0.0004996, 1.8364892, 1.9938499, 0.8764854]],
             "m_PcId": [6, 153],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1878,7 +1849,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364886, 1.9938495, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364887, 1.9938493, 0.8764851]],
             "m_PcId": [6, 154],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1890,7 +1861,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364887, 1.9938493, 0.8764851]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
             "m_PcId": [6, 155],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1902,7 +1873,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364886, 1.9938493, 0.8764851]],
             "m_PcId": [6, 156],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1914,7 +1885,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364886, 1.9938493, 0.8764851]],
             "m_PcId": [6, 157],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1926,7 +1897,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364887, 1.9938493, 0.8764852]],
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
             "m_PcId": [6, 158],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1938,7 +1909,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897122, 0.0004996, 1.8364892, 1.9938499, 0.8764854]],
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897117, 0.0004996, 1.8364892, 1.9938495, 0.8764852]],
             "m_PcId": [6, 159],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
@@ -1961,7 +1932,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.9179933]],
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
             "m_PcId": [6, 161],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
@@ -1972,7 +1943,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.9179933]],
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
             "m_PcId": [6, 162],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
@@ -2016,7 +1987,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336235, -0.0420081, 1.9089944, 1.5993368, 0.917993]],
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
             "m_PcId": [6, 166],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
@@ -2027,7 +1998,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336242, -0.0420081, 1.908995, 1.5993375, 0.9179933]],
             "m_PcId": [6, 167],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
@@ -2038,7 +2009,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336242, -0.0420081, 1.908995, 1.5993375, 0.9179933]],
             "m_PcId": [6, 168],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
@@ -2203,7 +2174,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249338, 0.0004999, 0.0929012, 1.9538378, 1.9522256]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
             "m_PcId": [6, 188],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2215,7 +2186,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004971, 0.0929011, 1.9538381, 1.9522266]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004971, 0.0929009, 1.9538381, 1.9522266]],
             "m_PcId": [6, 189],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2251,7 +2222,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249345, 0.0004999, 0.0929009, 1.9538385, 1.9522261]],
             "m_PcId": [6, 192],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2263,7 +2234,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929011, 1.9538381, 1.9522256]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929012, 1.9538381, 1.9522256]],
             "m_PcId": [6, 193],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2275,7 +2246,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0005028, 0.0929011, 1.9538381, 1.9522266]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0005028, 0.0929012, 1.9538381, 1.9522266]],
             "m_PcId": [6, 194],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2287,7 +2258,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000497, 2.0249345, 0.0004984, 0.092902, 1.9538385, 1.9522265]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249345, 0.0004984, 0.0929011, 1.9538385, 1.9522265]],
             "m_PcId": [6, 195],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2299,7 +2270,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249345, 0.0004999, 0.0929011, 1.9538385, 1.9522256]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929011, 1.9538381, 1.9522256]],
             "m_PcId": [6, 196],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2311,7 +2282,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0005013, 0.0929009, 1.9538381, 1.9522261]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249338, 0.0005013, 0.0929009, 1.9538378, 1.9522259]],
             "m_PcId": [6, 197],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2323,7 +2294,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249326, 0.0004999, 0.0929009, 1.9538385, 1.9522256]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249323, 0.0004999, 0.0929009, 1.9538383, 1.9522255]],
             "m_PcId": [6, 198],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2335,7 +2306,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249311, 0.0004999, 0.0929009, 1.953839, 1.9522256]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249314, 0.0004999, 0.092901, 1.9538393, 1.9522261]],
             "m_PcId": [6, 199],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -2370,12 +2341,12 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0133005, 0.0547411, 0.0262629, 0.1376377, 0.0633226, 2.81482]],
+            "m_EntityComponentsExtents": [69, [0.0133005, 0.0547411, 0.0262629, 0.1376375, 0.0633226, 2.81482]],
             "m_PcId": [6, 206],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;pa_interaction_plank_a"],
-            "m_Rotate": [14, [-0.0, -30.0000038, -0.0]],
-            "m_Translate": [14, [44.7101402, 13.5478916, 131.1139526]]
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Translate": [14, [44.3705978, 13.5478916, 131.7393188]]
           }
         },
         {
@@ -2386,7 +2357,7 @@
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;pa_interaction_plank_b"],
             "m_Rotate": [14, [-179.9999847, 30.0000076, -179.9999847]],
-            "m_Translate": [14, [45.0924263, 13.5922107, 131.3739929]]
+            "m_Translate": [14, [44.7528839, 13.5922107, 131.9993591]]
           }
         },
         {
@@ -2461,6 +2432,14 @@
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Scale": [14, [0.2557545, 0.2557544, 0.2557544]],
             "m_Translate": [14, [-25.1736526, 1.9299354, 162.5115661]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 216],
+            "m_PrefabName": [12, "rs_parkour_cable_arrows"],
+            "m_Translate": [14, [167.7121276, 1.056342, 97.5477218]]
           }
         }
       ]
