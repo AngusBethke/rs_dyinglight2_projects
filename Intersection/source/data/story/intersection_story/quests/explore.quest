@@ -28,7 +28,7 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-1170" y="-135"/>
+			<Position x="-1170" y="0"/>
 		</Editor>
 	</Node>
 	<Connect start="7187445278127558804" output="Out" input="In:Start" end="7186357954243884722">
@@ -44,6 +44,23 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188497987657137559">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="345" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7188497987657137559" output="Out" input="In" end="7188497964881338472">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186646779823115171">
 			<Logic type="Story::StartObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186646882079563315"/>
@@ -61,6 +78,29 @@
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::GoToLogic"/>
 		</Connect>
+		<Connect start="7186646779823115171" output="Out" input="In" end="7188498343580720827">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188498343580720827">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/MapStart_Generator"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="105" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7188498343580720827" output="Out" input="In" end="7188497987657137559">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186650059455079459">
 			<Logic type="Actions::StartLogic"/>
 			<Editor>
@@ -74,7 +114,7 @@
 		<Node type="Actions::Node" uid="7186650000506480718">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Find Objective"/>
-				<Attribute name="m_Size" value="975.000000 205.000000"/>
+				<Attribute name="m_Size" value="975.000000 415.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="76" y="33"/>
@@ -100,6 +140,21 @@
 			<Start class="Story::GoToLogic"/>
 			<End class="Story::CompleteObjectiveLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188497964881338472">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/MapStart_Generator"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="660" y="300"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186650059404315261">
 			<Logic type="Actions::EndLogic"/>
 			<Editor>
@@ -140,10 +195,25 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188500885778303382">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_8/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="904" y="306"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186357693211024040">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1278.000000 228.000000"/>
+				<Attribute name="m_Size" value="1278.000000 408.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -176,12 +246,16 @@
 				</Object>
 			</Logic>
 			<Editor>
-				<Position x="125" y="128"/>
+				<Position x="135" y="135"/>
 			</Editor>
 		</Node>
 		<Connect start="7186357693581193435" output="Out" input="In" end="7186357693085730533">
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
+		</Connect>
+		<Connect start="7186357693581193435" output="Out" input="In" end="7188500886584184665">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7186357693085730533">
 			<Logic type="Story::WaitForPuzzleLogic">
@@ -230,6 +304,42 @@
 		<Connect start="7186357692465509630" output="Out" input="In" end="7186357693581193435">
 			<Start class="Actions::StartLogic"/>
 			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188500885970207319">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="589" y="306"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500885970207319" output="Out" input="In" end="7188500885778303382">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188500886584184665">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_8/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="315" y="315"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500886584184665" output="Out" input="In" end="7188500885970207319">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7186357692307407993">
 			<Logic type="Actions::EndLogic"/>
@@ -351,6 +461,23 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188500156299956111">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="568" y="311"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500156299956111" output="Out" input="In" end="7188500156791052533">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357243133800632">
 			<Logic type="Actions::StartLogic"/>
 			<Editor>
@@ -396,6 +523,10 @@
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
 		</Connect>
+		<Connect start="7186357243032003823" output="Out" input="In" end="7188500155837888113">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357241330319088">
 			<Logic type="Story::CompleteObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358427490134530"/>
@@ -413,6 +544,21 @@
 			<Start class="Story::CompleteObjectiveLogic"/>
 			<End class="Story::SetDayTimeLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500156791052533">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_2/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="883" y="311"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186357243190410531">
 			<Logic type="Story::WaitForPuzzleLogic">
 				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -436,7 +582,7 @@
 		<Node type="Actions::Node" uid="7186357242722557234">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1263.000000 228.000000"/>
+				<Attribute name="m_Size" value="1263.000000 423.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -448,6 +594,25 @@
 				<Position x="1469" y="63"/>
 			</Editor>
 		</Node>
+		<Node type="Actions::Node" uid="7188500155837888113">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_2/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="300" y="315"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500155837888113" output="Out" input="In" end="7188500156299956111">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Editor>
 			<Position x="-390" y="-150"/>
 		</Editor>
@@ -587,12 +752,12 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-1050" y="-495"/>
+			<Position x="-1230" y="-570"/>
 		</Editor>
 	</Node>
-	<Connect start="7187115175039483334" output="Out" input="In:Start" end="7186650060140403605">
+	<Connect start="7187115175039483334" output="Out" input="In" end="7188497372113193527">
 		<Start class="Story::DisableLogic"/>
-		<End class="Story::GroupLogic"/>
+		<End class="Story::ShowLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7187115674381606354">
 		<Logic type="Story::EnableLogic">
@@ -642,6 +807,23 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188500649370140040">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="545" y="327"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500649370140040" output="Out" input="In" end="7188500650072636184">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357616629901477">
 			<Logic type="Story::StartObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358574004280996"/>
@@ -659,15 +841,38 @@
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
 		</Connect>
+		<Connect start="7186357616629901477" output="Out" input="In" end="7188500650380122077">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357615107467218">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1263.000000 228.000000"/>
+				<Attribute name="m_Size" value="1263.000000 423.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
 			</Editor>
 		</Node>
+		<Node type="Actions::Node" uid="7188500650380122077">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_6/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="285" y="330"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500650380122077" output="Out" input="In" end="7188500649370140040">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7187049457308636167">
 			<Logic type="Story::SetDayTimeLogic">
 				<Attribute name="m_Hour" value="20"/>
@@ -696,6 +901,21 @@
 			<Start class="Actions::StartLogic"/>
 			<End class="Story::StartObjectiveLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500650072636184">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_6/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="860" y="327"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186357616946629445">
 			<Logic type="Actions::EndLogic"/>
 			<Editor>
@@ -756,6 +976,25 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188500435472863888">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_4/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="330" y="330"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500435472863888" output="Out" input="In" end="7188500434478111719">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357285296297907">
 			<Logic type="Story::StartObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358513631195307"/>
@@ -772,6 +1011,10 @@
 		<Connect start="7186357285296297907" output="Out" input="In" end="7186357284604402204">
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
+		</Connect>
+		<Connect start="7186357285296297907" output="Out" input="In" end="7188500435472863888">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7186357285783970500">
 			<Logic type="Actions::EndLogic"/>
@@ -796,6 +1039,23 @@
 			<Start class="Story::CompleteObjectiveLogic"/>
 			<End class="Story::EnableLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500434478111719">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="590" y="327"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500434478111719" output="Out" input="In" end="7188500435574705947">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7187049237848973322">
 			<Logic type="Story::SetDayTimeLogic">
 				<Attribute name="m_Hour" value="19"/>
@@ -814,6 +1074,21 @@
 			<Start class="Story::SetDayTimeLogic"/>
 			<End class="Actions::EndLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500435574705947">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_4/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="905" y="327"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186357284604402204">
 			<Logic type="Story::WaitForPuzzleLogic">
 				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -867,7 +1142,7 @@
 		<Node type="Actions::Node" uid="7186357286086027388">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1503.000000 228.000000"/>
+				<Attribute name="m_Size" value="1503.000000 423.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -914,7 +1189,7 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-1215" y="-15"/>
+			<Position x="-1455" y="-15"/>
 		</Editor>
 	</Node>
 	<Connect start="7186921227487254004" output="Out" input="In" end="7187445278127558804">
@@ -949,6 +1224,25 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188501005622105756">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_9/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="285" y="330"/>
+			</Editor>
+		</Node>
+		<Connect start="7188501005622105756" output="Out" input="In" end="7188501006793152301">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357727585838752">
 			<Logic type="Story::CompleteObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358655609450456"/>
@@ -966,6 +1260,21 @@
 			<Start class="Story::CompleteObjectiveLogic"/>
 			<End class="Story::SetDayTimeLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188501006597249190">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_9/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="867" y="327"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186357727845069497">
 			<Logic type="Story::StartObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358655609450456"/>
@@ -982,6 +1291,10 @@
 		<Connect start="7186357727845069497" output="Out" input="In" end="7186357727259589478">
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
+		</Connect>
+		<Connect start="7186357727845069497" output="Out" input="In" end="7188501005622105756">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7186357728125072826">
 			<Logic type="Actions::EndLogic"/>
@@ -1017,10 +1330,27 @@
 			<Start class="Story::SetDayTimeLogic"/>
 			<End class="Actions::EndLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188501006793152301">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="552" y="327"/>
+			</Editor>
+		</Node>
+		<Connect start="7188501006793152301" output="Out" input="In" end="7188501006597249190">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357728592602949">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1263.000000 228.000000"/>
+				<Attribute name="m_Size" value="1263.000000 453.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -1128,6 +1458,25 @@
 			<Start class="Actions::StartLogic"/>
 			<End class="Story::StartObjectiveLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500285906771403">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_3/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="255" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500285906771403" output="Out" input="In" end="7188500284729492579">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357259857549014">
 			<Logic type="Story::StartObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358478193687628"/>
@@ -1144,6 +1493,10 @@
 		<Connect start="7186357259857549014" output="Out" input="In" end="7186357260151289842">
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
+		</Connect>
+		<Connect start="7186357259857549014" output="Out" input="In" end="7188500285906771403">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7186357260151289842">
 			<Logic type="Story::WaitForPuzzleLogic">
@@ -1182,10 +1535,42 @@
 			<Start class="Story::CompleteObjectiveLogic"/>
 			<End class="Story::SetDayTimeLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500284315806296">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_3/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="828" y="299"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7188500284729492579">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="513" y="299"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500284729492579" output="Out" input="In" end="7188500284315806296">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357259534200420">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1263.000000 228.000000"/>
+				<Attribute name="m_Size" value="1263.000000 393.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -1198,6 +1583,25 @@
 	<Connect start="7186357258991239478" output="Out:End" input="In" end="7187115674381606354">
 		<Start class="Story::GroupLogic"/>
 		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7188497372113193527">
+		<Logic type="Story::ShowLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="intersection/~2482/~216"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-930" y="-555"/>
+		</Editor>
+	</Node>
+	<Connect start="7188497372113193527" output="Out" input="In:Start" end="7186650060140403605">
+		<Start class="Story::ShowLogic"/>
+		<End class="Story::GroupLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7187115484388202297">
 		<Logic type="Story::EnableLogic">
@@ -1426,7 +1830,7 @@
 		<Node type="Actions::Node" uid="7186650115555907375">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Switch Objective 1"/>
-				<Attribute name="m_Size" value="1319.000000 303.000000"/>
+				<Attribute name="m_Size" value="1319.000000 318.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -1503,6 +1907,10 @@
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
 		</Connect>
+		<Connect start="7186357663218523840" output="Out" input="In" end="7188500770003019231">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357662926898113">
 			<Logic type="Story::WaitForPuzzleLogic">
 				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1523,6 +1931,57 @@
 			<Start class="Story::WaitForPuzzleLogic"/>
 			<End class="Story::CompleteObjectiveLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500770003019231">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_7/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="315" y="330"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500770003019231" output="Out" input="In" end="7188500770263303933">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188500770263303933">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="588" y="328"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500770263303933" output="Out" input="In" end="7188500769489959963">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188500769489959963">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_7/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="903" y="328"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186609845543202092">
 			<Logic type="Story::EnableLogic">
 				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1572,7 +2031,7 @@
 		<Node type="Actions::Node" uid="7186357663251013989">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1503.000000 228.000000"/>
+				<Attribute name="m_Size" value="1503.000000 438.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -1634,6 +2093,25 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188499611271573919">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_1/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="300" y="315"/>
+			</Editor>
+		</Node>
+		<Connect start="7188499611271573919" output="Out" input="In" end="7188499611170772259">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186356873215856079">
 			<Logic type="Actions::EndLogic"/>
 			<Editor>
@@ -1696,6 +2174,27 @@
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
 		</Connect>
+		<Connect start="7186345833845397520" output="Out" input="In" end="7188499611271573919">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188499611170772259">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="572" y="320"/>
+			</Editor>
+		</Node>
+		<Connect start="7188499611170772259" output="Out" input="In" end="7188499611379876181">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186356873840478763">
 			<Logic type="Actions::StartLogic"/>
 			<Editor>
@@ -1706,6 +2205,21 @@
 			<Start class="Actions::StartLogic"/>
 			<End class="Story::StartObjectiveLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188499611379876181">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_1/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="887" y="320"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186345868894313305">
 			<Logic type="Story::CompleteObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186346166425598986"/>
@@ -1726,7 +2240,7 @@
 		<Node type="Actions::Node" uid="7186356807760016752">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1263.000000 228.000000"/>
+				<Attribute name="m_Size" value="1263.000000 423.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
@@ -1749,6 +2263,23 @@
 				<Attribute name="objective" value="Default"/>
 			</Object>
 		</Logic>
+		<Node type="Actions::Node" uid="7188501138749436046">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="553" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7188501138749436046" output="Out" input="In" end="7188501140177717431">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357765645540508">
 			<Logic type="Actions::StartLogic"/>
 			<Editor>
@@ -1762,10 +2293,25 @@
 		<Node type="Actions::Node" uid="7186357765583919777">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1263.000000 228.000000"/>
+				<Attribute name="m_Size" value="1263.000000 393.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7188501140177717431">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_a/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="870" y="300"/>
 			</Editor>
 		</Node>
 		<Node type="Actions::Node" uid="7187049981821879229">
@@ -1823,6 +2369,29 @@
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
 		</Connect>
+		<Connect start="7186357765331743511" output="Out" input="In" end="7188501139794007604">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188501139794007604">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_a/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="285" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7188501139794007604" output="Out" input="In" end="7188501138749436046">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357766868874593">
 			<Logic type="Story::CompleteObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358702401446001"/>
@@ -1866,12 +2435,31 @@
 		<Node type="Actions::Node" uid="7186357580994462093">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Puzzle Objective"/>
-				<Attribute name="m_Size" value="1263.000000 228.000000"/>
+				<Attribute name="m_Size" value="1263.000000 378.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="106" y="63"/>
 			</Editor>
 		</Node>
+		<Node type="Actions::Node" uid="7188500542680709291">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_5/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="300" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500542680709291" output="Out" input="In" end="7188500543680505353">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186357580564417213">
 			<Logic type="Actions::EndLogic"/>
 			<Editor>
@@ -1888,6 +2476,21 @@
 			<Start class="Actions::StartLogic"/>
 			<End class="Story::StartObjectiveLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188500541993201653">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/~2482/rs_cable_destination_5/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="867" y="301"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Node" uid="7186357582120195843">
 			<Logic type="Story::StartObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186358543277611279"/>
@@ -1904,6 +2507,27 @@
 		<Connect start="7186357582120195843" output="Out" input="In" end="7186357582390385999">
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::WaitForPuzzleLogic"/>
+		</Connect>
+		<Connect start="7186357582120195843" output="Out" input="In" end="7188500542680709291">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7188500543680505353">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="552" y="301"/>
+			</Editor>
+		</Node>
+		<Connect start="7188500543680505353" output="Out" input="In" end="7188500541993201653">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7187049345418065443">
 			<Logic type="Story::SetDayTimeLogic">

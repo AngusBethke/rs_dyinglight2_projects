@@ -191,15 +191,51 @@
 			<Start class="Actions::StartLogic"/>
 			<End class="Story::StartObjectiveLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188498619365299868">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/MapStart_Gate"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="226" y="260"/>
+			</Editor>
+		</Node>
+		<Connect start="7188498619365299868" output="Out" input="In" end="7188498618749898176">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186644542204532136">
 			<Logic type="Actions::CommentLogic">
 				<Attribute name="m_Comment" value="Find Info"/>
-				<Attribute name="m_Size" value="1232.000000 228.000000"/>
+				<Attribute name="m_Size" value="1232.000000 393.000000"/>
 			</Logic>
 			<Editor>
 				<Position x="76" y="33"/>
 			</Editor>
 		</Node>
+		<Node type="Actions::Node" uid="7188498618749898176">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="180.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="466" y="260"/>
+			</Editor>
+		</Node>
+		<Connect start="7188498618749898176" output="Out" input="In" end="7188498619141807187">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
 		<Node type="Actions::Node" uid="7186644237024449992">
 			<Logic type="Story::StartObjectiveLogic">
 				<Attribute name="m_ObjectiveId" value="7186644340056982786"/>
@@ -216,6 +252,10 @@
 		<Connect start="7186644237024449992" output="Out" input="In" end="7186626575300191739">
 			<Start class="Story::StartObjectiveLogic"/>
 			<End class="Story::GoToLogic"/>
+		</Connect>
+		<Connect start="7186644237024449992" output="Out" input="In" end="7188498619365299868">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7186644609253928659">
 			<Logic type="Actions::EndLogic"/>
@@ -260,6 +300,21 @@
 			<Start class="Story::CompleteObjectiveLogic"/>
 			<End class="Actions::EndLogic"/>
 		</Connect>
+		<Node type="Actions::Node" uid="7188498619141807187">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="intersection/MapStart_Gate"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="781" y="260"/>
+			</Editor>
+		</Node>
 		<Editor>
 			<Position x="-480" y="0"/>
 		</Editor>
