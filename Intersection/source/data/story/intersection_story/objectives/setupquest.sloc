@@ -17,7 +17,11 @@ sub main()
     }
     Entry(`obj_7187058139013871809_descr`)
     {
-        Text(En, ALL, `After getting separated from Jean, I climbed through some ventilation shafts into this building… I’m running out of UV flares and need to make my way into the sunlight before the infection takes hold. Once I’ve accomplished that I’ll need to find Jean. I’ve only been here once before, but I remember the rough layout of the Intersection. The intersection forms the divide of two primary parts of town with a Canal seperating the Old Town (North) from the New Town (South). West of the intersection an old fashioned apartment complex (North) and a set of offices and apartments (South), East of the intersection a set of Townhouses (North) and a large modern apartment complex (South) for the main points of interest. There are four major military checkpoints that form the boundaries on the roads heading North, East, South and West. The Easternmost gate was one that the runners used to use to get in and out. If Jean was going to get Emily out, they would have to go through there.
+        Text(En, ALL, `After getting separated from Jean, I climbed through some ventilation shafts into this building… I’m running out of UV flares and need to make my way into the sunlight before the infection takes hold. Once I’ve accomplished that I’ll need to find Jean. I’ve only been here once before, but I remember the rough layout of the Intersection. 
+
+The intersection forms the divide of two primary parts of town with a Canal separating the Old Town (North) from the New Town (South). West of the intersection an old fashioned apartment complex (North) and a set of offices and apartments (South), East of the intersection a set of Townhouses (North) and a large modern apartment complex (South) for the main points of interest. There are four major military checkpoints that form the boundaries on the roads heading North, East, South and West. 
+
+The Easternmost gate was one that the runners used to use to get in and out. If Jean was going to get Emily out, they would have to go through there.
 
 - Oli`);
     }
@@ -61,7 +65,7 @@ See, even when I’m bleeding out my sense of humour is still better than yours�
 
 After the tunnel collapsed I spent a few hours looking for a way out, eventually I found one… right here in fact. I managed to get the gate to move enough for Emily to get through using a generator… but it lit up and attracted a stack of Virals. Emily’s made it through at least… but she’s all alone so you need to go find her and take her back somewhere safe. The only reason she agreed to come with me is because she found her mom… as one of those “things”... I can’t imagine what that must’ve felt like. 
 
-Anyway, the generator conked out while I was fighting the Virals off, they tore me up pretty good, and the gate closed. There is another way to get the gate open, we set it up back in the day to run off a generator hooked up to the base of an apartment complex South West of the Intersection. We then rigged a bunch of junction boxes between there and here to power it up. We stopped using it because of the bloody racket it made, but it should still work, we put everything back such that it wouldn’t get too banged up.
+Anyway, the generator conked out while I was fighting the Virals off, they tore me up pretty good, and the gate closed. There is another way to get the gate open, we set it up back in the day to run off a generator hooked up to the base of an apartment complex, just across from the Playground, South West of the Intersection. We then rigged a bunch of junction boxes between there and here to power it up. We stopped using it because of the bloody racket it made, but it should still work, we put everything back such that it wouldn’t get too banged up.
 
 I had a look at trying to get it set up now, but settled for the generator because some nasty things have taken up residence by some of the Junction boxes. You’ll need to get rid of them to ensure the connection doesn’t get severed. 
 
@@ -87,5 +91,235 @@ PS: If you get yourself killed doing this I’m going to find you in the afterli
     Entry(`obj_7187058280632117038_text`)
     {
         Text(En, ALL, `Note from Jean #1`);
+    }
+    Entry(`obj_7188786290650210087_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188786290650210087_descr`)
+    {
+        Text(En, ALL, `I’m putting this here because this is the second time (yes… it’s happened more than once) that Tom has forgotten why we’ve set the power up as we have: 
+
+We are running the power from this generator via Junction boxes we have set up on the rooftops. We do this because the streets are dangerous (the rooftops are as well, but less so). They are numbered and we’ve gone so far as to set up signs pointing towards the next one in order, so it should be dead simple to run the cables. Given the length of the path, we’re going to be assigning runners to sections, so that we can have a break in between runs. 
+
+Tom, you have 1, 4, 7, and A. I will be taking 2, 5, and 8. Angela is going to be running 3, 6, and 9. Make sure to log your progress at each point.
+
+First connection is on the roof just North-East of here, follow the arrows, can’t miss it.
+
+- Jon`);
+    }
+    Entry(`obj_7188786290650210087_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188786290650210087_text`)
+    {
+        Text(En, ALL, `Jon’s Note #1`);
+    }
+    Entry(`obj_7188786557502930029_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188786557502930029_descr`)
+    {
+        Text(En, ALL, `I’m leaving this here in case someone else comes through this way. 
+
+A group of Virals roamed into the tunnel earlier today, they do that from time to time. Anyway, Tom and I ended up kinda stuck, they were blocking our path into the intersection. We climbed up through a ventilation system and ended up in this building. As it turns out, a pretty decent pathway into the Intersection, one not frequented by the Infected - at least not until Tom had anything to say about it. We were on our way back… and we forgot which floor we came in through. Jon took the rest of the group out ahead of us, so Tom - in his infinite wisdom - decided to yell out for Jon to guide us back with sonar or something. Honestly I don’t know what goes through that man’s head half of the time. Unfortunately, as it turns out, there’s a friggen’ nest in this building. It was pure luck that we made it back here at all, you know, with having to backtrack in a full sprint and all… but we did do it. Only problem is that it looks like some infected have taken residence on this floor. So I’ve locked the door for good measure, and I’ve taken the key with me, find another way if you can… or don’t, I’m not your Mom.
+
+- Angela`);
+    }
+    Entry(`obj_7188786557502930029_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188786557502930029_text`)
+    {
+        Text(En, ALL, `Angela’s Note #1`);
+    }
+    Entry(`obj_7188786724508379595_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188786724508379595_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #2 is North of here, two buildings over across the canal. Sign’s pointing right at it.
+
+Run 1: There were a few slow ones up here today, easy enough to take care of. We rigged up a makeshift cover for the Junction boxes this week, should keep the elements off them well enough.
+- Jon
+
+Run 2: Run was boring today, nearly tripped, that’s about it. Also Jon’s a dick.
+- Tom
+
+Run 3: Added some planks so we don’t have to shimmy around the corner anymore. More biters found their way up here but I got rid of ‘em. Tom, don’t use this for personal messages, you’re gonna piss Jon off.
+- Ang
+
+Run 4: We need to do something about the slow bastards, they keep wandering up here… I don’t even know how, got rid of two more today. Junction boxes seem to be doing alright with the weather. Just need to make sure we seal them properly when we pack the cables away. Tom, just focus on getting the job done would you? 
+- Jon
+
+Run 5: I got the job… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188786724508379595_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188786724508379595_text`)
+    {
+        Text(En, ALL, `Junction Box #1 Log`);
+    }
+    Entry(`obj_7188786811536892359_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188786811536892359_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #3 is suspended above the intersection on the deconstructed crane, once again arrow’s pointing at it. We’ve also covered up the misleading blue arrows, Tom keeps getting confused.
+
+Run 1: Had a run in with… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188786811536892359_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188786811536892359_text`)
+    {
+        Text(En, ALL, `Junction Box #2 Log`);
+    }
+    Entry(`obj_7188786858833870101_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188786858833870101_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #4 is nestled on the mid-level of the crane. We’ve removed the ladders and replaced it with something only runners can get to… we’ve had an issue with looters recently but they ain’t getting up there.
+
+Run 1: Run smooth, nothing… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188786858833870101_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188786858833870101_text`)
+    {
+        Text(En, ALL, `Junction Box #3 Log`);
+    }
+    Entry(`obj_7188786901330121258_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188786901330121258_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #5 is at the top of the Apartment Block, Ziplines run to it, but the cable’s a bit short, I’m sure you guys can figure something out.
+
+Run 1: I NEARLY F*CKING DIED!!! Why did we replace a simple ladder with a GD wallrun? Yes, we’re runners and all that but this is just ridiculous. Upside is no biter’s making its way up here… still upset though.
+- Ang
+
+Run 2: Run was smooth, thankfully no rain today. Angela, you know why… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188786901330121258_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188786901330121258_text`)
+    {
+        Text(En, ALL, `Junction Box #4 Log`);
+    }
+    Entry(`obj_7188786952201006705_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188786952201006705_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #6 is in what used to be the maintenance room of this building… it’s not really recognizable anymore though. Just head down, you’ll find it.
+
+Run 1: Nothing to report except… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188786952201006705_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188786952201006705_text`)
+    {
+        Text(En, ALL, `Junction Box #5 Log`);
+    }
+    Entry(`obj_7188787000749048629_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188787000749048629_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #7 is pretty much directly above you right now. Dead simple to get to.
+
+Run 1: Why do I have to run this damn cable all the way down there, then bring it back up again?? Next time I’m just wiring them right across.
+- Tom
+
+Run 2: Biters wandering into the building all the time these days, took care of ‘em. Tom, the voltage is different, do you want to blow the whole system?
+- Ang
+
+Run 3: Helicopter wreck shifted today, nearly… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188787000749048629_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188787000749048629_text`)
+    {
+        Text(En, ALL, `Junction Box #6 Log`);
+    }
+    Entry(`obj_7188787060979067241_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188787060979067241_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #8 is on the roof of the Townhouses across the Canal. We set up a zipline running right there and signs subsequently to guide you the rest of the way.
+
+Run 1: Boring climb out… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188787060979067241_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188787060979067241_text`)
+    {
+        Text(En, ALL, `Junction Box #7 Log`);
+    }
+    Entry(`obj_7188787124019140234_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188787124019140234_descr`)
+    {
+        Text(En, ALL, `Note: Junction Box #9 is across the Canal east, way up on the Balcony of the large apartment complex. It should be relatively simple going.
+
+Run 1: Run smooth, nothing… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188787124019140234_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188787124019140234_text`)
+    {
+        Text(En, ALL, `Junction Box #8 Log`);
+    }
+    Entry(`obj_7188787179280328605_compl_desc`)
+    {
+        Text(En, ALL, `Completed`);
+    }
+    Entry(`obj_7188787179280328605_descr`)
+    {
+        Text(En, ALL, `Note: For the last damn time, Junction Box A connects to the Eastern Military gate. The cable’s plenty long, just run it along the wall south and you’ll bump right into the gate. Please stop asking where this goes!
+
+Run 1: Climbed up with difficulty, but managed, had to go find Tom, he got lost. I’m updating the log to remind everyone of the location of box A.
+- Jon
+
+Run 2: Would you stop implying I’m an… [page torn - rest unintelligible]`);
+    }
+    Entry(`obj_7188787179280328605_fail_desc`)
+    {
+        Text(En, ALL, `<No Entry>`);
+    }
+    Entry(`obj_7188787179280328605_text`)
+    {
+        Text(En, ALL, `Junction Box #9 Log`);
     }
 }
