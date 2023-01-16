@@ -163,7 +163,7 @@
 	<Node type="Actions::Node" uid="7186729177346589094">
 		<Logic type="Actions::EndLogic"/>
 		<Editor>
-			<Position x="615" y="405"/>
+			<Position x="945" y="390"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Node" uid="7187047791338042047">
@@ -278,9 +278,9 @@
 			<Position x="225" y="360"/>
 		</Editor>
 	</Node>
-	<Connect start="7186918151431647706" output="Out" input="In" end="7186729177346589094">
+	<Connect start="7186918151431647706" output="Out" input="In" end="7189187337764171072">
 		<Start class="Story::CompleteObjectiveLogic"/>
-		<End class="Actions::EndLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7187064400465443804">
 		<Logic type="Story::DisableLogic">
@@ -442,6 +442,26 @@
 			<Position x="-590" y="295"/>
 		</Editor>
 	</Node>
+	<Node type="Actions::Node" uid="7189187337764171072">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Escape Intersection"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="intersection/Q3_RP_1_SurviveAttack"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="630" y="375"/>
+		</Editor>
+	</Node>
+	<Connect start="7189187337764171072" output="Out" input="In" end="7186729177346589094">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7186917951211892801">
 		<Logic type="Story::WaitLogic">
 			<Attribute name="m_Delay" value="160.000000"/>
