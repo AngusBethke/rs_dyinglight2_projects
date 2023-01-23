@@ -131,9 +131,9 @@
 				<Position x="-224" y="33"/>
 			</Editor>
 		</Node>
-		<Connect start="7186628972298874618" output="Out" input="In" end="7186584412500788456">
+		<Connect start="7186628972298874618" output="Out" input="In" end="7191873338155887998">
 			<Start class="Actions::StartLogic"/>
-			<End class="Story::StartObjectiveLogic"/>
+			<End class="Story::PointOfInterestLogic"/>
 		</Connect>
 		<Node type="Actions::Node" uid="7186628778873372768">
 			<Logic type="Actions::CommentLogic">
@@ -144,6 +144,26 @@
 				<Position x="76" y="33"/>
 			</Editor>
 		</Node>
+		<Node type="Actions::Node" uid="7191873338155887998">
+			<Logic type="Story::PointOfInterestLogic">
+				<Attribute name="m_Name" value="Note Pickup"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Destination">
+					<Entity name="intersection/Q3_RP_1_SurviveAttack"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="-75" y="-150"/>
+			</Editor>
+		</Node>
+		<Connect start="7191873338155887998" output="Out" input="In" end="7186584412500788456">
+			<Start class="Story::PointOfInterestLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
 		<Editor>
 			<Position x="-270" y="0"/>
 		</Editor>
