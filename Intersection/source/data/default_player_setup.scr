@@ -1242,8 +1242,8 @@ sub main()
         Level(1, "Combat", 1.0);
 		Level(1, "Experience", 1.0);
 		
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
 		
     }
 	
@@ -1260,8 +1260,8 @@ sub main()
         //Skill("SurvivalSenseSkillDisable");
 		Level(1, "Traversal", 1.0);
         Level(1, "Combat", 1.0);
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
     }	
 	
 	Preset("Player_Prologue_Start")		// Quests Prologue 
@@ -1271,8 +1271,8 @@ sub main()
 		//use Stamina_Lvl_2(); // - player max stamina is set from story, to make sure that initial stamina on City is 0.0
 		Level(1, "Traversal", 1.0);
         Level(1, "Combat", 1.0);
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
     }
 	Preset("Player_Prologue_Mid")		// Quests Prologue 
     {
@@ -1281,16 +1281,16 @@ sub main()
 		use Stamina_Lvl_1();
 		Level(1, "Traversal", 1.0);
         Level(1, "Combat", 1.0);
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
     }
 	Preset("Player_Prologue_End")		// Quests Prologue 
     {
         //Skill("SurvivalSenseSkillDisable");
 		Level(1, "Traversal", 1.0);
         Level(1, "Combat", 1.0);
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
 		Skill("GreInhibitorDetector"); // Tool
     }
 
@@ -1305,8 +1305,8 @@ sub main()
         Level(2, "Combat", 1.0);
 		Level(4, "Experience", 1.0);
 		
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
 		
 		Item("Craftplan_Medkit_Small", 1, "");
 		Item("Medkit_Small", 1, "");
@@ -2190,8 +2190,8 @@ sub main()
 		Item("Plant_Honey", 5, "");
 		Item("Plant_Chamomile", 10, "");
 				
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
 		
 		Item("Craftplan_Medkit_Small", 1, "");
 		
@@ -2237,8 +2237,8 @@ sub main()
 		Item("Outfitset_MeleeDPS_TorsoAddon_Tier1_White", 1, "");
 		Item("Outfitset_MeleeDPS_Gloves_Tier1_White", 1, "");
 		
-		Item("outfit_pilgrim_bracers", 1, "");
-		Item("outfit_pilgrim_gloves", 1, "");
+		//Item("outfit_pilgrim_bracers", 1, "");
+		//Item("outfit_pilgrim_gloves", 1, "");
 		
 		Item("Collectable_Inhibitor_Q_001", 1, "");
 		Item("Collectable_Inhibitor_Q_002", 1, "");
@@ -3289,10 +3289,10 @@ sub main()
 		
 		Item("wpn_1hs_axe_i_fpp_r24", 1, "", "Violet");
 		Item("wpn_1hb_stk_g_fpp_r24", 1, "", "Violet");
-		Item("Medkit_Small", 10, "");
-		Item("Throwable_Molotov", 10, "");
-		Item("Mine_Explosive", 10, "");
-		Item("AI_Throwable_Knife", 10, "");
+		Item("Medkit_Small_Upgrade7", 5, "");
+		Item("Throwable_Molotov_Upgrade7", 5, "");
+		Item("Mine_Explosive_Upgrade7", 5, "");
+		Item("Throwable_ThrowingKnifeAGen_Upgrade7", 5, "");
 		//Item("Bundle_Outfit_Set_Nightrunner", 1, "");
 		Item("Bundle_Outfit_Set_PostApo", 1, "");
 
