@@ -1,0 +1,29 @@
+!include("surface.def")
+EnableNewSkins()
+
+Skin("Default")
+{
+    Replace("Arm.mat", "dummy.mat")
+    Replace("Terrain.mat", "dummy.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Metallic")
+{
+    Replace("Arm.mat", "Sand_Flat.mat")
+    Replace("Terrain.mat", "Sand_Flat.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Concrete")
+{
+    Replace("Arm.mat", "wd_bricks_tiled.mat")
+    Replace("Terrain.mat", "wd_bricks_tiled.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Unknown", "Unknown", "")
+}

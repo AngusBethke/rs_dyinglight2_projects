@@ -1,0 +1,8 @@
+sub main()
+{
+    mesh("sk_arm_low_new.msh");
+    mesh("sk_arm_low.msh");
+    
+    material("sk_arm_a.mat");
+    material("sk_arm_b.mat");
+}

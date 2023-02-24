@@ -1,0 +1,8 @@
+sub material()
+{
+  preset("opaque;cast_shadows_def;cast_shadows_on;dif_0_tex;nrm_0_tex;rgh_0_tex;spc_0_tex;");
+  dif_0_tex("sk_arm_a_dif.png");
+  nrm_0_tex("sk_arm_a_nrm.png");
+  rgh_0_tex("sk_arm_a_rgh.png");
+  spc_0_tex("sk_arm_a_spc.png");
+}
