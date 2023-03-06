@@ -1,0 +1,175 @@
+---
+- CHK_LEVEL:
+  - CHK_GSOBJECT_CLASS_FINAL: LevelDI
+  - CHK_LEVEL_VERSION: 46
+  - CHK_GSOBJECT_CPP_CLASSID: _CLEVEL
+  - CHK_LEVEL_ID_VALUE: 1226
+  - CHK_NAVMESH_PLUGIN_PARAMS:
+    - Params:
+      - ParamsVersion: 25
+      - CellSize: +7.99999982e-02
+      - CellHeight: +1.99999996e-02
+      - TileSize: +1.00000000e+02
+      - AgentHeight: +1.79999995e+00
+      - AgentRadius: +4.00000006e-01
+      - AgentMaxClimb: +3.00000012e-01
+      - AgentSlope: +5.00000000e+01
+      - RegionMergeSize: +3.20000000e+01
+      - EdgeMaxLen: +3.00000000e+01
+      - EdgeMaxError: +1.19999997e-01
+      - VertsPerPoly: 7
+      - DetailMeshSampleDist: +1.00000000e+00
+      - DetailMeshSampleMaxError: +5.00000000e-01
+      - RegionMinArea2DAfterAutoConnection: +1.00000000e+02
+      - MapAABB:
+        - Origin: +0.00000000e+00 +0.00000000e+00 +0.00000000e+00
+        - Span: +1.10000000e+03 +1.00100000e+03 +1.10000000e+03
+      - Flags: GENERATE_AUTO_CONNECTION|USE_USER_CONNECTIONS|ALWAYS_USE_DEFAULT_AUTO_CONNECTION_PARAMS
+      - ExcludedWaterDepth: +1.50000000e+00
+      - OceanLevel: -1.00000000e+07
+      - LimitWaterDepth: -1.00000000e+00
+      - AutoConnectionParams:
+        - Param:
+          - MinH: +3.00000012e-01
+          - MaxH: +1.10000002e+00
+          - MinDistFromCorner: +0.00000000e+00
+          - UserType: 1
+          - MinXzDistance: +0.00000000e+00
+          - MaxXzDistance: +1.00000000e+00
+          - MinAngleToHoriz: -1.00000000e+00
+          - MaxAngleToHoriz: -1.00000000e+00
+          - Description: 0.3m - 1.1m (jump low)
+          - VertWallSupportRequired: false
+        - Param:
+          - MinH: +1.00000000e+00
+          - MaxH: +3.90000010e+00
+          - MinDistFromCorner: +0.00000000e+00
+          - UserType: 2
+          - MinXzDistance: +0.00000000e+00
+          - MaxXzDistance: +1.20000005e+00
+          - MinAngleToHoriz: -1.00000000e+00
+          - MaxAngleToHoriz: -1.00000000e+00
+          - Description: 1.1m - 3.9m (jump medium)
+          - VertWallSupportRequired: false
+        - Param:
+          - MinH: +2.00000000e+00
+          - MaxH: +2.30000000e+01
+          - MinDistFromCorner: +0.00000000e+00
+          - UserType: 3
+          - MinXzDistance: +0.00000000e+00
+          - MaxXzDistance: +1.20000005e+00
+          - MinAngleToHoriz: -1.00000000e+00
+          - MaxAngleToHoriz: -1.00000000e+00
+          - Description: 2.0m - 23.0m (climb high)
+          - VertWallSupportRequired: true
+        - Param:
+          - MinH: +0.00000000e+00
+          - MaxH: +5.00000000e-01
+          - MinDistFromCorner: +0.00000000e+00
+          - UserType: 4
+          - MinXzDistance: +5.00000000e-01
+          - MaxXzDistance: +1.50000000e+00
+          - MinAngleToHoriz: -1.00000000e+00
+          - MaxAngleToHoriz: -1.00000000e+00
+          - Description: 0.5m - 1.5m (leap short)
+          - VertWallSupportRequired: false
+        - Param:
+          - MinH: +0.00000000e+00
+          - MaxH: +1.00000000e+00
+          - MinDistFromCorner: +0.00000000e+00
+          - UserType: 5
+          - MinXzDistance: +1.50000000e+00
+          - MaxXzDistance: +3.00000000e+00
+          - MinAngleToHoriz: -1.00000000e+00
+          - MaxAngleToHoriz: -1.00000000e+00
+          - Description: 1.5m - 3m (leap medium)
+          - VertWallSupportRequired: false
+        - Param:
+          - MinH: +0.00000000e+00
+          - MaxH: +1.50000000e+00
+          - MinDistFromCorner: +0.00000000e+00
+          - UserType: 6
+          - MinXzDistance: +3.00000000e+00
+          - MaxXzDistance: +6.00000000e+00
+          - MinAngleToHoriz: -1.00000000e+00
+          - MaxAngleToHoriz: -1.00000000e+00
+          - Description: 3m - 6m (leap long)
+          - VertWallSupportRequired: false
+        - Param:
+          - MinH: +0.00000000e+00
+          - MaxH: +1.50000000e+00
+          - MinDistFromCorner: +0.00000000e+00
+          - UserType: 6
+          - MinXzDistance: +6.00000000e+00
+          - MaxXzDistance: +1.00000000e+01
+          - MinAngleToHoriz: -1.00000000e+00
+          - MaxAngleToHoriz: -1.00000000e+00
+          - Description: 6m - 10m (leap ultra long)
+          - VertWallSupportRequired: false
+    - Tools:
+      - StartPos: +0.00000000e+00 +0.00000000e+00 +0.00000000e+00
+      - StartPosSet: false
+      - EndPos: +0.00000000e+00 +0.00000000e+00 +0.00000000e+00
+      - EndPosSet: false
+      - RaycastCalculated: false
+      - RaycastTrimmed: false
+      - RaycastStart: +0.00000000e+00 +0.00000000e+00 +0.00000000e+00
+      - RaycastNormal: +0.00000000e+00 +0.00000000e+00 +0.00000000e+00
+      - RaycastEndTrimmed: -nan -4.15383724e+34 -6.31960985e+29
+      - RaycastEnd: +0.00000000e+00 +0.00000000e+00 +0.00000000e+00
+      - DebugRenderMode: NavMesh|Contours|Connections|TileBounds
+      - CurrentTool: none
+  - CHK_EDITOR_RESDATA:
+    - CfgName: common
+    - PackPath: 
+  - CHK_EDITOR_ROAD_MGR: 
+  - CHK_LOFTER_MGR: 
+  - CHK_LEVEL_NEXTLOCALID: 1
+  - CHK_OBJECT_EDITOR_DATA:
+    - Flags: EDDATA_PHYSICS_ACTIVE|EDDATA_CAN_BE_STATIC
+    - Layer: 
+    - StaticGeomFlags: 256
+    - AlignToGroundHeight: +0.00000000e+00
+    - CombinedTags: 
+    - RandomSkinType: 0
+    - Comment: 
+    - LocalId: 0
+  - CHK_LEVEL_GRID:
+    - WorldExtent:
+      - Min: -1.00000000e+03 -1.00000000e+03 -1.00000000e+03
+      - Max: +1.00000000e+03 +1.00000000e+03 +1.00000000e+03
+    - CellSizeX: +2.00000000e+01
+    - CellSizeZ: +2.00000000e+01
+  - CHK_LEVEL_GRID_SAVED: 
+  - CHK_MESH_VISIBILITY_PARAMS: 
+  - CHK_LEVEL_COMMENT:
+    - Time: 2023-03-06 13:36:09.872
+    - ComputerName: ANGUS-LAPTOP
+    - UserName: angus
+    - Text: 
+  - CHK_LEVEL_SHAPES:
+    - CHK_GSOBJECT_CPP_CLASSID: _CUNKNOWN
+    - CHK_OBJECT_EDITOR_DATA:
+      - Flags: EDDATA_PHYSICS_ACTIVE|EDDATA_CAN_BE_STATIC
+      - Layer: 
+      - StaticGeomFlags: 0
+      - AlignToGroundHeight: +0.00000000e+00
+      - CombinedTags: 
+      - RandomSkinType: 0
+      - Comment: 
+      - LocalId: -1
+  - 191:
+    - CHK_GSOBJECT_CPP_CLASSID: _CUNKNOWN
+    - CHK_OBJECT_EDITOR_DATA:
+      - Flags: EDDATA_PHYSICS_ACTIVE|EDDATA_CAN_BE_STATIC
+      - Layer: 
+      - StaticGeomFlags: 0
+      - AlignToGroundHeight: +0.00000000e+00
+      - CombinedTags: 
+      - RandomSkinType: 0
+      - Comment: 
+      - LocalId: -1
+  - CHK_GSOBJECT_ID: 2
+  - CHK_OBJECT_ATTRIBUTES: 
+  - CHK_GSOBJECT_OWNER: -1
+...

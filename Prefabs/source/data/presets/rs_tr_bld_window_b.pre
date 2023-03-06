@@ -1,0 +1,19 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SELECTOR")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("SELECTOR", "Closed");
+        }
+        Preset("Open")
+        {
+            SetField("SELECTOR", "Open");
+        }
+    }
+}

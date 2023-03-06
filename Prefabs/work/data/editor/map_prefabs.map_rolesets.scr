@@ -1,4 +1,13 @@
 sub main()
 {
 	Version(2);
+	Roleset("rs_tr_bld_window_b")
+	{
+		CustomPaths()
+		{
+			Path("1;153;10;3");
+			Path("1;153;10;2");
+			Path("1;153;10;1");
+		}
+	}
 }
