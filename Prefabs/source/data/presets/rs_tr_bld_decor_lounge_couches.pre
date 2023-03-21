@@ -1,0 +1,31 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SELECTOR")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Armchairs A")
+        {
+            SetField("SELECTOR", "Armchairs A");
+        }
+        Preset("Armchairs B")
+        {
+            SetField("SELECTOR", "Armchairs B");
+        }
+        Preset("Sofa A")
+        {
+            SetField("SELECTOR", "Sofa A");
+        }
+        Preset("Sofa B")
+        {
+            SetField("SELECTOR", "Sofa B");
+        }
+        Preset("Sofa C")
+        {
+            SetField("SELECTOR", "Sofa C");
+        }
+    }
+}

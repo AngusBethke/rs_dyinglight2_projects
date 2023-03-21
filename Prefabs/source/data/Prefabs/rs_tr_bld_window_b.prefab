@@ -34,7 +34,7 @@
         {
           "Class": "CoRandomizer",
           "PrefabFieldsNative": {
-            "m_ControlledPrefabIds": [44, 2, 3],
+            "m_ControlledPrefabIds": [44, 2, 3, 7, 10, 11],
             "m_PcId": [6, 1]
           },
           "Presets": []
@@ -53,6 +53,45 @@
             "m_Name": [12, "Open"],
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_tr_bld_window_entrance_b"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Closed Clime-able"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_tr_bld_window_closed_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000114, -0.0000013, 0.0000061]]
+          },
+          "Fields": {
+            "SkinName": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open Blocked"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_tr_bld_window_entrance_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0002269, 0.0000019, 0.0003528]]
+          },
+          "Fields": {
+            "SkinName": "plastic_panel_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open Partially Blocked"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_tr_bld_window_entrance_d"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [0.9999998, 0.9999996, 0.9999994]]
+          },
+          "Fields": {
+            "SkinName": "plastic_panel_a_light"
           }
         }
       ]

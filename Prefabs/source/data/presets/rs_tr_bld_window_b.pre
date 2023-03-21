@@ -11,9 +11,21 @@ sub main()
         {
             SetField("SELECTOR", "Closed");
         }
+        Preset("Closed Clime-able")
+        {
+            SetField("SELECTOR", "Closed Clime-able");
+        }
         Preset("Open")
         {
             SetField("SELECTOR", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("SELECTOR", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("SELECTOR", "Open Partially Blocked");
         }
     }
 }
