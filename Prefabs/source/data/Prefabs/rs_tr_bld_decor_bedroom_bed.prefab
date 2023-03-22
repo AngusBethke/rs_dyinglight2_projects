@@ -1,0 +1,170 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "24",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.009446, 0.0492359, -0.0157206, 0.3761053, 0.0690283, 0.2506011]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;prp_pillow_dirty_c"],
+            "m_Rotate": [14, [-3.0157012, -9.9963455, -0.3152934]],
+            "m_Translate": [14, [0.2593994, 0.4533081, 0.4249229]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.009446, 0.0492356, -0.0157206, 0.3761052, 0.0690284, 0.250601]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;prp_pillow_dirty_c"],
+            "m_Rotate": [14, [3.7622325, 9.6498193, 3.4849324]],
+            "m_Translate": [14, [-0.3732928, 0.4999647, 0.4129647]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0108703, 0.1889634, 0.0024545, 0.5282289, 0.1889634, 0.943508]],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_cloth_big_a"],
+            "m_Rotate": [14, [-0.0, 15.0000019, -0.0]],
+            "m_Translate": [14, [0.1918125, 0.4308089, 1.4585951]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0543459, 0.1200885, -0.0497737, 0.5602416, 0.1200885, 0.5129727]],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_cloth_small_c"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [1.667587, 0.0245769, 5.2345538]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0397636, 0.1979711, 0.0494184, 0.5028656, 0.1979711, 0.4229176]],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_cloth_small_b"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-0.4455566, 0.4472998, 1.7364033]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0355651, 0.154392, 0.0720477, 0.4071631, 0.154392, 0.4184052]],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_cloth_small_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [1.75457, 0.0161016, 4.3247175]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bed A"],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_tr_bld_decor_bedroom_bed_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-0.0014646, 0.1277966, 0.0582351]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 21, 25, 26],
+            "m_PcId": [6, 24]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bed B"],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "rs_tr_bld_decor_bedroom_bed_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0014705, -0.0299963, 0.1669168]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bed C"],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "rs_tr_bld_decor_bedroom_bed_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0014705, -0.0299963, 0.1669168]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.009446, 0.049236, -0.0157206, 0.3761051, 0.0690283, 0.250601]],
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;prp_pillow_dirty_c"],
+            "m_Rotate": [14, [176.1546478, 15.2968397, -174.86763]],
+            "m_Translate": [14, [0.2560501, 0.4999647, 0.4072884]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0094488, 0.0492363, -0.0157206, 0.3761061, 0.0690284, 0.250601]],
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;prp_pillow_dirty_c"],
+            "m_Rotate": [14, [-177.030014, 0.5092474, -179.8177642]],
+            "m_Translate": [14, [-0.3699378, 0.4533081, 0.3891372]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "rs_tr_bld_decor_bedroom_sidetable"],
+            "m_Translate": [14, [1.3605289, 0.0000033, 0.0339164]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "rs_tr_bld_decor_bedroom_sidetable"],
+            "m_Rotate": [14, [-0.0, 0.0000049, -0.0]],
+            "m_Scale": [14, [0.9999992, 0.9999989, 0.9999986]],
+            "m_Translate": [14, [-1.3609523, 0.0000033, 0.0336313]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
