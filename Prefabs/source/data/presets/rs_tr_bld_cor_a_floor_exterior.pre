@@ -1,0 +1,193 @@
+sub main()
+{
+    Version(0);
+    PresetDef("BathroomWindowA")
+    {
+        Description("");
+        AddField("BathroomWindowA", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("BathroomWindowA", "Closed");
+        }
+        Preset("Closed Clime-able")
+        {
+            SetField("BathroomWindowA", "Closed Clime-able");
+        }
+        Preset("Open")
+        {
+            SetField("BathroomWindowA", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("BathroomWindowA", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("BathroomWindowA", "Open Partially Blocked");
+        }
+    }
+    PresetDef("BathroomWindowB")
+    {
+        Description("");
+        AddField("BathroomWindowB", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("BathroomWindowB", "Closed");
+        }
+        Preset("Closed Clime-able")
+        {
+            SetField("BathroomWindowB", "Closed Clime-able");
+        }
+        Preset("Open")
+        {
+            SetField("BathroomWindowB", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("BathroomWindowB", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("BathroomWindowB", "Open Partially Blocked");
+        }
+    }
+    PresetDef("BedroomWindowA")
+    {
+        Description("");
+        AddField("BedroomWindowA", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("BedroomWindowA", "Closed");
+        }
+        Preset("Closed Clime-able")
+        {
+            SetField("BedroomWindowA", "Closed Clime-able");
+        }
+        Preset("Open")
+        {
+            SetField("BedroomWindowA", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("BedroomWindowA", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("BedroomWindowA", "Open Partially Blocked");
+        }
+    }
+    PresetDef("BedroomWindowB")
+    {
+        Description("");
+        AddField("BedroomWindowB", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("BedroomWindowB", "Closed");
+        }
+        Preset("Closed Clime-able")
+        {
+            SetField("BedroomWindowB", "Closed Clime-able");
+        }
+        Preset("Open")
+        {
+            SetField("BedroomWindowB", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("BedroomWindowB", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("BedroomWindowB", "Open Partially Blocked");
+        }
+    }
+    PresetDef("LoungeWindowA")
+    {
+        Description("");
+        AddField("LoungeWindowA", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("LoungeWindowA", "Closed");
+        }
+        Preset("Closed Clime-able")
+        {
+            SetField("LoungeWindowA", "Closed Clime-able");
+        }
+        Preset("Open")
+        {
+            SetField("LoungeWindowA", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("LoungeWindowA", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("LoungeWindowA", "Open Partially Blocked");
+        }
+    }
+    PresetDef("LoungeWindowB")
+    {
+        Description("");
+        AddField("LoungeWindowB", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("LoungeWindowB", "Closed");
+        }
+        Preset("Closed Clime-able")
+        {
+            SetField("LoungeWindowB", "Closed Clime-able");
+        }
+        Preset("Open")
+        {
+            SetField("LoungeWindowB", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("LoungeWindowB", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("LoungeWindowB", "Open Partially Blocked");
+        }
+    }
+    PresetDef("LoungeWindowC")
+    {
+        Description("");
+        AddField("LoungeWindowC", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Closed")
+        {
+            SetField("LoungeWindowC", "Closed");
+        }
+        Preset("Closed Clime-able")
+        {
+            SetField("LoungeWindowC", "Closed Clime-able");
+        }
+        Preset("Open")
+        {
+            SetField("LoungeWindowC", "Open");
+        }
+        Preset("Open Blocked")
+        {
+            SetField("LoungeWindowC", "Open Blocked");
+        }
+        Preset("Open Partially Blocked")
+        {
+            SetField("LoungeWindowC", "Open Partially Blocked");
+        }
+    }
+}

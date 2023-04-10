@@ -1,0 +1,53 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Broken"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_tr_bld_decor_ceiling_broken"],
+            "m_Translate": [14, [-9.5367431640625e-7, -0.0000027, -0.0000038]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 14, 17],
+            "m_PcId": [6, 16]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "rs_tr_bld_decor_ceiling_closed"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-9.5367431640625e-7, -9.5367431640625e-7, 0.0000038]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

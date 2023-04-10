@@ -1,0 +1,87 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "DetailSpawnType": {
+        "User": "1"
+      },
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "HidingSpot",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:HidingSpot;c:Virtual fields;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SELECTOR"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "frn_office_desk_mid_192_a"],
+            "m_Translate": [14, [0.0166238, -0.0, 0.1852418]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "frn_office_partition_wall_str_1x_b"],
+            "m_Rotate": [14, [179.9999847, 0.0000098, 179.9999847]],
+            "m_Translate": [14, [-0.0307538, 0.900002, 0.231628]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_IsolateConfigurations": [11, true],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "phx_office_computer_monitor_a"],
+            "m_Rotate": [14, [92.8800888, 10.6207523, -15.2677679]],
+            "m_Translate": [14, [-0.5102233, 0.9000015, 0.3779067]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "office_computer_keyboard_a"],
+            "m_Rotate": [14, [-0.0, 25.0000038, 0.0]],
+            "m_Translate": [14, [0.579369, 0.900002, 0.811249]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "int_trashgroup_top_0x1_complex"],
+            "m_Seed": [6, 1291754483],
+            "m_Translate": [14, [-0.0589069, 0.900002, 0.8911129]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.4205929, 0.5, 0.0, 0.925354, 0.5, 0.403564]],
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "navmesh_area"],
+            "m_Translate": [14, [0.4571532, 0.8500772, 0.6162108]]
+          },
+          "Fields": {
+            "m_HelperNavmeshFlags": "32",
+            "m_Points": "0.504761 0.000000 -0.403564;0.504761 0.000000 0.403564;-1.345947 0.000000 0.403564;-1.345947 0.000000 -0.403564;"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

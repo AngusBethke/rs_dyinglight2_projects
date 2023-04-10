@@ -1,0 +1,42 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SelectorFloorType")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("SELECTOR", "Broken");
+        }
+        Preset("Broken Muddy")
+        {
+            SetField("SELECTOR", "Broken Muddy");
+        }
+        Preset("Full")
+        {
+            SetField("SELECTOR", "Full");
+        }
+    }
+    PresetDef("SelectorPlantLifeType")
+    {
+        Description("");
+        AddField("SelectorPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Dead")
+        {
+            SetField("SelectorPlantLifeType", "Dead");
+        }
+        Preset("Green")
+        {
+            SetField("SelectorPlantLifeType", "Green");
+        }
+        Preset("Yellow")
+        {
+            SetField("SelectorPlantLifeType", "Yellow");
+        }
+    }
+}

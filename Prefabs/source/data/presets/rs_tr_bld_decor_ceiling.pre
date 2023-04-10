@@ -1,0 +1,19 @@
+sub main()
+{
+    Version(0);
+    PresetDef("CeilingSelector")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("SELECTOR", "Broken");
+        }
+        Preset("Full")
+        {
+            SetField("SELECTOR", "Full");
+        }
+    }
+}

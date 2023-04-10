@@ -1,0 +1,31 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SelectorWallType")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken A")
+        {
+            SetField("SELECTOR", "Broken A");
+        }
+        Preset("Broken B")
+        {
+            SetField("SELECTOR", "Broken B");
+        }
+        Preset("Broken C")
+        {
+            SetField("SELECTOR", "Broken C");
+        }
+        Preset("Broken D")
+        {
+            SetField("SELECTOR", "Broken D");
+        }
+        Preset("Full")
+        {
+            SetField("SELECTOR", "Full");
+        }
+    }
+}

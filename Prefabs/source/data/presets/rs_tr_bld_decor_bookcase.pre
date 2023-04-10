@@ -1,0 +1,31 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SelectorBookcase")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Bookcase A")
+        {
+            SetField("SELECTOR", "Bookcase A");
+        }
+        Preset("Bookcase B")
+        {
+            SetField("SELECTOR", "Bookcase B");
+        }
+        Preset("Painting A")
+        {
+            SetField("SELECTOR", "Painting A");
+        }
+        Preset("Painting B")
+        {
+            SetField("SELECTOR", "Painting B");
+        }
+        Preset("Painting C")
+        {
+            SetField("SELECTOR", "Painting C");
+        }
+    }
+}

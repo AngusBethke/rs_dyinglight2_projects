@@ -1,0 +1,23 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SelectorTreeType")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Dead")
+        {
+            SetField("SELECTOR", "Dead");
+        }
+        Preset("Green")
+        {
+            SetField("SELECTOR", "Green");
+        }
+        Preset("Yellow")
+        {
+            SetField("SELECTOR", "Yellow");
+        }
+    }
+}

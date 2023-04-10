@@ -1,0 +1,46 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SELECTOR")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Debris A")
+        {
+            SetField("SELECTOR", "Debris A");
+        }
+        Preset("Debris B")
+        {
+            SetField("SELECTOR", "Debris B");
+        }
+        Preset("Debris C")
+        {
+            SetField("SELECTOR", "Debris C");
+        }
+        Preset("Debris D")
+        {
+            SetField("SELECTOR", "Debris D");
+        }
+    }
+    PresetDef("SelectorPlantLifeType")
+    {
+        Description("");
+        AddField("SelectorPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Dead")
+        {
+            SetField("SelectorPlantLifeType", "Dead");
+        }
+        Preset("Green")
+        {
+            SetField("SelectorPlantLifeType", "Green");
+        }
+        Preset("Yellow")
+        {
+            SetField("SelectorPlantLifeType", "Yellow");
+        }
+    }
+}

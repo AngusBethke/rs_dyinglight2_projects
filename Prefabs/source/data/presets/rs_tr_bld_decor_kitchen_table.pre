@@ -1,0 +1,66 @@
+sub main()
+{
+    Version(0);
+    PresetDef("SelectorType")
+    {
+        Description("");
+        AddField("SELECTOR", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Empty")
+        {
+            SetField("SELECTOR", "Empty");
+        }
+        Preset("Table A")
+        {
+            SetField("SELECTOR", "Table A");
+        }
+        Preset("Table B")
+        {
+            SetField("SELECTOR", "Table B");
+        }
+        Preset("Tree Group A")
+        {
+            SetField("SELECTOR", "Tree Group A");
+        }
+        Preset("Tree Group B")
+        {
+            SetField("SELECTOR", "Tree Group B");
+        }
+        Preset("Tree Group C")
+        {
+            SetField("SELECTOR", "Tree Group C");
+        }
+        Preset("Tree Group D")
+        {
+            SetField("SELECTOR", "Tree Group D");
+        }
+        Preset("Tree Group E")
+        {
+            SetField("SELECTOR", "Tree Group E");
+        }
+        Preset("Tree Group F")
+        {
+            SetField("SELECTOR", "Tree Group F");
+        }
+    }
+    PresetDef("SelectorTreeType")
+    {
+        Description("");
+        AddField("SELECTOR_A", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Dead")
+        {
+            SetField("SELECTOR_A", "Dead");
+        }
+        Preset("Green")
+        {
+            SetField("SELECTOR_A", "Green");
+        }
+        Preset("Yellow")
+        {
+            SetField("SELECTOR_A", "Yellow");
+        }
+    }
+}
