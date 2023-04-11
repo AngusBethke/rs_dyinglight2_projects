@@ -75,6 +75,56 @@
             ]
           },
           {
+            "Name": "LoungeCoffeeTable",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "CoffeeTableSelector"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCouchFront",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "CouchFrontSelector"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCouchLeft",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "CouchLeftSelector"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCouchRight",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "CouchRightSelector"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenTable",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenTableSelector"
+              }
+            ]
+          },
+          {
             "Name": "SelectorPlantLifeType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
@@ -125,6 +175,9 @@
             "m_PcId": [6, 4],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_interior_lounge"],
             "m_Translate": [14, [-3.9794769, 0.240975, 5.4083352]]
+          },
+          "Fields": {
+            "SelectorPlantLifeType": ""
           }
         },
         {

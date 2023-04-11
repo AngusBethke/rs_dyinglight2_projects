@@ -7,6 +7,10 @@ sub main()
         AddField("SELECTOR", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("SELECTOR", "_Empty");
+        }
         Preset("Table A")
         {
             SetField("SELECTOR", "Table A");
@@ -19,10 +23,6 @@ sub main()
         {
             SetField("SELECTOR", "Table C");
         }
-        Preset("Empty")
-        {
-            SetField("SELECTOR", "Empty");
-        }
     }
     PresetDef("CouchFrontSelector")
     {
@@ -30,6 +30,10 @@ sub main()
         AddField("SELECTOR_A", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("SELECTOR_A", "_Empty");
+        }
         Preset("Armchairs A")
         {
             SetField("SELECTOR_A", "Armchairs A");
@@ -50,10 +54,6 @@ sub main()
         {
             SetField("SELECTOR_A", "Sofa C");
         }
-        Preset("Empty")
-        {
-            SetField("SELECTOR_A", "Empty");
-        }
     }
     PresetDef("CouchLeftSelector")
     {
@@ -61,6 +61,10 @@ sub main()
         AddField("SELECTOR_B", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("SELECTOR_B", "_Empty");
+        }
         Preset("Armchairs A")
         {
             SetField("SELECTOR_B", "Armchairs A");
@@ -81,10 +85,6 @@ sub main()
         {
             SetField("SELECTOR_B", "Sofa C");
         }
-        Preset("Empty")
-        {
-            SetField("SELECTOR_B", "Empty");
-        }
     }
     PresetDef("CouchRightSelector")
     {
@@ -92,6 +92,10 @@ sub main()
         AddField("SELECTOR_C", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("SELECTOR_C", "_Empty");
+        }
         Preset("Armchairs A")
         {
             SetField("SELECTOR_C", "Armchairs A");
@@ -111,10 +115,6 @@ sub main()
         Preset("Sofa C")
         {
             SetField("SELECTOR_C", "Sofa C");
-        }
-        Preset("Empty")
-        {
-            SetField("SELECTOR_C", "Empty");
         }
     }
 }

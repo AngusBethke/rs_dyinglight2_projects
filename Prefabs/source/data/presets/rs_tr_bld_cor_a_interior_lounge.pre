@@ -20,4 +20,163 @@ sub main()
             SetField("SelectorPlantLifeType", "Yellow");
         }
     }
+    PresetDef("CoffeeTableSelector")
+    {
+        Description("");
+        AddField("CoffeeTableSelector", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("CoffeeTableSelector", "_Empty");
+        }
+        Preset("Table A")
+        {
+            SetField("CoffeeTableSelector", "Table A");
+        }
+        Preset("Table B")
+        {
+            SetField("CoffeeTableSelector", "Table B");
+        }
+        Preset("Table C")
+        {
+            SetField("CoffeeTableSelector", "Table C");
+        }
+    }
+    PresetDef("CouchFrontSelector")
+    {
+        Description("");
+        AddField("CouchFrontSelector", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("CouchFrontSelector", "_Empty");
+        }
+        Preset("Armchairs A")
+        {
+            SetField("CouchFrontSelector", "Armchairs A");
+        }
+        Preset("Armchairs B")
+        {
+            SetField("CouchFrontSelector", "Armchairs B");
+        }
+        Preset("Sofa A")
+        {
+            SetField("CouchFrontSelector", "Sofa A");
+        }
+        Preset("Sofa B")
+        {
+            SetField("CouchFrontSelector", "Sofa B");
+        }
+        Preset("Sofa C")
+        {
+            SetField("CouchFrontSelector", "Sofa C");
+        }
+    }
+    PresetDef("CouchLeftSelector")
+    {
+        Description("");
+        AddField("CouchLeftSelector", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("CouchLeftSelector", "_Empty");
+        }
+        Preset("Armchairs A")
+        {
+            SetField("CouchLeftSelector", "Armchairs A");
+        }
+        Preset("Armchairs B")
+        {
+            SetField("CouchLeftSelector", "Armchairs B");
+        }
+        Preset("Sofa A")
+        {
+            SetField("CouchLeftSelector", "Sofa A");
+        }
+        Preset("Sofa B")
+        {
+            SetField("CouchLeftSelector", "Sofa B");
+        }
+        Preset("Sofa C")
+        {
+            SetField("CouchLeftSelector", "Sofa C");
+        }
+    }
+    PresetDef("CouchRightSelector")
+    {
+        Description("");
+        AddField("CouchRightSelector", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("CouchRightSelector", "_Empty");
+        }
+        Preset("Armchairs A")
+        {
+            SetField("CouchRightSelector", "Armchairs A");
+        }
+        Preset("Armchairs B")
+        {
+            SetField("CouchRightSelector", "Armchairs B");
+        }
+        Preset("Sofa A")
+        {
+            SetField("CouchRightSelector", "Sofa A");
+        }
+        Preset("Sofa B")
+        {
+            SetField("CouchRightSelector", "Sofa B");
+        }
+        Preset("Sofa C")
+        {
+            SetField("CouchRightSelector", "Sofa C");
+        }
+    }
+    PresetDef("KitchenTableSelector")
+    {
+        Description("");
+        AddField("KitchenTableSelector", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("KitchenTableSelector", "_Empty");
+        }
+        Preset("Table A")
+        {
+            SetField("KitchenTableSelector", "Table A");
+        }
+        Preset("Table B")
+        {
+            SetField("KitchenTableSelector", "Table B");
+        }
+        Preset("Tree Group A")
+        {
+            SetField("KitchenTableSelector", "Tree Group A");
+        }
+        Preset("Tree Group B")
+        {
+            SetField("KitchenTableSelector", "Tree Group B");
+        }
+        Preset("Tree Group C")
+        {
+            SetField("KitchenTableSelector", "Tree Group C");
+        }
+        Preset("Tree Group D")
+        {
+            SetField("KitchenTableSelector", "Tree Group D");
+        }
+        Preset("Tree Group E")
+        {
+            SetField("KitchenTableSelector", "Tree Group E");
+        }
+        Preset("Tree Group F")
+        {
+            SetField("KitchenTableSelector", "Tree Group F");
+        }
+    }
 }

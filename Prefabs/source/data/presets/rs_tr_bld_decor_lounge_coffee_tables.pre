@@ -7,6 +7,10 @@ sub main()
         AddField("SELECTOR", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("SELECTOR", "_Empty");
+        }
         Preset("Table A")
         {
             SetField("SELECTOR", "Table A");
@@ -18,10 +22,6 @@ sub main()
         Preset("Table C")
         {
             SetField("SELECTOR", "Table C");
-        }
-        Preset("Empty")
-        {
-            SetField("SELECTOR", "Empty");
         }
     }
 }

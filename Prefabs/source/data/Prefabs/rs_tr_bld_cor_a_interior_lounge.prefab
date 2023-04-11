@@ -21,6 +21,56 @@
                 "Name": "SelectorPlantLifeType"
               }
             ]
+          },
+          {
+            "Name": "CoffeeTableSelector",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "SELECTOR"
+              }
+            ]
+          },
+          {
+            "Name": "CouchFrontSelector",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "SELECTOR_A"
+              }
+            ]
+          },
+          {
+            "Name": "CouchLeftSelector",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "SELECTOR_B"
+              }
+            ]
+          },
+          {
+            "Name": "CouchRightSelector",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "SELECTOR_C"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenTableSelector",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "10",
+                "Name": "SELECTOR"
+              }
+            ]
           }
         ]
       },
@@ -142,7 +192,6 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 10],
             "m_PrefabName": [12, "rs_tr_bld_decor_kitchen_table"],
-            "m_PresetNames": [12, "SELECTOR;Tree Group A;SelectorType;Tree Group A;SelectorTreeType;Yellow"],
             "m_Translate": [14, [-1.312445, -0.7272238, -5.5615482]]
           }
         },
@@ -151,8 +200,10 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 11],
             "m_PrefabName": [12, "rs_tr_bld_decor_lounge"],
-            "m_PresetNames": [12, "CouchFrontSelector;Armchairs A;CouchLeftSelector;Sofa B;CouchRightSelector;Sofa A;CoffeeTableSelector;Table C"],
             "m_Translate": [14, [-1.150213, -0.668931, 2.0767118]]
+          },
+          "Fields": {
+            "SELECTOR": ""
           }
         },
         {

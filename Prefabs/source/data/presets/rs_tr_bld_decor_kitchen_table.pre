@@ -7,9 +7,9 @@ sub main()
         AddField("SELECTOR", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
-        Preset("Empty")
+        Preset("_Empty")
         {
-            SetField("SELECTOR", "Empty");
+            SetField("SELECTOR", "_Empty");
         }
         Preset("Table A")
         {

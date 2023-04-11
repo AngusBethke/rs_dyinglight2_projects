@@ -190,6 +190,165 @@ sub main()
             SetField("LoungeWindowC", "Open Partially Blocked");
         }
     }
+    PresetDef("LngCofTbl")
+    {
+        Description("");
+        AddField("LoungeCoffeeTable", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_E")
+        {
+            SetField("LoungeCoffeeTable", "_Empty");
+        }
+        Preset("TA")
+        {
+            SetField("LoungeCoffeeTable", "Table A");
+        }
+        Preset("TB")
+        {
+            SetField("LoungeCoffeeTable", "Table B");
+        }
+        Preset("TC")
+        {
+            SetField("LoungeCoffeeTable", "Table C");
+        }
+    }
+    PresetDef("LngCohFnt")
+    {
+        Description("");
+        AddField("LoungeCouchFront", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_E")
+        {
+            SetField("LoungeCouchFront", "_Empty");
+        }
+        Preset("AA")
+        {
+            SetField("LoungeCouchFront", "Armchairs A");
+        }
+        Preset("AB")
+        {
+            SetField("LoungeCouchFront", "Armchairs B");
+        }
+        Preset("SA")
+        {
+            SetField("LoungeCouchFront", "Sofa A");
+        }
+        Preset("SB")
+        {
+            SetField("LoungeCouchFront", "Sofa B");
+        }
+        Preset("SC")
+        {
+            SetField("LoungeCouchFront", "Sofa C");
+        }
+    }
+    PresetDef("LngCohLft")
+    {
+        Description("");
+        AddField("LoungeCouchLeft", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_E")
+        {
+            SetField("LoungeCouchLeft", "_Empty");
+        }
+        Preset("AA")
+        {
+            SetField("LoungeCouchLeft", "Armchairs A");
+        }
+        Preset("AB")
+        {
+            SetField("LoungeCouchLeft", "Armchairs B");
+        }
+        Preset("SA")
+        {
+            SetField("LoungeCouchLeft", "Sofa A");
+        }
+        Preset("SB")
+        {
+            SetField("LoungeCouchLeft", "Sofa B");
+        }
+        Preset("SC")
+        {
+            SetField("LoungeCouchLeft", "Sofa C");
+        }
+    }
+    PresetDef("LngCohRgt")
+    {
+        Description("");
+        AddField("LoungeCouchRight", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_E")
+        {
+            SetField("LoungeCouchRight", "_Empty");
+        }
+        Preset("AA")
+        {
+            SetField("LoungeCouchRight", "Armchairs A");
+        }
+        Preset("AB")
+        {
+            SetField("LoungeCouchRight", "Armchairs B");
+        }
+        Preset("SA")
+        {
+            SetField("LoungeCouchRight", "Sofa A");
+        }
+        Preset("SB")
+        {
+            SetField("LoungeCouchRight", "Sofa B");
+        }
+        Preset("SC")
+        {
+            SetField("LoungeCouchRight", "Sofa C");
+        }
+    }
+    PresetDef("LngKtcTbl")
+    {
+        Description("");
+        AddField("KitchenTable", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_E")
+        {
+            SetField("KitchenTable", "_Empty");
+        }
+        Preset("TA")
+        {
+            SetField("KitchenTable", "Table A");
+        }
+        Preset("TB")
+        {
+            SetField("KitchenTable", "Table B");
+        }
+        Preset("TGA")
+        {
+            SetField("KitchenTable", "Tree Group A");
+        }
+        Preset("TGB")
+        {
+            SetField("KitchenTable", "Tree Group B");
+        }
+        Preset("TGC")
+        {
+            SetField("KitchenTable", "Tree Group C");
+        }
+        Preset("TGD")
+        {
+            SetField("KitchenTable", "Tree Group D");
+        }
+        Preset("TGE")
+        {
+            SetField("KitchenTable", "Tree Group E");
+        }
+        Preset("TGF")
+        {
+            SetField("KitchenTable", "Tree Group F");
+        }
+    }
     PresetDef("SelectorPlantLifeType")
     {
         Description("");
