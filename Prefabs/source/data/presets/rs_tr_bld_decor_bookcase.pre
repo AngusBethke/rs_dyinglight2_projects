@@ -7,6 +7,10 @@ sub main()
         AddField("SELECTOR", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("SELECTOR", "_Empty");
+        }
         Preset("Bookcase A")
         {
             SetField("SELECTOR", "Bookcase A");
