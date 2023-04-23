@@ -1,35 +1,35 @@
 sub main()
 {
     Version(0);
-    PresetDef("SELECTOR")
+    PresetDef("CouchType")
     {
         Description("");
-        AddField("SELECTOR", "", false, true, false);
+        AddField("CouchType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("SELECTOR", "_Empty");
+            SetField("CouchType", "_Empty");
         }
         Preset("Armchairs A")
         {
-            SetField("SELECTOR", "Armchairs A");
+            SetField("CouchType", "Armchairs A");
         }
         Preset("Armchairs B")
         {
-            SetField("SELECTOR", "Armchairs B");
+            SetField("CouchType", "Armchairs B");
         }
         Preset("Sofa A")
         {
-            SetField("SELECTOR", "Sofa A");
+            SetField("CouchType", "Sofa A");
         }
         Preset("Sofa B")
         {
-            SetField("SELECTOR", "Sofa B");
+            SetField("CouchType", "Sofa B");
         }
         Preset("Sofa C")
         {
-            SetField("SELECTOR", "Sofa C");
+            SetField("CouchType", "Sofa C");
         }
     }
 }

@@ -1,23 +1,215 @@
 sub main()
 {
     Version(0);
-    PresetDef("SelectorPlantLifeType")
+    PresetDef("VegetationType")
     {
         Description("");
-        AddField("SelectorPlantLifeType", "", false, true, false);
+        AddField("VegetationType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("Dead")
         {
-            SetField("SelectorPlantLifeType", "Dead");
+            SetField("VegetationType", "Dead");
         }
         Preset("Green")
         {
-            SetField("SelectorPlantLifeType", "Green");
+            SetField("VegetationType", "Green");
         }
         Preset("Yellow")
         {
-            SetField("SelectorPlantLifeType", "Yellow");
+            SetField("VegetationType", "Yellow");
+        }
+    }
+    PresetDef("BedroomFloorType")
+    {
+        Description("");
+        AddField("BedroomFloorType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("BedroomFloorType", "Broken");
+        }
+        Preset("Broken Muddy")
+        {
+            SetField("BedroomFloorType", "Broken Muddy");
+        }
+        Preset("Full")
+        {
+            SetField("BedroomFloorType", "Full");
+        }
+    }
+    PresetDef("BedroomBedType")
+    {
+        Description("");
+        AddField("BedroomBedType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Bed A")
+        {
+            SetField("BedroomBedType", "Bed A");
+        }
+        Preset("Bed B")
+        {
+            SetField("BedroomBedType", "Bed B");
+        }
+        Preset("Bed C")
+        {
+            SetField("BedroomBedType", "Bed C");
+        }
+    }
+    PresetDef("BedroomCeilingType")
+    {
+        Description("");
+        AddField("BedroomCeilingType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("BedroomCeilingType", "Broken");
+        }
+        Preset("Full")
+        {
+            SetField("BedroomCeilingType", "Full");
+        }
+    }
+    PresetDef("BedroomWardrobeType")
+    {
+        Description("");
+        AddField("BedroomWardrobeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Wardrobe A")
+        {
+            SetField("BedroomWardrobeType", "Wardrobe A");
+        }
+        Preset("Wardrobe B")
+        {
+            SetField("BedroomWardrobeType", "Wardrobe B");
+        }
+    }
+    PresetDef("BedroomBookcaseTypeA")
+    {
+        Description("");
+        AddField("BedroomBookcaseTypeA", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BedroomBookcaseTypeA", "_Empty");
+        }
+        Preset("Bookcase A")
+        {
+            SetField("BedroomBookcaseTypeA", "Bookcase A");
+        }
+        Preset("Bookcase B")
+        {
+            SetField("BedroomBookcaseTypeA", "Bookcase B");
+        }
+        Preset("Painting A")
+        {
+            SetField("BedroomBookcaseTypeA", "Painting A");
+        }
+        Preset("Painting B")
+        {
+            SetField("BedroomBookcaseTypeA", "Painting B");
+        }
+        Preset("Painting C")
+        {
+            SetField("BedroomBookcaseTypeA", "Painting C");
+        }
+    }
+    PresetDef("BedroomBookcaseTypeB")
+    {
+        Description("");
+        AddField("BedroomBookcaseTypeB", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BedroomBookcaseTypeB", "_Empty");
+        }
+        Preset("Bookcase A")
+        {
+            SetField("BedroomBookcaseTypeB", "Bookcase A");
+        }
+        Preset("Bookcase B")
+        {
+            SetField("BedroomBookcaseTypeB", "Bookcase B");
+        }
+        Preset("Painting A")
+        {
+            SetField("BedroomBookcaseTypeB", "Painting A");
+        }
+        Preset("Painting B")
+        {
+            SetField("BedroomBookcaseTypeB", "Painting B");
+        }
+        Preset("Painting C")
+        {
+            SetField("BedroomBookcaseTypeB", "Painting C");
+        }
+    }
+    PresetDef("BedroomBookcaseTypeC")
+    {
+        Description("");
+        AddField("BedroomBookcaseTypeC", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BedroomBookcaseTypeC", "_Empty");
+        }
+        Preset("Bookcase A")
+        {
+            SetField("BedroomBookcaseTypeC", "Bookcase A");
+        }
+        Preset("Bookcase B")
+        {
+            SetField("BedroomBookcaseTypeC", "Bookcase B");
+        }
+        Preset("Painting A")
+        {
+            SetField("BedroomBookcaseTypeC", "Painting A");
+        }
+        Preset("Painting B")
+        {
+            SetField("BedroomBookcaseTypeC", "Painting B");
+        }
+        Preset("Painting C")
+        {
+            SetField("BedroomBookcaseTypeC", "Painting C");
+        }
+    }
+    PresetDef("BedroomBookcaseTypeD")
+    {
+        Description("");
+        AddField("BedroomBookcaseTypeD", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BedroomBookcaseTypeD", "_Empty");
+        }
+        Preset("Bookcase A")
+        {
+            SetField("BedroomBookcaseTypeD", "Bookcase A");
+        }
+        Preset("Bookcase B")
+        {
+            SetField("BedroomBookcaseTypeD", "Bookcase B");
+        }
+        Preset("Painting A")
+        {
+            SetField("BedroomBookcaseTypeD", "Painting A");
+        }
+        Preset("Painting B")
+        {
+            SetField("BedroomBookcaseTypeD", "Painting B");
+        }
+        Preset("Painting C")
+        {
+            SetField("BedroomBookcaseTypeD", "Painting C");
         }
     }
 }

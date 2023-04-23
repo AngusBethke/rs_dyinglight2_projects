@@ -1,66 +1,66 @@
 sub main()
 {
     Version(0);
-    PresetDef("SelectorType")
+    PresetDef("TableType")
     {
         Description("");
-        AddField("SELECTOR", "", false, true, false);
+        AddField("TableType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("SELECTOR", "_Empty");
+            SetField("TableType", "_Empty");
         }
         Preset("Table A")
         {
-            SetField("SELECTOR", "Table A");
+            SetField("TableType", "Table A");
         }
         Preset("Table B")
         {
-            SetField("SELECTOR", "Table B");
+            SetField("TableType", "Table B");
         }
         Preset("Tree Group A")
         {
-            SetField("SELECTOR", "Tree Group A");
+            SetField("TableType", "Tree Group A");
         }
         Preset("Tree Group B")
         {
-            SetField("SELECTOR", "Tree Group B");
+            SetField("TableType", "Tree Group B");
         }
         Preset("Tree Group C")
         {
-            SetField("SELECTOR", "Tree Group C");
+            SetField("TableType", "Tree Group C");
         }
         Preset("Tree Group D")
         {
-            SetField("SELECTOR", "Tree Group D");
+            SetField("TableType", "Tree Group D");
         }
         Preset("Tree Group E")
         {
-            SetField("SELECTOR", "Tree Group E");
+            SetField("TableType", "Tree Group E");
         }
         Preset("Tree Group F")
         {
-            SetField("SELECTOR", "Tree Group F");
+            SetField("TableType", "Tree Group F");
         }
     }
-    PresetDef("SelectorTreeType")
+    PresetDef("VegetationType")
     {
         Description("");
-        AddField("SELECTOR_A", "", false, true, false);
+        AddField("VegetationType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("Dead")
         {
-            SetField("SELECTOR_A", "Dead");
+            SetField("VegetationType", "Dead");
         }
         Preset("Green")
         {
-            SetField("SELECTOR_A", "Green");
+            SetField("VegetationType", "Green");
         }
         Preset("Yellow")
         {
-            SetField("SELECTOR_A", "Yellow");
+            SetField("VegetationType", "Yellow");
         }
     }
 }

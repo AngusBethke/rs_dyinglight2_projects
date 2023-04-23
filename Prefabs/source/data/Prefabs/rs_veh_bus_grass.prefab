@@ -1,0 +1,65 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "VegetationType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Dead"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_veh_bus_grass_dead"],
+            "m_Rotate": [14, [-0.0, 30.0, -0.0]],
+            "m_Translate": [14, [-0.1224365, 0.2840701, -0.0788879]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 10, 13, 14],
+            "m_PcId": [6, 12]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Green"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_veh_bus_grass_green"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, 29.999998, -0.0]],
+            "m_Translate": [14, [-0.1226406, 0.2841899, -0.0786513]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Orange"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_veh_bus_grass_orange"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, 29.999998, -0.0]],
+            "m_Translate": [14, [-0.1224365, 0.2840701, -0.0788879]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

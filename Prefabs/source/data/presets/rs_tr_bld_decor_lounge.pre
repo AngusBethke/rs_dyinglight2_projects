@@ -1,120 +1,120 @@
 sub main()
 {
     Version(0);
-    PresetDef("CoffeeTableSelector")
+    PresetDef("CoffeeTable")
     {
         Description("");
-        AddField("SELECTOR", "", false, true, false);
+        AddField("CoffeeTable", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("SELECTOR", "_Empty");
+            SetField("CoffeeTable", "_Empty");
         }
         Preset("Table A")
         {
-            SetField("SELECTOR", "Table A");
+            SetField("CoffeeTable", "Table A");
         }
         Preset("Table B")
         {
-            SetField("SELECTOR", "Table B");
+            SetField("CoffeeTable", "Table B");
         }
         Preset("Table C")
         {
-            SetField("SELECTOR", "Table C");
+            SetField("CoffeeTable", "Table C");
         }
     }
-    PresetDef("CouchFrontSelector")
+    PresetDef("CouchFront")
     {
         Description("");
-        AddField("SELECTOR_A", "", false, true, false);
+        AddField("CouchFront", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("SELECTOR_A", "_Empty");
+            SetField("CouchFront", "_Empty");
         }
         Preset("Armchairs A")
         {
-            SetField("SELECTOR_A", "Armchairs A");
+            SetField("CouchFront", "Armchairs A");
         }
         Preset("Armchairs B")
         {
-            SetField("SELECTOR_A", "Armchairs B");
+            SetField("CouchFront", "Armchairs B");
         }
         Preset("Sofa A")
         {
-            SetField("SELECTOR_A", "Sofa A");
+            SetField("CouchFront", "Sofa A");
         }
         Preset("Sofa B")
         {
-            SetField("SELECTOR_A", "Sofa B");
+            SetField("CouchFront", "Sofa B");
         }
         Preset("Sofa C")
         {
-            SetField("SELECTOR_A", "Sofa C");
+            SetField("CouchFront", "Sofa C");
         }
     }
-    PresetDef("CouchLeftSelector")
+    PresetDef("CouchLeft")
     {
         Description("");
-        AddField("SELECTOR_B", "", false, true, false);
+        AddField("CouchLeft", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("SELECTOR_B", "_Empty");
+            SetField("CouchLeft", "_Empty");
         }
         Preset("Armchairs A")
         {
-            SetField("SELECTOR_B", "Armchairs A");
+            SetField("CouchLeft", "Armchairs A");
         }
         Preset("Armchairs B")
         {
-            SetField("SELECTOR_B", "Armchairs B");
+            SetField("CouchLeft", "Armchairs B");
         }
         Preset("Sofa A")
         {
-            SetField("SELECTOR_B", "Sofa A");
+            SetField("CouchLeft", "Sofa A");
         }
         Preset("Sofa B")
         {
-            SetField("SELECTOR_B", "Sofa B");
+            SetField("CouchLeft", "Sofa B");
         }
         Preset("Sofa C")
         {
-            SetField("SELECTOR_B", "Sofa C");
+            SetField("CouchLeft", "Sofa C");
         }
     }
-    PresetDef("CouchRightSelector")
+    PresetDef("CouchRight")
     {
         Description("");
-        AddField("SELECTOR_C", "", false, true, false);
+        AddField("CouchRight", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("SELECTOR_C", "_Empty");
+            SetField("CouchRight", "_Empty");
         }
         Preset("Armchairs A")
         {
-            SetField("SELECTOR_C", "Armchairs A");
+            SetField("CouchRight", "Armchairs A");
         }
         Preset("Armchairs B")
         {
-            SetField("SELECTOR_C", "Armchairs B");
+            SetField("CouchRight", "Armchairs B");
         }
         Preset("Sofa A")
         {
-            SetField("SELECTOR_C", "Sofa A");
+            SetField("CouchRight", "Sofa A");
         }
         Preset("Sofa B")
         {
-            SetField("SELECTOR_C", "Sofa B");
+            SetField("CouchRight", "Sofa B");
         }
         Preset("Sofa C")
         {
-            SetField("SELECTOR_C", "Sofa C");
+            SetField("CouchRight", "Sofa C");
         }
     }
 }

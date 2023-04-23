@@ -4,20 +4,20 @@ sub main()
     PresetDef("SelectorTreeType")
     {
         Description("");
-        AddField("SELECTOR", "", false, true, false);
+        AddField("VegetationType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("Dead")
         {
-            SetField("SELECTOR", "Dead");
+            SetField("VegetationType", "Dead");
         }
         Preset("Green")
         {
-            SetField("SELECTOR", "Green");
+            SetField("VegetationType", "Green");
         }
         Preset("Yellow")
         {
-            SetField("SELECTOR", "Yellow");
+            SetField("VegetationType", "Yellow");
         }
     }
 }

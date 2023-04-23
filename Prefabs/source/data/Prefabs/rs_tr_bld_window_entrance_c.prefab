@@ -5,7 +5,17 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "SkinName",
+            "Name": "ExteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          },
+          {
+            "Name": "InteriorSkin",
             "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
               {
@@ -24,7 +34,7 @@
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_b_modern_wall_str_2x1h_b_open_a"],
-            "m_Translate": [14, [-0.000087, 0.0, 0.000034]]
+            "m_Translate": [14, [-8.7E-05, 0.0, 3.4E-05]]
           },
           "Fields": {
             "SkinName": "R2_living_colors_1_a"
@@ -38,7 +48,7 @@
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_modern_wall_str_2x_b_wd"],
             "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Translate": [14, [0.000086, -0.0, -0.000034]]
+            "m_Translate": [14, [8.6E-05, -0.0, -3.4E-05]]
           },
           "Fields": {
             "SkinName": "plastic_panel_a_light"

@@ -555,7 +555,8 @@
             "m_Translate": [14, [-38.2292823, 0.1400136, 28.7604923]]
           },
           "Fields": {
-            "SkinName": "ceramictiles_d_beige"
+            "SkinName": "ceramictiles_d_beige",
+            "InteriorSkin": ""
           }
         },
         {
@@ -603,7 +604,7 @@
             "m_PcId": [6, 195],
             "m_PrefabName": [12, "rs_tr_tree_group_a"],
             "m_PresetNames": [12, "SelectorTreeType;Yellow"],
-            "m_Translate": [14, [-19.8650016, 0.0, 41.1393432]]
+            "m_Translate": [14, [-27.5827541, 0.0, 26.668869]]
           }
         },
         {
@@ -612,7 +613,7 @@
             "m_PcId": [6, 199],
             "m_PrefabName": [12, "rs_tr_tree_group_b"],
             "m_PresetNames": [12, "SelectorTreeType;Dead"],
-            "m_Translate": [14, [-19.7339992, 0.0, 35.0530052]]
+            "m_Translate": [14, [-23.1868743, 0.0583553, 27.4735813]]
           }
         },
         {
@@ -621,7 +622,7 @@
             "m_PcId": [6, 200],
             "m_PrefabName": [12, "rs_tr_tree_group_c"],
             "m_PresetNames": [12, "SelectorTreeType;Green"],
-            "m_Translate": [14, [-23.8910045, 0.0, 41.3525161]]
+            "m_Translate": [14, [-25.8964767, 0.0571, 30.7797584]]
           }
         },
         {
@@ -630,7 +631,7 @@
             "m_PcId": [6, 201],
             "m_PrefabName": [12, "rs_tr_tree_group_d"],
             "m_PresetNames": [12, "SelectorTreeType;Yellow"],
-            "m_Translate": [14, [-24.2384243, 0.0, 35.0530052]]
+            "m_Translate": [14, [-24.2384243, 0.0, 23.1026649]]
           }
         },
         {
@@ -639,7 +640,7 @@
             "m_PcId": [6, 202],
             "m_PrefabName": [12, "rs_tr_tree_group_e"],
             "m_PresetNames": [12, "SelectorTreeType;Dead"],
-            "m_Translate": [14, [-27.7947387, 0.0, 40.0959167]]
+            "m_Translate": [14, [-31.8552246, 0.0702133, 23.8487663]]
           }
         },
         {
@@ -648,7 +649,7 @@
             "m_PcId": [6, 203],
             "m_PrefabName": [12, "rs_tr_tree_group_f"],
             "m_PresetNames": [12, "SelectorTreeType;Green"],
-            "m_Translate": [14, [-29.3652229, 0.0, 35.0530052]]
+            "m_Translate": [14, [-29.3652229, 0.0, 21.253189]]
           }
         },
         {
@@ -658,6 +659,9 @@
             "m_PrefabName": [12, "rs_tr_bld_decor_damage_debris"],
             "m_PresetNames": [12, "SELECTOR;Debris D;SelectorPlantLifeType;Yellow"],
             "m_Translate": [14, [-15.2425165, 0.0236242, 27.9766654]]
+          },
+          "Fields": {
+            "VegetationType": ""
           }
         },
         {
@@ -667,6 +671,48 @@
             "m_PrefabName": [12, "rs_tr_bld_decor_floor"],
             "m_PresetNames": [12, "SelectorFloorType;Broken Muddy;SelectorPlantLifeType;Green"],
             "m_Translate": [14, [-14.618453, 0.182113, 22.6982479]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 217],
+            "m_PrefabName": [12, "rs_veh_bus"],
+            "m_PresetNames": [12, "VegetationType;Orange"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-17.8514137, 0.0669298, 45.9335403]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 218],
+            "m_PrefabName": [12, "rs_veh_bus"],
+            "m_PresetNames": [12, "VegetationType;Green"],
+            "m_Rotate": [14, [-180.0, -75.0000076, -180.0]],
+            "m_Scale": [14, [1.0000009, 1.0000003, 1.0000003]],
+            "m_Translate": [14, [-29.6753749, 0.1892413, 50.4996337]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 1.3619194, 0.0004999, 0.7956066, 1.370548, 0.2314591]],
+            "m_PcId": [6, 219],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_modern_doorframe_1x_a"],
+            "m_Translate": [14, [-35.5721664, 0.0890846, 25.6977005]]
+          },
+          "Fields": {
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 220],
+            "m_PrefabName": [12, "rs_tr_bld_decor_carpet"],
+            "m_Translate": [14, [-37.4969406, 0.0673837, 19.8353157]]
           }
         }
       ],

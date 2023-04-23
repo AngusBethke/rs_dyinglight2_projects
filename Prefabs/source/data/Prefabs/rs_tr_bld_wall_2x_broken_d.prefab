@@ -2,6 +2,24 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "InteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "2",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -20,13 +38,13 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
+            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Scale": [14, [1.0507669, 0.9999999, 0.9999998]],
-            "m_Translate": [14, [-2.384185791015625e-7, 0.0, 0.9505462]]
+            "m_Translate": [14, [-2.384185791015625E-07, 0.0, 0.9505462]]
           },
           "Fields": {
             "SkinName": "marbletiles_e_darkgrey"
@@ -35,13 +53,13 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
+            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Scale": [14, [1.0507665, 0.9999998, 0.9999995]],
-            "m_Translate": [14, [0.1603894, 4.76837158203125e-7, 0.9505462]]
+            "m_Translate": [14, [0.1603894, 4.76837158203125E-07, 0.9505462]]
           },
           "Fields": {
             "SkinName": "plaster_j_burnt"

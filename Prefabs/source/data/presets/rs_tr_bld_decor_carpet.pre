@@ -1,0 +1,19 @@
+sub main()
+{
+    Version(0);
+    PresetDef("CarpetType")
+    {
+        Description("");
+        AddField("CarpetType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("CarpetType", "_Empty");
+        }
+        Preset("Carpet A")
+        {
+            SetField("CarpetType", "Carpet A");
+        }
+    }
+}

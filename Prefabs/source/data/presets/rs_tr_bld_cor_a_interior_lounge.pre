@@ -1,368 +1,466 @@
 sub main()
 {
     Version(0);
-    PresetDef("SelectorPlantLifeType")
+    PresetDef("VegetationType")
     {
         Description("");
-        AddField("SelectorPlantLifeType", "", false, true, false);
+        AddField("VegetationType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("Dead")
         {
-            SetField("SelectorPlantLifeType", "Dead");
+            SetField("VegetationType", "Dead");
         }
         Preset("Green")
         {
-            SetField("SelectorPlantLifeType", "Green");
+            SetField("VegetationType", "Green");
         }
         Preset("Yellow")
         {
-            SetField("SelectorPlantLifeType", "Yellow");
+            SetField("VegetationType", "Yellow");
         }
     }
-    PresetDef("CoffeeTableSelector")
+    PresetDef("LoungeCoffeeTable")
     {
         Description("");
-        AddField("CoffeeTableSelector", "", false, true, false);
+        AddField("LoungeCoffeeTable", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("CoffeeTableSelector", "_Empty");
+            SetField("LoungeCoffeeTable", "_Empty");
         }
         Preset("Table A")
         {
-            SetField("CoffeeTableSelector", "Table A");
+            SetField("LoungeCoffeeTable", "Table A");
         }
         Preset("Table B")
         {
-            SetField("CoffeeTableSelector", "Table B");
+            SetField("LoungeCoffeeTable", "Table B");
         }
         Preset("Table C")
         {
-            SetField("CoffeeTableSelector", "Table C");
+            SetField("LoungeCoffeeTable", "Table C");
         }
     }
-    PresetDef("CouchFrontSelector")
+    PresetDef("LoungeCouchFront")
     {
         Description("");
-        AddField("CouchFrontSelector", "", false, true, false);
+        AddField("LoungeCouchFront", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("CouchFrontSelector", "_Empty");
+            SetField("LoungeCouchFront", "_Empty");
         }
         Preset("Armchairs A")
         {
-            SetField("CouchFrontSelector", "Armchairs A");
+            SetField("LoungeCouchFront", "Armchairs A");
         }
         Preset("Armchairs B")
         {
-            SetField("CouchFrontSelector", "Armchairs B");
+            SetField("LoungeCouchFront", "Armchairs B");
         }
         Preset("Sofa A")
         {
-            SetField("CouchFrontSelector", "Sofa A");
+            SetField("LoungeCouchFront", "Sofa A");
         }
         Preset("Sofa B")
         {
-            SetField("CouchFrontSelector", "Sofa B");
+            SetField("LoungeCouchFront", "Sofa B");
         }
         Preset("Sofa C")
         {
-            SetField("CouchFrontSelector", "Sofa C");
+            SetField("LoungeCouchFront", "Sofa C");
         }
     }
-    PresetDef("CouchLeftSelector")
+    PresetDef("LoungeCouchLeft")
     {
         Description("");
-        AddField("CouchLeftSelector", "", false, true, false);
+        AddField("LoungeCouchLeft", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("CouchLeftSelector", "_Empty");
+            SetField("LoungeCouchLeft", "_Empty");
         }
         Preset("Armchairs A")
         {
-            SetField("CouchLeftSelector", "Armchairs A");
+            SetField("LoungeCouchLeft", "Armchairs A");
         }
         Preset("Armchairs B")
         {
-            SetField("CouchLeftSelector", "Armchairs B");
+            SetField("LoungeCouchLeft", "Armchairs B");
         }
         Preset("Sofa A")
         {
-            SetField("CouchLeftSelector", "Sofa A");
+            SetField("LoungeCouchLeft", "Sofa A");
         }
         Preset("Sofa B")
         {
-            SetField("CouchLeftSelector", "Sofa B");
+            SetField("LoungeCouchLeft", "Sofa B");
         }
         Preset("Sofa C")
         {
-            SetField("CouchLeftSelector", "Sofa C");
+            SetField("LoungeCouchLeft", "Sofa C");
         }
     }
-    PresetDef("CouchRightSelector")
+    PresetDef("LoungeCouchRight")
     {
         Description("");
-        AddField("CouchRightSelector", "", false, true, false);
+        AddField("LoungeCouchRight", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("CouchRightSelector", "_Empty");
+            SetField("LoungeCouchRight", "_Empty");
         }
         Preset("Armchairs A")
         {
-            SetField("CouchRightSelector", "Armchairs A");
+            SetField("LoungeCouchRight", "Armchairs A");
         }
         Preset("Armchairs B")
         {
-            SetField("CouchRightSelector", "Armchairs B");
+            SetField("LoungeCouchRight", "Armchairs B");
         }
         Preset("Sofa A")
         {
-            SetField("CouchRightSelector", "Sofa A");
+            SetField("LoungeCouchRight", "Sofa A");
         }
         Preset("Sofa B")
         {
-            SetField("CouchRightSelector", "Sofa B");
+            SetField("LoungeCouchRight", "Sofa B");
         }
         Preset("Sofa C")
         {
-            SetField("CouchRightSelector", "Sofa C");
+            SetField("LoungeCouchRight", "Sofa C");
         }
     }
-    PresetDef("KitchenTableSelector")
+    PresetDef("KitchenTableType")
     {
         Description("");
-        AddField("KitchenTableSelector", "", false, true, false);
+        AddField("KitchenTableType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("KitchenTableSelector", "_Empty");
+            SetField("KitchenTableType", "_Empty");
         }
         Preset("Table A")
         {
-            SetField("KitchenTableSelector", "Table A");
+            SetField("KitchenTableType", "Table A");
         }
         Preset("Table B")
         {
-            SetField("KitchenTableSelector", "Table B");
+            SetField("KitchenTableType", "Table B");
         }
         Preset("Tree Group A")
         {
-            SetField("KitchenTableSelector", "Tree Group A");
+            SetField("KitchenTableType", "Tree Group A");
         }
         Preset("Tree Group B")
         {
-            SetField("KitchenTableSelector", "Tree Group B");
+            SetField("KitchenTableType", "Tree Group B");
         }
         Preset("Tree Group C")
         {
-            SetField("KitchenTableSelector", "Tree Group C");
+            SetField("KitchenTableType", "Tree Group C");
         }
         Preset("Tree Group D")
         {
-            SetField("KitchenTableSelector", "Tree Group D");
+            SetField("KitchenTableType", "Tree Group D");
         }
         Preset("Tree Group E")
         {
-            SetField("KitchenTableSelector", "Tree Group E");
+            SetField("KitchenTableType", "Tree Group E");
         }
         Preset("Tree Group F")
         {
-            SetField("KitchenTableSelector", "Tree Group F");
+            SetField("KitchenTableType", "Tree Group F");
         }
     }
-    PresetDef("LoungeBookcaseASelector")
+    PresetDef("LoungeBookcaseTypeA")
     {
         Description("");
-        AddField("LoungeBookcaseASelector", "", false, true, false);
+        AddField("LoungeBookcaseTypeA", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("LoungeBookcaseASelector", "_Empty");
+            SetField("LoungeBookcaseTypeA", "_Empty");
         }
         Preset("Bookcase A")
         {
-            SetField("LoungeBookcaseASelector", "Bookcase A");
+            SetField("LoungeBookcaseTypeA", "Bookcase A");
         }
         Preset("Bookcase B")
         {
-            SetField("LoungeBookcaseASelector", "Bookcase B");
+            SetField("LoungeBookcaseTypeA", "Bookcase B");
         }
         Preset("Painting A")
         {
-            SetField("LoungeBookcaseASelector", "Painting A");
+            SetField("LoungeBookcaseTypeA", "Painting A");
         }
         Preset("Painting B")
         {
-            SetField("LoungeBookcaseASelector", "Painting B");
+            SetField("LoungeBookcaseTypeA", "Painting B");
         }
         Preset("Painting C")
         {
-            SetField("LoungeBookcaseASelector", "Painting C");
+            SetField("LoungeBookcaseTypeA", "Painting C");
         }
     }
-    PresetDef("LoungeBookcaseBSelector")
+    PresetDef("LoungeBookcaseTypeB")
     {
         Description("");
-        AddField("LoungeBookcaseBSelector", "", false, true, false);
+        AddField("LoungeBookcaseTypeB", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("LoungeBookcaseBSelector", "_Empty");
+            SetField("LoungeBookcaseTypeB", "_Empty");
         }
         Preset("Bookcase A")
         {
-            SetField("LoungeBookcaseBSelector", "Bookcase A");
+            SetField("LoungeBookcaseTypeB", "Bookcase A");
         }
         Preset("Bookcase B")
         {
-            SetField("LoungeBookcaseBSelector", "Bookcase B");
+            SetField("LoungeBookcaseTypeB", "Bookcase B");
         }
         Preset("Painting A")
         {
-            SetField("LoungeBookcaseBSelector", "Painting A");
+            SetField("LoungeBookcaseTypeB", "Painting A");
         }
         Preset("Painting B")
         {
-            SetField("LoungeBookcaseBSelector", "Painting B");
+            SetField("LoungeBookcaseTypeB", "Painting B");
         }
         Preset("Painting C")
         {
-            SetField("LoungeBookcaseBSelector", "Painting C");
+            SetField("LoungeBookcaseTypeB", "Painting C");
         }
     }
-    PresetDef("LoungeBookcaseCSelector")
+    PresetDef("LoungeBookcaseTypeC")
     {
         Description("");
-        AddField("LoungeBookcaseCSelector", "", false, true, false);
+        AddField("LoungeBookcaseTypeC", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("LoungeBookcaseCSelector", "_Empty");
+            SetField("LoungeBookcaseTypeC", "_Empty");
         }
         Preset("Bookcase A")
         {
-            SetField("LoungeBookcaseCSelector", "Bookcase A");
+            SetField("LoungeBookcaseTypeC", "Bookcase A");
         }
         Preset("Bookcase B")
         {
-            SetField("LoungeBookcaseCSelector", "Bookcase B");
+            SetField("LoungeBookcaseTypeC", "Bookcase B");
         }
         Preset("Painting A")
         {
-            SetField("LoungeBookcaseCSelector", "Painting A");
+            SetField("LoungeBookcaseTypeC", "Painting A");
         }
         Preset("Painting B")
         {
-            SetField("LoungeBookcaseCSelector", "Painting B");
+            SetField("LoungeBookcaseTypeC", "Painting B");
         }
         Preset("Painting C")
         {
-            SetField("LoungeBookcaseCSelector", "Painting C");
+            SetField("LoungeBookcaseTypeC", "Painting C");
         }
     }
-    PresetDef("LoungeBookcaseDSelector")
+    PresetDef("LoungeBookcaseTypeD")
     {
         Description("");
-        AddField("LoungeBookcaseDSelector", "", false, true, false);
+        AddField("LoungeBookcaseTypeD", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("LoungeBookcaseDSelector", "_Empty");
+            SetField("LoungeBookcaseTypeD", "_Empty");
         }
         Preset("Bookcase A")
         {
-            SetField("LoungeBookcaseDSelector", "Bookcase A");
+            SetField("LoungeBookcaseTypeD", "Bookcase A");
         }
         Preset("Bookcase B")
         {
-            SetField("LoungeBookcaseDSelector", "Bookcase B");
+            SetField("LoungeBookcaseTypeD", "Bookcase B");
         }
         Preset("Painting A")
         {
-            SetField("LoungeBookcaseDSelector", "Painting A");
+            SetField("LoungeBookcaseTypeD", "Painting A");
         }
         Preset("Painting B")
         {
-            SetField("LoungeBookcaseDSelector", "Painting B");
+            SetField("LoungeBookcaseTypeD", "Painting B");
         }
         Preset("Painting C")
         {
-            SetField("LoungeBookcaseDSelector", "Painting C");
+            SetField("LoungeBookcaseTypeD", "Painting C");
         }
     }
-    PresetDef("LoungeBookcaseESelector")
+    PresetDef("LoungeBookcaseTypeE")
     {
         Description("");
-        AddField("LoungeBookcaseESelector", "", false, true, false);
+        AddField("LoungeBookcaseTypeE", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("LoungeBookcaseESelector", "_Empty");
+            SetField("LoungeBookcaseTypeE", "_Empty");
         }
         Preset("Bookcase A")
         {
-            SetField("LoungeBookcaseESelector", "Bookcase A");
+            SetField("LoungeBookcaseTypeE", "Bookcase A");
         }
         Preset("Bookcase B")
         {
-            SetField("LoungeBookcaseESelector", "Bookcase B");
+            SetField("LoungeBookcaseTypeE", "Bookcase B");
         }
         Preset("Painting A")
         {
-            SetField("LoungeBookcaseESelector", "Painting A");
+            SetField("LoungeBookcaseTypeE", "Painting A");
         }
         Preset("Painting B")
         {
-            SetField("LoungeBookcaseESelector", "Painting B");
+            SetField("LoungeBookcaseTypeE", "Painting B");
         }
         Preset("Painting C")
         {
-            SetField("LoungeBookcaseESelector", "Painting C");
+            SetField("LoungeBookcaseTypeE", "Painting C");
         }
     }
-    PresetDef("KitchenBookcaseSelector")
+    PresetDef("KitchenBookcaseType")
     {
         Description("");
-        AddField("KitchenBookcaseSelector", "", false, true, false);
+        AddField("KitchenBookcaseType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("KitchenBookcaseSelector", "_Empty");
+            SetField("KitchenBookcaseType", "_Empty");
         }
         Preset("Bookcase A")
         {
-            SetField("KitchenBookcaseSelector", "Bookcase A");
+            SetField("KitchenBookcaseType", "Bookcase A");
         }
         Preset("Bookcase B")
         {
-            SetField("KitchenBookcaseSelector", "Bookcase B");
+            SetField("KitchenBookcaseType", "Bookcase B");
         }
         Preset("Painting A")
         {
-            SetField("KitchenBookcaseSelector", "Painting A");
+            SetField("KitchenBookcaseType", "Painting A");
         }
         Preset("Painting B")
         {
-            SetField("KitchenBookcaseSelector", "Painting B");
+            SetField("KitchenBookcaseType", "Painting B");
         }
         Preset("Painting C")
         {
-            SetField("KitchenBookcaseSelector", "Painting C");
+            SetField("KitchenBookcaseType", "Painting C");
+        }
+    }
+    PresetDef("LoungeFloorType")
+    {
+        Description("");
+        AddField("LoungeFloorType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("LoungeFloorType", "Broken");
+        }
+        Preset("Broken Muddy")
+        {
+            SetField("LoungeFloorType", "Broken Muddy");
+        }
+        Preset("Full")
+        {
+            SetField("LoungeFloorType", "Full");
+        }
+    }
+    PresetDef("KitchenFloorType")
+    {
+        Description("");
+        AddField("KitchenFloorType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("KitchenFloorType", "Broken");
+        }
+        Preset("Broken Muddy")
+        {
+            SetField("KitchenFloorType", "Broken Muddy");
+        }
+        Preset("Full")
+        {
+            SetField("KitchenFloorType", "Full");
+        }
+    }
+    PresetDef("LoungeCeilingType")
+    {
+        Description("");
+        AddField("LoungeCeilingType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("LoungeCeilingType", "Broken");
+        }
+        Preset("Full")
+        {
+            SetField("LoungeCeilingType", "Full");
+        }
+    }
+    PresetDef("KitchenCeilingType")
+    {
+        Description("");
+        AddField("KitchenCeilingType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Broken")
+        {
+            SetField("KitchenCeilingType", "Broken");
+        }
+        Preset("Full")
+        {
+            SetField("KitchenCeilingType", "Full");
+        }
+    }
+    PresetDef("KitchenCarpetType")
+    {
+        Description("");
+        AddField("KitchenCarpetType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("KitchenCarpetType", "_Empty");
+        }
+        Preset("Carpet A")
+        {
+            SetField("KitchenCarpetType", "Carpet A");
+        }
+    }
+    PresetDef("LoungeCarpetType")
+    {
+        Description("");
+        AddField("LoungeCarpetType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("LoungeCarpetType", "_Empty");
+        }
+        Preset("Carpet A")
+        {
+            SetField("LoungeCarpetType", "Carpet A");
         }
     }
 }

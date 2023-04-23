@@ -1,19 +1,19 @@
 sub main()
 {
     Version(0);
-    PresetDef("SelectorWardrobe")
+    PresetDef("WardrobeType")
     {
         Description("");
-        AddField("SELECTOR", "", false, true, false);
+        AddField("WardrobeType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("Wardrobe A")
         {
-            SetField("SELECTOR", "Wardrobe A");
+            SetField("WardrobeType", "Wardrobe A");
         }
         Preset("Wardrobe B")
         {
-            SetField("SELECTOR", "Wardrobe B");
+            SetField("WardrobeType", "Wardrobe B");
         }
     }
 }

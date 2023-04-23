@@ -5,7 +5,7 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "SELECTOR",
+            "Name": "FloorType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
@@ -15,20 +15,20 @@
             ]
           },
           {
-            "Name": "SelectorPlantLifeType",
+            "Name": "VegetationType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "2",
-                "Name": "SelectorPlantLifeType"
+                "Name": "VegetationType"
               },
               {
                 "Uuid": "3",
-                "Name": "SelectorPlantLifeType"
+                "Name": "VegetationType"
               },
               {
                 "Uuid": "4",
-                "Name": "SelectorPlantLifeType"
+                "Name": "VegetationType"
               }
             ]
           }
@@ -40,8 +40,7 @@
           "PrefabFieldsNative": {
             "m_ControlledPrefabIds": [44, 2, 3, 4],
             "m_PcId": [6, 1]
-          },
-          "Presets": []
+          }
         },
         {
           "Class": "CEntity",
@@ -58,7 +57,7 @@
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_tr_bld_decor_floor_broken"],
             "m_RandomizationWeight": [6, 0],
-            "m_Translate": [14, [-0.446999, 0.0000023, 0.2470054]]
+            "m_Translate": [14, [-0.446999, 2.3E-06, 0.2470054]]
           }
         },
         {

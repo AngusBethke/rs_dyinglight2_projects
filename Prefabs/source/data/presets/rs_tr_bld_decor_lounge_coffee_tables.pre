@@ -1,27 +1,27 @@
 sub main()
 {
     Version(0);
-    PresetDef("SELECTOR")
+    PresetDef("CoffeeTableType")
     {
         Description("");
-        AddField("SELECTOR", "", false, true, false);
+        AddField("CoffeeTableType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("_Empty")
         {
-            SetField("SELECTOR", "_Empty");
+            SetField("CoffeeTableType", "_Empty");
         }
         Preset("Table A")
         {
-            SetField("SELECTOR", "Table A");
+            SetField("CoffeeTableType", "Table A");
         }
         Preset("Table B")
         {
-            SetField("SELECTOR", "Table B");
+            SetField("CoffeeTableType", "Table B");
         }
         Preset("Table C")
         {
-            SetField("SELECTOR", "Table C");
+            SetField("CoffeeTableType", "Table C");
         }
     }
 }

@@ -5,196 +5,226 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "SelectorPlantLifeType",
+            "Name": "VegetationType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "5",
-                "Name": "SelectorPlantLifeType"
+                "Name": "VegetationType"
               },
               {
                 "Uuid": "10",
-                "Name": "SELECTOR_A"
+                "Name": "VegetationType"
               },
               {
                 "Uuid": "23",
-                "Name": "SelectorPlantLifeType"
+                "Name": "VegetationType"
               }
             ]
           },
           {
-            "Name": "CoffeeTableSelector",
+            "Name": "LoungeCoffeeTable",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "11",
-                "Name": "SELECTOR"
+                "Name": "CoffeeTable"
               }
             ]
           },
           {
-            "Name": "CouchFrontSelector",
+            "Name": "LoungeCouchFront",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "11",
-                "Name": "SELECTOR_A"
+                "Name": "CouchFront"
               }
             ]
           },
           {
-            "Name": "CouchLeftSelector",
+            "Name": "LoungeCouchLeft",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "11",
-                "Name": "SELECTOR_B"
+                "Name": "CouchLeft"
               }
             ]
           },
           {
-            "Name": "CouchRightSelector",
+            "Name": "LoungeCouchRight",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "11",
-                "Name": "SELECTOR_C"
+                "Name": "CouchRight"
               }
             ]
           },
           {
-            "Name": "KitchenTableSelector",
+            "Name": "KitchenTableType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "10",
-                "Name": "SELECTOR"
+                "Name": "TableType"
               }
             ]
           },
           {
-            "Name": "LoungeBookcaseASelector",
+            "Name": "LoungeBookcaseTypeA",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "17",
-                "Name": "SELECTOR"
+                "Name": "BookcaseType"
               }
             ]
           },
           {
-            "Name": "LoungeBookcaseBSelector",
+            "Name": "LoungeBookcaseTypeB",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "18",
-                "Name": "SELECTOR"
+                "Name": "BookcaseType"
               }
             ]
           },
           {
-            "Name": "LoungeBookcaseCSelector",
+            "Name": "LoungeBookcaseTypeC",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "19",
-                "Name": "SELECTOR"
+                "Name": "BookcaseType"
               }
             ]
           },
           {
-            "Name": "LoungeBookcaseDSelector",
+            "Name": "LoungeBookcaseTypeD",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "20",
-                "Name": "SELECTOR"
+                "Name": "BookcaseType"
               }
             ]
           },
           {
-            "Name": "LoungeBookcaseESelector",
+            "Name": "LoungeBookcaseTypeE",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "21",
-                "Name": "SELECTOR"
+                "Name": "BookcaseType"
               }
             ]
           },
           {
-            "Name": "KitchenBookcaseSelector",
+            "Name": "KitchenBookcaseType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "22",
-                "Name": "SELECTOR"
+                "Name": "BookcaseType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "FloorType"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "23",
+                "Name": "FloorType"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "39",
+                "Name": "InteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "CeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "15",
+                "Name": "CeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "35",
+                "Name": "CarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "28",
+                "Name": "CarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "35",
+                "Name": "CarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "28",
+                "Name": "CarpetSkin"
               }
             ]
           }
         ]
       },
       "Components": [
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129338, 0.1525024, 0.974147, 1.9270758, 0.0125025]],
-            "m_PcId": [6, 1],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Scale": [14, [2.0, 1.0, 1.0]],
-            "m_Translate": [14, [0.694567, -0.688932, 5.8234839]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129344, 0.1525024, 0.974147, 1.9270759, 0.0125025]],
-            "m_PcId": [6, 2],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Scale": [14, [1.999999, 1.0, 0.9999989]],
-            "m_Translate": [14, [-3.1454319, -0.6889309, 5.8234839]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
-            "m_PcId": [6, 3],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [0.0, -90.0, -0.000022]],
-            "m_Scale": [14, [1.9999978, 0.9999989, 0.9999989]],
-            "m_Translate": [14, [2.454565, -0.6889309, 3.887484]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
-            "m_PcId": [6, 4],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Scale": [14, [2.0, 1.0, 1.0]],
-            "m_Translate": [14, [2.454565, -0.688933, 0.047485]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
-          }
-        },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
@@ -211,20 +241,11 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 6],
-            "m_PrefabName": [12, "rs_tr_bld_decor_door"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Translate": [14, [2.4545669, -0.688928, -7.6325068]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005002, 1.6405824, 0.4755004, 1.1605, 1.6405826, 0.3154998]],
             "m_PcId": [6, 7],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;frn_livingroom_modern_fireplace_a"],
-            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 4.9E-06, 179.9999847]],
             "m_Translate": [14, [-1.2254358, -0.668931, 5.823492]]
           }
         },
@@ -309,15 +330,6 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 16],
-            "m_PrefabName": [12, "rs_tr_bld_decor_door"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Translate": [14, [2.454566, -0.6889309, -3.7925109]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
             "m_PcId": [6, 17],
             "m_PrefabName": [12, "rs_tr_bld_decor_bookcase"],
             "m_PresetNames": [12, "SelectorBookcase;Bookcase B"],
@@ -343,7 +355,7 @@
             "m_PcId": [6, 19],
             "m_PrefabName": [12, "rs_tr_bld_decor_bookcase"],
             "m_PresetNames": [12, "SelectorBookcase;Painting A"],
-            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 4.9E-06, 179.9999847]],
             "m_Scale": [14, [0.9999979, 0.9999979, 0.999997]],
             "m_Translate": [14, [1.050443, -0.6689329, 5.6532759]]
           }
@@ -354,7 +366,7 @@
             "m_PcId": [6, 20],
             "m_PrefabName": [12, "rs_tr_bld_decor_bookcase"],
             "m_PresetNames": [12, "SelectorBookcase;Painting C"],
-            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 4.9E-06, 179.9999847]],
             "m_Scale": [14, [0.9999979, 0.9999979, 0.999997]],
             "m_Translate": [14, [-3.5337409, -0.6689339, 5.6532759]]
           }
@@ -441,7 +453,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 28],
             "m_PrefabName": [12, "rs_tr_bld_decor_carpet"],
-            "m_Rotate": [14, [0.0000247, -87.5000915, 0.0000247]],
+            "m_Rotate": [14, [2.47E-05, -87.5000915, 2.47E-05]],
             "m_Translate": [14, [-1.1438095, -0.6675772, -3.3573513]]
           }
         },
@@ -503,7 +515,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000052, 0.0793471, 0.753856, 1.8438119, 0.0854927, 0.607463]],
+            "m_EntityComponentsExtents": [69, [5.2E-06, 0.0793471, 0.753856, 1.8438119, 0.0854927, 0.607463]],
             "m_PcId": [6, 34],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_trashgroup_flr_2side_medical_a"],
@@ -523,46 +535,9 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129337, 0.1525024, 0.974147, 1.9270757, 0.0125025]],
-            "m_PcId": [6, 36],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Scale": [14, [1.9249993, 0.9999995, 0.9999994]],
-            "m_Translate": [14, [-5.0654287, -0.6889286, -7.5445079]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129338, 0.1525024, 0.974147, 1.9270758, 0.0125025]],
-            "m_PcId": [6, 37],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
-            "m_Scale": [14, [1.999999, 0.9999998, 0.9999998]],
-            "m_Translate": [14, [-3.1454308, -0.688929, -9.5365085]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
-            "m_PcId": [6, 38],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
-            "m_Scale": [14, [1.9999989, 0.9999997, 0.9999997]],
-            "m_Translate": [14, [0.6945685, -0.6889299, -9.5365085]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "rs_tr_bld_cor_a_interior_lounge_walls"],
+            "m_Translate": [14, [-0.7225749, -0.6889302, -1.5765113]]
           }
         }
       ]

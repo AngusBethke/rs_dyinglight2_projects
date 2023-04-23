@@ -1,42 +1,42 @@
 sub main()
 {
     Version(0);
-    PresetDef("SelectorFloorType")
+    PresetDef("FloorType")
     {
         Description("");
-        AddField("SELECTOR", "", false, true, false);
+        AddField("FloorType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("Broken")
         {
-            SetField("SELECTOR", "Broken");
+            SetField("FloorType", "Broken");
         }
         Preset("Broken Muddy")
         {
-            SetField("SELECTOR", "Broken Muddy");
+            SetField("FloorType", "Broken Muddy");
         }
         Preset("Full")
         {
-            SetField("SELECTOR", "Full");
+            SetField("FloorType", "Full");
         }
     }
-    PresetDef("SelectorPlantLifeType")
+    PresetDef("VegetationType")
     {
         Description("");
-        AddField("SelectorPlantLifeType", "", false, true, false);
+        AddField("VegetationType", "", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset("Dead")
         {
-            SetField("SelectorPlantLifeType", "Dead");
+            SetField("VegetationType", "Dead");
         }
         Preset("Green")
         {
-            SetField("SelectorPlantLifeType", "Green");
+            SetField("VegetationType", "Green");
         }
         Preset("Yellow")
         {
-            SetField("SelectorPlantLifeType", "Yellow");
+            SetField("VegetationType", "Yellow");
         }
     }
 }

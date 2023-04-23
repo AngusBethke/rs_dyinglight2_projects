@@ -190,4 +190,373 @@ sub main()
             SetField("LoungeWindowC", "Open Partially Blocked");
         }
     }
+    PresetDef("BathroomWindowALedgeType")
+    {
+        Description("");
+        AddField("BathroomWindowALedgeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Hanging Left")
+        {
+            SetField("BathroomWindowALedgeType", "Hanging Left");
+        }
+        Preset("Hanging Right")
+        {
+            SetField("BathroomWindowALedgeType", "Hanging Right");
+        }
+        Preset("Horizontal")
+        {
+            SetField("BathroomWindowALedgeType", "Horizontal");
+        }
+        Preset("Vertical Left")
+        {
+            SetField("BathroomWindowALedgeType", "Vertical Left");
+        }
+        Preset("Vertical Right")
+        {
+            SetField("BathroomWindowALedgeType", "Vertical Right");
+        }
+    }
+    PresetDef("BathroomWindowBLedgeType")
+    {
+        Description("");
+        AddField("BathroomWindowBLedgeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Hanging Left")
+        {
+            SetField("BathroomWindowBLedgeType", "Hanging Left");
+        }
+        Preset("Hanging Right")
+        {
+            SetField("BathroomWindowBLedgeType", "Hanging Right");
+        }
+        Preset("Horizontal")
+        {
+            SetField("BathroomWindowBLedgeType", "Horizontal");
+        }
+        Preset("Vertical Left")
+        {
+            SetField("BathroomWindowBLedgeType", "Vertical Left");
+        }
+        Preset("Vertical Right")
+        {
+            SetField("BathroomWindowBLedgeType", "Vertical Right");
+        }
+    }
+    PresetDef("BedroomWindowALedgeType")
+    {
+        Description("");
+        AddField("BedroomWindowALedgeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Hanging Left")
+        {
+            SetField("BedroomWindowALedgeType", "Hanging Left");
+        }
+        Preset("Hanging Right")
+        {
+            SetField("BedroomWindowALedgeType", "Hanging Right");
+        }
+        Preset("Horizontal")
+        {
+            SetField("BedroomWindowALedgeType", "Horizontal");
+        }
+        Preset("Vertical Left")
+        {
+            SetField("BedroomWindowALedgeType", "Vertical Left");
+        }
+        Preset("Vertical Right")
+        {
+            SetField("BedroomWindowALedgeType", "Vertical Right");
+        }
+    }
+    PresetDef("BedroomWindowBLedgeType")
+    {
+        Description("");
+        AddField("BedroomWindowBLedgeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Hanging Left")
+        {
+            SetField("BedroomWindowBLedgeType", "Hanging Left");
+        }
+        Preset("Hanging Right")
+        {
+            SetField("BedroomWindowBLedgeType", "Hanging Right");
+        }
+        Preset("Horizontal")
+        {
+            SetField("BedroomWindowBLedgeType", "Horizontal");
+        }
+        Preset("Vertical Left")
+        {
+            SetField("BedroomWindowBLedgeType", "Vertical Left");
+        }
+        Preset("Vertical Right")
+        {
+            SetField("BedroomWindowBLedgeType", "Vertical Right");
+        }
+    }
+    PresetDef("LoungeWindowALedgeType")
+    {
+        Description("");
+        AddField("LoungeWindowALedgeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Hanging Left")
+        {
+            SetField("LoungeWindowALedgeType", "Hanging Left");
+        }
+        Preset("Hanging Right")
+        {
+            SetField("LoungeWindowALedgeType", "Hanging Right");
+        }
+        Preset("Horizontal")
+        {
+            SetField("LoungeWindowALedgeType", "Horizontal");
+        }
+        Preset("Vertical Left")
+        {
+            SetField("LoungeWindowALedgeType", "Vertical Left");
+        }
+        Preset("Vertical Right")
+        {
+            SetField("LoungeWindowALedgeType", "Vertical Right");
+        }
+    }
+    PresetDef("LoungeWindowBLedgeType")
+    {
+        Description("");
+        AddField("LoungeWindowBLedgeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Hanging Left")
+        {
+            SetField("LoungeWindowBLedgeType", "Hanging Left");
+        }
+        Preset("Hanging Right")
+        {
+            SetField("LoungeWindowBLedgeType", "Hanging Right");
+        }
+        Preset("Horizontal")
+        {
+            SetField("LoungeWindowBLedgeType", "Horizontal");
+        }
+        Preset("Vertical Left")
+        {
+            SetField("LoungeWindowBLedgeType", "Vertical Left");
+        }
+        Preset("Vertical Right")
+        {
+            SetField("LoungeWindowBLedgeType", "Vertical Right");
+        }
+    }
+    PresetDef("LoungeWindowCLedgeType")
+    {
+        Description("");
+        AddField("LoungeWindowCLedgeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Hanging Left")
+        {
+            SetField("LoungeWindowCLedgeType", "Hanging Left");
+        }
+        Preset("Hanging Right")
+        {
+            SetField("LoungeWindowCLedgeType", "Hanging Right");
+        }
+        Preset("Horizontal")
+        {
+            SetField("LoungeWindowCLedgeType", "Horizontal");
+        }
+        Preset("Vertical Left")
+        {
+            SetField("LoungeWindowCLedgeType", "Vertical Left");
+        }
+        Preset("Vertical Right")
+        {
+            SetField("LoungeWindowCLedgeType", "Vertical Right");
+        }
+    }
+    PresetDef("BathroomWindowAPlantLifeType")
+    {
+        Description("");
+        AddField("BathroomWindowAPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BathroomWindowAPlantLifeType", "_Empty");
+        }
+        Preset("Plantlife A")
+        {
+            SetField("BathroomWindowAPlantLifeType", "Plantlife A");
+        }
+        Preset("Plantlife B")
+        {
+            SetField("BathroomWindowAPlantLifeType", "Plantlife B");
+        }
+        Preset("Plantlife C")
+        {
+            SetField("BathroomWindowAPlantLifeType", "Plantlife C");
+        }
+    }
+    PresetDef("BathroomWindowBPlantLifeType")
+    {
+        Description("");
+        AddField("BathroomWindowBPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BathroomWindowBPlantLifeType", "_Empty");
+        }
+        Preset("Plantlife A")
+        {
+            SetField("BathroomWindowBPlantLifeType", "Plantlife A");
+        }
+        Preset("Plantlife B")
+        {
+            SetField("BathroomWindowBPlantLifeType", "Plantlife B");
+        }
+        Preset("Plantlife C")
+        {
+            SetField("BathroomWindowBPlantLifeType", "Plantlife C");
+        }
+    }
+    PresetDef("BedroomWindowAPlantLifeType")
+    {
+        Description("");
+        AddField("BedroomWindowAPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BedroomWindowAPlantLifeType", "_Empty");
+        }
+        Preset("Plantlife A")
+        {
+            SetField("BedroomWindowAPlantLifeType", "Plantlife A");
+        }
+        Preset("Plantlife B")
+        {
+            SetField("BedroomWindowAPlantLifeType", "Plantlife B");
+        }
+        Preset("Plantlife C")
+        {
+            SetField("BedroomWindowAPlantLifeType", "Plantlife C");
+        }
+    }
+    PresetDef("BedroomWindowBPlantLifeType")
+    {
+        Description("");
+        AddField("BedroomWindowBPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("BedroomWindowBPlantLifeType", "_Empty");
+        }
+        Preset("Plantlife A")
+        {
+            SetField("BedroomWindowBPlantLifeType", "Plantlife A");
+        }
+        Preset("Plantlife B")
+        {
+            SetField("BedroomWindowBPlantLifeType", "Plantlife B");
+        }
+        Preset("Plantlife C")
+        {
+            SetField("BedroomWindowBPlantLifeType", "Plantlife C");
+        }
+    }
+    PresetDef("LoungeWindowAPlantLifeType")
+    {
+        Description("");
+        AddField("LoungeWindowAPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("LoungeWindowAPlantLifeType", "_Empty");
+        }
+        Preset("Plantlife A")
+        {
+            SetField("LoungeWindowAPlantLifeType", "Plantlife A");
+        }
+        Preset("Plantlife B")
+        {
+            SetField("LoungeWindowAPlantLifeType", "Plantlife B");
+        }
+        Preset("Plantlife C")
+        {
+            SetField("LoungeWindowAPlantLifeType", "Plantlife C");
+        }
+    }
+    PresetDef("LoungeWindowBPlantLifeType")
+    {
+        Description("");
+        AddField("LoungeWindowBPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("LoungeWindowBPlantLifeType", "_Empty");
+        }
+        Preset("Plantlife A")
+        {
+            SetField("LoungeWindowBPlantLifeType", "Plantlife A");
+        }
+        Preset("Plantlife B")
+        {
+            SetField("LoungeWindowBPlantLifeType", "Plantlife B");
+        }
+        Preset("Plantlife C")
+        {
+            SetField("LoungeWindowBPlantLifeType", "Plantlife C");
+        }
+    }
+    PresetDef("LoungeWindowCPlantLifeType")
+    {
+        Description("");
+        AddField("LoungeWindowCPlantLifeType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("_Empty")
+        {
+            SetField("LoungeWindowCPlantLifeType", "_Empty");
+        }
+        Preset("Plantlife A")
+        {
+            SetField("LoungeWindowCPlantLifeType", "Plantlife A");
+        }
+        Preset("Plantlife B")
+        {
+            SetField("LoungeWindowCPlantLifeType", "Plantlife B");
+        }
+        Preset("Plantlife C")
+        {
+            SetField("LoungeWindowCPlantLifeType", "Plantlife C");
+        }
+    }
+    PresetDef("VegetationType")
+    {
+        Description("");
+        AddField("VegetationType", "", false, true, false);
+        IgnoreField("UserData");
+        IgnoreField("SkinName");
+        Preset("Dead")
+        {
+            SetField("VegetationType", "Dead");
+        }
+        Preset("Green")
+        {
+            SetField("VegetationType", "Green");
+        }
+        Preset("Yellow")
+        {
+            SetField("VegetationType", "Yellow");
+        }
+    }
 }

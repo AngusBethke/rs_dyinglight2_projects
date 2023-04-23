@@ -5,42 +5,42 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "SELECTOR_C",
+            "Name": "CouchRight",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "1",
-                "Name": "SELECTOR"
+                "Name": "CouchType"
               }
             ]
           },
           {
-            "Name": "SELECTOR_A",
+            "Name": "CouchFront",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "2",
-                "Name": "SELECTOR"
+                "Name": "CouchType"
               }
             ]
           },
           {
-            "Name": "SELECTOR",
+            "Name": "CoffeeTable",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "3",
-                "Name": "SELECTOR"
+                "Name": "CoffeeTableType"
               }
             ]
           },
           {
-            "Name": "SELECTOR_B",
+            "Name": "CouchLeft",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "SELECTOR"
+                "Name": "CouchType"
               }
             ]
           }
@@ -64,7 +64,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_tr_bld_decor_lounge_couches"],
-            "m_Translate": [14, [-0.1032491, 0.0000013, -1.608566]]
+            "m_Translate": [14, [-0.1032491, 1.3E-06, -1.608566]]
           },
           "Fields": {
             "SELECTOR": ""
@@ -76,7 +76,7 @@
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_tr_bld_decor_lounge_coffee_tables"],
             "m_RandomizationWeight": [6, 0],
-            "m_Translate": [14, [0.0257792, 0.0000013, 0.5077819]]
+            "m_Translate": [14, [0.0257792, 1.3E-06, 0.5077819]]
           }
         },
         {
