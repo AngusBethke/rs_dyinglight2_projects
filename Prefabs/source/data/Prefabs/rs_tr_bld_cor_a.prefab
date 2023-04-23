@@ -5,24 +5,1610 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "SelectorPlantLifeType",
+            "Name": "1stFloor_BathroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BathroomInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BathroomWindowA",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "1",
-                "Name": "SELECTOR"
-              },
+                "Uuid": "4",
+                "Name": "BathroomWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BathroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "SelectorPlantLifeType"
+                "Name": "BathroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BathroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BathroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BathroomWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BathroomWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BathroomWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BathroomWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BathroomWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BathroomWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomBedType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomBedType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomBookcaseTypeA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomBookcaseTypeA"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomBookcaseTypeB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomBookcaseTypeB"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomBookcaseTypeC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomBookcaseTypeC"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomBookcaseTypeD",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomBookcaseTypeD"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomWardrobeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomWardrobeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_BedroomWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "BedroomWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_ExteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "ExteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_HallwayInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "HallwayInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_KitchenBookcaseType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenBookcaseType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_KitchenCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenCarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_KitchenCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenCarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_KitchenCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_KitchenFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_KitchenTableType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenTableType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeBookcaseTypeA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeBookcaseTypeA"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeBookcaseTypeB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeBookcaseTypeB"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeBookcaseTypeC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeBookcaseTypeC"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeBookcaseTypeD",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeBookcaseTypeD"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeBookcaseTypeE",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeBookcaseTypeE"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeCarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeCarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeCoffeeTable",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeCoffeeTable"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeCouchFront",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeCouchFront"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeCouchLeft",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeCouchLeft"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeCouchRight",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeCouchRight"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowC"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowCLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowCLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "1stFloor_LoungeWindowCPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "LoungeWindowCPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BathroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BathroomInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BathroomWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BathroomWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BathroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BathroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BathroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BathroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BathroomWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BathroomWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BathroomWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BathroomWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BathroomWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BathroomWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomBedType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBedType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomBookcaseTypeA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeA"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomBookcaseTypeB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeB"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomBookcaseTypeC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeC"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomBookcaseTypeD",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeD"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomWardrobeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWardrobeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_BedroomWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_ExteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "ExteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_HallwayInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "HallwayInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_KitchenBookcaseType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "KitchenBookcaseType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_KitchenCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "KitchenCarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_KitchenCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "KitchenCarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_KitchenCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "KitchenCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_KitchenFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "KitchenFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_KitchenTableType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "KitchenTableType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeBookcaseTypeA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeBookcaseTypeA"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeBookcaseTypeB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeBookcaseTypeB"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeBookcaseTypeC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeBookcaseTypeC"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeBookcaseTypeD",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeBookcaseTypeD"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeBookcaseTypeE",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeBookcaseTypeE"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeCarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeCarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeCoffeeTable",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeCoffeeTable"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeCouchFront",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeCouchFront"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeCouchLeft",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeCouchLeft"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeCouchRight",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeCouchRight"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowC"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowCLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowCLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "2ndFloor_LoungeWindowCPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "LoungeWindowCPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BathroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BathroomInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BathroomWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BathroomWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BathroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BathroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BathroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BathroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BathroomWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BathroomWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BathroomWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BathroomWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BathroomWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BathroomWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomBedType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomBedType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomBookcaseTypeA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomBookcaseTypeA"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomBookcaseTypeB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomBookcaseTypeB"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomBookcaseTypeC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomBookcaseTypeC"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomBookcaseTypeD",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomBookcaseTypeD"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomWardrobeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomWardrobeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_BedroomWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "BedroomWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_ExteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "ExteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_HallwayInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "HallwayInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_KitchenBookcaseType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "KitchenBookcaseType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_KitchenCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "KitchenCarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_KitchenCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "KitchenCarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_KitchenCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "KitchenCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_KitchenFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "KitchenFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_KitchenTableType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "KitchenTableType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeBookcaseTypeA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeBookcaseTypeA"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeBookcaseTypeB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeBookcaseTypeB"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeBookcaseTypeC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeBookcaseTypeC"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeBookcaseTypeD",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeBookcaseTypeD"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeBookcaseTypeE",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeBookcaseTypeE"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeCarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeCarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeCoffeeTable",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeCoffeeTable"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeCouchFront",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeCouchFront"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeCouchLeft",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeCouchLeft"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeCouchRight",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeCouchRight"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowA"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowC"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowCLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowCLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "3rdFloor_LoungeWindowCPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "LoungeWindowCPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "VegetationType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "VegetationType"
               },
               {
                 "Uuid": "5",
-                "Name": "SelectorPlantLifeType"
+                "Name": "VegetationType"
               },
               {
                 "Uuid": "6",
-                "Name": "SelectorPlantLifeType"
+                "Name": "VegetationType"
               }
             ]
           }
@@ -32,6 +1618,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_Name": [12, "Roof"],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_roof"],
             "m_PresetNames": [12, "SelectorTreeType;Green"],
@@ -41,6 +1628,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_Name": [12, "Elevator"],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_elevator"],
             "m_Translate": [14, [8.273303, 0.1086826, -3.0261936]]
@@ -49,6 +1637,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_Name": [12, "Base"],
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_base"],
             "m_Translate": [14, [0.7359299, -7.5521812, -1.0071239]]
@@ -57,32 +1646,46 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_Name": [12, "1stFloor"],
             "m_PcId": [6, 4],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_floor"],
             "m_Translate": [14, [-3.5669326, -4.2483658, -4.6705112]]
           },
           "Fields": {
-            "BathroomInteriorSkin": "marbletiles_e_darkgrey",
-            "BathroomWindowA": "Open",
+            "BathroomWindowA": "",
             "BedroomInteriorSkin": "wood_panel_a_dark",
             "ExteriorSkin": "R2_living_colors_1_a",
+            "KitchenCarpetType": "",
+            "KitchenCeilingType": "",
+            "KitchenFloorType": "",
+            "LoungeCarpetType": "",
+            "LoungeCeilingType": "",
+            "LoungeCoffeeTable": "",
             "LoungeInteriorSkin": "marbletiles_e_lightbeige",
-            "KitchenCeilingType": "Full",
-            "KitchenFloorType": "Full",
+            "LoungeWindowA": "",
+            "LoungeWindowB": "",
+            "LoungeWindowC": "",
+            "LoungeWindowCLedgeType": "",
+            "LoungeWindowCPlantLifeType": "",
             "VegetationType": ""
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_Name": [12, "2ndFloor"],
             "m_PcId": [6, 5],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_floor"],
             "m_Translate": [14, [-3.5669317, -0.4083642, -4.6705112]]
+          },
+          "Fields": {
+            "VegetationType": "Yellow"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_Name": [12, "3rdFloor"],
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_floor"],
             "m_Translate": [14, [-3.5669317, 3.4316358, -4.6705112]]

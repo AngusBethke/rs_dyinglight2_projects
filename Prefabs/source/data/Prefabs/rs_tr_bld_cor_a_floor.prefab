@@ -5,20 +5,16 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "VegetationType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "Name": "BathroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
               {
-                "Uuid": "4",
-                "Name": "VegetationType"
-              },
-              {
-                "Uuid": "5",
-                "Name": "VegetationType"
+                "Uuid": "1",
+                "Name": "BathroomInteriorSkin"
               },
               {
                 "Uuid": "6",
-                "Name": "VegetationType"
+                "Name": "BathroomInteriorSkin"
               }
             ]
           },
@@ -33,12 +29,146 @@
             ]
           },
           {
+            "Name": "BathroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "BathroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "BathroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "BathroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
             "Name": "BathroomWindowB",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "1",
                 "Name": "BathroomWindowB"
+              }
+            ]
+          },
+          {
+            "Name": "BathroomWindowBLedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "BathroomWindowBLedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "BathroomWindowBPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "BathroomWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomBedType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBedType"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomBookcaseTypeA",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeA"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomBookcaseTypeB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeB"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomBookcaseTypeC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeC"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomBookcaseTypeD",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomBookcaseTypeD"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomFloorType"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "BedroomInteriorSkin"
+              },
+              {
+                "Uuid": "5",
+                "Name": "BedroomInteriorSkin"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomWardrobeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "BedroomWardrobeType"
               }
             ]
           },
@@ -53,6 +183,26 @@
             ]
           },
           {
+            "Name": "BedroomWindowALedgeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "BedroomWindowALedgeType"
+              }
+            ]
+          },
+          {
+            "Name": "BedroomWindowAPlantLifeType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "BedroomWindowAPlantLifeType"
+              }
+            ]
+          },
+          {
             "Name": "BedroomWindowB",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
@@ -63,72 +213,92 @@
             ]
           },
           {
-            "Name": "LoungeWindowA",
+            "Name": "BedroomWindowBLedgeType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "1",
-                "Name": "LoungeWindowA"
+                "Name": "BedroomWindowBLedgeType"
               }
             ]
           },
           {
-            "Name": "LoungeWindowB",
+            "Name": "BedroomWindowBPlantLifeType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "1",
-                "Name": "LoungeWindowB"
+                "Name": "BedroomWindowBPlantLifeType"
               }
             ]
           },
           {
-            "Name": "LoungeWindowC",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "Name": "ExteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
               {
                 "Uuid": "1",
-                "Name": "LoungeWindowC"
+                "Name": "ExteriorSkin"
               }
             ]
           },
           {
-            "Name": "LoungeCoffeeTable",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "Name": "HallwayInteriorSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
               {
-                "Uuid": "4",
-                "Name": "LoungeCoffeeTable"
+                "Uuid": "1",
+                "Name": "HallwayInteriorSkin"
               }
             ]
           },
           {
-            "Name": "LoungeCouchFront",
+            "Name": "KitchenBookcaseType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "LoungeCouchFront"
+                "Name": "KitchenBookcaseType"
               }
             ]
           },
           {
-            "Name": "LoungeCouchLeft",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "Name": "KitchenCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "LoungeCouchLeft"
+                "Name": "KitchenCarpetSkin"
               }
             ]
           },
           {
-            "Name": "LoungeCouchRight",
+            "Name": "KitchenCarpetType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "LoungeCouchRight"
+                "Name": "KitchenCarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenCeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenFloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "KitchenFloorType"
               }
             ]
           },
@@ -193,32 +363,22 @@
             ]
           },
           {
-            "Name": "KitchenBookcaseType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "Name": "LoungeCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "KitchenBookcaseType"
+                "Name": "LoungeCarpetSkin"
               }
             ]
           },
           {
-            "Name": "LoungeFloorType",
+            "Name": "LoungeCarpetType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "LoungeFloorType"
-              }
-            ]
-          },
-          {
-            "Name": "KitchenFloorType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "4",
-                "Name": "KitchenFloorType"
+                "Name": "LoungeCarpetType"
               }
             ]
           },
@@ -233,130 +393,52 @@
             ]
           },
           {
-            "Name": "KitchenCeilingType",
+            "Name": "LoungeCoffeeTable",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "4",
-                "Name": "KitchenCeilingType"
+                "Name": "LoungeCoffeeTable"
               }
             ]
           },
           {
-            "Name": "BedroomFloorType",
+            "Name": "LoungeCouchFront",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "5",
-                "Name": "BedroomFloorType"
+                "Uuid": "4",
+                "Name": "LoungeCouchFront"
               }
             ]
           },
           {
-            "Name": "BedroomBedType",
+            "Name": "LoungeCouchLeft",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "5",
-                "Name": "BedroomBedType"
+                "Uuid": "4",
+                "Name": "LoungeCouchLeft"
               }
             ]
           },
           {
-            "Name": "BedroomCeilingType",
+            "Name": "LoungeCouchRight",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "5",
-                "Name": "BedroomCeilingType"
+                "Uuid": "4",
+                "Name": "LoungeCouchRight"
               }
             ]
           },
           {
-            "Name": "BedroomWardrobeType",
+            "Name": "LoungeFloorType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "5",
-                "Name": "BedroomWardrobeType"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomBookcaseTypeA",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "5",
-                "Name": "BedroomBookcaseTypeA"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomBookcaseTypeB",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "5",
-                "Name": "BedroomBookcaseTypeB"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomBookcaseTypeC",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "5",
-                "Name": "BedroomBookcaseTypeC"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomBookcaseTypeD",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "5",
-                "Name": "BedroomBookcaseTypeD"
-              }
-            ]
-          },
-          {
-            "Name": "ExteriorSkin",
-            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "ExteriorSkin"
-              }
-            ]
-          },
-          {
-            "Name": "BathroomInteriorSkin",
-            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BathroomInteriorSkin"
-              },
-              {
-                "Uuid": "6",
-                "Name": "BathroomInteriorSkin"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomInteriorSkin",
-            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BedroomInteriorSkin"
-              },
-              {
-                "Uuid": "5",
-                "Name": "BedroomInteriorSkin"
+                "Uuid": "4",
+                "Name": "LoungeFloorType"
               }
             ]
           },
@@ -375,82 +457,12 @@
             ]
           },
           {
-            "Name": "BathroomWindowALedgeType",
+            "Name": "LoungeWindowA",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "1",
-                "Name": "BathroomWindowALedgeType"
-              }
-            ]
-          },
-          {
-            "Name": "BathroomWindowAPlantLifeType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BathroomWindowAPlantLifeType"
-              }
-            ]
-          },
-          {
-            "Name": "BathroomWindowBLedgeType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BathroomWindowBLedgeType"
-              }
-            ]
-          },
-          {
-            "Name": "BathroomWindowBPlantLifeType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BathroomWindowBPlantLifeType"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomWindowALedgeType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BedroomWindowALedgeType"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomWindowAPlantLifeType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BedroomWindowAPlantLifeType"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomWindowBLedgeType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BedroomWindowBLedgeType"
-              }
-            ]
-          },
-          {
-            "Name": "BedroomWindowBPlantLifeType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "1",
-                "Name": "BedroomWindowBPlantLifeType"
+                "Name": "LoungeWindowA"
               }
             ]
           },
@@ -475,6 +487,16 @@
             ]
           },
           {
+            "Name": "LoungeWindowB",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "LoungeWindowB"
+              }
+            ]
+          },
+          {
             "Name": "LoungeWindowBLedgeType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
@@ -491,6 +513,16 @@
               {
                 "Uuid": "1",
                 "Name": "LoungeWindowBPlantLifeType"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeWindowC",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "LoungeWindowC"
               }
             ]
           },
@@ -515,42 +547,24 @@
             ]
           },
           {
-            "Name": "KitchenCarpetType",
+            "Name": "VegetationType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "4",
-                "Name": "KitchenCarpetType"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCarpetType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
+                "Uuid": "1",
+                "Name": "VegetationType"
+              },
               {
                 "Uuid": "4",
-                "Name": "LoungeCarpetType"
-              }
-            ]
-          },
-          {
-            "Name": "KitchenCarpetSkin",
-            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
-            "DestinationFields": [
+                "Name": "VegetationType"
+              },
               {
-                "Uuid": "4",
-                "Name": "KitchenCarpetSkin"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCarpetSkin",
-            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
-            "DestinationFields": [
+                "Uuid": "5",
+                "Name": "VegetationType"
+              },
               {
-                "Uuid": "4",
-                "Name": "LoungeCarpetSkin"
+                "Uuid": "6",
+                "Name": "VegetationType"
               }
             ]
           }
@@ -565,7 +579,7 @@
             "m_Translate": [14, [1.142598, -0.454784, 2.826586]]
           },
           "Fields": {
-            "BathroomWindowA": "Open"
+            "BathroomWindowA": ""
           }
         },
         {
@@ -590,6 +604,9 @@
             "m_PcId": [6, 4],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_interior_lounge"],
             "m_Translate": [14, [-3.9794769, 0.240975, 5.4083352]]
+          },
+          "Fields": {
+            "VegetationType": "Yellow"
           }
         },
         {

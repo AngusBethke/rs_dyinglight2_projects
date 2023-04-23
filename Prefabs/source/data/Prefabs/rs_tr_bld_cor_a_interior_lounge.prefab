@@ -5,60 +5,52 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "VegetationType",
+            "Name": "KitchenBookcaseType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "BookcaseType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "28",
+                "Name": "CarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenCarpetType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "28",
+                "Name": "CarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "CeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "KitchenFloorType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "5",
-                "Name": "VegetationType"
-              },
-              {
-                "Uuid": "10",
-                "Name": "VegetationType"
-              },
-              {
-                "Uuid": "23",
-                "Name": "VegetationType"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCoffeeTable",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "11",
-                "Name": "CoffeeTable"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCouchFront",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "11",
-                "Name": "CouchFront"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCouchLeft",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "11",
-                "Name": "CouchLeft"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCouchRight",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "11",
-                "Name": "CouchRight"
+                "Name": "FloorType"
               }
             ]
           },
@@ -117,28 +109,78 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "21",
-                "Name": "BookcaseType"
-              }
-            ]
-          },
-          {
-            "Name": "KitchenBookcaseType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
                 "Uuid": "22",
                 "Name": "BookcaseType"
               }
             ]
           },
           {
-            "Name": "KitchenFloorType",
+            "Name": "LoungeCarpetSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "35",
+                "Name": "CarpetSkin"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCarpetType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "5",
-                "Name": "FloorType"
+                "Uuid": "35",
+                "Name": "CarpetType"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "15",
+                "Name": "CeilingType"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCoffeeTable",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "CoffeeTable"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCouchFront",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "CouchFront"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCouchLeft",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "CouchLeft"
+              }
+            ]
+          },
+          {
+            "Name": "LoungeCouchRight",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "CouchRight"
               }
             ]
           },
@@ -163,62 +205,24 @@
             ]
           },
           {
-            "Name": "KitchenCeilingType",
+            "Name": "VegetationType",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "12",
-                "Name": "CeilingType"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCeilingType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
+                "Uuid": "5",
+                "Name": "VegetationType"
+              },
               {
-                "Uuid": "15",
-                "Name": "CeilingType"
-              }
-            ]
-          },
-          {
-            "Name": "KitchenCarpetType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
+                "Uuid": "10",
+                "Name": "VegetationType"
+              },
               {
-                "Uuid": "35",
-                "Name": "CarpetType"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCarpetType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
+                "Uuid": "11",
+                "Name": "VegetationType"
+              },
               {
-                "Uuid": "28",
-                "Name": "CarpetType"
-              }
-            ]
-          },
-          {
-            "Name": "KitchenCarpetSkin",
-            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
-            "DestinationFields": [
-              {
-                "Uuid": "35",
-                "Name": "CarpetSkin"
-              }
-            ]
-          },
-          {
-            "Name": "LoungeCarpetSkin",
-            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
-            "DestinationFields": [
-              {
-                "Uuid": "28",
-                "Name": "CarpetSkin"
+                "Uuid": "23",
+                "Name": "VegetationType"
               }
             ]
           }
@@ -284,7 +288,8 @@
             "m_Translate": [14, [-1.150213, -0.668931, 2.0767118]]
           },
           "Fields": {
-            "SELECTOR": ""
+            "SELECTOR": "",
+            "CouchRight": ""
           }
         },
         {
@@ -537,7 +542,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 39],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_interior_lounge_walls"],
-            "m_Translate": [14, [-0.7225749, -0.6889302, -1.5765113]]
+            "m_Translate": [14, [-0.7225748, -0.6889302, -1.5765112]]
           }
         }
       ]

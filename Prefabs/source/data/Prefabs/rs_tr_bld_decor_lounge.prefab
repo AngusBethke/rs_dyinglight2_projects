@@ -5,12 +5,12 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "CouchRight",
+            "Name": "CoffeeTable",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "1",
-                "Name": "CouchType"
+                "Uuid": "3",
+                "Name": "CoffeeTableType"
               }
             ]
           },
@@ -25,22 +25,32 @@
             ]
           },
           {
-            "Name": "CoffeeTable",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
-            "DestinationFields": [
-              {
-                "Uuid": "3",
-                "Name": "CoffeeTableType"
-              }
-            ]
-          },
-          {
             "Name": "CouchLeft",
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
                 "Uuid": "4",
                 "Name": "CouchType"
+              }
+            ]
+          },
+          {
+            "Name": "CouchRight",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "CouchType"
+              }
+            ]
+          },
+          {
+            "Name": "VegetationType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "VegetationType"
               }
             ]
           }
@@ -76,7 +86,10 @@
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_tr_bld_decor_lounge_coffee_tables"],
             "m_RandomizationWeight": [6, 0],
-            "m_Translate": [14, [0.0257792, 1.3E-06, 0.5077819]]
+            "m_Translate": [14, [0.0257792, -0.054913, 0.5077819]]
+          },
+          "Fields": {
+            "CoffeeTableType": "Tree Group A"
           }
         },
         {
