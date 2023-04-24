@@ -5,36 +5,78 @@
       "Interface": {
         "VirtualFields": [
           {
+            "Name": "VegetationType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "2",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "3",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "4",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "5",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "6",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "7",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "8",
+                "Name": "VegetationType"
+              },
+              {
+                "Uuid": "9",
+                "Name": "VegetationType"
+              }
+            ]
+          },
+          {
             "Name": "InteriorSkin",
             "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
               {
                 "Uuid": "1",
-                "Name": "SkinName"
+                "Name": "InteriorSkin"
               },
               {
                 "Uuid": "2",
-                "Name": "SkinName"
+                "Name": "InteriorSkin"
               },
               {
                 "Uuid": "3",
-                "Name": "SkinName"
+                "Name": "InteriorSkin"
               },
               {
                 "Uuid": "4",
-                "Name": "SkinName"
+                "Name": "InteriorSkin"
               },
               {
                 "Uuid": "5",
-                "Name": "SkinName"
+                "Name": "InteriorSkin"
               },
               {
                 "Uuid": "6",
-                "Name": "SkinName"
+                "Name": "InteriorSkin"
               },
               {
                 "Uuid": "7",
-                "Name": "SkinName"
+                "Name": "InteriorSkin"
               },
               {
                 "Uuid": "8",
@@ -52,106 +94,71 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5E-06, 1.9129338, 0.1525024, 0.974147, 1.9270758, 0.0125025]],
             "m_PcId": [6, 1],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
+            "m_PrefabName": [12, "rs_tr_bld_decor_wall_2x"],
             "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
-            "m_Scale": [14, [1.999999, 1.0, 0.9999989]],
-            "m_Translate": [14, [1.417142, -1.9E-06, 7.3999919]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_Scale": [14, [1.0000002, 1.0000002, 1.0000005]],
+            "m_Translate": [14, [1.4171417, -0.0000019, 7.3999919]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
             "m_PcId": [6, 2],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
+            "m_PrefabName": [12, "rs_tr_bld_decor_wall_2x"],
             "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
-            "m_Scale": [14, [1.9999978, 1.0, 0.9999979]],
-            "m_Translate": [14, [-2.422856, -0.0, 7.3999919]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_Scale": [14, [1.0000002, 1.0000002, 1.0000005]],
+            "m_Translate": [14, [-2.422856, 0.0, 7.3999919]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
             "m_PcId": [6, 3],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [0.0, -90.0, -2.2E-05]],
-            "m_Scale": [14, [1.9999959, 0.9999989, 0.9999989]],
-            "m_Translate": [14, [3.177139, -0.0, 5.4639911]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_PrefabName": [12, "rs_tr_bld_decor_wall_2x"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000219]],
+            "m_Scale": [14, [1.0000005, 1.0000002, 1.0000002]],
+            "m_Translate": [14, [3.1771388, 0.0, 5.4639949]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
             "m_PcId": [6, 4],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
+            "m_PrefabName": [12, "rs_tr_bld_decor_wall_2x"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Scale": [14, [1.999999, 1.0, 1.0]],
-            "m_Translate": [14, [3.177139, -3E-06, 1.6239949]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_Scale": [14, [1.0000005, 1.0000002, 1.0000002]],
+            "m_Translate": [14, [3.1771388, -0.000003, 1.6239967]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.9741471, 1.9270759, 0.0125025]],
             "m_PcId": [6, 5],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
+            "m_PrefabName": [12, "rs_tr_bld_decor_wall_2x"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Scale": [14, [1.924998, 0.9999989, 0.9999989]],
-            "m_Translate": [14, [-4.3428521, 1.9E-06, -5.9679951]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_Scale": [14, [1.0000005, 1.0000002, 1.0000002]],
+            "m_Translate": [14, [-4.3428516, 0.0000019, -5.9679927]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.974147, 1.9270759, 0.0125025]],
             "m_PcId": [6, 6],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [-0.0, 4.9E-06, -0.0]],
-            "m_Scale": [14, [1.9999978, 0.9999989, 0.9999989]],
-            "m_Translate": [14, [-2.4228549, 9.999999974752427E-07, -7.9599928]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_PrefabName": [12, "rs_tr_bld_decor_wall_2x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Scale": [14, [1.0000002, 1.0000002, 1.0000005]],
+            "m_Translate": [14, [-2.4228546, 9.5367431640625e-7, -7.9599914]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5E-06, 1.9129339, 0.1525024, 0.974147, 1.9270759, 0.0125025]],
             "m_PcId": [6, 7],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
-            "m_Rotate": [14, [-0.0, 4.9E-06, -0.0]],
-            "m_Scale": [14, [1.9999978, 0.9999989, 0.9999989]],
-            "m_Translate": [14, [1.4171428, 0.0, -7.9599928]]
-          },
-          "Fields": {
-            "SkinName": "marbletiles_e_lightbeige"
+            "m_PrefabName": [12, "rs_tr_bld_decor_wall_2x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Scale": [14, [1.0000002, 1.0000002, 1.0000005]],
+            "m_Translate": [14, [1.4171425, 0.0, -7.9599914]]
           }
         },
         {
@@ -160,7 +167,7 @@
             "m_PcId": [6, 8],
             "m_PrefabName": [12, "rs_tr_bld_decor_door"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Translate": [14, [3.1771407, -7.152557373046875E-07, -2.2159996]]
+            "m_Translate": [14, [3.1771407, -7.152557373046875e-7, -2.2159996]]
           }
         },
         {
@@ -169,7 +176,7 @@
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "rs_tr_bld_decor_door"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Translate": [14, [3.1771416, 2.3E-06, -6.0559921]]
+            "m_Translate": [14, [3.1771416, 0.0000023, -6.0559921]]
           }
         }
       ]

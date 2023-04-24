@@ -232,14 +232,14 @@
             "m_PcId": [6, 21],
             "m_PrefabName": [12, "rs_tr_bld_decor_bookcase"],
             "m_PresetNames": [12, "SelectorBookcase;Painting C"],
-            "m_Rotate": [14, [2.2E-05, -4.9E-06, -2.2E-05]],
+            "m_Rotate": [14, [0.000022, -0.0000049, -0.000022]],
             "m_Translate": [14, [-4.0219779, -0.683977, -0.72522]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.1466325, 0.0195815, -0.178974, 1.6247216, 0.005005, 1.3543488]],
+            "m_EntityComponentsExtents": [69, [0.1466325, 0.0195815, -0.1789755, 1.6247222, 0.005005, 1.3543496]],
             "m_PcId": [6, 22],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;decal_flat_roundbig_a"],
@@ -251,12 +251,12 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [4.8E-06, -0.0074974, 4.7E-06, 0.980005, 0.0125024, 0.9800051]],
+            "m_EntityComponentsExtents": [69, [0.0000048, -0.0074974, 0.0000047, 0.9800052, 0.0125024, 0.9800051]],
             "m_PcId": [6, 23],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_sqr_1x1a_a"],
-            "m_Scale": [14, [1.925, 2.0, 2.0000002]],
-            "m_Translate": [14, [-3.9499809, -0.6639809, 1.0020979]]
+            "m_Scale": [14, [1.9249999, 2.0, 2.0000002]],
+            "m_Translate": [14, [-3.9499809, -0.6639809, 1.0020978]]
           },
           "Fields": {
             "SkinName": "woodplanks_a_light"
@@ -278,7 +278,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 25],
             "m_PrefabName": [12, "rs_tr_bld_decor_damage_debris"],
-            "m_Rotate": [14, [2.47E-05, -30.0, -1.56E-05]],
+            "m_Rotate": [14, [0.0000247, -30.0, -0.0000156]],
             "m_Scale": [14, [0.9999992, 0.9999991, 0.9999982]],
             "m_Translate": [14, [-2.3847944, -0.6639809, 0.4876632]]
           }
@@ -321,7 +321,7 @@
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Translate": [14, [5.7380194, -0.6639809, -0.922901]]
+            "m_Translate": [14, [5.7380194, -0.6639809, -0.9229009]]
           }
         },
         {
@@ -350,7 +350,60 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 32],
             "m_PrefabName": [12, "rs_tr_bld_cor_a_interior_bedroom_walls"],
-            "m_Translate": [14, [-0.3019804, -0.6839811, 0.3113193]]
+            "m_Translate": [14, [-0.3019804, -0.6839811, 0.3113192]]
+          },
+          "Fields": {
+            "InteriorSkin": "wood_panel_a_dark"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 0.9999999, 0.9999999]],
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "room_box"],
+            "m_Scale": [14, [3.7690012, 1.9130003, 3.7570021]],
+            "m_Translate": [14, [1.8380222, 1.2030222, -1.0359039]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 0.9999999, 0.9999999]],
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "room_box"],
+            "m_Scale": [14, [1.9970002, 1.9130001, 1.7620005]],
+            "m_Translate": [14, [-3.9259796, 1.2030215, 0.9590969]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.8764648, 1.1195349, -0.0841121, 5.7650008, 1.9130005, 3.7570018]],
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "room_logic"],
+            "m_PresetNames": [12, "Reverb_Group;Room_Medium"],
+            "m_Translate": [14, [0.7184867, 0.0834875, -0.9517917]]
+          },
+          "Fields": {
+            "m_Areas": "33;34;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "envprobe"],
+            "m_Scale": [14, [0.2460997, 1.9130005, 0.8598482]],
+            "m_Translate": [14, [-2.0502777, 1.2032485, 0.8920288]]
+          },
+          "Fields": {
+            "+X": "0",
+            "+Y": "0",
+            "-X": "0",
+            "-Y": "0",
+            "BlendingEnabled": "1"
           }
         }
       ]
