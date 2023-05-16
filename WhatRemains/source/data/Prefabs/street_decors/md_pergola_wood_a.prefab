@@ -1,0 +1,102 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "31",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0020494, 1.9213211, 2.5331974029541018e-7, 1.9289773, 1.9319949, 0.2449999]],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;ce_pergola_wood_a_wall_str_2x2_d"],
+            "m_Rotate": [14, [0.0000173, -0.0000394, -0.0000173]],
+            "m_Translate": [14, [-0.0001825, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0020895, 0.2378489, 0.0, 0.485, 0.245, 1.9249999]],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;straight_bench_modern_b"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Translate": [14, [0.0025027, -6.081816650294059e-8, -0.6983032]]
+          },
+          "Fields": {
+            "RenderFlags": "51"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1253452, 0.4986543, 0.2352657, 2.5244469, 0.5310634, 0.4573482]],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_plane_grass_h"],
+            "m_Rotate": [14, [-0.0000048, 0.0, -0.0]],
+            "m_Translate": [14, [0.1923522, 1.1520714160440093e-8, 0.1346509]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "64",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1189993, -1.1275727, 0.1283094, 1.3737264, 1.4550406, 0.3877341]],
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_1x_0h_a"],
+            "m_Rotate": [14, [0.0000058, 0.0, -0.0]],
+            "m_Translate": [14, [-0.6670513, 3.7686753, 0.2959597]]
+          },
+          "Fields": {
+            "RenderFlags": "33",
+            "SkinName": "ivy_wall_dry",
+            "m_CollisionFlags": "2058",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0844421, -1.0401675, 0.1128891, 2.1304743, 1.4223968, 0.4360239]],
+            "m_PcId": [6, 31],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_2x_0h_a"],
+            "m_Rotate": [14, [-179.9999847, -0.0000097, 179.9999847]],
+            "m_Translate": [14, [0.087953, 3.7686753, -0.2607415]]
+          },
+          "Fields": {
+            "RenderFlags": "33",
+            "SkinName": "ivy_wall_dry",
+            "m_CollisionFlags": "2058",
+            "m_NavmeshFlags": "1"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

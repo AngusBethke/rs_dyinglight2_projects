@@ -1,0 +1,128 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "113",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000057, 0.5, 0.0, 0.5000019, 0.5, 0.5]],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "playerfallamortizer"],
+            "m_PresetNames": [12, "PlayerFallAmortizer;vehicle"],
+            "m_Rotate": [14, [-179.4886627, -11.999567, -179.8938903]],
+            "m_Scale": [14, [1.9870001, 2.5470001, 5.1450004]],
+            "m_Translate": [14, [0.1486576, 0.4348511, 2.781831]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.023757, 0.5597331, -0.0251346, 0.4250946, 0.6140979, 0.4255177]],
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_bush_dead_small_b"],
+            "m_Rotate": [14, [-113.5467758, 87.2744445, 113.6542739]],
+            "m_Translate": [14, [0.693579, 0.0572144, -2.361376]]
+          },
+          "Fields": {
+            "RenderFlags": "51"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0268524, 0.7194258, -0.0966648, 0.8885968, 0.7987756, 0.7406353]],
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_bush_dead_small_a"],
+            "m_Rotate": [14, [28.5824108, 62.4416275, -24.5807075]],
+            "m_Scale": [14, [0.740741, 0.740741, 0.7407404]],
+            "m_Translate": [14, [-1.5863379, -0.0367337, -2.9985103]]
+          },
+          "Fields": {
+            "RenderFlags": "51"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0000014, 0.5, 0.4999999, 0.5000004]],
+            "m_PcId": [6, 86],
+            "m_PrefabName": [12, "playerfallamortizer"],
+            "m_Rotate": [14, [-179.7201385, 3.402368, 177.4990081]],
+            "m_Scale": [14, [1.7149999, 2.3490002, 4.2810001]],
+            "m_Translate": [14, [-0.2749288, 0.666885, -3.4249403]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000113, 0.8638318, 0.1828724, 1.4420301, 0.8725667, 2.5893306]],
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;veh_compact_a_open"],
+            "m_Rotate": [14, [-179.6982727, 3.9018797, 177.4976196]],
+            "m_Translate": [14, [-0.2885698, 0.0163844, -3.2305295]]
+          },
+          "Fields": {
+            "RenderFlags": "55"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0082965, 0.5573673, -0.7810243, 0.2456283, 0.5524857, 0.4299893]],
+            "m_PcId": [6, 106],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_sitting_c"],
+            "m_Rotate": [14, [-163.2382812, 7.7989912, -167.8248291]],
+            "m_Translate": [14, [-0.7516192, 0.355751, -4.5677127]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725374]],
+            "m_PcId": [6, 107],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [-2.8668024, 29.4595127, 5.7341952]],
+            "m_Translate": [14, [-0.8014308, 0.7172436, -3.2977614]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.011219, 0.7051369, -0.1983847, 1.4421811, 0.7157308, 2.9182209]],
+            "m_PcId": [6, 113],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;veh_sedan_c_open"],
+            "m_Rotate": [14, [-179.4886627, -11.999587, -179.8938903]],
+            "m_Translate": [14, [0.1166907, -0.0165036, 2.6124954]]
+          },
+          "Fields": {
+            "RenderFlags": "55"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
