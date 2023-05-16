@@ -1,0 +1,54 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Dead"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "rs_tr_bld_cor_a_roof_a_vegetation_tinyobjects_dead"],
+            "m_Scale": [14, [1.0000003, 1.0000003, 1.0000007]],
+            "m_Translate": [14, [0.0004129, -0.0001504, 0.0002172]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 18, 20],
+            "m_PcId": [6, 19]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Green"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "rs_tr_bld_cor_a_roof_a_vegetation_tinyobjects_green"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [4.76837158203125e-7, -0.0000019, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

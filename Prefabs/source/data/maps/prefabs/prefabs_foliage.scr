@@ -723,16 +723,48 @@
  }
  Layer("roof_bush_nature_r01b")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
+    RenderRangesLod(34.00, 100.00, 0.00)
     BlendRangesLod(0, 2.00, 4.00)
+    BlendRangesLod(1, 2.00, 5.00)
     DensityMap("city_foliage_roof_bush_nature_r01b")
-    InstancesPerMeter(3.00)
+    InstancesPerMeter(2.00)
     ExpensiveTraces(1)
     TerrainOnly(0)
     Type()
     {
-        MeshLod(0, "nat_fern_a_to.msh", "")
-        Priority(3)
+        MeshLod(0, "nat_shrub_b.msh", "")
+        MeshLod(1, "hiding_spot_lod2.msh", "")
+        Priority(20)
+        AlignToNormal(1)
+        NormalCutoff(0)
+        Scale(0.90, 1.10)
+        Shadows(-1, 0)
+    }
+    Type()
+    {
+        MeshLod(0, "nat_acacia_bush_a.msh", "")
+        MeshLod(1, "hiding_spot_lod2.msh", "")
+        Priority(30)
+        AlignToNormal(0)
+        NormalCutoff(0)
+        Scale(0.80, 1.10)
+        Shadows(-1, 0)
+    }
+    Type()
+    {
+        MeshLod(0, "nat_acacia_bush_b.msh", "")
+        MeshLod(1, "hiding_spot_lod2.msh", "")
+        Priority(20)
+        AlignToNormal(0)
+        NormalCutoff(0)
+        Scale(1.00, 1.20)
+        Shadows(-1, 0)
+    }
+    Type()
+    {
+        MeshLod(0, "nat_fern_b_to.msh", "nat_fern_ground_a_to.mat")
+        MeshLod(1, "hiding_spot_lod2.msh", "")
+        Priority(40)
         AlignToNormal(0)
         NormalCutoff(0)
         Scale(0.80, 1.20)
@@ -740,30 +772,13 @@
     }
     Type()
     {
-        MeshLod(0, "nat_fern_b_to.msh", "")
-        Priority(3)
+        MeshLod(0, "nat_shrub_c.msh", "")
+        MeshLod(1, "hiding_spot_lod2.msh", "")
+        Priority(10)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(0.90, 1.10)
         Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "foliage_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 1.00)
-        Shadows(1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_plant_b.msh", "foliage_plant_b_to.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 1.00)
-        Shadows(1, 0)
     }
  }
  Layer("roof_small_nature_r01b")
