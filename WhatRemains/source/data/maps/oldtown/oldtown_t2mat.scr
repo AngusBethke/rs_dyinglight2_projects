@@ -19,6 +19,139 @@ sub materials()
 		preset(0);
 		weight(0.000000);
 	}
+	material(1)
+	{
+		name("Mud");
+		clr_tex("ter_detail_mud_a_dif.png");
+		nrm_tex("ter_detail_mud_a_nrm.png");
+		spc_tex("ter_detail_mud_a_spc.png");
+		rgh_tex("ter_detail_mud_a_rgh.png");
+		dpt_tex("ter_detail_mud_a_dpt.png");
+		clr2_tex("ter_base_soil_a_dif.png");
+		nrm2_tex("ter_base_soil_a_nrm.png");
+		spc2_tex("ter_base_soil_a_spc.png");
+		rgh2_tex("ter_base_soil_a_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(2)
+	{
+		name("Rock");
+		clr_tex("ter_detail_rock_a_dif.png");
+		nrm_tex("ter_detail_rock_a_nrm.png");
+		spc_tex("ter_detail_rock_a_spc.png");
+		rgh_tex("ter_detail_rock_a_rgh.png");
+		dpt_tex("ter_detail_rock_a_dpt.png");
+		clr2_tex("climb_rock_generic_dif.png");
+		nrm2_tex("climb_rock_generic_nrm.png");
+		spc2_tex("default_spc.dds");
+		rgh2_tex("climb_rock_generic_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(3)
+	{
+		name("Grass");
+		clr_tex("ter_detail_grass_b_dif.png");
+		nrm_tex("ter_detail_grass_b_nrm.png");
+		spc_tex("ter_detail_grass_b_spc.png");
+		rgh_tex("ter_detail_grass_b_rgh.png");
+		dpt_tex("ter_detail_grass_b_dpt.png");
+		clr2_tex("ter_base_grass_b_dif.png");
+		nrm2_tex("ter_base_grass_a_nrm.png");
+		spc2_tex("ter_base_grass_a_spc.png");
+		rgh2_tex("ter_base_grass_a_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(4)
+	{
+		name("Forest");
+		clr_tex("ter_detail_forest_a_dif.png");
+		nrm_tex("ter_detail_forest_a_nrm.png");
+		spc_tex("ter_detail_forest_a_spc.png");
+		rgh_tex("ter_detail_forest_a_rgh.png");
+		dpt_tex("ter_detail_forest_a_dpt.png");
+		clr2_tex("ter_base_forest_a_dif.png");
+		nrm2_tex("ter_base_forest_a_nrm.png");
+		spc2_tex("ter_base_forest_a_spc.png");
+		rgh2_tex("ter_base_forest_a_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(5)
+	{
+		name("Forest Path");
+		clr_tex("ter_detail_forest_a_dif.png");
+		nrm_tex("ter_detail_forest_a_nrm.png");
+		spc_tex("ter_detail_forest_a_spc.png");
+		rgh_tex("ter_detail_forest_a_rgh.png");
+		dpt_tex("ter_detail_forest_a_dpt.png");
+		clr2_tex("ter_base_forest_a_dif.png");
+		nrm2_tex("ter_base_forest_a_nrm.png");
+		spc2_tex("ter_base_forest_a_spc.png");
+		rgh2_tex("ter_base_forest_a_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(6)
+	{
+		name("Sea Bed Sand");
+		clr_tex("ter_detail_mud_a_dif.png");
+		nrm_tex("ter_detail_mud_a_nrm.png");
+		spc_tex("ter_detail_mud_a_spc.png");
+		rgh_tex("ter_detail_mud_a_rgh.png");
+		dpt_tex("ter_detail_mud_a_dpt.png");
+		clr2_tex("rs_ter_detail_sand_flat_dif.png");
+		nrm2_tex("rs_ter_detail_sand_flat_nrm.png");
+		spc2_tex("rs_ter_detail_sand_flat_spc.png");
+		rgh2_tex("rs_ter_detail_sand_flat_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(7)
+	{
+		name("Sea Sand");
+		clr_tex("rs_ter_detail_sand_flat_dif.png");
+		nrm_tex("rs_ter_detail_sand_flat_nrm.png");
+		spc_tex("rs_ter_detail_sand_flat_spc.png");
+		rgh_tex("rs_ter_detail_sand_flat_rgh.png");
+		dpt_tex("default_dpt.dds");
+		clr2_tex("rs_ter_detail_sand_flat_b_dif.png");
+		nrm2_tex("rs_ter_detail_sand_flat_b_nrm.png");
+		spc2_tex("rs_ter_detail_sand_flat_b_spc.png");
+		rgh2_tex("rs_ter_detail_sand_flat_b_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
 }
 sub layers()
 {
@@ -27,6 +160,60 @@ sub layers()
 		name("Default");
 		mat_top(0);
 		mat_side(0);
+		param(0.500000);
+	}
+	layer(1)
+	{
+		name("Mud");
+		mat_top(1);
+		mat_side(2);
+		param(0.500000);
+	}
+	layer(2)
+	{
+		name("Grass");
+		mat_top(3);
+		mat_side(2);
+		top_to_layer_name("roof_small_nature_r01a");
+		param(0.486000);
+	}
+	layer(3)
+	{
+		name("Forest");
+		mat_top(4);
+		mat_side(2);
+		top_to_layer_name("roof_small_nature_r01e");
+		param(0.500000);
+	}
+	layer(4)
+	{
+		name("Forest Path");
+		mat_top(5);
+		mat_side(2);
+		top_to_layer_name("biom_coniferous_forest_undergrowth_b");
+		param(0.500000);
+	}
+	layer(5)
+	{
+		name("Grass with Mud");
+		mat_top(3);
+		mat_side(1);
+		top_to_layer_name("roof_small_nature_r01a");
+		param(0.500000);
+	}
+	layer(6)
+	{
+		name("Sea Sand");
+		mat_top(7);
+		mat_side(2);
+		param(0.500000);
+	}
+	layer(7)
+	{
+		name("Sea Bed Sand");
+		mat_top(6);
+		mat_side(6);
+		top_to_layer_name("biom_underwater");
 		param(0.500000);
 	}
 }
