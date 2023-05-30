@@ -33,11 +33,11 @@ sub main()
 		AddBrush("roundhard.png");
 		AddBrush("noise.png");
 		OpMode(1);
-		Size(7.000000);
+		Size(20.000000);
 		Angle(0.000000);
 		AngleStep(15.000000);
 		Power(1.000000);
-		Height(31.938848);
+		Height(53.000000);
 		Sync(false);
 	}
 	Tool("Smooth")
@@ -45,7 +45,7 @@ sub main()
 		AddBrush("round.png");
 		AddBrush("roundhard.png");
 		AddBrush("noise.png");
-		Size(30.000000);
+		Size(10.000000);
 		Angle(0.000000);
 		AngleStep(15.000000);
 		Power(0.200000);
@@ -54,7 +54,7 @@ sub main()
 	}
 	Tool("Ramp")
 	{
-		Size(23.000000);
+		Size(10.000000);
 		Sync(false);
 	}
 	Tool("EditRemovedVertices")

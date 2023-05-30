@@ -1,0 +1,59 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3546562, 8.4644145, 0.1820672, 2.6572542, 8.7452926, 3.0579385]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_tree_conif_huge_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000038, -0.4749945, -0.0000304]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 4],
+            "m_PcId": [6, 3]
+          },
+          "Presets": [
+            [2, "rs_wroh_tree_tiny_randomizer"],
+            [4, "rs_wroh_tree_tiny_randomizer"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0436328, 5.5993852, -0.2660681, 2.3640043, 5.8595552, 2.5546629]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_tree_conif_med_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000038, -0.4749945, -0.0000304]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
