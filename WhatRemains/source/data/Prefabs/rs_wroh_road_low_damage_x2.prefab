@@ -2,13 +2,27 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "37",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_PcId": [6, 28],
             "m_PrefabName": [12, "rs_wroh_road_low_damage"],
-            "m_Translate": [14, [-0.000205, 0.0004315, -0.0000185]]
+            "m_Translate": [14, [-0.000205, 0.0004309, -0.0000185]]
           }
         },
         {
@@ -16,7 +30,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 29],
             "m_PrefabName": [12, "rs_wroh_road_low_damage"],
-            "m_Translate": [14, [4.2772541, 0.0004315, -0.0000185]]
+            "m_Translate": [14, [4.2772541, 0.0004309, -0.0000185]]
           }
         },
         {
@@ -32,11 +46,11 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0698473, 0.1198481, 0.6358624, 3.860018, 0.1348246, 0.9352045]],
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358624, 3.8600177, 0.1348246, 0.9352045]],
             "m_PcId": [6, 31],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
-            "m_Translate": [14, [1.3816375, -0.4936453, -1.2509713]]
+            "m_Translate": [14, [1.3816374, -0.4936453, -1.2509713]]
           }
         },
         {
@@ -46,19 +60,73 @@
             "m_PcId": [6, 32],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
-            "m_Rotate": [14, [-180.0, 0.000005, -180.0]],
-            "m_Translate": [14, [1.3816375, -0.4936452, 1.6889753]]
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [1.3816374, -0.4936451, 1.6889753]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358623, 3.860018, 0.1348246, 0.9352045]],
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.1198481, 0.6358623, 3.8600177, 0.1348246, 0.9352045]],
             "m_PcId": [6, 33],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
-            "m_Rotate": [14, [-180.0, 0.000005, -180.0]],
-            "m_Translate": [14, [2.5229854, -0.4936452, 1.6889753]]
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [2.5229854, -0.4936451, 1.6889753]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Nature_Config_A"],
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "rs_wroh_road_low_damage_x2_nature_config_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.000442, 0.0000038, 0.0004572]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 34, 38, 39, 40],
+            "m_PcId": [6, 37]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Nature_Config_B"],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "rs_wroh_road_low_damage_x2_nature_config_b"],
+            "m_RandomizationWeight": [6, 34],
+            "m_Translate": [14, [0.0004114, 0.0000076, 0.0003657]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Nature_Config_C"],
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "rs_wroh_road_low_damage_x2_nature_config_c"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0004114, 0.0000076, 0.0003046]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "_Empty"],
+            "m_PcId": [6, 40],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0004425, 0.0000038, 0.0004577]]
           }
         }
       ]

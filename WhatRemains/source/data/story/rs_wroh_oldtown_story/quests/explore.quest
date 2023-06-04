@@ -66,6 +66,23 @@
 		<Start class="Story::SetPlayerPresetLogic"/>
 		<End class="Actions::EndLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7240827882257593796">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="10.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-300" y="360"/>
+		</Editor>
+	</Node>
+	<Connect start="7240827882257593796" output="Out" input="In" end="7240817659037007277">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::FreezeTimeLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7240817568354308340">
 		<Logic type="Story::SetDayTimeLogic">
 			<Attribute name="m_Hour" value="9"/>
@@ -80,9 +97,9 @@
 			<Position x="-465" y="0"/>
 		</Editor>
 	</Node>
-	<Connect start="7240817568354308340" output="Out" input="In" end="7240817659037007277">
+	<Connect start="7240817568354308340" output="Out" input="In" end="7240827882257593796">
 		<Start class="Story::SetDayTimeLogic"/>
-		<End class="Story::FreezeTimeLogic"/>
+		<End class="Story::WaitLogic"/>
 	</Connect>
 </Node>
 
