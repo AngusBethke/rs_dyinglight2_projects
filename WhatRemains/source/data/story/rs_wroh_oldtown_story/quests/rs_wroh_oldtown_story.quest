@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7240810637733080293">
+	<Logic type="Story::CampaignLogic">
+		<Attribute name="m_IndicatorType" value=""/>
+		<Attribute name="m_ShowIndicator" value="1"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+	</Logic>
+	<Node file="explore.quest">
+		<Editor>
+			<Position x="-195" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7240810773802944902" output="Out:End" input="In" end="7240810637689922400">
+		<Start class="Story::QuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7240810637888901830">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-480" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7240810637888901830" output="Out" input="In:Start" end="7240810773802944902">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7240810637689922400">
+		<Logic type="Actions::EndLogic">
+			<Attribute name="m_IsFinishing" value="0"/>
+		</Logic>
+		<Editor>
+			<Position x="225" y="0"/>
+		</Editor>
+	</Node>
+</Node>
+

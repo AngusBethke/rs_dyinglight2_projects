@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7240810773802944902">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7240810774825080290"/>
+		<Attribute name="m_Name" value="Explore"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7240810774153979273">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-660" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7240810774153979273" output="Out" input="In" end="7240817568354308340">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::SetDayTimeLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7240817659037007277">
+		<Logic type="Story::FreezeTimeLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-90" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7240817659037007277" output="Out" input="In" end="7240811697878495153">
+		<Start class="Story::FreezeTimeLogic"/>
+		<End class="Story::SetPlayerPresetLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7240810775009188273">
+		<Logic type="Actions::EndLogic">
+			<Attribute name="m_IsFinishing" value="0"/>
+		</Logic>
+		<Editor>
+			<Position x="525" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7240811697878495153">
+		<Logic type="Story::SetPlayerPresetLogic">
+			<Attribute name="m_PresetName" value="GIVE_ALL"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="165" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7240811697878495153" output="Out" input="In" end="7240810775009188273">
+		<Start class="Story::SetPlayerPresetLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7240817568354308340">
+		<Logic type="Story::SetDayTimeLogic">
+			<Attribute name="m_Hour" value="9"/>
+			<Attribute name="m_Weather" value="Foggy"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-465" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7240817568354308340" output="Out" input="In" end="7240817659037007277">
+		<Start class="Story::SetDayTimeLogic"/>
+		<End class="Story::FreezeTimeLogic"/>
+	</Connect>
+</Node>
+
