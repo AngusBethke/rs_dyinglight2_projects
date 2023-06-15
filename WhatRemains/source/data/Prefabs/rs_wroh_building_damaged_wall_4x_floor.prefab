@@ -31,13 +31,14 @@
             "m_Name": [12, "Wall"],
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor_wall"],
+            "m_RandomizationWeight": [6, 30],
             "m_Translate": [14, [-0.0024719, -0.3478927, -0.0346069]]
           }
         },
         {
           "Class": "CoRandomizer",
           "PrefabFieldsNative": {
-            "m_ControlledPrefabIds": [44, 9, 14],
+            "m_ControlledPrefabIds": [44, 9, 14, 18, 19],
             "m_PcId": [6, 13]
           },
           "Presets": []
@@ -48,7 +49,7 @@
             "m_Name": [12, "Windows"],
             "m_PcId": [6, 14],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor_windows"],
-            "m_RandomizationWeight": [6, 0],
+            "m_RandomizationWeight": [6, 50],
             "m_Translate": [14, [0.0372009, -1.3987236, -0.1257324]]
           }
         },
@@ -57,7 +58,27 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 15],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_base_top_ledge"],
-            "m_Translate": [14, [0.0311889, 2.4422836, -0.1417236]]
+            "m_Translate": [14, [0.0311888, 2.4422836, -0.1417236]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "DoorLeft"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor_door_left"],
+            "m_RandomizationWeight": [6, 10],
+            "m_Translate": [14, [-0.0024719, -0.3478927, -0.0346069]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "DoorRight"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor_door_right"],
+            "m_RandomizationWeight": [6, 10],
+            "m_Translate": [14, [-0.0024719, -0.3478927, -0.0346069]]
           }
         }
       ]
