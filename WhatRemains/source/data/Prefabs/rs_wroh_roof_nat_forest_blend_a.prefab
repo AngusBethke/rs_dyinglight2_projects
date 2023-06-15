@@ -2,11 +2,25 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "41",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004997, 0.1841732, 0.0005168, 1.7871421, 0.1843604, 1.9575518]],
+            "m_EntityComponentsExtents": [69, [0.0004997, 0.1841733, 0.0005168, 1.7871422, 0.1843604, 1.9575519]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;cd_roof_blendshape_a"],
@@ -21,11 +35,11 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.2797851, 5.0, 1.0336475, 4.6538543, 5.0, 5.0941796]],
+            "m_EntityComponentsExtents": [69, [0.2797851, 4.9999995, 1.0336475, 4.6538538, 4.9999995, 5.0941796]],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "tiny_object_helper"],
             "m_PresetNames": [12, "TinyObjectDensity;High;TinyObjectSelfActive;Active;TinyObjectType;RoofBush"],
-            "m_Translate": [14, [-0.3939666, -0.172512, -1.0569534]]
+            "m_Translate": [14, [-0.3939664, -0.1725119, -1.0569534]]
           },
           "Fields": {
             "m_AreaPoints": "-2.353622 0.000000 -3.874458;-0.272354 0.000000 -4.060532;1.393967 0.000000 -3.726929;2.611832 0.000000 -2.840523;3.339188 0.000000 -2.215233;3.561859 0.000000 -1.507763;4.428207 0.000000 -1.123371;4.933640 0.000000 -0.497383;4.849792 0.000000 0.450005;4.175110 0.000000 2.254219;3.612091 0.000000 2.941738;3.498428 0.000000 3.833141;2.993576 0.000000 4.734779;2.046143 0.000000 5.004562;1.753128 0.000000 5.494457;1.355881 0.000000 5.972252;0.030472 0.000000 6.127827;-0.886902 0.000000 5.862080;-1.172073 0.000000 5.442890;-1.866394 0.000000 4.656269;-2.839798 0.000000 3.946991;-3.198288 0.000000 3.327934;-3.307343 0.000000 2.189098;-3.838318 0.000000 0.643852;-4.374069 0.000000 -0.745304;-4.211487 0.000000 -2.296181;-3.562927 0.000000 -3.270802;"
@@ -34,11 +48,11 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.2797851, 5.0, 1.0336475, 4.6538543, 5.0, 5.0941796]],
+            "m_EntityComponentsExtents": [69, [0.2797851, 4.9999995, 1.0336475, 4.6538538, 4.9999995, 5.0941796]],
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "tiny_object_helper"],
             "m_PresetNames": [12, "TinyObjectDensity;High;TinyObjectSelfActive;Active;TinyObjectType;RoofPreciseObjects"],
-            "m_Translate": [14, [-0.3939971, -0.1730041, -1.0569953]]
+            "m_Translate": [14, [-0.3939971, -0.1730041, -1.0569951]]
           },
           "Fields": {
             "m_AreaPoints": "-2.353622 0.000000 -3.874458;-0.272354 0.000000 -4.060532;1.393967 0.000000 -3.726929;2.611832 0.000000 -2.840523;3.339188 0.000000 -2.215233;3.561859 0.000000 -1.507763;4.428207 0.000000 -1.123371;4.933640 0.000000 -0.497383;4.849792 0.000000 0.450005;4.175110 0.000000 2.254219;3.612091 0.000000 2.941738;3.498428 0.000000 3.833141;2.993576 0.000000 4.734779;2.046143 0.000000 5.004562;1.753128 0.000000 5.494457;1.355881 0.000000 5.972252;0.030472 0.000000 6.127827;-0.886902 0.000000 5.862080;-1.172073 0.000000 5.442890;-1.866394 0.000000 4.656269;-2.839798 0.000000 3.946991;-3.198288 0.000000 3.327934;-3.307343 0.000000 2.189098;-3.838318 0.000000 0.643852;-4.374069 0.000000 -0.745304;-4.211487 0.000000 -2.296181;-3.562927 0.000000 -3.270802;"
@@ -62,7 +76,7 @@
             "m_PcId": [6, 5],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
             "m_Seed": [6, 2977174753],
-            "m_Translate": [14, [-1.9109039, 0.4943466, -1.3312988]]
+            "m_Translate": [14, [-1.9109039, 0.4943464, -1.3312988]]
           }
         },
         {
@@ -80,7 +94,7 @@
             "m_PcId": [6, 7],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
             "m_Seed": [6, 1957736121],
-            "m_Translate": [14, [-2.5604095, 0.2073402, 0.6791992]]
+            "m_Translate": [14, [-2.5604095, 0.2073401, 0.6791992]]
           }
         },
         {
@@ -98,7 +112,7 @@
             "m_PcId": [6, 11],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
             "m_Seed": [6, 1309589606],
-            "m_Translate": [14, [0.737915, 0.0802345, 4.0850105]]
+            "m_Translate": [14, [0.7379149, 0.0802344, 4.0850105]]
           }
         },
         {
@@ -107,7 +121,7 @@
             "m_PcId": [6, 13],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
             "m_Seed": [6, 547041266],
-            "m_Translate": [14, [0.5997619, 0.8595848, -0.8557395]]
+            "m_Translate": [14, [0.5997619, 0.8595848, -0.8557394]]
           }
         },
         {
@@ -116,7 +130,7 @@
             "m_PcId": [6, 14],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
             "m_Seed": [6, 2364238404],
-            "m_Translate": [14, [-0.4847869, 0.3561363, -3.3544464]]
+            "m_Translate": [14, [-0.4847868, 0.3561362, -3.3544464]]
           }
         },
         {
@@ -125,7 +139,7 @@
             "m_PcId": [6, 15],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
             "m_Seed": [6, 1149048189],
-            "m_Translate": [14, [1.8047637, 0.2044563, -2.7574005]]
+            "m_Translate": [14, [1.8047635, 0.2044561, -2.7574005]]
           }
         },
         {
@@ -134,7 +148,7 @@
             "m_PcId": [6, 17],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
             "m_Seed": [6, 3450719401],
-            "m_Translate": [14, [3.7996063, 0.1204795, -1.110382]]
+            "m_Translate": [14, [3.7996063, 0.1204795, -1.1103818]]
           }
         },
         {
@@ -152,7 +166,7 @@
             "m_PcId": [6, 19],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
             "m_Seed": [6, 3365351777],
-            "m_Translate": [14, [-1.3472442, 0.4233932, 1.2618026]]
+            "m_Translate": [14, [-1.3472441, 0.4233931, 1.2618025]]
           }
         },
         {
@@ -170,7 +184,7 @@
             "m_PcId": [6, 21],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
             "m_Seed": [6, 1155753744],
-            "m_Translate": [14, [1.1513824, 0.4365348, 2.3179779]]
+            "m_Translate": [14, [1.1513824, 0.4365347, 2.3179779]]
           }
         },
         {
@@ -179,7 +193,7 @@
             "m_PcId": [6, 22],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
             "m_Seed": [6, 692878689],
-            "m_Translate": [14, [1.3881835, 0.7129211, -0.0156478]]
+            "m_Translate": [14, [1.3881833, 0.712921, -0.0156478]]
           }
         },
         {
@@ -188,7 +202,7 @@
             "m_PcId": [6, 23],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
             "m_Seed": [6, 3047146357],
-            "m_Translate": [14, [3.3701477, 0.1111488, 0.669754]]
+            "m_Translate": [14, [3.3701477, 0.1111487, 0.669754]]
           }
         },
         {
@@ -197,7 +211,7 @@
             "m_PcId": [6, 24],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
             "m_Seed": [6, 1765467418],
-            "m_Translate": [14, [2.612152, 0.151329, -1.9761695]]
+            "m_Translate": [14, [2.612152, 0.1513289, -1.9761693]]
           }
         },
         {
@@ -215,7 +229,7 @@
             "m_PcId": [6, 26],
             "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
             "m_Seed": [6, 21944266],
-            "m_Translate": [14, [0.2880706, 0.0851669, -4.327671]]
+            "m_Translate": [14, [0.2880704, 0.0851669, -4.327671]]
           }
         },
         {
@@ -241,7 +255,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 29],
             "m_PrefabName": [12, "rs_wroh_nat_stump_random"],
-            "m_Rotate": [14, [4.4038619, 1.074353, 13.6831483]],
+            "m_Rotate": [14, [4.4038619, 1.0743527, 13.6831483]],
             "m_Seed": [6, 3510610433],
             "m_Translate": [14, [-1.6006164, 0.3720245, -0.4956665]]
           }
@@ -253,7 +267,7 @@
             "m_PrefabName": [12, "rs_wroh_nat_stump_random"],
             "m_Rotate": [14, [11.6743707, 2.790385, 13.2575521]],
             "m_Seed": [6, 2735870114],
-            "m_Translate": [14, [-1.1381072, 0.2183914, 2.2930374]]
+            "m_Translate": [14, [-1.1381069, 0.2183914, 2.2930374]]
           }
         },
         {
@@ -273,7 +287,7 @@
             "m_PrefabName": [12, "rs_wroh_nat_stump_random"],
             "m_Rotate": [14, [-13.3814535, 4.8380846, -19.5210533]],
             "m_Seed": [6, 2024165220],
-            "m_Translate": [14, [1.8174438, 0.3120651, -1.6690521]]
+            "m_Translate": [14, [1.8174438, 0.312065, -1.6690521]]
           }
         },
         {
@@ -301,6 +315,91 @@
             "m_PrefabName": [12, "rs_wroh_nat_debris_random"],
             "m_Seed": [6, 1435582547],
             "m_Translate": [14, [-1.9725189, 0.0000228, -2.1934165]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "rs_wroh_ai_spawn_point"],
+            "m_Rotate": [14, [-180.0, 31.5000038, -180.0]],
+            "m_Translate": [14, [0.9835662, -0.000307, -3.1116333]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "rs_wroh_ai_spawn_point"],
+            "m_Rotate": [14, [0.000006, 45.5000114, -0.0000116]],
+            "m_Translate": [14, [1.3150329, -0.000307, 2.669403]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "rs_wroh_ai_spawn_point"],
+            "m_Rotate": [14, [0.0000092, -63.5, 9.398412998962158e-7]],
+            "m_Translate": [14, [-2.7173461, -0.000307, -0.7441101]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.031883, 0.5, 0.0115054, 1.819, 0.5, 1.9531555]],
+            "m_Name": [12, "Men"],
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Scale": [14, [2.5000002, 2.5000002, 2.5000009]],
+            "m_Translate": [14, [0.0003351, -0.000215, 0.0001826]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "2",
+            "m_Points": "1.787117 -0.500000 -1.941650;1.787117 -0.500000 1.964661;-1.850883 -0.500000 1.964661;-1.850883 -0.500000 -1.941650;",
+            "m_PointsSource": "2",
+            "m_Preset": "Character;Biter_Weak_Prologue",
+            "m_ShuffleSpawnPoints": "1"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 39, 42],
+            "m_PcId": [6, 41]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.031883, 0.5, 0.0115053, 1.819, 0.5, 1.9531555]],
+            "m_Name": [12, "Women"],
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Scale": [14, [2.5, 2.5, 2.5000007]],
+            "m_Translate": [14, [0.0001369, -0.0003833, -0.0001218]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "2",
+            "m_Points": "1.787117 -0.500000 -1.941650;1.787117 -0.500000 1.964661;-1.850883 -0.500000 1.964661;-1.850883 -0.500000 -1.941650;",
+            "m_PointsSource": "2",
+            "m_Preset": "Character;Biter_Weak_Woman_Prologue",
+            "m_ShuffleSpawnPoints": "1"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
           }
         }
       ]
