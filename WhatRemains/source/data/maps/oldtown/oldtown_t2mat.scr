@@ -152,6 +152,63 @@ sub materials()
 		preset(0);
 		weight(0.000000);
 	}
+	material(8)
+	{
+		name("Debris");
+		clr_tex("ter_detail_rock_a_dif.png");
+		nrm_tex("ter_detail_rock_a_nrm.png");
+		spc_tex("ter_detail_rock_a_spc.png");
+		rgh_tex("ter_detail_rock_a_rgh.png");
+		dpt_tex("ter_detail_rock_a_dpt.png");
+		clr2_tex("terrain_muddy_park_b_dif.png");
+		nrm2_tex("terrain_muddy_park_b_nrm.png");
+		spc2_tex("terrain_muddy_park_b_spc.png");
+		rgh2_tex("terrain_muddy_park_b_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(9)
+	{
+		name("Dead Grass");
+		clr_tex("ter_detail_grass_b_dif.png");
+		nrm_tex("ter_detail_grass_b_nrm.png");
+		spc_tex("ter_detail_grass_b_spc.png");
+		rgh_tex("ter_detail_grass_b_rgh.png");
+		dpt_tex("ter_detail_grass_b_dpt.png");
+		clr2_tex("ter_detail_mud_b_dif.png");
+		nrm2_tex("ter_detail_mud_b_nrm.png");
+		spc2_tex("ter_detail_mud_b_spc.png");
+		rgh2_tex("ter_detail_mud_b_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(10)
+	{
+		name("Pavement");
+		clr_tex("ter_detail_pavement_a_dif.png");
+		nrm_tex("ter_detail_pavement_a_nrm.png");
+		spc_tex("ter_detail_pavement_a_spc.png");
+		rgh_tex("ter_detail_pavement_a_rgh.png");
+		dpt_tex("ter_detail_pavement_a_dpt.png");
+		clr2_tex("ter_detail_pavement_a_dif.png");
+		nrm2_tex("ter_detail_pavement_a_nrm.png");
+		spc2_tex("ter_detail_pavement_a_spc.png");
+		rgh2_tex("ter_detail_pavement_a_rgh.png");
+		mapping_multiplier(1.000000);
+		relief_scale(0.000000);
+		blend_scale(1.000000);
+		surface_id(0);
+		preset(0);
+		weight(0.000000);
+	}
 }
 sub layers()
 {
@@ -214,6 +271,30 @@ sub layers()
 		mat_top(6);
 		mat_side(6);
 		top_to_layer_name("biom_underwater");
+		param(0.500000);
+	}
+	layer(8)
+	{
+		name("Debris");
+		mat_top(8);
+		mat_side(8);
+		top_to_layer_name("biom_coniferous_forest_soil_a");
+		param(0.500000);
+	}
+	layer(9)
+	{
+		name("Dead Grass");
+		mat_top(9);
+		mat_side(9);
+		top_to_layer_name("biom_coniferous_forest_undergrowth_a");
+		param(0.500000);
+	}
+	layer(10)
+	{
+		name("Pavement");
+		mat_top(10);
+		mat_side(10);
+		top_to_layer_name("biom_coniferous_forest_undergrowth_b");
 		param(0.500000);
 	}
 }
