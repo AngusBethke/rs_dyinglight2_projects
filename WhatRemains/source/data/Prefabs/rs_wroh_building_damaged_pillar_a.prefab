@@ -2,6 +2,20 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "10",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -18,11 +32,55 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012137, 0.1269717, 0.4147197, 1.3012137, 0.1269717]],
+            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012136, 0.1269717, 0.4147196, 1.3012136, 0.1269717]],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;nat_ivy_e"],
-            "m_Translate": [14, [0.0129995, 3.9540011, 0.1539993]]
+            "m_Translate": [14, [0.0129995, 3.9540011, 0.1539991]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012137, 0.1269717, 0.4147197, 1.3012137, 0.1269717]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_ivy_e"],
+            "m_Rotate": [14, [0.0, 90.0, -179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [0.1675813, -0.1347219, 0.0167922]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012137, 0.1269717, 0.4147197, 1.3012137, 0.1269717]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_ivy_e"],
+            "m_Rotate": [14, [-0.0, 0.0, -179.9999847]],
+            "m_Translate": [14, [0.0126475, -0.1347219, 0.1544761]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012137, 0.1269717, 0.4147197, 1.3012137, 0.1269717]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_ivy_e"],
+            "m_Rotate": [14, [0.0, -90.0, -179.9999847]],
+            "m_Scale": [14, [0.9999997, 0.9999995, 0.9999992]],
+            "m_Translate": [14, [-0.1560696, -0.1347219, 0.0167941]]
           },
           "Fields": {
             "SkinName": "ivy_wall_green"
@@ -32,55 +90,11 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0122036, -1.3012136, 0.1269717, 0.4147197, 1.3012136, 0.1269717]],
-            "m_PcId": [6, 3],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;nat_ivy_e"],
-            "m_Rotate": [14, [0.0, 90.0, -179.9999847]],
-            "m_Scale": [14, [0.9999994, 0.9999993, 0.999999]],
-            "m_Translate": [14, [0.1675815, -0.1347219, 0.0167922]]
-          },
-          "Fields": {
-            "SkinName": "ivy_wall_green"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012136, 0.1269717, 0.4147196, 1.3012136, 0.1269717]],
-            "m_PcId": [6, 4],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;nat_ivy_e"],
-            "m_Rotate": [14, [-0.0, 0.0, -179.9999847]],
-            "m_Translate": [14, [0.0126476, -0.134722, 0.1544761]]
-          },
-          "Fields": {
-            "SkinName": "ivy_wall_green"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012136, 0.1269717, 0.4147196, 1.3012136, 0.1269717]],
-            "m_PcId": [6, 5],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;nat_ivy_e"],
-            "m_Rotate": [14, [0.0, -90.0, -179.9999847]],
-            "m_Scale": [14, [0.9999997, 0.9999995, 0.9999993]],
-            "m_Translate": [14, [-0.1560697, -0.134722, 0.0167942]]
-          },
-          "Fields": {
-            "SkinName": "ivy_wall_green"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012137, 0.1269717, 0.4147197, 1.3012137, 0.1269717]],
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;nat_ivy_e"],
-            "m_Rotate": [14, [-180.0, 0.000005, 0.0000223]],
-            "m_Translate": [14, [0.0126457, -0.134722, -0.1616649]]
+            "m_Rotate": [14, [-180.0, 0.0000049, 0.0000223]],
+            "m_Translate": [14, [0.0126457, -0.1347219, -0.1616649]]
           },
           "Fields": {
             "SkinName": "ivy_wall_green"
@@ -94,7 +108,7 @@
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;nat_ivy_e"],
             "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Translate": [14, [0.0129995, 3.9540011, -0.1620006]]
+            "m_Translate": [14, [0.0129995, 3.9540011, -0.1620005]]
           },
           "Fields": {
             "SkinName": "ivy_wall_green"
@@ -103,12 +117,12 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012137, 0.1269717, 0.4147197, 1.3012137, 0.1269717]],
+            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012136, 0.1269717, 0.4147197, 1.3012136, 0.1269717]],
             "m_PcId": [6, 8],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;nat_ivy_e"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Translate": [14, [-0.156001, 3.9540011, 0.0170001]]
+            "m_Translate": [14, [-0.156001, 3.9540011, 0.017]]
           },
           "Fields": {
             "SkinName": "ivy_wall_green"
@@ -117,15 +131,59 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012137, 0.1269717, 0.4147197, 1.3012137, 0.1269717]],
+            "m_EntityComponentsExtents": [69, [0.0122036, -1.3012136, 0.1269717, 0.4147197, 1.3012136, 0.1269717]],
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;nat_ivy_e"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Translate": [14, [0.1679992, 3.9540011, 0.0170001]]
+            "m_Translate": [14, [0.1679991, 3.9540011, 0.017]]
           },
           "Fields": {
             "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1],
+            "m_PcId": [6, 10]
+          },
+          "Presets": [
+            [1, "rs_wroh_pillar_randomizer"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Cables_1"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_pillar_cables"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Seed": [6, 999105762],
+            "m_Translate": [14, [-0.0000019, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Cables_2"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_pillar_cables"],
+            "m_Seed": [6, 2891068930],
+            "m_Translate": [14, [-0.0000019, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Floor"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_pillar_floor"],
+            "m_Seed": [6, 1504336241],
+            "m_Translate": [14, [-9.5367431640625e-7, 0.0, 0.0000038]]
+          },
+          "Fields": {
+            "SELECTOR": ""
           }
         }
       ]

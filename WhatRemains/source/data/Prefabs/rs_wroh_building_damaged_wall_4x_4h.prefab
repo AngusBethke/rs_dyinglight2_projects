@@ -2,13 +2,27 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "105",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_PcId": [6, 82],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x"],
-            "m_Translate": [14, [0.0, 15.3600082, 0.1560057]]
+            "m_Translate": [14, [0.0, 15.3600082, 0.1560056]]
           },
           "Fields": {
             "SELECTOR": ""
@@ -17,40 +31,28 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 89],
-            "m_PrefabName": [12, "rs_wroh_damaged_wall_4x_base"],
-            "m_Seed": [6, 3755622875],
-            "m_Translate": [14, [-0.0036315, 1.2878303, 0.1087644]]
+            "m_Name": [12, "Normal"],
+            "m_PcId": [6, 103],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h_base"],
+            "m_Translate": [14, [-0.0036315, 1.2878302, 0.1087644]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 103, 106],
+            "m_PcId": [6, 105]
           },
-          "Fields": {
-            "SELECTOR": ""
-          }
+          "Presets": []
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 100],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor"],
-            "m_Seed": [6, 1218968226],
-            "m_Translate": [14, [-0.0362242, 5.2387199, 0.1256103]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 101],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor"],
-            "m_Seed": [6, 1141293313],
-            "m_Translate": [14, [-0.0362242, 9.0787239, 0.1256103]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 102],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor"],
-            "m_Seed": [6, 195310601],
-            "m_Translate": [14, [-0.0362242, 12.9187278, 0.1256103]]
+            "m_Name": [12, "Oriel"],
+            "m_PcId": [6, 106],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_base_oriel_4h"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0040091, 1.2880003, 0.1089935]]
           }
         }
       ]

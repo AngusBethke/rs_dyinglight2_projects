@@ -2,6 +2,20 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "106",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -17,25 +31,29 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 89],
-            "m_PrefabName": [12, "rs_wroh_damaged_wall_4x_base"],
-            "m_Seed": [6, 3755622875],
-            "m_Translate": [14, [-0.0036315, 1.2878303, 0.1087644]]
-          },
-          "Fields": {
-            "SELECTOR": ""
+            "m_Name": [12, "Normal"],
+            "m_PcId": [6, 101],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_2h_base"],
+            "m_Translate": [14, [-0.0036315, 1.2878302, 0.1087644]]
           }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 101, 107],
+            "m_PcId": [6, 106]
+          },
+          "Presets": []
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 100],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor"],
-            "m_Seed": [6, 3868002175],
-            "m_Translate": [14, [-0.0362242, 5.2387199, 0.1256103]]
-          },
-          "Fields": {
-            "SELECTOR": ""
+            "m_Name": [12, "Oriel"],
+            "m_PcId": [6, 107],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_base_oriel_2h"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999986]],
+            "m_Translate": [14, [-0.0039749, 1.2879985, 0.1090259]]
           }
         }
       ]
