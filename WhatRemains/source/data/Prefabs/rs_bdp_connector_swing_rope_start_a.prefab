@@ -1,0 +1,109 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "DetailSpawnType": {
+        "User": "1"
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999991, 0.0, 0.5, 0.5000001, 0.5]],
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "navmesh_area"],
+            "m_Rotate": [14, [-179.7949066, -1.1602975, 163.0902404]],
+            "m_Scale": [14, [7.5499315, 1.0000001, 2.3179924]],
+            "m_Translate": [14, [-3.0733642, 7.3074417, 0.133789]]
+          },
+          "Fields": {
+            "m_HelperNavmeshFlags": "32"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.014921, 5.5343122, -0.5868439, 3.2718639, 5.881505, 7.4638466]],
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;rope_swing_a"],
+            "m_Rotate": [14, [-0.0, -73.4515533, -0.0]],
+            "m_Translate": [14, [-0.0820922, 0.0, 0.2381591]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.5000032, 0.000005, 0.5000049, 0.5000065, 0.5000049]],
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "balanceline"],
+            "m_Rotate": [14, [89.0635528, -72.4975814, 89.0181045]],
+            "m_Scale": [14, [0.5376343, 0.2557545, 14.7566537]],
+            "m_Seed": [6, 1960162729],
+            "m_Translate": [14, [0.3687132, 8.8928871, 0.0758055]]
+          },
+          "Fields": {
+            "MeshName": "dummy_box.msh",
+            "SkinName": "Null"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000076, 1.1920928955078126e-7, 0.4999999, 0.9999998, 1.0, 0.5000001]],
+            "m_PcId": [6, 83],
+            "m_PrefabName": [12, "cable"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000061]],
+            "m_Scale": [14, [1.0000014, 10.0000076, 1.0000014]],
+            "m_Translate": [14, [6.7447052, 10.5444164, 0.1126594]]
+          },
+          "Fields": {
+            "m_EditorHookPoint": "0.000000 -10.000000 0.000000",
+            "m_HookPointMode": "WorldOffset",
+            "m_IgnoreRotation": "1",
+            "m_Type": "Rope",
+            "m_VisSkinName": "Default"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Nodes": [
+        {
+          "Uuid": "75",
+          "Type": "1",
+          "X": "555.00",
+          "Y": "-15.00"
+        },
+        {
+          "Uuid": "79",
+          "Type": "1",
+          "X": "90.00",
+          "Y": "-690.00"
+        },
+        {
+          "Uuid": "80",
+          "Type": "4",
+          "X": "-225.00",
+          "Y": "225.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "81",
+          "Type": "4",
+          "X": "-150.00",
+          "Y": "135.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "82",
+          "Type": "4",
+          "X": "60.00",
+          "Y": "555.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}
