@@ -2,356 +2,46 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "81",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 1],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_4h_corner"],
-            "m_Rotate": [14, [179.9999847, -0.0000049, 179.9999847]],
-            "m_Seed": [6, 1713189084],
-            "m_Translate": [14, [-22.1767425, -0.720318, -18.0839538]]
+            "m_Name": [12, "Base"],
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_east_bld_a_building"],
+            "m_Translate": [14, [-0.1429398, 1.1469949, 0.1066284]]
           }
         },
         {
-          "Class": "CEntity",
+          "Class": "CoRandomizer",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 2],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Seed": [6, 3512841683],
-            "m_Translate": [14, [-14.4963684, -0.719963, -18.0835571]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 3],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Seed": [6, 1172381741],
-            "m_Translate": [14, [-6.8163762, -0.719963, -18.0835571]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 4],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Seed": [6, 1045279315],
-            "m_Translate": [14, [0.863617, -0.719963, -18.0835571]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 5],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_4h_corner"],
-            "m_Rotate": [14, [0.0, 90.0, -0.000022]],
-            "m_Seed": [6, 380804928],
-            "m_Translate": [14, [8.5432739, -0.720318, -18.0839538]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 6],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h"],
-            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Seed": [6, 1506398385],
-            "m_Translate": [14, [10.4636383, -0.719963, -18.0835571]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 7],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h_corner"],
-            "m_Rotate": [14, [0.0, 90.0, 0.000022]],
-            "m_Seed": [6, 2661112542],
-            "m_Translate": [14, [16.223648, -0.719963, -18.0835571]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 8],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h"],
-            "m_Rotate": [14, [0.0, 90.0, 0.000022]],
-            "m_Seed": [6, 2711671499],
-            "m_Translate": [14, [16.2236175, -0.719963, -12.3235626]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 9],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h_corner"],
-            "m_Rotate": [14, [-0.0, 0.0, 0.000022]],
-            "m_Seed": [6, 482548779],
-            "m_Translate": [14, [16.223648, -0.719963, -6.5635528]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 10],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h"],
-            "m_Rotate": [14, [-0.000022, -0.0000049, 0.000022]],
-            "m_Seed": [6, 238257919],
-            "m_Translate": [14, [10.4636383, -0.719963, -6.5635528]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 11],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_4h_corner"],
-            "m_Rotate": [14, [-0.0, 0.0, -0.000022]],
-            "m_Seed": [6, 3190302849],
-            "m_Translate": [14, [8.5432739, -0.720318, -6.563919]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 12],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_4h"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Seed": [6, 2872034445],
-            "m_Translate": [14, [8.5436401, -0.719963, -12.3235473]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 13],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [-0.000022, -0.0000049, 0.000022]],
-            "m_Seed": [6, 28979100],
-            "m_Translate": [14, [-10.656372, -0.719963, 4.9564361]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 14],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_4h"],
-            "m_Seed": [6, 4096383811],
-            "m_Translate": [14, [-16.4163665, -0.719963, 4.9564361]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 15],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_4h_corner"],
-            "m_Rotate": [14, [0.0, -90.0, -0.000022]],
-            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999989]],
-            "m_Seed": [6, 958961147],
-            "m_Translate": [14, [-22.1767272, -0.720318, 4.9560999]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 16],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [0.0, -90.0, 0.000022]],
-            "m_Seed": [6, 3769534732],
-            "m_Translate": [14, [-22.176361, -0.719963, -10.4035491]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 17],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [0.0, -90.0, 0.000022]],
-            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999989]],
-            "m_Seed": [6, 2002840123],
-            "m_Translate": [14, [-22.176361, -0.719963, -2.723541]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 18],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [-0.000045, 44.9999923, 0.0000317]],
-            "m_Seed": [6, 988608159],
-            "m_Translate": [14, [-4.101089, -0.719963, 2.2411649]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 19],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_4h"],
-            "m_Rotate": [14, [-0.000045, 44.9999923, 0.0000317]],
-            "m_Seed": [6, 1450639459],
-            "m_Translate": [14, [4.044785, -0.719963, -5.9046778]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 20],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_4h"],
-            "m_Rotate": [14, [-0.0, 44.9999923, -0.0]],
-            "m_Seed": [6, 1665045558],
-            "m_Translate": [14, [-0.0284269, -0.719963, -1.831482]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 21],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_base_corner"],
-            "m_Seed": [6, 1331195707],
-            "m_Translate": [14, [-6.8163762, -0.719963, 4.9564671]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 22],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_corner"],
-            "m_Seed": [6, 394500103],
-            "m_Translate": [14, [-6.8163599, 3.120037, 4.9564671]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 23],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_corner"],
-            "m_Seed": [6, 1265043256],
-            "m_Translate": [14, [-6.8163599, 6.960041, 4.9564671]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 24],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_corner"],
-            "m_Seed": [6, 698025303],
-            "m_Translate": [14, [-6.8163599, 10.800045, 4.9564671]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 25],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h_corner"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Seed": [6, 453472238],
-            "m_Translate": [14, [16.2236175, -0.719963, 11.6764526]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 26],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_3h"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Seed": [6, 373808284],
-            "m_Translate": [14, [16.2236175, -0.719963, 19.3564453]]
+            "m_ControlledPrefabIds": [44, 79, 82],
+            "m_PcId": [6, 81]
           },
-          "Fields": {
-            "SELECTOR": "Oriel"
-          }
+          "Presets": []
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 27],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h_corner"],
-            "m_Seed": [6, 1100475018],
-            "m_Translate": [14, [16.2236175, -0.719963, 27.0364608]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 28],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_3h"],
-            "m_Seed": [6, 245943359],
-            "m_Translate": [14, [8.5436248, -0.719963, 27.0364532]]
-          },
-          "Fields": {
-            "SELECTOR": "Oriel"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 29],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h_corner"],
-            "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Seed": [6, 1932133245],
-            "m_Translate": [14, [0.863617, -0.719963, 27.0364685]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 30],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_3h"],
-            "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Seed": [6, 1610335878],
-            "m_Translate": [14, [0.863617, -0.719963, 19.3564453]]
-          },
-          "Fields": {
-            "SELECTOR": "Oriel"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 31],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_3h"],
-            "m_Rotate": [14, [179.9999847, 0.000003, 179.9999847]],
-            "m_Seed": [6, 191521485],
-            "m_Translate": [14, [8.5436248, -0.719963, 11.6764526]]
-          },
-          "Fields": {
-            "SELECTOR": "Oriel"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 32],
-            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h_corner"],
-            "m_Rotate": [14, [179.9999847, -0.0000098, 179.9999847]],
-            "m_Seed": [6, 2523579612],
-            "m_Translate": [14, [0.863617, -0.719963, 11.6764526]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 57],
-            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_east_bld_a_floor"],
-            "m_Translate": [14, [-0.8777921, 13.5196304, -2.9878845]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 61],
-            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_east_bld_a_forest"],
-            "m_Translate": [14, [-2.5204772, 13.3600387, 1.0630948]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 70],
-            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_east_bld_a_parkour"],
-            "m_Translate": [14, [-1.6200853, 13.2557334, 5.6640777]]
+            "m_Name": [12, "WithLOD"],
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_east_bld_a_with_lod"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-1.0065536, -0.7377638, 1.1779861]]
           }
         }
       ]
