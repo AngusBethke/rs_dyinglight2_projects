@@ -18,36 +18,40 @@
       },
       "Components": [
         {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.3547019, 8.4644174, 0.1822049, 2.6572694, 8.7452955, 3.0579855]],
-            "m_PcId": [6, 2],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;nat_tree_conif_huge_b"],
-            "m_RandomizationWeight": [6, 50],
-            "m_Translate": [14, [-0.0000038, -0.4749945, -0.0000304]]
-          }
-        },
-        {
           "Class": "CoRandomizer",
           "PrefabFieldsNative": {
-            "m_ControlledPrefabIds": [44, 2, 4],
+            "m_ControlledPrefabIds": [44, 7, 8],
             "m_PcId": [6, 3]
           },
           "Presets": [
             [2, "rs_wroh_tree_tiny_randomizer"],
-            [4, "rs_wroh_tree_tiny_randomizer"]
+            [4, "rs_wroh_tree_tiny_randomizer"],
+            [7, "rs_wroh_tree_randomizer"],
+            [8, "rs_wroh_tree_randomizer"]
           ]
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0436328, 5.5993852, -0.2660681, 2.3640043, 5.8595552, 2.5546629]],
-            "m_PcId": [6, 4],
+            "m_EntityComponentsExtents": [69, [0.0998082, 2.0612897, -0.0307533, 1.4093565, 2.1702151, 1.2139902]],
+            "m_PcId": [6, 7],
             "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;nat_tree_conif_med_b"],
+            "m_PresetNames": [12, "Meshes;ms_pinetree_d"],
             "m_RandomizationWeight": [6, 50],
-            "m_Translate": [14, [-0.0000038, -0.4749945, -0.0000304]]
+            "m_Rotate": [14, [2.1900029, 85.441986, -0.0]],
+            "m_Translate": [14, [0.0002132, -0.4749993, 0.0002962]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0020981, 1.2451697, -0.024854, 0.9813972, 1.2838989, 0.74321]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;ms_pinetree_e"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [2.1900031, 85.441986, -0.0]],
+            "m_Translate": [14, [0.0002132, -0.4749993, 0.0002962]]
           }
         }
       ]

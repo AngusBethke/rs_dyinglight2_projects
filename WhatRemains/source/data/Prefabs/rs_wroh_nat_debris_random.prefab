@@ -9,7 +9,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
             "DestinationFields": [
               {
-                "Uuid": "10",
+                "Uuid": "18",
                 "Name": "SelectName"
               }
             ]
@@ -18,54 +18,48 @@
       },
       "Components": [
         {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0761298, 0.6689146, -1.6945048, 3.6311612, 0.7737522, 3.1035206]],
-            "m_PcId": [6, 7],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;backyard_debris_b"],
-            "m_RandomizationWeight": [6, 33],
-            "m_Rotate": [14, [-179.9999847, -30.6050205, -179.9999847]],
-            "m_Scale": [14, [1.0000003, 1.0000002, 1.0000009]],
-            "m_Translate": [14, [-0.9865264, -0.2202892, -1.0732727]]
-          }
-        },
-        {
           "Class": "CoRandomizer",
           "PrefabFieldsNative": {
-            "m_ControlledPrefabIds": [44, 7, 11, 12],
-            "m_PcId": [6, 10]
+            "m_ControlledPrefabIds": [44, 24, 25, 26],
+            "m_PcId": [6, 18]
           },
           "Presets": [
-            [7, "rs_wroh_debris_randomizer"],
-            [11, "rs_wroh_debris_randomizer"],
-            [12, "rs_wroh_debris_randomizer"]
+            [13, "rs_wroh_debris_randomizer"],
+            [19, "rs_wroh_debris_randomizer"],
+            [20, "rs_wroh_debris_randomizer"],
+            [24, "rs_wroh_debris_randomizer"],
+            [25, "rs_wroh_debris_randomizer"],
+            [26, "rs_wroh_debris_randomizer"]
           ]
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-1.1473202, 1.0696326, -5.4658379, 3.1017861, 1.1241465, 6.9938988]],
-            "m_PcId": [6, 11],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;backyard_debris_c"],
-            "m_RandomizationWeight": [6, 34],
-            "m_Rotate": [14, [-179.9999847, -30.6050167, -179.9999847]],
-            "m_Scale": [14, [1.0000002, 1.0000001, 1.0000008]],
-            "m_Translate": [14, [-0.9865264, -0.2202892, -1.0732727]]
+            "m_Name": [12, "Debris_B"],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "rs_wroh_backyard_debris_b"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0003719, 7.003545761108398e-7, -0.0003108]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.1556797, 0.5277267, -1.8290071, 2.6216135, 0.6457507, 2.9230833]],
-            "m_PcId": [6, 12],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;backyard_debris_d"],
+            "m_Name": [12, "Debris_C"],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "rs_wroh_backyard_debris_c"],
+            "m_RandomizationWeight": [6, 34],
+            "m_Translate": [14, [0.0003719, 7.003545761108398e-7, -0.0003108]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Debris_D"],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "rs_wroh_backyard_debris_d"],
             "m_RandomizationWeight": [6, 33],
-            "m_Rotate": [14, [-179.9999847, -30.6050167, -179.9999847]],
-            "m_Scale": [14, [1.0000002, 1.0000001, 1.0000008]],
-            "m_Translate": [14, [-0.9865264, -0.2202892, -1.0732727]]
+            "m_Translate": [14, [0.0003719, 7.003545761108398e-7, -0.0003108]]
           }
         }
       ]
