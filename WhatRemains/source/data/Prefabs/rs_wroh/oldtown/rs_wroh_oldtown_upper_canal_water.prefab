@@ -1,0 +1,481 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "m_SurfaceRoughness",
+            "Init": "e:SLIDER;f:EDIT;c:Water/General;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_SurfaceRoughness"
+              }
+            ]
+          },
+          {
+            "Name": "m_SurfaceSpecular",
+            "Init": "e:SLIDER;f:EDIT;c:Water/General;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_SurfaceSpecular"
+              }
+            ]
+          },
+          {
+            "Name": "m_WaterColor",
+            "Init": "e:BROWSE_COLOR;f:EDIT;c:Water/General;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_WaterColor"
+              }
+            ]
+          },
+          {
+            "Name": "m_DeepColorDistance",
+            "Init": "e:SLIDER;f:EDIT;c:Water/General;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_DeepColorDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_RefractionStrength",
+            "Init": "e:SLIDER;f:EDIT;c:Water/General;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_RefractionStrength"
+              }
+            ]
+          },
+          {
+            "Name": "m_RefractionDistance",
+            "Init": "e:SLIDER;f:EDIT;c:Water/General;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_RefractionDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterParticleWidth",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Particle;m:0.0;x:2.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterParticleWidth"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterParticleSpeed",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Particle;m:0.0;x:2.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterParticleSpeed"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterParticleOpacity",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Particle;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterParticleOpacity"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterParticleAmount",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Particle;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterParticleAmount"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterParticleExtent",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Particle;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterParticleExtent"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterParticleFadeNearDistance",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Particle;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterParticleFadeNearDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterParticleDepthBlendDistance",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Particle;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterParticleDepthBlendDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsWidth",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:2.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsWidth"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsLength",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsLength"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsSpeed",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:10.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsSpeed"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsOpacity",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsOpacity"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsAmount",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsAmount"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsExtent",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsExtent"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsFadeNearDistance",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsFadeNearDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsNearDistance",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsNearDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsDepthBlendDistance",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsDepthBlendDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterShaftsDriftSpeed",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Shafts;m:0.0;x:4.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterShaftsDriftSpeed"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterBubblesWidth",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Bubbles;m:0.0;x:2.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterBubblesWidth"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterBubblesSpeed",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Bubbles;m:0.0;x:2.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterBubblesSpeed"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterBubblesAmount",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Bubbles;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterBubblesAmount"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterBubblesExtent",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Bubbles;m:0.0;x:100.0;s:0.1;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterBubblesExtent"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterBubblesNoiseRange",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Bubbles;m:0.0;x:2.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterBubblesNoiseRange"
+              }
+            ]
+          },
+          {
+            "Name": "m_UnderwaterBubblesOpacity",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Underwater/Bubbles;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_UnderwaterBubblesOpacity"
+              }
+            ]
+          },
+          {
+            "Name": "m_WaveNormalStrength",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Wave;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_WaveNormalStrength"
+              }
+            ]
+          },
+          {
+            "Name": "m_WaveSpeed",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Wave;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_WaveSpeed"
+              }
+            ]
+          },
+          {
+            "Name": "m_WaveStrength",
+            "Init": "e:SLIDER;f:EDIT;c:Water/Wave;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_WaveStrength"
+              }
+            ]
+          },
+          {
+            "Name": "m_EmissiveFactor",
+            "Init": "e:SLIDER;f:EDIT;c:Water/General;m:0.0;x:1.0;s:0.001;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_EmissiveFactor"
+              }
+            ]
+          },
+          {
+            "Name": "m_InteriorWater",
+            "Init": "f:EDIT;c:Water/General;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_InteriorWater"
+              }
+            ]
+          },
+          {
+            "Name": "m_GroupParentOverride",
+            "Init": "e:EDIT;f:EDIT;c:Water/General;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "m_GroupParentOverride"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_XformComponent": [6, 22]
+          },
+          "Fields": {
+            "m_MeshName": "water_box_surface.msh"
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_XformComponent": [6, 22]
+          },
+          "Fields": {
+            "m_MeshName": "water_box_volume.msh"
+          }
+        },
+        {
+          "Class": "CoWaterCurrent",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16]
+          }
+        },
+        {
+          "Class": "CoHierarchy",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_RootXform": [11, true]
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 30],
+            "m_XformComponent": [6, 22]
+          },
+          "Fields": {
+            "m_MeshName": "water_box_volume.msh"
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 34],
+            "m_XformComponent": [6, 22]
+          },
+          "Fields": {
+            "m_MeshName": "particles_2048.msh",
+            "m_SelfActive": "0",
+            "m_SkinName": "Raindrops"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "AllowsNonUniformScaling": "1",
+      "Nodes": [
+        {
+          "Uuid": "6",
+          "Type": "2",
+          "X": "390.00",
+          "Y": "-375.00"
+        },
+        {
+          "Uuid": "7",
+          "Type": "2",
+          "X": "390.00",
+          "Y": "-15.00"
+        },
+        {
+          "Uuid": "16",
+          "Type": "0",
+          "X": "-210.00",
+          "Y": "-60.00"
+        },
+        {
+          "Uuid": "22",
+          "Type": "2",
+          "X": "-570.00",
+          "Y": "-735.00"
+        },
+        {
+          "Uuid": "30",
+          "Type": "2",
+          "X": "390.00",
+          "Y": "345.00"
+        },
+        {
+          "Uuid": "34",
+          "Type": "2",
+          "X": "390.00",
+          "Y": "-735.00"
+        },
+        {
+          "Uuid": "3",
+          "Type": "4",
+          "X": "-430.00",
+          "Y": "145.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "4",
+          "Type": "4",
+          "X": "-405.00",
+          "Y": "165.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "5",
+          "Type": "4",
+          "X": "-510.00",
+          "Y": "-15.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}

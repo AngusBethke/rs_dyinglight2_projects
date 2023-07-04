@@ -1,0 +1,80 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0709445, 0.5632146, -0.0670707, 0.733923, 0.6120085, 0.7101063]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_bush_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Scale": [14, [0.9999979, 0.9999979, 0.999997]]
+          },
+          "Fields": {
+            "SkinName": "bush_decid_green"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 5, 6],
+            "m_PcId": [6, 4]
+          },
+          "Presets": [
+            [1, "rs_wroh_tree_stump_randomizer"],
+            [5, "rs_wroh_tree_stump_randomizer"],
+            [6, "rs_wroh_tree_stump_randomizer"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0023953, 0.6093486, 0.0103785, 0.8805122, 0.662388, 1.0092017]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_bush_b"],
+            "m_RandomizationWeight": [6, 34],
+            "m_Translate": [14, [0.000411, -0.000192, -0.0000912]]
+          },
+          "Fields": {
+            "SkinName": "bush_decid_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0648493, 0.4526588, 0.0305646, 0.5932145, 0.5082095, 0.5382608]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_bush_d"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.000411, -0.000192, -0.0000912]]
+          },
+          "Fields": {
+            "SkinName": "bush_decid_green"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

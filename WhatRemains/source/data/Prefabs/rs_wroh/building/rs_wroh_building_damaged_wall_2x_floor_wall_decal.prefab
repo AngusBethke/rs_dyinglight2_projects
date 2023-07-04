@@ -1,0 +1,50 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0037868, 0.000005, 0.1685024, 0.640005, 0.9600049, 0.0050024]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;decal_wall_round_a"],
+            "m_Scale": [14, [1.4999977, 1.4999977, 0.9999976]],
+            "m_Translate": [14, [0.0191649, -0.1915816, 0.0]]
+          },
+          "Fields": {
+            "SkinName": "concrete_brick_a"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1],
+            "m_PcId": [6, 2]
+          },
+          "Presets": [
+            [1, "rs_wroh_wall_decal_randomizer"]
+          ]
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

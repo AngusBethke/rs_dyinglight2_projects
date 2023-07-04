@@ -1,0 +1,53 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "81",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Base"],
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_east_bld_a_building"],
+            "m_Translate": [14, [-0.1429398, 1.1469949, 0.1066284]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 79, 82],
+            "m_PcId": [6, 81]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "WithLOD"],
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_east_bld_a_with_lod"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-1.0065536, -0.7377638, 1.1779861]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "SELECTOR_A",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_wroh_road_large_low_damage"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [0.0, 0.0, -2.123985]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_wroh_road_large_low_damage"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [0.0000147, -0.0000079, 2.123985]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Nature_Config_A"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_wroh_road_large_damage_x2_nature_config_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Scale": [14, [1.0000045, 1.0000045, 1.0000095]],
+            "m_Seed": [6, 261918350],
+            "m_Translate": [14, [0.0001519, -0.0002582, 0.000304]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 7, 8, 10],
+            "m_PcId": [6, 6]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Nature_Config_B"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_wroh_road_large_damage_x2_nature_config_b"],
+            "m_RandomizationWeight": [6, 34],
+            "m_Scale": [14, [1.000005, 1.000005, 1.0000107]],
+            "m_Seed": [6, 2192119370],
+            "m_Translate": [14, [0.0, -0.0002398, 0.0007618]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Nature_Config_C"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_wroh_road_large_damage_x2_nature_config_c"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Scale": [14, [1.0000056, 1.0000056, 1.000012]],
+            "m_Seed": [6, 538534795],
+            "m_Translate": [14, [-0.0001825, -0.000213, 0.001189]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "_Empty"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0001519, 0.0000038, 0.000335]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1725459, 0.5, -0.1573796, 4.7999415, 0.5, 4.2646484]],
+            "m_Name": [12, "Men"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0002132, -0.6265562, 0.0002132]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "2",
+            "m_Points": "4.627396 -0.500000 -4.422028;4.627396 -0.500000 4.107269;-4.972488 -0.500000 4.107269;-4.972488 -0.500000 -4.422028;",
+            "m_PointsSource": "2",
+            "m_Preset": "Character;Biter_Weak_Prologue",
+            "m_ShuffleSpawnPoints": "1"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 11, 14],
+            "m_PcId": [6, 12]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1725458, 0.5, -0.1573794, 4.799942, 0.5, 4.2646484]],
+            "m_Name": [12, "Women"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0004117, -0.6263809, 0.0000609]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "2",
+            "m_Points": "4.627396 -0.500000 -4.422028;4.627396 -0.500000 4.107269;-4.972488 -0.500000 4.107269;-4.972488 -0.500000 -4.422028;",
+            "m_PointsSource": "2",
+            "m_Preset": "Character;Biter_Weak_Woman_Prologue",
+            "m_ShuffleSpawnPoints": "1"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
