@@ -1,4 +1,12 @@
 sub main()
 {
 	Version(2);
+	Roleset("rs_wroh_testground_floor")
+	{
+Disabled();
+		CustomPaths()
+		{
+			Path("0;23");
+		}
+	}
 }
