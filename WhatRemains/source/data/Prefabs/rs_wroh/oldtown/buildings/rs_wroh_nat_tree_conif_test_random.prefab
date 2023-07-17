@@ -1,0 +1,55 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Tree_A"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_test_a"],
+            "m_RandomizationWeight": [6, 50]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 4],
+            "m_PcId": [6, 3]
+          },
+          "Presets": [
+            [1, "rs_wroh_test_tree"],
+            [4, "rs_wroh_test_tree"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Tree_B"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_test_b"],
+            "m_RandomizationWeight": [6, 50]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

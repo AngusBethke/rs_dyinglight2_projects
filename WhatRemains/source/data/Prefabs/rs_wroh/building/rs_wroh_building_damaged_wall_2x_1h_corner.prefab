@@ -2,6 +2,28 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "WallSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "2",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "3",
+                "Name": "WallSkin"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -15,7 +37,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 3],
+            "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_1h"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Seed": [6, 2675546102],
@@ -25,7 +47,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 5],
+            "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_base_corner"]
           }
         }

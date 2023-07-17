@@ -2,6 +2,36 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "WallSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "2",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "3",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "4",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "5",
+                "Name": "WallSkin"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -15,7 +45,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 3],
+            "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_3h"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Seed": [6, 4225433493],
@@ -25,14 +55,14 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 5],
+            "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_base_corner"]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 6],
+            "m_PcId": [6, 4],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_corner"],
             "m_Translate": [14, [-0.0000609, 7.6800117, 0.0]]
           }
@@ -40,7 +70,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 7],
+            "m_PcId": [6, 5],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_corner"],
             "m_Translate": [14, [-0.0000914, 3.8400154, 0.0]]
           }
