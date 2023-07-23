@@ -5,6 +5,54 @@
       "Interface": {
         "VirtualFields": [
           {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SELECTOR"
+              },
+              {
+                "Uuid": "2",
+                "Name": "SELECTOR"
+              },
+              {
+                "Uuid": "3",
+                "Name": "SELECTOR"
+              },
+              {
+                "Uuid": "4",
+                "Name": "SELECTOR"
+              },
+              {
+                "Uuid": "5",
+                "Name": "SELECTOR"
+              },
+              {
+                "Uuid": "6",
+                "Name": "SELECTOR"
+              }
+            ]
+          },
+          {
+            "Name": "SelectorBlendshape",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SelectorBlendshape"
+              },
+              {
+                "Uuid": "2",
+                "Name": "SelectorBlendshape"
+              },
+              {
+                "Uuid": "3",
+                "Name": "SelectorBlendshape"
+              }
+            ]
+          },
+          {
             "Name": "WallSkin",
             "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [

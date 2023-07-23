@@ -15,6 +15,20 @@
             ]
           },
           {
+            "Name": "SelectorBlendshape",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectorBlendshape"
+              },
+              {
+                "Uuid": "5",
+                "Name": "SelectorBlendshape"
+              }
+            ]
+          },
+          {
             "Name": "WallSkin",
             "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
             "DestinationFields": [
@@ -24,6 +38,10 @@
               },
               {
                 "Uuid": "4",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "5",
                 "Name": "WallSkin"
               }
             ]
@@ -45,7 +63,7 @@
         {
           "Class": "CoRandomizer",
           "PrefabFieldsNative": {
-            "m_ControlledPrefabIds": [44, 3, 4],
+            "m_ControlledPrefabIds": [44, 3, 4, 5],
             "m_PcId": [6, 2]
           },
           "Presets": []
@@ -65,6 +83,17 @@
             "m_Name": [12, "Oriel"],
             "m_PcId": [6, 4],
             "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_base_oriel_2h"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999986]],
+            "m_Translate": [14, [-0.0039749, 1.2879985, 0.1090259]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Modern"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_base_modern_2h"],
             "m_RandomizationWeight": [6, 0],
             "m_Scale": [14, [0.9999994, 0.9999994, 0.9999986]],
             "m_Translate": [14, [-0.0039749, 1.2879985, 0.1090259]]

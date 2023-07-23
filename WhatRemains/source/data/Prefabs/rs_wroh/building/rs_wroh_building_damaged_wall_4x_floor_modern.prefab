@@ -1,0 +1,69 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "WallSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "2",
+                "Name": "WallSkin"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_modern_floor"],
+            "m_Scale": [14, [1.0000003, 1.0000003, 1.0000007]],
+            "m_Seed": [6, 110191888],
+            "m_Translate": [14, [1.9203909, -7.152557373046875e-7, -0.0004042]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_modern_floor"],
+            "m_Scale": [14, [1.0000003, 1.0000003, 1.0000007]],
+            "m_Seed": [6, 1507756045],
+            "m_Translate": [14, [-1.9196108, -7.152557373046875e-7, -0.0004042]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_base_greenery"],
+            "m_Translate": [14, [0.017, 3.8400006, 0.2590025]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5000001, 0.5, 0.0049999]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Scale": [14, [7.7384195, 3.9263446, 26.4394454]],
+            "m_Translate": [14, [-0.0000934, 1.8495564, -0.1300582]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
