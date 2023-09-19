@@ -1,0 +1,67 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "LedgeStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "LedgeIncludeIvy",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeIncludeIvy;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "LedgeIncludeIvy"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_a"],
+            "m_RandomizationWeight": [6, 80],
+            "m_Translate": [14, [0.0000019, 0.0, 0.0]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 6],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Destroyed"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_b"],
+            "m_RandomizationWeight": [6, 20],
+            "m_Translate": [14, [0.0000019, 0.0, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
