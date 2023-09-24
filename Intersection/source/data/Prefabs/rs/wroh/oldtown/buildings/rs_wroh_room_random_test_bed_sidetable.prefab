@@ -1,0 +1,129 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "SELECTOR_A",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004993, 0.2504998, 0.2254997, 0.3205006, 0.2505001, 0.2255001]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_modern_table_night_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0000114, -0.0000039, -0.0002436]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 5, 6],
+            "m_PcId": [6, 4]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005198, 0.2545417, 0.222583, 0.3224734, 0.2559586, 0.2685934]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_old_table_night_a"],
+            "m_RandomizationWeight": [6, 34],
+            "m_Translate": [14, [9.999999974752428e-7, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0007835, 0.3157316, 0.2833082, 0.3223547, 0.3179883, 0.2833085]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_scandinavian_table_night_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0000114, -0.0000039, -0.0002436]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0330768, 0.1182043, 0.0033128, 0.4357661, 0.1208342, 0.1958868]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_trashgroup_flr_1x1_fashion_a"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Translate": [14, [0.0243787, 0.5033531, 0.2295188]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 7, 12, 13, 14],
+            "m_PcId": [6, 11]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0256814, 0.0602521, -0.040189, 0.4431613, 0.0604038, 0.2566601]],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_trashgroup_flr_1x1_fashion_c"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Translate": [14, [0.0239038, 0.5029963, 0.2297592]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0943363, 0.043654, -0.1496163, 0.2865585, 0.0517006, 0.1496163]],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;trash_pile_0x1_h"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Translate": [14, [0.0239038, 0.5029963, 0.2297592]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.014596, 0.0543629, 0.0139581, 0.2258044, 0.0576388, 0.1674834]],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_trashgroup_flr_1x1_inside_bathroom_a"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Translate": [14, [0.0239038, 0.5029963, 0.2297592]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

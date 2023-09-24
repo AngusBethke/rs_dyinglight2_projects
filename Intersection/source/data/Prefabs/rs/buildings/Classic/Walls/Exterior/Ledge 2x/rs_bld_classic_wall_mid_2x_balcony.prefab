@@ -1,0 +1,113 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "LedgeIncludeIvy",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeIncludeIvy;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "BalconyStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:BalconyStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_a_ivy"]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 4, 7],
+            "m_PcId": [6, 6]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_balcony_railing_a"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0133322, 0.0, 1.3866709]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 18, 22, 23],
+            "m_PcId": [6, 21]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Half"],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_balcony_railing_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [0.0133322, 0.0, 1.3866709]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Destroyed"],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_balcony_railing_c"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [0.0133322, 0.0, 1.3866709]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0011692, -0.121199, 1.0281057, 2.0573968, 0.1222, 1.0281057]],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ex_a_balcony_str_3m_a_btm_metal"],
+            "m_Scale": [14, [0.9999998, 0.9999998, 0.9999986]],
+            "m_Translate": [14, [0.0, 0.0, 0.3200016]]
+          },
+          "Fields": {
+            "SkinName": "balcony_wood_b_brown"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

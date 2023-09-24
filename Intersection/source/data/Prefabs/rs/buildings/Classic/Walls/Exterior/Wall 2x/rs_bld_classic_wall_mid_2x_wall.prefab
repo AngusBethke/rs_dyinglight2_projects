@@ -1,0 +1,115 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Wall_0",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_0;",
+            "DestinationFields": [
+              {
+                "Uuid": "10",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "LedgeStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "LedgeStyle"
+              }
+            ]
+          },
+          {
+            "Name": "LedgeIncludeIvy",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeIncludeIvy;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "LedgeIncludeIvy"
+              }
+            ]
+          },
+          {
+            "Name": "WallStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WallStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_occluder"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge"]
+          },
+          "Fields": {
+            "LedgeStyle": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_wall_a"],
+            "m_Translate": [14, [-0.000171, 0.0, 0.0003497]]
+          },
+          "Fields": {
+            "Wall": "R1_generic_a_2"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 8, 10],
+            "m_PcId": [6, 9]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Damaged"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_wall_b"],
+            "m_RandomizationWeight": [6, 0]
+          },
+          "Fields": {
+            "Wall": "R1_generic_a_2"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

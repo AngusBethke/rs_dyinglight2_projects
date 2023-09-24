@@ -1,0 +1,343 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "31",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0137021, 0.1450942, 0.056354, 1.6290705, 0.1482955, 1.7800627]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cd_roof_blendshape_b"],
+            "m_Scale": [14, [2.5, 2.5, 2.5]],
+            "m_Translate": [14, [0.0, 0.0000039, 0.0]]
+          },
+          "Fields": {
+            "SkinName": "Conif",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.5036621, 5.0, 0.1183967, 4.260086, 5.0, 4.6482772]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_PresetNames": [12, "TinyObjectDensity;High;TinyObjectSelfActive;Active;TinyObjectType;RoofBush"],
+            "m_Translate": [14, [-0.4731445, -0.1188774, 0.0899237]]
+          },
+          "Fields": {
+            "m_AreaPoints": "-1.182632 0.000000 -2.810890;-0.347992 0.000000 -3.037292;0.370758 0.000000 -3.818680;1.700912 0.000000 -4.529881;2.542252 0.000000 -4.492092;3.841583 0.000000 -3.983810;4.357666 0.000000 -3.099133;4.077240 0.000000 -1.854607;4.123276 0.000000 -0.020611;4.763748 0.000000 1.308697;4.049103 0.000000 2.032917;2.500000 0.000000 2.500000;2.180298 0.000000 3.937840;1.214493 0.000000 4.578781;0.411636 0.000000 4.088280;-0.195389 0.000000 3.157013;-0.915466 0.000000 4.180248;-2.025085 0.000000 4.766674;-2.936111 0.000000 4.387951;-3.362930 0.000000 3.509903;-3.055908 0.000000 2.162663;-2.921844 0.000000 0.616344;-3.756424 0.000000 -0.739334;-3.513168 0.000000 -1.918163;-2.584976 0.000000 -2.604763;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.5036621, 5.0, 0.1183967, 4.260086, 5.0, 4.6482772]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_PresetNames": [12, "TinyObjectDensity;High;TinyObjectSelfActive;Active;TinyObjectType;RoofPreciseObjects"],
+            "m_Translate": [14, [-0.4732207, -0.1190261, 0.0900152]]
+          },
+          "Fields": {
+            "m_AreaPoints": "-1.182632 0.000000 -2.810890;-0.347992 0.000000 -3.037292;0.370758 0.000000 -3.818680;1.700912 0.000000 -4.529881;2.542252 0.000000 -4.492092;3.841583 0.000000 -3.983810;4.357666 0.000000 -3.099133;4.077240 0.000000 -1.854607;4.123276 0.000000 -0.020611;4.763748 0.000000 1.308697;4.049103 0.000000 2.032917;2.500000 0.000000 2.500000;2.180298 0.000000 3.937840;1.214493 0.000000 4.578781;0.411636 0.000000 4.088280;-0.195389 0.000000 3.157013;-0.915466 0.000000 4.180248;-2.025085 0.000000 4.766674;-2.936111 0.000000 4.387951;-3.362930 0.000000 3.509903;-3.055908 0.000000 2.162663;-2.921844 0.000000 0.616344;-3.756424 0.000000 -0.739334;-3.513168 0.000000 -1.918163;-2.584976 0.000000 -2.604763;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 2851936844],
+            "m_Translate": [14, [2.5178833, 0.0929526, -3.2593269]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 4237434978],
+            "m_Translate": [14, [-0.312927, 0.132759, -2.3927497]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 260239553],
+            "m_Translate": [14, [-3.043518, 0.1197279, -1.4864845]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 992616776],
+            "m_Translate": [14, [-2.3756408, 0.1581649, 1.1552505]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 4217512579],
+            "m_Translate": [14, [-2.4898986, 0.106655, 3.5273132]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 2561611695],
+            "m_Translate": [14, [0.7153167, 0.1710509, 3.1285705]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 1454729237],
+            "m_Translate": [14, [2.946228, 0.1283874, 0.7999876]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 1125484036],
+            "m_Translate": [14, [1.4917297, 0.507946, -0.851593]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_random"],
+            "m_Seed": [6, 1582734722],
+            "m_Translate": [14, [-0.3747099, 0.7053108, 0.732212]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
+            "m_Seed": [6, 3447334697],
+            "m_Translate": [14, [1.3653868, 0.3705748, -2.3291549]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
+            "m_Seed": [6, 1925096276],
+            "m_Translate": [14, [-0.7651671, 0.5889129, -0.6821022]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
+            "m_Seed": [6, 2011170278],
+            "m_Translate": [14, [-1.9002685, 0.1323813, -1.8826446]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
+            "m_Seed": [6, 3008739263],
+            "m_Translate": [14, [-2.5664825, 0.1537818, 0.1267395]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
+            "m_Seed": [6, 2903564661],
+            "m_Translate": [14, [-1.8517303, 0.2603186, 2.3278846]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_tiny_random"],
+            "m_Seed": [6, 3348709727],
+            "m_Translate": [14, [1.4056241, 0.2308578, 1.8592071]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "rs_wroh_nat_stump_random"],
+            "m_Seed": [6, 2905885862],
+            "m_Translate": [14, [-0.5929564, 0.0803833, 1.323143]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_wroh_nat_stump_random"],
+            "m_Rotate": [14, [-5.5778899, 1.543256, -15.4170351]],
+            "m_Seed": [6, 2743319054],
+            "m_Translate": [14, [2.1731872, 0.113346, -0.8778991]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "rs_wroh_nat_stump_random"],
+            "m_Rotate": [14, [-10.3422775, -1.9894199, 10.7704687]],
+            "m_Seed": [6, 2012184041],
+            "m_Translate": [14, [-1.0319824, 0.2198027, -1.2826118]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "rs_wroh_nat_debris_random"],
+            "m_Seed": [6, 1054959202],
+            "m_Translate": [14, [0.5988615, 0.0, -0.6940574]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "rs_wroh_nat_debris_random"],
+            "m_Seed": [6, 977243048],
+            "m_Translate": [14, [-1.146759, 0.0, 1.6146507]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "rs_wroh_nat_debris_random"],
+            "m_Seed": [6, 35398785],
+            "m_Translate": [14, [2.5359649, 0.0, 0.6451187]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "rs_wroh_ai_spawn_point"],
+            "m_Rotate": [14, [-180.0, -9.999999, -180.0]],
+            "m_Translate": [14, [0.9017791, -0.0000855, -2.6210632]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "rs_wroh_ai_spawn_point"],
+            "m_Rotate": [14, [0.0000049, -19.0000057, -0.0000016]],
+            "m_Translate": [14, [-0.5239105, -0.0000855, 1.8649288]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "rs_wroh_ai_spawn_point"],
+            "m_Rotate": [14, [0.0000091, 59.0000076, -0.000011]],
+            "m_Translate": [14, [1.9426269, -0.0000855, 1.0558774]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0486109, 0.5, 0.0112915, 1.859806, 0.5, 1.7337033]],
+            "m_Name": [12, "Men"],
+            "m_PcId": [6, 29],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Scale": [14, [2.5000002, 2.5000002, 2.5000009]],
+            "m_Translate": [14, [0.0003199, -0.0003833, 0.0004877]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "2",
+            "m_Points": "1.811195 -0.500000 -1.722412;1.811195 -0.500000 1.744980;-1.908409 -0.500000 1.744995;-1.908417 -0.500000 -1.722412;",
+            "m_PointsSource": "2",
+            "m_Preset": "Character;Biter_Weak_Prologue",
+            "m_ShuffleSpawnPoints": "1"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 29, 32],
+            "m_PcId": [6, 31]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0486106, 0.5, 0.0112915, 1.8598059, 0.5, 1.7337032]],
+            "m_Name": [12, "Women"],
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Scale": [14, [2.5, 2.5, 2.5000007]],
+            "m_Translate": [14, [0.00032, -0.0003833, 0.0004878]]
+          },
+          "Fields": {
+            "m_NumOfAIsToSpawn": "2",
+            "m_Points": "1.811195 -0.500000 -1.722412;1.811195 -0.500000 1.744980;-1.908409 -0.500000 1.744995;-1.908417 -0.500000 -1.722412;",
+            "m_PointsSource": "2",
+            "m_Preset": "Character;Biter_Weak_Woman_Prologue",
+            "m_ShuffleSpawnPoints": "1"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

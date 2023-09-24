@@ -1,0 +1,103 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "WallSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "3",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "4",
+                "Name": "WallSkin"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 3, 4],
+            "m_PcId": [6, 1]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Door_Double"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_modern_floor_door_double"],
+            "m_RandomizationWeight": [6, 15],
+            "m_Translate": [14, [-9.5367431640625e-7, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Wall"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_modern_floor_wall"],
+            "m_RandomizationWeight": [6, 85],
+            "m_Translate": [14, [-0.0004215, 7.003545761108398e-7, 0.0001675]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Window"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_modern_floor_window"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_modern_base_top_ledge"],
+            "m_Translate": [14, [-0.0108184, 3.8411865, -0.015869]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0082548, -0.5006327, 0.2205149, 0.9860001, 0.5393672, 0.2205149]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_b_wall_str_btm_1x1h_c_em"],
+            "m_Scale": [14, [1.9999996, 0.9999998, 1.0000002]],
+            "m_Translate": [14, [-9.5367431640625e-7, 0.0, -0.0000076]]
+          },
+          "Fields": {
+            "SkinName": "Default"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

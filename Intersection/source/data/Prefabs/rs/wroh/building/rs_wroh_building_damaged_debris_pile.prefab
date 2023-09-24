@@ -1,0 +1,91 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.088768, 5.0, 0.140442, 1.4502789, 5.0, 1.48938]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_PresetNames": [12, "TinyObjectDensity;High;TinyObjectSelfActive;Active;TinyObjectType;RoofSmall_r01a"],
+            "m_Translate": [14, [-0.0003804, -0.0425718, -0.0004567]]
+          },
+          "Fields": {
+            "m_AreaPoints": "-0.093216 0.000000 -1.348938;1.168869 0.000000 -1.133240;1.361511 0.000000 0.089233;1.168869 0.000000 1.346100;-0.188248 0.000000 1.629822;-1.413620 0.000000 1.346100;-1.539047 0.000000 0.052795;-1.413620 0.000000 -1.133240;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Debris_Pile_A"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_debris_pile_a"],
+            "m_RandomizationWeight": [6, 25]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 8, 9, 10],
+            "m_PcId": [6, 7]
+          },
+          "Presets": [
+            [3, "rs_wroh_lily_randomizer"],
+            [8, "rs_wroh_lily_randomizer"],
+            [9, "rs_wroh_lily_randomizer"],
+            [10, "rs_wroh_lily_randomizer"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Debris_Pile_B"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_debris_pile_b"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Translate": [14, [-0.0003804, 0.0000038, -0.0004567]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Debris_Pile_C"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_debris_pile_c"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Translate": [14, [-0.0003804, 0.0000038, -0.0004567]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Debris_Pile_D"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_debris_pile_d"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Translate": [14, [-0.0003804, 0.0000038, -0.0004567]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
