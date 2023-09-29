@@ -1,0 +1,67 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Debris A"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_bld_int_debris_pile_a"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0003957, 0.0, 0.0002961]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_nat_grass_chunk_small"],
+            "m_Translate": [14, [-0.0003967, 0.0, 0.0002961]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 7],
+            "m_PcId": [6, 6]
+          },
+          "Presets": [
+            [3, "rs_rotate_360"],
+            [7, "rs_rotate_360"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Debris B"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_int_debris_pile_b"],
+            "m_RandomizationWeight": [6, 50]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

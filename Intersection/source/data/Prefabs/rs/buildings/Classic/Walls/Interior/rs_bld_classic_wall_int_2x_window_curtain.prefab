@@ -1,0 +1,63 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "CurtainType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:CurtainType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_window_curtain_a"],
+            "m_RandomizationWeight": [6, 50]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 4, 8, 9],
+            "m_PcId": [6, 7]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Half"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_window_curtain_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000038, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_window_curtain_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000038, 0.0, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

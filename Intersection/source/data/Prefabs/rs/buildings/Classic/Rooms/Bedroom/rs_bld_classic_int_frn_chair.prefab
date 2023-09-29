@@ -1,0 +1,63 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Chair;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Chair A"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_chair_a"],
+            "m_RandomizationWeight": [6, 33]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 4, 8, 9],
+            "m_PcId": [6, 7]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Chair B"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_chair_b"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0004643, 0.0, 0.0000634]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Chair C"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_chair_c"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0004643, 0.0, 0.0000634]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

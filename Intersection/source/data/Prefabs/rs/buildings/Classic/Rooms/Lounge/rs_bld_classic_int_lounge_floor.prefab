@@ -2,6 +2,62 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Floor",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Floor;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "1",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "2",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "3",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "4",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "5",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "6",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "7",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "8",
+                "Name": "Floor"
+              }
+            ]
+          },
+          {
+            "Name": "FloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:FloorType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "FloorType"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
