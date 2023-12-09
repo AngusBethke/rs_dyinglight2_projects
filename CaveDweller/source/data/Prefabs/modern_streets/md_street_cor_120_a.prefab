@@ -1,0 +1,561 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "UserData",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|SIMPLE;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "335",
+                "Name": "UserData"
+              }
+            ]
+          },
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "352",
+                "Name": "SkinName"
+              }
+            ]
+          },
+          {
+            "Name": "m_Dynamic",
+            "Init": "f:EDIT;c:ROPE HOOK;d:Set ropehook as dynamic - it will update it's position;l:m_Dynamic;",
+            "DestinationFields": [
+              {
+                "Uuid": "352",
+                "Name": "m_Dynamic"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [2.1581907, -0.0506558, -1.3858242, 5.1622066, 0.054456, 6.5250406]],
+            "m_PcId": [6, 68],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;road_profile_2_2_2_crv_30_a"],
+            "m_Translate": [14, [1.1980588, -0.0110299, 1.9574805]]
+          },
+          "Fields": {
+            "RenderFlags": "16",
+            "SkinName": "Standard_sidewalk",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [2.1581907, -0.0506558, -1.3858242, 5.1622066, 0.054456, 6.5250406]],
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;road_profile_2_2_2_crv_30_a"],
+            "m_Rotate": [14, [-0.0, 30.0000038, -0.0]],
+            "m_Translate": [14, [-4.1640615, -0.0110299, 7.2613596]]
+          },
+          "Fields": {
+            "RenderFlags": "16",
+            "SkinName": "Standard_sidewalk",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.2368998, 0.0780465, -0.0504908, 2.5908598, 0.1005117, 1.3599045]],
+            "m_PcId": [6, 118],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;sidewalk_dmg_c"],
+            "m_Rotate": [14, [-0.0, 2.0000004, -0.0]],
+            "m_Translate": [14, [8.3673095, -0.0110299, -4.297913]]
+          },
+          "Fields": {
+            "RenderFlags": "32",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.8836306, -0.0771291, 0.0004997, 1.9573689, 0.0779686, 5.9631595]],
+            "m_PcId": [6, 151],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;road_profile_2_2_2_a_overlap"],
+            "m_Rotate": [14, [-180.0, 0.0000096, -179.9999694]],
+            "m_Translate": [14, [12.3270263, -0.0009364, 0.012001]]
+          },
+          "Fields": {
+            "RenderFlags": "16",
+            "SkinName": "Standard_sidewalk",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.8836312, -0.0771291, 0.0004997, 1.9573698, 0.0779686, 5.9631605]],
+            "m_PcId": [6, 159],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;road_profile_2_2_2_a_overlap"],
+            "m_Rotate": [14, [-0.0000223, 60.0, 0.0000608]],
+            "m_Scale": [14, [1.0000003, 0.9999995, 1.0000008]],
+            "m_Translate": [14, [-6.1163339, -0.0011319, 10.5755443]]
+          },
+          "Fields": {
+            "RenderFlags": "16",
+            "SkinName": "Standard_sidewalk",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.3231382, 0.2836177, -2.2813022, 4.2640748, 0.4500067, 2.2813022]],
+            "m_PcId": [6, 165],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_dg_nat_grass_d_c"],
+            "m_Rotate": [14, [179.9999847, -52.0000038, 179.9999847]],
+            "m_Translate": [14, [-6.781372, -0.0110299, 4.1290884]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.3231382, 0.2836177, -2.2813024, 4.2640752, 0.4500067, 2.2813024]],
+            "m_PcId": [6, 169],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_dg_nat_grass_d_c"],
+            "m_Rotate": [14, [179.9999847, -32.4999961, 179.9999847]],
+            "m_Translate": [14, [-0.4465332, -0.0110288, -1.2080692]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.3231382, 0.2836177, -2.2813024, 4.2640752, 0.4500067, 2.2813024]],
+            "m_PcId": [6, 173],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_dg_nat_grass_d_c"],
+            "m_Rotate": [14, [179.9999847, -0.4999999, 179.9999847]],
+            "m_Translate": [14, [9.9833984, 0.0199471, -3.9639282]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.3231382, 0.2836177, -2.2813024, 4.2640752, 0.4500067, 2.2813024]],
+            "m_PcId": [6, 177],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;street_dg_nat_grass_d_c"],
+            "m_Rotate": [14, [-0.0000129, 58.0000381, 0.0000085]],
+            "m_Translate": [14, [-1.3360605, 0.019948, 10.0006713]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1150178, 0.3770414, -0.8072328, 2.1257491, 0.4108636, 1.5193893]],
+            "m_PcId": [6, 180],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_plane_grass_b"],
+            "m_Rotate": [14, [179.9999542, -42.4999809, 179.9999694]],
+            "m_Scale": [14, [0.9162542, 0.9162536, 0.9162542]],
+            "m_Translate": [14, [10.9760017, -0.1140991, 0.8076151]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "64",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1150178, 0.3770413, -0.8072326, 2.1257486, 0.4108635, 1.5193886]],
+            "m_PcId": [6, 211],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_plane_grass_b"],
+            "m_Rotate": [14, [179.9999084, 77.4999847, -179.9999237]],
+            "m_Scale": [14, [0.9162548, 0.9162536, 0.9162548]],
+            "m_Translate": [14, [-6.1298441, -0.1142925, 9.0077152]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "64",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0000114, 0.0762704, 0.0736729, 0.0725413]],
+            "m_PcId": [6, 225],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [33.5315475, 83.1575088, -24.6184978]],
+            "m_Translate": [14, [4.8992366, 0.0649031, 2.6430609]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0091977, 0.0, 0.0, 0.0233962, 0.0049999, 0.008756]],
+            "m_PcId": [6, 226],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cockroach"],
+            "m_Rotate": [14, [179.9406433, 69.88945, -178.5510101]],
+            "m_Translate": [14, [4.9359283, -0.1268083, 2.5617356]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000057, 0.0, 0.0, 0.0762723, 0.0736729, 0.0725374]],
+            "m_PcId": [6, 250],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [7.7987389, -60.9867668, 15.5546884]],
+            "m_Translate": [14, [-5.4392848, 0.0339264, 5.6532912]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0091977, -3.573950380086899e-7, 0.0, 0.0233962, 0.0050001, 0.008756]],
+            "m_PcId": [6, 251],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cockroach"],
+            "m_Rotate": [14, [0.0250563, -35.3894081, 1.4077798]],
+            "m_Translate": [14, [-5.42346, -0.1577848, 5.7410955]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000014, 0.0, 0.0, 0.0762709, 0.0736729, 0.0725374]],
+            "m_PcId": [6, 253],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [22.2277889, -79.9809951, 30.6458797]],
+            "m_Translate": [14, [0.3097842, 0.0339277, 0.6767051]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0091977, 0.0, -0.0, 0.0233962, 0.0049999, 0.008756]],
+            "m_PcId": [6, 254],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cockroach"],
+            "m_Rotate": [14, [0.0355058, -54.8894386, 1.422309]],
+            "m_Translate": [14, [0.2953914, -0.1577834, 0.7647557]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, -1.7881393432617188e-7, 0.0, 0.0762704, 0.073673, 0.0725374]],
+            "m_PcId": [6, 256],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [170.3060607, -66.992691, 179.7889404]],
+            "m_Translate": [14, [9.6260137, 0.0649041, -1.9647672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0091977, 0.0, -0.0000114, 0.0233962, 0.005, 0.0087598]],
+            "m_PcId": [6, 257],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cockroach"],
+            "m_Rotate": [14, [0.3765552, -86.8897018, 1.7692749]],
+            "m_Translate": [14, [9.5671482, -0.1268074, -1.8977229]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0000114, 0.0762704, 0.0736729, 0.0725413]],
+            "m_PcId": [6, 259],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;flies_swarm"],
+            "m_Rotate": [14, [173.4057769, 55.033596, -165.8635559]],
+            "m_Translate": [14, [-2.8301188, 0.0649039, 8.6251058]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0091977, -3.5762786865234377e-7, 0.0, 0.0233962, 0.0050001, 0.008756]],
+            "m_PcId": [6, 260],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cockroach"],
+            "m_Rotate": [14, [179.9765777, 29.3893966, -178.5952606]],
+            "m_Translate": [14, [-2.855035, -0.1268076, 8.5394363]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0568931, 0.0984982, -0.8523529, 0.3580666, 0.1313106, 0.9157633]],
+            "m_PcId": [6, 264],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_laying_down_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-179.9999847, 57.5000152, 179.9999847]],
+            "m_Translate": [14, [1.1868093, -0.1920543, 0.1847025]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0568931, 0.0984982, -0.8523532, 0.3580667, 0.1313106, 0.9157636]],
+            "m_PcId": [6, 272],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_laying_down_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-0.0, -72.5000076, 0.0000114]],
+            "m_Translate": [14, [3.924756, -0.1610793, 2.8913083]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0076582, 0.500005, 0.0005976, 0.500005, 0.500005, 0.492409]],
+            "m_PcId": [6, 279],
+            "m_PrefabName": [12, "ladderdi"],
+            "m_Rotate": [14, [-0.0000506, 30.0310192, -179.9999847]],
+            "m_Scale": [14, [0.1941745, 3.7041862, 0.1941732]],
+            "m_Translate": [14, [0.4829559, 5.4665184, 6.2886061]]
+          },
+          "Fields": {
+            "MeshName": "dummy_cylinder.msh",
+            "UserData": "4294967295 4294967295 0 0",
+            "m_CanLeaveUp": "0",
+            "m_LadderType": "PIPE",
+            "m_SkinName": "Null"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0075666, 0.500005, 0.0005862, 0.5000355, 0.500005, 0.4924127]],
+            "m_PcId": [6, 286],
+            "m_PrefabName": [12, "ladderdi"],
+            "m_Rotate": [14, [-179.9999847, -15.0310211, -0.0000158]],
+            "m_Scale": [14, [0.1941746, 3.7041864, 0.1941733]],
+            "m_Translate": [14, [3.9630417, 5.4665188, -2.5911469]]
+          },
+          "Fields": {
+            "MeshName": "dummy_cylinder.msh",
+            "UserData": "4294967295 4294967295 0 0",
+            "m_CanLeaveUp": "0",
+            "m_LadderType": "PIPE",
+            "m_SkinName": "Null"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.056893, 0.0984982, -0.8523529, 0.3580666, 0.1313106, 0.9157633]],
+            "m_PcId": [6, 294],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_laying_down_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-179.9999847, 37.9999771, 179.9999847]],
+            "m_Translate": [14, [-4.7767987, -0.1920557, 4.8967518]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0568931, 0.0984982, -0.852353, 0.3580666, 0.1313106, 0.9157634]],
+            "m_PcId": [6, 299],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_laying_down_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-179.997467, 89.5003204, 179.9974517]],
+            "m_Translate": [14, [10.630495, -0.161078, -1.9172511]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0568931, 0.0984982, -0.852353, 0.3580666, 0.1313106, 0.9157634]],
+            "m_PcId": [6, 304],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_skeleton_body_laying_down_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-0.0000027, -31.9999637, 0.0000168]],
+            "m_Translate": [14, [-3.4098954, -0.1610786, 9.4467496]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0119851, 0.3683154, -0.3568562, 0.8963203, 0.4347044, 0.8206962]],
+            "m_PcId": [6, 309],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_plane_grass_e"],
+            "m_Rotate": [14, [-0.0000263, 15.0310287, 0.0000209]],
+            "m_Translate": [14, [0.5035018, -0.0110299, 6.6233668]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "64",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 3.5840244, 1.3179764, 0.429085, 3.5840244, 1.5384356]],
+            "m_PcId": [6, 318],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_lamp_modern_a"],
+            "m_Rotate": [14, [179.9999694, -45.0310134, -179.9999847]],
+            "m_Translate": [14, [0.4829559, -0.0110299, 6.2886061]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 3.5840244, 1.3179764, 0.429085, 3.5840244, 1.5384356]],
+            "m_PcId": [6, 335],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_lamp_modern_a"],
+            "m_Rotate": [14, [-0.000011, 15.0310211, 0.000022]],
+            "m_Translate": [14, [3.9630439, -0.0110299, -2.5911464]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0119851, 0.3683154, -0.3568562, 0.8963203, 0.4347044, 0.8206962]],
+            "m_PcId": [6, 345],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_plane_grass_e"],
+            "m_Rotate": [14, [179.9999847, -15.0310268, 179.9999847]],
+            "m_Translate": [14, [4.0625014, -0.0110299, -2.5659053]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "grass_ground",
+            "m_CollisionFlags": "64",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.018887, -0.1478369, 0.0075172, 0.2828696, 0.3852667, 0.2165774]],
+            "m_PcId": [6, 348],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_thorn_e"],
+            "m_Rotate": [14, [0.0003381, 87.5307388, 179.4996185]],
+            "m_Scale": [14, [1.9300005, 1.9299993, 1.930001]],
+            "m_Translate": [14, [5.6902031, 0.1126459, 3.65084]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "m_CollisionFlags": "2122",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0266644, 0.0751171, -0.0026505, 1.7825295, 0.2852166, 0.2638832]],
+            "m_PcId": [6, 349],
+            "m_PrefabName": [12, "ropehook"],
+            "m_Rotate": [14, [-0.0001101, -74.969017, -0.0000889]],
+            "m_Translate": [14, [5.0558133, 6.6639757, 1.7468296]]
+          },
+          "Fields": {
+            "MeshName": "nm_grappling_hook_auto_aim_a.msh"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.018887, -0.1478369, 0.0075172, 0.2828696, 0.3852667, 0.2165774]],
+            "m_PcId": [6, 350],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_thorn_e"],
+            "m_Rotate": [14, [179.9992523, -87.5307388, -0.5007597]],
+            "m_Scale": [14, [1.9300005, 1.9299993, 1.930001]],
+            "m_Translate": [14, [3.8357975, 0.1126459, -2.5933785]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "SkinName": "thorn_dry",
+            "m_CollisionFlags": "2122",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.018887, -0.1478369, 0.0075172, 0.2828696, 0.3852666, 0.2165774]],
+            "m_PcId": [6, 351],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_thorn_e"],
+            "m_Rotate": [14, [-0.00009, 69.0310058, 179.5000762]],
+            "m_Scale": [14, [1.9300042, 1.9299998, 1.9300041]],
+            "m_Translate": [14, [4.1107754, 0.1126461, -2.8006918]]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "m_CollisionFlags": "2122",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0266644, 0.0751171, -0.0026581, 1.7825295, 0.2852166, 0.2638832]],
+            "m_PcId": [6, 352],
+            "m_PrefabName": [12, "ropehook"],
+            "m_Rotate": [14, [-179.9999237, 74.9690093, 179.9999237]],
+            "m_Translate": [14, [4.4701852, 6.6639776, -0.6893712]]
+          },
+          "Fields": {
+            "MeshName": "nm_grappling_hook_auto_aim_a.msh"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

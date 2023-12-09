@@ -1,0 +1,125 @@
+import "EngineSetup.mth"
+import "relief.mth"
+
+sub Terrain()
+{
+	Define("D_TERRAIN");
+	Define("D_RELIEF_LOD_THRESHOLD", 8.0);
+
+	use Relief(blend = false, depth_scale = 0.1, linear_steps = 13, binary_steps = 5);
+}
+
+sub depth_pass_terrain(bool zpass_on = false, int culling = CW)
+{
+	string technique = zpass_on ? "dpt_merged" : "zfill_merged";
+	tech(technique)
+	{
+		Cull(culling);
+		DepthFunc(LEQUAL, TRUE);
+		ColorFunc(FALSE, FALSE, FALSE, FALSE);
+
+		use I_POS_0();
+
+		use Instancing();
+
+		VertexShader()=`
+			#include <common.hlsl>
+
+			void main(MAIN_PARAMS)
+			{
+				#include <VSProlog.hlsl>
+
+				float4 pos_ms = Decode_Pos(IN(I_POS_0));
+
+				pos_ms.xyz *= TERRAIN_POSITION_UNPACK;
+
+				float4 pos_ws = Mul_Pos(pos_ms, MODEL_XFORM_4x3);
+
+				OUT_POS = Pos_Out_WS(pos_ws);
+			}
+		`
+	}
+}
+
+sub debug_pass_terrain(bool satellite_mode = false)
+{
+	tech("std")
+	{
+		Cull(CW);
+		DepthFunc(EQUAL, FALSE);
+		BlendFunc(SRC_ALPHA, INV_SRC_ALPHA, ZERO, ONE);
+
+		InputPosition("I_POS");
+
+		InterpolatorF4("X_POS");
+		InterpolatorF3("X_BC_COORD");
+		
+		use O_RT0();
+
+		if (satellite_mode)
+		{
+			Define("D_SATELLITE_MODE", 1);
+		}
+		
+		VertexShader()=`
+			#include <common.hlsl>
+
+			void main(MAIN_PARAMS)
+			{
+				#include <VSProlog.hlsl>
+				float4 pos_ms = Decode_Pos(IN(I_POS));
+				pos_ms.xyz *= TERRAIN_POSITION_UNPACK;
+
+				const float4 pos_ws = Mul_Pos(pos_ms, MODEL_XFORM_4x3);
+
+				OUT(X_POS) = Mul44(pos_ws, VIEWPROJ_XFORM);
+				OUT(X_BC_COORD) = float3(0.0, 0.0, 0.0);
+			}
+		`
+
+		GeometryShader() = `
+			#include <common.hlsl>
+
+			GEOMETRYSHADER_MAIN_BEGIN(3)
+			{
+				GS_PASS_THROUGH(0);                    
+				OUT(X_BC_COORD) = float3(1, 0, 0);
+				OUT_POS = IN(X_POS, 0);
+				GS_EMIT_VERTEX;
+
+				GS_PASS_THROUGH(1);
+				OUT(X_BC_COORD) = float3(0, 1, 0);
+				OUT_POS = IN(X_POS, 1);
+				GS_EMIT_VERTEX;
+
+				GS_PASS_THROUGH(2);                    
+				OUT(X_BC_COORD) = float3(0, 0, 1);
+				OUT_POS = IN(X_POS, 2);
+				GS_EMIT_VERTEX;
+				
+				GS_END_PRIMITIVE;
+			}
+			GEOMETRYSHADER_MAIN_END
+		`
+
+		PixelShader()=`
+			#include <common.hlsl>
+
+			void main(MAIN_PARAMS)
+			{
+				float3 bc_coords = IN(X_BC_COORD);
+				float3 bc_deltas = fwidth(bc_coords);
+				bc_coords = smoothstep(0.0, bc_deltas, bc_coords);
+				float min_bc = 1.0 - min(bc_coords.x, min(bc_coords.y, bc_coords.z));
+
+				#if defined(D_SATELLITE_MODE)
+					float3 wire_color = float3(0.1, 1.0, 0.4);
+				#else
+					float3 wire_color = float3(0.1, 0.4, 1.0);
+				#endif
+
+				OUT(O_RT0) = float4(wire_color, min_bc * 0.5);
+			}
+		`
+	}
+}

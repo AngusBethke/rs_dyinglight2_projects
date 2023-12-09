@@ -1,0 +1,71 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "15",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0015494, 1.9218211, 0.0005002, 1.9294773, 1.9324948, 0.2454999]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;ce_pergola_wood_a_wall_str_2x2_e"],
+            "m_Rotate": [14, [179.9999847, 0.0000096, 179.9999847]],
+            "m_Translate": [14, [-0.0001218, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0844435, -1.0401675, 0.1128891, 2.130475, 1.4223968, 0.436024]],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_2x_0h_a"],
+            "m_Rotate": [14, [-0.0000172, 0.0, -0.0]],
+            "m_Translate": [14, [-0.0882558, 3.768675, 0.2607409]]
+          },
+          "Fields": {
+            "RenderFlags": "33",
+            "SkinName": "ivy_wall_green",
+            "m_CollisionFlags": "2058",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1189993, -1.1275727, 0.1283094, 1.3737263, 1.4550406, 0.3877341]],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_1x_0h_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, -179.9999847]],
+            "m_Translate": [14, [0.6667484, 3.7686748, -0.2959603]]
+          },
+          "Fields": {
+            "RenderFlags": "33",
+            "SkinName": "ivy_wall_green",
+            "m_CollisionFlags": "2058",
+            "m_NavmeshFlags": "1"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

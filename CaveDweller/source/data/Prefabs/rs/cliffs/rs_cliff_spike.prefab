@@ -1,0 +1,64 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "17",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Spike A"],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_cliff_spike_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.2323303, 0.0, -0.1104276]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 16, 18, 19],
+            "m_PcId": [6, 17]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Spike B"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "rs_cliff_spike_b"],
+            "m_RandomizationWeight": [6, 34],
+            "m_Translate": [14, [-0.2323303, 0.0, -0.1104276]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Spike C"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "rs_cliff_spike_c"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.2325744, 0.0, -0.1107558]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

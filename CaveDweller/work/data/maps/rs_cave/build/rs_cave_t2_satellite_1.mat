@@ -1,0 +1,12 @@
+sub material()
+{
+  preset("terrain_satellite;tex_det_0;");
+  tex_clr_0("rs_cave_satellite_texture_1_dif.dds");
+  tex_nrm_0("rs_cave_satellite_texture_1_nrm.dds");
+  tex_spc_0("rs_cave_satellite_texture_1_spc.dds");
+  tex_rgh_0("rs_cave_satellite_texture_1_rgh.dds");
+  tex_det_0("terrain_detail_msk.png");
+  uv_det(20.0000000000);
+  v2_uv_origin([0.5833333731, 0.5000000000]);
+  v2_world_size_inv([0.0026041667, 0.0031250000]);
+}
