@@ -42,6 +42,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 5],
             "m_PrefabName": [12, "rs_cliff_pillar_base"],
+            "m_Seed": [6, 3361897204],
             "m_Translate": [14, [0.0, -0.5759828, -0.0270917]]
           }
         },
@@ -51,6 +52,7 @@
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "rs_cliff_pillar_base"],
             "m_Rotate": [14, [-0.0, 0.0, -179.9999847]],
+            "m_Seed": [6, 2058836530],
             "m_Translate": [14, [-0.0000304, 40.0584106, -0.0270996]]
           }
         },
@@ -59,6 +61,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 13],
             "m_PrefabName": [12, "rs_cliff_pillar_a_main"],
+            "m_Seed": [6, 223934584],
             "m_Translate": [14, [0.1256103, 19.6113853, -0.3693237]]
           }
         },
@@ -68,7 +71,9 @@
             "m_ControlledPrefabIds": [44, 13],
             "m_PcId": [6, 14]
           },
-          "Presets": []
+          "Presets": [
+            [13, "rs_cave_y_axis_randomizer"]
+          ]
         },
         {
           "Class": "CoRandomizer",
@@ -76,7 +81,9 @@
             "m_ControlledPrefabIds": [44, 6],
             "m_PcId": [6, 15]
           },
-          "Presets": []
+          "Presets": [
+            [6, "rs_cave_y_axis_randomizer"]
+          ]
         },
         {
           "Class": "CoRandomizer",
@@ -84,7 +91,9 @@
             "m_ControlledPrefabIds": [44, 5],
             "m_PcId": [6, 16]
           },
-          "Presets": []
+          "Presets": [
+            [5, "rs_cave_y_axis_randomizer"]
+          ]
         }
       ]
     },

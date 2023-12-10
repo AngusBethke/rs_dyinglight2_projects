@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7310960594960290343">
+	<Logic type="Story::CampaignLogic">
+		<Attribute name="m_IndicatorType" value=""/>
+		<Attribute name="m_ShowIndicator" value="1"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+	</Logic>
+	<Node file="get_to_the_cave.quest">
+		<Editor>
+			<Position x="-105" y="105"/>
+		</Editor>
+	</Node>
+	<Connect start="7310960775187223960" output="Out:End" input="In" end="7310960596801428964">
+		<Start class="Story::QuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7310960596801428964">
+		<Logic type="Actions::EndLogic">
+			<Attribute name="m_IsFinishing" value="0"/>
+		</Logic>
+		<Editor>
+			<Position x="225" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7310960596198341425">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-285" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7310960596198341425" output="Out" input="In:Start" end="7310960775187223960">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
+</Node>
+
