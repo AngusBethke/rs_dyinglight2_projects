@@ -2,7 +2,7 @@
 !WindowOffset(i,i)             // window position in pixels 
 !Monitor(i)                    // index of primary monitor
 !MonitorSecondary(i)           // index of secondary monitor
-!RendererMode(s)               // d3d11, d3d12 or d3d12ultimate 
+!RendererMode(s)               // d3d11, d3d12 
 !FSR(f)                        // FSR sharpness
 !ExtraGameFov(f)               // extra fov
 !DisableDWM(i)                 // disables DWM when fullscreen
@@ -31,6 +31,9 @@
 !MotionBlurQuality(s)          // Low, Medium, High
 !MotionBlurIntensity(f)        // 0=min 1=max
 !Bokeh(i)                      // 0=off, 1=on
+!GlowGlare(i)                  // 0=off 1=on
+!GlowStreaks(i)                // 0=off 1=on
+!LensFlare(i)                  // 0=off 1=on
 !SSSSQuality(i)                // 0=low, 1=medium, 2=high
 !ChromaticAberration(i)        // 0=disabled, 1=enabled
 !FilmGrain(i)                  // 0=disabled, 1=enabled
@@ -75,6 +78,9 @@ Reflex(0)
 MotionBlur(1)
 MotionBlurIntensity(1.00)
 Bokeh(1)
+GlowGlare(1)
+GlowStreaks(1)
+LensFlare(1)
 SSSSQuality(1)
 MotionBlurQuality("High")
 ChromaticAberration(1)
@@ -92,7 +98,7 @@ ColorBlindMode(0)
 GpuFxQuality(1)
 VoxelGiQuality(3)
 LodQuality(1)
-LodMultiplier(100)
+LodMultiplier(140)
 AnisoOptMaxAnisotropy(16)
 FrameAmplification(0)
-Version(1910)
+Version(2000)
