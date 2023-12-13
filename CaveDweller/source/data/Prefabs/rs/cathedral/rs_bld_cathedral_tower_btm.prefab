@@ -2,6 +2,50 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "LeftPillar_Include",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LeftPillar_Include;c:Greenery;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "Include"
+              }
+            ]
+          },
+          {
+            "Name": "RightPillar_Include",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:RightPillar_Include;c:Greenery;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Include"
+              }
+            ]
+          },
+          {
+            "Name": "CenterPillar_Include",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:CenterPillar_Include;c:Greenery;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "Include"
+              }
+            ]
+          },
+          {
+            "Name": "Interior_PillarInclude",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Interior_PillarInclude;c:Greenery;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "Include"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -29,6 +73,10 @@
             "m_PrefabName": [12, "rs_bld_cathedral_wall_corner_bottom"],
             "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
             "m_Translate": [14, [-3.8403625, 4.0727900341153147e-7, -3.8401947]]
+          },
+          "Fields": {
+            "SELECTOR": "",
+            "Include": "Yes"
           }
         },
         {
@@ -37,6 +85,7 @@
             "m_PcId": [6, 4],
             "m_PrefabName": [12, "rs_bld_cathedral_wall_4x_btm"],
             "m_Rotate": [14, [0.0, -90.0, -0.0000049]],
+            "m_Seed": [6, 665157449],
             "m_Translate": [14, [-3.8400878, 2.1649975678883494e-7, 0.0]]
           }
         },
@@ -47,6 +96,9 @@
             "m_PrefabName": [12, "rs_bld_cathedral_wall_corner_bottom"],
             "m_Rotate": [14, [0.0, -90.0, -0.0000049]],
             "m_Translate": [14, [-3.840393, -1.1916017683688551e-7, 3.8398284]]
+          },
+          "Fields": {
+            "Include": "Yes"
           }
         },
         {
@@ -55,6 +107,7 @@
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "rs_bld_cathedral_wall_4x_btm"],
             "m_Rotate": [14, [-0.0000173, 0.0, 0.0000173]],
+            "m_Seed": [6, 2176887465],
             "m_Translate": [14, [-0.0000609, -4.5490742195397618e-7, 3.8399963]]
           }
         },
@@ -65,6 +118,9 @@
             "m_PrefabName": [12, "rs_bld_cathedral_wall_corner_bottom"],
             "m_Rotate": [14, [0.0000273, 0.0000098, -0.0000273]],
             "m_Translate": [14, [3.839569, -7.905637176008895e-7, 3.8398284]]
+          },
+          "Fields": {
+            "Include": "Yes"
           }
         },
         {
