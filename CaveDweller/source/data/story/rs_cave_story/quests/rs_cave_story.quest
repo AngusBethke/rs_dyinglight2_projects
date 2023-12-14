@@ -11,25 +11,51 @@
 	</Logic>
 	<Node file="get_to_the_cave.quest">
 		<Editor>
-			<Position x="-105" y="105"/>
+			<Position x="-495" y="180"/>
 		</Editor>
 	</Node>
-	<Connect start="7310960775187223960" output="Out:End" input="In" end="7310960596801428964">
+	<Connect start="7310960775187223960" output="Out:End" input="In:Start" end="7312531248164868320">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312566685982517146">
+		<Logic type="Story::QuitWithTitlesLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_SpawnPoint">
+				<Entity name=""/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="435" y="-75"/>
+		</Editor>
+	</Node>
+	<Node file="q02_findthecave.quest">
+		<Editor>
+			<Position x="-60" y="180"/>
+		</Editor>
+	</Node>
+	<Connect start="7312531248164868320" output="Out:End" input="In" end="7310960596801428964">
 		<Start class="Story::QuestLogic"/>
 		<End class="Actions::EndLogic"/>
 	</Connect>
+	<Connect start="7312531248164868320" output="Out:End" input="In" end="7312566685982517146">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::QuitWithTitlesLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7310960596801428964">
-		<Logic type="Actions::EndLogic">
-			<Attribute name="m_IsFinishing" value="0"/>
-		</Logic>
+		<Logic type="Actions::EndLogic"/>
 		<Editor>
-			<Position x="225" y="0"/>
+			<Position x="435" y="30"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Node" uid="7310960596198341425">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>
-			<Position x="-285" y="0"/>
+			<Position x="-600" y="-30"/>
 		</Editor>
 	</Node>
 	<Connect start="7310960596198341425" output="Out" input="In:Start" end="7310960775187223960">

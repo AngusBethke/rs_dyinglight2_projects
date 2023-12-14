@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7312531248164868320">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7312531247306496058"/>
+		<Attribute name="m_Name" value="Q02_FindTheCave"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7312567150242845056">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="TestEnding"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="rs_cave/debug_pos_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="720" y="555"/>
+		</Editor>
+	</Node>
+	<Connect start="7312567150242845056" output="Out" input="In" end="7312531763196921668">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::PlaySequenceLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312531655777308032">
+		<Logic type="Story::CompleteQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1650" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7312531655777308032" output="Out" input="In" end="7312531247380507606">
+		<Start class="Story::CompleteQuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312531248055746983">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-960" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7312531248055746983" output="Out" input="In" end="7312531591680362251">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::StartQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312557138547707306">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312557052762508231"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1095" y="300"/>
+		</Editor>
+	</Node>
+	<Connect start="7312557138547707306" output="Out" input="In" end="7312557275816534215">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312544905662863796">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312546345923827164"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-720" y="810"/>
+		</Editor>
+	</Node>
+	<Connect start="7312544905662863796" output="Out" input="In" end="7312545996845043710">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312544743366649525">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312546345923827164"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-720" y="300"/>
+		</Editor>
+	</Node>
+	<Connect start="7312544743366649525" output="Out" input="In" end="7312544996542339318">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312556528365228230">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="60.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="675" y="420"/>
+		</Editor>
+	</Node>
+	<Connect start="7312556528365228230" output="Out" input="In" end="7312567150242845056">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312557275816534215">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="3.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="rs_cave/~28/Q02_4_Catacombs_Entrance"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="1095" y="525"/>
+		</Editor>
+	</Node>
+	<Connect start="7312557275816534215" output="Out" input="In" end="7312557159159295596">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312546048249451463">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="20.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="rs_cave/~28/Q02_2_Cathedral_Waypoint"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-255" y="525"/>
+		</Editor>
+	</Node>
+	<Connect start="7312546048249451463" output="Out" input="In" end="7312546031136019025">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312556729282756564">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312556760064228438"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="675" y="300"/>
+		</Editor>
+	</Node>
+	<Connect start="7312556729282756564" output="Out" input="In" end="7312556528365228230">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312531247380507606">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="1845" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7312546212902316777">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312546868769894873"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="210" y="810"/>
+		</Editor>
+	</Node>
+	<Connect start="7312546212902316777" output="Out" input="In" end="7312556729282756564">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312544996542339318">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="50.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="rs_cave/~28/Q02_1_Cave_Waypoint"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-720" y="525"/>
+		</Editor>
+	</Node>
+	<Connect start="7312544996542339318" output="Out" input="In" end="7312544905662863796">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312546189531591674">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312546868769894873"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="210" y="300"/>
+		</Editor>
+	</Node>
+	<Connect start="7312546189531591674" output="Out" input="In" end="7312531725133412199">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312545996845043710">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312546582038682567"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-255" y="300"/>
+		</Editor>
+	</Node>
+	<Connect start="7312545996845043710" output="Out" input="In" end="7312546048249451463">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312531591680362251">
+		<Logic type="Story::StartQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-780" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7312531591680362251" output="Out" input="In" end="7312544743366649525">
+		<Start class="Story::StartQuestLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312531763196921668">
+		<Logic type="Story::PlaySequenceLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_SequenceEntity">
+				<Entity name="rs_cave/~26/rs_pully_mechanism_sqn"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="675" y="690"/>
+		</Editor>
+	</Node>
+	<Connect start="7312531763196921668" output="Out" input="In" end="7312556937236473927">
+		<Start class="Story::PlaySequenceLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312556937236473927">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312556760064228438"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="675" y="810"/>
+		</Editor>
+	</Node>
+	<Connect start="7312556937236473927" output="Out" input="In" end="7312557138547707306">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312546031136019025">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312546582038682567"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-255" y="810"/>
+		</Editor>
+	</Node>
+	<Connect start="7312546031136019025" output="Out" input="In" end="7312546189531591674">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312531725133412199">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="3.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="rs_cave/~28/Q02_3_Cathedral_Waypoint_Internal"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="210" y="525"/>
+		</Editor>
+	</Node>
+	<Connect start="7312531725133412199" output="Out" input="In" end="7312546212902316777">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7312557159159295596">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7312557052762508231"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1095" y="810"/>
+		</Editor>
+	</Node>
+	<Connect start="7312557159159295596" output="Out" input="In" end="7312531655777308032">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::CompleteQuestLogic"/>
+	</Connect>
+</Node>
+

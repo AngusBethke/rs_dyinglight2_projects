@@ -2,7 +2,7 @@
 <Node type="Actions::Group" uid="7310960775187223960">
 	<Logic type="Story::QuestLogic">
 		<Attribute name="m_Quest" value="7310960777136093290"/>
-		<Attribute name="m_Name" value="Get to the Cave"/>
+		<Attribute name="m_Name" value="Q01_EnterTheForest"/>
 		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 			<Attribute name="show_indicator" value="1"/>
 			<Attribute name="indicator_type" value="Default"/>
@@ -18,7 +18,7 @@
 	<Node type="Actions::Node" uid="7310960776719557805">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>
-			<Position x="-465" y="0"/>
+			<Position x="-450" y="150"/>
 		</Editor>
 	</Node>
 	<Connect start="7310960776719557805" output="Out" input="In" end="7310966514184492767">
@@ -35,7 +35,7 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="-270" y="165"/>
+			<Position x="-450" y="285"/>
 		</Editor>
 	</Node>
 	<Connect start="7310966514184492767" output="Out" input="In" end="7310960896900872235">
@@ -51,12 +51,12 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="315" y="165"/>
+			<Position x="-450" y="600"/>
 		</Editor>
 	</Node>
-	<Connect start="7310960935627854064" output="Out" input="In" end="7310960777174674991">
+	<Connect start="7310960935627854064" output="Out" input="In" end="7312544595885021531">
 		<Start class="Story::FreezeTimeLogic"/>
-		<End class="Actions::EndLogic"/>
+		<End class="Story::DisableGenericHintsLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7310960896900872235">
 		<Logic type="Story::SetDayTimeLogic">
@@ -70,7 +70,7 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="45" y="165"/>
+			<Position x="-450" y="405"/>
 		</Editor>
 	</Node>
 	<Connect start="7310960896900872235" output="Out" input="In" end="7310960935627854064">
@@ -80,8 +80,24 @@
 	<Node type="Actions::Node" uid="7310960777174674991">
 		<Logic type="Actions::EndLogic"/>
 		<Editor>
-			<Position x="465" y="0"/>
+			<Position x="150" y="150"/>
 		</Editor>
 	</Node>
+	<Node type="Actions::Node" uid="7312544595885021531">
+		<Logic type="Story::DisableGenericHintsLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-450" y="675"/>
+		</Editor>
+	</Node>
+	<Connect start="7312544595885021531" output="Out" input="In" end="7310960777174674991">
+		<Start class="Story::DisableGenericHintsLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
 </Node>
 
