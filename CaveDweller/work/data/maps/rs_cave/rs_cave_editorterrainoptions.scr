@@ -19,7 +19,7 @@ sub main()
 		AddBrush("roundhard.png");
 		AddBrush("noise.png");
 		OpMode(1);
-		Size(5.000000);
+		Size(2.000000);
 		Angle(0.000000);
 		AngleStep(15.000000);
 		Power(1.000000);
@@ -33,11 +33,11 @@ sub main()
 		AddBrush("roundhard.png");
 		AddBrush("noise.png");
 		OpMode(1);
-		Size(15.000000);
+		Size(25.000000);
 		Angle(0.000000);
 		AngleStep(15.000000);
 		Power(1.000000);
-		Height(25.000000);
+		Height(-110.000000);
 		Sync(false);
 	}
 	Tool("Smooth")
@@ -48,13 +48,13 @@ sub main()
 		Size(5.000000);
 		Angle(0.000000);
 		AngleStep(15.000000);
-		Power(0.010000);
+		Power(0.025000);
 		SamplingRange(5);
 		Sync(false);
 	}
 	Tool("Ramp")
 	{
-		Size(15.000000);
+		Size(10.000000);
 		Sync(false);
 	}
 	Tool("EditRemovedVertices")
@@ -65,7 +65,7 @@ sub main()
 		OpMode(1);
 		Size(1.000000);
 		Angle(0.000000);
-		AngleStep(15.000000);
+		AngleStep(0.000000);
 		Height(0.000000);
 		Sync(false);
 	}
@@ -75,7 +75,7 @@ sub main()
 		AddBrush("roundhard.png");
 		AddBrush("noise.png");
 		OpMode(1);
-		Size(3.000000);
+		Size(2.000000);
 		Angle(0.000000);
 		AngleStep(15.000000);
 		Power(1.000000);
