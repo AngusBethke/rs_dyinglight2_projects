@@ -1,0 +1,44 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.7262642, 0.0, 0.2348327, 0.7462642, 0.8858642]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_valve"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999989, 1.0, 1.0]],
+            "m_Translate": [14, [-1.2636717, -5.7648959, 12.3833312]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Open",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Close",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_catacomb_parkour_puzzle_sequence"],
+            "m_Translate": [14, [353.6237792, 44.2334289, -313.3909912]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

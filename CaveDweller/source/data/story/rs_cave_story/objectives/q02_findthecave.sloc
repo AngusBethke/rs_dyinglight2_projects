@@ -69,11 +69,11 @@ sub main()
     }
     Entry(`obj_7312556760064228438_descr`)
     {
-        Text(En, ALL, `Find a way into the Catacombs`);
+        Text(En, ALL, `Find something to weigh down the pully to enter the Catacombs`);
     }
     Entry(`obj_7312556760064228438_text`)
     {
-        Text(En, ALL, `Find the Catacombs`);
+        Text(En, ALL, `Find a way into the Catacombs`);
     }
     Entry(`obj_7312557052762508231_compl_desc`)
     {
@@ -86,5 +86,21 @@ sub main()
     Entry(`obj_7312557052762508231_text`)
     {
         Text(En, ALL, `Enter the Catacombs`);
+    }
+    Entry(`obj_7321025477111099090_compl_desc`)
+    {
+        Text(En, ALL, `Turned on the Lights`);
+    }
+    Entry(`obj_7321025477111099090_descr`)
+    {
+        Text(En, ALL, `Turn on the Lights`);
+    }
+    Entry(`obj_7321025477111099090_fail_desc`)
+    {
+        Text(En, ALL, `Didn't turn on the Lights`);
+    }
+    Entry(`obj_7321025477111099090_text`)
+    {
+        Text(En, ALL, `Turn on the Lights`);
     }
 }
