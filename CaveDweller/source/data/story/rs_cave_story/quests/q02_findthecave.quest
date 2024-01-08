@@ -51,6 +51,30 @@
 		<Start class="Story::CompleteQuestLogic"/>
 		<End class="Actions::EndLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7321812745337880977">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="3.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="rs_cave/rs_cave_waypoints/Q01_1_EntranceWaypoint"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-735" y="435"/>
+		</Editor>
+	</Node>
+	<Connect start="7321812745337880977" output="Out" input="In" end="7312544996542339318">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Connect start="7321812745337880977" output="Out" input="In" end="7320973348945601709">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::SetDayTimeLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7321025358164716433">
 		<Logic type="Story::StartObjectiveLogic">
 			<Attribute name="m_ObjectiveId" value="7321025477111099090"/>
@@ -68,6 +92,54 @@
 		<Start class="Story::StartObjectiveLogic"/>
 		<End class="Story::UseLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7321824371652295828">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~3/~81/rs_cathedral_generator"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="0" y="-225"/>
+		</Editor>
+	</Node>
+	<Connect start="7321824371652295828" output="Out" input="In" end="7321025358164716433">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321826799711625622">
+		<Logic type="Story::FreezeTimeLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="150" y="-975"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826799711625622" output="Out" input="In" end="7321826369512859382">
+		<Start class="Story::FreezeTimeLogic"/>
+		<End class="Story::SetDayTimeLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321826501498465430">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="120.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-450" y="-570"/>
+		</Editor>
+	</Node>
 	<Node type="Actions::Node" uid="7321026170196988316">
 		<Logic type="Story::UseLogic">
 			<Attribute name="m_DesiredValue" value="_ON"/>
@@ -99,16 +171,34 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="225" y="30"/>
+			<Position x="45" y="-75"/>
 		</Editor>
 	</Node>
-	<Connect start="7321028906295512734" output="Out" input="In" end="7321025358164716433">
+	<Connect start="7321028906295512734" output="Out" input="In" end="7321816800953059397">
 		<Start class="Story::WaitLogic"/>
-		<End class="Story::StartObjectiveLogic"/>
+		<End class="Story::DayTimeWaitLogic"/>
 	</Connect>
-	<Node type="Actions::Node" uid="7321066824918287263">
-		<Logic type="Story::WaitLogic">
-			<Attribute name="m_Delay" value="150.000000"/>
+	<Node type="Actions::Node" uid="7321824321112802462">
+		<Logic type="Story::DisableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~3/~81/rs_cathedral_generator"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="75" y="90"/>
+		</Editor>
+	</Node>
+	<Connect start="7321824321112802462" output="Out" input="In" end="7321028906295512734">
+		<Start class="Story::DisableLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321826841692344993">
+		<Logic type="Story::UnfreezeTimeLogic">
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 				<Attribute name="show_indicator" value="1"/>
 				<Attribute name="indicator_type" value="Default"/>
@@ -116,12 +206,31 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="300" y="1080"/>
+			<Position x="-150" y="-765"/>
 		</Editor>
 	</Node>
-	<Connect start="7321066824918287263" output="Out" input="In" end="7321069294575937806">
-		<Start class="Story::WaitLogic"/>
-		<End class="Story::SetDayTimeLogic"/>
+	<Connect start="7321826841692344993" output="Out" input="In" end="7321826841707673339">
+		<Start class="Story::UnfreezeTimeLogic"/>
+		<End class="Story::DayTimeWaitLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321826481877469603">
+		<Logic type="Story::SetDayTimeLogic">
+			<Attribute name="m_Hour" value="20"/>
+			<Attribute name="m_Weather" value="Clear"/>
+			<Attribute name="m_TransitionTime" value="120.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-705" y="-570"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826481877469603" output="Out" input="In" end="7321826501498465430">
+		<Start class="Story::SetDayTimeLogic"/>
+		<End class="Story::WaitLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7312531248055746983">
 		<Logic type="Actions::StartLogic"/>
@@ -152,9 +261,8 @@
 	</Connect>
 	<Node type="Actions::Node" uid="7320973348945601709">
 		<Logic type="Story::SetDayTimeLogic">
-			<Attribute name="m_Hour" value="19"/>
-			<Attribute name="m_Minute" value="25"/>
-			<Attribute name="m_Weather" value="Foggy"/>
+			<Attribute name="m_Hour" value="18"/>
+			<Attribute name="m_Weather" value="Clear"/>
 			<Attribute name="m_TransitionTime" value="120.000000"/>
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 				<Attribute name="show_indicator" value="1"/>
@@ -163,10 +271,10 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="45" y="1080"/>
+			<Position x="-705" y="-975"/>
 		</Editor>
 	</Node>
-	<Connect start="7320973348945601709" output="Out" input="In" end="7321066824918287263">
+	<Connect start="7320973348945601709" output="Out" input="In" end="7321808359882047516">
 		<Start class="Story::SetDayTimeLogic"/>
 		<End class="Story::WaitLogic"/>
 	</Connect>
@@ -200,7 +308,7 @@
 			<Position x="-720" y="300"/>
 		</Editor>
 	</Node>
-	<Connect start="7312544743366649525" output="Out" input="In" end="7312544996542339318">
+	<Connect start="7312544743366649525" output="Out" input="In" end="7321812745337880977">
 		<Start class="Story::StartObjectiveLogic"/>
 		<End class="Story::GoToLogic"/>
 	</Connect>
@@ -244,6 +352,23 @@
 		<Start class="Story::GoToLogic"/>
 		<End class="Story::CompleteObjectiveLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7321826433965237200">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="120.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-450" y="-765"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826433965237200" output="Out" input="In" end="7321826841692344993">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::UnfreezeTimeLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7312556729282756564">
 		<Logic type="Story::StartObjectiveLogic">
 			<Attribute name="m_ObjectiveId" value="7312556760064228438"/>
@@ -284,9 +409,9 @@
 		<Start class="Story::CompleteObjectiveLogic"/>
 		<End class="Story::StartObjectiveLogic"/>
 	</Connect>
-	<Connect start="7312546212902316777" output="Out" input="In" end="7321028906295512734">
+	<Connect start="7312546212902316777" output="Out" input="In" end="7321824321112802462">
 		<Start class="Story::CompleteObjectiveLogic"/>
-		<End class="Story::WaitLogic"/>
+		<End class="Story::DisableLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7312544996542339318">
 		<Logic type="Story::GoToLogic">
@@ -301,12 +426,31 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-720" y="525"/>
+			<Position x="-720" y="615"/>
 		</Editor>
 	</Node>
 	<Connect start="7312544996542339318" output="Out" input="In" end="7312544905662863796">
 		<Start class="Story::GoToLogic"/>
 		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321826369512859382">
+		<Logic type="Story::SetDayTimeLogic">
+			<Attribute name="m_Hour" value="19"/>
+			<Attribute name="m_Weather" value="Clear"/>
+			<Attribute name="m_TransitionTime" value="120.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-705" y="-765"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826369512859382" output="Out" input="In" end="7321826433965237200">
+		<Start class="Story::SetDayTimeLogic"/>
+		<End class="Story::WaitLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7321064318277699575">
 		<Logic type="Story::PointOfInterestLogic">
@@ -344,6 +488,24 @@
 	<Connect start="7312546189531591674" output="Out" input="In" end="7312531725133412199">
 		<Start class="Story::StartObjectiveLogic"/>
 		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321826841707673339">
+		<Logic type="Story::DayTimeWaitLogic">
+			<Attribute name="m_Hour" value="19"/>
+			<Attribute name="m_Minute" value="1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="0" y="-765"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826841707673339" output="Out" input="In" end="7321826842335516025">
+		<Start class="Story::DayTimeWaitLogic"/>
+		<End class="Story::FreezeTimeLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7312545996845043710">
 		<Logic type="Story::StartObjectiveLogic">
@@ -383,6 +545,22 @@
 		<Start class="Story::WaitForSensorLogic"/>
 		<End class="Story::EnableLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7321826781443621386">
+		<Logic type="Story::UnfreezeTimeLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-150" y="-975"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826781443621386" output="Out" input="In" end="7321826627656237153">
+		<Start class="Story::UnfreezeTimeLogic"/>
+		<End class="Story::DayTimeWaitLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7312531591680362251">
 		<Logic type="Story::StartQuestLogic">
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -399,8 +577,9 @@
 		<Start class="Story::StartQuestLogic"/>
 		<End class="Story::StartObjectiveLogic"/>
 	</Connect>
-	<Node type="Actions::Node" uid="7321065821408567053">
-		<Logic type="Story::UnfreezeTimeLogic">
+	<Node type="Actions::Node" uid="7321808359882047516">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="120.000000"/>
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 				<Attribute name="show_indicator" value="1"/>
 				<Attribute name="indicator_type" value="Default"/>
@@ -408,31 +587,12 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="-120" y="1080"/>
+			<Position x="-450" y="-975"/>
 		</Editor>
 	</Node>
-	<Connect start="7321065821408567053" output="Out" input="In" end="7320973348945601709">
-		<Start class="Story::UnfreezeTimeLogic"/>
-		<End class="Story::SetDayTimeLogic"/>
-	</Connect>
-	<Node type="Actions::Node" uid="7321069294575937806">
-		<Logic type="Story::SetDayTimeLogic">
-			<Attribute name="m_Hour" value="20"/>
-			<Attribute name="m_Weather" value="Foggy"/>
-			<Attribute name="m_TransitionTime" value="30.000000"/>
-			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-				<Attribute name="show_indicator" value="1"/>
-				<Attribute name="indicator_type" value="Default"/>
-				<Attribute name="objective" value="Default"/>
-			</Object>
-		</Logic>
-		<Editor>
-			<Position x="600" y="1080"/>
-		</Editor>
-	</Node>
-	<Connect start="7321069294575937806" output="Out" input="In" end="7321065859345734733">
-		<Start class="Story::SetDayTimeLogic"/>
-		<End class="Story::FreezeTimeLogic"/>
+	<Connect start="7321808359882047516" output="Out" input="In" end="7321826781443621386">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::UnfreezeTimeLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7312531763196921668">
 		<Logic type="Story::PlaySequenceLogic">
@@ -452,6 +612,23 @@
 	<Connect start="7312531763196921668" output="Out" input="In" end="7312556937236473927">
 		<Start class="Story::PlaySequenceLogic"/>
 		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321816800953059397">
+		<Logic type="Story::DayTimeWaitLogic">
+			<Attribute name="m_Hour" value="20"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="390" y="-90"/>
+		</Editor>
+	</Node>
+	<Connect start="7321816800953059397" output="Out" input="In" end="7321824371652295828">
+		<Start class="Story::DayTimeWaitLogic"/>
+		<End class="Story::EnableLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7312556937236473927">
 		<Logic type="Story::CompleteObjectiveLogic">
@@ -502,18 +679,6 @@
 			<Position x="1125" y="-240"/>
 		</Editor>
 	</Node>
-	<Node type="Actions::Node" uid="7321065859345734733">
-		<Logic type="Story::FreezeTimeLogic">
-			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-				<Attribute name="show_indicator" value="1"/>
-				<Attribute name="indicator_type" value="Default"/>
-				<Attribute name="objective" value="Default"/>
-			</Object>
-		</Logic>
-		<Editor>
-			<Position x="855" y="1080"/>
-		</Editor>
-	</Node>
 	<Node type="Actions::Node" uid="7312546031136019025">
 		<Logic type="Story::CompleteObjectiveLogic">
 			<Attribute name="m_ObjectiveId" value="7312546582038682567"/>
@@ -531,9 +696,23 @@
 		<Start class="Story::CompleteObjectiveLogic"/>
 		<End class="Story::StartObjectiveLogic"/>
 	</Connect>
-	<Connect start="7312546031136019025" output="Out" input="In" end="7321065821408567053">
-		<Start class="Story::CompleteObjectiveLogic"/>
-		<End class="Story::UnfreezeTimeLogic"/>
+	<Node type="Actions::Node" uid="7321826627656237153">
+		<Logic type="Story::DayTimeWaitLogic">
+			<Attribute name="m_Hour" value="18"/>
+			<Attribute name="m_Minute" value="1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="0" y="-975"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826627656237153" output="Out" input="In" end="7321826799711625622">
+		<Start class="Story::DayTimeWaitLogic"/>
+		<End class="Story::FreezeTimeLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7312531725133412199">
 		<Logic type="Story::GoToLogic">
@@ -571,6 +750,22 @@
 	<Connect start="7312557159159295596" output="Out" input="In" end="7312531655777308032">
 		<Start class="Story::CompleteObjectiveLogic"/>
 		<End class="Story::CompleteQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321826842335516025">
+		<Logic type="Story::FreezeTimeLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="150" y="-765"/>
+		</Editor>
+	</Node>
+	<Connect start="7321826842335516025" output="Out" input="In" end="7321826481877469603">
+		<Start class="Story::FreezeTimeLogic"/>
+		<End class="Story::SetDayTimeLogic"/>
 	</Connect>
 </Node>
 
