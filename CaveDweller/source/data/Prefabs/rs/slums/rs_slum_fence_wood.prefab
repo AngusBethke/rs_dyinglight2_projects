@@ -1,0 +1,54 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Wood A"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_slum_fence_wood_a"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000304, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 6],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Wood B"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_slum_fence_wood_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000304, 0.0, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

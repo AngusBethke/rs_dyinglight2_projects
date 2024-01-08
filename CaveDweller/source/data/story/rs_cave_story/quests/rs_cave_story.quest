@@ -35,16 +35,12 @@
 	</Node>
 	<Node file="q02_findthecave.quest">
 		<Editor>
-			<Position x="-60" y="180"/>
+			<Position x="-195" y="180"/>
 		</Editor>
 	</Node>
-	<Connect start="7312531248164868320" output="Out:End" input="In" end="7310960596801428964">
+	<Connect start="7312531248164868320" output="Out:End" input="In:Start" end="7321691923028900630">
 		<Start class="Story::QuestLogic"/>
-		<End class="Actions::EndLogic"/>
-	</Connect>
-	<Connect start="7312531248164868320" output="Out:End" input="In" end="7312566685982517146">
-		<Start class="Story::QuestLogic"/>
-		<End class="Story::QuitWithTitlesLogic"/>
+		<End class="Story::QuestLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7310960596801428964">
 		<Logic type="Actions::EndLogic"/>
@@ -52,6 +48,19 @@
 			<Position x="435" y="30"/>
 		</Editor>
 	</Node>
+	<Node file="q03_movethroughcatacombs.quest">
+		<Editor>
+			<Position x="105" y="180"/>
+		</Editor>
+	</Node>
+	<Connect start="7321691923028900630" output="Out:End" input="In" end="7310960596801428964">
+		<Start class="Story::QuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Connect start="7321691923028900630" output="Out:End" input="In" end="7312566685982517146">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::QuitWithTitlesLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7310960596198341425">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>

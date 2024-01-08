@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7321691923028900630">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7321691924421431634"/>
+		<Attribute name="m_Name" value="Q03_MoveThroughCatacombs"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7321696733345717384">
+		<Logic type="Story::UseLogic">
+			<Attribute name="m_DesiredValue" value="_ON"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_Parkour_Valve_Input"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-555" y="510"/>
+		</Editor>
+	</Node>
+	<Connect start="7321696733345717384" output="Out" input="In" end="7321695848884228825">
+		<Start class="Story::UseLogic"/>
+		<End class="Story::ShowLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321703743531465372">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="10.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-435" y="1140"/>
+		</Editor>
+	</Node>
+	<Connect start="7321703743531465372" output="Out" input="In" end="7321695459430244063">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::PlaySequenceLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321694521299018929">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_Parkour_Valve"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1545" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7321694521299018929" output="Out" input="In" end="7321693052648157639">
+		<Start class="Story::HideLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321693641510287033">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="3.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="rs_cave/rs_cave_waypoints/Q03_1_Catacombs_Entrance"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1095" y="180"/>
+		</Editor>
+	</Node>
+	<Connect start="7321693641510287033" output="Out" input="In" end="7321700286725261679">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321693148112134586">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7321692214940275971"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-1050" y="600"/>
+		</Editor>
+	</Node>
+	<Connect start="7321693148112134586" output="Out" input="In" end="7321693066806624564">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321693052648157639">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7321692214940275971"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-1050" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7321693052648157639" output="Out" input="In" end="7321693641510287033">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321693169632769739">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7321692611468947229"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-450" y="1485"/>
+		</Editor>
+	</Node>
+	<Connect start="7321693169632769739" output="Out" input="In" end="7321693082714416614">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321695848884228825">
+		<Logic type="Story::ShowLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_Parkour_Valve"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-405" y="765"/>
+		</Editor>
+	</Node>
+	<Connect start="7321695848884228825" output="Out" input="In" end="7321694439784311262">
+		<Start class="Story::ShowLogic"/>
+		<End class="Story::UseLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321694439784311262">
+		<Logic type="Story::UseLogic">
+			<Attribute name="m_DesiredValue" value="_ON"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_Parkour_Valve"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-540" y="885"/>
+		</Editor>
+	</Node>
+	<Connect start="7321694439784311262" output="Out" input="In" end="7321703743531465372">
+		<Start class="Story::UseLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321695459430244063">
+		<Logic type="Story::PlaySequenceLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_SequenceEntity">
+				<Entity name="rs_cave/~36/~4/rs_catacomb_parkour_puzzle_sqn"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-450" y="1305"/>
+		</Editor>
+	</Node>
+	<Connect start="7321695459430244063" output="Out" input="In" end="7321693169632769739">
+		<Start class="Story::PlaySequenceLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321693082714416614">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7321692808537630473"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="150" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7321693082714416614" output="Out" input="In" end="7321702858183933547">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::GoToLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321691924220557552">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="1050" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7321691922902368756">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-1800" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7321691922902368756" output="Out" input="In" end="7321694521299018929">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::HideLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321700157885251865">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/~8/Q03_Parkour_Valve_Pickup_Item"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-435" y="360"/>
+		</Editor>
+	</Node>
+	<Connect start="7321700157885251865" output="Out" input="In" end="7321696733345717384">
+		<Start class="Story::HideLogic"/>
+		<End class="Story::UseLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321693066806624564">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7321692611468947229"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-450" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7321693066806624564" output="Out" input="In" end="7321695170460582727">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::TakeItemLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321695170460582727">
+		<Logic type="Story::TakeItemLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/~8/Q03_Parkour_Valve_Pickup"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-555" y="165"/>
+		</Editor>
+	</Node>
+	<Connect start="7321695170460582727" output="Out" input="In" end="7321700157885251865">
+		<Start class="Story::TakeItemLogic"/>
+		<End class="Story::HideLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321693182228266581">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7321692808537630473"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="150" y="600"/>
+		</Editor>
+	</Node>
+	<Connect start="7321693182228266581" output="Out" input="In" end="7321691924220557552">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321702858183933547">
+		<Logic type="Story::GoToLogic">
+			<Attribute name="m_Distance" value="3.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Entities name="m_Entity">
+				<Entity name="rs_cave/rs_cave_waypoints/Q03_2_Catacombs_TunnelEntrance"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="120" y="285"/>
+		</Editor>
+	</Node>
+	<Connect start="7321702858183933547" output="Out" input="In" end="7321693182228266581">
+		<Start class="Story::GoToLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7321700286725261679">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Q03_Catacombs_TestParkourPuzzle"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="rs_cave/rs_cave_points_of_interest/Q03_Catacombs_TestParkourPuzzle_pos"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1080" y="405"/>
+		</Editor>
+	</Node>
+	<Connect start="7321700286725261679" output="Out" input="In" end="7321693148112134586">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+</Node>
+
