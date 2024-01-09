@@ -1,0 +1,76 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_ai_ambush_spawner_biters"],
+            "m_Rotate": [14, [-0.0, 0.0, 0.0000218]],
+            "m_Translate": [14, [-0.0000304, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.270789]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000223]],
+            "m_Translate": [14, [4.4415283, 0.1421775, 5.7272033]]
+          },
+          "Fields": {
+            "m_BehaviorName": "viral_jumping_through_hole"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.270789]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000222]],
+            "m_Translate": [14, [-1.5066223, 0.0612602, 5.8650207]]
+          },
+          "Fields": {
+            "m_BehaviorName": "biter_crawl_through_hole"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.2707889]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [2.4753112, -0.0364189, 9.4959716]]
+          },
+          "Fields": {
+            "m_BehaviorName": "biter_crawl_through_hole"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.2707889]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [0.0, -90.0, -0.000005]],
+            "m_Scale": [14, [0.9999983, 0.9999985, 0.9999985]],
+            "m_Translate": [14, [4.4584045, 0.1537361, 13.4102783]]
+          },
+          "Fields": {
+            "m_BehaviorName": "no_state_volatile_jump_down_01",
+            "m_DifficultyPerceptionVisualisation": "Tier_9",
+            "m_PresetPool": "Survivor_Viral"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

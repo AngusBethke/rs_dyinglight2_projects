@@ -41,7 +41,7 @@
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "rs_bld_cathedral_tower_interior"],
             "m_Rotate": [14, [-0.0000273, -0.0000096, 0.0000273]],
-            "m_Translate": [14, [0.0, 0.0000015, 0.0002284]]
+            "m_Translate": [14, [0.0, 0.0000015, 0.0002283]]
           }
         },
         {
@@ -50,7 +50,7 @@
             "m_PcId": [6, 7],
             "m_PrefabName": [12, "rs_wooden_scaffold"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Translate": [14, [-0.0002745, 11.5200014, -2.8799743]]
+            "m_Translate": [14, [-0.0002744, 11.5200014, -2.8799743]]
           }
         },
         {
@@ -76,7 +76,35 @@
             "m_PcId": [6, 10],
             "m_PrefabName": [12, "rs_wooden_scaffold"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Translate": [14, [-0.0002745, 3.840002, 2.8800354]]
+            "m_Translate": [14, [-0.0002744, 3.840002, 2.8800354]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0000002, 1.0]],
+            "m_Name": [12, "rs_bld_cathedral_tower_room_box"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "room_box"],
+            "m_Scale": [14, [3.8800008, 11.3200025, 3.8800013]],
+            "m_Translate": [14, [-0.0001525, 11.2797698, -0.0000915]]
+          },
+          "Fields": {
+            "BlendingEnabled": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, -0.0000076, 3.8800048, 11.3199996, 3.8799972]],
+            "m_Name": [12, "rs_bld_cathedral_tower_room_logic"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "room_logic"],
+            "m_PresetNames": [12, "Reverb_Group;Church_Medium"],
+            "m_Translate": [14, [-0.0001525, 11.2797698, -0.0000839]]
+          },
+          "Fields": {
+            "m_Areas": "/~11;"
           }
         }
       ]

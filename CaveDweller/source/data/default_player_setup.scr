@@ -3201,26 +3201,46 @@ sub main()
 	
 	Preset("GIVE_ALL")		// Difficulty
     {
+		// ------------------------------
+		// Stamina Level
+		// ------------------------------
 		use Stamina_Lvl_7();
-		use Health_Lvl_7();
-		
-		Skill("parkour_combat");//1
-		Skill("perfect_dodge");//2
-		Skill("jump_attack");//3
-		Skill("power_attack");//5
 
+		// ------------------------------
+		// Health Level
+		// ------------------------------
+		// use Health_Lvl_7();	// (Max Level)
+
+		use Health_Lvl_1();		// (Level 1 for harder combat) - Upgrade to 2 for later gameplay ??
+
+		// ------------------------------
+		// Skill Level
+		// ------------------------------
+		Level(21, "Traversal", 1.0);
+        Level(21, "Combat", 1.0);
+		Level(38, "Experience", 1.0);
+
+		// ------------------------------
+		// Tools
+		// ------------------------------
 		Skill("CubeKey"); 
-		Skill("Binoculars"); // Tool
-		Skill("Backpack"); // Tool
-		// Skill("Paraglider"); // Tool
-		Skill("UVFlashLight"); // Tool
-		Skill("GREDetector"); // Tool
-		Skill("GreInhibitorDetector"); // Tool
+		Skill("Binoculars");
+		Skill("Backpack");
+		Skill("UVFlashLight");
+		Skill("GREDetector");
+		Skill("GreInhibitorDetector");
 
-		Skill("slide");//6
-		Skill("dart");//7
-		Skill("windmill");//13
-		Skill("nagewaza");//14
+		// ------------------------------
+		// Skills
+		// ------------------------------
+		Skill("parkour_combat");
+		Skill("perfect_dodge");
+		Skill("jump_attack");
+		Skill("power_attack");
+		Skill("slide");
+		Skill("dart");
+		Skill("windmill");
+		Skill("nagewaza");
 		Skill("active_land");
 		Skill("active_land_jump");
 		Skill("active_land2");
@@ -3241,9 +3261,6 @@ sub main()
 		Skill("fast_climb");
 		Skill("firm_grip");
 		Skill("first_strike");
-		// Skill("GrappleHook");
-		// Skill("GrappleHook_2");
-		// Skill("GrappleHook_3");
 		Skill("ground_pound");
 		Skill("first_strike");
 		Skill("height_jump");
@@ -3283,19 +3300,35 @@ sub main()
 		Skill("wall_run_jump");
 		Skill("windmill");
 		Skill("wrestle_kick");
-		// Skill("Paraglider_2"); // Tool		
-		// Skill("Paraglider_3"); // Tool		
-		// Skill("Paraglider_4"); // Tool		
+
+		// ------------------------------
+		// Grappling Hooks
+		// ------------------------------
+		// Skill("GrappleHook");
+		// Skill("GrappleHook_2");
+		// Skill("GrappleHook_3");
+
+		// ------------------------------
+		// Paraglider
+		// ------------------------------
+		// Skill("Paraglider"); 	// Tool
+		// Skill("Paraglider_2"); 	// Tool		
+		// Skill("Paraglider_3"); 	// Tool		
+		// Skill("Paraglider_4"); 	// Tool		
 		
+		// ------------------------------
+		// Weapons
+		// ------------------------------
 		Item("wpn_1hs_axe_i_fpp_r24", 1, "", "Violet");
 		Item("wpn_1hb_stk_g_fpp_r24", 1, "", "Violet");
 		Item("Medkit_Small_Upgrade7", 5, "");
 		Item("Throwable_Molotov_Upgrade7", 5, "");
 		Item("Mine_Explosive_Upgrade7", 5, "");
 		Item("Throwable_ThrowingKnifeAGen_Upgrade7", 5, "");
-		//Item("Bundle_Outfit_Set_Nightrunner", 1, "");
-		Item("Bundle_Outfit_Set_PostApo", 1, "");
 
+		// ------------------------------
+		// Craftables
+		// ------------------------------
 		Item("Craftplan_Medkit_Small_Upgrade7", 1, "");
 		Item("Craftplan_Lockpick_Upgrade7", 1, "");
 		Item("Craftplan_ThrowingKnives_Upgrade7", 1, "");
@@ -3305,8 +3338,69 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade7", 1, "");
 		Item("Craftplan_Mine_Explosive_Upgrade7", 1, "");
 
-		Level(21, "Traversal", 1.0);
-        Level(21, "Combat", 1.0);
-		Level(38, "Experience", 1.0);
+		// ------------------------------
+		// Outfitsets
+		// ------------------------------
+		// Item("Bundle_Outfit_Set_Nightrunner", 1, "");
+		// Item("Bundle_Outfit_Set_PostApo", 1, "");
+
+		// ------------------------------
+		// Headgear
+		// ------------------------------
+		// - (Army) Outfitset_Army_Head
+		// - (Nightrunner) outfit_nightrunner_headwear [Append _DLC for DLC version]
+		// - (Post Apocalyptic) Outfitset_MeleeDPS_Head_PostApo [Append _DLC for DLC version]
+		// Preferred: Army
+		// Item("Outfitset_Army_Head", 1, "");
+
+		// ------------------------------
+		// Torso
+		// ------------------------------
+		// - (Army) Outfitset_Army_Torso
+		// - (Nightrunner) outfit_nightrunner_torso [Append _DLC for DLC version]
+		// - (Post Apocalyptic) Outfitset_MeleeDPS_Torso_PostApo [Append _DLC for DLC version]
+		// Preferred: Army
+		Item("Outfitset_Army_Torso", 1, "");
+		Item("Outfitset_MeleeDPS_Torso_PostApo", 1, "");	// Fix for gear being removed on respawn
+
+		// ------------------------------
+		// Gloves
+		// ------------------------------
+		// - (Army) Outfitset_Army_Gloves
+		// - (Nightrunner) outfit_nightrunner_gloves [Append _DLC for DLC version]
+		// - (Post Apocalyptic) Outfitset_MeleeDPS_Gloves_PostApo [Append _DLC for DLC version]
+		// Preferred: Nightrunner DLC
+		Item("outfit_nightrunner_gloves_DLC", 1, "");
+		Item("Outfitset_MeleeDPS_Gloves_PostApo", 1, "");	// Fix for gear being removed on respawn
+
+		// ------------------------------
+		// Bracers
+		// ------------------------------
+		// - (Army) Outfitset_Army_TorsoAddon
+		// - (Nightrunner) outfit_nightrunner_bracers [Append _DLC for DLC version]
+		// - (Post Apocalyptic) Outfitset_MeleeDPS_TorsoAddon_PostApo [Append _DLC for DLC version]
+		// Preferred: Post Apocalyptic DLC
+		Item("Outfitset_MeleeDPS_TorsoAddon_PostApo_DLC", 1, "");
+		Item("Outfitset_MeleeDPS_TorsoAddon_PostApo", 1, "");	// Fix for gear being removed on respawn
+
+		// ------------------------------
+		// Shoes
+		// ------------------------------
+		// - (Army) Outfitset_Army_Shoes
+		// - (Nightrunner) outfit_nightrunner_shoes [Append _DLC for DLC version]
+		// - (Post Apocalyptic) Outfitset_MeleeDPS_Shoes_PostApo [Append _DLC for DLC version]
+		// Preferred: Army
+		Item("Outfitset_Army_Shoes", 1, "");
+		Item("Outfitset_MeleeDPS_Shoes_PostApo", 1, "");	// Fix for gear being removed on respawn
+
+		// ------------------------------
+		// Legs
+		// ------------------------------
+		// - (Army) Outfitset_Army_Legs
+		// - (Nightrunner) outfit_nightrunner_legs [Append _DLC for DLC version]
+		// - (Post Apocalyptic) Outfitset_MeleeDPS_Legs_PostApo [Append _DLC for DLC version]
+		// Preferred: Post Apocalyptic DLC
+		Item("Outfitset_MeleeDPS_Legs_PostApo_DLC", 1, "");
+		Item("Outfitset_MeleeDPS_Legs_PostApo", 1, "");	// Fix for gear being removed on respawn
     }
 }

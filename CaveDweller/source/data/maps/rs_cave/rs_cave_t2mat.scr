@@ -274,14 +274,15 @@ sub layers()
 		name("Sea Sand");
 		mat_top(7);
 		mat_side(2);
+		top_to_layer_name("biom_coniferous_forest_undergrowth_b");
 		param(0.500000);
 	}
 	layer(7)
 	{
 		name("Sea Bed Sand");
 		mat_top(6);
-		mat_side(6);
-		top_to_layer_name("biom_underwater");
+		mat_side(7);
+		top_to_layer_name("biom_coniferous_forest_soil_a");
 		param(0.500000);
 	}
 	layer(8)

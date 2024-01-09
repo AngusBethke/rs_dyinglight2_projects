@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7322138729663816065">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7322138728939675597"/>
+		<Attribute name="m_Name" value="Q1_TestGround"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7322138819111989947">
+		<Logic type="Story::SetPlayerPresetLogic">
+			<Attribute name="m_PresetName" value="GIVE_ALL"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-120" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7322138819111989947" output="Out" input="In" end="7322138729421757553">
+		<Start class="Story::SetPlayerPresetLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7322138729105856096">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-285" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7322138729105856096" output="Out" input="In" end="7322138819111989947">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::SetPlayerPresetLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7322138729421757553">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="200" y="0"/>
+		</Editor>
+	</Node>
+</Node>
+
