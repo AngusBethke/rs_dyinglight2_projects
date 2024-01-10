@@ -1,0 +1,255 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "PrefabInterfaces": [
+        "cbs::IAudioExtraDataReceiver",
+        "cbs::IArea"
+      ],
+      "Interface": {
+        "Pipes": [
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::ISensor::m_PipeOnSensorEnter"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::ISensor::m_PipeOnSensorStay"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::ISensor::m_PipeOnSensorExit"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "StartEvent"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "StopEvent"
+          }
+        ],
+        "VirtualFields": [
+          {
+            "Name": "m_EventName",
+            "Init": "e:CALLBACK;f:EDIT;c:Sound;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_EventName"
+              }
+            ]
+          },
+          {
+            "Name": "ActiveRadius",
+            "Init": "f:EDIT;e:EDIT;c:Sound;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_ActiveRadius"
+              }
+            ]
+          },
+          {
+            "Name": "m_UseAutoRadius",
+            "Init": "f:EDIT;e:CHECKBOX;c:Sound;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_UseAutoRadius"
+              }
+            ]
+          },
+          {
+            "Name": "m_AutoActiveRadius",
+            "Init": "f:EXPOSE|GRAPH_READ_ONLY;e:EDIT;c:Sound;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_AutoActiveRadius"
+              }
+            ]
+          },
+          {
+            "Name": "m_AudioExtraData",
+            "Init": "f:EDIT;e:EDIT;c:AudioExtraData;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_AudioExtraData"
+              }
+            ]
+          },
+          {
+            "Name": "cbs::IAudioExtraDataReceiver::m_AudioSwitchData",
+            "Init": "e:EDIT;f:EDIT|QUEST;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_AudioSwitchData"
+              }
+            ]
+          },
+          {
+            "Name": "cbs::IAudioExtraDataReceiver::m_AudioParamData",
+            "Init": "e:EDIT;f:EDIT|QUEST;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_AudioParamData"
+              }
+            ]
+          },
+          {
+            "Name": "m_playOnce",
+            "Init": "f:EDIT;e:CHECKBOX;c:Sound;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_playOnce"
+              }
+            ]
+          },
+          {
+            "Name": "cbs::IEnable::m_State",
+            "Init": "e:EDIT;f:EDIT|QUEST;l:Enabled;",
+            "DestinationFields": [
+              {
+                "Uuid": "25",
+                "Name": "m_Enabled"
+              }
+            ]
+          }
+        ]
+      },
+      "Bindings": {
+        "Properties": [],
+        "Pipes": [
+		    {
+            "src_uuid": "0",
+            "src": "m_PipeOnModify",
+            "dest_uuid": "21",
+            "dest": "m_PipePositionChanged"
+          },
+          {
+            "src_uuid": "0",
+            "src": "StartEvent",
+            "dest_uuid": "21",
+            "dest": "m_PipeStartEvent"
+          },
+          {
+            "src_uuid": "0",
+            "src": "StopEvent",
+            "dest_uuid": "21",
+            "dest": "m_PipeStopEvent"
+          },
+          {
+            "src_uuid": "5",
+            "src": "m_PipeOnXformChanged",
+            "dest_uuid": "21",
+            "dest": "m_PipePositionChanged"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::ISensor::m_PipeOnSensorEnter",
+            "dest_uuid": "21",
+            "dest": "m_PipeStartEvent"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::ISensor::m_PipeOnSensorExit",
+            "dest_uuid": "21",
+            "dest": "m_PipeStopEvent"
+          },
+          {
+            "src_uuid": "25",
+            "src": "m_PipeOnEnabled",
+            "dest_uuid": "21",
+            "dest": "m_PipeStartEvent"
+          },
+          {
+            "src_uuid": "25",
+            "src": "m_PipeOnDisabled",
+            "dest_uuid": "21",
+            "dest": "m_PipeStopEvent"
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoSound",
+          "PrefabFields": {
+            "m_PcId": "21"
+          },
+          "Fields": {
+            "m_SelfActive": "1",
+            "m_StartEventOnActivation": "1"
+          }
+        },
+        {
+          "Class": "CoHierarchySync",
+          "PrefabFields": {
+            "m_RootXform": "1",
+            "m_Visualization": "soundemitter.msh",
+            "m_PcId": "5"
+          },
+          "Fields": {
+            "Transform": "1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.000000"
+          }
+        },
+        {
+          "Class": "CoEnable",
+          "PrefabFields": {
+            "m_PcId": "25"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1",
+      "CreatedInEditor": "1",
+	  "AllowsNonUniformScaling": "1",
+      "Nodes": [
+        {
+          "Uuid": "21",
+          "Type": "0",
+          "X": "585.00",
+          "Y": "210.00"
+        },
+        {
+          "Uuid": "5",
+          "Type": "2",
+          "X": "-450.00",
+          "Y": "450.00"
+        },
+        {
+          "Uuid": "1",
+          "Type": "4",
+          "X": "-450.00",
+          "Y": "150.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "2",
+          "Type": "4",
+          "X": "480.00",
+          "Y": "75.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "3",
+          "Type": "4",
+          "X": "0.00",
+          "Y": "525.00",
+          "Interface_Type": "2"
+        },
+        {
+          "Uuid": "25",
+          "Type": "0",
+          "X": "0.00",
+          "Y": "885.00"
+        }
+      ]
+    }
+  }
+}

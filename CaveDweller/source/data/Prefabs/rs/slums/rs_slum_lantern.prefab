@@ -6,7 +6,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0063563, 0.2329337, 0.0064191, 0.1585274, 0.3394692, 0.1575596]],
+            "m_EntityComponentsExtents": [69, [-0.0063563, 0.2329337, 0.0063733, 0.1585274, 0.3394692, 0.1575444]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "lamp"],
             "m_PresetNames": [12, "Lamp Preset;Lantern g"]
@@ -20,13 +20,13 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-9.5367431640625e-7, -1.1920928955078126e-7, -7.152557373046875e-7, 1.000001, 1.0000013, 1.0000007]],
+            "m_EntityComponentsExtents": [69, [-9.5367431640625e-7, -1.1920928955078126e-7, -6.854534149169922e-7, 1.0000011, 1.0000013, 1.0000005]],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "light"],
             "m_PresetNames": [12, "Light;Spot shadow OPTIMIZED"],
-            "m_Rotate": [14, [-89.9999771, -1.1802979038577633e-8, -0.0000099]],
+            "m_Rotate": [14, [-89.9999771, -1.1802979038577633e-8, -0.0000098]],
             "m_Scale": [14, [25.0000343, 25.0000343, 15.0000209]],
-            "m_Translate": [14, [0.0001219, 0.4799765, -0.0001219]]
+            "m_Translate": [14, [0.0001218, 0.4799765, -0.0001218]]
           },
           "Fields": {
             "Attenuation": "15.000000",
@@ -37,13 +37,24 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0000303, 1.0773999, 1.0773999, 1.0773999]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, -1.1920928955078126e-7, 1.0773998, 1.0773998, 1.0773999]],
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "light"],
-            "m_Translate": [14, [0.0003048, -0.0001293, 0.0001522]]
+            "m_Translate": [14, [0.0003046, -0.0001291, 0.000152]]
           },
           "Fields": {
             "Color": "0.666667 0.333333 0.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.073673, 0.0725375]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;insects_swarm_small"],
+            "m_Rotate": [14, [-0.0, 0.0, -179.9999847]],
+            "m_Translate": [14, [0.0005492, 0.0001143, 0.0003661]]
           }
         }
       ]
