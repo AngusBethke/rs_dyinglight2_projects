@@ -15,6 +15,22 @@
 			<Entity name=""/>
 		</Entities>
 	</Logic>
+	<Node type="Actions::Node" uid="7322925051102768769">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_ObjectNoise_Far"/>
+				<Entity name="rs_cave/~36/Q03_ObjectNoise_Winch"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="615" y="1305"/>
+		</Editor>
+	</Node>
 	<Node type="Actions::Node" uid="7321696733345717384">
 		<Logic type="Story::UseLogic">
 			<Attribute name="m_DesiredValue" value="_ON"/>
@@ -32,9 +48,9 @@
 			<Position x="-555" y="510"/>
 		</Editor>
 	</Node>
-	<Connect start="7321696733345717384" output="Out" input="In" end="7321695848884228825">
+	<Connect start="7321696733345717384" output="Out" input="In" end="7322931648621576035">
 		<Start class="Story::UseLogic"/>
-		<End class="Story::ShowLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7321703743531465372">
 		<Logic type="Story::WaitLogic">
@@ -52,6 +68,10 @@
 	<Connect start="7321703743531465372" output="Out" input="In" end="7321695459430244063">
 		<Start class="Story::WaitLogic"/>
 		<End class="Story::PlaySequenceLogic"/>
+	</Connect>
+	<Connect start="7321703743531465372" output="Out" input="In" end="7322924799451925029">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::ShowLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7322097741469159074">
 		<Logic type="Story::SetDayTimeLogic">
@@ -90,6 +110,21 @@
 		<Start class="Story::HideLogic"/>
 		<End class="Story::DisableLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7322924909519056820">
+		<Logic type="Story::ShowLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_ObjectNoise_Far"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="615" y="1140"/>
+		</Editor>
+	</Node>
 	<Node type="Actions::Node" uid="7321693641510287033">
 		<Logic type="Story::GoToLogic">
 			<Attribute name="m_Distance" value="3.000000"/>
@@ -126,6 +161,23 @@
 	<Connect start="7321693148112134586" output="Out" input="In" end="7321693066806624564">
 		<Start class="Story::CompleteObjectiveLogic"/>
 		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7322924982790032323">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="0.250000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="276" y="1306"/>
+		</Editor>
+	</Node>
+	<Connect start="7322924982790032323" output="Out" input="In" end="7322925051102768769">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::HideLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7321693052648157639">
 		<Logic type="Story::StartObjectiveLogic">
@@ -216,9 +268,9 @@
 			<Position x="-540" y="885"/>
 		</Editor>
 	</Node>
-	<Connect start="7321694439784311262" output="Out" input="In" end="7321703743531465372">
+	<Connect start="7321694439784311262" output="Out" input="In" end="7322931520158251500">
 		<Start class="Story::UseLogic"/>
-		<End class="Story::WaitLogic"/>
+		<End class="Story::ShowLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7321695459430244063">
 		<Logic type="Story::PlaySequenceLogic">
@@ -238,6 +290,10 @@
 	<Connect start="7321695459430244063" output="Out" input="In" end="7321693169632769739">
 		<Start class="Story::PlaySequenceLogic"/>
 		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Connect start="7321695459430244063" output="Out" input="In" end="7322925022617120573">
+		<Start class="Story::PlaySequenceLogic"/>
+		<End class="Story::HideLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7322082769688393189">
 		<Logic type="Story::EnableLogic">
@@ -275,6 +331,25 @@
 		<Start class="Story::StartObjectiveLogic"/>
 		<End class="Story::GoToLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7322931520158251500">
+		<Logic type="Story::ShowLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_ObjectNoise_Winch"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-15" y="885"/>
+		</Editor>
+	</Node>
+	<Connect start="7322931520158251500" output="Out" input="In" end="7321703743531465372">
+		<Start class="Story::ShowLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7321691924220557552">
 		<Logic type="Actions::EndLogic"/>
 		<Editor>
@@ -310,6 +385,25 @@
 		<Start class="Story::HideLogic"/>
 		<End class="Story::EnableLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7322924799451925029">
+		<Logic type="Story::ShowLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_ObjectNoise_Close"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-30" y="1140"/>
+		</Editor>
+	</Node>
+	<Connect start="7322924799451925029" output="Out" input="In" end="7322924854311447163">
+		<Start class="Story::ShowLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7321693066806624564">
 		<Logic type="Story::StartObjectiveLogic">
 			<Attribute name="m_ObjectiveId" value="7321692611468947229"/>
@@ -326,6 +420,25 @@
 	<Connect start="7321693066806624564" output="Out" input="In" end="7321695170460582727">
 		<Start class="Story::StartObjectiveLogic"/>
 		<End class="Story::TakeItemLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7322925022617120573">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_cave/~36/Q03_ObjectNoise_Close"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-30" y="1305"/>
+		</Editor>
+	</Node>
+	<Connect start="7322925022617120573" output="Out" input="In" end="7322924982790032323">
+		<Start class="Story::HideLogic"/>
+		<End class="Story::WaitLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7321695170460582727">
 		<Logic type="Story::TakeItemLogic">
@@ -363,6 +476,26 @@
 	<Connect start="7321693182228266581" output="Out" input="In" end="7321691924220557552">
 		<Start class="Story::CompleteObjectiveLogic"/>
 		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7322931648621576035">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Q03_Catacombs_TestParkourPuzzle_Sequence"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="rs_cave/rs_cave_points_of_interest/Q03_Catacombs_TestParkourPuzzle_pos"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-840" y="750"/>
+		</Editor>
+	</Node>
+	<Connect start="7322931648621576035" output="Out" input="In" end="7321695848884228825">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::ShowLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7321702858183933547">
 		<Logic type="Story::GoToLogic">
@@ -403,6 +536,23 @@
 	<Connect start="7321700286725261679" output="Out" input="In" end="7321693148112134586">
 		<Start class="Story::PointOfInterestLogic"/>
 		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7322924854311447163">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="0.250000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="270" y="1140"/>
+		</Editor>
+	</Node>
+	<Connect start="7322924854311447163" output="Out" input="In" end="7322924909519056820">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::ShowLogic"/>
 	</Connect>
 </Node>
 
