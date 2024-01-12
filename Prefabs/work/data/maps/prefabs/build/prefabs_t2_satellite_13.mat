@@ -1,0 +1,12 @@
+sub material()
+{
+  preset("terrain_satellite;tex_det_0;");
+  tex_clr_0("prefabs_satellite_texture_13_dif.dds");
+  tex_nrm_0("prefabs_satellite_texture_13_nrm.dds");
+  tex_spc_0("prefabs_satellite_texture_13_spc.dds");
+  tex_rgh_0("prefabs_satellite_texture_13_rgh.dds");
+  tex_det_0("terrain_detail_msk.png");
+  uv_det(20.0000000000);
+  v2_uv_origin([0.6666666865, -4.0000000000]);
+  v2_world_size_inv([0.0104166670, 0.0312500000]);
+}

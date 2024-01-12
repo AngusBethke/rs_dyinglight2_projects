@@ -14,7 +14,7 @@
           "Class": "CoWorldXformStatic",
           "PrefabFieldsNative": {
             "m_PcId": [6, 2],
-            "m_Translate": [14, [48.0, 16.0, 48.0]]
+            "m_Translate": [14, [16.0, 0.0, 16.0]]
           }
         },
         {
@@ -53,7 +53,7 @@
           "Class": "CoWorldXformStatic",
           "PrefabFieldsNative": {
             "m_PcId": [6, 6],
-            "m_Translate": [14, [48.0, 16.0, 128.0]]
+            "m_Translate": [14, [16.0, 0.0, 64.0]]
           }
         },
         {
@@ -92,7 +92,7 @@
           "Class": "CoWorldXformStatic",
           "PrefabFieldsNative": {
             "m_PcId": [6, 10],
-            "m_Translate": [14, [128.0, 16.0, 48.0]]
+            "m_Translate": [14, [16.0, 0.0, 112.0]]
           }
         },
         {
@@ -131,7 +131,7 @@
           "Class": "CoWorldXformStatic",
           "PrefabFieldsNative": {
             "m_PcId": [6, 14],
-            "m_Translate": [14, [128.0, 16.0, 128.0]]
+            "m_Translate": [14, [16.0, 0.0, 144.0]]
           }
         },
         {
@@ -163,6 +163,357 @@
           "Fields": {
             "m_CollisionFlags": "20491",
             "m_MeshName": "prefabs_buildterrain_patch2_230220082409_3.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 18],
+            "m_Translate": [14, [64.0, 0.0, 16.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 19]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 20],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 19],
+            "m_XformComponent": [6, 18]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_4.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_XformComponent": [6, 18]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_4.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_Translate": [14, [80.0, 16.0, 80.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 23]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 24],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 23],
+            "m_XformComponent": [6, 22]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_5.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 25],
+            "m_XformComponent": [6, 22]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_5.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 26],
+            "m_Translate": [14, [64.0, 0.0, 144.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 27]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 28],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 27],
+            "m_XformComponent": [6, 26]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_6.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 29],
+            "m_XformComponent": [6, 26]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_6.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 30],
+            "m_Translate": [14, [112.0, 0.0, 16.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 31]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 32],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 31],
+            "m_XformComponent": [6, 30]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_7.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 33],
+            "m_XformComponent": [6, 30]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_7.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 34],
+            "m_Translate": [14, [112.0, 0.0, 144.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 35]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 36],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 35],
+            "m_XformComponent": [6, 34]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_8.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 37],
+            "m_XformComponent": [6, 34]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_8.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 38],
+            "m_Translate": [14, [144.0, 0.0, 16.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 39]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 40],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 39],
+            "m_XformComponent": [6, 38]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_9.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 41],
+            "m_XformComponent": [6, 38]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_9.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 42],
+            "m_Translate": [14, [144.0, 0.0, 64.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 43]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 44],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 43],
+            "m_XformComponent": [6, 42]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_10.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 45],
+            "m_XformComponent": [6, 42]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_10.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 46],
+            "m_Translate": [14, [144.0, 0.0, 112.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 47]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 48],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 47],
+            "m_XformComponent": [6, 46]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_11.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 49],
+            "m_XformComponent": [6, 46]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_11.msh",
+            "m_NavmeshFlags": "2050"
+          }
+        },
+        {
+          "Class": "CoWorldXformStatic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 50],
+            "m_Translate": [14, [144.0, 0.0, 144.0]]
+          }
+        },
+        {
+          "Class": "CoVisibility",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 51]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 52],
+            "m_UseSynchronizer": [11, false],
+            "m_VisibilityComponent": [6, 51],
+            "m_XformComponent": [6, 50]
+          },
+          "Fields": {
+            "LodVisibility": "Terrain",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_12.msh",
+            "m_RenderFlags": "15"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 53],
+            "m_XformComponent": [6, 50]
+          },
+          "Fields": {
+            "m_CollisionFlags": "20491",
+            "m_MeshName": "prefabs_buildterrain_patch2_230220082409_12.msh",
             "m_NavmeshFlags": "2050"
           }
         }
