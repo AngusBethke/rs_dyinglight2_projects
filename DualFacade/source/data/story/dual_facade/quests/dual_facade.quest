@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7326265779959085424">
+	<Logic type="Story::CampaignLogic">
+		<Attribute name="m_IndicatorType" value=""/>
+		<Attribute name="m_ShowIndicator" value="1"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+	</Logic>
+	<Node type="Actions::Node" uid="7326265780068514956">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="225" y="0"/>
+		</Editor>
+	</Node>
+	<Node file="q01_survive.quest">
+		<Editor>
+			<Position x="-90" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7326266024677533736" output="Out:End" input="In" end="7326265780068514956">
+		<Start class="Story::QuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7326265781100773180">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-285" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7326265781100773180" output="Out" input="In:Start" end="7326266024677533736">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
+</Node>
+

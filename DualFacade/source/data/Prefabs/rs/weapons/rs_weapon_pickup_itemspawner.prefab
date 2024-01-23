@@ -1,0 +1,94 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "ID",
+            "Init": "c:ItemSpawner;f:EDIT;e:COMBO;l:ID;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "ID"
+              }
+            ]
+          },
+          {
+            "Name": "m_EditorItemName",
+            "Init": "c:ItemSpawner;f:EDIT;e:COMBO|CALLBACK;l:m_EditorItemName;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_EditorItemName"
+              }
+            ]
+          },
+          {
+            "Name": "m_ItemColor",
+            "Init": "c:ItemSpawner;f:EDIT;l:m_ItemColor;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_ItemColor"
+              }
+            ]
+          },
+          {
+            "Name": "m_RespawnInterval",
+            "Init": "c:ItemSpawner;f:EDIT;l:m_RespawnInterval;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_RespawnInterval"
+              }
+            ]
+          },
+          {
+            "Name": "m_RespawnRangeAfterTake",
+            "Init": "c:ItemSpawner;f:EDIT;l:m_RespawnRangeAfterTake;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_RespawnRangeAfterTake"
+              }
+            ]
+          },
+          {
+            "Name": "m_UpgradeLevel",
+            "Init": "c:ItemSpawner;f:EDIT;l:m_UpgradeLevel;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_UpgradeLevel"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000883, 0.0314571, 0.1828684, 0.316086, 0.1165178, 0.4282338]],
+            "m_Name": [12, "rs_weapon_pickup_itemspawner"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [-30.0000076, 0.0, -0.0]]
+          },
+          "Fields": {
+            "m_EditorItemName": "wpn_2hr_crossbow_hunters",
+            "m_ItemColor": "Exotic",
+            "m_RespawnInterval": "15.000000",
+            "m_RespawnRangeAfterTake": "8.000000",
+            "m_UpgradeLevel": "9",
+            "m_UsePickupMechanism": "0"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

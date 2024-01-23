@@ -1,0 +1,903 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7326266024677533736">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7326266025435275547"/>
+		<Attribute name="m_Name" value="q01_survive"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Group" uid="7327384460860413576">
+		<Logic type="Story::GroupLogic">
+			<Attribute name="m_Name" value="Prepare Objective"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Node type="Actions::Node" uid="7327384459923701169">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-150" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384459923701169" output="Out" input="In" end="7327384461152631890">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327384459540952792">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="15.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorWait"/>
+					<Attribute name="objective" value="7327380045877073547"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="600" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384459540952792" output="Out" input="In" end="7327384460597171298">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327384461398155039">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="1500" y="0"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7327384461152631890">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="150" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384461152631890" output="Out" input="In" end="7327384459540952792">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327384460597171298">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1050" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384460597171298" output="Out" input="In" end="7327384461398155039">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="1140" y="450"/>
+		</Editor>
+	</Node>
+	<Connect start="7327384460860413576" output="Out:End" input="In" end="7327383669777248825">
+		<Start class="Story::GroupLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327383871082708876">
+		<Logic type="Story::ClearLogic">
+			<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_SpawnersEntites"/>
+			<Entities name="m_Entities">
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_clear_area"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-33" y="1562"/>
+		</Editor>
+	</Node>
+	<Connect start="7327383871082708876" output="Out" input="In" end="7327383872112549778">
+		<Start class="Story::ClearLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327383872112549778">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7327381067752102999"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="550" y="1562"/>
+		</Editor>
+	</Node>
+	<Connect start="7327383872112549778" output="Out" input="In" end="7326266025859272213">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327382308504815510">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_1"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_2"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_3"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_4"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_5"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_6"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_7"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_8"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_9"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_10"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_11"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_12"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_13"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_14"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_15"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_16"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-435" y="1560"/>
+		</Editor>
+	</Node>
+	<Connect start="7327382308504815510" output="Out" input="In" end="7327383871082708876">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::ClearLogic"/>
+	</Connect>
+	<Connect start="7327382308504815510" output="Out" input="In:Start" end="7327383872766422134">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327381908712021660">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7327380870803148761"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-750" y="450"/>
+		</Editor>
+	</Node>
+	<Connect start="7327381908712021660" output="Out" input="In" end="7327382389980933301">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7327382668573100967">
+		<Logic type="Story::GroupLogic">
+			<Attribute name="m_Name" value="Prepare Objective"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Node type="Actions::Node" uid="7327382670434953232">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-150" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327382670434953232" output="Out" input="In" end="7327380237951158809">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327380237951158809">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="150" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327380237951158809" output="Out" input="In" end="7327379923997043048">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327382669457246765">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="1500" y="0"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7327380273793951539">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1050" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327380273793951539" output="Out" input="In" end="7327382669457246765">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327379923997043048">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="15.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorWait"/>
+					<Attribute name="objective" value="7327380045877073547"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="600" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327379923997043048" output="Out" input="In" end="7327380273793951539">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="120" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7327382668573100967" output="Out:End" input="In" end="7327381908712021660">
+		<Start class="Story::GroupLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7327384478603791784">
+		<Logic type="Story::GroupLogic">
+			<Attribute name="m_Name" value="Prepare Objective"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Node type="Actions::Node" uid="7327384477839458831">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="1500" y="0"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7327384477162936910">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="15.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorWait"/>
+					<Attribute name="objective" value="7327380045877073547"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="600" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384477162936910" output="Out" input="In" end="7327384477867016787">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327384477867016787">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1050" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384477867016787" output="Out" input="In" end="7327384477839458831">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327384478590714739">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-150" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384478590714739" output="Out" input="In" end="7327384476759088759">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327384476759088759">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="150" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327384476759088759" output="Out" input="In" end="7327384477162936910">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="1125" y="1005"/>
+		</Editor>
+	</Node>
+	<Connect start="7327384478603791784" output="Out:End" input="In" end="7327383871709110613">
+		<Start class="Story::GroupLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327382389980933301">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_1"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_3"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_5"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_7"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_9"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_10"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_11"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_12"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_13"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_14"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_15"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_16"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-375" y="450"/>
+		</Editor>
+	</Node>
+	<Connect start="7327382389980933301" output="Out" input="In" end="7327381780584562439">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::ClearLogic"/>
+	</Connect>
+	<Connect start="7327382389980933301" output="Out" input="In:Start" end="7327383142149818459">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7326266024472076782">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-285" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7326266024472076782" output="Out" input="In:Start" end="7327379387687533812">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7327379387687533812">
+		<Logic type="Story::GroupLogic">
+			<Attribute name="m_Name" value="Player Init"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Node type="Actions::Node" uid="7326266245221497024">
+			<Logic type="Story::SetDayTimeLogic">
+				<Attribute name="m_Hour" value="20"/>
+				<Attribute name="m_Weather" value="Foggy"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="15" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7326266245221497024" output="Out" input="In" end="7326268851243824764">
+			<Start class="Story::SetDayTimeLogic"/>
+			<End class="Story::FreezeTimeLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327379388235939792">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="1080" y="0"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7326266361053093865">
+			<Logic type="Story::DisableGenericHintsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="510" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7326266361053093865" output="Out" input="In" end="7327369036886757709">
+			<Start class="Story::DisableGenericHintsLogic"/>
+			<End class="Story::SetPlayerPresetLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327379387678803274">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-150" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327379387678803274" output="Out" input="In" end="7326266245221497024">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::SetDayTimeLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327369036886757709">
+			<Logic type="Story::SetPlayerPresetLogic">
+				<Attribute name="m_PresetName" value="GIVE_ALL"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="750" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7327369036886757709" output="Out" input="In" end="7327379388235939792">
+			<Start class="Story::SetPlayerPresetLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7326268851243824764">
+			<Logic type="Story::FreezeTimeLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="315" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7326268851243824764" output="Out" input="In" end="7326266361053093865">
+			<Start class="Story::FreezeTimeLogic"/>
+			<End class="Story::DisableGenericHintsLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="-105" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7327379387687533812" output="Out:End" input="In:Start" end="7327382668573100967">
+		<Start class="Story::GroupLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327383670650378241">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7327380973329440164"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="555" y="1005"/>
+		</Editor>
+	</Node>
+	<Connect start="7327383670650378241" output="Out" input="In:Start" end="7327384478603791784">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327381780584562439">
+		<Logic type="Story::ClearLogic">
+			<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_SpawnersEntites"/>
+			<Entities name="m_Entities">
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_clear_area"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="15" y="450"/>
+		</Editor>
+	</Node>
+	<Connect start="7327381780584562439" output="Out" input="In" end="7327381909741632601">
+		<Start class="Story::ClearLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7326266025859272213">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="1185" y="15"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7327383669777248825">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7327380973329440164"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-790" y="1000"/>
+		</Editor>
+	</Node>
+	<Connect start="7327383669777248825" output="Out" input="In" end="7327383790555067969">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327383790555067969">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_1"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_3"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_5"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_6"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_7"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_8"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_9"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_10"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_11"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_12"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_13"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_14"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_15"/>
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_16"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-420" y="1005"/>
+		</Editor>
+	</Node>
+	<Connect start="7327383790555067969" output="Out" input="In" end="7327383669921709165">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::ClearLogic"/>
+	</Connect>
+	<Connect start="7327383790555067969" output="Out" input="In:Start" end="7327383671348249460">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327383871709110613">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7327381067752102999"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-798" y="1562"/>
+		</Editor>
+	</Node>
+	<Connect start="7327383871709110613" output="Out" input="In" end="7327382308504815510">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7327381909741632601">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7327380870803148761"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="600" y="450"/>
+		</Editor>
+	</Node>
+	<Connect start="7327381909741632601" output="Out" input="In:Start" end="7327384460860413576">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::GroupLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7327383142149818459">
+		<Logic type="Story::GroupLogic">
+			<Attribute name="m_Name" value="Disable Spawners"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Node type="Actions::Node" uid="7327383025330874767">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="2.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="105" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383025330874767" output="Out" input="In" end="7327382995820578425">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327383142304782267">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-194" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383142304782267" output="Out" input="In" end="7327383025330874767">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327383142932014805">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="909" y="63"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7327382995820578425">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_1"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_2"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_3"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_4"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_5"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_6"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_7"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_8"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_9"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_10"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_11"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_12"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_13"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_14"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_15"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_16"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="540" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327382995820578425" output="Out" input="In" end="7327383142932014805">
+			<Start class="Story::DisableLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="-22" y="185"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7327383669921709165">
+		<Logic type="Story::ClearLogic">
+			<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_SpawnersEntites"/>
+			<Entities name="m_Entities">
+				<Entity name="dual_facade/~83/rs_floating_rock_ai_clear_area"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-25" y="1000"/>
+		</Editor>
+	</Node>
+	<Connect start="7327383669921709165" output="Out" input="In" end="7327383670650378241">
+		<Start class="Story::ClearLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7327383671348249460">
+		<Logic type="Story::GroupLogic">
+			<Attribute name="m_Name" value="Disable Spawners"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Node type="Actions::Node" uid="7327383670356585618">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-194" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383670356585618" output="Out" input="In" end="7327383669779148395">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327383670263881963">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="909" y="63"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7327383670324234269">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_1"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_2"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_3"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_4"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_5"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_6"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_7"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_8"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_9"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_10"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_11"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_12"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_13"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_14"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_15"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_16"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="540" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383670324234269" output="Out" input="In" end="7327383670263881963">
+			<Start class="Story::DisableLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327383669779148395">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="2.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="105" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383669779148395" output="Out" input="In" end="7327383670324234269">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="-62" y="735"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Group" uid="7327383872766422134">
+		<Logic type="Story::GroupLogic">
+			<Attribute name="m_Name" value="Disable Spawners"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Node type="Actions::Node" uid="7327383871708471948">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_1"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_2"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_3"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_4"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_5"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_6"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_7"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_8"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_9"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_10"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_11"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_12"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_13"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_14"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_15"/>
+					<Entity name="dual_facade/~83/rs_floating_rock_ai_spawner_16"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="540" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383871708471948" output="Out" input="In" end="7327383872586353672">
+			<Start class="Story::DisableLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327383873008898735">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="2.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="105" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383873008898735" output="Out" input="In" end="7327383871708471948">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7327383872586353672">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="909" y="63"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7327383872993199936">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-194" y="63"/>
+			</Editor>
+		</Node>
+		<Connect start="7327383872993199936" output="Out" input="In" end="7327383873008898735">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="-70" y="1297"/>
+		</Editor>
+	</Node>
+</Node>
+

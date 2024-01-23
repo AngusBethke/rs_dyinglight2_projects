@@ -1,0 +1,11 @@
+sub material()
+{
+  preset("opaque;cull_2s;cull_def;det_0_clr_a_tex;dif_0_tex;nrm_0_tex;rgh_0_tex;");
+  dif_0_tex("urb_trash_bin_classic_a_dif.png");
+  nrm_0_tex("urb_trash_bin_classic_a_nrm.png");
+  rgh_0_tex("urb_trash_bin_classic_a_rgh.png");
+  spcDef([0.2039215863, 0.2039215863, 0.2039215863]);
+  det_0_clr_a_tex("srf_rust_a_dtt.png");
+  det_0_a_opacity_factor(0.4900000095);
+  det_0_a_scale_factor(1.2500000000);
+}
