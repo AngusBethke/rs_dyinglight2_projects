@@ -1,0 +1,17 @@
+/* LOD generator: material name postfix is "billboard" */
+/* LOD generator: generate mesh billboard data */
+/* LOD generator: generate mesh wind data */
+/* LOD generator: dilate textures */
+
+sub material()
+{
+  preset("opaque;clp_0_tex;dif_0_tex;leaves_shading_on;multiple_pivots;multiple_pivots_align;nrm_0_tex;rotate_to_camera_on;wnd_pivot_on;wnd_simple_on;zpass_def;zpass_on;");
+  clp_0_tex("oldtown_a_22_billboard_clp.png");
+  dif_0_tex("oldtown_a_22_billboard_dif.png");
+  nrm_0_tex("oldtown_a_22_billboard_nrm.png");
+  multiple_pivots_accuracy(10.0000000000);
+  wnd_factor_s(0.2399999946);
+  wnd_factor_t(0.2399999946);
+  wnd_factor_n(3.7200000286);
+  wnd_factor_d(4.1399998665);
+}
