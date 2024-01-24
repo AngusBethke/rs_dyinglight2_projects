@@ -12,17 +12,36 @@
 	<Node type="Actions::Node" uid="7326265780068514956">
 		<Logic type="Actions::EndLogic"/>
 		<Editor>
-			<Position x="225" y="0"/>
+			<Position x="450" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7327749515149161714">
+		<Logic type="Story::QuitWithTitlesLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_SpawnPoint">
+				<Entity name=""/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="450" y="-150"/>
 		</Editor>
 	</Node>
 	<Node file="q01_survive.quest">
 		<Editor>
-			<Position x="-90" y="0"/>
+			<Position x="0" y="0"/>
 		</Editor>
 	</Node>
 	<Connect start="7326266024677533736" output="Out:End" input="In" end="7326265780068514956">
 		<Start class="Story::QuestLogic"/>
 		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Connect start="7326266024677533736" output="Out:End" input="In" end="7327749515149161714">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::QuitWithTitlesLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7326265781100773180">
 		<Logic type="Actions::StartLogic"/>
