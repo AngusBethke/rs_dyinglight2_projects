@@ -11,6 +11,14 @@
 !/WhatRemains
 !/CaveDweller
 !/DualFacade
+!/RSTestProject
+!/ProjectSource
+
+# Ensure prefabs are not included
+**/prefabs
+
+# Ensure prefabs from the project source folder are included
+!/ProjectSource/Prefabs
 
 # Ensure previews are not included
 **/previews
