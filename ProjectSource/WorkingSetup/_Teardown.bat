@@ -1,0 +1,2 @@
+rd /s /q "D:\SteamLibrary\steamapps\common\Dying Light 2\DevTools\projects\local\%1\source\data\Prefabs"
+robocopy "D:\SteamLibrary\steamapps\common\Dying Light 2\DevTools\projects\local\ProjectSource\Prefabs" "D:\SteamLibrary\steamapps\common\Dying Light 2\DevTools\projects\local\%1\source\data\Prefabs" /e
