@@ -274,6 +274,10 @@
 			<Start class="Story::StartMissionLogic"/>
 			<End class="Story::GroupLogic"/>
 		</Connect>
+		<Connect start="7328093831009510580" output="Out" input="In:Start" end="7332412801094462257">
+			<Start class="Story::StartMissionLogic"/>
+			<End class="Story::GroupLogic"/>
+		</Connect>
 		<Node type="Actions::Group" uid="7328118328429365695">
 			<Logic type="Story::GroupLogic">
 				<Attribute name="m_Name" value="GroupOfMusicX6"/>
@@ -5856,6 +5860,227 @@
 				<Position x="1050" y="-150"/>
 			</Editor>
 		</Node>
+		<Node type="Actions::Group" uid="7332412801094462257">
+			<Logic type="Story::GroupLogic">
+				<Attribute name="m_Name" value="Weapon Pickup Handler"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Node type="Actions::Node" uid="7332412575316666300">
+				<Logic type="Story::HideLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="dual_facade/~80/rs_weapon_pickup_pistol"/>
+					</Entities>
+				</Logic>
+				<Editor>
+					<Position x="557" y="63"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412575316666300" output="Out" input="In:0" end="7332412990471830854">
+				<Start class="Story::HideLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412810377646287">
+				<Logic type="Actions::StartLogic"/>
+				<Editor>
+					<Position x="-192" y="63"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412810377646287" output="Out" input="In" end="7332412068127010940">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::WaitPlayerItemCountLogic"/>
+			</Connect>
+			<Connect start="7332412810377646287" output="Out" input="In" end="7332412218394497794">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::WaitPlayerItemCountLogic"/>
+			</Connect>
+			<Connect start="7332412810377646287" output="Out" input="In" end="7332412226980494056">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::WaitPlayerItemCountLogic"/>
+			</Connect>
+			<Connect start="7332412810377646287" output="Out" input="In" end="7332412235788750713">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::WaitPlayerItemCountLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412226980494056">
+				<Logic type="Story::WaitPlayerItemCountLogic">
+					<Attribute name="m_ItemName" value="Weapon_Firearm_Shotgun"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+				<Editor>
+					<Position x="107" y="363"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412226980494056" output="Out" input="In" end="7332412656230697021">
+				<Start class="Story::WaitPlayerItemCountLogic"/>
+				<End class="Story::HideLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412811621246967">
+				<Logic type="Actions::EndLogic"/>
+				<Editor>
+					<Position x="1500" y="285"/>
+				</Editor>
+			</Node>
+			<Node type="Actions::Node" uid="7332412218394497794">
+				<Logic type="Story::WaitPlayerItemCountLogic">
+					<Attribute name="m_ItemName" value="Weapon_Firearm_Rifle"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+				<Editor>
+					<Position x="107" y="213"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412218394497794" output="Out" input="In" end="7332412609857501740">
+				<Start class="Story::WaitPlayerItemCountLogic"/>
+				<End class="Story::HideLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412609857501740">
+				<Logic type="Story::HideLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="dual_facade/~80/rs_weapon_pickup_rifle"/>
+					</Entities>
+				</Logic>
+				<Editor>
+					<Position x="557" y="213"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412609857501740" output="Out" input="In:1" end="7332412990471830854">
+				<Start class="Story::HideLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412656230697021">
+				<Logic type="Story::HideLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="dual_facade/~80/rs_weapon_pickup_shotgun"/>
+					</Entities>
+				</Logic>
+				<Editor>
+					<Position x="557" y="363"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412656230697021" output="Out" input="In:0" end="7332413055006519920">
+				<Start class="Story::HideLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412699815774788">
+				<Logic type="Story::HideLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="dual_facade/~80/rs_weapon_pickup_smg"/>
+					</Entities>
+				</Logic>
+				<Editor>
+					<Position x="557" y="513"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412699815774788" output="Out" input="In:1" end="7332413055006519920">
+				<Start class="Story::HideLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412990471830854">
+				<Logic type="Actions::AllLogic">
+					<Input name="In" count="2"/>
+				</Logic>
+				<Editor>
+					<Position x="975" y="90"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412990471830854" output="Out" input="In:0" end="7332413094144703863">
+				<Start class="Actions::AllLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332413055006519920">
+				<Logic type="Actions::AllLogic">
+					<Input name="In" count="2"/>
+				</Logic>
+				<Editor>
+					<Position x="960" y="420"/>
+				</Editor>
+			</Node>
+			<Connect start="7332413055006519920" output="Out" input="In:1" end="7332413094144703863">
+				<Start class="Actions::AllLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332413094144703863">
+				<Logic type="Actions::AllLogic">
+					<Input name="In" count="2"/>
+				</Logic>
+				<Editor>
+					<Position x="1257" y="293"/>
+				</Editor>
+			</Node>
+			<Connect start="7332413094144703863" output="Out" input="In" end="7332412811621246967">
+				<Start class="Actions::AllLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412235788750713">
+				<Logic type="Story::WaitPlayerItemCountLogic">
+					<Attribute name="m_ItemName" value="Weapon_Firearm_Submachinegun"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+				<Editor>
+					<Position x="107" y="513"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412235788750713" output="Out" input="In" end="7332412699815774788">
+				<Start class="Story::WaitPlayerItemCountLogic"/>
+				<End class="Story::HideLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332412068127010940">
+				<Logic type="Story::WaitPlayerItemCountLogic">
+					<Attribute name="m_ItemName" value="Weapon_Firearm_Pistol"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+				<Editor>
+					<Position x="107" y="63"/>
+				</Editor>
+			</Node>
+			<Connect start="7332412068127010940" output="Out" input="In" end="7332412575316666300">
+				<Start class="Story::WaitPlayerItemCountLogic"/>
+				<End class="Story::HideLogic"/>
+			</Connect>
+			<Editor>
+				<Position x="0" y="-450"/>
+			</Editor>
+		</Node>
 		<Node type="Actions::Group" uid="7328093262853786444">
 			<Logic type="Story::GroupLogic">
 				<Attribute name="m_Name" value="Wave 5"/>
@@ -6327,90 +6552,6 @@
 					<Attribute name="objective" value="Default"/>
 				</Object>
 			</Logic>
-			<Node type="Actions::Group" uid="7328093263247340469">
-				<Logic type="Story::GroupLogic">
-					<Attribute name="m_Name" value="Prepare Objective"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-				<Node type="Actions::Node" uid="7328093263443200513">
-					<Logic type="Story::StartObjectiveLogic">
-						<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
-						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-							<Attribute name="show_indicator" value="1"/>
-							<Attribute name="indicator_type" value="Default"/>
-							<Attribute name="objective" value="Default"/>
-						</Object>
-					</Logic>
-					<Editor>
-						<Position x="150" y="0"/>
-					</Editor>
-				</Node>
-				<Connect start="7328093263443200513" output="Out" input="In" end="7328093262326658892">
-					<Start class="Story::StartObjectiveLogic"/>
-					<End class="Story::WaitLogic"/>
-				</Connect>
-				<Node type="Actions::Node" uid="7328093264155028032">
-					<Logic type="Actions::StartLogic"/>
-					<Editor>
-						<Position x="-150" y="0"/>
-					</Editor>
-				</Node>
-				<Connect start="7328093264155028032" output="Out" input="In" end="7328093263443200513">
-					<Start class="Actions::StartLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
-				</Connect>
-				<Node type="Actions::Node" uid="7328093262326658892">
-					<Logic type="Story::WaitLogic">
-						<Attribute name="m_Delay" value="30.000000"/>
-						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-							<Attribute name="show_indicator" value="1"/>
-							<Attribute name="indicator_type" value="Story::Goal::IndicatorWait"/>
-							<Attribute name="objective" value="7327380045877073547"/>
-						</Object>
-					</Logic>
-					<Editor>
-						<Position x="600" y="0"/>
-					</Editor>
-				</Node>
-				<Connect start="7328093262326658892" output="Out" input="In" end="7328093262741314392">
-					<Start class="Story::WaitLogic"/>
-					<End class="Story::CompleteObjectiveLogic"/>
-				</Connect>
-				<Node type="Actions::Node" uid="7328093262741314392">
-					<Logic type="Story::CompleteObjectiveLogic">
-						<Attribute name="m_ObjectiveId" value="7327380045877073547"/>
-						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-							<Attribute name="show_indicator" value="1"/>
-							<Attribute name="indicator_type" value="Default"/>
-							<Attribute name="objective" value="Default"/>
-						</Object>
-					</Logic>
-					<Editor>
-						<Position x="1050" y="0"/>
-					</Editor>
-				</Node>
-				<Connect start="7328093262741314392" output="Out" input="In" end="7328093262272146813">
-					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Actions::EndLogic"/>
-				</Connect>
-				<Node type="Actions::Node" uid="7328093262272146813">
-					<Logic type="Actions::EndLogic"/>
-					<Editor>
-						<Position x="1500" y="0"/>
-					</Editor>
-				</Node>
-				<Editor>
-					<Position x="2336" y="607"/>
-				</Editor>
-			</Node>
-			<Connect start="7328093263247340469" output="Out:End" input="In" end="7328093262327564149">
-				<Start class="Story::GroupLogic"/>
-				<End class="Actions::EndLogic"/>
-			</Connect>
 			<Node type="Actions::Node" uid="7328093263766935490">
 				<Logic type="Story::ClearLogic">
 					<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
@@ -6456,9 +6597,9 @@
 					<Position x="1735" y="614"/>
 				</Editor>
 			</Node>
-			<Connect start="7328093262513063913" output="Out" input="In:Start" end="7328093263247340469">
+			<Connect start="7328093262513063913" output="Out" input="In" end="7332429667489934146">
 				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Story::GroupLogic"/>
+				<End class="Story::WaitLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7328093263300779264">
 				<Logic type="Story::WaitLogic">
@@ -6534,6 +6675,23 @@
 			<Connect start="7328093262510478903" output="Out" input="In" end="7328093263300779264">
 				<Start class="Story::StartObjectiveLogic"/>
 				<End class="Story::WaitLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7332429667489934146">
+				<Logic type="Story::WaitLogic">
+					<Attribute name="m_Delay" value="10.000000"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+				<Editor>
+					<Position x="2235" y="555"/>
+				</Editor>
+			</Node>
+			<Connect start="7332429667489934146" output="Out" input="In" end="7328093262327564149">
+				<Start class="Story::WaitLogic"/>
+				<End class="Actions::EndLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7328093262327564149">
 				<Logic type="Actions::EndLogic"/>
