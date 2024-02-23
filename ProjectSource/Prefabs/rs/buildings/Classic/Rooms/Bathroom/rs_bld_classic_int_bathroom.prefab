@@ -1,0 +1,119 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Ceiling",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "Ceiling"
+              }
+            ]
+          },
+          {
+            "Name": "Floor",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Floor;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Floor"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "13",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Win1_CurtainType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Win1_CurtainType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "13",
+                "Name": "Win1_CurtainType"
+              }
+            ]
+          },
+          {
+            "Name": "Win2_CurtainType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Win2_CurtainType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "13",
+                "Name": "Win2_CurtainType"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_bld_classic_int_bathroom_ceiling"],
+            "m_Translate": [14, [-0.0000189, -9.999999974752428e-7, -0.0003376]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_classic_int_bathroom_floor"],
+            "m_Translate": [14, [-0.0000046, -0.0000026, 0.0000038]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_bld_classic_int_bathroom_wall"],
+            "m_Translate": [14, [0.0, -1.8333332718611929e-7, -0.0000019]]
+          },
+          "Fields": {
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 1.0, 0.9999999]],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "room_box"],
+            "m_Scale": [14, [3.8800001, 1.96, 1.9600001]],
+            "m_Translate": [14, [-0.0000228, 1.9199991, -0.0003355]]
+          },
+          "Fields": {
+            "BlendingEnabled": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, -1.1920928955078126e-7, 0.0, 3.880002, 1.96, 1.96]],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "room_logic"],
+            "m_PresetNames": [12, "Event_Group;ambience_bathroom;Reverb_Group;Bathroom_Small"],
+            "m_Translate": [14, [-0.0000228, 1.9199991, -0.0003355]]
+          },
+          "Fields": {
+            "m_Areas": "/~14;"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

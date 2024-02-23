@@ -1,0 +1,134 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "LedgeStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "LedgeIncludeIvy",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeIncludeIvy;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "LedgeIncludeIvy"
+              },
+              {
+                "Uuid": "17",
+                "Name": "LedgeIncludeIvy"
+              }
+            ]
+          },
+          {
+            "Name": "BalconyStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:BalconyStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "17",
+                "Name": "BalconyStyle"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_a"],
+            "m_RandomizationWeight": [6, 80],
+            "m_Translate": [14, [0.0000019, 0.0, 0.0]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 6, 10, 11, 12, 14, 17],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Destroyed"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_b"],
+            "m_RandomizationWeight": [6, 20],
+            "m_Translate": [14, [0.0000019, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "EndBoth"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_e"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.000171, 0.0, 0.000349]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "EndLeft"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.000171, 0.0, 0.000349]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "EndRight"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge_d"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.000171, 0.0, 0.000349]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "_Empty"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0, 0.0, 9.5367431640625e-7]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Balcony"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_balcony"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000038, 0.0, -0.0000019]]
+          },
+          "Fields": {
+            "LedgeIncludeIvy": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

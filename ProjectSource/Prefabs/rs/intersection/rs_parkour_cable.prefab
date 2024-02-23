@@ -1,0 +1,2886 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_1"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [144.4733123, 21.115942, 107.8328552]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~4;",
+            "Number": "1",
+            "m_Detachable": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_1"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-180.0, -0.0000051, -180.0]],
+            "m_Translate": [14, [168.4710083, 1.0096035, 93.5751266]]
+          },
+          "Fields": {
+            "Number": "1",
+            "m_CableLength": "52.000000",
+            "m_DestinationEntity": "/~1/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_power_cable_origin"],
+            "m_Rotate": [14, [-180.0, -0.0000051, -180.0]],
+            "m_Translate": [14, [171.7229766, 1.0096035, 92.1977691]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_2"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-180.0, -0.0000098, -180.0]],
+            "m_Translate": [14, [144.1521453, 21.1150035, 109.4240646]]
+          },
+          "Fields": {
+            "Number": "2",
+            "m_CableLength": "60.000000",
+            "m_DestinationEntity": "/~5/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_2"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [133.3136138, 13.9571332, 157.3322601]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~6;",
+            "Number": "2",
+            "m_Detachable": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_3"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [133.6660156, 13.9570026, 158.9133758]]
+          },
+          "Fields": {
+            "Number": "3",
+            "m_CableLength": "105.000000",
+            "m_DestinationEntity": "/~8/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_4"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Translate": [14, [65.6020965, 13.8348989, 194.6643066]]
+          },
+          "Fields": {
+            "Number": "4",
+            "m_CableLength": "75.000000",
+            "m_DestinationEntity": "/~10/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_3"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [179.9999847, 30.0, 180.0]],
+            "m_Translate": [14, [65.2775497, 13.8350296, 195.2142944]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~7;",
+            "Number": "3"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_5"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-0.0, 29.9999961, -0.0]],
+            "m_Translate": [14, [67.2486419, 24.9857711, 137.3835144]]
+          },
+          "Fields": {
+            "Number": "5",
+            "m_CableLength": "40.000000",
+            "m_DestinationEntity": "/~12/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_4"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0000046, -60.0000038, 0.0000096]],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [68.1684875, 24.9859008, 138.6100158]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~9;",
+            "Number": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_6"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-180.0, 60.0000038, -180.0]],
+            "m_Translate": [14, [45.1550865, 28.9540042, 119.14859]]
+          },
+          "Fields": {
+            "Number": "6",
+            "m_CableLength": "28.000000",
+            "m_DestinationEntity": "/~13/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_5"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [179.9999847, 60.0, -179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [46.1392822, 28.9540824, 120.1515121]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~11;",
+            "Number": "5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_6"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.000003, 29.9999961, -0.0000127]],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999989]],
+            "m_Translate": [14, [36.5618743, 11.9858551, 123.3380966]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~15;",
+            "Number": "6"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_7"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0000032, 30.0, -0.0000128]],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999991]],
+            "m_Translate": [14, [34.0759506, 28.9465332, 126.2906341]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~16;",
+            "Number": "7"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_7"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-0.0, 29.999998, -0.0]],
+            "m_Translate": [14, [35.0200042, 11.9860019, 123.8072967]]
+          },
+          "Fields": {
+            "Number": "7",
+            "m_CableLength": "52.000000",
+            "m_DestinationEntity": "/~14/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_8"],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-180.0, -29.9999961, -180.0]],
+            "m_Translate": [14, [24.1133575, 33.9869041, 136.3647766]]
+          },
+          "Fields": {
+            "Number": "8",
+            "m_CableLength": "95.000000",
+            "m_DestinationEntity": "/~17/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_8"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, -0.000011]],
+            "m_Scale": [14, [0.9999992, 0.9999991, 0.9999991]],
+            "m_Translate": [14, [1.5717697, 17.6009845, 210.9825744]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~18;",
+            "Number": "8"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_9"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [-180.0, 0.0000168, -180.0]],
+            "m_Translate": [14, [-25.6924972, -0.0058169, 232.2140808]]
+          },
+          "Fields": {
+            "Number": "9",
+            "m_CableLength": "75.000000",
+            "m_DestinationEntity": "/~19/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_9"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, -0.000011]],
+            "m_Scale": [14, [0.9999991, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [-65.3687667, 23.9621334, 249.3054046]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~20;",
+            "Number": "9"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_source_a"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-65.0167312, 23.9620037, 247.7038574]]
+          },
+          "Fields": {
+            "Number": "a",
+            "m_CableLength": "115.000000",
+            "m_DestinationEntity": "/~83/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079424, 0.0814132]],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-89.9999923, -0.0000043, 120.0]],
+            "m_Translate": [14, [33.4198303, 34.0671844, 130.2425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0000038, -0.0]],
+            "m_Translate": [14, [65.0963287, 13.7944526, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Translate": [14, [65.0963287, 12.7944526, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999997, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [65.0963287, 11.7944517, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999997, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [65.0963287, 10.7944526, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999995, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [65.0963287, 9.7944536, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999994, 0.9999989, 0.9999988]],
+            "m_Translate": [14, [65.0963287, 8.7944545, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999992, 0.9999988, 0.9999986]],
+            "m_Translate": [14, [65.0963287, 7.7944555, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
+            "m_PcId": [6, 29],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Scale": [14, [0.9999991, 0.9999986, 0.9999985]],
+            "m_Translate": [14, [65.0963287, 6.7944569, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999989, 0.9999985, 0.9999982]],
+            "m_Translate": [14, [65.0963287, 5.7944579, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.055175]],
+            "m_PcId": [6, 31],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Scale": [14, [0.9999989, 0.9999982, 0.9999982]],
+            "m_Translate": [14, [65.0963287, 4.7944593, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.055175]],
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Scale": [14, [0.9999988, 0.9999979, 0.9999979]],
+            "m_Translate": [14, [65.0963287, 3.7944612, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999979, 0.9999979]],
+            "m_Translate": [14, [65.0963287, 2.7944629, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Scale": [14, [0.9999985, 0.9999976, 0.9999976]],
+            "m_Translate": [14, [65.0963287, 1.7944649, 194.6874389]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0, 90.0, -90.0]],
+            "m_Translate": [14, [133.2488555, 15.6839094, 157.5687255]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [180.0, 60.0, 89.9999923]],
+            "m_Translate": [14, [67.5052642, 27.0300407, 137.5169982]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003198, 0.3328385, 0.5000052, 0.055176]],
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000038, 179.9999847]],
+            "m_Translate": [14, [67.9427795, 24.9659442, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000038, 179.9999847]],
+            "m_Scale": [14, [0.9999997, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [67.9427795, 23.9659423, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003198, 0.3328385, 0.5000051, 0.055176]],
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0, 179.9999847]],
+            "m_Scale": [14, [0.9999995, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [67.9427795, 22.9659423, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 40],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0, 179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999989, 0.9999991]],
+            "m_Translate": [14, [67.9427795, 21.9659423, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 41],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000114, 179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999988, 0.9999988]],
+            "m_Translate": [14, [67.9427795, 20.9659442, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.000019, 179.9999847]],
+            "m_Scale": [14, [0.9999988, 0.9999985, 0.9999986]],
+            "m_Translate": [14, [67.9427795, 19.9659461, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
+            "m_PcId": [6, 43],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999986, 0.9999982, 0.9999982]],
+            "m_Translate": [14, [67.9427795, 18.9659481, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 44],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000305, 179.9999847]],
+            "m_Scale": [14, [0.9999982, 0.9999979, 0.9999979]],
+            "m_Translate": [14, [67.9427795, 17.96595, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.000019, 179.9999847]],
+            "m_Scale": [14, [0.9999982, 0.9999976, 0.9999979]],
+            "m_Translate": [14, [67.9427795, 16.9659519, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999979, 0.9999976, 0.9999976]],
+            "m_Translate": [14, [67.9427795, 15.9659538, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999979, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [67.9427795, 14.9659566, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999976, 0.999997, 0.9999973]],
+            "m_Translate": [14, [67.9427795, 13.9659595, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000305, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999969, 0.999997]],
+            "m_Translate": [14, [67.9427795, 12.9659624, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999966, 0.999997]],
+            "m_Translate": [14, [67.9427795, 11.9659643, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003112, 0.3328385, 0.5000052, 0.055177]],
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000305, 179.9999847]],
+            "m_Scale": [14, [0.999997, 0.9999964, 0.9999967]],
+            "m_Translate": [14, [67.9427795, 10.9659681, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003113, 0.3328385, 0.5000052, 0.055177]],
+            "m_PcId": [6, 52],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.000019, 179.9999847]],
+            "m_Scale": [14, [0.9999969, 0.9999961, 0.9999966]],
+            "m_Translate": [14, [67.9427795, 9.9659719, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003198, 0.3328385, 0.5000052, 0.055176]],
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999967, 0.9999958, 0.9999964]],
+            "m_Translate": [14, [67.9427795, 8.9659757, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.0008599, 0.5029357, 0.5079424, 0.0814132]],
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-0.0, -60.0000038, -0.0]],
+            "m_Translate": [14, [67.9427795, 7.96598, 138.1686706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.0003199, 0.3328385, 0.5000053, 0.055176]],
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 89.9999771]],
+            "m_Scale": [14, [0.9999964, 0.9999958, 0.9999961]],
+            "m_Translate": [14, [68.2610931, 7.329359, 138.7200012]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003198, 0.3328385, 0.5000052, 0.055176]],
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 89.9999771]],
+            "m_Scale": [14, [0.9999963, 0.9999955, 0.9999961]],
+            "m_Translate": [14, [68.7610855, 7.32936, 139.586029]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079423, 0.0814132]],
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-0.0, -60.0000038, 179.9999847]],
+            "m_Translate": [14, [69.5793914, 6.6927399, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003141, 0.3328385, 0.5000051, 0.055176]],
+            "m_PcId": [6, 58],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000305, 179.9999847]],
+            "m_Scale": [14, [0.9999961, 0.9999954, 0.9999958]],
+            "m_Translate": [14, [69.5793914, 6.6927399, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.0003141, 0.3328385, 0.5000052, 0.055176]],
+            "m_PcId": [6, 59],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999958, 0.9999951, 0.9999957]],
+            "m_Translate": [14, [69.5793914, 5.6927442, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 60],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000305, 179.9999847]],
+            "m_Scale": [14, [0.9999957, 0.9999948, 0.9999955]],
+            "m_Translate": [14, [69.5793914, 4.692749, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 61],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999955, 0.9999945, 0.9999951]],
+            "m_Translate": [14, [69.5793914, 3.6927542, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.0003198, 0.3328385, 0.5000051, 0.055176]],
+            "m_PcId": [6, 62],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999951, 0.9999942, 0.9999951]],
+            "m_Translate": [14, [69.5793914, 2.6927595, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999951, 0.9999942, 0.9999948]],
+            "m_Translate": [14, [69.5793914, 1.6927652, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0000267, 179.9999847]],
+            "m_Scale": [14, [0.9999948, 0.9999939, 0.9999948]],
+            "m_Translate": [14, [69.5793914, 0.6927707, 141.0033874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 65],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, 30.0, -90.0]],
+            "m_Translate": [14, [33.8782958, 31.1670665, 126.4901275]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.0008599, 0.5029357, 0.5079424, 0.0814132]],
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-0.0, 30.0000038, -0.0]],
+            "m_Translate": [14, [32.4609375, 31.803688, 127.3084411]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 67],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, 30.0, 179.9999847]],
+            "m_Translate": [14, [32.4609375, 31.803688, 127.3084411]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-7.152557373046875e-7, -0.4999952, 0.000317, 0.3328404, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 68],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, 30.0, 179.9999847]],
+            "m_Scale": [14, [0.9999995, 0.8724982, 0.9999994]],
+            "m_Translate": [14, [32.4609375, 32.803688, 127.3084411]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328386, 0.5000053, 0.0551751]],
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, 150.0]],
+            "m_Translate": [14, [32.6528472, 34.0671844, 127.6408309]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999895, 0.000317, 0.3328385, 0.5000071, 0.0551751]],
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, 150.0]],
+            "m_Scale": [14, [0.9999997, 0.9999997, 0.9999994]],
+            "m_Translate": [14, [33.1528472, 34.0671844, 128.5068511]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999995, 0.9999997, 0.9999991]],
+            "m_Translate": [14, [33.4198303, 34.0671844, 130.2425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999989]],
+            "m_Translate": [14, [32.5538024, 34.0671844, 130.7425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.5000066, 0.000317, 0.3328385, 0.500009, 0.0551751]],
+            "m_PcId": [6, 73],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999986]],
+            "m_Translate": [14, [31.6877746, 34.0671844, 131.2425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.5000009, 0.000317, 0.3328385, 0.5000071, 0.055175]],
+            "m_PcId": [6, 74],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999982]],
+            "m_Translate": [14, [30.8217468, 34.0671844, 131.7425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.5000009, 0.000317, 0.3328385, 0.5000071, 0.0551751]],
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999986, 0.9999988, 0.9999982]],
+            "m_Translate": [14, [29.9557189, 34.0671844, 132.2425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.500001, 0.000317, 0.3328385, 0.5000072, 0.0551751]],
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999985, 0.9999985, 0.9999979]],
+            "m_Translate": [14, [29.0896911, 34.0671844, 132.7425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.4999951, 0.000317, 0.3328404, 0.5000051, 0.055175]],
+            "m_PcId": [6, 77],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999982, 0.9999982, 0.9999976]],
+            "m_Translate": [14, [28.2236633, 34.0671844, 133.2425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000066, 0.000317, 0.3328404, 0.500009, 0.0551751]],
+            "m_PcId": [6, 78],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999979, 0.9999979, 0.9999973]],
+            "m_Translate": [14, [27.3576431, 34.0671844, 133.7425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000066, 0.000317, 0.3328404, 0.500009, 0.0551751]],
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999976, 0.9999979, 0.999997]],
+            "m_Translate": [14, [26.4916229, 34.0671844, 134.2425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000009, 0.000317, 0.3328404, 0.5000071, 0.055175]],
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999976, 0.9999976, 0.999997]],
+            "m_Translate": [14, [25.6256027, 34.0671844, 134.7425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000107, -0.5000009, 0.000317, 0.3328404, 0.5000071, 0.0551751]],
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [90.0, -0.000011, -119.9999923]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.9999967]],
+            "m_Translate": [14, [24.7595825, 34.0671844, 135.2425231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.055175]],
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0, 90.0, 89.9999923]],
+            "m_Translate": [14, [-65.426445, 25.4081211, 249.0319519]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_cable_destination_a"],
+            "m_PcId": [6, 83],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000109]],
+            "m_Scale": [14, [0.9999988, 0.9999988, 0.9999988]],
+            "m_Translate": [14, [-25.0735549, 0.1673803, 164.4412078]]
+          },
+          "Fields": {
+            "Number": "a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 84],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -0.0]],
+            "m_Translate": [14, [2.5926361, 17.6368045, 211.6044616]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793544, 0.00086, 0.5029357, 0.5079442, 0.0814132]],
+            "m_PcId": [6, 85],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-89.9999923, -0.0000049, 179.9999847]],
+            "m_Translate": [14, [2.5926361, 17.6368045, 211.6044616]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 86],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999998, 0.9999997, 0.9999994]],
+            "m_Translate": [14, [1.9560165, 17.6368045, 210.9678344]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999994, 0.9999992, 0.9999991]],
+            "m_Translate": [14, [0.3808059, 12.4987306, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 88],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [0.3808059, 11.4987306, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 89],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999988]],
+            "m_Translate": [14, [0.3808059, 10.4987316, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 90],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999986]],
+            "m_Translate": [14, [0.3808059, 9.4987325, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 91],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999988, 0.9999982]],
+            "m_Translate": [14, [0.3808059, 8.4987335, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 92],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999985, 0.9999986, 0.9999982]],
+            "m_Translate": [14, [0.3808059, 7.4987349, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 93],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999982, 0.9999986, 0.9999979]],
+            "m_Translate": [14, [0.3808059, 6.4987363, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 94],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999982, 0.9999985, 0.9999979]],
+            "m_Translate": [14, [0.3808059, 5.4987373, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 95],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999982, 0.9999976]],
+            "m_Translate": [14, [0.3808059, 4.4987387, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 96],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999982, 0.9999973]],
+            "m_Translate": [14, [0.3808059, 3.4987404, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 97],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0000049, 0.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999979, 0.9999973]],
+            "m_Translate": [14, [0.3808059, 2.4987421, 214.9438781]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079423, 0.0814132]],
+            "m_PcId": [6, 100],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
+            "m_Translate": [14, [-0.2558135, 1.4987436, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 101],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Translate": [14, [-0.2558135, 1.4987436, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.055175]],
+            "m_PcId": [6, 102],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999998, 0.9999997, 0.9999994]],
+            "m_Translate": [14, [-1.2558132, 1.4987436, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 103],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999991]],
+            "m_Translate": [14, [-2.2558135, 1.4987436, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 104],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999994, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [-3.2558135, 1.498744, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 105],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999992, 0.9999991, 0.9999986]],
+            "m_Translate": [14, [-4.2558135, 1.4987441, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 106],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999991, 0.9999989, 0.9999982]],
+            "m_Translate": [14, [-5.2558135, 1.4987442, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 107],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999989, 0.9999988, 0.9999982]],
+            "m_Translate": [14, [-6.2558135, 1.4987442, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 108],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999986, 0.9999986, 0.9999979]],
+            "m_Translate": [14, [-7.2558135, 1.4987442, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 109],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999985, 0.9999982, 0.9999976]],
+            "m_Translate": [14, [-8.2558135, 1.4987446, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 110],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999982, 0.9999982, 0.9999973]],
+            "m_Translate": [14, [-9.2558135, 1.4987447, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 111],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [0.9999982, 0.9999979, 0.999997]],
+            "m_Translate": [14, [-10.2558135, 1.4987448, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079424, 0.0814132]],
+            "m_PcId": [6, 112],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -89.9999923]],
+            "m_Scale": [14, [0.9999997, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [-11.2558135, 1.4987448, 215.5805053]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 113],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999979, 0.999997]],
+            "m_Translate": [14, [-11.8924331, 1.4987448, 216.2171173]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 114],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999976, 0.9999976, 0.9999967]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 217.2171173]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 115],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999973, 0.9999976, 0.9999964]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 218.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 116],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999973, 0.9999976, 0.9999961]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 219.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 117],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999958]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 220.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.055175]],
+            "m_PcId": [6, 118],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999955]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 221.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 119],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999967, 0.999997, 0.9999951]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 222.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 120],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999966, 0.999997, 0.9999948]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 223.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 121],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999964, 0.999997, 0.9999945]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 224.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 122],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999961, 0.9999969, 0.9999942]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 225.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 123],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.999996, 0.9999967, 0.9999939]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 226.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.055175]],
+            "m_PcId": [6, 124],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999958, 0.9999966, 0.9999936]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 227.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 125],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999957, 0.9999964, 0.9999933]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 228.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 126],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999955, 0.9999964, 0.999993]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 229.217102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 127],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999951, 0.9999963, 0.9999927]],
+            "m_Translate": [14, [-11.8924331, 1.4987452, 230.2170867]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079424, 0.0814132]],
+            "m_PcId": [6, 128],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-90.0, -0.0000049, 90.0000152]],
+            "m_Scale": [14, [0.9999995, 0.9999994, 0.9999991]],
+            "m_Translate": [14, [-12.5290527, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 129],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999951, 0.999996, 0.9999923]],
+            "m_Translate": [14, [-12.5290527, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 130],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999948, 0.9999957, 0.999992]],
+            "m_Translate": [14, [-13.5290451, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 131],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999948, 0.9999955, 0.9999917]],
+            "m_Translate": [14, [-14.5290374, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 132],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999945, 0.9999951, 0.9999914]],
+            "m_Translate": [14, [-15.5290298, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 133],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999945, 0.9999948, 0.9999911]],
+            "m_Translate": [14, [-16.5290222, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328384, 0.5000051, 0.0551751]],
+            "m_PcId": [6, 134],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999942, 0.9999948, 0.9999908]],
+            "m_Translate": [14, [-17.5290145, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 135],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999939, 0.9999945, 0.9999907]],
+            "m_Translate": [14, [-18.5290069, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999951, 0.000317, 0.3328385, 0.5000051, 0.055175]],
+            "m_PcId": [6, 136],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999939, 0.9999942, 0.9999904]],
+            "m_Translate": [14, [-19.5289993, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 137],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999938, 0.9999939, 0.9999901]],
+            "m_Translate": [14, [-20.5289916, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328384, 0.5000052, 0.055175]],
+            "m_PcId": [6, 138],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999936, 0.9999938, 0.9999898]],
+            "m_Translate": [14, [-21.528984, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 139],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999933, 0.9999936, 0.9999895]],
+            "m_Translate": [14, [-22.528984, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 140],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.9999932, 0.9999933, 0.9999892]],
+            "m_Translate": [14, [-23.528984, 1.4987448, 231.8536987]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1520876, -0.4793487, 0.00086, 0.5029357, 0.5079424, 0.0814132]],
+            "m_PcId": [6, 141],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_corner_a"],
+            "m_Rotate": [14, [-90.0, 0.0, 0.0000135]],
+            "m_Scale": [14, [0.9999992, 0.9999994, 0.9999989]],
+            "m_Translate": [14, [-25.165596, 1.4987448, 231.2170715]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 142],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Scale": [14, [0.3389303, 0.3389303, 0.3389303]],
+            "m_Translate": [14, [-2.0400924, 0.1240046, 215.5776672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 143],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Scale": [14, [0.3389301, 0.3389301, 0.3389301]],
+            "m_Translate": [14, [-3.3415908, 0.1240051, 215.5776672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 144],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Scale": [14, [0.3389301, 0.3389301, 0.3389301]],
+            "m_Translate": [14, [-4.6430892, 0.1240056, 215.5776672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 145],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Scale": [14, [0.33893, 0.33893, 0.3389301]],
+            "m_Translate": [14, [-5.9445877, 0.1240058, 215.5776672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
+            "m_PcId": [6, 146],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Scale": [14, [0.3389298, 0.3389298, 0.33893]],
+            "m_Translate": [14, [-7.2460784, 0.124006, 215.5776672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
+            "m_PcId": [6, 147],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Scale": [14, [0.3389298, 0.3389298, 0.33893]],
+            "m_Translate": [14, [-8.5475692, 0.1240065, 215.5776672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897122, 0.0004996, 1.8364892, 1.9938499, 0.8764854]],
+            "m_PcId": [6, 148],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Scale": [14, [0.3389297, 0.3389297, 0.3389298]],
+            "m_Translate": [14, [-9.8490524, 0.1240068, 215.5776672]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897122, 0.0004996, 1.8364887, 1.9938499, 0.8764854]],
+            "m_PcId": [6, 149],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389297, 0.3389295, 0.3389298]],
+            "m_Translate": [14, [-11.8992538, 0.1240068, 216.8094635]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364886, 1.9938493, 0.8764852]],
+            "m_PcId": [6, 150],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389295, 0.3389295, 0.3389297]],
+            "m_Translate": [14, [-11.8992538, 0.1240072, 218.1109619]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 151],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389295, 0.3389295, 0.3389295]],
+            "m_Translate": [14, [-11.8992538, 0.1240075, 219.412445]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897117, 0.0004996, 1.8364892, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 152],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389295, 0.3389294, 0.3389295]],
+            "m_Translate": [14, [-11.8992538, 0.1240079, 220.7139434]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897122, 0.0004996, 1.8364892, 1.9938499, 0.8764854]],
+            "m_PcId": [6, 153],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389294, 0.3389292, 0.3389294]],
+            "m_Translate": [14, [-11.8992538, 0.1240079, 222.0154266]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364887, 1.9938493, 0.8764851]],
+            "m_PcId": [6, 154],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389294, 0.3389292, 0.3389292]],
+            "m_Translate": [14, [-11.8992538, 0.1240084, 223.316925]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 155],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389292, 0.3389289, 0.3389292]],
+            "m_Translate": [14, [-11.8992538, 0.1240087, 224.6184082]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364886, 1.9938493, 0.8764851]],
+            "m_PcId": [6, 156],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389292, 0.3389289, 0.3389289]],
+            "m_Translate": [14, [-11.8992538, 0.1240091, 225.9198913]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364886, 1.9938493, 0.8764851]],
+            "m_PcId": [6, 157],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389292, 0.3389289, 0.3389289]],
+            "m_Translate": [14, [-11.8992538, 0.1240094, 227.2213745]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897117, 0.0004996, 1.8364887, 1.9938495, 0.8764851]],
+            "m_PcId": [6, 158],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.3389289, 0.3389286, 0.3389289]],
+            "m_Translate": [14, [-11.8992538, 0.1240098, 228.5228576]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004972, 1.9897117, 0.0004996, 1.8364892, 1.9938495, 0.8764852]],
+            "m_PcId": [6, 159],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Rotate": [14, [-180.0, 89.9802169, -180.0]],
+            "m_Scale": [14, [0.3389289, 0.3389286, 0.3389289]],
+            "m_Translate": [14, [-11.8992538, 0.1240101, 229.8243408]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_PcId": [6, 160],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389998, 0.3389998, 0.3390001]],
+            "m_Translate": [14, [-13.1169662, 0.1239999, 231.8306579]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_PcId": [6, 161],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389998, 0.3389998, 0.3389998]],
+            "m_Translate": [14, [-14.4379043, 0.1239999, 231.8306427]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_PcId": [6, 162],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389998, 0.3389998, 0.3389998]],
+            "m_Translate": [14, [-15.7144851, 0.1239999, 231.8306274]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_PcId": [6, 163],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389995, 0.3389995, 0.3389998]],
+            "m_Translate": [14, [-17.0081405, 0.1239999, 231.8306121]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_PcId": [6, 164],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389995, 0.3389995, 0.3389998]],
+            "m_Translate": [14, [-18.3153152, 0.1239999, 231.8305969]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_PcId": [6, 165],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389995, 0.3389995, 0.3389998]],
+            "m_Translate": [14, [-19.6363983, 0.1239999, 231.8305816]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336237, -0.0420081, 1.9089945, 1.5993371, 0.917993]],
+            "m_PcId": [6, 166],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389995, 0.3389995, 0.3389995]],
+            "m_Translate": [14, [-20.9554595, 0.1239999, 231.8305664]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336242, -0.0420081, 1.908995, 1.5993375, 0.9179933]],
+            "m_PcId": [6, 167],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389993, 0.3389993, 0.3389995]],
+            "m_Translate": [14, [-22.2620925, 0.1239999, 231.8305511]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0217546, 2.4336242, -0.0420081, 1.908995, 1.5993375, 0.9179933]],
+            "m_PcId": [6, 168],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_2x_0h_a"],
+            "m_Scale": [14, [0.3389993, 0.3389993, 0.3389995]],
+            "m_Translate": [14, [-23.568489, 0.1239999, 231.8305358]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 169],
+            "m_PrefabName": [12, "rs_bld_ce_a_scaffold_str_custommove_3x_b"],
+            "m_Rotate": [14, [-180.0, -0.0000016, -180.0]],
+            "m_Translate": [14, [168.1151733, 1.0099983, 94.3286666]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 170],
+            "m_PrefabName": [12, "decor_group_backyard_scaffold_c"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [161.6411132, 1.0013816, 93.2893524]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0572599, 1.6952933, -0.017933, 0.1325108, 1.625398, 0.9079995]],
+            "m_PcId": [6, 171],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_add_1x_1h_b"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [161.6485137, 1.001, 95.0443496]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 172],
+            "m_PrefabName": [12, "decor_group_backyard_scaffold_c"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [175.6423187, 1.0013815, 93.3556823]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004971, 1.9897116, 0.0004996, 1.8364886, 1.9938493, 0.8764852]],
+            "m_PcId": [6, 173],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_mid_2x_1h_a"],
+            "m_Translate": [14, [172.9151611, 1.0099933, 94.328659]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0160381, -0.0554587, 0.0004999, 1.8929442, 0.0564587, 0.7364938]],
+            "m_PcId": [6, 174],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_top_2x_a"],
+            "m_Translate": [14, [172.9151611, 4.9515938, 94.328659]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0197544, 1.7228783, 0.0111808, 1.8674763, 1.6419991, 0.1325128]],
+            "m_PcId": [6, 175],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_scaffold_btm_add_2x_1h_b"],
+            "m_Rotate": [14, [-180.0, -0.0000049, -180.0]],
+            "m_Translate": [14, [172.9375457, 0.9391672, 95.0909271]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0133005, 0.0547411, 0.0262629, 0.1376375, 0.0633226, 2.81482]],
+            "m_PcId": [6, 177],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_a"],
+            "m_Translate": [14, [140.9054565, 21.1715641, 118.3604583]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0199679, 0.0223906, -0.0443451, 0.138077, 0.0625393, 2.7964489]],
+            "m_PcId": [6, 178],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_b"],
+            "m_Translate": [14, [141.2556304, 21.2248077, 118.7099075]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0074383, -0.0017799, -0.0178686, 0.1376376, 0.0377799, 1.4373686]],
+            "m_PcId": [6, 179],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_half_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [136.5293273, 21.264347, 121.3469848]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0065187, 0.0005, -0.0075972, 0.1254932, 0.0301822, 1.419097]],
+            "m_PcId": [6, 181],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_half_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [136.4860382, 21.2333679, 120.9735717]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0038134, 0.7657514, 3.1337561, 0.3073571, 0.8265849, 3.1597862]],
+            "m_PcId": [6, 183],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;blp_ce_a_chimney_bench_ramp_a"],
+            "m_Rotate": [14, [-180.0, -0.0000049, -180.0]],
+            "m_Translate": [14, [133.5353088, 8.4554567, 149.6618194]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249338, 0.0004999, 0.0929009, 1.9538378, 1.9522255]],
+            "m_PcId": [6, 184],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [131.1165008, 17.5345726, 151.7960968]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249338, 0.0004999, 0.0929009, 1.9538378, 1.9522255]],
+            "m_PcId": [6, 185],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [127.2765045, 17.5345726, 151.7960968]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249338, 0.0004999, 0.0929009, 1.9538378, 1.9522256]],
+            "m_PcId": [6, 187],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Translate": [14, [132.9577941, 17.5345706, 153.7110137]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
+            "m_PcId": [6, 188],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [-0.0, 30.0000038, -0.0]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [119.9851303, 17.5345687, 126.3902587]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004971, 0.0929009, 1.9538381, 1.9522266]],
+            "m_PcId": [6, 189],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [-180.0, 60.0, -180.0]],
+            "m_Scale": [14, [0.9999995, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [117.4150314, 17.5345668, 125.7589263]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
+            "m_PcId": [6, 190],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999847, 60.0000038, -90.0]],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999991]],
+            "m_Translate": [14, [114.3198242, 17.6050376, 128.0778656]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
+            "m_PcId": [6, 191],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999847, 60.0000038, 179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [110.7639694, 17.5345706, 129.5989379]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249345, 0.0004999, 0.0929009, 1.9538385, 1.9522261]],
+            "m_PcId": [6, 192],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [-179.9999847, 75.0, 89.9999465]],
+            "m_Scale": [14, [0.9999989, 0.9999988, 0.9999989]],
+            "m_Translate": [14, [118.9008636, 13.8159952, 143.6924591]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929012, 1.9538381, 1.9522256]],
+            "m_PcId": [6, 193],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999847, 60.0, 179.9999847]],
+            "m_Scale": [14, [0.9999988, 0.9999982, 0.9999986]],
+            "m_Translate": [14, [122.8296813, 13.7080907, 142.8173828]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0005028, 0.0929012, 1.9538381, 1.9522266]],
+            "m_PcId": [6, 194],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999847, 60.0000114, 179.9999847]],
+            "m_Scale": [14, [0.9999986, 0.9999982, 0.9999985]],
+            "m_Translate": [14, [126.1552124, 13.7080898, 140.8973846]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249345, 0.0004984, 0.0929011, 1.9538385, 1.9522265]],
+            "m_PcId": [6, 195],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999542, -29.9999961, 179.9999847]],
+            "m_Scale": [14, [0.9999982, 0.9999979, 0.9999982]],
+            "m_Translate": [14, [130.1362304, 13.7080869, 136.3614349]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929011, 1.9538381, 1.9522256]],
+            "m_PcId": [6, 196],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999237, -60.0, 179.9999694]],
+            "m_Scale": [14, [0.9999982, 0.9999976, 0.9999982]],
+            "m_Translate": [14, [124.0901718, 13.7080802, 130.7696533]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249338, 0.0005013, 0.0929009, 1.9538378, 1.9522259]],
+            "m_PcId": [6, 197],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999389, -45.0, 89.9999694]],
+            "m_Scale": [14, [0.9999982, 0.9999976, 0.9999982]],
+            "m_Translate": [14, [127.4160308, 13.8316612, 133.5457916]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249323, 0.0004999, 0.0929009, 1.9538383, 1.9522255]],
+            "m_PcId": [6, 198],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [179.9999847, 45.0000076, 89.9999618]],
+            "m_Scale": [14, [0.9999979, 0.9999976, 0.9999979]],
+            "m_Translate": [14, [129.1378784, 13.831664, 138.8465576]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.0249314, 0.0004999, 0.092901, 1.9538393, 1.9522261]],
+            "m_PcId": [6, 199],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [0.0000013, -15.0000019, 90.0]],
+            "m_Scale": [14, [0.9999995, 0.9999997, 0.9999994]],
+            "m_Translate": [14, [132.4353179, 17.626728, 157.5510101]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
+            "m_PcId": [6, 200],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
+            "m_Rotate": [14, [0.0000013, 15.0000019, 90.0]],
+            "m_Scale": [14, [0.9999992, 0.9999995, 0.9999992]],
+            "m_Translate": [14, [121.2335281, 17.6398506, 130.1035308]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0904971, 0.0005, 0.0004999, 0.0905027, 0.0871088, 0.8255006]],
+            "m_PcId": [6, 204],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;gre_climb_tower_ledge_short"],
+            "m_Rotate": [14, [-180.0, -30.0, -180.0]],
+            "m_Translate": [14, [44.2240028, 13.4678592, 131.8807678]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0133005, 0.0547411, 0.0262629, 0.1376375, 0.0633226, 2.81482]],
+            "m_PcId": [6, 206],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_a"],
+            "m_Rotate": [14, [-0.0, -29.999998, -0.0]],
+            "m_Translate": [14, [44.3705978, 13.5478916, 131.7393188]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0199679, 0.0223906, -0.0443451, 0.138077, 0.0625393, 2.7964489]],
+            "m_PcId": [6, 207],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_b"],
+            "m_Rotate": [14, [-179.9999847, 30.0000076, -179.9999847]],
+            "m_Translate": [14, [44.7528839, 13.5922107, 131.9993591]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999952, 0.000317, 0.3328385, 0.5000052, 0.0551751]],
+            "m_PcId": [6, 208],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0, 30.0, -90.0]],
+            "m_Translate": [14, [36.3636016, 13.5242595, 123.5340576]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1000708, 1.1267797, 0.2338122, 0.2809375, 1.1467797, 0.4661846]],
+            "m_Name": [12, "rs_q3_door_button"],
+            "m_PcId": [6, 209],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_SwitchButton"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-25.2012405, 0.0728593, 162.5066986]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1199543, 0.7078317, 0.5194039, 0.7310395, 0.7532337, 0.5244039]],
+            "m_PcId": [6, 210],
+            "m_PrefabName": [12, "skinned_mesh"],
+            "m_PresetNames": [12, "SkinnedMeshes;guide_cable_generator_plug_anm"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-25.2646102, 0.1552554, 164.3565673]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "10251"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4181495, -0.0718194, 0.4430958, 0.4171636, 0.6302874]],
+            "m_PcId": [6, 211],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;generator_portable"],
+            "m_Translate": [14, [-24.8462448, 0.1577717, 165.6367645]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "8203"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 212],
+            "m_PrefabName": [12, "wall_decal_painted"],
+            "m_PresetNames": [12, "Wall_Decal_Painted_skin;a;Generic_prop_color;Gray_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.2557545, 0.2557544, 0.2557544]],
+            "m_Translate": [14, [-25.1736526, 1.9299354, 162.5115661]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 216],
+            "m_PrefabName": [12, "rs_parkour_cable_arrows"],
+            "m_Translate": [14, [167.7121276, 1.056342, 97.5477218]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999894, 0.000317, 0.3328385, 0.500007, 0.055175]],
+            "m_PcId": [6, 217],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [0.0, 90.0, -90.0]],
+            "m_Translate": [14, [144.3825988, 23.0468673, 108.0758209]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 218],
+            "m_PrefabName": [12, "rs_corner_plank_roof"],
+            "m_Translate": [14, [144.4077758, 24.4750041, 108.5949859]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0199679, 0.0223892, -0.044348, 0.138077, 0.0625399, 2.7964498]],
+            "m_PcId": [6, 219],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_b"],
+            "m_Rotate": [14, [20.7535724, 43.0795249, -14.5108203]],
+            "m_Translate": [14, [153.1139221, 11.6494064, 104.0804748]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0133005, 0.0547396, 0.0262601, 0.1376377, 0.0633232, 2.814821]],
+            "m_PcId": [6, 220],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_interaction_plank_a"],
+            "m_Rotate": [14, [20.7535705, 43.0795288, -14.5108222]],
+            "m_Translate": [14, [152.6547851, 11.638709, 104.3209075]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, -0.4999953, 0.000317, 0.3328385, 0.5000053, 0.0551751]],
+            "m_PcId": [6, 221],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [179.9999847, 60.0, 90.0000076]],
+            "m_Translate": [14, [45.6183815, 30.7034473, 119.0705871]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0241582, -0.2525593, 0.0617544, 0.7829706, 0.3166849, 0.1612074]],
+            "m_PcId": [6, 222],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prkr_marking_ledge_short_a"],
+            "m_Rotate": [14, [-180.0, -15.0000066, -180.0]],
+            "m_Translate": [14, [31.9465713, 28.9354419, 122.4629745]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0241582, -0.2525593, 0.0617487, 0.7829706, 0.3166849, 0.1612055]],
+            "m_PcId": [6, 223],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prkr_marking_ledge_short_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000016, 179.9999847]],
+            "m_Translate": [14, [30.7906341, 24.5512084, 117.7779235]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 224],
+            "m_PrefabName": [12, "rs_corner_plank_roof"],
+            "m_Rotate": [14, [-0.0, 30.0000038, -0.0]],
+            "m_Translate": [14, [24.8039855, 37.5839462, 135.0164794]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 225],
+            "m_PrefabName": [12, "rs_corner_plank_roof"],
+            "m_Rotate": [14, [-0.0, -0.0000016, -0.0]],
+            "m_Translate": [14, [1.5038299, 21.2163753, 212.0682067]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 226],
+            "m_PrefabName": [12, "rs_plank_roof_str"],
+            "m_Rotate": [14, [-0.0, -0.0000016, -0.0]],
+            "m_Translate": [14, [133.2075042, 17.094614, 159.2074584]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 227],
+            "m_PrefabName": [12, "rs_plank_roof_str"],
+            "m_Rotate": [14, [-180.0, -30.0000038, -180.0]],
+            "m_Scale": [14, [0.9999995, 0.9999997, 0.9999994]],
+            "m_Translate": [14, [45.4511833, 32.1553764, 118.7635345]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 228],
+            "m_PrefabName": [12, "rs_plank_roof_str"],
+            "m_Rotate": [14, [-179.9999847, 60.0000114, 179.9999847]],
+            "m_Translate": [14, [35.2094421, 32.4230117, 125.7225036]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 229],
+            "m_PrefabName": [12, "rs_plank_roof_str"],
+            "m_Rotate": [14, [-0.0000024, -0.0000033, 0.0000043]],
+            "m_Translate": [14, [-65.4713668, 27.2630481, 249.5254516]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 230],
+            "m_PrefabName": [12, "rs_plank_roof_str"],
+            "m_Rotate": [14, [-0.0000024, -0.0000033, 0.0000043]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [-25.2253494, 3.8226695, 164.4953002]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 231],
+            "m_PrefabName": [12, "rs_plank_roof_str"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999992]],
+            "m_Translate": [14, [-26.6863937, 3.418107, 231.6300659]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0241582, -0.2525593, 0.0617487, 0.7829706, 0.3166849, 0.1612055]],
+            "m_PcId": [6, 232],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prkr_marking_ledge_short_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-20.7594833, 5.0882544, 232.6053466]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0241582, -0.2525593, 0.0617487, 0.7829706, 0.3166849, 0.1612055]],
+            "m_PcId": [6, 233],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prkr_marking_ledge_short_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-20.901596, 12.402318, 232.6053314]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0241582, -0.2525593, 0.0617487, 0.7829706, 0.3166849, 0.1612055]],
+            "m_PcId": [6, 234],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prkr_marking_ledge_short_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999995, 0.9999997, 0.9999992]],
+            "m_Translate": [14, [-23.1556167, 8.5464973, 232.6053161]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0241582, -0.2525593, 0.0617487, 0.7829706, 0.3166849, 0.1612055]],
+            "m_PcId": [6, 235],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prkr_marking_ledge_short_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999991]],
+            "m_Translate": [14, [-21.39608, 16.4265766, 232.6053009]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1000708, 1.1267797, 0.2338122, 0.2809375, 1.1467797, 0.4661846]],
+            "m_Name": [12, "rs_q3_door_button_shut"],
+            "m_PcId": [6, 236],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_SwitchButton"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-27.3969955, 0.0728593, 162.5066833]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_1_sparks_1"],
+            "m_PcId": [6, 237],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [144.4380798, 23.0390148, 108.5185089]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_2_sparks_1"],
+            "m_PcId": [6, 238],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [133.3043365, 15.7030544, 158.1052093]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_4_sparks_1"],
+            "m_PcId": [6, 239],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [67.8496017, 27.0222434, 138.0024261]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_5_sparks_1"],
+            "m_PcId": [6, 240],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [45.8338203, 30.7181091, 119.5534362]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_7_sparks_1"],
+            "m_PcId": [6, 241],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [32.6574096, 31.2975845, 127.1316528]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_6_sparks_1"],
+            "m_PcId": [6, 242],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [35.8612289, 13.5546798, 123.7607498]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_7_sparks_2"],
+            "m_PcId": [6, 243],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [33.1835556, 34.1220436, 128.5601043]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_7_sparks_3"],
+            "m_PcId": [6, 244],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [31.4180679, 34.1220436, 131.4121093]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_7_sparks_4"],
+            "m_PcId": [6, 245],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [28.4167633, 34.1220436, 133.1509857]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_1"],
+            "m_PcId": [6, 246],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [2.6061477, 17.6922874, 212.0838928]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_2"],
+            "m_PcId": [6, 247],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [0.3820114, 9.4946966, 214.9993591]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_3"],
+            "m_PcId": [6, 248],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [0.3915405, 5.6003684, 214.9993591]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_4"],
+            "m_PcId": [6, 249],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [-6.8002853, 1.5542261, 215.578186]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_5"],
+            "m_PcId": [6, 250],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [-11.7303009, 1.5542265, 215.843811]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_6"],
+            "m_PcId": [6, 251],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [-11.8848419, 1.5542271, 224.2607574]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_7"],
+            "m_PcId": [6, 252],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [-12.0577621, 1.5542263, 231.6197814]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_8"],
+            "m_PcId": [6, 253],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_01_a"],
+            "m_Translate": [14, [-18.8267593, 1.5542263, 231.8563842]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_8_sparks_9"],
+            "m_PcId": [6, 254],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [-24.2977371, 1.5542262, 231.8546295]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_cable_destination_9_sparks_1"],
+            "m_PcId": [6, 255],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;sparks_loop_02_b"],
+            "m_Translate": [14, [-65.3709487, 25.4484825, 248.4873352]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

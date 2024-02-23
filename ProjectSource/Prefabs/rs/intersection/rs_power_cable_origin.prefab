@@ -1,0 +1,51 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.6689102, 0.7552518, 0.4783345, 1.6256741, 0.7552521, 0.497947]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_container_addon_generator_big"],
+            "m_Rotate": [14, [179.9999847, -0.0000049, 179.9999847]],
+            "m_Scale": [14, [1.5469988, 1.5469988, 1.5469988]],
+            "m_Translate": [14, [-0.104523, 0.0, 0.549637]]
+          },
+          "Fields": {
+            "SkinName": "Military_Blue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0536323, 0.9100786, 0.2484991, 0.1461239, 0.9300786, 0.2684991]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_electric_lever_b;SwitchNoise;On"],
+            "m_Rotate": [14, [179.9999847, 0.0000051, 179.9999847]],
+            "m_Translate": [14, [4.2724761, 0.000397, -0.8695907]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "3",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 1.9199998, 0.319, 0.9629998, 1.9224998, 0.0064999]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_wall_str_mid_1x1h_a_em"],
+            "m_Translate": [14, [-0.9601724, 0.0, 0.0003505]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 1.9199998, 0.319, 0.9629998, 1.9224998, 0.0064999]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_wall_str_mid_1x1h_a_em"],
+            "m_Translate": [14, [0.9598274, 0.0, 0.0003505]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

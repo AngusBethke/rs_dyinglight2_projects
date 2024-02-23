@@ -1,0 +1,128 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeRailing",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeRailing;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "IncludeRailing"
+              },
+              {
+                "Uuid": "6",
+                "Name": "IncludeRailing"
+              },
+              {
+                "Uuid": "8",
+                "Name": "IncludeRailing"
+              },
+              {
+                "Uuid": "10",
+                "Name": "IncludeRailing"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Corner"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing_corner"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000038, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 6, 8, 10, 13, 15],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Straight"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing_straight"],
+            "m_Translate": [14, [-0.0000038, 0.0, 0.0]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "End"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing_end"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000038, 0.0, 0.0]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "TJunction"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing_tjunction"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000038, 0.0, 0.0]]
+          },
+          "Fields": {
+            "SELECTOR": "",
+            "IncludeRailing": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "4Way"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing_4way"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000038, 0.0, -0.0000024]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Stairs"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing_stairs"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000038, 0.0, 0.0]]
+          },
+          "Fields": {
+            "IncludeRailing": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

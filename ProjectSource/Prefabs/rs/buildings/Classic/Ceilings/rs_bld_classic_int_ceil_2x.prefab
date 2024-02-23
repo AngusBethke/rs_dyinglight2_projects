@@ -1,0 +1,82 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Ceiling",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "Ceiling"
+              },
+              {
+                "Uuid": "7",
+                "Name": "Ceiling"
+              }
+            ]
+          },
+          {
+            "Name": "CeilingType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:CeilingType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x_a"],
+            "m_Translate": [14, [0.0000038, 0.0, -9.5367431640625e-7]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 5, 7],
+            "m_PcId": [6, 4]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "_Empty"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-0.3288021, -0.0002579, 1.6241798]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Damaged"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x_damaged"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
+            "m_Translate": [14, [-0.0000038, -0.0000027, -0.0000038]]
+          },
+          "Fields": {
+            "Ceiling": "Default"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

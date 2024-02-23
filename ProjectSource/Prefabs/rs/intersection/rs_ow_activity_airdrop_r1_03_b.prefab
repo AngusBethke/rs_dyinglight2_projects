@@ -1,0 +1,91 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "container"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "gre_container_temp"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [3.8579099, -3.1212689, -1.753113]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1560599, -0.0, 0.0709443, 0.160738, 0.0706687]],
+            "m_Name": [12, "inhibitor"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "inhibitor_collectable"],
+            "m_Rotate": [14, [0.0001747, 84.5, -0.0002387]],
+            "m_Scale": [14, [0.9999999, 0.9999998, 0.9999988]],
+            "m_Translate": [14, [-61.8579635, -29.7261428, 17.6722927]]
+          },
+          "Fields": {
+            "m_CollectableName": "Bundle_Inhibitors_Q_GettingStronger"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "do"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "detectableobject"],
+            "m_Rotate": [14, [-0.0, -14.9999961, -0.0]],
+            "m_Scale": [14, [5.4458007, 5.4188199, 8.593152]],
+            "m_Translate": [14, [0.8067628, -2.9051589, -0.8891599]]
+          },
+          "Fields": {
+            "DetetcableSkinName": "Detectable",
+            "cbs::IEnable::m_State": "1",
+            "m_DetectableAreaObject": "/~22",
+            "m_ObjectName": "&Airdrop&"
+          },
+          "EmbeddedObject": {
+            "Class": "Locations::Logic::DetectableLocationLogic",
+            "DestinationField": "m_LogicPreset",
+            "Fields": {
+              "m_ActivityName": "",
+              "m_AreaMode": "None",
+              "m_LocCategory": "Neutral",
+              "m_LocType": "facility_airdrop_inactive",
+              "m_MapDescription": ""
+            }
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.0595703, -0.0006254, 1.5099487, 2.9904785, 0.5006254, 2.9869384]],
+            "m_Name": [12, "PinlockShape"],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "area"],
+            "m_Rotate": [14, [-179.9998626, -76.5000228, -179.9998931]],
+            "m_Scale": [14, [0.9999989, 1.0, 0.9999989]],
+            "m_Translate": [14, [2.935913, 0.0000079, 0.5855708]]
+          },
+          "Fields": {
+            "m_AreaPoints": "1.930908 -0.500107 -1.314819;1.863770 -0.500000 4.496887;-4.049316 -0.500549 4.474243;-4.050049 -0.501251 -1.476990;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0030722, 0.1029415, 0.0829977, 4.0003943, 3.4163413, 2.9458045]],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;parachute_c"],
+            "m_Rotate": [14, [0.0, -15.0000085, -15.0000085]],
+            "m_Translate": [14, [2.3835449, -5.6063838, 1.747681]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

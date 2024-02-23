@@ -1,0 +1,198 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "WallSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "2",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "3",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "5",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "6",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "7",
+                "Name": "WallSkin"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 1.9205019, 1.1715033, 2.8997933, 1.9402992, 1.0685026]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_oriel_str_mid_3x1h_a"],
+            "m_Translate": [14, [0.0002149, -9.5367431640625e-7, 0.0003957]]
+          },
+          "Fields": {
+            "SkinName": "R1_generic_a_4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 1.9199999, 0.319, 0.9629999, 1.9225, 0.0064999]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_wall_str_mid_1x1h_a_em"],
+            "m_Scale": [14, [0.4999996, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [-3.3599967, 0.0, 0.0000019]]
+          },
+          "Fields": {
+            "SkinName": "R1_generic_a_4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 1.9199999, 0.319, 0.9629999, 1.9225, 0.0064999]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_wall_str_mid_1x1h_a_em"],
+            "m_Scale": [14, [0.4999996, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [3.3600025, 0.0, 0.0000019]]
+          },
+          "Fields": {
+            "SkinName": "R1_generic_a_4"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 5, 6, 7],
+            "m_PcId": [6, 4]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Door"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_door"],
+            "m_RandomizationWeight": [6, 10],
+            "m_Translate": [14, [-0.0000019, 4.76837158203125e-7, 1.9199999]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Wall"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_wall"],
+            "m_RandomizationWeight": [6, 40],
+            "m_Translate": [14, [-0.0000019, 4.76837158203125e-7, 1.9199999]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Window"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_window"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000019, 4.76837158203125e-7, 1.9199999]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor_oriel_floor_greenery"],
+            "m_Translate": [14, [-0.0000019, 4.76837158203125e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor_oriel_floor_top_ledge"],
+            "m_Translate": [14, [-0.0000019, 4.76837158203125e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Scale": [14, [7.7768788, 3.8785338, 12.5478544]],
+            "m_Translate": [14, [-0.000288, 1.8787312, 0.2416839]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5000001, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [2.2503495, 3.8785333, 12.5478506]],
+            "m_Translate": [14, [-1.8454761, 1.8787317, 1.071678]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [2.250349, 3.8785328, 12.5478477]],
+            "m_Translate": [14, [1.9423656, 1.8787317, 1.071678]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.5000001, 0.0049999]],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-90.0, 0.0000049, -90.0]],
+            "m_Scale": [14, [2.2503485, 3.8785324, 12.5478448]],
+            "m_Translate": [14, [-0.00506, 3.6853666, 1.071678]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

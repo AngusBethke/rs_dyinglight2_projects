@@ -1,0 +1,131 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000114, 0.5, 0.0000057, 0.5000038, 0.5, 0.5000019]],
+            "m_Name": [12, "banshee_2"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_9"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [-2.8478159, 0.0, 8.1412811]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_ForcedTargetMode": "NearestPlayerCannotLose",
+            "m_NumOfAIsToSpawn": "1",
+            "m_Preset": "Character;Banshee_Sun_Immune",
+            "m_PresetPoolName": ""
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_9",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
+            "m_Name": [12, "banshee_1"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_9"],
+            "m_Rotate": [14, [-0.0, -45.0000038, 0.000007]],
+            "m_Scale": [14, [1.0, 1.0, 0.9999989]],
+            "m_Translate": [14, [2.847809, -0.0000019, -8.1412811]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_ForcedTargetMode": "NearestPlayerCannotLose",
+            "m_NumOfAIsToSpawn": "1",
+            "m_PointsSource": "8",
+            "m_Preset": "Character;Banshee_Sun_Immune",
+            "m_PresetPoolName": ""
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_9",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.4999999, 0.4999999, 0.5]],
+            "m_Name": [12, "demolisher_1"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_9"],
+            "m_Rotate": [14, [0.0000223, 1.0895871582761174e-7, -0.0000223]],
+            "m_Translate": [14, [-16.6546707, -15.975914, 106.8966445]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_NumOfAIsToSpawn": "1",
+            "m_Preset": "Character;Demolisher_EndGame_Elite",
+            "m_PresetPoolName": ""
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_9",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5000001]],
+            "m_Name": [12, "goon_2"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_Rotate": [14, [-179.9999847, 30.0000038, 179.9999694]],
+            "m_Translate": [14, [120.3349609, -15.975914, -5.5217056]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_NumOfAIsToSpawn": "1",
+            "m_Preset": "Character;Goon_EndGame_Elite",
+            "m_PresetPoolName": ""
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.5, 0.4999999, 0.4999999]],
+            "m_Name": [12, "goon_1"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000043]],
+            "m_Translate": [14, [131.1052551, -15.9759073, -11.5079116]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_NumOfAIsToSpawn": "1",
+            "m_Preset": "Character;Goon_EndGame_Elite",
+            "m_PresetPoolName": ""
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

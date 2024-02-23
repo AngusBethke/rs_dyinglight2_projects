@@ -1,0 +1,86 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "m_RequiredActivator",
+            "Init": "e:EDIT|BROWSE_OBJECT;f:EDIT;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "m_RequiredActivator"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Enabled"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "bdp_connector_zipline_ungrabbable_end"]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 3, 5],
+            "m_PcId": [6, 2]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Disabled"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "zone_level_spawner"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Seed": [6, 1527639638]
+          },
+          "Fields": {
+            "Variant1": "Disabled",
+            "Variant2": "Enabled",
+            "Variant3": "Upgraded",
+            "m_SecondaryZoneLevel": "Plus7",
+            "m_ZoneLevelActivator": "Plus1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Upgraded"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "bdp_connector_2s_zipline_start_ungrabbable"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

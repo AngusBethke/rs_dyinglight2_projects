@@ -1,0 +1,64 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Bed;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 10, 11, 12],
+            "m_PcId": [6, 9]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bed A"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_bed_b"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0000032, 0.0, -0.0003382]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bed C"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_bed_d"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0000032, 0.0, -0.0003382]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bed B"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_bed_c"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0000032, 0.0, -0.0003382]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

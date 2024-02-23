@@ -1,0 +1,56 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "IncludeBase",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeBase;c:Cliff;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_cliff_shelf_base"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0, 0.0, -0.0004801]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 5],
+            "m_PcId": [6, 4]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "empty"],
+            "m_Translate": [14, [0.0, 0.0, -0.0004801]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

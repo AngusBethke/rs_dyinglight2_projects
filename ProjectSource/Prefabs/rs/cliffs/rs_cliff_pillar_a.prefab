@@ -1,0 +1,104 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "14",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "SELECTOR_A",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "15",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "SELECTOR_A_A",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_cliff_pillar_base"],
+            "m_Seed": [6, 3361897204],
+            "m_Translate": [14, [0.0, -0.5759828, -0.0270917]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_cliff_pillar_base"],
+            "m_Rotate": [14, [-0.0, 0.0, -179.9999847]],
+            "m_Seed": [6, 2058836530],
+            "m_Translate": [14, [-0.0000304, 40.0584106, -0.0270996]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_cliff_pillar_a_main"],
+            "m_Seed": [6, 223934584],
+            "m_Translate": [14, [0.1256103, 19.6113853, -0.3693237]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 13],
+            "m_PcId": [6, 14]
+          },
+          "Presets": [
+            [13, "rs_cave_y_axis_randomizer"]
+          ]
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 6],
+            "m_PcId": [6, 15]
+          },
+          "Presets": [
+            [6, "rs_cave_y_axis_randomizer"]
+          ]
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 5],
+            "m_PcId": [6, 16]
+          },
+          "Presets": [
+            [5, "rs_cave_y_axis_randomizer"]
+          ]
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

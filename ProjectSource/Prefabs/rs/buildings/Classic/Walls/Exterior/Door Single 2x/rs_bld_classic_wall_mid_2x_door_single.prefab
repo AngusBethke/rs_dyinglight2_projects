@@ -1,0 +1,208 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Style",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;c:Architecture;l:Style;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "DoorBlockStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:DoorBlockStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "SELECTOR"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "20",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "21",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "22",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "LedgeStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "23",
+                "Name": "LedgeStyle"
+              }
+            ]
+          },
+          {
+            "Name": "LedgeIncludeIvy",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeIncludeIvy;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "23",
+                "Name": "LedgeIncludeIvy"
+              }
+            ]
+          },
+          {
+            "Name": "BalconyStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:BalconyStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "23",
+                "Name": "BalconyStyle"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeOccluder",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeOccluder;c:Performance;",
+            "DestinationFields": [
+              {
+                "Uuid": "15",
+                "Name": "SELECTOR"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeDoor",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeDoor;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "13",
+                "Name": "SELECTOR"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 20, 21, 22],
+            "m_PcId": [6, 1]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_2x_door_single_blockage"],
+            "m_Rotate": [14, [-180.0, -0.0000223, -180.0]],
+            "m_Scale": [14, [1.0000013, 1.0000013, 1.0000027]],
+            "m_Translate": [14, [0.0, 0.0, -0.0000625]]
+          },
+          "Fields": {
+            "DoorframeStyle": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_door_single_door"],
+            "m_Translate": [14, [-0.0004108, 1.043081283569336e-7, 0.0000038]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_occluder"],
+            "m_Translate": [14, [0.0, 0.0, -0.0000019]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004842, 1.5926849, 0.1204886, 0.8282, 1.6026849, 0.2004999]],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_windowvoid_l_a"],
+            "m_Translate": [14, [-0.0004108, 1.043081283569336e-7, 0.0000038]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Flat"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_door_single_a"]
+          },
+          "Fields": {
+            "WallSkin": "Default",
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Round"],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_door_single_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0, 0.0, -0.0000019]]
+          },
+          "Fields": {
+            "WallSkin": "Default",
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Simple"],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_door_single_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0, 0.0, -0.0000019]]
+          },
+          "Fields": {
+            "WallSkin": "Default",
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge"],
+            "m_Translate": [14, [-0.0004108, 1.0803341865539551e-7, 0.0000027]]
+          },
+          "Fields": {
+            "LedgeStyle": "Balcony"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

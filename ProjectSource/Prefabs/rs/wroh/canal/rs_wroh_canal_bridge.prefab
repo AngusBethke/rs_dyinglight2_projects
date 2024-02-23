@@ -1,0 +1,812 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "SELECTOR_A",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "93",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.2628808, -1.3117575, 0.3330936, 11.5205192, 3.9406719, 11.841403]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;canal_module_bridge_a"],
+            "m_Rotate": [14, [-0.0, -0.0000049, -0.0]],
+            "m_Translate": [14, [-0.0000115, -2.4019927, -0.3300018]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004885, -0.1694999, 0.0004999, 0.9655038, 0.1705, 0.1805]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7499996, 1.7499996, 1.749999]],
+            "m_Translate": [14, [10.3199958, 0.1669998, 3.3559188]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004885, -0.1694999, 0.0004999, 0.9655038, 0.1705, 0.1805]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7500003, 1.7500003, 1.7500007]],
+            "m_Translate": [14, [10.3199958, 0.1669998, -6.7114257]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004885, -0.1694999, 0.0004999, 0.9655039, 0.1705, 0.1805]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7500001, 1.7500001, 1.7500002]],
+            "m_Translate": [14, [10.3199958, 0.1669998, -3.3566055]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004885, -0.1694999, 0.0004999, 0.9655038, 0.1705, 0.1805]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7499996, 1.7499996, 1.7499996]],
+            "m_Translate": [14, [10.3199958, 0.1669998, 0.0029144]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004885, -0.1694999, 0.0004999, 0.9655039, 0.1705, 0.1805]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7499994, 1.7499994, 1.7499984]],
+            "m_Translate": [14, [10.3199958, 0.1669998, 6.7091827]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, -0.1695, 0.0004999, 0.9655001, 0.1705, 0.1805]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [-0.0, 89.9802169, -0.0]],
+            "m_Scale": [14, [1.749999, 1.749999, 1.7499982]],
+            "m_Translate": [14, [-9.6372222, 0.1669998, 6.7091827]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, -0.1694999, 0.0004999, 0.9655001, 0.1705, 0.1805]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7499994, 1.7499994, 1.7499984]],
+            "m_Translate": [14, [-9.6372222, 0.1669998, 3.3559188]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, -0.1694999, 0.0005006, 0.9655, 0.1705, 0.1805002]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7499996, 1.7499996, 1.749999]],
+            "m_Translate": [14, [-9.6372222, 0.1669998, 0.0029144]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, -0.1694999, 0.0004999, 0.9655, 0.1705, 0.1805]],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7499996, 1.7499996, 1.7499996]],
+            "m_Translate": [14, [-9.6372222, 0.1669998, -3.3566055]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, -0.1694999, 0.0004999, 0.9655003, 0.1705, 0.1805]],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_pillar_beam_1x_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [1.7500002, 1.7500002, 1.7500002]],
+            "m_Translate": [14, [-9.6372222, 0.1669998, -6.7114257]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_wroh_canal_bridge_support"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [3.0962448, -0.9391555, -0.0016098]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_wroh_canal_bridge_support"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-2.4146041, -0.9391555, -0.0016098]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [3.8404731, -1.2471826, 0.0004997, 3.8404922, 1.2990747, 9.9820146]],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bridge_ce_a_framework_span_d_btm"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999998, 0.7499998, 0.9999997]],
+            "m_Translate": [14, [0.3409996, -0.4641264, 7.9067611]]
+          },
+          "Fields": {
+            "SkinName": "Green/Yellow"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [3.8404731, -1.2471826, 0.0004997, 3.8404922, 1.2990747, 9.9820156]],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bridge_ce_a_framework_span_d_btm"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999998, 0.75, 1.0]],
+            "m_Translate": [14, [0.3409996, -0.4641264, 0.2367171]]
+          },
+          "Fields": {
+            "SkinName": "Green/Yellow"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000067, 179.9999847]],
+            "m_Translate": [14, [4.1421813, -0.6377487, 6.6846923]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000067, 179.9999847]],
+            "m_Translate": [14, [0.4026794, -0.6377562, 6.6846923]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000067, 179.9999847]],
+            "m_Translate": [14, [-3.591278, -0.6377562, 6.6846923]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [-0.0000223, 0.0000016, 0.0000223]],
+            "m_Translate": [14, [-3.5064849, -0.6377562, 8.1340637]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [-0.0000223, 0.0000016, 0.0000223]],
+            "m_Translate": [14, [0.2330168, -0.6377562, 8.1340637]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [-0.0000223, 0.0000016, 0.0000223]],
+            "m_Translate": [14, [4.2269744, -0.6377562, 8.1340942]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [-0.0000223, 0.0000016, 0.0000223]],
+            "m_Translate": [14, [0.2330168, -0.6377639, -6.5559997]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000067, 179.9999847]],
+            "m_Translate": [14, [4.1421813, -0.6377639, -8.005371]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000067, 179.9999847]],
+            "m_Translate": [14, [0.4026794, -0.6377639, -8.005371]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000067, 179.9999847]],
+            "m_Translate": [14, [-3.591278, -0.6377639, -8.005371]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [-0.0000223, 0.0000016, 0.0000223]],
+            "m_Translate": [14, [-3.5064849, -0.6377639, -6.5559997]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0028648, 0.3128949, 0.0054244, 2.3963012, 0.4326823, 0.8390791]],
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prologue_forest_embankment_a"],
+            "m_Rotate": [14, [-0.0000223, 0.0000016, 0.0000223]],
+            "m_Translate": [14, [4.2269744, -0.6377716, -6.5559692]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0107278, -1.689804, 0.1281808, 4.0195636, 2.0207915, 0.3877894]],
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_4x_1h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [10.6223144, 0.1669998, 3.4057922]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0295224, -1.2631537, 0.179757, 3.8590741, 1.4241479, 0.4302302]],
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_4x_0h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999995, 0.9999997, 0.9999992]],
+            "m_Translate": [14, [10.6223144, 0.1669998, -3.8818969]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0107278, -1.689804, 0.1281808, 4.0195636, 2.0207915, 0.3877894]],
+            "m_PcId": [6, 31],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_4x_1h_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999995, 0.9999998, 0.9999994]],
+            "m_Translate": [14, [-9.8758392, 0.1669998, -3.5344543]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0295224, -1.2631537, 0.179757, 3.8590741, 1.4241479, 0.4302303]],
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_4x_0h_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-9.8759918, 0.1669998, 3.6174621]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "rs_wroh_canal_bridge_top"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000912, 0.0000038, -0.0000304]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 69, 72, 74],
+            "m_PcId": [6, 71]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Half"],
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "rs_wroh_canal_bridge_half"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0000912, 0.0000038, -0.0000304]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "_Empty"],
+            "m_PcId": [6, 74],
+            "m_PrefabName": [12, "empty"],
+            "m_Translate": [14, [-0.0000912, 0.0000038, -0.0000304]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.9594991, -0.0077499, -0.9595001, 0.9615533, 0.0122499, 0.9615523]],
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;backyard_floor_1x1_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [3.7900021, 1.0000002, 12.0000038]],
+            "m_Translate": [14, [-10.2080841, -7.4759979, 3.5229797]]
+          },
+          "Fields": {
+            "SkinName": "road_mud",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004884, 0.1841732, 0.0005168, 1.7871457, 0.1843604, 1.9575517]],
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cd_roof_blendshape_a"],
+            "m_Rotate": [14, [179.9999847, 48.9999961, -179.9999847]],
+            "m_Scale": [14, [1.5599991, 1.5599987, 1.5599987]],
+            "m_Translate": [14, [8.697998, -7.4763984, 1.9997862]]
+          },
+          "Fields": {
+            "SkinName": "Street",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0137021, 0.1450942, 0.056354, 1.6290705, 0.1482955, 1.7800627]],
+            "m_PcId": [6, 77],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cd_roof_blendshape_b"],
+            "m_Rotate": [14, [179.9999847, 15.5000038, -180.0]],
+            "m_Scale": [14, [1.5599991, 1.5599986, 1.5599981]],
+            "m_Translate": [14, [5.0152282, -7.4763984, -1.6175842]]
+          },
+          "Fields": {
+            "SkinName": "Street",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004882, 0.1841733, 0.0005168, 1.787146, 0.1843604, 1.9575519]],
+            "m_PcId": [6, 78],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cd_roof_blendshape_a"],
+            "m_Rotate": [14, [179.9999847, 49.0000076, -179.9999847]],
+            "m_Scale": [14, [1.5599993, 1.5599993, 1.5599991]],
+            "m_Translate": [14, [-3.3686065, -7.4763984, 1.9997862]]
+          },
+          "Fields": {
+            "SkinName": "Street",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0137021, 0.1450941, 0.056354, 1.6290704, 0.1482955, 1.7800626]],
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;cd_roof_blendshape_b"],
+            "m_Rotate": [14, [180.0, 15.5000019, -180.0]],
+            "m_Scale": [14, [1.5599993, 1.5599987, 1.5599981]],
+            "m_Translate": [14, [-7.0513763, -7.4763984, -1.6175842]]
+          },
+          "Fields": {
+            "SkinName": "Street",
+            "m_CollisionFlags": "6155"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1189993, -1.1275726, 0.1283094, 1.3737264, 1.4550405, 0.3877341]],
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_1x_0h_a"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [11.5876159, 0.2182119, 7.2644958]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1189993, -1.1275726, 0.1283094, 1.3737263, 1.4550405, 0.3877341]],
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_1x_0h_a"],
+            "m_Rotate": [14, [0.0000049, -0.0000098, -0.0000049]],
+            "m_Translate": [14, [11.5876007, 0.2182119, -7.3202209]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Rail_Config_A"],
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "rs_wroh_canal_bridge_rail_config_a"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0001065, 0.0000038, -0.0000912]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0241923, 0.0875852, 0.9395174, 2.4553086, 0.1194324, 1.1604876]],
+            "m_PcId": [6, 83],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_small_a"],
+            "m_Rotate": [14, [0.0000223, -0.0000049, -0.0000223]],
+            "m_Translate": [14, [-8.4824066, -3.6800003, -7.3736877]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358623, 3.860018, 0.1348246, 0.9352045]],
+            "m_PcId": [6, 84],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [9.3686218, -3.679634, 7.3792724]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358623, 3.860018, 0.1348246, 0.9352045]],
+            "m_PcId": [6, 85],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [2.6343688, -3.679634, 7.3792724]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358623, 3.860018, 0.1348246, 0.9352045]],
+            "m_PcId": [6, 86],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [-4.1875915, -3.679634, 7.3792724]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0241923, 0.0875852, 0.9395176, 2.4553086, 0.1194324, 1.1604877]],
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_small_a"],
+            "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
+            "m_Translate": [14, [-8.4824066, -3.6800003, 7.3789062]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358624, 3.8600177, 0.1348246, 0.9352045]],
+            "m_PcId": [6, 88],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
+            "m_Rotate": [14, [-0.0000049, -0.0000098, 0.0000049]],
+            "m_Translate": [14, [9.3686218, -3.679634, -7.3733215]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358624, 3.8600177, 0.1348246, 0.9352045]],
+            "m_PcId": [6, 89],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
+            "m_Rotate": [14, [-0.0000223, -0.0000098, 0.0000223]],
+            "m_Translate": [14, [2.6343688, -3.679634, -7.3733215]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358624, 3.8600177, 0.1348246, 0.9352045]],
+            "m_PcId": [6, 90],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
+            "m_Rotate": [14, [-0.0000223, -0.0000098, 0.0000223]],
+            "m_Scale": [14, [0.9999995, 0.9999994, 0.9999995]],
+            "m_Translate": [14, [-4.1875915, -3.679634, -7.3733215]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 82, 94, 97],
+            "m_PcId": [6, 93]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Rail_Config_B"],
+            "m_PcId": [6, 94],
+            "m_PrefabName": [12, "rs_wroh_canal_bridge_rail_config_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000609, 0.0, 0.0000609]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Rail_Config_C"],
+            "m_PcId": [6, 97],
+            "m_PrefabName": [12, "rs_wroh_canal_bridge_rail_config_c"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0000609, 0.0, 0.0000609]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 98],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [27.2005996, 4.2483773, 21.9411506]],
+            "m_Translate": [14, [1.16156, 0.0053749, -9.6322326]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.4999999, 0.0049999]],
+            "m_PcId": [6, 99],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-0.0, 0.0000049, -0.0]],
+            "m_Scale": [14, [27.200613, 4.0079441, 21.9411621]],
+            "m_Translate": [14, [1.16156, -2.3902015, 7.5952758]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.0000014, 7.150229066610336e-7, 0.5000001, 0.5000004, 0.0050002]],
+            "m_PcId": [6, 100],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [45.000019, -0.0, -0.0000019]],
+            "m_Scale": [14, [27.2006053, 6.5016717, 21.941164]],
+            "m_Translate": [14, [1.16156, -5.471466, 5.77005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, -7.152557373046875e-7, 0.5, 0.5, 0.0050002]],
+            "m_PcId": [6, 101],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [134.9999847, 0.0000024, -179.9999847]],
+            "m_Scale": [14, [27.2005996, 6.5016708, 21.9411621]],
+            "m_Translate": [14, [1.1615444, -5.4714698, -5.7323913]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5000001, 0.5000001, 0.005]],
+            "m_PcId": [6, 102],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [179.9999847, 0.0197838, 179.9999847]],
+            "m_Scale": [14, [27.2006015, 4.0079431, 21.941164]],
+            "m_Translate": [14, [1.1615444, -2.3902015, -7.5576171]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.0000028, 0.0, 0.5000001, 0.5000009, 0.0049999]],
+            "m_PcId": [6, 103],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [89.9999923, -0.0000049, -179.9802093]],
+            "m_Scale": [14, [27.2005977, 7.8515329, 21.9411525]],
+            "m_Translate": [14, [1.15892, -7.7058467, 0.0753784]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.4999999, 0.5, 0.0049999]],
+            "m_PcId": [6, 104],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [27.2006053, 4.2483782, 21.9411544]],
+            "m_Translate": [14, [1.16156, 0.0053749, 9.6639099]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.5000001, 0.005]],
+            "m_PcId": [6, 105],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;occluder_plane"],
+            "m_Rotate": [14, [-90.0, -0.0, 0.0]],
+            "m_Scale": [14, [15.7634162, 19.9762706, 21.9411487]],
+            "m_Translate": [14, [0.2658843, -0.9039955, 0.4776]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

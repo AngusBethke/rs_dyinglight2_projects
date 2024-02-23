@@ -1,0 +1,76 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SubType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:SubType;c:Chair;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "Type"
+              }
+            ]
+          },
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Chair;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "SubType_0",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:SubType_0;c:Chair;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "Type"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Upright"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_chair"],
+            "m_RandomizationWeight": [6, 70],
+            "m_Translate": [14, [-0.0004643, 0.0, 0.0000653]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 5],
+            "m_PcId": [6, 4]
+          },
+          "Presets": [
+            [2, "rs_bld_classic_int_frn_chair"],
+            [5, "rs_bld_classic_int_frn_chair"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Knocked Over"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_chair_knocked"],
+            "m_RandomizationWeight": [6, 30]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

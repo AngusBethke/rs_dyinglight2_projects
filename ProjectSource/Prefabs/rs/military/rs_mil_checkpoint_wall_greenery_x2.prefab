@@ -1,0 +1,64 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0844421, -1.0401674, 0.1128891, 2.1304745, 1.4223967, 0.4360239]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_2x_0h_a"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [0.1350553, 7.6799993, -0.0000038]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 4],
+            "m_PcId": [6, 3]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0294189, -1.8525998, 0.1971091, 2.2450542, 2.2225756, 0.4353418]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_2x_1h_a"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [0.1349983, 7.6799993, 0.0]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

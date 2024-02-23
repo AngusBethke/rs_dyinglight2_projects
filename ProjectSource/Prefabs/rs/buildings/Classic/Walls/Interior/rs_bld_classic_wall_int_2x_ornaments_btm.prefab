@@ -1,0 +1,53 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "WallOrnamentType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WallOrnamentType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_ornaments_btm_a"]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 4, 7],
+            "m_PcId": [6, 6]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Door"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_ornaments_btm_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [179.9999847, -0.0000049, -179.9999847]],
+            "m_Translate": [14, [0.0000038, -2.9815936386512478e-7, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

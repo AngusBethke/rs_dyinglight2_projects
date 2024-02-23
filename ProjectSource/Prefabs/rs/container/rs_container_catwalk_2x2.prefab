@@ -1,0 +1,69 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "Type"
+              },
+              {
+                "Uuid": "7",
+                "Name": "Type"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeRailing",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeRailing;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "IncludeRailing"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_base"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing"]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_pipes"],
+            "m_Scale": [14, [1.0000002, 1.0000002, 1.0000007]],
+            "m_Translate": [14, [0.0000076, 0.0, -0.0000032]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SelectorBlendshape",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SelectorBlendshape"
+              }
+            ]
+          },
+          {
+            "Name": "WallSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "WallSkin"
+              },
+              {
+                "Uuid": "2",
+                "Name": "WallSkin"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_wroh_damaged_wall_4x_base"],
+            "m_Seed": [6, 3755622875]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_4x_floor"],
+            "m_Seed": [6, 3868002175],
+            "m_Translate": [14, [-0.0325927, 3.9508898, 0.0168457]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

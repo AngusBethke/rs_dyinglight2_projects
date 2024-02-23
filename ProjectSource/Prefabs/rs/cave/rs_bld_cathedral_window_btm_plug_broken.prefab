@@ -1,0 +1,101 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "11",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005, 1.9327082, 0.184188, 1.4326965, 1.9327111, 0.1506281]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_church_wall_win_2x_btm_b_a_plug_a_broken"],
+            "m_Translate": [14, [-0.0000609, 0.0, 0.0003962]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005, 1.9327083, 0.184188, 1.4326967, 1.9327112, 0.1506281]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_church_wall_win_2x_btm_b_a_plug_a_broken"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [-0.0000609, 0.0, 0.0003962]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_cathedral_window_btm_plug_broken_plug_a"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [-0.0007321, 1.0424909, 0.0074995]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1189993, -1.1275726, 0.1283094, 1.3737264, 1.4550405, 0.3877341]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_1x_0h_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.9999998, 0.9999998, 0.9999989]],
+            "m_Translate": [14, [0.0772705, 1.0541161, -0.2791441]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1189993, -1.1275726, 0.1283094, 1.3737263, 1.4550405, 0.3877341]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bdp_bldg_decal_greenery_str_1x_0h_a"],
+            "m_Translate": [14, [-0.0776977, 1.0541161, 0.2858656]]
+          },
+          "Fields": {
+            "SkinName": "ivy_wall_green"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 7, 12],
+            "m_PcId": [6, 11]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_cathedral_window_btm_plug_broken_plug_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Translate": [14, [0.0106811, 1.1309156, -0.0106963]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Corner"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_pipes_corner"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 7, 8, 10, 12, 14],
+            "m_PcId": [6, 6]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Straight"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_pipes_straight"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "End"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_pipes_end"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "TJunction"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_pipes_tjunction"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "4Way"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_pipes_4way"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Stairs"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_pipes_end"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

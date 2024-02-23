@@ -1,0 +1,152 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "IncludeWindow",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeWindow;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "14",
+                "Name": "SELECTOR"
+              }
+            ]
+          },
+          {
+            "Name": "WindowBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowBlockage;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "SELECTOR"
+              }
+            ]
+          },
+          {
+            "Name": "WindowStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "20",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "17",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "21",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "22",
+                "Name": "Wall"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_occluder"],
+            "m_Translate": [14, [9.5367431640625e-7, 0.0, 0.0]]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_2x_window_glass"],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999973]],
+            "m_Translate": [14, [-0.0000114, 0.0, 0.0000625]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_2x_window_block"],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999973]],
+            "m_Translate": [14, [-0.0000114, 0.0, 0.0000625]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Flat"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_window_a"],
+            "m_Translate": [14, [-9.5367431640625e-7, 0.0, 0.0]]
+          },
+          "Fields": {
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 17, 21, 22],
+            "m_PcId": [6, 20]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Round"],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_window_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [9.5367431640625e-7, 0.0, 0.0]]
+          },
+          "Fields": {
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Simple"],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_window_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [9.5367431640625e-7, 0.0, 0.0]]
+          },
+          "Fields": {
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_2x_ledge"],
+            "m_Translate": [14, [-0.0004863, 0.0, 0.000407]]
+          },
+          "Fields": {
+            "SELECTOR": "",
+            "LedgeIncludeIvy": "",
+            "LedgeStyle": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

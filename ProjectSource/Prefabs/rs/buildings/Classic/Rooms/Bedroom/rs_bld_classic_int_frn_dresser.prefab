@@ -1,0 +1,72 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Dresser;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "SubType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:SubType;c:Dresser;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "Type"
+              },
+              {
+                "Uuid": "9",
+                "Name": "Type"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Tall"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_dresser_a"],
+            "m_RandomizationWeight": [6, 50]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 6, 9],
+            "m_PcId": [6, 8]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Short"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_dresser_b"],
+            "m_RandomizationWeight": [6, 50]
+          },
+          "Fields": {
+            "SELECTOR": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

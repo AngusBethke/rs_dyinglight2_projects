@@ -1,0 +1,129 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "IncludeLedge",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeLedge;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "14",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeDoor",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeDoor;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "18",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004961, 1.6154336, -7.6872253, 0.1693747, 2.6565551, 8.3426513]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frw_classic_a_8x_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.9999997, 0.9999995, 0.7499997]],
+            "m_Translate": [14, [-1.1099977, -0.0000019, -5.7600097]]
+          },
+          "Fields": {
+            "SkinName": "R1_generic_a_2"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_classic_roof_end_flat_ledge"],
+            "m_Rotate": [14, [-0.0000098, 0.0000049, 0.0000098]],
+            "m_Translate": [14, [9.999999974752428e-7, 0.0000019, 0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 12, 15],
+            "m_PcId": [6, 14]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-0.0000098, 0.0000048, 0.0000098]],
+            "m_Translate": [14, [9.999999974752428e-7, 0.0000019, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "empty"],
+            "m_Rotate": [14, [-0.0000273, 0.0000048, 0.0000273]],
+            "m_Translate": [14, [9.999999974752428e-7, 0.0000019, 0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 17, 19],
+            "m_PcId": [6, 18]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "rs_bld_classic_roof_end_flat_door"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-0.0000098, 0.0000048, 0.0000098]],
+            "m_Translate": [14, [9.5367431640625e-7, 0.0000019, 0.0000038]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_bld_classic_roof_end_flat_beam"],
+            "m_Rotate": [14, [-0.0000273, 0.0000048, 0.0000273]],
+            "m_Scale": [14, [1.0000001, 1.0000002, 1.0000013]],
+            "m_Translate": [14, [-1.0440012, 0.0000038, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "rs_bld_classic_roof_end_flat_beam"],
+            "m_Rotate": [14, [179.9999847, 2.0896190733310505e-7, 179.9999847]],
+            "m_Scale": [14, [1.0, 1.0000001, 1.000001]],
+            "m_Translate": [14, [-1.0440012, 0.0000038, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

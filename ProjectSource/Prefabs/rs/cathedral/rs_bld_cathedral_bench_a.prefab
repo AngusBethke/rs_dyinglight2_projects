@@ -1,0 +1,66 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005, 0.4614687, 0.2184122, 0.9155814, 0.4618532, 0.2959929]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_church_bench_a"],
+            "m_Translate": [14, [0.0000308, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1],
+            "m_PcId": [6, 2]
+          },
+          "Presets": [
+            [1, "rs_church_bench_randomizer"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_bld_cathedral_bench_a_trash"],
+            "m_Rotate": [14, [-0.0, 24.0000095, -0.0]],
+            "m_Seed": [6, 911247123],
+            "m_Translate": [14, [-0.4826658, 0.0043418, 0.3848648]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_cathedral_bench_a_trash"],
+            "m_Rotate": [14, [-0.0, -61.0000152, -0.0]],
+            "m_Seed": [6, 405176578],
+            "m_Translate": [14, [0.2904663, 0.0048945, 0.1173477]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

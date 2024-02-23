@@ -1,0 +1,79 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "FloorType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:FloorType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "Floor",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Floor;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "3",
+                "Name": "Floor"
+              }
+            ]
+          },
+          {
+            "Name": "Ceiling",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "Ceiling"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x_a"],
+            "m_Scale": [14, [1.0000021, 1.0000013, 1.0000013]],
+            "m_Translate": [14, [-0.0000019, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 6],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Damaged"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [1.000002, 1.0000009, 1.0000009]],
+            "m_Translate": [14, [0.0000189, 0.0000122, 0.0000076]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

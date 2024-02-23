@@ -1,0 +1,64 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Dresser;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Closed"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_dresser_b_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-2.384185791015625e-7, 0.4346185, 0.5036664]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 6, 10, 11],
+            "m_PcId": [6, 9]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open Half"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_dresser_b_b"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0003313, 0.435, 0.5035367]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open Full"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_bld_classic_int_frn_dresser_b_c"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0003313, 0.435, 0.5035362]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

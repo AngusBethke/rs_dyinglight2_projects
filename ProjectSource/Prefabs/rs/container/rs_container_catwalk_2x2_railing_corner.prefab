@@ -1,0 +1,86 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "IncludeRailing",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeRailing;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.001464, 0.0004791, 0.0008427, 0.2495296, 1.9205001, 0.1409421]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pk_industrial_pillar_1x_a"],
+            "m_Rotate": [14, [-90.0, 0.0, -0.0]],
+            "m_Translate": [14, [1.9200017, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.001464, 0.0004792, 0.0008427, 0.2495297, 1.9205002, 0.1409421]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pk_industrial_pillar_1x_a"],
+            "m_Rotate": [14, [-90.0, 0.0, 90.0]],
+            "m_Translate": [14, [0.0, 0.0, 1.9200005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0027927, 0.4167276, -0.0193103, 0.1489686, 0.6118692, 0.1]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;ship_catwalk_railings_end"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [1.9200134, 0.0, -1.9200036]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2_railing_corner_include"],
+            "m_Translate": [14, [0.0000076, 0.0, -0.0000021]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 10, 13],
+            "m_PcId": [6, 12]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000076, 0.0, -0.0000024]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

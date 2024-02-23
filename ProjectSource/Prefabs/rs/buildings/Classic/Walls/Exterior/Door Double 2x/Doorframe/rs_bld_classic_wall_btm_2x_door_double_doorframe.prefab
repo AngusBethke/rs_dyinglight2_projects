@@ -1,0 +1,60 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "DoorframeStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;c:Architecture;l:DoorframeStyle;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Green"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_2x_door_double_doorframe_a"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 11, 17, 20],
+            "m_PcId": [6, 16]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "GreenDamaged"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_2x_door_double_doorframe_b"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Generic"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_2x_door_double_doorframe_c"]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

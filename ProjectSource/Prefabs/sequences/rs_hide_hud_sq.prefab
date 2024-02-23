@@ -1,0 +1,186 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "PrefabInterfaces": [
+        "Actions::ISequenceController"
+      ],
+      "Interface": {
+        "Properties": [
+          {
+            "Type": "PropertyOut",
+            "RTTIType": "RTTI_TYPE_BOOL",
+            "Name": "Actions::ISequenceController::m_IsPlaying",
+            "Value": "",
+            "Init": "f:EXPOSE;c:ISEQUENCE;"
+          }
+        ],
+        "Pipes": [
+          {
+            "Type": "PipeIn",
+            "Name": "Actions::ISequenceController::m_PlaySequence"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "Actions::ISequenceController::m_StopSequence"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "Actions::ISequenceController::m_PauseSequence"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "Actions::ISequenceController::m_ResumeSequence"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "Actions::ISequenceController::m_SkipSequence"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "Actions::ISequenceController::m_ResetSequence"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "Actions::ISequenceController::m_ForceTimeSequence"
+          },
+          {
+            "Type": "PipeOut",
+            "Name": "Actions::ISequenceController::m_OnSequenceFinished"
+          }
+        ],
+        "VirtualFields": [
+          {
+            "Name": "m_LoadOnActivate",
+            "Init": "e:EDIT;f:EDIT;c:Sequence;d:If true, sequence will be loaded on activate - check it if sequence is used witch sequence controller;",
+            "DestinationFields": [
+              {
+                "Uuid": "84",
+                "Name": "m_LoadOnActivate"
+              }
+            ]
+          },
+          {
+            "Name": "m_Bindings",
+            "Init": "f:EDIT;e:EDIT;c:External entities;",
+            "DestinationFields": [
+              {
+                "Uuid": "84",
+                "Name": "m_Bindings"
+              }
+            ]
+          },
+          {
+            "Name": "m_SequenceName",
+            "Init": "f:EDIT|QUEST;e:EDIT|CALLBACK;",
+            "DestinationFields": [
+              {
+                "Uuid": "84",
+                "Name": "m_SequenceName"
+              }
+            ]
+          }
+        ]
+      },
+      "Bindings": {
+        "Properties": [
+          {
+            "src_uuid": "84",
+            "src": "m_IsPlaying",
+            "dest_uuid": "0",
+            "dest": "Actions::ISequenceController::m_IsPlaying"
+          }
+        ],
+        "Pipes": [
+          {
+            "src_uuid": "0",
+            "src": "Actions::ISequenceController::m_PlaySequence",
+            "dest_uuid": "84",
+            "dest": "m_PlaySequence"
+          },
+          {
+            "src_uuid": "0",
+            "src": "Actions::ISequenceController::m_PauseSequence",
+            "dest_uuid": "84",
+            "dest": "m_PauseSequence"
+          },
+          {
+            "src_uuid": "0",
+            "src": "Actions::ISequenceController::m_StopSequence",
+            "dest_uuid": "84",
+            "dest": "m_StopSequence"
+          },
+          {
+            "src_uuid": "0",
+            "src": "Actions::ISequenceController::m_ResumeSequence",
+            "dest_uuid": "84",
+            "dest": "m_ResumeSequence"
+          },
+          {
+            "src_uuid": "0",
+            "src": "Actions::ISequenceController::m_SkipSequence",
+            "dest_uuid": "84",
+            "dest": "m_SkipSequence"
+          },
+          {
+            "src_uuid": "0",
+            "src": "Actions::ISequenceController::m_ResetSequence",
+            "dest_uuid": "84",
+            "dest": "m_ResetSequence"
+          },
+          {
+            "src_uuid": "0",
+            "src": "Actions::ISequenceController::m_ForceTimeSequence",
+            "dest_uuid": "84",
+            "dest": "m_ForceTimeSequence"
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoHierarchy",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 80],
+            "m_RootXform": [11, true]
+          }
+        },
+        {
+          "Class": "CoMeshRender",
+          "PrefabFieldsNative": {
+            "m_IsEditorOnly": [11, true],
+            "m_PcId": [6, 82],
+            "m_XformComponent": [6, 80]
+          },
+          "Fields": {
+            "m_MeshName": "film_frame.msh"
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_IsEditorOnly": [11, true],
+            "m_PcId": [6, 83],
+            "m_XformComponent": [6, 80]
+          },
+          "Fields": {
+            "m_MeshName": "film_frame.msh",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "Actions::CoSequence",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 84]
+          },
+          "Fields": {
+            "m_SequenceUid": "7187423957827735567"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "SequencePrefab": "1"
+    }
+  }
+}

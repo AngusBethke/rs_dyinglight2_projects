@@ -1,0 +1,73 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 7, 8],
+            "m_PcId": [6, 3]
+          },
+          "Presets": [
+            [2, "rs_wroh_tree_tiny_randomizer"],
+            [4, "rs_wroh_tree_tiny_randomizer"],
+            [7, "rs_wroh_tree_randomizer"],
+            [8, "rs_wroh_tree_randomizer"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0997623, 2.0612897, -0.0307533, 1.4093718, 2.1702151, 1.2139902]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;ms_pinetree_d"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [2.1900029, 85.441986, -0.0]],
+            "m_Translate": [14, [0.0002131, -0.4749993, 0.0002962]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0020981, 1.2451697, -0.024854, 0.9813972, 1.2838989, 0.74321]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;ms_pinetree_e"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [2.1900031, 85.441986, -0.0]],
+            "m_Translate": [14, [0.0002131, -0.4749993, 0.0002962]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725374]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;butterflies"],
+            "m_Translate": [14, [-0.000122, 0.7079238, 0.000473]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

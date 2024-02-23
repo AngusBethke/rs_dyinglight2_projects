@@ -1,0 +1,54 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Floor_A"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_pillar_floor_a"],
+            "m_RandomizationWeight": [6, 50]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 6],
+            "m_PcId": [6, 3]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Floor_B"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_pillar_floor_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [-0.0, 0.0, 0.0000049]],
+            "m_Translate": [14, [-0.0000057, -0.0, 4.76837158203125e-7]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

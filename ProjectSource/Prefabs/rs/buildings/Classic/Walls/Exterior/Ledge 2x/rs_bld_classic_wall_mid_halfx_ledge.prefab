@@ -1,0 +1,57 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "HalfLedgeStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:HalfLedgeStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 25, 26],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_halfx_ledge_a"],
+            "m_Translate": [14, [9.5367431640625e-7, 0.0, 0.0000019]]
+          },
+          "Fields": {
+            "LedgeIncludeIvy": "",
+            "SELECTOR": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "_Empty"],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0, 0.0, 9.5367431640625e-7]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

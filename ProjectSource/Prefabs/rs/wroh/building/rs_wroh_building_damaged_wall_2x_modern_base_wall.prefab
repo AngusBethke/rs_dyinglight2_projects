@@ -1,0 +1,48 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "WallSkin",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "WallSkin"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0082548, -0.5006327, 0.2205149, 0.9860001, 0.5393672, 0.2205149]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_b_wall_str_btm_1x1h_c_em"],
+            "m_Scale": [14, [1.9999998, 0.9999999, 1.0]],
+            "m_Translate": [14, [-0.0004226, 7.003545761108398e-7, 0.0001602]]
+          },
+          "Fields": {
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_modern_floor_wall"],
+            "m_Translate": [14, [-0.000422, 7.003545761108398e-7, 0.0001678]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

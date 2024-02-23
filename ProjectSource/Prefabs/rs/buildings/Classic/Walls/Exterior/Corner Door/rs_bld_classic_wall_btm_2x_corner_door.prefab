@@ -1,0 +1,106 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "3",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "7",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "5",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "1",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Ivy",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ivy;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "Ivy"
+              },
+              {
+                "Uuid": "7",
+                "Name": "Ivy"
+              },
+              {
+                "Uuid": "1",
+                "Name": "Ivy"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_2x_door_double"],
+            "m_Rotate": [14, [-0.0, 44.9999923, -0.0]],
+            "m_Translate": [14, [-1.9091881, 0.0, -1.9308128]]
+          },
+          "Fields": {
+            "IvyStyle": "Bottom"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_cor"],
+            "m_Translate": [14, [0.0, 0.0, -3.8400001]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_halfx_wall"],
+            "m_Rotate": [14, [-0.0, 44.9999923, -0.0]],
+            "m_Translate": [14, [-0.2791422, 0.0, -3.5608577]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_cor"],
+            "m_Translate": [14, [-3.8400001, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_classic_wall_btm_halfx_wall"],
+            "m_Rotate": [14, [-0.0, 44.9999885, -0.0]],
+            "m_Translate": [14, [-3.5390167, 0.0, -0.3009796]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
