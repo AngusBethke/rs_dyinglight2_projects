@@ -1,0 +1,30 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_FindWallet_Carl_001`)
+    {
+        RequiresVO(true);
+        Actor(`Carl`);
+        Text(En, ALL, `Please find my wallet!`);
+        Text(De, ALL, `Please find my wallet!`);
+        Text(Fr, ALL, `Please find my wallet!`);
+        Text(Es, ALL, `Please find my wallet!`);
+        Text(El, ALL, `Please find my wallet!`);
+        Text(It, ALL, `Please find my wallet!`);
+        Text(Jp, ALL, `Please find my wallet!`);
+        Text(Pl, ALL, `Please find my wallet!`);
+        Text(Cz, ALL, `Please find my wallet!`);
+        Text(Ru, ALL, `Please find my wallet!`);
+        Text(Br, ALL, `Please find my wallet!`);
+        Text(Cn, ALL, `Please find my wallet!`);
+        Text(CnTr, ALL, `Please find my wallet!`);
+        Text(Ko, ALL, `Please find my wallet!`);
+        Text(Ar, ALL, `Please find my wallet!`);
+        Text(Tr, ALL, `Please find my wallet!`);
+        Text(Th, ALL, `Please find my wallet!`);
+        Text(Pt, ALL, `Please find my wallet!`);
+        Text(Debug, ALL, `Please find my wallet!`);
+    }
+}

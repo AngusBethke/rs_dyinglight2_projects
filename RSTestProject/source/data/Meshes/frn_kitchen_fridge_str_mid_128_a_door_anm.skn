@@ -1,0 +1,14 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("frn_kitchen_fridge_big_door_a.mat", "frn_kitchen_fridge_big_door_a.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Metal", "", "")
+}
+Skin("sur_sens")
+{
+    Replace("frn_kitchen_fridge_big_door_a.mat", "sur_sens.mat")
+}

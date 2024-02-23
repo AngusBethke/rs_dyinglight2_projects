@@ -1,0 +1,35 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("urb_trash_bin_classic_a.mat", "urb_trash_bin_classic_a.mat")
+    Replace("urb_trash_a.mat", "urb_trash_a.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Metal", "", "")
+}
+
+Skin("sur_sens")
+{
+
+	Replace("urb_trash_bin_classic_a.mat", "sur_sens.mat")
+    Replace("urb_trash_a.mat", "sur_sens.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Metal", "", "")
+}
+
+Skin("sur_sens_debug")
+{
+
+	Replace("urb_trash_bin_classic_a.mat", "sur_sens$npp.mat")
+    Replace("urb_trash_a.mat", "sur_sens$npp.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    // Surface ID's were assigned through FaceAttributes modifier.
+    ReplaceSurface("Metal", "", "")
+}
