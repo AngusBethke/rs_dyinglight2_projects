@@ -20,7 +20,7 @@
         {
           "Class": "CoRandomizer",
           "PrefabFieldsNative": {
-            "m_ControlledPrefabIds": [44, 16],
+            "m_ControlledPrefabIds": [44, 20, 21],
             "m_PcId": [6, 3],
             "m_Seed": [6, 18677]
           },
@@ -30,19 +30,29 @@
             [7, "rs_wroh_tree_randomizer"],
             [14, "rs_wroh_tree_randomizer"],
             [15, "rs_wroh_tree_randomizer"],
-            [16, "rs_wroh_tree_randomizer"]
+            [16, "rs_wroh_tree_randomizer"],
+            [20, "rs_wroh_tree_randomizer"],
+            [21, "rs_wroh_tree_randomizer"]
           ]
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0436329, 5.5993847, -0.2660682, 2.3640043, 5.8595547, 2.5546629]],
-            "m_PcId": [6, 16],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;nat_tree_conif_med_b"],
-            "m_Rotate": [14, [-171.8644714, -46.5987815, -174.0702667]],
-            "m_Scale": [14, [0.9134997, 0.9135, 0.9134997]],
-            "m_Translate": [14, [0.0147551, -0.3731155, -0.236267]]
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_a"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [-172.8525085, 55.2264595, 179.5930328]],
+            "m_Translate": [14, [0.0147551, -0.3731153, -0.2362671]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_wroh_nat_tree_conif_medium_b"],
+            "m_RandomizationWeight": [6, 50],
+            "m_Rotate": [14, [-172.8525085, 55.2264595, 179.5930328]],
+            "m_Translate": [14, [0.0147551, -0.3731153, -0.2362671]]
           }
         }
       ]
