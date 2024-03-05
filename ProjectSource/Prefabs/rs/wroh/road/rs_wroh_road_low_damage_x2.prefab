@@ -32,7 +32,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 28],
             "m_PrefabName": [12, "rs_wroh_road_low_damage"],
-            "m_Translate": [14, [-0.000205, 0.0004304, -0.0000185]]
+            "m_Translate": [14, [-0.000205, 0.0004302, -0.0000185]]
           }
         },
         {
@@ -40,13 +40,13 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 29],
             "m_PrefabName": [12, "rs_wroh_road_low_damage"],
-            "m_Translate": [14, [4.2772541, 0.0004304, -0.0000185]]
+            "m_Translate": [14, [4.2772541, 0.0004302, -0.0000185]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0698473, 0.1198481, 0.6358624, 3.860018, 0.1348246, 0.9352045]],
+            "m_EntityComponentsExtents": [69, [0.0693473, 0.1312188, 0.6353623, 3.859518, 0.1461954, 0.9347045]],
             "m_PcId": [6, 30],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
@@ -56,7 +56,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0698473, 0.1198481, 0.6358624, 3.860018, 0.1348246, 0.9352045]],
+            "m_EntityComponentsExtents": [69, [0.0693473, 0.1312188, 0.6353623, 3.859518, 0.1461954, 0.9347045]],
             "m_PcId": [6, 31],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
@@ -66,7 +66,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358623, 3.860018, 0.1348246, 0.9352045]],
+            "m_EntityComponentsExtents": [69, [0.0693473, 0.1312188, 0.6353623, 3.859518, 0.1461954, 0.9347044]],
             "m_PcId": [6, 32],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
@@ -77,7 +77,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0698473, 0.119848, 0.6358623, 3.860018, 0.1348246, 0.9352045]],
+            "m_EntityComponentsExtents": [69, [0.0693473, 0.1312188, 0.6353623, 3.859518, 0.1461954, 0.9347044]],
             "m_PcId": [6, 33],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_streight_big_a"],
@@ -92,7 +92,7 @@
             "m_PcId": [6, 34],
             "m_PrefabName": [12, "rs_wroh_road_low_damage_x2_nature_config_a"],
             "m_RandomizationWeight": [6, 33],
-            "m_Translate": [14, [0.0004415, 0.0000038, 0.0004567]]
+            "m_Translate": [14, [0.0004414, 0.0000038, 0.0004567]]
           },
           "Fields": {
             "SELECTOR": ""
@@ -113,7 +113,7 @@
             "m_PcId": [6, 38],
             "m_PrefabName": [12, "rs_wroh_road_low_damage_x2_nature_config_b"],
             "m_RandomizationWeight": [6, 34],
-            "m_Translate": [14, [0.0004109, 0.0000076, 0.0003652]]
+            "m_Translate": [14, [0.0004108, 0.0000076, 0.000365]]
           },
           "Fields": {
             "SELECTOR": ""
@@ -126,7 +126,7 @@
             "m_PcId": [6, 39],
             "m_PrefabName": [12, "rs_wroh_road_low_damage_x2_nature_config_c"],
             "m_RandomizationWeight": [6, 33],
-            "m_Translate": [14, [0.0004109, 0.0000076, 0.0003041]]
+            "m_Translate": [14, [0.0004108, 0.0000076, 0.0003039]]
           },
           "Fields": {
             "SELECTOR": ""
@@ -139,7 +139,7 @@
             "m_PcId": [6, 40],
             "m_PrefabName": [12, "empty"],
             "m_RandomizationWeight": [6, 0],
-            "m_Translate": [14, [0.000442, 0.0000038, 0.0004572]]
+            "m_Translate": [14, [0.0004418, 0.0000038, 0.000457]]
           }
         },
         {
@@ -151,9 +151,11 @@
             "m_PrefabName": [12, "ai_spawner_number"],
             "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
             "m_RandomizationWeight": [6, 50],
-            "m_Translate": [14, [2.7426452, -0.5312383, 0.0002742]]
+            "m_Translate": [14, [2.7426452, -0.5312383, 0.000274]]
           },
           "Fields": {
+            "m_ActivateRadius": "10.000000",
+            "m_DeactivateRadius": "15.000000",
             "m_NumOfAIsToSpawn": "2",
             "m_Points": "3.578598 -0.500000 -2.634705;3.578598 -0.500000 2.859924;-5.098480 -0.500000 2.859924;-5.098480 -0.500000 -2.634705;",
             "m_PointsSource": "2",
@@ -177,15 +179,17 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.7599411, 0.5, 0.1126092, 4.3385386, 0.5, 2.7473144]],
+            "m_EntityComponentsExtents": [69, [-0.7599411, 0.5, 0.1126092, 4.3385391, 0.5, 2.7473144]],
             "m_Name": [12, "Women"],
             "m_PcId": [6, 44],
             "m_PrefabName": [12, "ai_spawner_number"],
             "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
             "m_RandomizationWeight": [6, 50],
-            "m_Translate": [14, [1.911911, -0.5312383, 0.0002743]]
+            "m_Translate": [14, [1.911911, -0.5312383, 0.0002741]]
           },
           "Fields": {
+            "m_ActivateRadius": "10.000000",
+            "m_DeactivateRadius": "15.000000",
             "m_NumOfAIsToSpawn": "2",
             "m_Points": "3.578598 -0.500000 -2.634705;3.578598 -0.500000 2.859924;-5.098480 -0.500000 2.859924;-5.098480 -0.500000 -2.634705;",
             "m_PointsSource": "2",
