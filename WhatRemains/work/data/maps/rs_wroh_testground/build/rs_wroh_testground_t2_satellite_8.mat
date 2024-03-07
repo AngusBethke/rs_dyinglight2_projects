@@ -1,10 +1,10 @@
 sub material()
 {
   preset("terrain_satellite;tex_det_0;");
-  tex_clr_0("terrain_satellite_missing_dif.png");
-  tex_nrm_0("default_nrm.dds");
-  tex_spc_0("default_spc.dds");
-  tex_rgh_0("default_rgh.dds");
+  tex_clr_0("rs_wroh_testground_satellite_texture_8_dif.dds");
+  tex_nrm_0("rs_wroh_testground_satellite_texture_8_nrm.dds");
+  tex_spc_0("rs_wroh_testground_satellite_texture_8_spc.dds");
+  tex_rgh_0("rs_wroh_testground_satellite_texture_8_rgh.dds");
   tex_det_0("terrain_detail_msk.png");
   uv_det(20.0000000000);
   v2_uv_origin([-3200000.0000000000, -64.0000000000]);
