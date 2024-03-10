@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7344364827889092946">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7344364829571808748"/>
+		<Attribute name="m_Name" value="PlayerSetup"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7344365967079577510">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-660" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7344365967079577510" output="Out" input="In" end="7344375913669985607">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::EnableInfectionLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7344365984228629482">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="315" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7344375913669985607">
+		<Logic type="Story::EnableInfectionLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-465" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7344375913669985607" output="Out" input="In" end="7344366035111606621">
+		<Start class="Story::EnableInfectionLogic"/>
+		<End class="Story::SetPlayerPresetLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7344366035111606621">
+		<Logic type="Story::SetPlayerPresetLogic">
+			<Attribute name="m_PresetName" value="GIVE_ALL"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-90" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7344366035111606621" output="Out" input="In" end="7344365984228629482">
+		<Start class="Story::SetPlayerPresetLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+</Node>
+

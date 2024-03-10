@@ -1,0 +1,68 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, 1.9134289, 0.0705, 1.9346425, 1.9275709, 0.0905]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_2x_a_dr"]
+          },
+          "Fields": {
+            "SkinName": "concrete_tunnel_wall_old_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0070717, 0.1555724, 0.096188, 1.9412159, 0.1555727, 0.096188]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_molding_sin_2x_a_dr"],
+            "m_Translate": [14, [0.0004728, 0.0, -0.0003965]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000057, -0.2543566, -0.4001955, 0.9600018, 0.2543566, 0.4001955]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_ceiling_ornament_simlpe_str_1x_a"],
+            "m_Translate": [14, [-0.9595261, 3.8399999, 0.9596102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000057, -0.2543566, -0.4001955, 0.9600018, 0.2543566, 0.4001955]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_ceiling_ornament_simlpe_str_1x_a"],
+            "m_Translate": [14, [0.9604722, 3.8399996, 0.9596102]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

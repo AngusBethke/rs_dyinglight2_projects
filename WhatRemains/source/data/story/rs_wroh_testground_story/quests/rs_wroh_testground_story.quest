@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7344363148876061143">
+	<Logic type="Story::CampaignLogic">
+		<Attribute name="m_IndicatorType" value=""/>
+		<Attribute name="m_ShowIndicator" value="1"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+	</Logic>
+	<Node type="Actions::Node" uid="7344363150246929338">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="450" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7344363149896760295">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-285" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7344363149896760295" output="Out" input="In:Start" end="7344364827889092946">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
+	<Node file="playersetup.quest">
+		<Editor>
+			<Position x="15" y="15"/>
+		</Editor>
+	</Node>
+	<Connect start="7344364827889092946" output="Out:End" input="In" end="7344363150246929338">
+		<Start class="Story::QuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+</Node>
+
