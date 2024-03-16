@@ -1,0 +1,64 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Preset",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;c:AI;l:Preset;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "m_PresetName"
+              }
+            ]
+          },
+          {
+            "Name": "Behavior",
+            "Init": "f:EDIT;e:CALLBACK;c:AI;l:Behavior;d:Choose behavior from data/AI/BehaviorPlaces/;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_BehaviorName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "humanai"],
+            "m_Rotate": [14, [-0.0, 0.0000016, -0.0]],
+            "m_Translate": [14, [-0.00015, 0.0000455, 0.0]]
+          },
+          "Fields": {
+            "m_BehaviorPlace": "/~7"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [5.960464477539063e-8, 0.150005, 0.1779813, 0.5000004, 0.1500051, 0.6779816]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "behaviorplace_npc"],
+            "m_Rotate": [14, [-0.0, 0.0000016, -0.0]],
+            "m_Translate": [14, [-0.00015, 0.0000455, 0.0]]
+          },
+          "Fields": {
+            "Flags": "1",
+            "m_BehaviorName": "multiactivity_m_hmf_1h_combat_crouch_generator_repair_ow_02"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

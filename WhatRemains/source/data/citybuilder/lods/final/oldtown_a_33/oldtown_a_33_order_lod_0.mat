@@ -1,0 +1,10 @@
+/* LOD generator: material name postfix is "" */
+/* LOD generator: dilate textures */
+
+sub material()
+{
+  preset("opaque;dif_0_tex;rgh_0_tex;spc_0_tex;");
+  dif_0_tex("oldtown_a_33_dif.png");
+  rgh_0_tex("oldtown_a_33_rgh.png");
+  spc_0_tex("oldtown_a_33_spc.png");
+}

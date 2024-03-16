@@ -18,12 +18,28 @@
 	<Node type="Actions::Node" uid="7344365967079577510">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>
-			<Position x="-660" y="0"/>
+			<Position x="-900" y="-15"/>
 		</Editor>
 	</Node>
-	<Connect start="7344365967079577510" output="Out" input="In" end="7344375913669985607">
+	<Connect start="7344365967079577510" output="Out" input="In" end="7346998499161616600">
 		<Start class="Actions::StartLogic"/>
-		<End class="Story::EnableInfectionLogic"/>
+		<End class="Story::StartPrologueLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7346998499161616600">
+		<Logic type="Story::StartPrologueLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-780" y="210"/>
+		</Editor>
+	</Node>
+	<Connect start="7346998499161616600" output="Out" input="In" end="7346998518601655828">
+		<Start class="Story::StartPrologueLogic"/>
+		<End class="Story::EndPrologueLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7344365984228629482">
 		<Logic type="Actions::EndLogic"/>
@@ -31,6 +47,39 @@
 			<Position x="315" y="0"/>
 		</Editor>
 	</Node>
+	<Node type="Actions::Node" uid="7346999159885361390">
+		<Logic type="Story::SetDayTimeLogic">
+			<Attribute name="m_Hour" value="8"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="30" y="195"/>
+		</Editor>
+	</Node>
+	<Connect start="7346999159885361390" output="Out" input="In" end="7344365984228629482">
+		<Start class="Story::SetDayTimeLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7346998518601655828">
+		<Logic type="Story::EndPrologueLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-600" y="210"/>
+		</Editor>
+	</Node>
+	<Connect start="7346998518601655828" output="Out" input="In" end="7344375913669985607">
+		<Start class="Story::EndPrologueLogic"/>
+		<End class="Story::EnableInfectionLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7344375913669985607">
 		<Logic type="Story::EnableInfectionLogic">
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -57,12 +106,12 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="-90" y="0"/>
+			<Position x="-225" y="0"/>
 		</Editor>
 	</Node>
-	<Connect start="7344366035111606621" output="Out" input="In" end="7344365984228629482">
+	<Connect start="7344366035111606621" output="Out" input="In" end="7346999159885361390">
 		<Start class="Story::SetPlayerPresetLogic"/>
-		<End class="Actions::EndLogic"/>
+		<End class="Story::SetDayTimeLogic"/>
 	</Connect>
 </Node>
 

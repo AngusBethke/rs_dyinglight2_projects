@@ -12,33 +12,103 @@
             "m_PresetNames": [12, "Meshes;prp_lamps_rope_a"],
             "m_Rotate": [14, [-0.0, 44.9999923, -0.0]],
             "m_Scale": [14, [1.489999, 1.489999, 1.489999]],
-            "m_Translate": [14, [-1.8049993, -0.5380001, 1.7989959]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [2.8799982, -0.350617, 1.9200005, 2.8799996, 0.3539734, 1.9200005]],
-            "m_PcId": [6, 2],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;canvas_sail_triangle_b"],
-            "m_Scale": [14, [0.6451604, 0.9999994, 0.9259242]],
-            "m_Translate": [14, [-1.7967996, -0.2952814, -1.7805328]]
+            "m_Translate": [14, [-1.8049993, -0.5380001, 1.7989958]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294443008"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [2.8799982, -0.350617, 1.92, 2.8799996, 0.3539734, 1.92]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;canvas_sail_triangle_b"],
+            "m_Scale": [14, [0.6451603, 0.9999994, 0.9259241]],
+            "m_Translate": [14, [-1.7967995, -0.2952814, -1.7805328]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [2.8799982, -0.350617, 1.9199999, 2.8799996, 0.3539734, 1.9199999]],
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;canvas_sail_triangle_b"],
             "m_Rotate": [14, [-179.9999847, -0.0000048, 179.9999847]],
-            "m_Scale": [14, [0.6451604, 0.9999982, 0.9259243]],
+            "m_Scale": [14, [0.6451603, 0.9999982, 0.9259243]],
             "m_Translate": [14, [1.8944282, -0.2952814, 1.7664337]]
           },
           "Fields": {
             "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0150049, 0.0000049, 0.0150049, 0.0150049, 0.0150049]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "lamp"],
+            "m_PresetNames": [12, "Flicker;Flicker_Slow_candle_a"],
+            "m_Translate": [14, [0.0003568, -0.5012372, -0.0003871]]
+          },
+          "Fields": {
+            "m_ExternalLights": "/~5;/~6;/~7;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Omni"],
+            "m_Rotate": [14, [-90.0, 0.0, -0.0000049]],
+            "m_Scale": [14, [2.0000004, 2.0000004, 2.0000002]],
+            "m_Translate": [14, [0.0003566, -2.4141929, -0.0003886]]
+          },
+          "Fields": {
+            "Attenuation": "1.500000",
+            "Color": "1.000000 0.729412 0.486275",
+            "Intensity": "0.500000",
+            "Projector": "Brushes/RoundSoft.png"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Omni"],
+            "m_Rotate": [14, [-90.0, 0.0, -0.0000049]],
+            "m_Scale": [14, [2.0000004, 2.0000004, 2.0000002]],
+            "m_Translate": [14, [1.0762635, -2.2377455, -1.0953276]]
+          },
+          "Fields": {
+            "Attenuation": "1.500000",
+            "Color": "1.000000 0.729412 0.486275",
+            "Intensity": "0.500000",
+            "Projector": "Brushes/RoundSoft.png"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Omni"],
+            "m_Rotate": [14, [-90.0, 0.0, -0.0000049]],
+            "m_Scale": [14, [2.0000004, 2.0000004, 2.0000002]],
+            "m_Translate": [14, [-0.9934771, -2.2377455, 1.0245573]]
+          },
+          "Fields": {
+            "Attenuation": "1.500000",
+            "Color": "1.000000 0.729412 0.486275",
+            "Intensity": "0.500000",
+            "Projector": "Brushes/RoundSoft.png"
           }
         }
       ]
