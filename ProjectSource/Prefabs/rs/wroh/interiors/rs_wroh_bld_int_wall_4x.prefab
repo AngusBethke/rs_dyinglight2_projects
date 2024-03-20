@@ -17,6 +17,34 @@
                 "Name": "Wall"
               }
             ]
+          },
+          {
+            "Name": "Molding",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Molding;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "Molding"
+              },
+              {
+                "Uuid": "1",
+                "Name": "Molding"
+              }
+            ]
+          },
+          {
+            "Name": "Ornament",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Ornament;c:Skins;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "Ornament"
+              },
+              {
+                "Uuid": "1",
+                "Name": "Ornament"
+              }
+            ]
           }
         ]
       },

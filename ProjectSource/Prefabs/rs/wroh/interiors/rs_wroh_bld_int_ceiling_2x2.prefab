@@ -2,6 +2,20 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Ceiling",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -25,7 +39,7 @@
             "m_PresetNames": [12, "Meshes;occluder_plane"],
             "m_Rotate": [14, [90.0, 0.0, -0.0]],
             "m_Scale": [14, [4.0000004, 4.0000009, 1.0000001]],
-            "m_Translate": [14, [0.0000038, -0.2199993, -0.0000152]]
+            "m_Translate": [14, [0.0000038, -0.2199991, -0.0000152]]
           }
         }
       ]
