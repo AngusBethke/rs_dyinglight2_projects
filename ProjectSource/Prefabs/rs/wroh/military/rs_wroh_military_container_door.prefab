@@ -1,0 +1,53 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Door;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Closed"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_wroh_military_container_door_a"],
+            "m_Translate": [14, [-0.6032937, 1.1428717, 5.7177848]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 5],
+            "m_PcId": [6, 4]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_wroh_military_container_door_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.6032937, 1.1428716, 5.7177848]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
