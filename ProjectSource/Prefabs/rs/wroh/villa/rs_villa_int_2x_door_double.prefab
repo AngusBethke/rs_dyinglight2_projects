@@ -1,0 +1,56 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Door",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Door;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "Door"
+              }
+            ]
+          },
+          {
+            "Name": "DoorFrame",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:DoorFrame;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "DoorFrame"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_villa_int_2x_door_double_doors"],
+            "m_Translate": [14, [-0.0, 0.0000038, 0.0000076]]
+          },
+          "Fields": {
+            "SELECTOR": "",
+            "Door": "Half"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_villa_int_2x_door_double_doorframe"],
+            "m_Translate": [14, [-0.0, 0.0000038, 0.0000076]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

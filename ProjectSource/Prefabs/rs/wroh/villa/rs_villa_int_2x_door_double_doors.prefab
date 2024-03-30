@@ -1,0 +1,60 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Door",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Door;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Closed"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_villa_int_2x_wall_door_double_doors_a"]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 4, 8, 11],
+            "m_PcId": [6, 7]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_villa_int_2x_wall_door_double_doors_b"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Half"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_villa_int_2x_wall_door_double_doors_c"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
