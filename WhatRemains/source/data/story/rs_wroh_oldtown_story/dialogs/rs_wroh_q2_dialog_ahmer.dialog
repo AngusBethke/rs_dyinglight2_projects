@@ -1,0 +1,160 @@
+---
+- Dialog::Graph:
+  - m_Uid: 7352952250143645997
+  - m_AlwaysShowSubtitles: 1
+  - m_PrefabType: Generate
+  - m_TemplatePrefab: template_1NPC_base
+  - m_AddSensorToPrefab: 0
+  - m_Nodes:
+    - Dialog::StartNode:
+      - m_Elements:
+        - Dialog::TriggerEvent:
+          - m_Uid: 7352952447205227471
+          - m_Output: 7352952423009039455
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData: 
+      - m_Uid: 7352952249932203877
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7352952423410432126
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 375.000000
+      - m_Uid: 7352952423009039455
+      - m_Output: 7353303283247604356
+    - Dialog::EndNode:
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 2325.000000
+      - m_Uid: 7352952808687365152
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353303174892334517
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1035.000000
+      - m_Uid: 7353303175583468347
+      - m_Output: 7353305064796088890
+    - Dialog::ChoiceNode:
+      - m_Elements:
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsWrohQ2DialogAhmer_choice_021
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_ChoiceType: Progress
+          - m_Uid: 7353303470574307389
+          - m_Output: 7353303175583468347
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsWrohQ2DialogAhmer_choice_018
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_IsOnceOnlyChoice: 1
+              - m_Group: Neutral2
+              - m_ChoiceType: Inquire
+          - m_Uid: 7353303295670308397
+          - m_Output: 7353305331591455326
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsWrohQ2DialogAhmer_choice_019
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_IsOnceOnlyChoice: 1
+              - m_Group: Positive
+              - m_ChoiceType: Inquire
+          - m_Uid: 7353303364056158341
+          - m_Output: 7353305602182313039
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsWrohQ2DialogAhmer_choice_020
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_IsOnceOnlyChoice: 1
+              - m_Group: Negative
+              - m_ChoiceType: Inquire
+          - m_Uid: 7353303406305716334
+          - m_Output: 7353306632837957849
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 690.000000
+      - m_Uid: 7353303283247604356
+      - m_Output: 7353303175583468347
+    - Dialog::ChoiceNode:
+      - m_Elements:
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsWrohQ2DialogAhmer_choice_023
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_IsOnceOnlyChoice: 1
+              - m_ChoiceType: Progress
+          - m_Uid: 7353305124920323378
+          - m_Output: 7353306838680891199
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsWrohQ2DialogAhmer_choice_024
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_IsOnceOnlyChoice: 1
+              - m_Group: Neutral2
+              - m_ChoiceType: Progress
+          - m_Uid: 7353305163655760515
+          - m_Output: 7353307031843890004
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1350.000000
+      - m_Uid: 7353305064796088890
+      - m_Output: 7353307624599125361
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353305330987828466
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1035.000000
+          - y: 225.000000
+      - m_Uid: 7353305331591455326
+      - m_Output: 7353303283247604356
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353305601802484302
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1035.000000
+          - y: 600.000000
+      - m_Uid: 7353305602182313039
+      - m_Output: 7353303283247604356
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353306631990317528
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1035.000000
+          - y: 900.000000
+      - m_Uid: 7353306632837957849
+      - m_Output: 7353303283247604356
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353306838593485444
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1650.000000
+          - y: 150.000000
+      - m_Uid: 7353306838680891199
+      - m_Output: 7353305064796088890
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353307031253821782
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1650.000000
+          - y: 495.000000
+      - m_Uid: 7353307031843890004
+      - m_Output: 7353305064796088890
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353307624726723944
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1950.000000
+      - m_Uid: 7353307624599125361
+      - m_Output: 7352952808687365152
+  - m_ActorsData:
+    - Dialog::AIData:
+      - m_Slot: Slot1
+      - m_Name: AS_Herald
+      - m_SetupBehaviors:
+        - Dialog::SetupBehaviorAI:
+          - m_BehaviorName: multiactivity_citizen_m_stand_leaning_railings_01
+          - m_NodeUid: 7352952249932203877
+      - m_HasTrigger: 1
+    - Dialog::PlayerData: 
+  - m_VariableData:
+    - Dialog::InstanceVariableData: 
+...

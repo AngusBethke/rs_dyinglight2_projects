@@ -1,0 +1,246 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_006`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Ah, our saviour. Good to make your Acquaintance, though I wish it were under better circumstances.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_007`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `I'm Ahmer. My people here, are referred to locally as the 'Moles' and this is our home.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_008`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `A what? 'Pilgrim', heard of the word, but never the faction. That being said, I wasn't sure an outside world still even existed.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_009`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `The ground is radioactive during the day, and those monsters come out in the night... it's far too Dangerous.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_010`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Look, I'm glad you saved us, but... why are you here?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_012`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `I may have some information that can help... but given the circumstances, I think we need your help first.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_014`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `I would like to propose a trade, you deal with the Uppers for us, and I'll share the information I have about the Vault.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_016`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `What would you like to know?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_017`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `They're currently occupying a Villa on the coast, South West of the town, you'll find Victor there.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_025`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `The Uppers? Well they've turned on us recently, for the last two years they just left us alone... living in that little Palace of theirs.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_028`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `They never said, and anyone that tried to ask got a sword in the gut, there's no reasoning with those Savages.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_029`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Probably around 40 or 50 of them.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_030`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Too few... we outnumbered them, at least before the attacks started.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_033`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `We tried initially, but those guys are all ex-military, we didn't stand a chance.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_035`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Yeah, owned by some Wealthy official, it survived the blast largely intact due to its position in a Valley and the protection of the city walls above.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_037`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `It had supplies, shelter, and the city surrounds are reasonably clear of radiation... but Victor got there first and turned us away.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_038`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Somewhat, he used so be in charge of our residence in the...`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_039`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `It doesn't matter where, just that he was supposed to keep us all safe, and then tossed us aside when it was convenient.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_041`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `But I digress, I was telling you how to get to the Villa...`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_042`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `It's a bit of a journey to get there, pretty much on the Opposite end of town, we thought the distance might deter them.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_AS_Herald_043`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `In any case, you should rest up before you head out. There's a spare bunk you can use, now that Nico is... well, it should be comfortable enough.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_002`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Ahmer, good to meet you, I'm Aiden, a Pilgrim.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_004`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `You've never tried to leave the city?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_011`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I'm travelling with a group of Pilgrims, and we heard rumours of a fully stocked supply cache locked away in a Vault somewhere in this city.`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_013`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I'm listening...`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_015`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Okay, I'll help. Can you give me any background about these bandits?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_022`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Where can I find them?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_026`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Why did those Bandits attack you?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_027`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Surely there must be a reason they started to attack you?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_031`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `How many are there?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_032`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `... and of you?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_034`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Why haven't you fought back? Rallied your people?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_036`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `A Villa?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_LocalPlayer_040`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Victor? Is he their leader?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_choice_018`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Why did those Bandits attack you?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_choice_019`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `How many are there?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_choice_020`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Why haven't you fought back? Rallied your people?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_choice_021`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Where can I find them?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_choice_023`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `A Villa?`);
+    }
+    Entry(`DLG_RsWrohQ2DialogAhmer_choice_024`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Victor? Is he their leader?`);
+    }
+}

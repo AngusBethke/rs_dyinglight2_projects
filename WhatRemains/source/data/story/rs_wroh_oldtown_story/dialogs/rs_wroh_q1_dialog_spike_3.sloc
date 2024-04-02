@@ -1,0 +1,42 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ1DialogSpike3_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I'm at the towers... they're still standing surprisingly.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike3_LocalPlayer_004`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `So your source didn't see 'living breathing people' then?`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike3_LocalPlayer_006`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Point taken, I'll let you know if I find anyone. Out.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike3_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `That's good to hear, so my sources said they spotted: Water collection implements, windmills and solar panels.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike3_Pilgrim_003`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `That's what you're looking for... follow them around until you find who put them up.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike3_Pilgrim_005`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `When was the last time you saw an infected putting up a windmill?`);
+    }
+}

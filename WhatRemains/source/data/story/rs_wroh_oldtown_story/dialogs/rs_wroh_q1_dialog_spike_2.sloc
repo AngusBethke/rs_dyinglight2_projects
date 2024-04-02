@@ -1,0 +1,66 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ1DialogSpike2_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I'm up top, where am I heading?`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_LocalPlayer_004`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Is that where the 'signs of life' were spotted?`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_LocalPlayer_006`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Right, nuclear bomb and all that, I'll radio when I'm there. Out.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_LocalPlayer_007`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Go visit an irradiated city Aiden, we need those supplies Aiden...`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_LocalPlayer_008`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Why is it never Spike that does all of this crazy shit?!`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_LocalPlayer_010`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Uh... talk soon! Out.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `It's a place we used to call the Embers' Towers.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_Pilgrim_003`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Should be two towers right next to each other, one slightly shorter than the other.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_Pilgrim_005`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Not exactly... but it is one of the highest spots in the city... provided it hasn't been flattened.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogSpike2_Pilgrim_009`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `You didn't shut off the radio Aiden...`);
+    }
+}

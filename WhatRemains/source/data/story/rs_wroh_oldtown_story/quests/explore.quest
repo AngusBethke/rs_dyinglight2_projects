@@ -2,7 +2,7 @@
 <Node type="Actions::Group" uid="7240810773802944902">
 	<Logic type="Story::QuestLogic">
 		<Attribute name="m_Quest" value="7240810774825080290"/>
-		<Attribute name="m_Name" value="Explore"/>
+		<Attribute name="m_Name" value="Q1_GhostTown"/>
 		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 			<Attribute name="show_indicator" value="1"/>
 			<Attribute name="indicator_type" value="Default"/>
@@ -18,19 +18,373 @@
 	<Node type="Actions::Node" uid="7240810774153979273">
 		<Logic type="Actions::StartLogic"/>
 		<Editor>
-			<Position x="-945" y="0"/>
+			<Position x="-1500" y="-150"/>
 		</Editor>
 	</Node>
-	<Connect start="7240810774153979273" output="Out" input="In" end="7240811697878495153">
+	<Connect start="7240810774153979273" output="Out" input="In" end="7352963938017296444">
 		<Start class="Actions::StartLogic"/>
-		<End class="Story::SetPlayerPresetLogic"/>
+		<End class="Story::StartQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7352893017640337552">
+		<Logic type="Story::MissionLogic">
+			<Attribute name="m_Name" value="Q1_M2"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_RespawnPoint">
+				<Entity name="rs_wroh_testground/~55/~145/rs_wroh_q1_m2_respawn_point"/>
+			</Entities>
+		</Logic>
+		<Node type="Actions::Node" uid="7352893083228540565">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352881120673142659"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="225" y="150"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893083228540565" output="Out" input="In" end="7352893082211522840">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitForSensorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7353322855638410149">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="5.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1935" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7353322855638410149" output="Out" input="In" end="7352947418145722309">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::DialogueSetupLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893082112085421">
+			<Logic type="Story::ClearLogic">
+				<Attribute name="m_AIsAmountToShowIndicators" value="2"/>
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_SpawnersEntites"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="600" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893082112085421" output="Out" input="In" end="7352893082880957132">
+			<Start class="Story::ClearLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352896850300684985">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~145/rs_wroh_q1_m2_respawn_point"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1755" y="150"/>
+			</Editor>
+		</Node>
+		<Connect start="7352896850300684985" output="Out" input="In" end="7352893083625089226">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352947418145722309">
+			<Logic type="Story::DialogueSetupLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_ahmer_1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1500" y="450"/>
+			</Editor>
+		</Node>
+		<Connect start="7352947418145722309" output="Out" input="In" end="7352947465627918593">
+			<Start class="Story::DialogueSetupLogic"/>
+			<End class="Story::DialogueLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893083625089226">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352882010453793005"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="225" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893083625089226" output="Out" input="In" end="7352893082112085421">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::ClearLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893082880957132">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352882010453793005"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1200" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893082880957132" output="Out" input="In" end="7352947349570761046">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893019677978844">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="2760" y="300"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7352894353832678645">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="225" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352894353832678645" output="Out" input="In" end="7352893083228540565">
+			<Start class="Story::DisableLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352947465627918593">
+			<Logic type="Story::DialogueLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_ahmer_1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1875" y="450"/>
+			</Editor>
+		</Node>
+		<Connect start="7352947465627918593" output="Out:EndNode" input="In" end="7352893083939927581">
+			<Start class="Story::DialogueLogic"/>
+			<End class="Story::CompleteMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893762210641171">
+			<Logic type="Story::StartMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="30" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893762210641171" output="Out" input="In" end="7352894353832678645">
+			<Start class="Story::StartMissionLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893082211522840">
+			<Logic type="Story::WaitForSensorLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~140/rs_wroh_q1_signs_of_life_goto_area_3"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="600" y="150"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893082211522840" output="Out" input="In" end="7352893083417460825">
+			<Start class="Story::WaitForSensorLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893083939927581">
+			<Logic type="Story::CompleteMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="2460" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893083939927581" output="Out" input="In" end="7352893019677978844">
+			<Start class="Story::CompleteMissionLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352894599344148029">
+			<Logic type="Story::EnableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1365" y="150"/>
+			</Editor>
+		</Node>
+		<Connect start="7352894599344148029" output="Out" input="In" end="7352896850300684985">
+			<Start class="Story::EnableLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352947349570761046">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~145/rs_wroh_q1_m2_respawn_point"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1575" y="300"/>
+			</Editor>
+		</Node>
+		<Connect start="7352947349570761046" output="Out" input="In" end="7353322855638410149">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893083417460825">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352881120673142659"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1050" y="150"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893083417460825" output="Out" input="In" end="7352894599344148029">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::EnableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893018908796261">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-210" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893018908796261" output="Out" input="In" end="7352893762210641171">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartMissionLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="300" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352893017640337552" output="Out:End" input="In" end="7352964152104671724">
+		<Start class="Story::MissionLogic"/>
+		<End class="Story::HideLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352963979942464147">
+		<Logic type="Story::CompleteQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="750" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352963979942464147" output="Out" input="In" end="7240810775009188273">
+		<Start class="Story::CompleteQuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352893289961378477">
+		<Logic type="Story::ShowLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_1"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_2"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_3"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_4"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_5"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_6"/>
+				<Entity name="rs_wroh_testground/~55/rs_wroh_q1_signs_of_life_flare_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-225" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7352893289961378477" output="Out" input="In" end="7352893288489997135">
+		<Start class="Story::ShowLogic"/>
+		<End class="Story::WaitLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7240810775009188273">
 		<Logic type="Actions::EndLogic">
 			<Attribute name="m_IsFinishing" value="0"/>
 		</Logic>
 		<Editor>
-			<Position x="180" y="0"/>
+			<Position x="1050" y="-150"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Node" uid="7240811697878495153">
@@ -43,12 +397,91 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="-735" y="0"/>
+			<Position x="-1125" y="-150"/>
 		</Editor>
 	</Node>
 	<Connect start="7240811697878495153" output="Out" input="In" end="7250482937550938861">
 		<Start class="Story::SetPlayerPresetLogic"/>
 		<End class="Story::SetDayPhaseLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352892171761893059">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_1"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_2"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_3"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_4"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_5"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_6"/>
+				<Entity name="rs_wroh_testground/~55/rs_wroh_q1_signs_of_life_flare_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-900" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7352892171761893059" output="Out" input="In" end="7352957199193000743">
+		<Start class="Story::HideLogic"/>
+		<End class="Story::HideLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352892216355690443">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Quest 1 - Hide"/>
+			<Attribute name="m_Size" value="361.000000 219.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="-915" y="15"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7352957215531694541">
+		<Logic type="Story::DisableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~130/rs_wroh_q2_moles_switch_1"/>
+				<Entity name="rs_wroh_testground/~55/~138/rs_wroh_q2_moles_resting_place_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-749" y="360"/>
+		</Editor>
+	</Node>
+	<Connect start="7352957215531694541" output="Out" input="In:Start" end="7352890084548202855">
+		<Start class="Story::DisableLogic"/>
+		<End class="Story::MissionLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352964152104671724">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_1"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_2"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_3"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_4"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_5"/>
+				<Entity name="rs_wroh_testground/~55/~128/rs_wroh_q1_signs_of_life_clear_area_1_ai_6"/>
+				<Entity name="rs_wroh_testground/~55/rs_wroh_q1_signs_of_life_flare_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="629" y="81"/>
+		</Editor>
+	</Node>
+	<Connect start="7352964152104671724" output="Out" input="In" end="7352963979942464147">
+		<Start class="Story::HideLogic"/>
+		<End class="Story::CompleteQuestLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7250482937550938861">
 		<Logic type="Story::SetDayPhaseLogic">
@@ -60,12 +493,1195 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="-330" y="0"/>
+			<Position x="-750" y="-150"/>
 		</Editor>
 	</Node>
-	<Connect start="7250482937550938861" output="Out" input="In" end="7240810775009188273">
+	<Connect start="7250482937550938861" output="Out" input="In" end="7352892171761893059">
 		<Start class="Story::SetDayPhaseLogic"/>
-		<End class="Actions::EndLogic"/>
+		<End class="Story::HideLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7352957199193000743">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/rs_wroh_q2_moles_parkour_winch_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-1124" y="360"/>
+		</Editor>
+	</Node>
+	<Connect start="7352957199193000743" output="Out" input="In" end="7352957215531694541">
+		<Start class="Story::HideLogic"/>
+		<End class="Story::DisableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352963938017296444">
+		<Logic type="Story::StartQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-1305" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352963938017296444" output="Out" input="In" end="7240811697878495153">
+		<Start class="Story::StartQuestLogic"/>
+		<End class="Story::SetPlayerPresetLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352893288489997135">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="5.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="150" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7352893288489997135" output="Out" input="In:Start" end="7352893017640337552">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::MissionLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352958026895338844">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Quest 2 - Hide &amp; Disable"/>
+			<Attribute name="m_Size" value="708.000000 169.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="-1144" y="295"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7352964151848596326">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Quest 1 - Hide"/>
+			<Attribute name="m_Size" value="361.000000 219.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="614" y="21"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Group" uid="7352890084548202855">
+		<Logic type="Story::MissionLogic">
+			<Attribute name="m_Name" value="Q1_M1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_RespawnPoint">
+				<Entity name="rs_wroh_testground/~55/~146/rs_wroh_q1_m1_respawn_point"/>
+			</Entities>
+		</Logic>
+		<Node type="Actions::Node" uid="7352890178827441792">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~9/rs_wroh_q1_signs_of_life_goto_point_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1820" y="652"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178827441792" output="Out" input="In" end="7352890179141399156">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::GoToLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352921018501353603">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~118/rs_wroh_q1_signs_of_life_detectable_6"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1425" y="2010"/>
+			</Editor>
+		</Node>
+		<Connect start="7352921018501353603" output="Out" input="In" end="7352890179774170939">
+			<Start class="Story::DisableLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890178773736069">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~113/rs_wroh_q1_signs_of_life_goto_point_2"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1820" y="832"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178773736069" output="Out" input="In" end="7352890180479246041">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::GoToLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890178736229780">
+			<Logic type="Story::UseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="905" y="1315"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178736229780" output="Out" input="In" end="7352890180515026810">
+			<Start class="Story::UseBinocularsLogic"/>
+			<End class="Story::DiscoverObjectLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352920799427038362">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~116/rs_wroh_q1_signs_of_life_detectable_4"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="555" y="1545"/>
+			</Editor>
+		</Node>
+		<Connect start="7352920799427038362" output="Out" input="In" end="7352890179924964476">
+			<Start class="Story::DisableLogic"/>
+			<End class="Story::UseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352899400794502554">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~126/rs_wroh_q1_signs_of_life_goto_area_2_indicator"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="525" y="2010"/>
+			</Editor>
+		</Node>
+		<Connect start="7352899400794502554" output="Out" input="In" end="7352890180569031282">
+			<Start class="Story::ShowIndicatorLogic"/>
+			<End class="Story::WaitForSensorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7353318911160349852">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="40.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="600" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7353318911160349852" output="Out" input="In" end="7352890180074881764">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179888089248">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~142/rs_wroh_q1_signs_of_life_goto_point_5"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1820" y="1537"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179888089248" output="Out" input="In" end="7352890180569623656">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::GoToLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890084510860455">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="150" y="-150"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890084510860455" output="Out" input="In" end="7352890178845576902">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179112864423">
+			<Logic type="Story::GoToLogic">
+				<Attribute name="m_Distance" value="1.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~142/rs_wroh_q1_signs_of_life_goto_point_5"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="132" y="1546"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179112864423" output="Out" input="In" end="7352920799427038362">
+			<Start class="Story::GoToLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179998727083">
+			<Logic type="Story::EndUseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1506" y="1779"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179998727083" output="Out" input="In" end="7352890179777795518">
+			<Start class="Story::EndUseBinocularsLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352924178807330999">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="5.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="975" y="450"/>
+			</Editor>
+		</Node>
+		<Connect start="7352924178807330999" output="Out" input="In" end="7352924178084762182">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::DialogueLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179777795518">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~143/rs_wroh_q1_signs_of_life_goto_point_6"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1820" y="1777"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179777795518" output="Out" input="In" end="7352899723959988002">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352920785850074815">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~115/rs_wroh_q1_signs_of_life_detectable_3"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="570" y="1320"/>
+			</Editor>
+		</Node>
+		<Connect start="7352920785850074815" output="Out" input="In" end="7352890178736229780">
+			<Start class="Story::DisableLogic"/>
+			<End class="Story::UseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352910073610315461">
+			<Logic type="Story::DialogueSetupLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_spike_1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="210" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352910073610315461" output="Out" input="In" end="7352917473280543351">
+			<Start class="Story::DialogueSetupLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Connect start="7352910073610315461" output="Out" input="In" end="7353318911160349852">
+			<Start class="Story::DialogueSetupLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890178845576902">
+			<Logic type="Story::StartMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="375" y="-150"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178845576902" output="Out" input="In" end="7352910073610315461">
+			<Start class="Story::StartMissionLogic"/>
+			<End class="Story::DialogueSetupLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890084576056265">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="2520" y="2010"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7352890178935422162">
+			<Logic type="Story::EndUseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1520" y="1312"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178935422162" output="Out" input="In" end="7352890180541500211">
+			<Start class="Story::EndUseBinocularsLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180479246041">
+			<Logic type="Story::GoToLogic">
+				<Attribute name="m_Distance" value="1.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~139/rs_wroh_q1_signs_of_life_goto_point_3"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="146" y="1094"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180479246041" output="Out" input="In" end="7352920767815202418">
+			<Start class="Story::GoToLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352893353738678491">
+			<Logic type="Story::CompleteMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="2220" y="2010"/>
+			</Editor>
+		</Node>
+		<Connect start="7352893353738678491" output="Out" input="In" end="7352890084576056265">
+			<Start class="Story::CompleteMissionLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179199783644">
+			<Logic type="Story::UseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="911" y="1094"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179199783644" output="Out" input="In" end="7352890179681510453">
+			<Start class="Story::UseBinocularsLogic"/>
+			<End class="Story::DiscoverObjectLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180074881764">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352879394775714479"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="990" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180074881764" output="Out" input="In" end="7352890179872244982">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitForSensorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179674450408">
+			<Logic type="Story::EndUseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1509" y="1546"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179674450408" output="Out" input="In" end="7352890179888089248">
+			<Start class="Story::EndUseBinocularsLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179099055595">
+			<Logic type="Story::DiscoverObjectLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~118/rs_wroh_q1_signs_of_life_detectable_6"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1115" y="1777"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179099055595" output="Out" input="In" end="7352890179998727083">
+			<Start class="Story::DiscoverObjectLogic"/>
+			<End class="Story::EndUseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179872244982">
+			<Logic type="Story::WaitForSensorLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~135/rs_wroh_q1_signs_of_life_goto_area_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1455" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179872244982" output="Out" input="In" end="7352890179243982612">
+			<Start class="Story::WaitForSensorLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Connect start="7352890179872244982" output="Out" input="In" end="7353319131460470011">
+			<Start class="Story::WaitForSensorLogic"/>
+			<End class="Story::DialogueSetupLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179216776951">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352808210838370219"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="165" y="195"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179216776951" output="Out" input="In" end="7352890178948717871">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::GoToLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7353319131460470011">
+			<Logic type="Story::DialogueSetupLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_spike_2"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1647" y="-304"/>
+			</Editor>
+		</Node>
+		<Connect start="7353319131460470011" output="Out" input="In" end="7353319131938115071">
+			<Start class="Story::DialogueSetupLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890178725237501">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352808210838370219"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1215" y="195"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178725237501" output="Out" input="In" end="7352890180376652400">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7353319131938115071">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="5.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="2037" y="-304"/>
+			</Editor>
+		</Node>
+		<Connect start="7353319131938115071" output="Out" input="In" end="7353319131495436322">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::DialogueLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180210451210">
+			<Logic type="Story::EndUseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1520" y="832"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180210451210" output="Out" input="In" end="7352890178773736069">
+			<Start class="Story::EndUseBinocularsLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180181273361">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~139/rs_wroh_q1_signs_of_life_goto_point_3"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1820" y="1102"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180181273361" output="Out" input="In" end="7352890180123395644">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::GoToLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179243982612">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352879394775714479"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1950" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179243982612" output="Out" input="In" end="7352890179216776951">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180319349280">
+			<Logic type="Story::UseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="905" y="832"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180319349280" output="Out" input="In" end="7352890179204108120">
+			<Start class="Story::UseBinocularsLogic"/>
+			<End class="Story::DiscoverObjectLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7353319131495436322">
+			<Logic type="Story::DialogueLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_spike_2"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="2415" y="-300"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7352899723959988002">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~126/rs_wroh_q1_signs_of_life_goto_area_2_indicator"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="120" y="2010"/>
+			</Editor>
+		</Node>
+		<Connect start="7352899723959988002" output="Out" input="In" end="7352899400794502554">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352907458135751209">
+			<Logic type="Story::DialogueLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_spike_1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="975" y="-300"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7352890178948717871">
+			<Logic type="Story::GoToLogic">
+				<Attribute name="m_Distance" value="1.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~9/rs_wroh_q1_signs_of_life_goto_point_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="615" y="195"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178948717871" output="Out" input="In" end="7352890178725237501">
+			<Start class="Story::GoToLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180541500211">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="rs_wroh_testground/~55/~141/rs_wroh_q1_signs_of_life_goto_point_4"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1820" y="1312"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180541500211" output="Out" input="In" end="7352890179112864423">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::GoToLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179681510453">
+			<Logic type="Story::DiscoverObjectLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~115/rs_wroh_q1_signs_of_life_detectable_3"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1136" y="1094"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179681510453" output="Out" input="In" end="7352890180457494080">
+			<Start class="Story::DiscoverObjectLogic"/>
+			<End class="Story::EndUseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179774170939">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352808767794330008"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1830" y="2010"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179774170939" output="Out" input="In" end="7352893353738678491">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::CompleteMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180123395644">
+			<Logic type="Story::GoToLogic">
+				<Attribute name="m_Distance" value="1.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~141/rs_wroh_q1_signs_of_life_goto_point_4"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="140" y="1315"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180123395644" output="Out" input="In" end="7352920785850074815">
+			<Start class="Story::GoToLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180457494080">
+			<Logic type="Story::EndUseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1525" y="1094"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180457494080" output="Out" input="In" end="7352890180181273361">
+			<Start class="Story::EndUseBinocularsLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179067509826">
+			<Logic type="Story::DiscoverObjectLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~117/rs_wroh_q1_signs_of_life_detectable_5"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1122" y="1546"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179067509826" output="Out" input="In" end="7352890179674450408">
+			<Start class="Story::DiscoverObjectLogic"/>
+			<End class="Story::EndUseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352924178084762182">
+			<Logic type="Story::DialogueLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_spike_3"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1350" y="450"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7352890180370210889">
+			<Logic type="Story::UseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="895" y="1779"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180370210889" output="Out" input="In" end="7352890179099055595">
+			<Start class="Story::UseBinocularsLogic"/>
+			<End class="Story::DiscoverObjectLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890178918901835">
+			<Logic type="Story::UseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="905" y="652"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890178918901835" output="Out" input="In" end="7352890179365024593">
+			<Start class="Story::UseBinocularsLogic"/>
+			<End class="Story::DiscoverObjectLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179400774733">
+			<Logic type="Story::EndUseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1520" y="652"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179400774733" output="Out" input="In" end="7352890178827441792">
+			<Start class="Story::EndUseBinocularsLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179365024593">
+			<Logic type="Story::DiscoverObjectLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~7/rs_wroh_q1_signs_of_life_detectable_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1130" y="652"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179365024593" output="Out" input="In" end="7352890179400774733">
+			<Start class="Story::DiscoverObjectLogic"/>
+			<End class="Story::EndUseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179204108120">
+			<Logic type="Story::DiscoverObjectLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~114/rs_wroh_q1_signs_of_life_detectable_2"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1130" y="832"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179204108120" output="Out" input="In" end="7352890180210451210">
+			<Start class="Story::DiscoverObjectLogic"/>
+			<End class="Story::EndUseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7353318636351376485">
+			<Logic type="Story::DialogueSetupLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q1_dialog_spike_3"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="585" y="450"/>
+			</Editor>
+		</Node>
+		<Connect start="7353318636351376485" output="Out" input="In" end="7352924178807330999">
+			<Start class="Story::DialogueSetupLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180569623656">
+			<Logic type="Story::GoToLogic">
+				<Attribute name="m_Distance" value="1.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~143/rs_wroh_q1_signs_of_life_goto_point_6"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="130" y="1779"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180569623656" output="Out" input="In" end="7352920806712021106">
+			<Start class="Story::GoToLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180376652400">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352808767794330008"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="140" y="652"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180376652400" output="Out" input="In" end="7352890178918901835">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::UseBinocularsLogic"/>
+		</Connect>
+		<Connect start="7352890180376652400" output="Out" input="In" end="7353318636351376485">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::DialogueSetupLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352920806712021106">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~117/rs_wroh_q1_signs_of_life_detectable_5"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="555" y="1785"/>
+			</Editor>
+		</Node>
+		<Connect start="7352920806712021106" output="Out" input="In" end="7352890180370210889">
+			<Start class="Story::DisableLogic"/>
+			<End class="Story::UseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180569031282">
+			<Logic type="Story::WaitForSensorLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~126/rs_wroh_q1_signs_of_life_goto_area_2"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="975" y="2010"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180569031282" output="Out" input="In" end="7352921018501353603">
+			<Start class="Story::WaitForSensorLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352920767815202418">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~114/rs_wroh_q1_signs_of_life_detectable_2"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="570" y="1095"/>
+			</Editor>
+		</Node>
+		<Connect start="7352920767815202418" output="Out" input="In" end="7352890179199783644">
+			<Start class="Story::DisableLogic"/>
+			<End class="Story::UseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179141399156">
+			<Logic type="Story::GoToLogic">
+				<Attribute name="m_Distance" value="1.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="rs_wroh_testground/~55/~113/rs_wroh_q1_signs_of_life_goto_point_2"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="140" y="832"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179141399156" output="Out" input="In" end="7352920690980246397">
+			<Start class="Story::GoToLogic"/>
+			<End class="Story::DisableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352917473280543351">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="15.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="600" y="-300"/>
+			</Editor>
+		</Node>
+		<Connect start="7352917473280543351" output="Out" input="In" end="7352907458135751209">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::DialogueLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890180515026810">
+			<Logic type="Story::DiscoverObjectLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~116/rs_wroh_q1_signs_of_life_detectable_4"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1130" y="1315"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890180515026810" output="Out" input="In" end="7352890178935422162">
+			<Start class="Story::DiscoverObjectLogic"/>
+			<End class="Story::EndUseBinocularsLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352890179924964476">
+			<Logic type="Story::UseBinocularsLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="897" y="1546"/>
+			</Editor>
+		</Node>
+		<Connect start="7352890179924964476" output="Out" input="In" end="7352890179067509826">
+			<Start class="Story::UseBinocularsLogic"/>
+			<End class="Story::DiscoverObjectLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352920690980246397">
+			<Logic type="Story::DisableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~7/rs_wroh_q1_signs_of_life_detectable_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="555" y="840"/>
+			</Editor>
+		</Node>
+		<Connect start="7352920690980246397" output="Out" input="In" end="7352890180319349280">
+			<Start class="Story::DisableLogic"/>
+			<End class="Story::UseBinocularsLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="-300" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352890084548202855" output="Out:End" input="In" end="7352893289961378477">
+		<Start class="Story::MissionLogic"/>
+		<End class="Story::ShowLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352894552761421686">
+		<Logic type="Actions::CommentLogic">
+			<Attribute name="m_Comment" value="Quest 1 - Show"/>
+			<Attribute name="m_Size" value="701.000000 229.000000"/>
+		</Logic>
+		<Editor>
+			<Position x="-245" y="10"/>
+		</Editor>
+	</Node>
 </Node>
 

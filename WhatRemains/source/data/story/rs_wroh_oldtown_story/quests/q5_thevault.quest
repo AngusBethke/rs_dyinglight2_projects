@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7352801045673192174">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7352801047115240633"/>
+		<Attribute name="m_Name" value="Q5_TheVault"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7352803215909572120">
+		<Logic type="Story::StartQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="969" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352803215909572120" output="Out" input="In" end="7352803215682136133">
+		<Start class="Story::StartQuestLogic"/>
+		<End class="Story::WaitLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352803215682136133">
+		<Logic type="Story::WaitLogic">
+			<Attribute name="m_Delay" value="10.000000"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1029" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7352803215682136133" output="Out" input="In" end="7352803216135615086">
+		<Start class="Story::WaitLogic"/>
+		<End class="Story::CompleteQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352802527701409355">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="750" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352802527701409355" output="Out" input="In" end="7352803215909572120">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::StartQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352802548955582309">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="1500" y="-150"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7352803216135615086">
+		<Logic type="Story::CompleteQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1254" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352803216135615086" output="Out" input="In" end="7352802548955582309">
+		<Start class="Story::CompleteQuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+</Node>
+

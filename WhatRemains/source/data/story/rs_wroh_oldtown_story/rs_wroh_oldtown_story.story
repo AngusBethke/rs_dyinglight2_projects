@@ -8,6 +8,6 @@ sub main()
     
     SupportedMaps()
     {
-       Map("oldtown");
+       Map("rs_wroh_testground");
     }
 }

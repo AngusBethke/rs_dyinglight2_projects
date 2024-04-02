@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7352800625675511383">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7352800624378402714"/>
+		<Attribute name="m_Name" value="Q2_TheMoles"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7352958683512585600">
+		<Logic type="Story::ShowLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/rs_wroh_q2_moles_parkour_winch_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="645" y="195"/>
+		</Editor>
+	</Node>
+	<Connect start="7352958683512585600" output="Out" input="In" end="7352802321668460123">
+		<Start class="Story::ShowLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352957782872368279">
+		<Logic type="Story::UseLogic">
+			<Attribute name="m_DesiredValue" value="_ON"/>
+			<Attribute name="m_RequiredCount" value="1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~130/rs_wroh_q2_moles_switch_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-150" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7352957782872368279" output="Out" input="In" end="7352957782610042641">
+		<Start class="Story::UseLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352960463067158943">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="q2_pointofinterest"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="rs_wroh_testground/~55/~145/rs_wroh_q1_m2_respawn_point"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-960" y="-450"/>
+		</Editor>
+	</Node>
+	<Connect start="7352960463067158943" output="Out" input="In" end="7352958417225785562">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7353295449550274214">
+		<Logic type="Story::ForceSleepLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_RestingPlace">
+				<Entity name="rs_wroh_testground/~55/~138/rs_wroh_q2_moles_resting_place_1"/>
+			</Entities>
+			<Entities name="m_AllowedSleepLocations">
+				<Entity name="rs_wroh_testground/~55/~138/rs_wroh_q2_moles_resting_place_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="240" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7353295449550274214" output="Out" input="In" end="7352956867872971851">
+		<Start class="Story::ForceSleepLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352958233146097347">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~138/rs_wroh_q2_moles_resting_place_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-450" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7352958233146097347" output="Out" input="In" end="7352956730939121239">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7352950042730385368">
+		<Logic type="Story::MissionLogic">
+			<Attribute name="m_Name" value="Q2_M1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_RespawnPoint">
+				<Entity name="rs_wroh_testground/~55/~145/rs_wroh_q1_m2_respawn_point"/>
+			</Entities>
+		</Logic>
+		<Node type="Actions::Node" uid="7352950318822206098">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352951301236089782"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="180" y="105"/>
+			</Editor>
+		</Node>
+		<Connect start="7352950318822206098" output="Out" input="In" end="7352950816498192655">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitForSensorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352950194163241107">
+			<Logic type="Story::CompleteMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1575" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352950194163241107" output="Out" input="In" end="7352950043665873856">
+			<Start class="Story::CompleteMissionLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352950133091666092">
+			<Logic type="Story::StartMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="-75" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352950133091666092" output="Out" input="In" end="7352950318822206098">
+			<Start class="Story::StartMissionLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352956288880819644">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352951512444251407"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1125" y="330"/>
+			</Editor>
+		</Node>
+		<Connect start="7352956288880819644" output="Out" input="In" end="7352950194163241107">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::CompleteMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352950043665873856">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="1800" y="0"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7352950816498192655">
+			<Logic type="Story::WaitForSensorLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="rs_wroh_testground/~55/~136/rs_wroh_q2_moles_goto_area_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="555" y="105"/>
+			</Editor>
+		</Node>
+		<Connect start="7352950816498192655" output="Out" input="In" end="7352950364042686559">
+			<Start class="Story::WaitForSensorLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352950042805441831">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-285" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7352950042805441831" output="Out" input="In" end="7352950133091666092">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352956456238985019">
+			<Logic type="Story::DialogueSetupLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q2_dialog_ahmer"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name="rs_wroh_testground/~55/~150/~1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="-255" y="345"/>
+			</Editor>
+		</Node>
+		<Connect start="7352956456238985019" output="Out" input="In" end="7352956288585320783">
+			<Start class="Story::DialogueSetupLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352956288585320783">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352951512444251407"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="180" y="330"/>
+			</Editor>
+		</Node>
+		<Connect start="7352956288585320783" output="Out" input="In" end="7352956489466515794">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::DialogueLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352956489466515794">
+			<Logic type="Story::DialogueLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q2_dialog_ahmer"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name="rs_wroh_testground/~55/~150/~1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="600" y="345"/>
+			</Editor>
+		</Node>
+		<Connect start="7352956489466515794" output="Out:EndNode" input="In" end="7352956288880819644">
+			<Start class="Story::DialogueLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7352950364042686559">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7352951301236089782"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1125" y="105"/>
+			</Editor>
+		</Node>
+		<Connect start="7352950364042686559" output="Out" input="In" end="7352956456238985019">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::DialogueSetupLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="-900" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7352950042730385368" output="Out:End" input="In" end="7352958233146097347">
+		<Start class="Story::MissionLogic"/>
+		<End class="Story::EnableLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352958417225785562">
+		<Logic type="Story::EnableLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~130/rs_wroh_q2_moles_switch_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-900" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7352958417225785562" output="Out" input="In" end="7352957781632612405">
+		<Start class="Story::EnableLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352957782610042641">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7352950991952688904"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="450" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7352957782610042641" output="Out" input="In:Start" end="7352950042730385368">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::MissionLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352957781632612405">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7352950991952688904"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-525" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7352957781632612405" output="Out" input="In" end="7352957782872368279">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::UseLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352956867872971851">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7352951597169161346"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="660" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7352956867872971851" output="Out" input="In" end="7352958602972097632">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::HideLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352956730939121239">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7352951597169161346"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-90" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7352956730939121239" output="Out" input="In" end="7353295449550274214">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::ForceSleepLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352802321668460123">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="1200" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7352958602972097632">
+		<Logic type="Story::HideLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/~55/~130/rs_wroh_q2_moles_switch_1"/>
+				<Entity name="rs_wroh_testground/~55/rs_wroh_q2_moles_amortizer_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="315" y="195"/>
+		</Editor>
+	</Node>
+	<Connect start="7352958602972097632" output="Out" input="In" end="7352958683512585600">
+		<Start class="Story::HideLogic"/>
+		<End class="Story::ShowLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7352802309670670963">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-1200" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7352802309670670963" output="Out" input="In" end="7352960463067158943">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
+	</Connect>
+</Node>
+

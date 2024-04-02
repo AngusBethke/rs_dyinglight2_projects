@@ -1,0 +1,54 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ1DialogAhmer1_AS_Herald_006`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Hey you... you out there... can you hear me? I'm transmitting on all frequencies.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogAhmer1_AS_Herald_007`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Is it clear, did you get rid of them?`);
+    }
+    Entry(`DLG_RsWrohQ1DialogAhmer1_AS_Herald_009`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Yes, the Uppers! Nico and Phil were out there, but they're not responding.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogAhmer1_AS_Herald_011`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Fuck.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogAhmer1_AS_Herald_012`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Okay, get down here and we can talk... and thank you. If you hadn't shown up... I don't think we would've made it. Out.`);
+    }
+    Entry(`DLG_RsWrohQ1DialogAhmer1_LocalPlayer_002`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Yeah I read you... who are you?`);
+    }
+    Entry(`DLG_RsWrohQ1DialogAhmer1_LocalPlayer_008`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Who? The Bandits?`);
+    }
+    Entry(`DLG_RsWrohQ1DialogAhmer1_LocalPlayer_010`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, ` I'm sorry, they're dead... the only people still standing when I got here were the Bandits.`);
+    }
+}
