@@ -1,0 +1,12 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ3DialogAiden1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Well they don't look too friendly... I guess this is going to be a fight.`);
+    }
+}

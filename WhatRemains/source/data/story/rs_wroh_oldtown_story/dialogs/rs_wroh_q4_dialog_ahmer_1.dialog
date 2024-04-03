@@ -1,0 +1,41 @@
+---
+- Dialog::Graph:
+  - m_Uid: 7353726676396849493
+  - m_AlwaysShowSubtitles: 1
+  - m_PrefabType: None
+  - m_AddSensorToPrefab: 0
+  - m_Nodes:
+    - Dialog::StartNode:
+      - m_Elements:
+        - Dialog::AlwaysEnterEvent:
+          - m_Uid: 7353727024181928418
+          - m_Output: 7353726994649798679
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData: 
+      - m_Uid: 7353726675487401322
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353726993598071946
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 300.000000
+      - m_Uid: 7353726994649798679
+      - m_Output: 7353727011089181858
+    - Dialog::EndNode:
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 600.000000
+      - m_Uid: 7353727011089181858
+  - m_ActorsData:
+    - Dialog::AIData:
+      - m_Is2D: 1
+      - m_UseRadioFx: 1
+      - m_Name: AS_Herald
+      - m_SetupBehaviors:
+        - Dialog::SetupBehaviorAI:
+          - m_NodeUid: 7353726675487401322
+      - m_HasTrigger: 1
+    - Dialog::PlayerData:
+      - m_Slot: None
+  - m_VariableData:
+    - Dialog::InstanceVariableData: 
+...

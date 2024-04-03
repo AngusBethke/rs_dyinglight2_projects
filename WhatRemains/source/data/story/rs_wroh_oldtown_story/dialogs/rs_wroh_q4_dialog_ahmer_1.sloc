@@ -1,0 +1,30 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ4DialogAhmer1_AS_Herald_002`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `You have?! That's wonderful... and Victor?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogAhmer1_AS_Herald_004`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `Fine. Just back here ASAP, it will be better to have this conversation in person. Out.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogAhmer1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Ahmer, it's Aiden... I've dealt with the Uppers.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogAhmer1_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Dead... but Ahmer, we have to talk about Victor... he wasn't in his right mind, but some of the stuff he said... you need to explain what happened.`);
+    }
+}

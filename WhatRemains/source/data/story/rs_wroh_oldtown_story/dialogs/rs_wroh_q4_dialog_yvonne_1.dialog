@@ -1,0 +1,30 @@
+---
+- Dialog::Graph:
+  - m_Uid: 7353726842860138890
+  - m_PrefabType: Generate
+  - m_TemplatePrefab: template_1NPC_base
+  - m_AddSensorToPrefab: 0
+  - m_Nodes:
+    - Dialog::StartNode:
+      - m_Elements:
+        - Dialog::TriggerEvent:
+          - m_Uid: 7353727384811914976
+          - m_Output: 7353727350095214410
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData: 
+      - m_Uid: 7353726844476975380
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353727350152622319
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 300.000000
+      - m_Uid: 7353727350095214410
+      - m_Output: 7353727372756233176
+    - Dialog::EndNode:
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 600.000000
+      - m_Uid: 7353727372756233176
+  - m_VariableData:
+    - Dialog::InstanceVariableData: 
+...

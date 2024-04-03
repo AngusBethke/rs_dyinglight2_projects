@@ -1,0 +1,45 @@
+---
+- Sequence:
+  - ClassName: Dialog::Sequence
+  - Field:
+    - Name: m_Length
+    - Value: 5.380000
+  - Field:
+    - Name: m_ConfigName
+    - Value: Dialog
+  - Field:
+    - Name: m_Uid
+    - Value: 7353719185704407399
+  - Track:
+    - ClassName: Dialog::PlayerTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Player
+    - Field:
+      - Name: m_Uid
+      - Value: 7353719253710274430
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7353719254709856638
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ3DialogAiden1_LocalPlayer_001
+        - Field:
+          - Name: m_Length
+          - Value: 5.380000
+        - Field:
+          - Name: m_Uid
+          - Value: 7353719276462322986
+  - Track:
+    - ClassName: Actions::SceneTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Scene
+    - Field:
+      - Name: m_Uid
+      - Value: 7353719184750840597
+...

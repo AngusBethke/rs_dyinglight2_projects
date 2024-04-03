@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7353713190367989879">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7353713189071124602"/>
+		<Attribute name="m_Name" value="SQ1_Loremaster"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name=""/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7353713614031270846">
+		<Logic type="Story::StartQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-675" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7353713614031270846" output="Out" input="In" end="7353714009337336547">
+		<Start class="Story::StartQuestLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7353714009337336547">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7353714039315061829"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-510" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7353714009337336547" output="Out" input="In" end="7353713717787521001">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::TakeItemLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7353713717787521001">
+		<Logic type="Story::TakeItemLogic">
+			<Attribute name="m_RequiredCount" value="17"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value=""/>
+			</Object>
+			<Output name="Entity" count="17"/>
+			<Entities name="m_Entities">
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_johan_journal_1"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_johan_journal_2"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_johan_journal_3"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_johan_journal_4"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_johan_journal_5"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_johan_journal_6"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_johan_journal_7"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_vault_1"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_vault_2"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_vault_3"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_vault_4"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_vault_5"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_moles_1"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_moles_2"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_moles_3"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_moles_4"/>
+				<Entity name="rs_wroh_testground/rs_wroh_test_questline/~152/rs_wroh_sq_collectable_note_moles_5"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-150" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7353713717787521001" output="Out" input="In" end="7353714294446800689">
+		<Start class="Story::TakeItemLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7353713568233567752">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-900" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7353713568233567752" output="Out" input="In" end="7353713614031270846">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::StartQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7353713589388922394">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="1050" y="-300"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7353714294446800689">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7353714039315061829"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="450" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7353714294446800689" output="Out" input="In" end="7353713663334143581">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::CompleteQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7353713663334143581">
+		<Logic type="Story::CompleteQuestLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="825" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7353713663334143581" output="Out" input="In" end="7353713589388922394">
+		<Start class="Story::CompleteQuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+</Node>
+

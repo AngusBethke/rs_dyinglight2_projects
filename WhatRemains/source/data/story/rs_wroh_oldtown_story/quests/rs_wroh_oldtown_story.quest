@@ -37,6 +37,10 @@
 		<Start class="Actions::StartLogic"/>
 		<End class="Story::QuestLogic"/>
 	</Connect>
+	<Connect start="7240810637888901830" output="Out" input="In:Start" end="7353713190367989879">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
 	<Node file="q3_thevilla.quest">
 		<Editor>
 			<Position x="600" y="0"/>
@@ -70,6 +74,11 @@
 		</Logic>
 		<Editor>
 			<Position x="1950" y="0"/>
+		</Editor>
+	</Node>
+	<Node file="sq1_loremaster.quest">
+		<Editor>
+			<Position x="-300" y="-300"/>
 		</Editor>
 	</Node>
 </Node>

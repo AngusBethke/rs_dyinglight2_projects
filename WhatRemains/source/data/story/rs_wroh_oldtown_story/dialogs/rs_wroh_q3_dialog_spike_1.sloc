@@ -1,0 +1,66 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ3DialogSpike1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, you read me?`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I found signs of life, and signs of death too. I seem to have landed myself in the middle of a war here.`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I met up with a faction, calling themselves the 'Moles'. They were being attacked by bandits, a faction the Moles referred to as the 'Uppers'.`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_LocalPlayer_006`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `The leader of the Moles, Ahmer, has information about the Vault, but he wants me to clear out a base of these Uppers in exchange for that information.`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_LocalPlayer_008`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I don't think I have a choice, besides, it looks like the 'Moles' are one step away from being completely wiped out. They need my help.`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_LocalPlayer_010`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Wouldn't dream of it... Out.`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Haven't heard from you in hours, everything alright?`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_Pilgrim_004`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `A war? What's going on Aiden?`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_Pilgrim_007`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `You sure you want to do that?`);
+    }
+    Entry(`DLG_RsWrohQ3DialogSpike1_Pilgrim_009`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Okay Aiden, be careful out there. Don't do anything I wouldn't do.`);
+    }
+}

@@ -1,0 +1,42 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ4DialogSpike1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, it's Aiden. I dealt with the Uppers, it's just...`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike1_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I... yes, everything's fine. I'm heading back to the Moles' settlement now to get information about the Vault.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike1_LocalPlayer_004`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Victor, the leader of the Uppers, confirmed that the Vault is a real place. So it's just a case of finding it now.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike1_LocalPlayer_006`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Yeah, I'm good. I'll radio back once I know where the Vault is. Out.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike1_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Aiden? What happened, is everything okay?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike1_Pilgrim_005`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `That's good news. Aiden. Are you sure everything's alright?`);
+    }
+}

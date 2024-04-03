@@ -1,0 +1,66 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ4DialogSpike2_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, you there?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I've got the location of the Vault, I'm heading there now, but...`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I got pulled into some fucked up turf war here, I'm not sure who's in the right.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_LocalPlayer_006`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `The guys who was supposed to give me the information about the Vault disappeared, I think he's trying to beat me there, but I don't know why.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_LocalPlayer_008`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `No, I have to finish this.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_LocalPlayer_010`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I'll see you soon Spike. Out.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `I'm here Aiden.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_Pilgrim_004`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `What Aiden?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_Pilgrim_007`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Aiden... if this is too Dangerous... you can come back?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogSpike2_Pilgrim_009`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Good Luck Aiden, be careful!`);
+    }
+}

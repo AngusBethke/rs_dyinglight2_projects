@@ -1,0 +1,41 @@
+---
+- Dialog::Graph:
+  - m_Uid: 7353718013426374110
+  - m_AlwaysShowSubtitles: 1
+  - m_PrefabType: None
+  - m_AddSensorToPrefab: 0
+  - m_Nodes:
+    - Dialog::StartNode:
+      - m_Elements:
+        - Dialog::AlwaysEnterEvent:
+          - m_Uid: 7353718232177550543
+          - m_Output: 7353718196956092367
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData: 
+      - m_Uid: 7353718013311864236
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7353718197571414902
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 300.000000
+      - m_Uid: 7353718196956092367
+      - m_Output: 7353718218318329239
+    - Dialog::EndNode:
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 600.000000
+      - m_Uid: 7353718218318329239
+  - m_ActorsData:
+    - Dialog::AIData:
+      - m_Is2D: 1
+      - m_UseRadioFx: 1
+      - m_Name: Pilgrim
+      - m_SetupBehaviors:
+        - Dialog::SetupBehaviorAI:
+          - m_NodeUid: 7353718013311864236
+      - m_HasTrigger: 1
+    - Dialog::PlayerData:
+      - m_Slot: None
+  - m_VariableData:
+    - Dialog::InstanceVariableData: 
+...
