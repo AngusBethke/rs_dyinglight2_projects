@@ -15,6 +15,803 @@
 			<Entity name=""/>
 		</Entities>
 	</Logic>
+	<Node type="Actions::Node" uid="7354767066795623552">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7354750691321814474"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1050" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7354767066795623552" output="Out" input="In" end="7354767067017509199">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::WaitForSensorLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7354769167342750377">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Q5_MilitaryTunnel_1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_m1_respawn_point_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="975" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7354769167342750377" output="Out" input="In:Start" end="7354765640922939651">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::MissionLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7354767300404229299">
+		<Logic type="Story::MissionLogic">
+			<Attribute name="m_Name" value="Q5_M2"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_RespawnPoint">
+				<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_m1_respawn_point_2"/>
+			</Entities>
+		</Logic>
+		<Node type="Actions::Node" uid="7354767403343990400">
+			<Logic type="Story::TakeItemLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_rais_note"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1194" y="1198"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767403343990400" output="Out" input="In" end="7354767401878557914">
+			<Start class="Story::TakeItemLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767509340480897">
+			<Logic type="Story::StartMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="-75" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767509340480897" output="Out" input="In" end="7354767775177843207">
+			<Start class="Story::StartMissionLogic"/>
+			<End class="Story::EnableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402302412938">
+			<Logic type="Story::UseLogic">
+				<Attribute name="m_DesiredValue" value="_OPENED"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_door_supplies"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="2550" y="900"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402302412938" output="Out" input="In" end="7354767403204640943">
+			<Start class="Story::UseLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767403266894997">
+			<Logic type="Story::WaitLogic">
+				<Attribute name="m_Delay" value="45.000000"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1494" y="1423"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767403266894997" output="Out" input="In" end="7354767402949125613">
+			<Start class="Story::WaitLogic"/>
+			<End class="Story::ShowIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402703060886">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_m1_respawn_point_3"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="2620" y="5"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402703060886" output="Out" input="In" end="7354767401962074573">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402692697261">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354750777454424848"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="819" y="-1"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402692697261" output="Out" input="In" end="7354767402124321358">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::UseLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767403204640943">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354751223849014677"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="3150" y="900"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767403204640943" output="Out" input="In" end="7354767401679726820">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767401962074573">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354750902124066405"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="819" y="298"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767401962074573" output="Out" input="In" end="7354767402293555040">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitForPuzzleLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767401696521680">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354751102374268413"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="2169" y="598"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767401696521680" output="Out" input="In" end="7354767401772464469">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354768971124580820">
+			<Logic type="Story::ShowLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_clear_area_1_group"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="450" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7354768971124580820" output="Out" input="In" end="7354767402692697261">
+			<Start class="Story::ShowLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767401878557914">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354751404040846119"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1719" y="1198"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767401878557914" output="Out" input="In" end="7354767402120410924">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::DialogueLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354771453408882399">
+			<Logic type="Story::UseLogic">
+				<Attribute name="m_DesiredValue" value="_ON"/>
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_board_slide_2_group/rs_wroh_q5_vault_board_slide_2"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1560" y="900"/>
+			</Editor>
+		</Node>
+		<Connect start="7354771453408882399" output="Out" input="In" end="7354767402335026943">
+			<Start class="Story::UseLogic"/>
+			<End class="Story::EnableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767401679726820">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354751404040846119"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="819" y="1198"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767401679726820" output="Out" input="In" end="7354767403343990400">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::TakeItemLogic"/>
+		</Connect>
+		<Connect start="7354767401679726820" output="Out" input="In" end="7354767403352379000">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::HideIndicatorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767401802701289">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354751102374268413"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="819" y="598"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767401802701289" output="Out" input="In" end="7354767402355047259">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::ShowLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402860812268">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354751223849014677"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="819" y="898"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402860812268" output="Out" input="In" end="7354771396907566458">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::EnableLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402949125613">
+			<Logic type="Story::ShowIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Story::Goal::IndicatorPoint"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_rais_note"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1869" y="1423"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7354767402335026943">
+			<Logic type="Story::EnableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_door_supplies"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="2175" y="900"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402335026943" output="Out" input="In" end="7354767402302412938">
+			<Start class="Story::EnableLogic"/>
+			<End class="Story::UseLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767775177843207">
+			<Logic type="Story::EnableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_board_slide_1_group/rs_wroh_q5_vault_board_slide_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="120" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767775177843207" output="Out" input="In" end="7354768971124580820">
+			<Start class="Story::EnableLogic"/>
+			<End class="Story::ShowLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767300120787469">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="2850" y="1200"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7354767403419598356">
+			<Logic type="Story::ClearLogic">
+				<Attribute name="m_AIsAmountToShowIndicators" value="2"/>
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_SpawnersEntites"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_clear_area_1_group/rs_wroh_q5_vault_clear_area_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1719" y="-1"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767403419598356" output="Out" input="In" end="7354767403319149370">
+			<Start class="Story::ClearLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767299603219997">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-300" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767299603219997" output="Out" input="In" end="7354767509340480897">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402120410924">
+			<Logic type="Story::DialogueLogic">
+				<Attribute name="m_DialogName" value="rs_wroh_q5_dialog_spike_1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_DialogEntity">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="2094" y="1198"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402120410924" output="Out:EndNode" input="In" end="7354767402390247999">
+			<Start class="Story::DialogueLogic"/>
+			<End class="Story::CompleteMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767403319149370">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354750777454424848"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="2244" y="-1"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767403319149370" output="Out" input="In" end="7354767402703060886">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402390247999">
+			<Logic type="Story::CompleteMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="2620" y="1205"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402390247999" output="Out" input="In" end="7354767300120787469">
+			<Start class="Story::CompleteMissionLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402634579530">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354750902124066405"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1719" y="298"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402634579530" output="Out" input="In" end="7354767401443679609">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::MissionCheckpointLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402124321358">
+			<Logic type="Story::UseLogic">
+				<Attribute name="m_DesiredValue" value="_ON"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_board_slide_1_group/rs_wroh_q5_vault_board_slide_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1194" y="-1"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402124321358" output="Out" input="In" end="7354767403419598356">
+			<Start class="Story::UseLogic"/>
+			<End class="Story::ClearLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767401772464469">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_m1_respawn_point_4"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="2545" y="605"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767401772464469" output="Out" input="In" end="7354767402860812268">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402345207126">
+			<Logic type="Story::KillLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_volatile_spawner/rs_wroh_q5_vault_volatile_spawner_number"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1569" y="598"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402345207126" output="Out" input="In" end="7354767401696521680">
+			<Start class="Story::KillLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402355047259">
+			<Logic type="Story::ShowLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_volatile_spawner"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1194" y="598"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402355047259" output="Out" input="In" end="7354767402345207126">
+			<Start class="Story::ShowLogic"/>
+			<End class="Story::KillLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767402293555040">
+			<Logic type="Story::WaitForPuzzleLogic">
+				<Attribute name="m_RequiredCount" value="3"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value=""/>
+				</Object>
+				<Output name="Entity" count="3"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_power_puzzle_1_destination/external_lights_controller"/>
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_power_puzzle_2_destination/external_lights_controller"/>
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_power_puzzle_3_destination/external_lights_controller"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1194" y="298"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767402293555040" output="Out" input="In" end="7354767402634579530">
+			<Start class="Story::WaitForPuzzleLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767403352379000">
+			<Logic type="Story::HideIndicatorLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value=""/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entity">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_rais_note"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1194" y="1423"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767403352379000" output="Out" input="In" end="7354767403266894997">
+			<Start class="Story::HideIndicatorLogic"/>
+			<End class="Story::WaitLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767401443679609">
+			<Logic type="Story::MissionCheckpointLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_RespawnPoint">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_m1_respawn_point_4"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="2170" y="305"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767401443679609" output="Out" input="In" end="7354767401802701289">
+			<Start class="Story::MissionCheckpointLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354771396907566458">
+			<Logic type="Story::EnableLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_board_slide_2_group/rs_wroh_q5_vault_board_slide_2"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="1200" y="900"/>
+			</Editor>
+		</Node>
+		<Connect start="7354771396907566458" output="Out" input="In" end="7354771453408882399">
+			<Start class="Story::EnableLogic"/>
+			<End class="Story::UseLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="1875" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7354767300404229299" output="Out:End" input="In" end="7352803216135615086">
+		<Start class="Story::MissionLogic"/>
+		<End class="Story::CompleteQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Group" uid="7354765640922939651">
+		<Logic type="Story::MissionLogic">
+			<Attribute name="m_Name" value="Q5_M1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_RespawnPoint">
+				<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_m1_respawn_point_1"/>
+			</Entities>
+		</Logic>
+		<Node type="Actions::Node" uid="7354766161905710482">
+			<Logic type="Story::StartMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="-75" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7354766161905710482" output="Out" input="In" end="7354766079678280906">
+			<Start class="Story::StartMissionLogic"/>
+			<End class="Story::StartObjectiveLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354765640617360570">
+			<Logic type="Actions::StartLogic"/>
+			<Editor>
+				<Position x="-300" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7354765640617360570" output="Out" input="In" end="7354766161905710482">
+			<Start class="Actions::StartLogic"/>
+			<End class="Story::StartMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354766079678280906">
+			<Logic type="Story::StartObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354750480380892043"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="149" y="-6"/>
+			</Editor>
+		</Node>
+		<Connect start="7354766079678280906" output="Out" input="In" end="7354766078612796247">
+			<Start class="Story::StartObjectiveLogic"/>
+			<End class="Story::WaitForSensorLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354767573462792659">
+			<Logic type="Story::CompleteMissionLogic">
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="1275" y="0"/>
+			</Editor>
+		</Node>
+		<Connect start="7354767573462792659" output="Out" input="In" end="7354765641163010051">
+			<Start class="Story::CompleteMissionLogic"/>
+			<End class="Actions::EndLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354766080724716268">
+			<Logic type="Story::CompleteObjectiveLogic">
+				<Attribute name="m_ObjectiveId" value="7354750480380892043"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Editor>
+				<Position x="899" y="-6"/>
+			</Editor>
+		</Node>
+		<Connect start="7354766080724716268" output="Out" input="In" end="7354767573462792659">
+			<Start class="Story::CompleteObjectiveLogic"/>
+			<End class="Story::CompleteMissionLogic"/>
+		</Connect>
+		<Node type="Actions::Node" uid="7354765641163010051">
+			<Logic type="Actions::EndLogic"/>
+			<Editor>
+				<Position x="1500" y="0"/>
+			</Editor>
+		</Node>
+		<Node type="Actions::Node" uid="7354766078612796247">
+			<Logic type="Story::WaitForSensorLogic">
+				<Attribute name="m_RequiredCount" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Output name="Entity" count="1"/>
+				<Entities name="m_Entities">
+					<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_goto_area_1_group/rs_wroh_q5_vault_goto_area_1"/>
+				</Entities>
+			</Logic>
+			<Editor>
+				<Position x="524" y="-6"/>
+			</Editor>
+		</Node>
+		<Connect start="7354766078612796247" output="Out" input="In" end="7354766080724716268">
+			<Start class="Story::WaitForSensorLogic"/>
+			<End class="Story::CompleteObjectiveLogic"/>
+		</Connect>
+		<Editor>
+			<Position x="1350" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7354765640922939651" output="Out:End" input="In" end="7354767066795623552">
+		<Start class="Story::MissionLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7354767067891374091">
+		<Logic type="Story::DialogueLogic">
+			<Attribute name="m_DialogName" value="rs_wroh_q5_dialog_ahmer_1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_DialogEntity">
+				<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_dialog_ahmer_1_group/rs_wroh_q5_dialog_ahmer_1"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="1800" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7354767067891374091" output="Out:EndNode" input="In" end="7354767068141566813">
+		<Start class="Story::DialogueLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7352803215909572120">
 		<Logic type="Story::StartQuestLogic">
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -24,16 +821,47 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="969" y="-150"/>
+			<Position x="819" y="-150"/>
 		</Editor>
 	</Node>
-	<Connect start="7352803215909572120" output="Out" input="In" end="7352803215682136133">
+	<Connect start="7352803215909572120" output="Out" input="In" end="7354769167342750377">
 		<Start class="Story::StartQuestLogic"/>
-		<End class="Story::WaitLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
-	<Node type="Actions::Node" uid="7352803215682136133">
-		<Logic type="Story::WaitLogic">
-			<Attribute name="m_Delay" value="10.000000"/>
+	<Node type="Actions::Node" uid="7352802527701409355">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="600" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7352802527701409355" output="Out" input="In" end="7352803215909572120">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::StartQuestLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7354767067017509199">
+		<Logic type="Story::WaitForSensorLogic">
+			<Attribute name="m_RequiredCount" value="1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_Entities">
+				<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q5_vault_goto_area_2_group/rs_wroh_q5_vault_goto_area_2"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="1425" y="75"/>
+		</Editor>
+	</Node>
+	<Connect start="7354767067017509199" output="Out" input="In" end="7354767067891374091">
+		<Start class="Story::WaitForSensorLogic"/>
+		<End class="Story::DialogueLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7354767068141566813">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7354750691321814474"/>
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 				<Attribute name="show_indicator" value="1"/>
 				<Attribute name="indicator_type" value="Default"/>
@@ -41,27 +869,17 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="1029" y="0"/>
+			<Position x="2250" y="75"/>
 		</Editor>
 	</Node>
-	<Connect start="7352803215682136133" output="Out" input="In" end="7352803216135615086">
-		<Start class="Story::WaitLogic"/>
-		<End class="Story::CompleteQuestLogic"/>
-	</Connect>
-	<Node type="Actions::Node" uid="7352802527701409355">
-		<Logic type="Actions::StartLogic"/>
-		<Editor>
-			<Position x="750" y="-150"/>
-		</Editor>
-	</Node>
-	<Connect start="7352802527701409355" output="Out" input="In" end="7352803215909572120">
-		<Start class="Actions::StartLogic"/>
-		<End class="Story::StartQuestLogic"/>
+	<Connect start="7354767068141566813" output="Out" input="In:Start" end="7354767300404229299">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::MissionLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7352802548955582309">
 		<Logic type="Actions::EndLogic"/>
 		<Editor>
-			<Position x="1500" y="-150"/>
+			<Position x="2625" y="-150"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Node" uid="7352803216135615086">
@@ -73,7 +891,7 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="1254" y="-150"/>
+			<Position x="2400" y="-150"/>
 		</Editor>
 	</Node>
 	<Connect start="7352803216135615086" output="Out" input="In" end="7352802548955582309">

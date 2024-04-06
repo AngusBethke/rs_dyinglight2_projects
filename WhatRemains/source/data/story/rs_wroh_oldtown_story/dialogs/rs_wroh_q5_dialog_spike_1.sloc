@@ -1,0 +1,42 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ5DialogSpike1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, can you hear me?`);
+    }
+    Entry(`DLG_RsWrohQ5DialogSpike1_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I did, it's here, everything we need! More than enough, medical supplies, food, seeds... everything!`);
+    }
+    Entry(`DLG_RsWrohQ5DialogSpike1_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `But listen, I found something else here, you ever heard of someone named 'Suleiman', you were here in Harran, right?`);
+    }
+    Entry(`DLG_RsWrohQ5DialogSpike1_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `I hear you Aiden, did you find it?`);
+    }
+    Entry(`DLG_RsWrohQ5DialogSpike1_Pilgrim_004`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `That's great news!`);
+    }
+    Entry(`DLG_RsWrohQ5DialogSpike1_Pilgrim_006`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `That's a long story, but I'll tell it if you want... have I ever told you about an old friend of mine, a fella named Crane?`);
+    }
+}

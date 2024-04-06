@@ -25,6 +25,16 @@
         - Dialog::NodeEditorData:
           - x: 600.000000
       - m_Uid: 7353727372756233176
+  - m_ActorsData:
+    - Dialog::AIData:
+      - m_Slot: Slot1
+      - m_Name: PostmanSurvivor01
+      - m_SetupBehaviors:
+        - Dialog::SetupBehaviorAI:
+          - m_BehaviorName: multiactivity_c_npc_bp_sitting_on_a_table_01
+          - m_NodeUid: 7353726844476975380
+      - m_HasTrigger: 1
+    - Dialog::PlayerData: 
   - m_VariableData:
     - Dialog::InstanceVariableData: 
 ...

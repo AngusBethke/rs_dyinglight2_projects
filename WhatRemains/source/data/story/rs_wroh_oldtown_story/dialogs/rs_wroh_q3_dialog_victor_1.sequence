@@ -366,6 +366,75 @@
         - Field:
           - Name: m_Uid
           - Value: 7353723017224205639
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerFullbodySubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354690457270343305
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerFullbody
+        - Field:
+          - Name: m_Sequence
+          - Value: m_fpp_dialogue_stand_normal_idle_01
+        - Field:
+          - Name: m_Looped
+          - Value: 1
+        - Field:
+          - Name: m_BlendIn
+          - Value: 0.300000
+        - Field:
+          - Name: m_Length
+          - Value: 23.133333
+        - Field:
+          - Name: m_Uid
+          - Value: 7354690955471636625
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerNoiseSubTrack
+      - Field:
+        - Name: m_PlayerNoiseType
+        - Value: Upperbody_Additive
+      - Field:
+        - Name: m_Uid
+        - Value: 7354690457358469269
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerNoise
+        - Field:
+          - Name: m_Sequence
+          - Value: m_fpp_dialogue_breathing_normal_01
+        - Field:
+          - Name: m_Looped
+          - Value: 1
+        - Field:
+          - Name: m_BlendIn
+          - Value: 0.300000
+        - Field:
+          - Name: m_Length
+          - Value: 23.133333
+        - Field:
+          - Name: m_Uid
+          - Value: 7354690798460302028
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerLookAtParamsSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354690458214562938
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerLookAtParams
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Object
+        - Field:
+          - Name: m_TargetName
+          - Value: Ohmann
+        - Field:
+          - Name: m_Params.dir
+          - Value: -0.066677 -0.651772 0.755478
+        - Field:
+          - Name: m_Start
+          - Value: 0.120000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354690995212544032
   - Track:
     - ClassName: Actions::SceneTrack
     - Field:

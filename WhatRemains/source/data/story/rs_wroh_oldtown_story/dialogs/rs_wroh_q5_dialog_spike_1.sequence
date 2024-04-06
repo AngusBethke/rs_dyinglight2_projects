@@ -1,0 +1,131 @@
+---
+- Sequence:
+  - ClassName: Dialog::Sequence
+  - Field:
+    - Name: m_Length
+    - Value: 31.300005
+  - Field:
+    - Name: m_ConfigName
+    - Value: Dialog
+  - Field:
+    - Name: m_Uid
+    - Value: 7354037598214144805
+  - Track:
+    - ClassName: Dialog::ActorTrack
+    - Field:
+      - Name: m_ActorID
+      - Value: Pilgrim
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Actor
+    - Field:
+      - Name: m_Uid
+      - Value: 7354037686558664664
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354037687823663860
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogSpike1_Pilgrim_002
+        - Field:
+          - Name: m_Start
+          - Value: 2.480000
+        - Field:
+          - Name: m_Length
+          - Value: 3.040000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037860058103661
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogSpike1_Pilgrim_004
+        - Field:
+          - Name: m_Start
+          - Value: 12.720000
+        - Field:
+          - Name: m_Length
+          - Value: 2.080000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037919434975346
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogSpike1_Pilgrim_006
+        - Field:
+          - Name: m_Start
+          - Value: 22.920006
+        - Field:
+          - Name: m_Length
+          - Value: 8.379999
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037971378216175
+  - Track:
+    - ClassName: Dialog::PlayerTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Player
+    - Field:
+      - Name: m_Uid
+      - Value: 7354037699382555451
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354037700787451879
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogSpike1_LocalPlayer_001
+        - Field:
+          - Name: m_Length
+          - Value: 2.380000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037819684421599
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogSpike1_LocalPlayer_003
+        - Field:
+          - Name: m_Start
+          - Value: 5.620000
+        - Field:
+          - Name: m_Length
+          - Value: 7.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037888390965543
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogSpike1_LocalPlayer_005
+        - Field:
+          - Name: m_Start
+          - Value: 14.900001
+        - Field:
+          - Name: m_Length
+          - Value: 7.960000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037945658213129
+  - Track:
+    - ClassName: Actions::SceneTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Scene
+    - Field:
+      - Name: m_Uid
+      - Value: 7354037597869134947
+...

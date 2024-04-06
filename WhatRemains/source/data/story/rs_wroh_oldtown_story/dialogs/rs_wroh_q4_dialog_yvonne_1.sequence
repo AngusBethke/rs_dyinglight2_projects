@@ -2,11 +2,383 @@
 - Sequence:
   - ClassName: Dialog::Sequence
   - Field:
+    - Name: m_Length
+    - Value: 74.759987
+  - Field:
     - Name: m_ConfigName
     - Value: Dialog
   - Field:
     - Name: m_Uid
     - Value: 7353727350152622319
+  - Track:
+    - ClassName: Dialog::ActorTrack
+    - Field:
+      - Name: m_ActorID
+      - Value: PostmanSurvivor01
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Actor
+    - Field:
+      - Name: m_Uid
+      - Value: 7354721206146455144
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721205054348291
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_002
+        - Field:
+          - Name: m_Start
+          - Value: 2.720000
+        - Field:
+          - Name: m_Length
+          - Value: 4.180000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354721979947056214
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_004
+        - Field:
+          - Name: m_Start
+          - Value: 13.020000
+        - Field:
+          - Name: m_Length
+          - Value: 8.080000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722166940558987
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_006
+        - Field:
+          - Name: m_Start
+          - Value: 24.880001
+        - Field:
+          - Name: m_Length
+          - Value: 5.800000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722276057144826
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_008
+        - Field:
+          - Name: m_Start
+          - Value: 33.680000
+        - Field:
+          - Name: m_Length
+          - Value: 6.520000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722356193141502
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_009
+        - Field:
+          - Name: m_Start
+          - Value: 40.299999
+        - Field:
+          - Name: m_Length
+          - Value: 7.300000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722387534908501
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_011
+        - Field:
+          - Name: m_Start
+          - Value: 56.839996
+        - Field:
+          - Name: m_Length
+          - Value: 3.820000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722460246831253
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_013
+        - Field:
+          - Name: m_Start
+          - Value: 63.659992
+        - Field:
+          - Name: m_Length
+          - Value: 9.400000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722515058127808
+    - SubTrack:
+      - ClassName: Dialog::LookAtSubTrack
+      - Field:
+        - Name: m_LookAtTrackType
+        - Value: Procedural
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721204953274353
+      - Key:
+        - ClassName: Dialog::ActionLookAt
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Object
+        - Field:
+          - Name: m_Params.blink_mode
+          - Value: Disabled
+        - Field:
+          - Name: m_TargetName
+          - Value: LocalPlayer
+        - Field:
+          - Name: m_Start
+          - Value: 0.410000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722678207728084
+    - SubTrack:
+      - ClassName: Dialog::LookAtSubTrack
+      - Field:
+        - Name: m_LookAtTrackType
+        - Value: Eyes
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721204942835207
+      - Key:
+        - ClassName: Dialog::ActionLookAt
+        - Field:
+          - Name: m_Params.track_type
+          - Value: Eyes
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Object
+        - Field:
+          - Name: m_Params.blink_mode
+          - Value: Disabled
+        - Field:
+          - Name: m_TargetName
+          - Value: LocalPlayer
+        - Field:
+          - Name: m_Start
+          - Value: 0.280000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722661611957722
+    - SubTrack:
+      - ClassName: Dialog::LookAtSubTrack
+      - Field:
+        - Name: m_LookAtTrackType
+        - Value: EyesBlink
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721206245592795
+      - Key:
+        - ClassName: Dialog::ActionLookAt
+        - Field:
+          - Name: m_Params.track_type
+          - Value: EyesBlink
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Disabled
+        - Field:
+          - Name: m_Params.blink_mode
+          - Value: Single
+        - Field:
+          - Name: m_Start
+          - Value: 0.150000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722649031630185
+  - Track:
+    - ClassName: Dialog::PlayerTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Player
+    - Field:
+      - Name: m_Uid
+      - Value: 7354721218527742376
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721219332641186
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_LocalPlayer_001
+        - Field:
+          - Name: m_Length
+          - Value: 2.620000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354721656338310459
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_LocalPlayer_003
+        - Field:
+          - Name: m_Start
+          - Value: 7.000000
+        - Field:
+          - Name: m_Length
+          - Value: 5.920000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722134130227701
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_LocalPlayer_005
+        - Field:
+          - Name: m_Start
+          - Value: 21.200001
+        - Field:
+          - Name: m_Length
+          - Value: 3.580000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722210816440019
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_LocalPlayer_007
+        - Field:
+          - Name: m_Start
+          - Value: 30.780001
+        - Field:
+          - Name: m_Length
+          - Value: 2.800000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722321577711723
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_LocalPlayer_010
+        - Field:
+          - Name: m_Start
+          - Value: 47.699997
+        - Field:
+          - Name: m_Length
+          - Value: 9.040000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722416313129366
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_LocalPlayer_012
+        - Field:
+          - Name: m_Start
+          - Value: 60.759995
+        - Field:
+          - Name: m_Length
+          - Value: 2.800000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722489314273517
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ4DialogYvonne1_LocalPlayer_014
+        - Field:
+          - Name: m_Start
+          - Value: 73.159988
+        - Field:
+          - Name: m_Length
+          - Value: 1.600000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722546794563034
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerFullbodySubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721218254510801
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerFullbody
+        - Field:
+          - Name: m_Sequence
+          - Value: m_fpp_dialogue_stand_normal_idle_01
+        - Field:
+          - Name: m_Looped
+          - Value: 1
+        - Field:
+          - Name: m_BlendIn
+          - Value: 0.300000
+        - Field:
+          - Name: m_Length
+          - Value: 23.133333
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722714155542351
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerNoiseSubTrack
+      - Field:
+        - Name: m_PlayerNoiseType
+        - Value: Upperbody_Additive
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721218420627299
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerNoise
+        - Field:
+          - Name: m_Sequence
+          - Value: m_fpp_dialogue_breathing_normal_01
+        - Field:
+          - Name: m_Looped
+          - Value: 1
+        - Field:
+          - Name: m_BlendIn
+          - Value: 0.300000
+        - Field:
+          - Name: m_Length
+          - Value: 23.133333
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722787206554113
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerLookAtParamsSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354721217820000356
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerLookAtParams
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Object
+        - Field:
+          - Name: m_TargetName
+          - Value: PostmanSurvivor01
+        - Field:
+          - Name: m_Params.dir
+          - Value: -0.137292 -0.570060 -0.810051
+        - Field:
+          - Name: m_Start
+          - Value: 0.130000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354722816661249295
   - Track:
     - ClassName: Actions::SceneTrack
     - Field:

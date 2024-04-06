@@ -1,0 +1,78 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsWrohQ5DialogAhmer1_AS_Herald_002`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `I'm sorry... I just wanted to help...`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_AS_Herald_003`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `I didn't know if I could trust you...`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_AS_Herald_004`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `We needed these supplies...`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_AS_Herald_006`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `I didn't know one was in here... I let it out...`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_AS_Herald_008`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `This is all my fault, I should've helped Victor, we could've avoided all of this...`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_AS_Herald_010`)
+    {
+        RequiresVO(true);
+        Actor(`AS_Herald`);
+        Text(En, ALL, `A Deathclaw, I'm sorry Aiden, I'm so sorry...`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Ahmer! Are you okay?`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Ahmer, don't speak, please save your strength.`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_LocalPlayer_007`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Ahmer, one what?!`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_LocalPlayer_009`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Ahmer. What did you let out?!`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_LocalPlayer_011`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Fuck, Ahmer, Damnit...`);
+    }
+    Entry(`DLG_RsWrohQ5DialogAhmer1_LocalPlayer_012`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I really hope that Deathclaw is easier to beat than it sounds...`);
+    }
+}

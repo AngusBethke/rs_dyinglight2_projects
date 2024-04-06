@@ -3,5 +3,88 @@ import "lockit_globals.scr"
 
 sub main()
 {
-    Dummy();
+    Entry(`DLG_RsWrohQ4DialogYvonne1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Do you know where Ahmer is?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Yeah, sorry, my manners. Look, I'm in a bit of a rush, do you know where Ahmer is?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Aw fuck. He's going for the Vault isn't he?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_LocalPlayer_007`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `We? You're all from the Vault?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_LocalPlayer_010`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I'm not... look, Yvonne. This is important, where is the Vault? If it's as Dangerous as you say I need to go after Ahmer and help him.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_LocalPlayer_012`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I... I just know. Where is it?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_LocalPlayer_014`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Thank you!`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_002`)
+    {
+        RequiresVO(true);
+        Actor(`PostmanSurvivor01`);
+        Text(En, ALL, `You're the guy that saved our bacon yesterday, Aiden?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_004`)
+    {
+        RequiresVO(true);
+        Actor(`PostmanSurvivor01`);
+        Text(En, ALL, `Right, well I'm Yvonne, thanks for asking... and Ahmer left in a hurry right after you radioed in. Is everything okay?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_006`)
+    {
+        RequiresVO(true);
+        Actor(`PostmanSurvivor01`);
+        Text(En, ALL, `No, he can't be. That place is a death trap, has been since we had the Outbreak.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_008`)
+    {
+        RequiresVO(true);
+        Actor(`PostmanSurvivor01`);
+        Text(En, ALL, `Well, yeah, Vaults... I mean. They're all connected by tunnels. Where else would we be from?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_009`)
+    {
+        RequiresVO(true);
+        Actor(`PostmanSurvivor01`);
+        Text(En, ALL, `The rest of the world's dead isn't it? You're from Vault 3 or 8 right? Didn't know many people from them.`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_011`)
+    {
+        RequiresVO(true);
+        Actor(`PostmanSurvivor01`);
+        Text(En, ALL, `What makes you so sure he's going to the Vault?`);
+    }
+    Entry(`DLG_RsWrohQ4DialogYvonne1_PostmanSurvivor01_013`)
+    {
+        RequiresVO(true);
+        Actor(`PostmanSurvivor01`);
+        Text(En, ALL, `It's directly East of here, right next to the Quarantine wall. There's a tunnel entrance and a load of Military vehicles. You can't miss it.`);
+    }
 }

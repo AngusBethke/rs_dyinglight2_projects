@@ -1,0 +1,362 @@
+---
+- Sequence:
+  - ClassName: Dialog::Sequence
+  - Field:
+    - Name: m_Length
+    - Value: 41.599998
+  - Field:
+    - Name: m_ConfigName
+    - Value: Dialog
+  - Field:
+    - Name: m_Uid
+    - Value: 7354035773021243888
+  - Track:
+    - ClassName: Dialog::ActorTrack
+    - Field:
+      - Name: m_ActorID
+      - Value: AS_Herald
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Actor
+    - Field:
+      - Name: m_Uid
+      - Value: 7354035772848098317
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354035772676247357
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_AS_Herald_002
+        - Field:
+          - Name: m_Start
+          - Value: 2.300000
+        - Field:
+          - Name: m_Length
+          - Value: 3.220000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036631669327303
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_AS_Herald_003
+        - Field:
+          - Name: m_Start
+          - Value: 5.620000
+        - Field:
+          - Name: m_Length
+          - Value: 3.220000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036687400615615
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_AS_Herald_004
+        - Field:
+          - Name: m_Start
+          - Value: 8.940001
+        - Field:
+          - Name: m_Length
+          - Value: 2.620000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036717571326016
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_AS_Herald_006
+        - Field:
+          - Name: m_Start
+          - Value: 15.520001
+        - Field:
+          - Name: m_Length
+          - Value: 3.880000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036786423117889
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_AS_Herald_008
+        - Field:
+          - Name: m_Start
+          - Value: 21.620003
+        - Field:
+          - Name: m_Length
+          - Value: 5.980000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036854211015029
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_AS_Herald_010
+        - Field:
+          - Name: m_Start
+          - Value: 30.540003
+        - Field:
+          - Name: m_Length
+          - Value: 3.700000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036914662998796
+    - SubTrack:
+      - ClassName: Dialog::LookAtSubTrack
+      - Field:
+        - Name: m_LookAtTrackType
+        - Value: Procedural
+      - Field:
+        - Name: m_Uid
+        - Value: 7354035771722553318
+      - Key:
+        - ClassName: Dialog::ActionLookAt
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Object
+        - Field:
+          - Name: m_Params.blink_mode
+          - Value: Disabled
+        - Field:
+          - Name: m_TargetName
+          - Value: LocalPlayer
+        - Field:
+          - Name: m_Start
+          - Value: 0.270000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037309327425586
+    - SubTrack:
+      - ClassName: Dialog::LookAtSubTrack
+      - Field:
+        - Name: m_LookAtTrackType
+        - Value: Eyes
+      - Field:
+        - Name: m_Uid
+        - Value: 7354035772715364623
+      - Key:
+        - ClassName: Dialog::ActionLookAt
+        - Field:
+          - Name: m_Params.track_type
+          - Value: Eyes
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Object
+        - Field:
+          - Name: m_Params.blink_mode
+          - Value: Disabled
+        - Field:
+          - Name: m_TargetName
+          - Value: LocalPlayer
+        - Field:
+          - Name: m_Start
+          - Value: 0.170000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037291973707605
+    - SubTrack:
+      - ClassName: Dialog::LookAtSubTrack
+      - Field:
+        - Name: m_LookAtTrackType
+        - Value: EyesBlink
+      - Field:
+        - Name: m_Uid
+        - Value: 7354035771548278590
+      - Key:
+        - ClassName: Dialog::ActionLookAt
+        - Field:
+          - Name: m_Params.track_type
+          - Value: EyesBlink
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Disabled
+        - Field:
+          - Name: m_Params.blink_mode
+          - Value: Single
+        - Field:
+          - Name: m_Start
+          - Value: 0.080000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037279996864677
+  - Track:
+    - ClassName: Dialog::PlayerTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Player
+    - Field:
+      - Name: m_Uid
+      - Value: 7354035771028914297
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354035772040416914
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_LocalPlayer_001
+        - Field:
+          - Name: m_Length
+          - Value: 2.200000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036146731751342
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_LocalPlayer_005
+        - Field:
+          - Name: m_Start
+          - Value: 11.660001
+        - Field:
+          - Name: m_Length
+          - Value: 3.760000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036751525712659
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_LocalPlayer_007
+        - Field:
+          - Name: m_Start
+          - Value: 19.500002
+        - Field:
+          - Name: m_Length
+          - Value: 2.020000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036829056594971
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_LocalPlayer_009
+        - Field:
+          - Name: m_Start
+          - Value: 27.700003
+        - Field:
+          - Name: m_Length
+          - Value: 2.740000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036889245084077
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_LocalPlayer_011
+        - Field:
+          - Name: m_Start
+          - Value: 34.340000
+        - Field:
+          - Name: m_Length
+          - Value: 2.320000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354036956594339450
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsWrohQ5DialogAhmer1_LocalPlayer_012
+        - Field:
+          - Name: m_Start
+          - Value: 36.759998
+        - Field:
+          - Name: m_Length
+          - Value: 4.840000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354037026936077652
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerFullbodySubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354770996701479074
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerFullbody
+        - Field:
+          - Name: m_Sequence
+          - Value: m_fpp_dialogue_kneel_normal_idle_01lf
+        - Field:
+          - Name: m_Looped
+          - Value: 1
+        - Field:
+          - Name: m_BlendIn
+          - Value: 0.300000
+        - Field:
+          - Name: m_Length
+          - Value: 23.133333
+        - Field:
+          - Name: m_Uid
+          - Value: 7354771086698091618
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerNoiseSubTrack
+      - Field:
+        - Name: m_PlayerNoiseType
+        - Value: Upperbody_Additive
+      - Field:
+        - Name: m_Uid
+        - Value: 7354770997699375291
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerNoise
+        - Field:
+          - Name: m_Sequence
+          - Value: m_fpp_dialogue_breathing_normal_01
+        - Field:
+          - Name: m_Looped
+          - Value: 1
+        - Field:
+          - Name: m_BlendIn
+          - Value: 0.300000
+        - Field:
+          - Name: m_Length
+          - Value: 23.133333
+        - Field:
+          - Name: m_Uid
+          - Value: 7354771129657425166
+    - SubTrack:
+      - ClassName: Dialog::SetPlayerLookAtParamsSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7354770998222314603
+      - Key:
+        - ClassName: Dialog::ActionSetPlayerLookAtParams
+        - Field:
+          - Name: m_Params.lookat_mode
+          - Value: Object
+        - Field:
+          - Name: m_TargetName
+          - Value: AS_Herald
+        - Field:
+          - Name: m_Params.dir
+          - Value: 0.678806 -0.734194 -0.013485
+        - Field:
+          - Name: m_Start
+          - Value: 0.100000
+        - Field:
+          - Name: m_Uid
+          - Value: 7354771039435394619
+  - Track:
+    - ClassName: Actions::SceneTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Scene
+    - Field:
+      - Name: m_Uid
+      - Value: 7354035771441405513
+...

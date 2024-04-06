@@ -20,7 +20,7 @@
 	</Connect>
 	<Node file="q4_secrets.quest">
 		<Editor>
-			<Position x="1050" y="0"/>
+			<Position x="825" y="0"/>
 		</Editor>
 	</Node>
 	<Connect start="7352800892066315973" output="Out:End" input="In:Start" end="7352801045673192174">
@@ -43,7 +43,7 @@
 	</Connect>
 	<Node file="q3_thevilla.quest">
 		<Editor>
-			<Position x="600" y="0"/>
+			<Position x="450" y="0"/>
 		</Editor>
 	</Node>
 	<Connect start="7352800711318539502" output="Out:End" input="In:Start" end="7352800892066315973">
@@ -52,16 +52,35 @@
 	</Connect>
 	<Node file="q5_thevault.quest">
 		<Editor>
-			<Position x="1500" y="0"/>
+			<Position x="1200" y="0"/>
 		</Editor>
 	</Node>
 	<Connect start="7352801045673192174" output="Out:End" input="In" end="7240810637689922400">
 		<Start class="Story::QuestLogic"/>
 		<End class="Actions::EndLogic"/>
 	</Connect>
+	<Connect start="7352801045673192174" output="Out:End" input="In" end="7354751712348187925">
+		<Start class="Story::QuestLogic"/>
+		<End class="Story::QuitWithTitlesLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7354751712348187925">
+		<Logic type="Story::QuitWithTitlesLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_SpawnPoint">
+				<Entity name=""/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="1575" y="-150"/>
+		</Editor>
+	</Node>
 	<Node file="q2_themoles.quest">
 		<Editor>
-			<Position x="150" y="0"/>
+			<Position x="75" y="0"/>
 		</Editor>
 	</Node>
 	<Connect start="7352800625675511383" output="Out:End" input="In:Start" end="7352800711318539502">
@@ -73,7 +92,7 @@
 			<Attribute name="m_IsFinishing" value="0"/>
 		</Logic>
 		<Editor>
-			<Position x="1950" y="0"/>
+			<Position x="1575" y="0"/>
 		</Editor>
 	</Node>
 	<Node file="sq1_loremaster.quest">

@@ -1,0 +1,41 @@
+---
+- Dialog::Graph:
+  - m_Uid: 7354034899216725565
+  - m_AlwaysShowSubtitles: 1
+  - m_PrefabType: Generate
+  - m_TemplatePrefab: template_1NPC_base
+  - m_AddSensorToPrefab: 0
+  - m_Nodes:
+    - Dialog::StartNode:
+      - m_Elements:
+        - Dialog::TriggerEvent:
+          - m_Uid: 7354035819891430981
+          - m_Output: 7354035772380060850
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData: 
+      - m_Uid: 7354034900113629296
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7354035773021243888
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 300.000000
+      - m_Uid: 7354035772380060850
+      - m_Output: 7354035807148509715
+    - Dialog::EndNode:
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 600.000000
+      - m_Uid: 7354035807148509715
+  - m_ActorsData:
+    - Dialog::AIData:
+      - m_Slot: Slot1
+      - m_Name: AS_Herald
+      - m_SetupBehaviors:
+        - Dialog::SetupBehaviorAI:
+          - m_BehaviorName: single_static_m_alberto_before_dialogue_blueguys_specialist_dying
+          - m_NodeUid: 7354034900113629296
+      - m_HasTrigger: 1
+    - Dialog::PlayerData: 
+  - m_VariableData:
+    - Dialog::InstanceVariableData: 
+...
