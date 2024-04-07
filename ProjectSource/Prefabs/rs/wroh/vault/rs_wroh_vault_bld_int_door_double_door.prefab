@@ -1,0 +1,63 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Door",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Door;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_wroh_vault_bld_int_door_double_door_a"],
+            "m_Rotate": [14, [-0.0, -0.0000049, -0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 3, 7, 8],
+            "m_PcId": [6, 6]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Half"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_wroh_vault_bld_int_door_double_door_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, -0.0000048, -0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Open"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_wroh_vault_bld_int_door_double_door_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, -0.0000048, -0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
