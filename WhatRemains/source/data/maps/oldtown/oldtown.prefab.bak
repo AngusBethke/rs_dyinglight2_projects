@@ -34,6 +34,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_ForceXformHierarchyInGame": [11, true],
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "rs_wroh_oldtown_map_edge_wall"]
           }
@@ -41,6 +42,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_ForceXformHierarchyInGame": [11, true],
             "m_PcId": [6, 7],
             "m_PrefabName": [12, "rs_wroh_oldtown_horizon"]
           }
@@ -92,7 +94,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 5.0, 0.0, 2.5, 5.0, 2.4999997]],
+            "m_EntityComponentsExtents": [69, [0.0, 5.0, 0.0, 2.5, 5.0, 2.5]],
             "m_PcId": [6, 14],
             "m_PrefabName": [12, "tiny_object_helper"],
             "m_Scale": [14, [1000.0001831, 1000.0001831, 1000.0003051]],
@@ -111,6 +113,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_Name": [12, "rs_wroh_oldtown_questline"],
             "m_PcId": [6, 16],
             "m_PrefabName": [12, "rs_wroh_oldtown_questline"]
           }
@@ -126,8 +129,18 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_PcId": [6, 18],
-            "m_PrefabName": [12, "rs_wroh_oldtown_aazs"],
-            "m_Scale": [14, [1.0000002, 1.0000002, 1.0000005]]
+            "m_PrefabName": [12, "rs_wroh_oldtown_aazs"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "MapStart"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-184.334671, 26.682003, -225.6289978]]
           }
         },
         {

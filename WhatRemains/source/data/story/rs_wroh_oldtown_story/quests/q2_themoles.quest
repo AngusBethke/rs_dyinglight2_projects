@@ -106,9 +106,9 @@
 			<Position x="300" y="0"/>
 		</Editor>
 	</Node>
-	<Connect start="7354716249984082591" output="Out" input="In" end="7354744016131641944">
+	<Connect start="7354716249984082591" output="Out" input="In" end="7354716249105134483">
 		<Start class="Story::CompleteObjectiveLogic"/>
-		<End class="Story::DialogueSetupLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7354716249533880226">
 		<Logic type="Story::StartObjectiveLogic">
@@ -216,10 +216,10 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-900" y="150"/>
+			<Position x="-900" y="0"/>
 		</Editor>
 	</Node>
-	<Connect start="7354716248423295228" output="Out" input="In" end="7354716249105134483">
+	<Connect start="7354716248423295228" output="Out" input="In" end="7354716249533880226">
 		<Start class="Story::DialogueSetupLogic"/>
 		<End class="Story::StartObjectiveLogic"/>
 	</Connect>
@@ -236,9 +236,9 @@
 			<Position x="450" y="-300"/>
 		</Editor>
 	</Node>
-	<Connect start="7352957782610042641" output="Out" input="In" end="7354716249533880226">
+	<Connect start="7352957782610042641" output="Out" input="In" end="7354744016131641944">
 		<Start class="Story::CompleteObjectiveLogic"/>
-		<End class="Story::StartObjectiveLogic"/>
+		<End class="Story::DialogueSetupLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7352957781632612405">
 		<Logic type="Story::StartObjectiveLogic">
@@ -362,7 +362,7 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="-1275" y="150"/>
+			<Position x="-1275" y="0"/>
 		</Editor>
 	</Node>
 	<Connect start="7354744016131641944" output="Out" input="In" end="7354716248423295228">
