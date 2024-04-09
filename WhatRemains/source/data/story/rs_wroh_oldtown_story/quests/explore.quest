@@ -331,7 +331,7 @@
 			<End class="Story::StartMissionLogic"/>
 		</Connect>
 		<Editor>
-			<Position x="300" y="-150"/>
+			<Position x="750" y="-150"/>
 		</Editor>
 	</Node>
 	<Connect start="7352893017640337552" output="Out:End" input="In" end="7352964152104671724">
@@ -347,7 +347,7 @@
 			</Object>
 		</Logic>
 		<Editor>
-			<Position x="750" y="-150"/>
+			<Position x="1200" y="-150"/>
 		</Editor>
 	</Node>
 	<Connect start="7352963979942464147" output="Out" input="In" end="7240810775009188273">
@@ -379,7 +379,7 @@
 			<Attribute name="m_IsFinishing" value="0"/>
 		</Logic>
 		<Editor>
-			<Position x="1050" y="-150"/>
+			<Position x="1500" y="-150"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Node" uid="7240811697878495153">
@@ -470,7 +470,7 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="629" y="81"/>
+			<Position x="1079" y="81"/>
 		</Editor>
 	</Node>
 	<Connect start="7352964152104671724" output="Out" input="In" end="7352963979942464147">
@@ -494,6 +494,26 @@
 	<Connect start="7250482937550938861" output="Out" input="In" end="7352892171761893059">
 		<Start class="Story::SetDayPhaseLogic"/>
 		<End class="Story::HideLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7355925816054912508">
+		<Logic type="Story::PointOfInterestLogic">
+			<Attribute name="m_Name" value="Q1_M2_POI"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_Destination">
+				<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q1_m2_respawn_point_group/rs_wroh_q1_m2_respawn_point"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="375" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7355925816054912508" output="Out" input="In:Start" end="7352893017640337552">
+		<Start class="Story::PointOfInterestLogic"/>
+		<End class="Story::MissionLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7352957199193000743">
 		<Logic type="Story::HideLogic">
@@ -543,9 +563,9 @@
 			<Position x="150" y="75"/>
 		</Editor>
 	</Node>
-	<Connect start="7352893288489997135" output="Out" input="In:Start" end="7352893017640337552">
+	<Connect start="7352893288489997135" output="Out" input="In" end="7355925816054912508">
 		<Start class="Story::WaitLogic"/>
-		<End class="Story::MissionLogic"/>
+		<End class="Story::PointOfInterestLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7352958026895338844">
 		<Logic type="Actions::CommentLogic">
@@ -585,7 +605,7 @@
 			<Attribute name="m_Size" value="376.000000 219.000000"/>
 		</Logic>
 		<Editor>
-			<Position x="614" y="21"/>
+			<Position x="1064" y="21"/>
 		</Editor>
 	</Node>
 	<Node type="Actions::Group" uid="7352890084548202855">

@@ -398,6 +398,8 @@
 		</Logic>
 		<Node type="Actions::Node" uid="7354700331940847750">
 			<Logic type="Story::ClearLogic">
+				<Attribute name="m_AIsAmountToShowIndicators" value="2"/>
+				<Attribute name="m_RequiredCount" value="1"/>
 				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 					<Attribute name="show_indicator" value="1"/>
 					<Attribute name="indicator_type" value="Default"/>
