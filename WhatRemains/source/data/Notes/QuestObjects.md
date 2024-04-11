@@ -51,4 +51,10 @@
 - Find Rais' note (search area with 45 second countdown)
 - Quest completes
 
-## Story Completes
+## [Story Completes]
+
+# Power Puzzle Quest 5
+- First puzzle 16m
+- Second puzzle 13m
+- Third puzzle 18m
+- Fourth puzzle 13m

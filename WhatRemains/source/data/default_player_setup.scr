@@ -3287,15 +3287,25 @@ sub main()
 		// Skill("Paraglider_3"); // Tool		
 		// Skill("Paraglider_4"); // Tool		
 		
+		// Weapons
 		Item("wpn_1hs_axe_i_fpp_r24", 1, "", "Violet");
-		Item("wpn_1hb_stk_g_fpp_r24", 1, "", "Violet");
+		Item("wpn_1hs_mach_w_fpp_r24", 1, "", "Violet");
+		Item("wpn_2hs_h_fpp_r24", 1, "", "Violet");
+		Item("wpn_2hp_bow_t9", 1, "", "Violet");
+		Item("Weapon_Firearm_Pistol", 1, "", "Violet");
+
+		// Ammo
+		Item("Bundle_Arrows", 3, "");
+		Item("Large_Bundle_Ammo_Firearm_Pistol", 1, "");
+
+		// Items
 		Item("Medkit_Small_Upgrade7", 5, "");
-		Item("Throwable_Molotov_Upgrade7", 5, "");
-		Item("Mine_Explosive_Upgrade7", 5, "");
-		Item("Throwable_ThrowingKnifeAGen_Upgrade7", 5, "");
-		//Item("Bundle_Outfit_Set_Nightrunner", 1, "");
+		Item("Throwable_Molotov_Upgrade7", 20, "");
+		Item("Mine_Explosive_Upgrade7", 15, "");
+		Item("Throwable_ThrowingKnifeAGen_Upgrade7", 30, "");
 		Item("Bundle_Outfit_Set_PostApo", 1, "");
 
+		// Blueprints
 		Item("Craftplan_Medkit_Small_Upgrade7", 1, "");
 		Item("Craftplan_Lockpick_Upgrade7", 1, "");
 		Item("Craftplan_ThrowingKnives_Upgrade7", 1, "");

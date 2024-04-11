@@ -2,14 +2,94 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "IncludeLowerBag",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeLowerBag;c:Options;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "IncludeLowerBag"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeBtmBag",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeBtmBag;c:Options;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "IncludeBag"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeTopBag",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeTopBag;c:Options;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "IncludeBag"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0359052, 1.0781606, 0.0020388, 0.5967072, 1.092706, 1.2628661]],
+            "m_EntityComponentsExtents": [69, [0.0359052, 1.0781606, 0.0020388, 0.5967073, 1.092706, 1.262866]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_bunk_bed_b"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0292147, 0.1137254, 1.1114385, 0.5197125, 0.1185053, 1.1116855]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_bed_mattress_single_a"],
+            "m_Rotate": [14, [-0.0000049, -2.1791471738197289e-7, 0.0000049]],
+            "m_Translate": [14, [-0.0380401, 0.3849964, -1.1432038]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0292147, 0.1137254, 1.1114385, 0.5197125, 0.1185053, 1.1116855]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_bed_mattress_single_a"],
+            "m_Rotate": [14, [-0.0000049, -2.1791517212932377e-7, 0.0000049]],
+            "m_Translate": [14, [-0.0380401, 1.4709701, -1.1432038]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_wroh_bld_int_bed_sleeping_bag"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000049]],
+            "m_Translate": [14, [0.0396193, 1.6868002, -0.1077271]]
+          },
+          "Fields": {
+            "IncludeBag": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_wroh_bld_int_bed_sleeping_bag"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000049]],
+            "m_Translate": [14, [0.0451732, 0.6162282, -0.1104888]]
+          },
+          "Fields": {
+            "IncludeLowerBag": "No"
           }
         }
       ]

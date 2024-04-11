@@ -1,0 +1,12 @@
+/* LOD generator: material name postfix is "clip" */
+/* LOD generator: dilate textures */
+
+sub material()
+{
+  preset("opaque;clp_0_tex;dif_0_tex;nrm_0_tex;rgh_0_tex;spc_0_tex;");
+  clp_0_tex("oldtown_a_1_clip_clp.png");
+  dif_0_tex("oldtown_a_1_clip_dif.png");
+  nrm_0_tex("oldtown_a_1_clip_nrm.png");
+  rgh_0_tex("oldtown_a_1_clip_rgh.png");
+  spc_0_tex("oldtown_a_1_clip_spc.png");
+}

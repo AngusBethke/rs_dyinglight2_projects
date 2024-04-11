@@ -32,6 +32,27 @@
 		<Start class="Story::StartObjectiveLogic"/>
 		<End class="Story::WaitForSensorLogic"/>
 	</Connect>
+	<Node type="Actions::Node" uid="7356632818187947398">
+		<Logic type="Story::WaitForSensorLogic">
+			<Attribute name="m_RequiredCount" value="1"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_Entities">
+				<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q3_villa_goto_area_2_group/rs_wroh_q3_villa_goto_area_2"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="1500" y="-135"/>
+		</Editor>
+	</Node>
+	<Connect start="7356632818187947398" output="Out" input="In:1" end="7356632741376123301">
+		<Start class="Story::WaitForSensorLogic"/>
+		<End class="Actions::AnyLogic"/>
+	</Connect>
 	<Node type="Actions::Node" uid="7354685498198818956">
 		<Logic type="Story::EnableLogic">
 			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -81,6 +102,19 @@
 	</Node>
 	<Connect start="7354686162452677008" output="Out" input="In" end="7354685540729952861">
 		<Start class="Story::UseLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7356632741376123301">
+		<Logic type="Actions::AnyLogic">
+			<Attribute name="m_CancelInputsWhenDone" value="1"/>
+			<Input name="In" count="2"/>
+		</Logic>
+		<Editor>
+			<Position x="1905" y="-225"/>
+		</Editor>
+	</Node>
+	<Connect start="7356632741376123301" output="Out" input="In" end="7354678793667408169">
+		<Start class="Actions::AnyLogic"/>
 		<End class="Story::CompleteObjectiveLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7354675877325052616">
@@ -377,12 +411,12 @@
 			</Entities>
 		</Logic>
 		<Editor>
-			<Position x="1125" y="0"/>
+			<Position x="1500" y="-225"/>
 		</Editor>
 	</Node>
-	<Connect start="7354678552622929391" output="Out" input="In" end="7354678793667408169">
+	<Connect start="7354678552622929391" output="Out" input="In:0" end="7356632741376123301">
 		<Start class="Story::DiscoverObjectLogic"/>
-		<End class="Story::CompleteObjectiveLogic"/>
+		<End class="Actions::AnyLogic"/>
 	</Connect>
 	<Node type="Actions::Group" uid="7354700185277382643">
 		<Logic type="Story::MissionLogic">
@@ -914,6 +948,10 @@
 	<Connect start="7354679235924787982" output="Out:EndNode" input="In" end="7354678552622929391">
 		<Start class="Story::DialogueLogic"/>
 		<End class="Story::DiscoverObjectLogic"/>
+	</Connect>
+	<Connect start="7354679235924787982" output="Out:EndNode" input="In" end="7356632818187947398">
+		<Start class="Story::DialogueLogic"/>
+		<End class="Story::WaitForSensorLogic"/>
 	</Connect>
 	<Node type="Actions::Node" uid="7352803104496581134">
 		<Logic type="Story::CompleteQuestLogic">
