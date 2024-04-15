@@ -1365,13 +1365,16 @@
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
             "m_Name": [12, "rs_quest_object_1"],
             "m_PcId": [6, 2493],
-            "m_PrefabName": [12, "quest_object"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, -90.0]],
             "m_Translate": [14, [-131.4138641, 1.3820513, 5.0700006]]
           },
           "Fields": {
             "MeshName": "coll_note_a.msh",
-            "SkinName": "Letter_D"
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Oli, if you're reading this it means two things...\n1. I'm definitely dead\n2. You're still slower than me\n\nSee, even when I'm bleeding out my sense of humour is still better than yours... I'm rambling, right yes, the important bits.\n\nAfter the tunnel collapsed I spent a few hours looking for a way out, eventually I found one... right here in fact. I managed to get the gate to move enough for Emily to get through using a generator... but it lit up and attracted a stack of Virals. Emily's made it through at least... but she's all alone so you need to go find her and take her back somewhere safe. The only reason she agreed to come with me is because she found her mom... as one of those \"things\"... I can't imagine what that must've felt like. \n\nAnyway, the generator conked out while I was fighting the Virals off, they tore me up pretty good, and the gate closed. There is another way to get the gate open, we set it up back in the day to run off a generator hooked up to the base of an apartment complex, just across from the Playground, South West of the Intersection. We then rigged a bunch of junction boxes between there and here to power it up. We stopped using it because of the bloody racket it made, but it should still work, we put everything back such that it wouldn't get too banged up.\n\nI had a look at trying to get it set up now, but settled for the generator because some nasty things have taken up residence by some of the Junction boxes. You'll need to get rid of them to ensure the connection doesn't get severed. \n\nFirst lot of trouble is a couple of those bastards with the hammers, \"Goons\" I think the locals call them. They are set up by the generator, take them out and you can get it started.\n\nSecond group of shits you have to deal with are those ones that jump around all over the place with the long claws... Banshees I think, they're nested by the Helicopter wreck in the office building South East of the Intersection.\n\nThird problem is one of those big assholes, throws the rocks around, a Demolisher, moving around the townhouses North East of the Intersection. You're going to need to deal with him in order to gain access to that junction box.\n\nLast problem is this damn gate itself... when you start it up you're going to have a bunch of those Virals coming at you until you can get through.\n\nYou CAN NOT fail this, if you do Emily's going to be all alone... she's not prepared for this world - and you know I'm not talking about those \"things\", they're predictable, people are not.\n\nFind her.\n- Jean\n\nPS: If you get yourself killed doing this I'm going to find you in the afterlife and kill you again!",
+            "m_MenuTextQuestName": "Note from Jean #1"
           }
         },
         {
@@ -1533,7 +1536,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 2.5444324, 0.0, 0.2622422, 2.5444324, 1.9126892]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 2.5434734, -0.0010042, 0.2622422, 2.5434734, 1.9013097]],
             "m_Name": [12, "rs_barricade_gate_sequence_hide_1"],
             "m_PcId": [6, 2524],
             "m_PrefabName": [12, "mesh"],
@@ -1840,6 +1843,14 @@
             "m_PrefabName": [12, "rs_intersection_end_quest_sounds"],
             "m_Rotate": [14, [0.0, 0.0000049, 0.0000078]],
             "m_Translate": [14, [-132.375, 0.145768, 0.3273926]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2555],
+            "m_PrefabName": [12, "rs_intersection_aaz_global"],
+            "m_Translate": [14, [0.0, -20.0000019, 0.0]]
           }
         },
         {

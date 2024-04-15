@@ -21,28 +21,36 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_angela_1"],
             "m_PcId": [6, 3],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, -90.0]],
-            "m_Translate": [14, [-0.0594176, -0.0571506, -0.0062711]]
+            "m_Translate": [14, [-0.0542984, -0.0571505, -0.0062711]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_Angela_1",
-            "m_EditorItemName": "Collectable_Note_Angela_1"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "I'm leaving this here in case someone else comes through this way. \n\nA group of Virals roamed into the tunnel earlier today, they do that from time to time. Anyway, Tom and I ended up kinda stuck, they were blocking our path into the intersection. We climbed up through a ventilation system and ended up in this building. As it turns out, a pretty decent pathway into the Intersection, one not frequented by the Infected - at least not until Tom had anything to say about it. We were on our way back... and we forgot which floor we came in through. Jon took the rest of the group out ahead of us, so Tom - in his infinite wisdom - decided to yell out for Jon to guide us back with sonar or something. Honestly I don't know what goes through that man's head half of the time. Unfortunately, as it turns out, there's a friggen' nest in this building. It was pure luck that we made it back here at all, you know, with having to backtrack in a full sprint and all... but we did do it. Only problem is that it looks like some infected have taken residence on this floor. So I've locked the door for good measure, and I've taken the key with me, find another way if you can... or don't, I'm not your Mom.\n\n- Angela",
+            "m_MenuTextQuestName": "Angela's Note #1"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_jon_1"],
             "m_PcId": [6, 4],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, 179.9999847]],
             "m_Translate": [14, [-20.1296768, -11.9026069, -15.0539627]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_Jon_1",
-            "m_EditorItemName": "Collectable_Note_Jon_1"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "I'm putting this here because this is the second time (yes... it's happened more than once) that Tom has forgotten why we've set the power up as we have: \n\nWe are running the power from this generator via Junction boxes we have set up on the rooftops. We do this because the streets are dangerous (the rooftops are as well, but less so). They are numbered and we've gone so far as to set up signs pointing towards the next one in order, so it should be dead simple to run the cables. Given the length of the path, we're going to be assigning runners to sections, so that we can have a break in between runs. \n\nTom, you have 1, 4, 7, and A. I will be taking 2, 5, and 8. Angela is going to be running 3, 6, and 9. Make sure to log your progress at each point.\n\nFirst connection is on the roof just North-East of here, follow the arrows, can't miss it.\n\n- Jon",
+            "m_MenuTextQuestName": "Jon's Note #1"
           }
         },
         {
@@ -63,14 +71,18 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_1"],
             "m_PcId": [6, 6],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, -90.0000152]],
             "m_Translate": [14, [-43.3352203, 8.553586, 0.9916418]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_1",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_1"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #2 is North of here, two buildings over across the canal. Sign's pointing right at it.\n\nRun 1: There were a few slow ones up here today, easy enough to take care of. We rigged up a makeshift cover for the Junction boxes this week, should keep the elements off them well enough.\n- Jon\n\nRun 2: Run was boring today, nearly tripped, that's about it. Also Jon's a dick.\n- Tom\n\nRun 3: Added some planks so we don't have to shimmy around the corner anymore. More biters found their way up here but I got rid of ‘em. Tom, don't use this for personal messages, you're gonna piss Jon off.\n- Ang\n\nRun 4: We need to do something about the slow bastards, they keep wandering up here... I don't even know how, got rid of two more today. Junction boxes seem to be doing alright with the weather. Just need to make sure we seal them properly when we pack the cables away. Tom, just focus on getting the job done would you? \n- Jon\n\nRun 5: I got the job... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #1 Log"
           }
         },
         {
@@ -92,21 +104,25 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_2"],
             "m_PcId": [6, 8],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, -90.0000152]],
             "m_Scale": [14, [0.9999994, 0.9999992, 0.9999991]],
             "m_Translate": [14, [-54.6416587, 1.0299415, 49.6897315]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_2",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_2"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #3 is suspended above the intersection on the deconstructed crane, once again arrow's pointing at it. We've also covered up the misleading blue arrows, Tom keeps getting confused.\n\nRun 1: Had a run in with... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #2 Log"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0761119, 0.0, 0.0235988, 0.1486139, 0.0078983]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0761119, 0.0, 0.0235988, 0.1486139, 0.0078984]],
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;wpn_throwing_knife_a_fpp"],
@@ -122,15 +138,19 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_3"],
             "m_PcId": [6, 10],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, -120.0000152]],
             "m_Scale": [14, [0.9999992, 0.9999992, 0.9999989]],
             "m_Translate": [14, [-122.0733642, 1.3544243, 86.9570159]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_3",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_3"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #4 is nestled on the mid-level of the crane. We've removed the ladders and replaced it with something only runners can get to... we've had an issue with looters recently but they ain't getting up there.\n\nRun 1: Run smooth, nothing... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #3 Log"
           }
         },
         {
@@ -152,15 +172,19 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_4"],
             "m_PcId": [6, 12],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, -60.0000076]],
             "m_Scale": [14, [0.9999991, 0.9999989, 0.9999986]],
             "m_Translate": [14, [-119.5229949, 12.595767, 30.9496841]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_4",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_4"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #5 is at the top of the Apartment Block, Ziplines run to it, but the cable's a bit short, I'm sure you guys can figure something out.\n\nRun 1: I NEARLY F*CKING DIED!!! Why did we replace a simple ladder with a GD wallrun? Yes, we're runners and all that but this is just ridiculous. Upside is no biter's making its way up here... still upset though.\n- Ang\n\nRun 2: Run was smooth, thankfully no rain today. Angela, you know why... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #4 Log"
           }
         },
         {
@@ -181,22 +205,26 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1055, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_5"],
             "m_PcId": [6, 14],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, 119.9999923]],
-            "m_Scale": [14, [0.9999986, 0.9999985, 0.999998]],
+            "m_Scale": [14, [0.9999986, 0.9999985, 0.9999979]],
             "m_Translate": [14, [-141.940689, 16.0473556, 11.3320655]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_5",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_5"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #6 is in what used to be the maintenance room of this building... it's not really recognizable anymore though. Just head down, you'll find it.\n\nRun 1: Nothing to report except... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #5 Log"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0761119, -0.0, 0.0235988, 0.1486139, 0.0078984]],
+            "m_EntityComponentsExtents": [69, [-0.0000028, 0.0761119, 0.0, 0.0235997, 0.1486139, 0.0078983]],
             "m_PcId": [6, 15],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;wpn_throwing_knife_a_fpp"],
@@ -211,22 +239,26 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1055, 0.0099247, 0.1489999]],
+            "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_6"],
             "m_PcId": [6, 16],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, 29.9999809]],
-            "m_Scale": [14, [0.9999982, 0.9999982, 0.9999977]],
-            "m_Translate": [14, [-151.8875122, -1.1359785, 15.6502761]]
+            "m_Scale": [14, [0.9999982, 0.9999982, 0.9999976]],
+            "m_Translate": [14, [-151.8875122, -1.1359783, 15.6502761]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_6",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_6"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #7 is pretty much directly above you right now. Dead simple to get to.\n\nRun 1: Why do I have to run this damn cable all the way down there, then bring it back up again?? Next time I'm just wiring them right across.\n- Tom\n\nRun 2: Biters wandering into the building all the time these days, took care of ‘em. Tom, the voltage is different, do you want to blow the whole system?\n- Ang\n\nRun 3: Helicopter wreck shifted today, nearly... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #6 Log"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000028, 0.0761119, 0.0, 0.0235997, 0.1486139, 0.0078984]],
+            "m_EntityComponentsExtents": [69, [-0.0, 0.0761119, 0.0, 0.0235988, 0.1486139, 0.0078983]],
             "m_PcId": [6, 17],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;wpn_throwing_knife_a_fpp"],
@@ -242,21 +274,25 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_7"],
             "m_PcId": [6, 18],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, 29.9999809]],
             "m_Scale": [14, [0.9999982, 0.9999982, 0.9999976]],
             "m_Translate": [14, [-153.2720947, 16.3722991, 17.999134]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_7",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_7"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #8 is on the roof of the Townhouses across the Canal. We set up a zipline running right there and signs subsequently to guide you the rest of the way.\n\nRun 1: Boring climb out... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #7 Log"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0761119, 0.0, 0.0235988, 0.1486139, 0.0078984]],
+            "m_EntityComponentsExtents": [69, [0.0000057, 0.0761119, -0.0, 0.0236007, 0.1486139, 0.0078984]],
             "m_PcId": [6, 19],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;wpn_throwing_knife_a_fpp"],
@@ -272,15 +308,19 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_8"],
             "m_PcId": [6, 20],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, 179.9999847]],
             "m_Scale": [14, [0.9999982, 0.9999979, 0.9999973]],
             "m_Translate": [14, [-214.2999114, -12.3524942, 123.4655075]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_8",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_8"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: Junction Box #9 is across the Canal east, way up on the Balcony of the large apartment complex. It should be relatively simple going.\n\nRun 1: Run smooth, nothing... [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #8 Log"
           }
         },
         {
@@ -302,26 +342,30 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0005, 0.0038554, 0.0004999, 0.1054999, 0.0099247, 0.1489999]],
+            "m_Name": [12, "rs_coll_note_junction_9"],
             "m_PcId": [6, 22],
-            "m_PrefabName": [12, "collectableobject"],
+            "m_PrefabName": [12, "quest_object_withbrief"],
             "m_Rotate": [14, [-90.0, 0.0, -90.0000152]],
-            "m_Scale": [14, [0.9999978, 0.9999975, 0.9999969]],
+            "m_Scale": [14, [0.9999976, 0.9999973, 0.9999969]],
             "m_Translate": [14, [-253.318161, 10.72297, 140.4174041]]
           },
           "Fields": {
-            "CollectableId": "Collectable_Note_JunctionBox_9",
-            "m_EditorItemName": "Collectable_Note_JunctionBox_9"
+            "MeshName": "coll_note_a.msh",
+            "SkinName": "Letter_D",
+            "cbs::IEnable::m_State": "1",
+            "m_MenuTextQuestDesc": "Note: For the last damn time, Junction Box A connects to the Eastern Military gate. The cable's plenty long, just run it along the wall south and you'll bump right into the gate. Please stop asking where this goes!\n\nRun 1: Climbed up with difficulty, but managed, had to go find Tom, he got lost. I'm updating the log to remind everyone of the location of box A.\n- Jon\n\nRun 2: Would you stop implying I'm an… [page torn - rest unintelligible]",
+            "m_MenuTextQuestName": "Junction Box #9 Log"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [3.594905138015747e-7, 0.0761348, 0.0, 0.0235989, 0.1486215, 0.0078984]],
+            "m_EntityComponentsExtents": [69, [3.5762786865234377e-7, 0.0761119, 0.0, 0.0235989, 0.1486139, 0.0078983]],
             "m_PcId": [6, 23],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;wpn_throwing_knife_a_fpp"],
-            "m_Rotate": [14, [-14.9999475, -0.0000233, 90.0]],
-            "m_Scale": [14, [0.9999982, 0.9999981, 0.9999975]],
+            "m_Rotate": [14, [-14.9999475, -0.0000232, 90.0]],
+            "m_Scale": [14, [0.9999982, 0.9999979, 0.9999973]],
             "m_Translate": [14, [-253.1988983, 10.8371629, 140.4295806]]
           },
           "Fields": {
