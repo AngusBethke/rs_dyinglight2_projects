@@ -1,84 +1,89 @@
 <?xml version="1.0"?>
-<Node type="Actions::Group" uid="7182574531307266747">
-	<Logic type="Story::CampaignLogic">
-		<Attribute name="m_IndicatorType" value=""/>
-		<Attribute name="m_ShowIndicator" value="1"/>
-		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-			<Attribute name="show_indicator" value="1"/>
-			<Attribute name="indicator_type" value="Default"/>
-			<Attribute name="objective" value="Default"/>
-		</Object>
-	</Logic>
-	<Node type="Actions::Node" uid="7187052473379068573">
-		<Logic type="Story::FinishCampaignLogic">
-			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-				<Attribute name="show_indicator" value="1"/>
-				<Attribute name="indicator_type" value="Default"/>
-				<Attribute name="objective" value="Default"/>
-			</Object>
-			<Entities name="m_SpawnPoint">
-				<Entity name=""/>
-			</Entities>
-		</Logic>
-		<Editor>
-			<Position x="480" y="180"/>
-		</Editor>
-	</Node>
-	<Node file="setupquest.quest">
-		<Editor>
-			<Position x="-900" y="45"/>
-		</Editor>
-	</Node>
-	<Connect start="7186603224649848035" output="Out:End" input="In:Start" end="7186583766428578563">
-		<Start class="Story::QuestLogic"/>
-		<End class="Story::QuestLogic"/>
-	</Connect>
-	<Node file="signsoflife.quest">
-		<Editor>
-			<Position x="-540" y="30"/>
-		</Editor>
-	</Node>
-	<Connect start="7186583766428578563" output="Out:End" input="In:Start" end="7182575286715479825">
-		<Start class="Story::QuestLogic"/>
-		<End class="Story::QuestLogic"/>
-	</Connect>
-	<Node file="explore.quest">
-		<Editor>
-			<Position x="-210" y="45"/>
-		</Editor>
-	</Node>
-	<Connect start="7182575286715479825" output="Out:End" input="In:Start" end="7186729177650300998">
-		<Start class="Story::QuestLogic"/>
-		<End class="Story::QuestLogic"/>
-	</Connect>
-	<Node type="Actions::Node" uid="7182574531691833107">
-		<Logic type="Actions::EndLogic"/>
-		<Editor>
-			<Position x="480" y="45"/>
-		</Editor>
-	</Node>
-	<Node type="Actions::Node" uid="7182574532219298364">
-		<Logic type="Actions::StartLogic"/>
-		<Editor>
+<Header>
+	<Version value="2"/>
+</Header>
+<Quest>
+	<StoryData>
+		<Node type="Actions::Group" uid="7182574531307266747">
+			<Logic type="Story::CampaignLogic">
+				<Attribute name="m_IndicatorType" value=""/>
+				<Attribute name="m_ShowIndicator" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Node type="Actions::Node" uid="7187052473379068573">
+				<Logic type="Story::FinishCampaignLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_SpawnPoint">
+						<Entity name=""/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Node file="setupquest.quest"/>
+			<Connect start="7186603224649848035" output="Out:End" input="In:Start" end="7186583766428578563">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node file="signsoflife.quest"/>
+			<Connect start="7186583766428578563" output="Out:End" input="In:Start" end="7182575286715479825">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node file="explore.quest"/>
+			<Connect start="7182575286715479825" output="Out:End" input="In:Start" end="7186729177650300998">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7182574531691833107">
+				<Logic type="Actions::EndLogic"/>
+			</Node>
+			<Node type="Actions::Node" uid="7182574532219298364">
+				<Logic type="Actions::StartLogic"/>
+			</Node>
+			<Connect start="7182574532219298364" output="Out" input="In:Start" end="7186603224649848035">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node file="escapetheintersection.quest"/>
+			<Connect start="7186729177650300998" output="Out:End" input="In" end="7182574531691833107">
+				<Start class="Story::QuestLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Connect start="7186729177650300998" output="Out:End" input="In" end="7187052473379068573">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::FinishCampaignLogic"/>
+			</Connect>
+		</Node>
+	</StoryData>
+	<EditorData>
+		<EditorNode uid="7182574532219298364">
 			<Position x="-1110" y="30"/>
-		</Editor>
-	</Node>
-	<Connect start="7182574532219298364" output="Out" input="In:Start" end="7186603224649848035">
-		<Start class="Actions::StartLogic"/>
-		<End class="Story::QuestLogic"/>
-	</Connect>
-	<Node file="escapetheintersection.quest">
-		<Editor>
+		</EditorNode>
+		<EditorNode file="setupquest.quest">
+			<Position x="-900" y="45"/>
+		</EditorNode>
+		<EditorNode file="signsoflife.quest">
+			<Position x="-540" y="30"/>
+		</EditorNode>
+		<EditorNode file="explore.quest">
+			<Position x="-210" y="45"/>
+		</EditorNode>
+		<EditorNode file="escapetheintersection.quest">
 			<Position x="135" y="30"/>
-		</Editor>
-	</Node>
-	<Connect start="7186729177650300998" output="Out:End" input="In" end="7182574531691833107">
-		<Start class="Story::QuestLogic"/>
-		<End class="Actions::EndLogic"/>
-	</Connect>
-	<Connect start="7186729177650300998" output="Out:End" input="In" end="7187052473379068573">
-		<Start class="Story::QuestLogic"/>
-		<End class="Story::FinishCampaignLogic"/>
-	</Connect>
-</Node>
+		</EditorNode>
+		<EditorNode uid="7182574531691833107">
+			<Position x="480" y="45"/>
+		</EditorNode>
+		<EditorNode uid="7187052473379068573">
+			<Position x="480" y="180"/>
+		</EditorNode>
+	</EditorData>
+</Quest>
 
