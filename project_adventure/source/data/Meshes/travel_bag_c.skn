@@ -1,0 +1,49 @@
+!include("surface.def")
+
+
+
+Skin("Default")
+{
+	Replace("travel_bag.mat", "travel_bag.mat")
+	Replace("travel_bag_new.mat", "travel_bag_c.mat")
+	Replace("luggage_new.mat", "luggage_new.mat")
+	NodePos(0, 0)
+	ReplaceSurface("Flexible", "Plastic", "")
+	ReplaceSurface("Plastic", "Plastic", "")
+	ReplaceSurface("Unknown", "Plastic", "")
+}
+Skin("Default_dynamic")
+{
+	Replace("travel_bag.mat", "travel_bag.mat")
+	Replace("travel_bag_new.mat", "travel_bag_c.mat")
+	Replace("luggage_new.mat", "luggage_new_dynamic.mat")
+	NodePos(0, 0)
+	ReplaceSurface("Flexible", "Plastic", "")
+	ReplaceSurface("Plastic", "Plastic", "")
+	ReplaceSurface("Unknown", "Plastic", "")
+}
+
+
+Skin("sur_sens")
+{
+	Replace("travel_bag.mat", "sur_sens.mat")
+	Replace("travel_bag_new.mat", "sur_sens.mat")
+	Replace("luggage_new.mat", "sur_sens.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+	
+	ReplaceSurface("Flexible", "Plastic", "")
+	ReplaceSurface("Plastic", "Plastic", "")
+	ReplaceSurface("Unknown", "Plastic", "")
+}
+
+Skin("sur_sens_debug")
+{
+	Replace("travel_bag.mat", "sur_sens$npp.mat")
+	Replace("travel_bag_new.mat", "sur_sens$npp.mat")
+	Replace("luggage_new.mat", "sur_sens$npp.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+	
+	ReplaceSurface("Flexible", "Plastic", "")
+	ReplaceSurface("Plastic", "Plastic", "")
+	ReplaceSurface("Unknown", "Plastic", "")
+}
