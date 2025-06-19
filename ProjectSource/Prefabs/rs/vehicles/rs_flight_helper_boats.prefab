@@ -1,0 +1,52 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Direction",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Direction;c:Boat Attributes;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Clockwise"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_flight_helper_boat"],
+            "m_Scale": [14, [0.9999998, 0.9999998, 1.0000008]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 4],
+            "m_PcId": [6, 3]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Counter-Clockwise"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_flight_helper_boat_invert"],
+            "m_Scale": [14, [0.9999998, 0.9999998, 1.0000008]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

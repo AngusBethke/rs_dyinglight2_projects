@@ -1,0 +1,84 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_nat_bush_jungle_a"]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 7, 8, 9, 10],
+            "m_PcId": [6, 6]
+          },
+          "Presets": [
+            [1, "rs_tree_randomiser"],
+            [7, "rs_tree_randomiser"],
+            [8, "rs_tree_randomiser"],
+            [9, "rs_tree_randomiser"],
+            [10, "rs_tree_randomiser"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "B"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_nat_bush_jungle_b"],
+            "m_Translate": [14, [0.0000152, 9.536744300930878e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "E"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_nat_bush_jungle_e"],
+            "m_Translate": [14, [0.0000152, 9.536744300930878e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "C"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_nat_bush_jungle_c"],
+            "m_Translate": [14, [0.0000152, 9.536744300930878e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "D"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_nat_bush_jungle_d"],
+            "m_Translate": [14, [0.0001825, -0.0000883, 0.0002735]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
