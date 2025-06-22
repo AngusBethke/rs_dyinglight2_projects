@@ -1,0 +1,71 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_nat_seaweed_short_a"],
+            "m_Translate": [14, [0.0000076, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2, 7, 8, 9],
+            "m_PcId": [6, 6]
+          },
+          "Presets": [
+            [2, "rs_tree_randomiser"],
+            [7, "rs_tree_randomiser"],
+            [8, "rs_tree_randomiser"],
+            [9, "rs_tree_randomiser"]
+          ]
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_nat_seaweed_short_d"],
+            "m_Translate": [14, [0.0003653, 0.0003907, 0.0003347]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_nat_seaweed_short_c"],
+            "m_Translate": [14, [0.0003653, 0.0003907, 0.0003347]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_nat_seaweed_short_b"],
+            "m_Translate": [14, [0.0003653, 0.0003907, 0.0003347]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
