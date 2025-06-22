@@ -1,0 +1,168 @@
+sub main()
+{
+	Version(0);
+	PresetDef("Physics Object")
+	{
+		// 9 CoDamageReceiver
+		// 8 CoDamageToPhysicsImpulse
+		// 103 CoReplicator
+		// 107 CoRelevance
+		AddField("m_EntityVariant", "8;9");
+
+		AddField("m_BodiesDef", "", false, true, false);
+		AddField("m_WakeOnActivate", "0", false, true, false);
+		AddField("m_SimSetName", "sim_helpers", false, true, false);
+		AddField("m_SpecScript", "crate.phx", false, true, false);
+		AddField("m_MeshName", "dummy_box.msh", false, true, false);
+		AddField("m_SkinName", "Macbeth Chart", false, true, false);
+		AddField("m_PhysicsType", "Simple", false, true, false);
+		
+		IgnoreField("UserData");
+		IgnoreField("SkinName");
+
+		Preset("Barrel_Metal_Heavy")
+		{
+			SetField("m_MeshName", "barrel_a.msh");
+			SetField("m_SkinName", "Default_Dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Heavy;Shape;Cylinder);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Barrel_Plastic_Light")
+		{
+			SetField("m_MeshName", "barrel_toxic_a.msh");
+			SetField("m_SkinName", "Blue_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Cylinder);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Barrel_Plastic_Light_Green")
+		{
+			SetField("m_MeshName", "barrel_toxic_a.msh");
+			SetField("m_SkinName", "Green_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Cylinder);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Barrel_Plastic_Light_Yellow")
+		{
+			SetField("m_MeshName", "barrel_toxic_a.msh");
+			SetField("m_SkinName", "Yellow_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Cylinder);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Box A")
+		{
+			SetField("m_MeshName", "dummy_box.msh");
+			SetField("m_SkinName", "Macbeth Chart");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Box B")
+		{
+			SetField("m_MeshName", "dummy_box.msh");
+			SetField("m_SkinName", "Default");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Heavy);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Breaker")
+		{
+			SetField("m_MeshName", "dummy_box.msh");
+			SetField("m_SkinName", "null");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_SpecScript", "simple_ccd_off.phx");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;UltraHeavy);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Crate")
+		{
+			SetField("m_MeshName", "wooden_crate_a.msh");
+			SetField("m_SkinName", "");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light);");
+		}
+		Preset("Fisherman_boat_a")
+		{
+			SetField("m_MeshName", "fisherman_boat_a.msh");
+			SetField("m_SkinName", "");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;UltraHeavy);");
+		}
+		Preset("Wooden_Pallet")
+		{
+			SetField("m_MeshName", "urb_pallet_wood_a.msh");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Wooden_Log")
+		{
+			SetField("m_MeshName", "bld_pa_a_pillar_1h_c.msh");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Vent_Cap")
+		{
+			SetField("m_MeshName", "urb_ac_vent_cap_a.msh");
+			SetField("m_SkinName", "Default");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Heavy);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Flare laucher bullet")
+		{
+			SetField("m_MeshName", "dummy_sphere_n.msh");
+			SetField("m_SkinName", "Null");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Sphere);");
+		}
+		Preset("Travel_bag_a")
+		{
+			SetField("m_MeshName", "travel_bag_a.msh");
+			SetField("m_SkinName", "Default_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Box);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Travel_bag_b")
+		{
+			SetField("m_MeshName", "travel_bag_b.msh");
+			SetField("m_SkinName", "Default_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Box);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Travel_bag_c")
+		{
+			SetField("m_MeshName", "travel_bag_c.msh");
+			SetField("m_SkinName", "Default_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Box);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Travel_bag_d")
+		{
+			SetField("m_MeshName", "travel_bag_d.msh");
+			SetField("m_SkinName", "Default_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Box);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Travel_bag_e")
+		{
+			SetField("m_MeshName", "travel_bag_e.msh");
+			SetField("m_SkinName", "Default_dynamic");
+			SetField("m_PhysicsType", "Simple");
+			SetField("m_BodiesDef", "Dynamic,0,(BodyWeight;Light;Shape;Box);");
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+		Preset("Disabled")
+		{
+			SetField("m_PhysicsType", "None");
+		}
+		Preset("Replicated")
+		{
+			SetField("m_EntityVariant", "8;9;103;107;");
+		}
+	}
+}
