@@ -1470,12 +1470,13 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 141],
             "m_PrefabName": [12, "rs_container_catwalk_2x2"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Scale": [14, [0.9999939, 0.9999964, 0.9999964]],
-            "m_Translate": [14, [-15.3599996, 29.7599887, 13.4399948]]
+            "m_Rotate": [14, [-9.604988235878409e-7, 0.0000017, -0.0]],
+            "m_Scale": [14, [0.9999938, 0.9999963, 0.9999964]],
+            "m_Translate": [14, [-15.3600111, 29.7599868, 13.4400081]]
           },
           "Fields": {
-            "IncludeRailing": "No"
+            "IncludeRailing": "No",
+            "Type": "TJunction"
           }
         },
         {
@@ -1953,12 +1954,13 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 178],
             "m_PrefabName": [12, "rs_container_catwalk_2x2"],
-            "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Scale": [14, [0.9999948, 0.9999967, 0.9999967]],
-            "m_Translate": [14, [-15.3599777, 29.7599868, -13.4399995]]
+            "m_Rotate": [14, [-180.0, 0.0000042, -180.0]],
+            "m_Scale": [14, [0.9999947, 0.9999967, 0.9999969]],
+            "m_Translate": [14, [-15.3599777, 29.7599887, -13.4400081]]
           },
           "Fields": {
-            "IncludeRailing": "No"
+            "IncludeRailing": "No",
+            "Type": "TJunction"
           }
         },
         {
@@ -2176,7 +2178,7 @@
             "m_PcId": [6, 195],
             "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Translate": [14, [57.6000099, 30.720005, -17.2800064]]
+            "m_Translate": [14, [57.6000061, 30.7200031, -16.3200073]]
           }
         },
         {
@@ -2185,7 +2187,271 @@
             "m_PcId": [6, 196],
             "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Translate": [14, [57.6000061, 30.7200031, 17.2800045]]
+            "m_Translate": [14, [57.6000022, 30.7200012, 16.3200054]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 197],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-9.5999984, 30.7199878, -17.2800006]]
+          },
+          "Fields": {
+            "Type": "Stairs"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 198],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999998]],
+            "m_Translate": [14, [-13.4399986, 30.7199859, -17.2800006]]
+          },
+          "Fields": {
+            "Type": "TJunction"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 199],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-17.2799968, 30.719984, -17.2800006]]
+          },
+          "Fields": {
+            "Type": "Stairs"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 200],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-9.6000013, 30.720005, -17.2800064]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 201],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-17.2800006, 30.7200031, -17.2800064]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 202],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999992, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [-9.6000032, 30.7199821, 17.2800025]]
+          },
+          "Fields": {
+            "Type": "Stairs"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 203],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-9.5999994, 30.7200012, 17.2800083]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 204],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [0.0000049, 0.0, -0.0000049]],
+            "m_Scale": [14, [0.9999992, 0.9999994, 0.9999997]],
+            "m_Translate": [14, [-13.4399995, 30.719984, 17.2800025]]
+          },
+          "Fields": {
+            "Type": "TJunction"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 205],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-17.2799987, 30.7199859, 17.2800025]]
+          },
+          "Fields": {
+            "Type": "Stairs"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 206],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-17.2799968, 30.7200031, 17.2800083]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 207],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-180.0, -0.0000098, -180.0]],
+            "m_Scale": [14, [0.9999989, 0.9999992, 0.9999994]],
+            "m_Translate": [14, [49.9200096, 30.7199802, -3.839996]]
+          },
+          "Fields": {
+            "Type": "Stairs"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 208],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [-180.0, -0.0000098, -180.0]],
+            "m_Translate": [14, [49.9200134, 30.7199993, -3.8399999]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 209],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000049]],
+            "m_Scale": [14, [0.9999992, 0.9999994, 0.9999994]],
+            "m_Translate": [14, [49.9200096, 30.7199821, 0.0000016]]
+          },
+          "Fields": {
+            "Type": "TJunction"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 210],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-0.0, 0.0000049, -0.0]],
+            "m_Scale": [14, [0.9999991, 0.9999995, 0.9999995]],
+            "m_Translate": [14, [49.9200096, 30.719984, 3.8399994]]
+          },
+          "Fields": {
+            "Type": "Stairs"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 211],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [-0.0, 0.0000049, -0.0]],
+            "m_Translate": [14, [49.9200134, 30.7200012, 3.8399994]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 212],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-69.1200027, 30.4800033, 16.8000049]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 213],
+            "m_PrefabName": [12, "rs_container_catwalk_stairs_1h"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-69.1199951, 30.4800014, -16.8000049]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 214],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-179.9999847, -0.0000128, 179.9999847]],
+            "m_Scale": [14, [0.9999938, 0.9999962, 0.9999965]],
+            "m_Translate": [14, [-15.3600177, 29.759983, 9.6000127]]
+          },
+          "Fields": {
+            "IncludeRailing": "No"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 215],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-179.9999847, -0.0000119, 179.9999847]],
+            "m_Scale": [14, [0.9999938, 0.9999961, 0.9999966]],
+            "m_Translate": [14, [-15.3600254, 29.7599849, 5.7600183]]
+          },
+          "Fields": {
+            "IncludeRailing": "No"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 216],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-179.9999847, -0.0000119, 179.9999847]],
+            "m_Scale": [14, [0.9999938, 0.9999961, 0.9999967]],
+            "m_Translate": [14, [-15.3600311, 29.7599849, 1.9200241]]
+          },
+          "Fields": {
+            "IncludeRailing": "No"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 217],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-179.9999847, -0.0000119, 179.9999847]],
+            "m_Scale": [14, [0.9999938, 0.999996, 0.9999967]],
+            "m_Translate": [14, [-15.3600387, 29.7599868, -1.9199693]]
+          },
+          "Fields": {
+            "IncludeRailing": "No"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 218],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-179.9999847, -0.0000119, 179.9999847]],
+            "m_Scale": [14, [0.9999938, 0.999996, 0.9999969]],
+            "m_Translate": [14, [-15.3600444, 29.7599868, -5.759963]]
+          },
+          "Fields": {
+            "IncludeRailing": "No"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 219],
+            "m_PrefabName": [12, "rs_container_catwalk_2x2"],
+            "m_Rotate": [14, [-179.9999847, -0.0000119, 179.9999847]],
+            "m_Scale": [14, [0.9999938, 0.9999959, 0.999997]],
+            "m_Translate": [14, [-15.3600511, 29.7599868, -9.5999574]]
+          },
+          "Fields": {
+            "IncludeRailing": "No"
           }
         }
       ]

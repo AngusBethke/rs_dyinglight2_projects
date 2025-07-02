@@ -2,23 +2,87 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
-      "Components": [
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0005073, 1.9205539, 0.0004976, 5.7605047, 1.9205539, 1.9205052]],
-            "m_PcId": [6, 1],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;hub_ship_container_cage_3x_a"],
-            "m_Scale": [14, [1.0, 1.0, 1.0000009]]
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "WallType_Front",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WallType_Front;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "WallType"
+              }
+            ]
+          },
+          {
+            "Name": "WallType_Back",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WallType_Back;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "WallType"
+              }
+            ]
+          },
+          {
+            "Name": "WallType_Left",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WallType_Left;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "WallType"
+              }
+            ]
+          },
+          {
+            "Name": "WallType_Right",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WallType_Right;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "WallType"
+              }
+            ]
+          },
+          {
+            "Name": "UserData",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE;c:Skins;l:UserData;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "UserData"
+              },
+              {
+                "Uuid": "3",
+                "Name": "UserData"
+              },
+              {
+                "Uuid": "4",
+                "Name": "UserData"
+              },
+              {
+                "Uuid": "2",
+                "Name": "UserData"
+              },
+              {
+                "Uuid": "5",
+                "Name": "UserData"
+              }
+            ]
           }
-        },
+        ]
+      },
+      "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_container_wall_3x"],
             "m_Translate": [14, [0.0000114, 0.0, -1.840003]]
+          },
+          "Fields": {
+            "SELECTOR": "",
+            "UserData": "4286643968 128 4294901760 0"
           }
         },
         {
@@ -42,6 +106,7 @@
             "m_Translate": [14, [-5.5999913, 0.0, -4.768372718899627e-7]]
           },
           "Fields": {
+            "Container": "Default",
             "WallType": "DoubleDoor"
           }
         },
@@ -52,27 +117,18 @@
             "m_PrefabName": [12, "rs_container_wall_3x"],
             "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
             "m_Translate": [14, [0.0000152, 0.0, 1.8400001]]
+          },
+          "Fields": {
+            "Container": "Default",
+            "UserData": "4286643968 128 4294901760 0"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0022459, 0.001113, 0.0, 5.6143822, 0.0305012, 1.7911411]],
-            "m_PcId": [6, 6],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;hub_ship_container_roof_3x_a"],
-            "m_Translate": [14, [-0.000038, 3.7800025, 0.0000681]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-9.5367431640625e-7, -0.0345011, 0.0000011, 5.6604547, 0.0654996, 1.7911419]],
-            "m_PcId": [6, 7],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;hub_ship_container_floor_3x_a"],
-            "m_Rotate": [14, [179.9999847, 0.0, -0.0]],
-            "m_Translate": [14, [-0.0000381, 0.0599994, 0.0000667]]
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_container_3x_base"],
+            "m_Translate": [14, [-0.0000266, 1.2800027, 0.0000437]]
           }
         }
       ]

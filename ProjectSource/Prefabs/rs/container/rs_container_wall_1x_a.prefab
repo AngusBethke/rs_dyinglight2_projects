@@ -2,15 +2,29 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "UserData",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE;c:Skins;l:UserData;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "UserData"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.000542, 1.9199999, 0.0426049, 1.9199999, 1.9199999, 0.0726089]],
+            "m_EntityComponentsExtents": [69, [-0.0005434, 1.9199999, 0.0426049, 1.9200004, 1.9199999, 0.0726089]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;hub_ship_container_wall_back_1x_a"],
-            "m_Rotate": [14, [-179.9999847, 0.000005, 179.9999847]],
+            "m_Rotate": [14, [-179.9999847, 0.0000049, 179.9999847]],
             "m_Translate": [14, [-4.76837158203125e-7, -0.0, 0.0000038]]
           }
         }
