@@ -1,0 +1,808 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "IsUnderwater",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IsUnderwater;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "143",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999976]],
+            "m_Translate": [14, [-4.9910893, 0.1588211, -1.1602174]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999979, 0.9999982, 0.9999973]],
+            "m_Translate": [14, [-3.9924621, 0.1588211, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000048, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.999997]],
+            "m_Translate": [14, [-3.0011596, 0.1588211, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-2.025299, 0.1588211, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000048, 0.0, -0.0]],
+            "m_Scale": [14, [0.999997, 0.9999971, 0.9999969]],
+            "m_Translate": [14, [-1.0870057, 0.1588211, -1.1143496]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.999997, 0.9999967, 0.999996]],
+            "m_Translate": [14, [2.5657045, 0.1588211, 0.2767029]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0175911, 0.4997422, -0.0008976, 0.5092958, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000216]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [4.8860802, 0.1588211, -0.0101012]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000218, 0.0, -0.0]],
+            "m_Scale": [14, [0.999997, 0.9999971, 0.999996]],
+            "m_Translate": [14, [3.5768132, 0.1588211, -1.1868897]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000215]],
+            "m_Scale": [14, [0.9999957, 0.999997, 0.9999963]],
+            "m_Translate": [14, [1.6755068, 0.1588211, -1.0836184]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176597, 0.4997422, -0.0009433, 0.5092882, 0.4997422, 0.4891456]],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000218, -15.0000038, -0.0]],
+            "m_Scale": [14, [0.999996, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [4.847321, 0.1588211, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-180.0, 75.0, -180.0]],
+            "m_Scale": [14, [0.9999982, 0.9999982, 0.9999969]],
+            "m_Translate": [14, [-4.9910893, 1.1545907, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999969, 0.9999982, 0.9999973]],
+            "m_Translate": [14, [-3.9924626, 1.1545907, -1.1378175]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000048, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.999997]],
+            "m_Translate": [14, [-3.0011596, 1.1545906, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-2.025299, 1.1545906, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000048, 0.0, -0.0]],
+            "m_Scale": [14, [0.999997, 0.9999971, 0.9999969]],
+            "m_Translate": [14, [-1.0870057, 1.1545907, -1.1868897]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [134.9999694, 0.0000189, 179.9999847]],
+            "m_Scale": [14, [0.999997, 0.9999969, 0.999996]],
+            "m_Translate": [14, [2.5657045, 0.3890114, -0.5274963]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0175911, 0.4997422, -0.0008976, 0.5092958, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000216]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [4.8860802, 1.1545912, -0.0101012]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000218, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999963, 0.9999971, 0.999996]],
+            "m_Translate": [14, [3.5768132, 1.1545907, -1.1452332]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000215]],
+            "m_Scale": [14, [0.9999958, 0.999997, 0.9999963]],
+            "m_Translate": [14, [1.6755068, 1.1545907, -1.1868897]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0009433, 0.5092806, 0.4997423, 0.4891456]],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000218, 0.0000049, -0.0]],
+            "m_Scale": [14, [0.999996, 0.9999964, 0.9999964]],
+            "m_Translate": [14, [4.847321, 1.1545907, -1.1573182]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Scale": [14, [0.9999982, 0.9999982, 0.9999969]],
+            "m_Translate": [14, [-4.9910893, 2.1401598, -1.1568907]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-3.9924626, 2.1401598, -1.1286927]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0175911, 0.4997422, -0.0008976, 0.5092958, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999973, 0.999997, 0.999997]],
+            "m_Translate": [14, [-3.0011601, 2.1401598, -1.1268922]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-2.025299, 2.1401596, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000048, 0.0, -0.0]],
+            "m_Scale": [14, [0.999997, 0.9999971, 0.999996]],
+            "m_Translate": [14, [-1.0870057, 2.1401598, -1.1497498]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997653, -0.0008976, 0.5092806, 0.4997501, 0.4891304]],
+            "m_PcId": [6, 29],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [164.9999847, 0.0000104, 179.9999847]],
+            "m_Scale": [14, [0.999997, 0.999997, 0.999996]],
+            "m_Translate": [14, [2.5657045, 1.4094163, -1.0942385]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0175911, 0.4997422, -0.0008976, 0.5092958, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000216]],
+            "m_Scale": [14, [0.999996, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [4.8860802, 2.1401605, -0.0101012]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997424, -0.0008976, 0.5092806, 0.4997424, 0.4891304]],
+            "m_PcId": [6, 31],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [29.9999809, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999963, 0.9999971, 0.9999958]],
+            "m_Translate": [14, [3.5768132, 2.232197, -0.9093325]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, -14.9999799]],
+            "m_Scale": [14, [0.9999955, 0.9999963, 0.9999963]],
+            "m_Translate": [14, [1.6755068, 2.1532099, -0.7271729]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008518, 0.5092805, 0.4997423, 0.4891456]],
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000098, -180.0]],
+            "m_Scale": [14, [0.999996, 0.9999964, 0.9999954]],
+            "m_Translate": [14, [4.847321, 2.1401598, -1.1868896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999982, 0.9999982, 0.9999969]],
+            "m_Translate": [14, [-4.9910893, 0.1588211, 1.2118835]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.999997, 0.9999982, 0.9999973]],
+            "m_Translate": [14, [-3.9924621, 0.1588211, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000048, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.999997]],
+            "m_Translate": [14, [-3.0011596, 0.1588211, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-2.025299, 0.1588211, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000048, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.999997]],
+            "m_Translate": [14, [-1.0327756, 0.1588211, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000046]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [2.943727, 0.1588211, 1.2599494]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 40],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000048, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.9999961]],
+            "m_Translate": [14, [0.9129027, 0.1588211, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.017614, 0.4997422, -0.0008976, 0.5092881, 0.4997422, 0.4891303]],
+            "m_PcId": [6, 41],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-180.0, 75.0000076, 179.9999847]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [3.9165058, 0.1588211, 0.8594061]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000218, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999964, 0.9999973, 0.9999961]],
+            "m_Translate": [14, [-0.063629, 0.1588211, 1.2599494]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 43],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000216]],
+            "m_Scale": [14, [0.999996, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [1.9426889, 0.1588211, 1.2599494]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 44],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000218]],
+            "m_Scale": [14, [0.999996, 0.9999964, 0.9999964]],
+            "m_Translate": [14, [4.847321, 0.1588211, 1.1437071]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Scale": [14, [0.9999982, 0.9999982, 0.999997]],
+            "m_Translate": [14, [-4.9910888, 1.1545906, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-3.9924621, 1.1545906, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4996965, -0.0008747, 0.5092806, 0.4997576, 0.489138]],
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [134.9999694, 0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.999997, 0.9999969]],
+            "m_Translate": [14, [-3.0011601, 0.4785422, 0.4581604]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-2.025299, 1.1545906, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [29.999998, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.9999961]],
+            "m_Translate": [14, [-1.0327756, 0.4043999, -0.0977173]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000046]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [2.943727, 1.1545912, 1.2599494]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.999997, 0.9999961]],
+            "m_Translate": [14, [0.9129027, 1.1545907, 1.2084962]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0175911, 0.4997422, -0.0008976, 0.5092958, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 52],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000216]],
+            "m_Scale": [14, [0.999996, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [3.9165058, 1.1545912, 1.138825]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000218, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999964, 0.9999973, 0.9999961]],
+            "m_Translate": [14, [-0.063629, 1.1545912, 1.1998299]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000216]],
+            "m_Scale": [14, [0.999996, 0.9999964, 0.9999964]],
+            "m_Translate": [14, [1.9426889, 1.1545912, 1.2599494]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, -180.0]],
+            "m_Scale": [14, [0.999996, 0.9999964, 0.9999954]],
+            "m_Translate": [14, [4.847321, 1.1545907, 1.2599488]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092807, 0.4997423, 0.4891305]],
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0, 75.0, -0.0]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.9999969]],
+            "m_Translate": [14, [-4.9910893, 2.1401598, 1.2067567]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.999997, 0.9999973, 0.9999973]],
+            "m_Translate": [14, [-3.9924621, 2.1401596, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997424, -0.0009434, 0.5092806, 0.4997424, 0.4891457]],
+            "m_PcId": [6, 58],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [164.9999847, 0.0000104, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.999997]],
+            "m_Translate": [14, [-3.9899907, 0.2217102, 0.3435364]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997394, -0.0008976, 0.5092805, 0.4997432, 0.4891303]],
+            "m_PcId": [6, 59],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-90.0000228, 75.0, 90.0000152]],
+            "m_Scale": [14, [0.9999969, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [-2.7833559, 1.9370385, 1.2599488]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997424, -0.0008976, 0.5092806, 0.4997424, 0.4891304]],
+            "m_PcId": [6, 60],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [14.9999933, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.9999961]],
+            "m_Translate": [14, [-1.0327756, 1.1115454, 0.878601]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 61],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000046]],
+            "m_Scale": [14, [0.999996, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [2.943727, 2.1401605, 1.1401679]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092805, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 62],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000048, 179.9999847]],
+            "m_Scale": [14, [0.9999973, 0.9999964, 0.9999961]],
+            "m_Translate": [14, [0.9129027, 2.1401596, 1.2599487]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0175911, 0.4997422, -0.0008976, 0.5092958, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000216]],
+            "m_Scale": [14, [0.999996, 0.9999973, 0.9999964]],
+            "m_Translate": [14, [3.9165058, 2.1401605, 1.2599494]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [-0.0000218, 0.0, -0.0]],
+            "m_Scale": [14, [0.9999964, 0.9999973, 0.9999961]],
+            "m_Translate": [14, [-0.063629, 2.1401605, 0.9517828]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092806, 0.4997423, 0.4891303]],
+            "m_PcId": [6, 65],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 30.0000247]],
+            "m_Scale": [14, [0.9999958, 0.9999963, 0.9999954]],
+            "m_Translate": [14, [1.9426889, 2.1069726, 0.8377385]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0176368, 0.4997422, -0.0008976, 0.5092807, 0.4997423, 0.4891304]],
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wooden_crate_a"],
+            "m_Rotate": [14, [179.9999847, 15.0000019, -180.0]],
+            "m_Scale": [14, [0.999996, 0.9999964, 0.9999954]],
+            "m_Translate": [14, [4.847321, 2.1401598, 1.2599488]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 142],
+            "m_PrefabName": [12, "empty"],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999991]],
+            "m_Translate": [14, [-0.0001519, -0.0000266, 0.000365]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 142, 148],
+            "m_PcId": [6, 143]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 148],
+            "m_PrefabName": [12, "rs_container_3x_crates_h_seaweed"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999982]],
+            "m_Translate": [14, [-0.0001523, -0.0000266, 0.000366]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

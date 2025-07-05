@@ -69,6 +69,50 @@
                 "Name": "UserData"
               }
             ]
+          },
+          {
+            "Name": "IncludeInterior",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeInterior;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "CrateConfig",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:CrateConfig;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "10",
+                "Name": "CrateConfig"
+              }
+            ]
+          },
+          {
+            "Name": "IsUnderwater",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IsUnderwater;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "10",
+                "Name": "IsUnderwater"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeLightingBlend",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeLightingBlend;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "IncludeLightingBlend"
+              },
+              {
+                "Uuid": "4",
+                "Name": "IncludeLightingBlend"
+              }
+            ]
           }
         ]
       },
@@ -94,7 +138,7 @@
             "m_Translate": [14, [5.6000027, 7.629388676377857e-8, 0.0]]
           },
           "Fields": {
-            "WallType": "DoubleDoor"
+            "WallType": ""
           }
         },
         {
@@ -106,8 +150,7 @@
             "m_Translate": [14, [-5.5999913, 0.0, -4.768372718899627e-7]]
           },
           "Fields": {
-            "Container": "Default",
-            "WallType": "DoubleDoor"
+            "Container": "Default"
           }
         },
         {
@@ -129,6 +172,38 @@
             "m_PcId": [6, 8],
             "m_PrefabName": [12, "rs_container_3x_base"],
             "m_Translate": [14, [-0.0000266, 1.2800027, 0.0000437]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_container_3x_interior"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [1.0000003, 1.0000003, 1.0000007]],
+            "m_Translate": [14, [0.0001519, 0.0001633, 0.0004873]]
+          },
+          "Fields": {
+            "CrateConfig": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 10, 13],
+            "m_PcId": [6, 12]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "empty"],
+            "m_Scale": [14, [1.0000003, 1.0000003, 1.0000007]],
+            "m_Translate": [14, [0.0001519, 0.0001633, 0.0004873]]
           }
         }
       ]

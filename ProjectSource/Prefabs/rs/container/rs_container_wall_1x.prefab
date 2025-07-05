@@ -35,6 +35,16 @@
                 "Name": "UserData"
               }
             ]
+          },
+          {
+            "Name": "IncludeLightingBlend",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeLightingBlend;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "16",
+                "Name": "IncludeLightingBlend"
+              }
+            ]
           }
         ]
       },
@@ -105,7 +115,10 @@
             "m_PrefabName": [12, "rs_container_wall_1x_e"],
             "m_RandomizationWeight": [6, 0],
             "m_Rotate": [14, [-0.0000049, 0.0000098, 0.0000048]],
-            "m_Translate": [14, [-0.0003575, 0.0000341, -0.0000064]]
+            "m_Translate": [14, [-0.0003573, 0.0000341, -0.0000064]]
+          },
+          "Fields": {
+            "UserData": "4286643968 128 4294901760 0"
           }
         }
       ]

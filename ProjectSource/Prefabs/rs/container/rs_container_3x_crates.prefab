@@ -1,0 +1,184 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "CrateConfig",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:CrateConfig;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "74",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "IsUnderwater",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IsUnderwater;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "79",
+                "Name": "IsUnderwater"
+              },
+              {
+                "Uuid": "80",
+                "Name": "IsUnderwater"
+              },
+              {
+                "Uuid": "76",
+                "Name": "IsUnderwater"
+              },
+              {
+                "Uuid": "78",
+                "Name": "IsUnderwater"
+              },
+              {
+                "Uuid": "77",
+                "Name": "IsUnderwater"
+              },
+              {
+                "Uuid": "75",
+                "Name": "IsUnderwater"
+              },
+              {
+                "Uuid": "82",
+                "Name": "IsUnderwater"
+              },
+              {
+                "Uuid": "84",
+                "Name": "IsUnderwater"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "None"],
+            "m_PcId": [6, 73],
+            "m_PrefabName": [12, "empty"],
+            "m_Scale": [14, [1.0000003, 1.0000003, 1.0000009]],
+            "m_Translate": [14, [0.0001218, 0.0000228, -0.0002732]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 73, 75, 76, 77, 78, 79, 80, 82, 84],
+            "m_PcId": [6, 74]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "F"],
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "rs_container_3x_crates_f"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000912, 0.0000152, -0.0001825]]
+          },
+          "Fields": {
+            "IsUnderwater": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "C"],
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "rs_container_3x_crates_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000912, 0.0000152, -0.0001825]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "E"],
+            "m_PcId": [6, 77],
+            "m_PrefabName": [12, "rs_container_3x_crates_e"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000912, 0.0000152, -0.0001825]]
+          },
+          "Fields": {
+            "IsUnderwater": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "D"],
+            "m_PcId": [6, 78],
+            "m_PrefabName": [12, "rs_container_3x_crates_d"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000912, 0.0000152, -0.0001825]]
+          },
+          "Fields": {
+            "IsUnderwater": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A"],
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "rs_container_3x_crates_a"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000912, 0.0000152, -0.0001825]]
+          },
+          "Fields": {
+            "IsUnderwater": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "B"],
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "rs_container_3x_crates_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [0.0000912, 0.0000152, -0.0001825]]
+          },
+          "Fields": {
+            "IsUnderwater": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "G"],
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "rs_container_3x_crates_g"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0004571, -0.0001558, -0.0004876]]
+          },
+          "Fields": {
+            "IsUnderwater": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "H"],
+            "m_PcId": [6, 84],
+            "m_PrefabName": [12, "rs_container_3x_crates_h"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999988]],
+            "m_Translate": [14, [0.0004267, -0.0001749, -0.0002131]]
+          },
+          "Fields": {
+            "IsUnderwater": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "CrateConfig",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:CrateConfig;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "76",
+                "Name": "CrateConfig"
+              }
+            ]
+          },
+          {
+            "Name": "IsUnderwater",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IsUnderwater;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "76",
+                "Name": "IsUnderwater"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_container_3x_room_box_a"],
+            "m_Scale": [14, [1.0000007, 1.0000007, 1.0000009]],
+            "m_Translate": [14, [0.0001519, 0.0000266, -0.0003043]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "rs_container_3x_crates"],
+            "m_Scale": [14, [1.0000007, 1.0000007, 1.0000009]],
+            "m_Translate": [14, [0.0001519, 0.0000266, -0.0003043]]
+          },
+          "Fields": {
+            "CrateConfig": "B"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
