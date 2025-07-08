@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Header>
+	<Version value="3"/>
+</Header>
+<Quest>
+	<StoryData>
+		<Node type="Actions::Group" uid="7524777138454952127">
+			<Logic type="Story::CampaignLogic">
+				<Attribute name="m_IndicatorType" value=""/>
+				<Attribute name="m_ShowIndicator" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<InputSubIdEntries>
+				<InputSubIdEntry connectorLogicNodeUid="7524777136617287689" subId="0"/>
+			</InputSubIdEntries>
+			<OutputSubIdEntries>
+				<OutputSubIdEntry connectorLogicNodeUid="7524777136373899089" subId="0"/>
+			</OutputSubIdEntries>
+			<Node type="Actions::Node" uid="7524777619152171214">
+				<Logic type="Story::QuitWithTitlesLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_SpawnPoint">
+						<Entity name=""/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Node file="rs_islands_q2_delve.quest"/>
+			<Connect start="7524777475714679260" output="Out:End" input="In" end="7524777136373899089">
+				<Start class="Story::QuestLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Connect start="7524777475714679260" output="Out:End" input="In" end="7524777619152171214">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuitWithTitlesLogic"/>
+			</Connect>
+			<Node file="rs_islands_q0_tutorial.quest"/>
+			<Connect start="7524777308206576896" output="Out:End" input="In:Start" end="7524777395268622638">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524777136617287689">
+				<Logic type="Actions::StartLogic"/>
+			</Node>
+			<Connect start="7524777136617287689" output="Out" input="In:Start" end="7524777308206576896">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node file="rs_islands_q1_fetch.quest"/>
+			<Connect start="7524777395268622638" output="Out:End" input="In:Start" end="7524777475714679260">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524777136373899089">
+				<Logic type="Actions::EndLogic"/>
+			</Node>
+		</Node>
+	</StoryData>
+	<EditorData>
+		<EditorNode uid="7524777136617287689">
+			<Position x="-900" y="0"/>
+		</EditorNode>
+		<EditorNode file="rs_islands_q0_tutorial.quest">
+			<Position x="-600" y="0"/>
+		</EditorNode>
+		<EditorNode file="rs_islands_q1_fetch.quest">
+			<Position x="-150" y="0"/>
+		</EditorNode>
+		<EditorNode file="rs_islands_q2_delve.quest">
+			<Position x="300" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7524777136373899089">
+			<Position x="750" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7524777619152171214">
+			<Position x="750" y="-150"/>
+		</EditorNode>
+	</EditorData>
+</Quest>
+

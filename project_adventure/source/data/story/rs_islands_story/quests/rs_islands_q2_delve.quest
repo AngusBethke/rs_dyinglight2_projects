@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Header>
+	<Version value="3"/>
+</Header>
+<Quest>
+	<StoryData>
+		<Node type="Actions::Group" uid="7524777475714679260">
+			<Logic type="Story::QuestLogic">
+				<Attribute name="m_Quest" value="7524777477428236260"/>
+				<Attribute name="m_Name" value="rs_islands_q2_delve"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+				<Entities name="m_QuestGiver">
+					<Entity name=""/>
+				</Entities>
+				<Entities name="m_QuestArea">
+					<Entity name=""/>
+				</Entities>
+			</Logic>
+			<InputSubIdEntries>
+				<InputSubIdEntry connectorLogicNodeUid="7524777475850044809" subId="0"/>
+			</InputSubIdEntries>
+			<OutputSubIdEntries>
+				<OutputSubIdEntry connectorLogicNodeUid="7524777476062917449" subId="0"/>
+			</OutputSubIdEntries>
+			<Node type="Actions::Node" uid="7524777475850044809">
+				<Logic type="Actions::StartLogic"/>
+			</Node>
+			<Connect start="7524777475850044809" output="Out" input="In" end="7524777476062917449">
+				<Start class="Actions::StartLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524777476062917449">
+				<Logic type="Actions::EndLogic"/>
+			</Node>
+		</Node>
+	</StoryData>
+	<EditorData>
+		<EditorNode uid="7524777475850044809">
+			<Position x="0" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7524777476062917449">
+			<Position x="200" y="0"/>
+		</EditorNode>
+	</EditorData>
+</Quest>
+

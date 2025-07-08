@@ -1,0 +1,359 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_cave_entrance"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_supernatural_ruins_entrance"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999995]],
+            "m_Translate": [14, [161.1141357, 7.8354125, 50.5900039]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1274961, 0.2513357, -0.7210057, 0.1431011, 0.2513554, 0.7251686]],
+            "m_Name": [12, "rs_islands_q1_plane_exit"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;mod_resort_plane_locker_door_a"],
+            "m_Rotate": [14, [90.0, 0.0000039, 89.9999923]],
+            "m_Scale": [14, [2.0591983, 2.3474869, 2.0591981]],
+            "m_Translate": [14, [-79.3470916, -6.9910345, 213.820404]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0072182, 0.0293333, -0.0481083, 0.1286664, 0.0289825, 0.0935839]],
+            "m_Name": [12, "rs_islands_q1_seal_1"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "quest_object"],
+            "m_Translate": [14, [164.0936279, 7.0147204, 52.836029]]
+          },
+          "Fields": {
+            "MeshName": "dl_hr_seal_part01.msh",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0712295, 0.0293305, 0.0364322, 0.0709167, 0.0256207, 0.1058624]],
+            "m_Name": [12, "rs_islands_q1_seal_2"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "quest_object"],
+            "m_Translate": [14, [-71.5176467, -9.8511848, 225.9916229]]
+          },
+          "Fields": {
+            "MeshName": "dl_hr_seal_part02.msh",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0528693, 0.0291877, 0.0454696, 0.0891168, 0.0221278, 0.0848237]],
+            "m_Name": [12, "rs_islands_q1_seal_3"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "quest_object"],
+            "m_Translate": [14, [297.596527, 13.0930156, -295.7348937]]
+          },
+          "Fields": {
+            "MeshName": "dl_hr_seal_part03.msh",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0223775, 0.6592448, 0.3158568, 0.1458673, 0.6642448, 0.3841438]],
+            "m_Name": [12, "rs_islands_q1_seal_1_switch"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_ButtonPunch"],
+            "m_Scale": [14, [0.9999998, 0.9999998, 0.9999994]],
+            "m_Translate": [14, [161.5568542, 5.8642053, 50.4916496]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0223775, 0.659245, 0.3158568, 0.1458673, 0.664245, 0.3841438]],
+            "m_Name": [12, "rs_islands_q1_seal_2_switch"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_ButtonPunch"],
+            "m_Scale": [14, [0.9999997, 0.9999997, 0.9999991]],
+            "m_Translate": [14, [160.2238922, 6.6502814, 50.4916496]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0223775, 0.6592448, 0.3158568, 0.1458673, 0.6642448, 0.3841438]],
+            "m_Name": [12, "rs_islands_q1_seal_3_switch"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_ButtonPunch"],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999989]],
+            "m_Translate": [14, [161.5518035, 7.412333, 50.4916496]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0401477, 1.3110667, 0.2845059, 0.8358306, 1.3610666, 0.4154756]],
+            "m_Name": [12, "rs_islands_q1_ship_exit"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_wooden_board"],
+            "m_Rotate": [14, [-0.0000223, 75.0000228, 0.0000223]],
+            "m_Scale": [14, [0.9999994, 0.9999998, 1.0]],
+            "m_Translate": [14, [293.5181579, 13.092616, -303.9750061]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Move",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0238208, 1.6127831, 0.0000051, 2.2920036, 1.7159321, 0.2033016]],
+            "m_Name": [12, "rs_islands_q1_plane_blockage"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;mod_resort_plane_wall_crash_a"],
+            "m_Rotate": [14, [-0.0, -60.0, -90.0]],
+            "m_Scale": [14, [0.6451612, 0.6451612, 0.6451612]],
+            "m_Translate": [14, [-74.4398269, -8.715558, 221.5811309]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_plane_door_blocker_1"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_plane_crash_door_blocker"],
+            "m_Translate": [14, [-98.5195999, -5.6114482, 183.6924133]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_plane_door_blocker_2"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_plane_crash_door_blocker"],
+            "m_Rotate": [14, [-157.6307373, 12.9525413, -149.1325225]],
+            "m_Translate": [14, [-104.9046859, -4.1873383, 186.4299316]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_ship_door_blocker"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_ship_cargo_container_door_blocker"],
+            "m_Rotate": [14, [9.999999974752428e-7, -14.9999923, -14.9999971]],
+            "m_Translate": [14, [312.1740112, -8.8010177, -290.9889526]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.4999999, 0.5, 0.4999999]],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_Name": [12, "rs_islands_q2_demolisher"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [261.3736572, 0.2000003, 88.50457]]
+          },
+          "Fields": {
+            "m_ForcedTargetMode": "NearestPlayerCannotLose",
+            "m_NumOfAIsToSpawn": "1",
+            "m_Preset": "Character;Demolisher_EndGame_Boss",
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q2_demolisher_door"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "rs_ruins_door"],
+            "m_Translate": [14, [259.7069091, -1.1920931797249069e-7, 88.3885421]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.1359528, 0.0000049, 0.0599312, 0.1435688, 0.0598187]],
+            "m_Name": [12, "rs_islands_q2_crystal"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "quest_object"],
+            "m_Translate": [14, [244.941925, 0.6261121, 88.505928]]
+          },
+          "Fields": {
+            "MeshName": "dl_hr_crystal_big_a.msh",
+            "SkinName": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.5989561, 1.2854999, 5.21540641784668e-8, 0.6020439, 1.2854999, 0.1140397]],
+            "m_Name": [12, "rs_islands_q0_door"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "door"],
+            "m_PresetNames": [12, "Behaviour;ClosedBlocked;Door_Style;Wooden"],
+            "m_Rotate": [14, [-0.0, 14.9999856, -0.0]],
+            "m_Translate": [14, [12.18791, 3.8230011, -429.0145874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1287592, 0.699172, 0.2346219, 0.2522491, 0.719172, 0.4653672]],
+            "m_Name": [12, "rs_islands_q0_slide_switch"],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_ModernButton"],
+            "m_Rotate": [14, [-179.9999847, 75.0000228, 179.9999847]],
+            "m_Translate": [14, [7.6971921, 3.8663887, -432.2703857]]
+          },
+          "Fields": {
+            "m_TurnOffLightColor": "0.000000 0.666667 1.000000"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.001006, 0.0025903, 0.191817, 0.076474, 0.0232194, 0.2598392]],
+            "m_Name": [12, "rs_islands_q0_key"],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "quest_object"],
+            "m_Rotate": [14, [-180.0, -15.0000038, -180.0]],
+            "m_Scale": [14, [0.5747125, 0.5747125, 0.5747125]],
+            "m_Translate": [14, [8.5383033, 4.7517132, -431.4689331]]
+          },
+          "Fields": {
+            "MeshName": "dl_hr_key_medi_b.msh"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_tutorial_slides"],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "rs_islands_tutorial_slides"],
+            "m_Rotate": [14, [179.9999847, -15.0, 179.9999847]],
+            "m_Translate": [14, [9.059349, 5.6811079, -428.69458]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0072585, 0.0174432, 0.0010522, 0.2635161, 0.0174432, 0.1861284]],
+            "m_Name": [12, "rs_islands_q1_note_max"],
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "quest_object_withbrief"],
+            "m_Rotate": [14, [0.0, 90.0, 90.0]],
+            "m_Translate": [14, [164.1064147, 6.8096809, 53.0112342]]
+          },
+          "Fields": {
+            "MeshName": "notebook_b.msh",
+            "SkinName": "Default",
+            "m_MenuTextQuestDesc": "<Temp Text Desc>",
+            "m_MenuTextQuestName": "<Temp Text Name>"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3965759, 6.9999995, -0.0532379, 16.5819683, 7.4999995, 15.8058547]],
+            "m_Name": [12, "rs_islands_q1_max_search_area"],
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "area"],
+            "m_Translate": [14, [175.4900512, -0.5827741, 66.2500076]]
+          },
+          "Fields": {
+            "m_AreaHeight": "15.000000",
+            "m_AreaPoints": "16.978546 -0.500000 -15.859093;16.978546 -0.500000 15.752617;-16.185394 -0.500000 15.752617;-16.185394 -0.500000 -15.859093;"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
