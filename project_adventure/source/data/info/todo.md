@@ -1,0 +1,60 @@
+# Release 1.0 Open Topics
+---
+- Environment
+    - Cargo ship interior
+        - Underwater (seaweed)
+        - Hallways
+            - Barracks
+            - Pathways
+            - Stealth Segments
+            - Shrine Room
+- AI additions
+    - Cargo Ship
+    - Underground Ruins
+- Writing
+    - Quest 1
+        - Max's message to Miles (Start Area)
+        - Max's Notes (Ruin door)
+    - Side Quest - Find out what happened to the Crew
+        - Sarah's Last Message (The Plane)
+        - Aaron's Last Message (The Cargo Ship)
+        - Matthias' Last Message (The Cargo Ship)
+- Quest
+    - Main Quest
+        - Animations
+            - Plane debris collapse
+            - Ruin door roll open
+            - Demolisher door smash down
+        - Environment
+            - Place Max's dead body
+        - Respawn
+            - Add respawn points for quest segments
+    - Side Quests
+        - The Crew
+            - Find all of the missing documents
+                - (See Writing)
+                - Place dead bodies (Sarah, Aaron, Matthias)
+        - Treasure
+            - Find all of the underwater treasure
+                - Special Bow
+                    - Blueprint
+                    - Parts A
+                    - Parts B
+                - Special Crossbow
+                    - Blueprint
+                    - Parts A
+                    - Parts B
+                - Special Outfit
+                    - Headgear
+                    - Gauntlets
+                    - Top + Pants
+                - Special Gun
+                    - Blueprint
+                    - Parts
+- Gear
+    - Review starting Gear
+- Lighting tweaks
+    - Cargo Ship
+    - Underground Ruins
+- Tutorial
+    - Tutorial images

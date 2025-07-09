@@ -47,6 +47,99 @@
 				<Start class="Story::StartObjectiveLogic"/>
 				<End class="Story::TakeItemLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7524999857050664324">
+				<Logic type="Story::StartObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524792538766777637"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524999857050664324" output="Out" input="In" end="7525007962411881297">
+				<Start class="Story::StartObjectiveLogic"/>
+				<End class="Story::ShowAreaLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525022658896937365">
+				<Logic type="Story::ShowLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_cave_entrance/rs_islands_q1_seal_2_complete"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525022658896937365" output="Out" input="In:0" end="7525000111669117413">
+				<Start class="Story::ShowLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525001927162938261">
+				<Logic type="Story::HideAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value=""/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_entrance_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525001927162938261" output="Out" input="In" end="7524997002019823661">
+				<Start class="Story::HideAreaLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007373539539606">
+				<Logic type="Story::TakeItemLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value=""/>
+					</Object>
+					<Output name="Entity" count="1"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_seal_2"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007373539539606" output="Out" input="In" end="7525007823445844495">
+				<Start class="Story::TakeItemLogic"/>
+				<End class="Story::HideAreaLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525002031145426073">
+				<Logic type="Story::HideAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value=""/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_entrance_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525002031145426073" output="Out" input="In" end="7524997060668391111">
+				<Start class="Story::HideAreaLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524999814711959714">
+				<Logic type="Story::StartObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524782661008293561"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524999814711959714" output="Out" input="In" end="7525007824773638766">
+				<Start class="Story::StartObjectiveLogic"/>
+				<End class="Story::ShowAreaLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524794806559581097">
 				<Logic type="Story::CompleteObjectiveLogic">
 					<Attribute name="m_ObjectiveId" value="7524793021090337148"/>
@@ -61,6 +154,20 @@
 				<Start class="Story::CompleteObjectiveLogic"/>
 				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7524999879592643503">
+				<Logic type="Story::CompleteObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524782661008293561"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524999879592643503" output="Out" input="In" end="7525013270837681434">
+				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::HideLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524794111815949493">
 				<Logic type="Story::GoToLogic">
 					<Attribute name="m_Distance" value="3.000000"/>
@@ -74,9 +181,9 @@
 					</Entities>
 				</Logic>
 			</Node>
-			<Connect start="7524794111815949493" output="Out" input="In" end="7524794055542432003">
+			<Connect start="7524794111815949493" output="Out" input="In" end="7525001747512018642">
 				<Start class="Story::GoToLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::HideAreaLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524777394989812917">
 				<Logic type="Actions::EndLogic"/>
@@ -95,6 +202,26 @@
 				<Start class="Story::StartObjectiveLogic"/>
 				<End class="Story::TakeItemLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7524996777413450946">
+				<Logic type="Story::ShowLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_cave_entrance/rs_islands_q1_seal_1_complete"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7524996777413450946" output="Out" input="In" end="7524996954626529042">
+				<Start class="Story::ShowLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
+			</Connect>
+			<Connect start="7524996777413450946" output="Out" input="In" end="7524997035652210748">
+				<Start class="Story::ShowLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524795004601897669">
 				<Logic type="Story::CompleteObjectiveLogic">
 					<Attribute name="m_ObjectiveId" value="7524793448783627704"/>
@@ -105,15 +232,29 @@
 					</Object>
 				</Logic>
 			</Node>
-			<Connect start="7524795004601897669" output="Out" input="In" end="7524777394989812917">
+			<Connect start="7524795004601897669" output="Out" input="In" end="7524996785341281064">
 				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Actions::EndLogic"/>
+				<End class="Story::HideLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524794359945685962">
-				<Logic type="Story::ShowIndicatorLogic">
+			<Node type="Actions::Node" uid="7524997060668391111">
+				<Logic type="Story::CompleteObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524999479084511057"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Story::Goal::IndicatorArea"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524997060668391111" output="Out" input="In" end="7524999857050664324">
+				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525001747512018642">
+				<Logic type="Story::HideAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value=""/>
 						<Attribute name="objective" value="Default"/>
 					</Object>
 					<Entities name="m_Entity">
@@ -121,9 +262,39 @@
 					</Entities>
 				</Logic>
 			</Node>
-			<Connect start="7524794359945685962" output="Out" input="In" end="7524794111815949493">
-				<Start class="Story::ShowIndicatorLogic"/>
-				<End class="Story::GoToLogic"/>
+			<Connect start="7525001747512018642" output="Out" input="In" end="7524794055542432003">
+				<Start class="Story::HideAreaLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525000016914516437">
+				<Logic type="Story::StartObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524792839043467439"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7525000016914516437" output="Out" input="In" end="7525007733783089716">
+				<Start class="Story::StartObjectiveLogic"/>
+				<End class="Story::UseLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525013279750010072">
+				<Logic type="Story::ShowLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_blockage"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525013279750010072" output="Out" input="In" end="7524999942795322082">
+				<Start class="Story::ShowLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524794579309782492">
 				<Logic type="Story::TakeItemLogic">
@@ -142,6 +313,101 @@
 				<Start class="Story::TakeItemLogic"/>
 				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7524999942795322082">
+				<Logic type="Story::StartObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524792654764735095"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524999942795322082" output="Out" input="In" end="7525007670530691834">
+				<Start class="Story::StartObjectiveLogic"/>
+				<End class="Story::UseLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525000111669117413">
+				<Logic type="Actions::AllLogic">
+					<Input name="In" count="2"/>
+				</Logic>
+			</Node>
+			<Connect start="7525000111669117413" output="Out" input="In" end="7525022569157274991">
+				<Start class="Actions::AllLogic"/>
+				<End class="Story::WaitLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524999887526191079">
+				<Logic type="Story::CompleteObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524792538766777637"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524999887526191079" output="Out" input="In" end="7525013300397015814">
+				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::EnableLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007416373464569">
+				<Logic type="Story::TakeItemLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value=""/>
+					</Object>
+					<Output name="Entity" count="1"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_seal_3"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007416373464569" output="Out" input="In" end="7525007961400173666">
+				<Start class="Story::TakeItemLogic"/>
+				<End class="Story::HideAreaLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007670530691834">
+				<Logic type="Story::UseLogic">
+					<Attribute name="m_DesiredValue" value="_ON"/>
+					<Attribute name="m_RequiredCount" value="1"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Output name="Entity" count="1"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_seal_2_switch"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007670530691834" output="Out" input="In" end="7524999973293870612">
+				<Start class="Story::UseLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525013550348934907">
+				<Logic type="Actions::CommentLogic">
+					<Attribute name="m_Comment" value="TODO: This should be an animation"/>
+					<Attribute name="m_Size" value="300.000000 275.000000"/>
+				</Logic>
+			</Node>
+			<Node type="Actions::Node" uid="7525001722102099198">
+				<Logic type="Story::ShowAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_max_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525001722102099198" output="Out" input="In" end="7524794111815949493">
+				<Start class="Story::ShowAreaLogic"/>
+				<End class="Story::GoToLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524794055542432003">
 				<Logic type="Story::CompleteObjectiveLogic">
 					<Attribute name="m_ObjectiveId" value="7524791954911299948"/>
@@ -154,6 +420,22 @@
 			</Node>
 			<Connect start="7524794055542432003" output="Out" input="In" end="7524793929807204996">
 				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525013300397015814">
+				<Logic type="Story::EnableLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_exit"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525013300397015814" output="Out" input="In" end="7525000016914516437">
+				<Start class="Story::EnableLogic"/>
 				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524794644180716042">
@@ -169,6 +451,100 @@
 			<Connect start="7524794644180716042" output="Out" input="In" end="7524793947294576825">
 				<Start class="Story::CompleteObjectiveLogic"/>
 				<End class="Story::StartObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524999113124866571">
+				<Logic type="Story::WaitForSensorLogic">
+					<Attribute name="m_RequiredCount" value="1"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Output name="Entity" count="1"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_cargo_entrance"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7524999113124866571" output="Out" input="In" end="7525001927162938261">
+				<Start class="Story::WaitForSensorLogic"/>
+				<End class="Story::HideAreaLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007823445844495">
+				<Logic type="Story::HideAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value=""/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_seal_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007823445844495" output="Out" input="In" end="7524999879592643503">
+				<Start class="Story::HideAreaLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524996954626529042">
+				<Logic type="Story::StartObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524999350875700656"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524996954626529042" output="Out" input="In" end="7525001905884450144">
+				<Start class="Story::StartObjectiveLogic"/>
+				<End class="Story::ShowAreaLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524999973293870612">
+				<Logic type="Story::CompleteObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524792654764735095"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524999973293870612" output="Out" input="In" end="7525022641004161301">
+				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::HideLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525022641004161301">
+				<Logic type="Story::HideLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_cave_entrance/rs_islands_q1_seal_2_incomplete"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525022641004161301" output="Out" input="In" end="7525022658896937365">
+				<Start class="Story::HideLogic"/>
+				<End class="Story::ShowLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525013270837681434">
+				<Logic type="Story::HideLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_exit"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525013270837681434" output="Out" input="In" end="7525013279750010072">
+				<Start class="Story::HideLogic"/>
+				<End class="Story::ShowLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524794708450675491">
 				<Logic type="Story::TakeItemLogic">
@@ -197,25 +573,91 @@
 					</Object>
 				</Logic>
 			</Node>
-			<Connect start="7524793917261969956" output="Out" input="In" end="7524795785475868755">
+			<Connect start="7524793917261969956" output="Out" input="In" end="7525001722102099198">
 				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::HideIndicatorLogic"/>
+				<End class="Story::ShowAreaLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524795785475868755">
-				<Logic type="Story::HideIndicatorLogic">
+			<Node type="Actions::Node" uid="7524996785341281064">
+				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value=""/>
+						<Attribute name="indicator_type" value="Default"/>
 						<Attribute name="objective" value="Default"/>
 					</Object>
-					<Entities name="m_Entity">
-						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_max_search_area"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_cave_entrance/rs_islands_q1_seal_1_incomplete"/>
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_door_blocker"/>
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_door_blocker_1"/>
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_door_blocker_2"/>
 					</Entities>
 				</Logic>
 			</Node>
-			<Connect start="7524795785475868755" output="Out" input="In" end="7524794359945685962">
-				<Start class="Story::HideIndicatorLogic"/>
-				<End class="Story::ShowIndicatorLogic"/>
+			<Connect start="7524996785341281064" output="Out" input="In" end="7524996777413450946">
+				<Start class="Story::HideLogic"/>
+				<End class="Story::ShowLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524997002019823661">
+				<Logic type="Story::CompleteObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524999350875700656"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524997002019823661" output="Out" input="In" end="7524999814711959714">
+				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007733783089716">
+				<Logic type="Story::UseLogic">
+					<Attribute name="m_DesiredValue" value="_ON"/>
+					<Attribute name="m_RequiredCount" value="1"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Output name="Entity" count="1"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_seal_3_switch"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007733783089716" output="Out" input="In" end="7525000046175321718">
+				<Start class="Story::UseLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524997035652210748">
+				<Logic type="Story::StartObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524999479084511057"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7524997035652210748" output="Out" input="In" end="7525002017265172339">
+				<Start class="Story::StartObjectiveLogic"/>
+				<End class="Story::ShowAreaLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007962411881297">
+				<Logic type="Story::ShowAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_seal_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007962411881297" output="Out" input="In" end="7525007416373464569">
+				<Start class="Story::ShowAreaLogic"/>
+				<End class="Story::TakeItemLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524793965799020886">
 				<Logic type="Story::StartObjectiveLogic">
@@ -230,6 +672,24 @@
 			<Connect start="7524793965799020886" output="Out" input="In" end="7524794866570889566">
 				<Start class="Story::StartObjectiveLogic"/>
 				<End class="Story::UseLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7524998606512776279">
+				<Logic type="Story::WaitForSensorLogic">
+					<Attribute name="m_RequiredCount" value="1"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Output name="Entity" count="1"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_cargo_entrance"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7524998606512776279" output="Out" input="In" end="7525002031145426073">
+				<Start class="Story::WaitForSensorLogic"/>
+				<End class="Story::HideAreaLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524794866570889566">
 				<Logic type="Story::UseLogic">
@@ -250,6 +710,130 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7525001905884450144">
+				<Logic type="Story::ShowAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_entrance_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525001905884450144" output="Out" input="In" end="7524999113124866571">
+				<Start class="Story::ShowAreaLogic"/>
+				<End class="Story::WaitForSensorLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525022671864942433">
+				<Logic type="Story::HideLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_cave_entrance/rs_islands_q1_seal_3_incomplete"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525022671864942433" output="Out" input="In" end="7525022688706143338">
+				<Start class="Story::HideLogic"/>
+				<End class="Story::ShowLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007961400173666">
+				<Logic type="Story::HideAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value=""/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_seal_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007961400173666" output="Out" input="In" end="7524999887526191079">
+				<Start class="Story::HideAreaLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525022688706143338">
+				<Logic type="Story::ShowLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_cave_entrance/rs_islands_q1_seal_3_complete"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525022688706143338" output="Out" input="In:1" end="7525000111669117413">
+				<Start class="Story::ShowLogic"/>
+				<End class="Actions::AllLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525007824773638766">
+				<Logic type="Story::ShowAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_plane_seal_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525007824773638766" output="Out" input="In" end="7525007373539539606">
+				<Start class="Story::ShowAreaLogic"/>
+				<End class="Story::TakeItemLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525022569157274991">
+				<Logic type="Story::WaitLogic">
+					<Attribute name="m_Delay" value="5.000000"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7525022569157274991" output="Out" input="In" end="7524777394989812917">
+				<Start class="Story::WaitLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525002017265172339">
+				<Logic type="Story::ShowAreaLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Entity">
+						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_entrance_search_area"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525002017265172339" output="Out" input="In" end="7524998606512776279">
+				<Start class="Story::ShowAreaLogic"/>
+				<End class="Story::WaitForSensorLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525000046175321718">
+				<Logic type="Story::CompleteObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7524792839043467439"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7525000046175321718" output="Out" input="In" end="7525022671864942433">
+				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::HideLogic"/>
+			</Connect>
 		</Node>
 	</StoryData>
 	<EditorData>
@@ -259,17 +843,17 @@
 		<EditorNode uid="7524793917261969956">
 			<Position x="-450" y="0"/>
 		</EditorNode>
-		<EditorNode uid="7524795785475868755">
-			<Position x="-150" y="-150"/>
-		</EditorNode>
-		<EditorNode uid="7524794359945685962">
+		<EditorNode uid="7525001722102099198">
 			<Position x="-75" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7524794111815949493">
 			<Position x="300" y="0"/>
 		</EditorNode>
+		<EditorNode uid="7525001747512018642">
+			<Position x="675" y="0"/>
+		</EditorNode>
 		<EditorNode uid="7524794055542432003">
-			<Position x="750" y="0"/>
+			<Position x="1125" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7524793929807204996">
 			<Position x="-450" y="225"/>
@@ -298,8 +882,122 @@
 		<EditorNode uid="7524795004601897669">
 			<Position x="750" y="750"/>
 		</EditorNode>
+		<EditorNode uid="7524996785341281064">
+			<Position x="1125" y="750"/>
+		</EditorNode>
+		<EditorNode uid="7524996777413450946">
+			<Position x="1455" y="750"/>
+		</EditorNode>
+		<EditorNode uid="7524996954626529042">
+			<Position x="-450" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524997035652210748">
+			<Position x="-450" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525001905884450144">
+			<Position x="-75" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524999113124866571">
+			<Position x="375" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525001927162938261">
+			<Position x="825" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524997002019823661">
+			<Position x="1200" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524999814711959714">
+			<Position x="1650" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525002017265172339">
+			<Position x="-75" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7524998606512776279">
+			<Position x="375" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525002031145426073">
+			<Position x="825" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7524997060668391111">
+			<Position x="1200" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7524999857050664324">
+			<Position x="1650" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525007824773638766">
+			<Position x="2025" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525007373539539606">
+			<Position x="2475" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525007823445844495">
+			<Position x="3000" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524999879592643503">
+			<Position x="3375" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525007962411881297">
+			<Position x="2025" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525007416373464569">
+			<Position x="2475" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525007961400173666">
+			<Position x="3000" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7524999887526191079">
+			<Position x="3375" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525013270837681434">
+			<Position x="3750" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525013279750010072">
+			<Position x="4050" y="1185"/>
+		</EditorNode>
+		<EditorNode uid="7524999942795322082">
+			<Position x="4425" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525007670530691834">
+			<Position x="4950" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524999973293870612">
+			<Position x="5700" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525013300397015814">
+			<Position x="3855" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525000016914516437">
+			<Position x="4425" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525007733783089716">
+			<Position x="4950" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525000046175321718">
+			<Position x="5700" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525013550348934907">
+			<Position x="4035" y="1050"/>
+		</EditorNode>
+		<EditorNode uid="7525022641004161301">
+			<Position x="6225" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525022658896937365">
+			<Position x="6600" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7525022671864942433">
+			<Position x="6225" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525022688706143338">
+			<Position x="6600" y="1650"/>
+		</EditorNode>
+		<EditorNode uid="7525000111669117413">
+			<Position x="7155" y="1395"/>
+		</EditorNode>
+		<EditorNode uid="7525022569157274991">
+			<Position x="7425" y="1395"/>
+		</EditorNode>
 		<EditorNode uid="7524777394989812917">
-			<Position x="2100" y="0"/>
+			<Position x="7800" y="1395"/>
 		</EditorNode>
 	</EditorData>
 </Quest>

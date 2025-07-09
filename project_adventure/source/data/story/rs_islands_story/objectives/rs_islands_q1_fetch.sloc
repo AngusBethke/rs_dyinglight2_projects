@@ -17,7 +17,7 @@ sub main()
     }
     Entry(`obj_7524782661008293561_descr`)
     {
-        Text(En, ALL, `According to Max's note, I need to explore the plane to find one of the missing seals.`);
+        Text(En, ALL, `According to Max's note, I need to explore the cargo hold of the plane to find one of the missing seals.`);
     }
     Entry(`obj_7524782661008293561_text`)
     {
@@ -106,5 +106,29 @@ sub main()
     Entry(`obj_7524793448783627704_text`)
     {
         Text(En, ALL, `Place the first Seal`);
+    }
+    Entry(`obj_7524999350875700656_compl_desc`)
+    {
+        Text(En, ALL, `Found a way into the Plane...`);
+    }
+    Entry(`obj_7524999350875700656_descr`)
+    {
+        Text(En, ALL, `According to Max's note, I need to explore the cargo hold of the plane to find one of the missing seals.`);
+    }
+    Entry(`obj_7524999350875700656_text`)
+    {
+        Text(En, ALL, `Find a way into the Plane`);
+    }
+    Entry(`obj_7524999479084511057_compl_desc`)
+    {
+        Text(En, ALL, `Found a way into the Cargo Ship...`);
+    }
+    Entry(`obj_7524999479084511057_descr`)
+    {
+        Text(En, ALL, `According to Max's note, I need to explore the cargo ship to find one of the missing seals.`);
+    }
+    Entry(`obj_7524999479084511057_text`)
+    {
+        Text(En, ALL, `Find a way into the Cargo Ship`);
     }
 }
