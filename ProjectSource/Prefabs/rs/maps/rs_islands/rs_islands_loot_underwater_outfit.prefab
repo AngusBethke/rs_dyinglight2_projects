@@ -1,0 +1,170 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Torso",
+            "Init": "c:Outfitset;f:EDIT;e:COMBO;l:Torso;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "ID"
+              }
+            ]
+          },
+          {
+            "Name": "Shoes",
+            "Init": "c:Outfitset;f:EDIT;e:COMBO;l:Shoes;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "ID"
+              }
+            ]
+          },
+          {
+            "Name": "Legs",
+            "Init": "c:Outfitset;f:EDIT;e:COMBO;l:Legs;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "ID"
+              }
+            ]
+          },
+          {
+            "Name": "Gloves",
+            "Init": "c:Outfitset;f:EDIT;e:COMBO;l:Gloves;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "ID"
+              }
+            ]
+          },
+          {
+            "Name": "Head",
+            "Init": "c:Outfitset;f:EDIT;e:COMBO;l:Head;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "ID"
+              }
+            ]
+          },
+          {
+            "Name": "TorsoAddon",
+            "Init": "c:Outfitset;f:EDIT;e:COMBO;l:TorsoAddon;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "ID"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_islands_loot_underwater_base"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1121428, 0.0, 0.2225734, 0.110447, 0.1552431]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [-0.0, -59.9999923, -0.0]],
+            "m_Scale": [14, [1.0000007, 1.0000003, 1.0000009]],
+            "m_Translate": [14, [0.0032347, 0.6200826, -0.0722196]]
+          },
+          "Fields": {
+            "ID": "Outfitset_Healer_Shoes_Tier9_Orange",
+            "m_EditorItemName": "Outfitset_Healer_Shoes_Tier9_Orange"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1121428, 0.0, 0.2225733, 0.110447, 0.1552431]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [1.0000003, 1.0000002, 1.0000008]],
+            "m_Translate": [14, [0.3412173, 0.6200826, 0.0667762]]
+          },
+          "Fields": {
+            "ID": "Outfitset_Healer_Legs_Tier9_Orange",
+            "m_EditorItemName": "Outfitset_Healer_Legs_Tier9_Orange"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1121428, 0.0, 0.2225733, 0.110447, 0.1552431]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-0.3319095, 0.6200826, 0.0749816]]
+          },
+          "Fields": {
+            "ID": "Outfitset_Healer_Head_Tier9_Orange",
+            "m_EditorItemName": "Outfitset_Healer_Head_Tier9_Orange"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1121428, 0.0, 0.2225733, 0.110447, 0.1552431]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [-180.0, -29.9999904, -180.0]],
+            "m_Translate": [14, [-0.1730653, 0.8339399, 0.0564365]]
+          },
+          "Fields": {
+            "ID": "Outfitset_Healer_Gloves_Tier9_Orange",
+            "m_EditorItemName": "Outfitset_Healer_Gloves_Tier9_Orange"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1121428, 0.0, 0.2225733, 0.110447, 0.1552431]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000024]],
+            "m_Translate": [14, [0.2075807, 0.8339399, -0.0490226]]
+          },
+          "Fields": {
+            "ID": "Outfitset_Healer_Torso_Tier9_Orange",
+            "m_EditorItemName": "Outfitset_Healer_Torso_Tier9_Orange"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1121428, 0.0, 0.2225734, 0.110447, 0.1552431]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [-14.999999, 0.0000048, 0.0000012]],
+            "m_Scale": [14, [1.0000002, 0.9999998, 0.9999994]],
+            "m_Translate": [14, [-0.0169373, 0.734565, 0.3562852]]
+          },
+          "Fields": {
+            "ID": "Outfitset_Healer_TorsoAddon_Tier9_Orange",
+            "m_EditorItemName": "Outfitset_Healer_TorsoAddon_Tier9_Orange"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

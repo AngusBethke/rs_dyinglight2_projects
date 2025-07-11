@@ -324,9 +324,9 @@
 					<Input name="In" count="2"/>
 				</Logic>
 			</Node>
-			<Connect start="7524779014480824263" output="Out" input="In" end="7524784357467836877">
+			<Connect start="7524779014480824263" output="Out" input="In" end="7525850050443162736">
 				<Start class="Actions::AnyLogic"/>
-				<End class="Story::SetDoorBehaviourLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524787437144816330">
 				<Logic type="Story::HideLogic">
@@ -519,6 +519,20 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7525850094206756627">
+				<Logic type="Story::CompleteObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7525849830573202214"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7525850094206756627" output="Out" input="In" end="7524784357467836877">
+				<Start class="Story::CompleteObjectiveLogic"/>
+				<End class="Story::SetDoorBehaviourLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524787057907728920">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
@@ -641,6 +655,23 @@
 			<Connect start="7524783189958813480" output="Out" input="In:1" end="7524779014480824263">
 				<Start class="Story::CompleteObjectiveLogic"/>
 				<End class="Actions::AnyLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7525849745023896368">
+				<Logic type="Story::TakeItemLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Output name="Entity" count="1"/>
+					<Entities name="m_Entities">
+						<Entity name="rs_islands/~65/Machete"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7525849745023896368" output="Out" input="In" end="7525850094206756627">
+				<Start class="Story::TakeItemLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7524787222615240500">
 				<Logic type="Story::UseLogic">
@@ -859,6 +890,20 @@
 				<Start class="Story::HideLogic"/>
 				<End class="Story::ShowLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7525850050443162736">
+				<Logic type="Story::StartObjectiveLogic">
+					<Attribute name="m_ObjectiveId" value="7525849830573202214"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+				</Logic>
+			</Node>
+			<Connect start="7525850050443162736" output="Out" input="In" end="7525849745023896368">
+				<Start class="Story::StartObjectiveLogic"/>
+				<End class="Story::TakeItemLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524777309345432947">
 				<Logic type="Actions::EndLogic"/>
 			</Node>
@@ -1068,11 +1113,20 @@
 		<EditorNode uid="7524779014480824263">
 			<Position x="2550" y="-450"/>
 		</EditorNode>
-		<EditorNode uid="7524784357467836877">
+		<EditorNode uid="7525850050443162736">
 			<Position x="2925" y="-450"/>
 		</EditorNode>
-		<EditorNode uid="7524777309345432947">
+		<EditorNode uid="7525849745023896368">
 			<Position x="3375" y="-450"/>
+		</EditorNode>
+		<EditorNode uid="7525850094206756627">
+			<Position x="3900" y="-450"/>
+		</EditorNode>
+		<EditorNode uid="7524784357467836877">
+			<Position x="4350" y="-450"/>
+		</EditorNode>
+		<EditorNode uid="7524777309345432947">
+			<Position x="4800" y="-450"/>
 		</EditorNode>
 	</EditorData>
 </Quest>
