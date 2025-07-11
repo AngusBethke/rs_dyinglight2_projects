@@ -46,6 +46,10 @@
 				<Start class="Story::QuestLogic"/>
 				<End class="Story::QuestLogic"/>
 			</Connect>
+			<Connect start="7524777308206576896" output="Out:End" input="In:Start" end="7525616347620749925">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524777136617287689">
 				<Logic type="Actions::StartLogic"/>
 			</Node>
@@ -61,6 +65,7 @@
 			<Node type="Actions::Node" uid="7524777136373899089">
 				<Logic type="Actions::EndLogic"/>
 			</Node>
+			<Node file="rs_islands_sq1_the_crew.quest"/>
 		</Node>
 	</StoryData>
 	<EditorData>
@@ -81,6 +86,9 @@
 		</EditorNode>
 		<EditorNode uid="7524777619152171214">
 			<Position x="750" y="-150"/>
+		</EditorNode>
+		<EditorNode file="rs_islands_sq1_the_crew.quest">
+			<Position x="-150" y="-300"/>
 		</EditorNode>
 	</EditorData>
 </Quest>
