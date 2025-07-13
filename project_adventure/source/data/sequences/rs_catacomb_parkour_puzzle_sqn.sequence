@@ -1,0 +1,236 @@
+---
+- Sequence:
+  - ClassName: CutsceneSequence
+  - Field:
+    - Name: m_HideHud
+    - Value: 0
+  - Field:
+    - Name: m_Length
+    - Value: 5.000000
+  - Field:
+    - Name: m_ConfigName
+    - Value: Cutscene
+  - Field:
+    - Name: m_Uid
+    - Value: 7320966642254113099
+  - Track:
+    - ClassName: Actions::SceneTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Scene
+    - Field:
+      - Name: m_Uid
+      - Value: 7320966641079218883
+  - Track:
+    - ClassName: Actions::EntityTrack
+    - Field:
+      - Name: m_EntityPath
+      - Value: ./~1
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Entity
+    - Field:
+      - Name: m_Uid
+      - Value: 7320967156162753118
+    - SubTrack:
+      - ClassName: Actions::EntityPositionSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7320967156650482689
+      - Key:
+        - ClassName: Actions::PositionKey
+        - Field:
+          - Name: m_Point
+          - Value: -352.991943 -41.350986 293.740448
+        - Field:
+          - Name: m_Uid
+          - Value: 7320967453949545205
+      - Key:
+        - ClassName: Actions::PositionKey
+        - Field:
+          - Name: m_Point
+          - Value: -352.991913 -41.350986 293.740417
+        - Field:
+          - Name: m_Start
+          - Value: 5.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7320967739794066293
+    - SubTrack:
+      - ClassName: Actions::EntityRotationSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7320967156999835616
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: -0.000000 90.000000 89.999992
+        - Field:
+          - Name: m_Uid
+          - Value: 7320967454006165761
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: 0.000000 221.000015 89.999992
+        - Field:
+          - Name: m_InPoint
+          - Value: -0.000000 8869.499023 0.000000
+        - Field:
+          - Name: m_OutPoint
+          - Value: -0.000000 8869.499023 0.000000
+        - Field:
+          - Name: m_Start
+          - Value: 5.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7320967740651048317
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: -0.000002 90.000008 89.999992
+        - Field:
+          - Name: m_InPoint
+          - Value: -0.000006 2217.499756 0.000000
+        - Field:
+          - Name: m_OutPoint
+          - Value: -0.000006 2217.499756 0.000000
+        - Field:
+          - Name: m_Start
+          - Value: 6.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7320968062629576331
+    - SubTrack:
+      - ClassName: Actions::EntityScaleSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7320967157231194759
+      - Key:
+        - ClassName: Actions::ScaleKey
+        - Field:
+          - Name: m_Point
+          - Value: 1.000000 0.999998 0.999999
+        - Field:
+          - Name: m_Uid
+          - Value: 7320967452594966750
+      - Key:
+        - ClassName: Actions::ScaleKey
+        - Field:
+          - Name: m_Point
+          - Value: 1.000000 0.999998 0.999999
+        - Field:
+          - Name: m_Start
+          - Value: 5.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7320967741442290104
+  - Track:
+    - ClassName: Actions::EntityTrack
+    - Field:
+      - Name: m_EntityPath
+      - Value: ./~2
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Entity
+    - Field:
+      - Name: m_Uid
+      - Value: 7320969690407374321
+    - SubTrack:
+      - ClassName: Actions::EntityPositionSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7320969689788786429
+      - Key:
+        - ClassName: Actions::PositionKey
+        - Field:
+          - Name: m_Point
+          - Value: -352.992126 -41.351017 320.658203
+        - Field:
+          - Name: m_Uid
+          - Value: 7320969789672892183
+      - Key:
+        - ClassName: Actions::PositionKey
+        - Field:
+          - Name: m_Point
+          - Value: -352.992126 -41.351017 320.658203
+        - Field:
+          - Name: m_Start
+          - Value: 4.996094
+        - Field:
+          - Name: m_Uid
+          - Value: 7320969859093265779
+    - SubTrack:
+      - ClassName: Actions::EntityRotationSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7320969691428608182
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: 0.000000 90.000000 90.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7320969790452517897
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: 0.000005 -12.500002 90.000000
+        - Field:
+          - Name: m_InPoint
+          - Value: 0.000880 -11738.000000 -0.001408
+        - Field:
+          - Name: m_OutPoint
+          - Value: 0.000880 -11738.000000 -0.001408
+        - Field:
+          - Name: m_Start
+          - Value: 4.996094
+        - Field:
+          - Name: m_Uid
+          - Value: 7320969858252719422
+      - Key:
+        - ClassName: Actions::RotationKey
+        - Field:
+          - Name: m_Point
+          - Value: 0.000000 90.000000 90.000000
+        - Field:
+          - Name: m_InPoint
+          - Value: -165.213394 -2191.000000 165.213318
+        - Field:
+          - Name: m_OutPoint
+          - Value: -165.213394 -2191.000000 165.213318
+        - Field:
+          - Name: m_Start
+          - Value: 5.990000
+        - Field:
+          - Name: m_Uid
+          - Value: 7320970128264809159
+    - SubTrack:
+      - ClassName: Actions::EntityScaleSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7320969691634263549
+      - Key:
+        - ClassName: Actions::ScaleKey
+        - Field:
+          - Name: m_Point
+          - Value: 1.000000 1.000001 1.000000
+        - Field:
+          - Name: m_Uid
+          - Value: 7320969790422435777
+      - Key:
+        - ClassName: Actions::ScaleKey
+        - Field:
+          - Name: m_Point
+          - Value: 1.000000 1.000000 1.000001
+        - Field:
+          - Name: m_Start
+          - Value: 4.996094
+        - Field:
+          - Name: m_Uid
+          - Value: 7320969858619215638
+...

@@ -38,11 +38,11 @@
 					</Entities>
 				</Logic>
 			</Node>
-			<Connect start="7524786539963658625" output="Out" input="In" end="7524779078330994882">
+			<Connect start="7524786539963658625" output="Out" input="In" end="7524783253151153659">
 				<Start class="Story::ShowLogic"/>
-				<End class="Story::UseLogic"/>
+				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787119857136513">
+			<Node type="Actions::Node" uid="7524787119857136513" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -60,7 +60,7 @@
 				<Start class="Story::SetEntityPropertyLogic"/>
 				<End class="Story::HideLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787435906679170">
+			<Node type="Actions::Node" uid="7524787435906679170" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -78,7 +78,7 @@
 				<Start class="Story::SetEntityPropertyLogic"/>
 				<End class="Story::HideLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787162391293327">
+			<Node type="Actions::Node" uid="7524787162391293327" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -96,7 +96,7 @@
 				<Start class="Story::SetEntityPropertyLogic"/>
 				<End class="Story::HideLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524783722539573139">
+			<Node type="Actions::Node" uid="7524783722539573139" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -128,7 +128,7 @@
 				<Start class="Story::StartObjectiveLogic"/>
 				<End class="Story::TakeItemLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524786685695692194">
+			<Node type="Actions::Node" uid="7524786685695692194" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -144,7 +144,7 @@
 				<Start class="Story::ShowLogic"/>
 				<End class="Story::UseLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787119603286179">
+			<Node type="Actions::Node" uid="7524787119603286179" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -178,11 +178,11 @@
 					</Object>
 				</Logic>
 			</Node>
-			<Connect start="7524787909558531491" output="Out" input="In" end="7525604965821815819">
+			<Connect start="7524787909558531491" output="Out" input="In" end="7524783052459456094">
 				<Start class="Story::SetPlayerPresetLogic"/>
-				<End class="Story::HideLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787260953411492">
+			<Node type="Actions::Node" uid="7524787260953411492" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -206,7 +206,7 @@
 				<Start class="Story::HideLogic"/>
 				<End class="Story::ShowLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524782427714758834">
+			<Node type="Actions::Node" uid="7524782427714758834" flags="Disabled">
 				<Logic type="Story::TakeItemLogic">
 					<Attribute name="m_GatherPlayers" value="1"/>
 					<Attribute name="m_RequiredCount" value="1"/>
@@ -225,7 +225,7 @@
 				<Start class="Story::TakeItemLogic"/>
 				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787221084548022">
+			<Node type="Actions::Node" uid="7524787221084548022" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -249,7 +249,7 @@
 				<Start class="Story::HideLogic"/>
 				<End class="Story::ShowLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787221802445751">
+			<Node type="Actions::Node" uid="7524787221802445751" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -267,7 +267,7 @@
 				<Start class="Story::SetEntityPropertyLogic"/>
 				<End class="Story::HideLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524779078330994882">
+			<Node type="Actions::Node" uid="7524779078330994882" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -285,7 +285,7 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787435717659332">
+			<Node type="Actions::Node" uid="7524787435717659332" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -303,7 +303,7 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787504996040647">
+			<Node type="Actions::Node" uid="7524787504996040647" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -319,16 +319,7 @@
 				<Start class="Story::ShowLogic"/>
 				<End class="Story::UseLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524779014480824263">
-				<Logic type="Actions::AnyLogic">
-					<Input name="In" count="2"/>
-				</Logic>
-			</Node>
-			<Connect start="7524779014480824263" output="Out" input="In" end="7525850050443162736">
-				<Start class="Actions::AnyLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7524787437144816330">
+			<Node type="Actions::Node" uid="7524787437144816330" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -382,7 +373,7 @@
 				<Start class="Story::FreezeTimeLogic"/>
 				<End class="Story::SetPlayerPresetLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787057929456878">
+			<Node type="Actions::Node" uid="7524787057929456878" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -398,7 +389,7 @@
 				<Start class="Story::ShowLogic"/>
 				<End class="Story::UseLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787259979976184">
+			<Node type="Actions::Node" uid="7524787259979976184" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -428,7 +419,7 @@
 				<Start class="Story::CompleteObjectiveLogic"/>
 				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787436975199228">
+			<Node type="Actions::Node" uid="7524787436975199228" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -444,7 +435,7 @@
 				<Start class="Story::ShowLogic"/>
 				<End class="Story::UseLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787222120648197">
+			<Node type="Actions::Node" uid="7524787222120648197" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -460,30 +451,13 @@
 				<Start class="Story::ShowLogic"/>
 				<End class="Story::UseLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7525604965821815819">
-				<Logic type="Story::HideLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Entities name="m_Entities">
-						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q1_ship_boss"/>
-						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q2_ai_spawner_ruins_1"/>
-						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q2_ai_spawner_ruins_2"/>
-						<Entity name="rs_islands/rs_islands_quest_items/rs_islands_q2_demolisher"/>
-					</Entities>
+			<Node type="Actions::Node" uid="7526535513865203724">
+				<Logic type="Actions::CommentLogic">
+					<Attribute name="m_Comment" value="Disabled due to retexturing limitations"/>
+					<Attribute name="m_Size" value="1290.000000 228.000000"/>
 				</Logic>
 			</Node>
-			<Connect start="7525604965821815819" output="Out" input="In" end="7524783052459456094">
-				<Start class="Story::HideLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Connect start="7525604965821815819" output="Out" input="In" end="7524783076959928347">
-				<Start class="Story::HideLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7524787117919898127">
+			<Node type="Actions::Node" uid="7524787117919898127" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -501,7 +475,7 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787260248172049">
+			<Node type="Actions::Node" uid="7524787260248172049" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -533,7 +507,7 @@
 				<Start class="Story::CompleteObjectiveLogic"/>
 				<End class="Story::SetDoorBehaviourLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787057907728920">
+			<Node type="Actions::Node" uid="7524787057907728920" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -551,7 +525,7 @@
 				<Start class="Story::SetEntityPropertyLogic"/>
 				<End class="Story::HideLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787162054023960">
+			<Node type="Actions::Node" uid="7524787162054023960" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -567,7 +541,7 @@
 				<Start class="Story::ShowLogic"/>
 				<End class="Story::UseLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787261372234520">
+			<Node type="Actions::Node" uid="7524787261372234520" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -604,7 +578,7 @@
 				<Start class="Story::TakeItemLogic"/>
 				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524783076959928347">
+			<Node type="Actions::Node" uid="7524783076959928347" flags="Disabled">
 				<Logic type="Story::StartObjectiveLogic">
 					<Attribute name="m_ObjectiveId" value="7524782760055315993"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -618,7 +592,7 @@
 				<Start class="Story::StartObjectiveLogic"/>
 				<End class="Story::TakeItemLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524786685005369380">
+			<Node type="Actions::Node" uid="7524786685005369380" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -642,7 +616,7 @@
 				<Start class="Story::HideLogic"/>
 				<End class="Story::ShowLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524783189958813480">
+			<Node type="Actions::Node" uid="7524783189958813480" flags="Disabled">
 				<Logic type="Story::CompleteObjectiveLogic">
 					<Attribute name="m_ObjectiveId" value="7524782760055315993"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -652,10 +626,6 @@
 					</Object>
 				</Logic>
 			</Node>
-			<Connect start="7524783189958813480" output="Out" input="In:1" end="7524779014480824263">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Actions::AnyLogic"/>
-			</Connect>
 			<Node type="Actions::Node" uid="7525849745023896368">
 				<Logic type="Story::TakeItemLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -673,7 +643,13 @@
 				<Start class="Story::TakeItemLogic"/>
 				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787222615240500">
+			<Node type="Actions::Node" uid="7526535210016989234">
+				<Logic type="Actions::CommentLogic">
+					<Attribute name="m_Comment" value="Disabled due to retexturing limitations"/>
+					<Attribute name="m_Size" value="1528.000000 2697.000000"/>
+				</Logic>
+			</Node>
+			<Node type="Actions::Node" uid="7524787222615240500" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -691,7 +667,7 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787161105059381">
+			<Node type="Actions::Node" uid="7524787161105059381" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -715,7 +691,7 @@
 				<Start class="Story::HideLogic"/>
 				<End class="Story::ShowLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524782541498836291">
+			<Node type="Actions::Node" uid="7524782541498836291" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -733,7 +709,7 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787117827755078">
+			<Node type="Actions::Node" uid="7524787117827755078" flags="Disabled">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -749,7 +725,7 @@
 				<Start class="Story::ShowLogic"/>
 				<End class="Story::UseLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787504954462031">
+			<Node type="Actions::Node" uid="7524787504954462031" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -767,7 +743,7 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787058097812307">
+			<Node type="Actions::Node" uid="7524787058097812307" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -785,7 +761,7 @@
 				<Start class="Story::UseLogic"/>
 				<End class="Story::SetEntityPropertyLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524783866658332501">
+			<Node type="Actions::Node" uid="7524783866658332501" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -803,7 +779,7 @@
 				<Start class="Story::SetEntityPropertyLogic"/>
 				<End class="Story::HideLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787506338981208">
+			<Node type="Actions::Node" uid="7524787506338981208" flags="Disabled">
 				<Logic type="Story::SetEntityPropertyLogic">
 					<Attribute name="m_PropertyName" value="m_State"/>
 					<Attribute name="m_DesiredValue" value="_OFF"/>
@@ -817,10 +793,6 @@
 					</Entities>
 				</Logic>
 			</Node>
-			<Connect start="7524787506338981208" output="Out" input="In" end="7524783253151153659">
-				<Start class="Story::SetEntityPropertyLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
-			</Connect>
 			<Node type="Actions::Node" uid="7524783052459456094">
 				<Logic type="Story::StartObjectiveLogic">
 					<Attribute name="m_ObjectiveId" value="7524782814745618545"/>
@@ -866,7 +838,7 @@
 				<Start class="Actions::StartLogic"/>
 				<End class="Story::FreezeTimeLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787504389731947">
+			<Node type="Actions::Node" uid="7524787504389731947" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -907,7 +879,7 @@
 			<Node type="Actions::Node" uid="7524777309345432947">
 				<Logic type="Actions::EndLogic"/>
 			</Node>
-			<Node type="Actions::Node" uid="7524787059214986359">
+			<Node type="Actions::Node" uid="7524787059214986359" flags="Disabled">
 				<Logic type="Story::HideLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
@@ -941,11 +913,11 @@
 					</Object>
 				</Logic>
 			</Node>
-			<Connect start="7525619435814396794" output="Out" input="In:0" end="7524779014480824263">
+			<Connect start="7525619435814396794" output="Out" input="In" end="7525850050443162736">
 				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Actions::AnyLogic"/>
+				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
-			<Node type="Actions::Node" uid="7524787162906054781">
+			<Node type="Actions::Node" uid="7524787162906054781" flags="Disabled">
 				<Logic type="Story::UseLogic">
 					<Attribute name="m_DesiredValue" value="_ON"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -969,14 +941,122 @@
 		<EditorNode uid="7524777310043351393">
 			<Position x="-2850" y="0"/>
 		</EditorNode>
+		<EditorNode uid="7524779078330994882">
+			<Position x="-450" y="300"/>
+		</EditorNode>
+		<EditorNode uid="7524783076959928347">
+			<Position x="-300" y="-600"/>
+		</EditorNode>
+		<EditorNode uid="7524782427714758834">
+			<Position x="150" y="-600"/>
+		</EditorNode>
+		<EditorNode uid="7524783189958813480">
+			<Position x="675" y="-600"/>
+		</EditorNode>
+		<EditorNode uid="7524783722539573139">
+			<Position x="150" y="300"/>
+		</EditorNode>
+		<EditorNode uid="7524786685005369380">
+			<Position x="-1050" y="600"/>
+		</EditorNode>
+		<EditorNode uid="7524786685695692194">
+			<Position x="-750" y="600"/>
+		</EditorNode>
+		<EditorNode uid="7524782541498836291">
+			<Position x="-450" y="600"/>
+		</EditorNode>
+		<EditorNode uid="7524783866658332501">
+			<Position x="150" y="600"/>
+		</EditorNode>
+		<EditorNode uid="7524787059214986359">
+			<Position x="-1050" y="900"/>
+		</EditorNode>
+		<EditorNode uid="7524787057929456878">
+			<Position x="-750" y="900"/>
+		</EditorNode>
+		<EditorNode uid="7524787058097812307">
+			<Position x="-450" y="900"/>
+		</EditorNode>
+		<EditorNode uid="7524787057907728920">
+			<Position x="150" y="900"/>
+		</EditorNode>
+		<EditorNode uid="7524787119603286179">
+			<Position x="-1050" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524787117827755078">
+			<Position x="-750" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524787117919898127">
+			<Position x="-450" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524787119857136513">
+			<Position x="150" y="1200"/>
+		</EditorNode>
+		<EditorNode uid="7524787161105059381">
+			<Position x="-1050" y="1500"/>
+		</EditorNode>
+		<EditorNode uid="7524787162054023960">
+			<Position x="-750" y="1500"/>
+		</EditorNode>
+		<EditorNode uid="7524787162906054781">
+			<Position x="-450" y="1500"/>
+		</EditorNode>
+		<EditorNode uid="7524787162391293327">
+			<Position x="150" y="1500"/>
+		</EditorNode>
+		<EditorNode uid="7524787221084548022">
+			<Position x="-1050" y="1800"/>
+		</EditorNode>
+		<EditorNode uid="7524787222120648197">
+			<Position x="-750" y="1800"/>
+		</EditorNode>
+		<EditorNode uid="7524787222615240500">
+			<Position x="-450" y="1800"/>
+		</EditorNode>
+		<EditorNode uid="7524787221802445751">
+			<Position x="150" y="1800"/>
+		</EditorNode>
+		<EditorNode uid="7524787260953411492">
+			<Position x="-1050" y="2100"/>
+		</EditorNode>
+		<EditorNode uid="7524787259979976184">
+			<Position x="-750" y="2100"/>
+		</EditorNode>
+		<EditorNode uid="7524787260248172049">
+			<Position x="-450" y="2100"/>
+		</EditorNode>
+		<EditorNode uid="7524787261372234520">
+			<Position x="150" y="2100"/>
+		</EditorNode>
+		<EditorNode uid="7524787437144816330">
+			<Position x="-1050" y="2400"/>
+		</EditorNode>
+		<EditorNode uid="7524787436975199228">
+			<Position x="-750" y="2400"/>
+		</EditorNode>
+		<EditorNode uid="7524787435717659332">
+			<Position x="-450" y="2400"/>
+		</EditorNode>
+		<EditorNode uid="7524787435906679170">
+			<Position x="150" y="2400"/>
+		</EditorNode>
+		<EditorNode uid="7524787504389731947">
+			<Position x="-1050" y="2700"/>
+		</EditorNode>
+		<EditorNode uid="7524787504996040647">
+			<Position x="-750" y="2700"/>
+		</EditorNode>
+		<EditorNode uid="7524787504954462031">
+			<Position x="-450" y="2700"/>
+		</EditorNode>
+		<EditorNode uid="7524787506338981208">
+			<Position x="150" y="2700"/>
+		</EditorNode>
 		<EditorNode uid="7524787952170698982">
 			<Position x="-2625" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7524787909558531491">
 			<Position x="-2430" y="0"/>
-		</EditorNode>
-		<EditorNode uid="7525604965821815819">
-			<Position x="-2025" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7524783052459456094">
 			<Position x="-1500" y="0"/>
@@ -987,119 +1067,8 @@
 		<EditorNode uid="7524786539963658625">
 			<Position x="-750" y="0"/>
 		</EditorNode>
-		<EditorNode uid="7524779078330994882">
-			<Position x="-450" y="0"/>
-		</EditorNode>
-		<EditorNode uid="7524783722539573139">
-			<Position x="150" y="0"/>
-		</EditorNode>
-		<EditorNode uid="7524786685005369380">
-			<Position x="-1050" y="300"/>
-		</EditorNode>
-		<EditorNode uid="7524786685695692194">
-			<Position x="-750" y="300"/>
-		</EditorNode>
-		<EditorNode uid="7524782541498836291">
-			<Position x="-450" y="300"/>
-		</EditorNode>
-		<EditorNode uid="7524783866658332501">
-			<Position x="150" y="300"/>
-		</EditorNode>
-		<EditorNode uid="7524787059214986359">
-			<Position x="-1050" y="600"/>
-		</EditorNode>
-		<EditorNode uid="7524787057929456878">
-			<Position x="-750" y="600"/>
-		</EditorNode>
-		<EditorNode uid="7524787058097812307">
-			<Position x="-450" y="600"/>
-		</EditorNode>
-		<EditorNode uid="7524787057907728920">
-			<Position x="150" y="600"/>
-		</EditorNode>
-		<EditorNode uid="7524787119603286179">
-			<Position x="-1050" y="900"/>
-		</EditorNode>
-		<EditorNode uid="7524787117827755078">
-			<Position x="-750" y="900"/>
-		</EditorNode>
-		<EditorNode uid="7524787117919898127">
-			<Position x="-450" y="900"/>
-		</EditorNode>
-		<EditorNode uid="7524787119857136513">
-			<Position x="150" y="900"/>
-		</EditorNode>
-		<EditorNode uid="7524787161105059381">
-			<Position x="-1050" y="1200"/>
-		</EditorNode>
-		<EditorNode uid="7524787162054023960">
-			<Position x="-750" y="1200"/>
-		</EditorNode>
-		<EditorNode uid="7524787162906054781">
-			<Position x="-450" y="1200"/>
-		</EditorNode>
-		<EditorNode uid="7524787162391293327">
-			<Position x="150" y="1200"/>
-		</EditorNode>
-		<EditorNode uid="7524787221084548022">
-			<Position x="-1050" y="1500"/>
-		</EditorNode>
-		<EditorNode uid="7524787222120648197">
-			<Position x="-750" y="1500"/>
-		</EditorNode>
-		<EditorNode uid="7524787222615240500">
-			<Position x="-450" y="1500"/>
-		</EditorNode>
-		<EditorNode uid="7524787221802445751">
-			<Position x="150" y="1500"/>
-		</EditorNode>
-		<EditorNode uid="7524787260953411492">
-			<Position x="-1050" y="1800"/>
-		</EditorNode>
-		<EditorNode uid="7524787259979976184">
-			<Position x="-750" y="1800"/>
-		</EditorNode>
-		<EditorNode uid="7524787260248172049">
-			<Position x="-450" y="1800"/>
-		</EditorNode>
-		<EditorNode uid="7524787261372234520">
-			<Position x="150" y="1800"/>
-		</EditorNode>
-		<EditorNode uid="7524787437144816330">
-			<Position x="-1050" y="2100"/>
-		</EditorNode>
-		<EditorNode uid="7524787436975199228">
-			<Position x="-750" y="2100"/>
-		</EditorNode>
-		<EditorNode uid="7524787435717659332">
-			<Position x="-450" y="2100"/>
-		</EditorNode>
-		<EditorNode uid="7524787435906679170">
-			<Position x="150" y="2100"/>
-		</EditorNode>
-		<EditorNode uid="7524787504389731947">
-			<Position x="-1050" y="2400"/>
-		</EditorNode>
-		<EditorNode uid="7524787504996040647">
-			<Position x="-750" y="2400"/>
-		</EditorNode>
-		<EditorNode uid="7524787504954462031">
-			<Position x="-450" y="2400"/>
-		</EditorNode>
-		<EditorNode uid="7524787506338981208">
-			<Position x="150" y="2400"/>
-		</EditorNode>
 		<EditorNode uid="7524783253151153659">
 			<Position x="600" y="0"/>
-		</EditorNode>
-		<EditorNode uid="7524783076959928347">
-			<Position x="1050" y="-600"/>
-		</EditorNode>
-		<EditorNode uid="7524782427714758834">
-			<Position x="1500" y="-600"/>
-		</EditorNode>
-		<EditorNode uid="7524783189958813480">
-			<Position x="2025" y="-600"/>
 		</EditorNode>
 		<EditorNode uid="7525619437208667042">
 			<Position x="1050" y="-300"/>
@@ -1109,9 +1078,6 @@
 		</EditorNode>
 		<EditorNode uid="7525619435814396794">
 			<Position x="2025" y="-300"/>
-		</EditorNode>
-		<EditorNode uid="7524779014480824263">
-			<Position x="2550" y="-450"/>
 		</EditorNode>
 		<EditorNode uid="7525850050443162736">
 			<Position x="2925" y="-450"/>
@@ -1127,6 +1093,12 @@
 		</EditorNode>
 		<EditorNode uid="7524777309345432947">
 			<Position x="4800" y="-450"/>
+		</EditorNode>
+		<EditorNode uid="7526535210016989234">
+			<Position x="-1070" y="235"/>
+		</EditorNode>
+		<EditorNode uid="7526535513865203724">
+			<Position x="-320" y="-665"/>
 		</EditorNode>
 	</EditorData>
 </Quest>

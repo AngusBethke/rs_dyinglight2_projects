@@ -6,18 +6,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_Name": [12, "rs_islands_q1_cave_entrance"],
-            "m_PcId": [6, 1],
-            "m_PrefabName": [12, "rs_supernatural_ruins_entrance"],
-            "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999995]],
-            "m_Translate": [14, [161.1141357, 7.8354125, 50.5900039]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.1274961, 0.2513357, -0.7210057, 0.1431011, 0.2513554, 0.7251686]],
+            "m_EntityComponentsExtents": [69, [0.1274961, 0.2513357, -0.721006, 0.1431012, 0.2513554, 0.7251688]],
             "m_Name": [12, "rs_islands_q1_plane_exit"],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "mesh"],
@@ -58,7 +47,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0528693, 0.0291877, 0.0454696, 0.0891169, 0.0221278, 0.0848237]],
+            "m_EntityComponentsExtents": [69, [0.0528693, 0.0291877, 0.0454696, 0.0891168, 0.0221278, 0.0848237]],
             "m_Name": [12, "rs_islands_q1_seal_3"],
             "m_PcId": [6, 5],
             "m_PrefabName": [12, "quest_object"],
@@ -124,7 +113,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0223775, 0.6592445, 0.3158568, 0.1458673, 0.6642445, 0.3841438]],
+            "m_EntityComponentsExtents": [69, [0.0223775, 0.6592448, 0.3158568, 0.1458673, 0.6642448, 0.3841438]],
             "m_Name": [12, "rs_islands_q1_seal_3_switch"],
             "m_PcId": [6, 8],
             "m_PrefabName": [12, "switch"],
@@ -150,7 +139,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0401477, 1.3110666, 0.2845059, 0.8358306, 1.3610665, 0.4154757]],
+            "m_EntityComponentsExtents": [69, [0.0401477, 1.3110667, 0.2845059, 0.8358306, 1.3610666, 0.4154756]],
             "m_Name": [12, "rs_islands_q1_ship_exit"],
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "switch"],
@@ -171,22 +160,6 @@
             "Class": "TriggerStateDescription",
             "PresetNames": "TSD;_None",
             "DestinationField": "m_OnStateDescription"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0238206, 1.6127831, 0.0000051, 2.2920033, 1.7159321, 0.2033016]],
-            "m_Name": [12, "rs_islands_q1_plane_blockage"],
-            "m_PcId": [6, 10],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;mod_resort_plane_wall_crash_a"],
-            "m_Rotate": [14, [-0.0, -60.0, -90.0]],
-            "m_Scale": [14, [0.6451612, 0.6451612, 0.6451612]],
-            "m_Translate": [14, [-74.4398269, -8.715558, 221.5811309]]
-          },
-          "Fields": {
-            "m_SelfActive": "0"
           }
         },
         {
@@ -221,7 +194,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.5, 0.4999999, 0.4999999]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.4999999, 0.5, 0.4999999]],
             "m_Name": [12, "rs_islands_q2_demolisher"],
             "m_PcId": [6, 15],
             "m_PrefabName": [12, "ai_spawner_number"],
@@ -234,21 +207,12 @@
             "m_NumOfAIsToSpawn": "1",
             "m_PointsSource": "2",
             "m_Preset": "Character;Demolisher_EndGame_Boss",
-            "m_SelfActive": "1"
+            "m_SelfActive": "0"
           },
           "EmbeddedObject": {
             "Class": "UserDefinedDifficultyRange",
             "PresetNames": "Difficulty;Tier_7",
             "DestinationField": "m_DifficultyRangeSource"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_Name": [12, "rs_islands_q2_demolisher_door"],
-            "m_PcId": [6, 18],
-            "m_PrefabName": [12, "rs_ruins_door"],
-            "m_Translate": [14, [259.7069091, -1.1920931797249069e-7, 88.3885421]]
           }
         },
         {
@@ -268,7 +232,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.5989562, 1.2854999, 5.21540641784668e-8, 0.602044, 1.2854999, 0.1140397]],
+            "m_EntityComponentsExtents": [69, [0.5989561, 1.2854998, 4.0978193283081057e-8, 0.6020438, 1.2854998, 0.1140397]],
             "m_Name": [12, "rs_islands_q0_door"],
             "m_PcId": [6, 20],
             "m_PrefabName": [12, "door"],
@@ -280,7 +244,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.1287592, 0.699172, 0.2346257, 0.2522491, 0.719172, 0.4653711]],
+            "m_EntityComponentsExtents": [69, [0.1287593, 0.6991721, 0.2346258, 0.2522491, 0.7191721, 0.4653712]],
             "m_Name": [12, "rs_islands_q0_slide_switch"],
             "m_PcId": [6, 21],
             "m_PrefabName": [12, "switch"],
@@ -289,6 +253,7 @@
             "m_Translate": [14, [7.6971921, 3.8663887, -432.2703857]]
           },
           "Fields": {
+            "m_Description": "Next Slide",
             "m_TurnOffLightColor": "0.000000 0.666667 1.000000"
           },
           "EmbeddedObject": {
@@ -315,7 +280,7 @@
           },
           "Fields": {
             "MeshName": "prp_office_notebook_b.msh",
-            "m_MenuTextQuestDesc": "Good Morning!\n(or Afternoon, depending on when you eventually wake up)\n\nYou were out cold man... next time lay off the Jack a little, yeah? I gotta say, you're making a hell of an impression as a new hire... hehehe, mucking with you bud - everyone has bad nights.\n\nIt is 05:12 (at the time of writing) and the rest of the crew is already up and about... so, we're going to get the research under way. There are some ruins on the main island of this small Archipelago that I want to focus our attention on. So that's where we're going to start.\n\nGet your hump over here as soon as you're up.\n\nCheers,\nMax.\n\nPS: Personally my money is on some highly magnetic rock underneath the Archipelago. You'll all owe me a beer if I'm right! It would explain the strangely high number of ship and plane wreckages in the vicinity.\n\nPPS: Don't let Sarah tell you the magnetic rock was her idea, it was definitely mine.\n\nPPPS: Here's a bunch of stuff you really should not forget:\n\n1. The paraglider is your friend! There are a ton of volcanic vents about, spilling thermals into the air. You can use them to rise to an altitude where the wind streams will pick you up and carry you across the ocean. In addition to that, the ASVs (see below) also provide a good thermal output.\n\n2. Our generous benefactor has provided a bunch (11) ASVs (Autonomous Sea Vehicles) that are currently scanning the shallow ocean floor. Given the strange frequency of ship and plane wreckages there might be some interesting stuff down there. If they start circling it means they’ve found something.\n\n3. Most of the diving work we'll be doing will be done unassisted. The sea floor isn't really deep enough to justify hauling those heavy packs on our backs. Plus side is more mobility too. However, we've got a couple of make-shift packs to drop around the place where you can catch a breath if you need it.\n\n4. The village, if you can really call it that, is currently inhabited by locals. It was converted to a resort a little while back, but has since been re-claimed by the locals after the company constructing the resort ran into the ground. We're going to spend a bit of time with them while researching the ruins, try not to step on their toes, yeah?\n\n5. The plane wreckage is a bit of an oddity, supposedly it took off from the mainland nearby then doubled back when one of the passengers on board went a bit crazy. Anyway, the plane went down not far from the village. The locals seem to think that some archeologist took something from the islands that wanted to come back - silly superstition if you ask me.\n\n6. The wrecked container ship is inhabited by honest to god Pirates. Yeah, you heard me, Pirates. Apparently they'll leave you alone if you don't mess with their stuff, but they can be pretty violent. So, you know, try not to get in their way.",
+            "m_MenuTextQuestDesc": "Good Morning!\n(or Afternoon, depending on when you eventually wake up)\n\nYou were out cold man... next time lay off the Jack a little, yeah? I gotta say, you're making a hell of an impression as a new hire... hehehe, mucking with you bud - everyone has bad nights.\n\nIt is 05:12 (at the time of writing) and the rest of the crew is already up and about... so, we're going to get the research under way. There are some ruins on the main island of this small Archipelago that I want to focus our attention on. So that's where we're going to start.\n\nGet your hump over here as soon as you're up.\n\nCheers,\nMax.\n\nPS: Personally my money is on some highly magnetic rock underneath the Archipelago. You'll all owe me a beer if I'm right! It would explain the strangely high number of ship and plane wreckages in the vicinity.\n\nPPS: Don't let Sarah tell you the magnetic rock was her idea, it was definitely mine.\n\nPPPS: Here's a bunch of stuff you really should not forget:\n\n1. The paraglider is your friend! There are a ton of volcanic vents about, spilling thermals into the air. You can use them to rise to an altitude where the wind streams will pick you up and carry you across the ocean. In addition to that, the ASVs (see below) also provide a good thermal output. We've set up kites around the ones you can use to make spotting them easier.\n\n2. Our generous benefactor has provided a bunch (11) ASVs (Autonomous Sea Vehicles) that are currently scanning the shallow ocean floor. Given the strange frequency of ship and plane wreckages there might be some interesting stuff down there. If they start circling it means they've found something.\n\n3. Most of the diving work we'll be doing will be done unassisted. The sea floor isn't really deep enough to justify hauling those heavy packs on our backs. Plus side is more mobility too. However, we've got a couple of make-shift packs to drop around the place where you can catch a breath if you need it.\n\n4. The village, if you can really call it that, is currently inhabited by locals. It was converted to a resort a little while back, but has since been re-claimed by the locals after the company constructing the resort ran into the ground. We're going to spend a bit of time with them while researching the ruins, try not to step on their toes, yeah?\n\n5. The plane wreckage is a bit of an oddity, supposedly it took off from the mainland nearby then doubled back when one of the passengers on board went a bit crazy. Anyway, the plane went down not far from the village. The locals seem to think that some archeologist took something from the islands that wanted to come back - silly superstition if you ask me.\n\n6. The wrecked container ship is inhabited by honest to god Pirates. Yeah, you heard me, Pirates. Apparently they'll leave you alone if you don't mess with their stuff, but they can be pretty violent. So, you know, try not to get in their way.",
             "m_MenuTextQuestName": "For the love of *** don't forget"
           }
         },
@@ -332,7 +297,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000261, 0.1600109, 0.0145719, 0.1100261]],
+            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000376, 0.1600109, 0.0145719, 0.1100299]],
             "m_Name": [12, "rs_islands_q1_note_max"],
             "m_PcId": [6, 27],
             "m_PrefabName": [12, "quest_object_withbrief"],
@@ -342,7 +307,7 @@
           "Fields": {
             "MeshName": "prp_office_notebook_a.msh",
             "SkinName": "Default",
-            "m_MenuTextQuestDesc": "I don't know where to start... I'm fucking trembling as I write this.\n\n...and rambling in a goddamn hand written note, what's wrong with me?\n\nAnyway, I'm not sure who will find this, maybe the new guy? Doesn't fucking matter... something is very wrong here!\n\nWhile digging around the entrance of the ruins I found something, an artifact, that fit one of the indents on the door. When I went to place it the thing started glowing and spinning... emitting some crazy noise - some real sci-fi shit. Then some of the locals started going mad, screaming... Anyway, I pulled it out and the noise and glowing stopped, but the people affected by it were still out of it.\n\nWe were approached by one of the older locals, his English was terrible, but he managed to tell me that I'd started something and that I needed to finish it or we would all be doomed.\nThat we needed to find the crystal. Honestly, just psychotic ramblings... but now that I think about it...\n\nHe said he could feel the other two \"seals\" as he called them. That one was on the container ship, and the other on the plane.\n\nThen he started screaming...\n\nI freaked out and Sarah had to take over... she sent the brothers to the container ship and went to the plane herself. She told me to \"hold down the fort\"… Fuck.\n\nThen it got worse... I heard more screaming, but it was different. I went to go look and one of the crazy locals attacked me...\n\nI'm bleeding, bad...\n\nI can barely move any more - but if someone finds this, you need to find the \"seals\".\n1. My best guess is that if it is in the plane, then it will be in the cargo hold. That would track with the local myth about why the plane went down.\n2. I have no idea where it might be in the container ship, but maybe the Pirates have it?\n\nI'm sorry I couldn't help more... but you need to find them. Once you have them place them in the door. Then find the Crystal...\n\nMaybe that'll fix this?",
+            "m_MenuTextQuestDesc": "I don't know where to start... I'm fucking trembling as I write this.\n\n[Following section is circled]\n\nI can barely move any more - but if someone finds this, you need to find the \"seals\".\n1.The first seal is on the podium next to me, you should insert it first.\n2. My best guess is that if it is in the plane, then it will be in the cargo hold. That would track with the local myth about why the plane went down.\n3. I have no idea where it might be in the container ship, but maybe the Pirates have it?\n\nI'm sorry I couldn't help more... but you need to find them. Once you have them place them in the door. Then find the Crystal...\n\nMaybe that'll fix this?\n\n[Circled section ends]\n\n...and rambling in a goddamn hand written note, what's wrong with me?\n\nAnyway, I'm not sure who will find this, maybe the new guy? Doesn't fucking matter... something is very wrong here!\n\nWhile digging around the entrance of the ruins I found something, an artifact, that fit one of the indents on the door. When I went to place it the thing started glowing and spinning... emitting some crazy noise - some real sci-fi shit. Then some of the locals started going mad, screaming... Anyway, I pulled it out and the noise and glowing stopped, but the people affected by it were still out of it.\n\nWe were approached by one of the older locals, his English was terrible, but he managed to tell me that I'd started something and that I needed to finish it or we would all be doomed.\nThat we needed to find the crystal. Honestly, just psychotic ramblings... but now that I think about it...\n\nHe said he could feel the other two \"seals\" as he called them. That one was on the container ship, and the other on the plane.\n\nThen he started screaming...\n\nI freaked out and Sarah had to take over... she sent the brothers to the container ship and went to the plane herself. She told me to \"hold down the fort\"… Fuck.\n\nThen it got worse... I heard more screaming, but it was different. I went to go look and one of the crazy locals attacked me...\n\nI'm bleeding, bad...",
             "m_MenuTextQuestName": "Something's very wrong here"
           }
         },
@@ -390,7 +355,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0223775, 0.6592448, 0.3158549, 0.1458673, 0.6642448, 0.3841419]],
+            "m_EntityComponentsExtents": [69, [0.0223775, 0.6592449, 0.3158549, 0.1458673, 0.6642449, 0.3841419]],
             "m_Name": [12, "rs_islands_q2_crystal_fake_out"],
             "m_PcId": [6, 36],
             "m_PrefabName": [12, "switch"],
@@ -415,7 +380,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.6428146, 5.499999, 0.3632926, 17.6213607, 6.0000009, 16.2223854]],
+            "m_EntityComponentsExtents": [69, [-0.6428146, 5.4999985, 0.3632926, 17.6213588, 6.0000004, 16.2223854]],
             "m_Name": [12, "rs_islands_q1_max_search_area"],
             "m_PcId": [6, 37],
             "m_PrefabName": [12, "area_marker"],
@@ -429,7 +394,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.5569267, 6.999999, -3.6015567, 12.056323, 7.499999, 9.202836]],
+            "m_EntityComponentsExtents": [69, [-0.5569267, 6.9999995, -3.6015567, 12.056323, 7.4999995, 9.2028369]],
             "m_Name": [12, "rs_islands_q1_plane_entrance_search_area"],
             "m_PcId": [6, 38],
             "m_PrefabName": [12, "area_marker"],
@@ -444,7 +409,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [2.9316716, 1.7500011, 10.1199169, 7.130814, 2.2500011, 24.9982471]],
+            "m_EntityComponentsExtents": [69, [2.9316711, 1.7500011, 10.1199188, 7.1308135, 2.2500011, 24.998249]],
             "m_Name": [12, "rs_islands_q1_plane_seal_search_area"],
             "m_PcId": [6, 39],
             "m_PrefabName": [12, "area_marker"],
@@ -459,7 +424,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-3.5365447, 7.0, -1.8419723, 14.5609607, 7.5, 12.2216434]],
+            "m_EntityComponentsExtents": [69, [-3.5365443, 6.9999995, -1.8419723, 14.5609569, 7.4999995, 12.2216405]],
             "m_Name": [12, "rs_islands_q1_ship_entrance_search_area"],
             "m_PcId": [6, 40],
             "m_PrefabName": [12, "area_marker"],
@@ -474,7 +439,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [1.4449462, 11.9999828, -28.8159313, 15.4754962, 12.5000133, 50.4413299]],
+            "m_EntityComponentsExtents": [69, [1.4449462, 11.9999828, -28.8159313, 15.4754943, 12.5000133, 50.4413299]],
             "m_Name": [12, "rs_islands_q1_ship_seal_search_area"],
             "m_PcId": [6, 41],
             "m_PrefabName": [12, "area_marker"],
@@ -489,7 +454,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195729, 0.230906, 0.0690794, 1.5195729, 0.270789]],
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.2707889]],
             "m_Name": [12, "rs_islands_q2_demolisher_spawn_point"],
             "m_PcId": [6, 42],
             "m_PrefabName": [12, "ai_spawn_point_init"],
@@ -497,13 +462,13 @@
             "m_Translate": [14, [261.3880004, 0.2000001, 88.5031967]]
           },
           "Fields": {
-            "m_BehaviorName": "no_state_ft_go_out_modern_doorframe_01"
+            "m_BehaviorName": "multiactivity_distance_static_dmr_stand_in_cage_01"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
             "m_Name": [12, "rs_islands_q1_ship_invoke_point"],
             "m_PcId": [6, 43],
             "m_PrefabName": [12, "spawnpoint"],
@@ -514,7 +479,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
             "m_Name": [12, "rs_islands_q1_plane_invoke_point"],
             "m_PcId": [6, 44],
             "m_PrefabName": [12, "spawnpoint"],
@@ -524,7 +489,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5000001, 0.5, 0.5000001]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.5000001, 0.0, 0.5, 0.5000001, 0.5000001]],
             "m_Name": [12, "rs_islands_q2_ai_spawner_ruins_1"],
             "m_PcId": [6, 45],
             "m_PrefabName": [12, "ai_spawner_number"],
@@ -546,7 +511,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5000001]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.4999999, 0.5, 0.5]],
             "m_Name": [12, "rs_islands_q2_ai_spawner_ruins_2"],
             "m_PcId": [6, 47],
             "m_PrefabName": [12, "ai_spawner_number"],
@@ -593,7 +558,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.4999999, 0.4999999, 0.4999999]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
             "m_Name": [12, "rs_islands_q1_ship_boss"],
             "m_PcId": [6, 50],
             "m_PrefabName": [12, "ai_spawner_number"],
@@ -606,7 +571,7 @@
             "m_NumOfAIsToSpawn": "1",
             "m_PointsSource": "2",
             "m_Preset": "Character;Bandit_Two_Handed_Flooded_Gang_Boss",
-            "m_SelfActive": "1"
+            "m_SelfActive": "0"
           },
           "EmbeddedObject": {
             "Class": "UserDefinedDifficultyRange",
@@ -617,7 +582,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195727, 0.230906, 0.0690794, 1.5195727, 0.2707889]],
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195729, 0.230906, 0.0690794, 1.5195729, 0.270789]],
             "m_Name": [12, "rs_islands_q1_ship_boss_spawn_point"],
             "m_PcId": [6, 51],
             "m_PrefabName": [12, "ai_spawn_point_init"],
@@ -642,7 +607,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
             "m_Name": [12, "rs_islands_q2_ruins_invoke_point"],
             "m_PcId": [6, 53],
             "m_PrefabName": [12, "spawnpoint"],
@@ -653,7 +618,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
             "m_Name": [12, "rs_islands_q2_ruins_invoke_point_2"],
             "m_PcId": [6, 54],
             "m_PrefabName": [12, "spawnpoint"],
@@ -700,7 +665,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000032, 0.1600108, 0.0145719, 0.1100337]],
+            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000032, 0.1600109, 0.0145719, 0.1100338]],
             "m_Name": [12, "rs_islands_sq1_note_sarah"],
             "m_PcId": [6, 59],
             "m_PrefabName": [12, "quest_object_withbrief"],
@@ -717,7 +682,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153914, 0.0000261, 0.1600109, 0.0145757, 0.1100261]],
+            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000261, 0.1600108, 0.0145719, 0.1100261]],
             "m_Name": [12, "rs_islands_sq1_note_aaron"],
             "m_PcId": [6, 60],
             "m_PrefabName": [12, "quest_object_withbrief"],
@@ -746,6 +711,267 @@
             "SkinName": "Default",
             "m_MenuTextQuestDesc": "They caught me while I was trying to nick some meds... and fucking stabbed me too. I think they severed the artery in my leg... I can barely walk - there's no way I'll be able to make it back to you.\n\nI guess you'll probably find this when you come looking for me later, hey, at least I tried, right? So don't go blaming me for this nonsense when you tell mom about it later, yeah?\n\nAnyway, I'm sorry Aaron...",
             "m_MenuTextQuestName": "I'm sorry Aaron"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_Name": [12, "rs_islands_q1_cave_sequence"],
+            "m_PcId": [6, 62],
+            "m_PrefabName": [12, "rs_islands_ruin_door_sequencer"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0072238, 0.3166789, -0.0515863, 0.3523893, 0.3085487, 0.0288945]],
+            "m_Name": [12, "rs_islands_q1_cave_sequence_audio"],
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "ape_bub"],
+            "m_PresetNames": [12, "Audio_bub;pump_engine_loop_underwater"],
+            "m_Translate": [14, [161.1201934, 7.8310804, 50.6094932]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "rs_islands_ruin_door_demolisher_sequencer"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_islands_q2_demolisher_door_effect"],
+            "m_PcId": [6, 65],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;bridge_impact_dust"],
+            "m_Translate": [14, [257.485382, 0.1999921, 88.3550872]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0072238, 0.3166789, -0.0515863, 0.3523893, 0.3085487, 0.0288945]],
+            "m_Name": [12, "rs_islands_q2_demolisher_door_audio"],
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "ape_bub"],
+            "m_PresetNames": [12, "Audio_bub;metal_footbridge_destroy"],
+            "m_Translate": [14, [257.4658508, 0.1999918, 88.3240509]]
+          },
+          "Fields": {
+            "ActiveRadius": "20.000000",
+            "m_SelfActive": "0",
+            "m_UseAutoRadius": "0",
+            "m_playOnce": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.0762704, 0.0736729, 0.0725375]],
+            "m_Name": [12, "rs_islands_q1_plane_blockage_effect"],
+            "m_PcId": [6, 67],
+            "m_PrefabName": [12, "gpufx_emitter"],
+            "m_PresetNames": [12, "FXes;underwater_fog_2m_area"],
+            "m_Rotate": [14, [-180.0, 73.5, -180.0]],
+            "m_Translate": [14, [-74.234642, -10.1557331, 222.5277557]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "rs_islands_q1_plane_blockage_sequencer"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_1"],
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-180.0, -75.0000228, -180.0]],
+            "m_Translate": [14, [313.3244018, -9.0700197, -290.7142028]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_2"],
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [180.0, 29.9999904, -180.0]],
+            "m_Translate": [14, [282.0358886, 0.5342382, -286.4242858]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_3"],
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000024]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [314.0316162, 0.4328005, -310.5054626]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_4"],
+            "m_PcId": [6, 73],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [180.0, -0.0000098, 179.9999847]],
+            "m_Scale": [14, [0.9999992, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [304.7967224, 1.3258899, -348.9304504]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_5"],
+            "m_PcId": [6, 74],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-0.0000049, 0.0000058, -0.0000223]],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [295.9605102, 6.1347084, -330.0728759]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_6"],
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-179.9999847, -60.000019, 179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999989]],
+            "m_Translate": [14, [300.2668762, 0.421898, -262.5314941]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_2_area"],
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [-0.0, 75.0000076, -0.0]],
+            "m_Scale": [14, [3.8311629, 3.4032998, 5.4683361]],
+            "m_Translate": [14, [283.3114929, -1.8256236, -286.7398986]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_3_area"],
+            "m_PcId": [6, 77],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [-180.0, 14.9999837, -180.0]],
+            "m_Scale": [14, [3.8311622, 3.8442718, 6.9651694]],
+            "m_Translate": [14, [319.261444, -1.2876271, -311.6416931]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_4_area"],
+            "m_PcId": [6, 78],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [179.9999847, 14.9999818, 179.9999847]],
+            "m_Scale": [14, [3.7692782, 3.8442711, 4.0645174]],
+            "m_Translate": [14, [303.6994628, 1.035822, -348.9532775]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_5_area"],
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [179.9999847, 14.9999818, 179.9999847]],
+            "m_Scale": [14, [4.6500563, 3.8442707, 4.0645165]],
+            "m_Translate": [14, [296.923767, 5.6464939, -331.0834045]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_6_area"],
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [179.9998931, -75.0000076, 179.9999237]],
+            "m_Scale": [14, [4.6500563, 3.8442702, 4.0645155]],
+            "m_Translate": [14, [299.8402099, 0.442615, -262.4591064]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "rs_islands_q1_ship_checkpoint_7"],
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-179.9999694, -45.0000152, 179.9999847]],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999988]],
+            "m_Translate": [14, [302.4269409, 13.1010112, -289.0184326]]
+          },
+          "Fields": {
+            "m_SelfActive": "0"
           }
         }
       ]
