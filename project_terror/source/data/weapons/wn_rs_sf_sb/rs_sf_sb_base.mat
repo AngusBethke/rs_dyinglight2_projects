@@ -1,0 +1,8 @@
+sub material()
+{
+  preset("opaque;cast_shadows_def;cast_shadows_on;dif_0_tex;dissolve_ud_on;fpp_scale_on;nrm_0_tex;rgh_0_tex;spc_0_tex;static_on;");
+  dif_0_tex("rs_sf_sb_base_dif.png");
+  nrm_0_tex("rs_sf_sb_base_nrm.png");
+  rgh_0_tex("rs_sf_sb_base_rgh.png");
+  spc_0_tex("rs_sf_sb_base_spc.png");
+}

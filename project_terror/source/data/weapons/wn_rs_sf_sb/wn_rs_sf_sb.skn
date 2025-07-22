@@ -1,0 +1,10 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("rs_sf_sb_base.mat", "rs_sf_sb_base.mat")
+    Replace("rs_sf_sb_hologram.mat", "rs_sf_sb_hologram.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Unknown", "Unknown", "")
+}
