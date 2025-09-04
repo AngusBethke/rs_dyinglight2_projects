@@ -15,6 +15,7 @@
 !/ProjectSource
 !/project_adventure
 !/project_terror
+!/project_winter
 
 # Ensure prefabs are not included
 **/prefabs
@@ -36,3 +37,6 @@ screeshot*.tga
 
 # Ensure generated LODs are not included
 **/source/data/citybuilder/lods/**/*
+
+# Ensure extracted textures are not included
+**/textures_export/**/*

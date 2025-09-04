@@ -1,0 +1,10 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("ph_monkey_bar_a.mat", "ph_monkey_bar_a.mat")
+    Replace("ph_monkey_bar_decal_a.mat", "ph_monkey_bar_decal_a.mat")
+
+    ReplaceSurface("Metal", "", "")
+    ReplaceSurface("Plastic", "", "")
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7173258325684581501">
+	<Logic type="Story::CampaignLogic">
+		<Attribute name="m_IndicatorType" value=""/>
+		<Attribute name="m_ShowIndicator" value="1"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value="Default"/>
+		</Object>
+	</Logic>
+	<Node type="Actions::Node" uid="7173258327056850919">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="750" y="0"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7173258325730144575">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="0" y="0"/>
+		</Editor>
+	</Node>
+	<Connect start="7173258325730144575" output="Out" input="In:Start" end="7173258486043333727">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::QuestLogic"/>
+	</Connect>
+	<Node file="missing_wallet.quest">
+		<Editor>
+			<Position x="255" y="-15"/>
+		</Editor>
+	</Node>
+	<Connect start="7173258486043333727" output="Out:End" input="In" end="7173258327056850919">
+		<Start class="Story::QuestLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+</Node>
+

@@ -1,0 +1,33 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("dummy.mat", "dummy.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Stone", "Unknown", "")
+}
+
+Skin("Rooftop")
+{
+    Replace("dummy.mat", "dummy.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Stone", "Unknown", "")
+}
+
+Skin("Medium")
+{
+    Replace("dummy.mat", "dummy.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Stone", "Unknown", "")
+}
+
+Skin("DarkZone_Valuables")
+{
+    Replace("dummy.mat", "dummy.mat")
+
+//    ReplaceSurface(<old surface id>, <new surface id>, <surface flags>)
+    ReplaceSurface("Stone", "Unknown", "")
+}
