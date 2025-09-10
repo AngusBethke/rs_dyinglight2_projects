@@ -1,0 +1,81 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Railing",
+            "Init": "f:EDIT;e:EDIT|SLIDER;l:Railing;c:Skins;d:;a:gap(1) ;m:0;x:255;s:1;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "GradientMapV"
+              },
+              {
+                "Uuid": "3",
+                "Name": "GradientMapV"
+              },
+              {
+                "Uuid": "4",
+                "Name": "GradientMapV"
+              }
+            ]
+          },
+          {
+            "Name": "GradientMapV",
+            "Init": "f:EDIT;e:EDIT|SLIDER;l:GradientMapV;c:Skins;d:;a:gap(1) ;m:0;x:255;s:1;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "GradientMapV"
+              },
+              {
+                "Uuid": "4",
+                "Name": "GradientMapV"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.9327476, 0.5034962, -0.9456471, 0.9882495, 0.5051738, 1.000647]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_balcony_railing_cor_1x1_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-0.0000228, 0.0, -0.0000152]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000945, 0.5034962, 5.21540641784668e-8, 0.9649999, 0.5051738, 0.055]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_balcony_railing_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0000049, -0.0]],
+            "m_Translate": [14, [2.8799829, 0.0, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000945, 0.5034962, 5.21540641784668e-8, 0.9649999, 0.5051738, 0.055]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_balcony_railing_str_1x_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-0.0000076, 0.0, -2.8800051]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

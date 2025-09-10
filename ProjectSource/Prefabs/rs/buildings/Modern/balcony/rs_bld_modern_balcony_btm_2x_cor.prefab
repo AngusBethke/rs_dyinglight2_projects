@@ -1,0 +1,62 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Ceiling",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling;",
+            "DestinationFields": [
+              {
+                "Uuid": "10",
+                "Name": "Ceiling"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_bld_modern_balcony_2x_ledge"],
+            "m_Translate": [14, [-0.0002054, 0.0, 1.9195102]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_modern_balcony_2x_ledge"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-1.920212, 0.0, -0.0004873]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_modern_balcony_0x_ledge_cor"],
+            "m_Rotate": [14, [0.0, 0.0000048, -0.0]],
+            "m_Scale": [14, [1.0000008, 1.0000003, 1.0000007]],
+            "m_Translate": [14, [-1.9201829, -1.6756766285652703e-7, 1.9195876]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x"],
+            "m_Scale": [14, [1.0000003, 1.0000007, 1.0000007]],
+            "m_Translate": [14, [0.0000152, 0.0000019, -0.0000152]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
