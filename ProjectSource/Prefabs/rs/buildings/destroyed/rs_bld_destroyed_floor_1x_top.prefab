@@ -1,0 +1,94 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0012849, -0.1566496, 0.2689065, 0.9783533, 0.1633498, 0.7110936]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_damage_btm_1x_b"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Rotate": [14, [-180.0, 0.0, -180.0]],
+            "m_Translate": [14, [-9.5367431640625e-7, 1.1920923981278975e-7, 0.0]]
+          },
+          "Fields": {
+            "SkinName": "prp_debris_pile_tile_a"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 4, 6, 7, 8],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.7861616, -0.1517281, -0.0012851, 0.1938382, 0.1682716, 0.9783536]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_damage_left_1x_a"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [0.0002732, 1.1920923981278975e-7, -0.0001366]]
+          },
+          "Fields": {
+            "SkinName": "prp_debris_pile_tile_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.4245193, -0.1420504, -0.0004153, 0.5563861, 0.1779492, 0.9805566]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_damage_left_1x_b"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-9.5367431640625e-7, 1.1920923981278975e-7, 0.0]]
+          },
+          "Fields": {
+            "SkinName": "prp_debris_pile_tile_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0012848, -0.1564497, -0.5794137, 0.9783535, 0.1635499, 0.400586]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_damage_top_1x_b"],
+            "m_RandomizationWeight": [6, 25],
+            "m_Rotate": [14, [0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [-9.5367431640625e-7, 1.1920923981278975e-7, 0.0]]
+          },
+          "Fields": {
+            "SkinName": "prp_debris_pile_tile_a"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

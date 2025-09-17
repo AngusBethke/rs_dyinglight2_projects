@@ -1,0 +1,84 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Include",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Include;c:Nature;",
+            "DestinationFields": [
+              {
+                "Uuid": "10",
+                "Name": "Include"
+              },
+              {
+                "Uuid": "4",
+                "Name": "Include"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall"],
+            "m_Scale": [14, [0.9999991, 0.9999991, 0.9999991]],
+            "m_Translate": [14, [1.9203623, 0.0, -0.9599912]]
+          },
+          "Fields": {
+            "IncludeOrnaments": "No",
+            "Wall": "brick_plaster_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1561794, 0.5520133, -1.8295068, 2.6211133, 0.6700373, 2.9225835]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;backyard_debris_d"],
+            "m_Rotate": [14, [74.9999465, 0.0, -0.0]],
+            "m_Scale": [14, [0.799996, 0.7999944, 0.799996]],
+            "m_Translate": [14, [1.9203412, 0.233059, -0.7594909]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1561794, 0.5520135, -1.8295073, 2.6211133, 0.6700375, 2.922584]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;backyard_debris_d"],
+            "m_Rotate": [14, [179.9999847, 89.9802169, -74.9996948]],
+            "m_Scale": [14, [0.7999951, 0.7999929, 0.799996]],
+            "m_Translate": [14, [3.4384078, 2.1662483, -1.0093077]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_bld_destroyed_floor_2x"],
+            "m_Scale": [14, [0.9999961, 0.9999961, 0.999992]],
+            "m_Seed": [6, 3040545999],
+            "m_Translate": [14, [1.9203412, 0.0, 0.0002893]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_bld_destroyed_facade_2x_base_nature_config"]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
