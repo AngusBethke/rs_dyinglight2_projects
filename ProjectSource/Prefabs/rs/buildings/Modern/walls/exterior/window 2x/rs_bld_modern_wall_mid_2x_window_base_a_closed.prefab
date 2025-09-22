@@ -1,0 +1,56 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SkinName"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeBlockage;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "IncludeBlockage"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0005662, 1.9102393, 0.2148105, 1.9299268, 1.985128, 0.1106894]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_wall_str_2x1h_b_default_a"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Scale": [14, [0.9999998, 0.9999998, 0.9999988]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window_base_a_blockage_optional"],
+            "m_Scale": [14, [1.0000002, 1.0000002, 1.0000007]],
+            "m_Translate": [14, [-0.0003842, -4.768372150465439e-7, 0.0001677]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
