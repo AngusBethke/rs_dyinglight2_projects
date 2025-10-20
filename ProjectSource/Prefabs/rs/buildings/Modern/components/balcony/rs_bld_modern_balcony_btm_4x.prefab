@@ -2,6 +2,24 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Ceiling",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Ceiling"
+              },
+              {
+                "Uuid": "8",
+                "Name": "Ceiling"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -16,8 +34,8 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 8],
             "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x"],
-            "m_Scale": [14, [1.0000004, 1.0000007, 1.0000007]],
-            "m_Translate": [14, [1.9199838, 0.0000019, -0.0000076]]
+            "m_Scale": [14, [1.0000003, 1.0000007, 1.0000007]],
+            "m_Translate": [14, [1.9199837, 0.0000019, -0.0000076]]
           }
         },
         {
@@ -25,8 +43,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x"],
-            "m_Scale": [14, [1.0000003, 1.0000005, 1.0000005]],
-            "m_Translate": [14, [-1.9200143, 0.0000019, -0.0000076]]
+            "m_Translate": [14, [-1.9200141, 0.0000019, -0.0000076]]
           }
         }
       ]

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Header>
+	<Version value="3"/>
+</Header>
+<Quest>
+	<StoryData>
+		<Node type="Actions::Group" uid="7561458057103961433">
+			<Logic type="Story::CampaignLogic">
+				<Attribute name="m_IndicatorType" value=""/>
+				<Attribute name="m_ShowIndicator" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<InputSubIdEntries>
+				<InputSubIdEntry connectorLogicNodeUid="7561458055485763118" subId="0"/>
+			</InputSubIdEntries>
+			<OutputSubIdEntries>
+				<OutputSubIdEntry connectorLogicNodeUid="7561458056965905676" subId="0"/>
+			</OutputSubIdEntries>
+			<Node file="the_night_before.quest"/>
+			<Connect start="7561458343843736266" output="Out:End" input="In" end="7561458056965905676">
+				<Start class="Story::QuestLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7561458056965905676">
+				<Logic type="Actions::EndLogic"/>
+			</Node>
+			<Node type="Actions::Node" uid="7561458055485763118">
+				<Logic type="Actions::StartLogic"/>
+			</Node>
+			<Connect start="7561458055485763118" output="Out" input="In:Start" end="7561458343843736266">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+		</Node>
+	</StoryData>
+	<EditorData>
+		<EditorNode uid="7561458055485763118">
+			<Position x="-600" y="0"/>
+		</EditorNode>
+		<EditorNode file="the_night_before.quest">
+			<Position x="-150" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7561458056965905676">
+			<Position x="450" y="0"/>
+		</EditorNode>
+	</EditorData>
+</Quest>
+

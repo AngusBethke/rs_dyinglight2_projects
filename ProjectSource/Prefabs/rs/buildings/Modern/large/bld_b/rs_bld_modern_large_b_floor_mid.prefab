@@ -2,12 +2,421 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "WindowType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "1",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "2",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "5",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "6",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "8",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "9",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "12",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "13",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "15",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "16",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "18",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "32",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "33",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "35",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "36",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "38",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "39",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "52",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "53",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "55",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "56",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "58",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "59",
+                "Name": "WindowType"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "31",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "3",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "4",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "7",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "10",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "11",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "14",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "17",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "20",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "34",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "37",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "40",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "51",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "54",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "57",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "60",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "19",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "1",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "2",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "5",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "6",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "8",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "9",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "12",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "13",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "18",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "32",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "33",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "35",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "36",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "38",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "39",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "52",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "53",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "55",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "56",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "58",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "59",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "63",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "61",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "62",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "64",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Front_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Front_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "59",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "58",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "56",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "55",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "53",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "52",
+                "Name": "IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Left_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Left_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "2",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "5",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "6",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "8",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "9",
+                "Name": "IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Right_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "39",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "38",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "36",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "35",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "33",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "32",
+                "Name": "IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Back_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Back_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "18",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "16",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "15",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "13",
+                "Name": "IncludeBlockage"
+              },
+              {
+                "Uuid": "12",
+                "Name": "IncludeBlockage"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
+            "m_Seed": [6, 3722276144],
             "m_Translate": [14, [11.5204696, -9.5367431640625e-7, 15.3597564]]
           }
         },
@@ -16,6 +425,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
+            "m_Seed": [6, 220149208],
             "m_Translate": [14, [7.6804809, -9.5367431640625e-7, 15.3597564]]
           }
         },
@@ -40,6 +450,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 5],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
+            "m_Seed": [6, 3207515526],
             "m_Translate": [14, [1.9204788, -9.5367431640625e-7, 15.3597564]]
           }
         },
@@ -48,6 +459,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
+            "m_Seed": [6, 4243243356],
             "m_Translate": [14, [-1.9195175, -9.5367431640625e-7, 15.3597564]]
           }
         },
@@ -64,6 +476,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 8],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
+            "m_Seed": [6, 1375761405],
             "m_Translate": [14, [-7.6795196, -9.5367431640625e-7, 15.3597564]]
           }
         },
@@ -73,6 +486,7 @@
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Scale": [14, [0.9999986, 0.9999986, 0.9999985]],
+            "m_Seed": [6, 1239979953],
             "m_Translate": [14, [-11.5195159, -9.5367431640625e-7, 15.3597564]]
           }
         },
@@ -99,6 +513,7 @@
             "m_PcId": [6, 12],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Seed": [6, 966822287],
             "m_Translate": [14, [-15.3596115, -9.5367431640625e-7, 11.5200195]]
           }
         },
@@ -108,6 +523,7 @@
             "m_PcId": [6, 13],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Seed": [6, 3787511608],
             "m_Translate": [14, [-15.3596115, -9.5367431640625e-7, 7.6800384]]
           }
         },
@@ -127,7 +543,8 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
-            "m_Translate": [14, [-15.3596115, -9.5367431640625e-7, 1.9200286]]
+            "m_Seed": [6, 2791582447],
+            "m_Translate": [14, [-15.3596115, -9.5367431640625e-7, 1.9200284]]
           }
         },
         {
@@ -137,6 +554,7 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
+            "m_Seed": [6, 2409071401],
             "m_Translate": [14, [-15.3596115, -9.5367431640625e-7, -1.9199676]]
           }
         },
@@ -156,6 +574,7 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
+            "m_Seed": [6, 1804670344],
             "m_Translate": [14, [-15.3596115, -9.5367431640625e-7, -7.6799621]]
           }
         },
@@ -166,6 +585,7 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
+            "m_Seed": [6, 2385271305],
             "m_Translate": [14, [-15.3596115, -9.5367431640625e-7, -11.5199584]]
           }
         },
@@ -183,7 +603,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 31],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_1x_wall"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
             "m_Translate": [14, [-14.3994064, -9.5367431640625e-7, -15.3602752]]
           }
         },
@@ -192,7 +612,8 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 32],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Seed": [6, 411493312],
             "m_Translate": [14, [-11.5198669, -9.5367431640625e-7, -15.3600616]]
           }
         },
@@ -201,7 +622,8 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 33],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Seed": [6, 2007475778],
             "m_Translate": [14, [-7.6798706, -9.5367431640625e-7, -15.3600616]]
           }
         },
@@ -210,7 +632,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 34],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_1x_wall"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
             "m_Translate": [14, [-4.7994079, -9.5367431640625e-7, -15.3602752]]
           }
         },
@@ -219,8 +641,9 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 35],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
-            "m_Scale": [14, [0.9999985, 0.9999984, 0.9999985]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.9999985, 0.9999982, 0.9999985]],
+            "m_Seed": [6, 3728348301],
             "m_Translate": [14, [-1.9198608, -9.5367431640625e-7, -15.3600616]]
           }
         },
@@ -229,9 +652,10 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 36],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
-            "m_Scale": [14, [0.9999985, 0.9999984, 0.9999985]],
-            "m_Translate": [14, [1.9201354, -9.5367431640625e-7, -15.3600616]]
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.9999985, 0.9999982, 0.9999985]],
+            "m_Seed": [6, 4223289000],
+            "m_Translate": [14, [1.9201351, -9.5367431640625e-7, -15.3600616]]
           }
         },
         {
@@ -239,7 +663,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 37],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_1x_wall"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
             "m_Translate": [14, [4.8005981, -9.5367431640625e-7, -15.3602752]]
           }
         },
@@ -248,8 +672,9 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 38],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
-            "m_Scale": [14, [0.9999985, 0.9999984, 0.9999985]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.9999985, 0.9999982, 0.9999985]],
+            "m_Seed": [6, 562139399],
             "m_Translate": [14, [7.68013, -9.5367431640625e-7, -15.3600616]]
           }
         },
@@ -258,8 +683,9 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 39],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
-            "m_Scale": [14, [0.9999985, 0.9999984, 0.9999974]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.9999985, 0.9999982, 0.9999973]],
+            "m_Seed": [6, 2781182609],
             "m_Translate": [14, [11.5201263, -9.5367431640625e-7, -15.3600616]]
           }
         },
@@ -268,7 +694,7 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 40],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_1x_wall"],
-            "m_Rotate": [14, [179.9999847, 0.0000047, 179.9999847]],
+            "m_Rotate": [14, [179.9999847, 0.0000046, 179.9999847]],
             "m_Translate": [14, [14.4005813, -9.5367431640625e-7, -15.3602752]]
           }
         },
@@ -289,6 +715,7 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
+            "m_Seed": [6, 2170484889],
             "m_Translate": [14, [15.3602371, -9.5367431640625e-7, -11.5203247]]
           }
         },
@@ -299,6 +726,7 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
+            "m_Seed": [6, 449203237],
             "m_Translate": [14, [15.3602371, -9.5367431640625e-7, -7.6803283]]
           }
         },
@@ -319,6 +747,7 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
+            "m_Seed": [6, 3625838896],
             "m_Translate": [14, [15.3602371, -9.5367431640625e-7, -1.9203186]]
           }
         },
@@ -329,7 +758,8 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999986]],
-            "m_Translate": [14, [15.3602371, -9.5367431640625e-7, 1.9196624]]
+            "m_Seed": [6, 4274538126],
+            "m_Translate": [14, [15.3602371, -9.5367431640625e-7, 1.9196623]]
           }
         },
         {
@@ -349,6 +779,7 @@
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
             "m_Scale": [14, [0.9999985, 0.9999986, 0.9999976]],
+            "m_Seed": [6, 1361429945],
             "m_Translate": [14, [15.3602371, -9.5367431640625e-7, 7.6796569]]
           }
         },
@@ -358,7 +789,8 @@
             "m_PcId": [6, 59],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_2x_window"],
             "m_Rotate": [14, [0.0, 90.0, -0.0000048]],
-            "m_Scale": [14, [0.9999975, 0.9999986, 0.9999976]],
+            "m_Scale": [14, [0.9999973, 0.9999986, 0.9999976]],
+            "m_Seed": [6, 506482157],
             "m_Translate": [14, [15.3602371, -9.5367431640625e-7, 11.5196533]]
           }
         },

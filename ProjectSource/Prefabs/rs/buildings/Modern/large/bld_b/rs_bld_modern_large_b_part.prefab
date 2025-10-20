@@ -1,0 +1,213 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Damage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Damage;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "14",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "WindowType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "15",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "16",
+                "Name": "WindowType"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Btm",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Balcony_Btm"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Top",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Top;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Balcony_Top"
+              }
+            ]
+          },
+          {
+            "Name": "Front_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Front_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Front_IncludeBlockage"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Front_IncludeBlockage"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Front_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Left_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Left_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Left_IncludeBlockage"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Left_IncludeBlockage"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Right_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Right_IncludeBlockage"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Right_IncludeBlockage"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Back_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Back_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "12",
+                "Name": "Back_IncludeBlockage"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Back_IncludeBlockage"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Back_IncludeBlockage"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_modern_large_b_part_a"],
+            "m_Translate": [14, [-0.0004299, 0.0, 0.0004873]]
+          },
+          "Fields": {
+            "Front_IncludeBlockage": ""
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 12, 15, 16],
+            "m_PcId": [6, 14]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Half"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_bld_modern_large_b_part_b"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0004299, 0.0, 0.0004873]]
+          },
+          "Fields": {
+            "Balcony_Btm": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Damaged"],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_bld_modern_large_b_part_c"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0004299, 0.0, 0.0004873]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
