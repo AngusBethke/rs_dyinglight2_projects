@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Header>
+	<Version value="2"/>
+</Header>
+<Quest>
+	<StoryData>
+		<Node type="Actions::Group" uid="7383300329829326427">
+			<Logic type="Story::CampaignLogic">
+				<Attribute name="m_IndicatorType" value=""/>
+				<Attribute name="m_ShowIndicator" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<Node type="Actions::Node" uid="7383300330451306258">
+				<Logic type="Actions::StartLogic"/>
+			</Node>
+			<Connect start="7383300330451306258" output="Out" input="In:Start" end="7383300411849790031">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node file="q0_setup.quest"/>
+			<Connect start="7383300411849790031" output="Out:End" input="In" end="7383300331308887664">
+				<Start class="Story::QuestLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7383300331308887664">
+				<Logic type="Actions::EndLogic"/>
+			</Node>
+		</Node>
+	</StoryData>
+	<EditorData>
+		<EditorNode uid="7383300330451306258">
+			<Position x="-435" y="0"/>
+		</EditorNode>
+		<EditorNode file="q0_setup.quest">
+			<Position x="-150" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7383300331308887664">
+			<Position x="225" y="0"/>
+		</EditorNode>
+	</EditorData>
+</Quest>
+

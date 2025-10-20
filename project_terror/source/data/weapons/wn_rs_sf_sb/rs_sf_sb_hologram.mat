@@ -1,9 +1,7 @@
 sub material()
 {
-  preset("opaque;cast_shadows_def;cast_shadows_on;dif_0_tex;dissolve_ud_on;ems_0_tex;fpp_scale_on;nrm_0_tex;rgh_0_tex;spc_0_tex;static_on;");
+  preset("opaque;dif_0_tex;ems_0_tex;opc_0_tex;");
   dif_0_tex("rs_sf_sb_hologram_dif.png");
-  nrm_0_tex("rs_sf_sb_hologram_nrm.png");
-  rgh_0_tex("rs_sf_sb_hologram_rgh.png");
-  spc_0_tex("rs_sf_sb_hologram_dif.png");
   ems_0_tex("rs_sf_sb_hologram_ems.png");
+  opc_0_tex("rs_sf_sb_hologram_opc.png");
 }

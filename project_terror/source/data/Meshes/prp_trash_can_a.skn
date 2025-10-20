@@ -1,0 +1,26 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("prp_trash_can_a.mat", "prp_trash_can_a.mat")
+
+    ReplaceSurface("Unknown", "", "")
+}
+
+
+
+Skin("sur_sens")
+{
+    Replace("prp_trash_can_a.mat", "sur_sens.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+    ReplaceSurface("Unknown", "", "")
+}
+
+Skin("sur_sens_debug")
+{
+    Replace("prp_trash_can_a.mat", "sur_sens$npp.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+    ReplaceSurface("Unknown", "", "")
+}
