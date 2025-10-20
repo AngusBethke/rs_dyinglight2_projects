@@ -33,6 +33,10 @@
 				<Start class="Actions::StartLogic"/>
 				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
+			<Connect start="7524777394807111299" output="Out" input="In" end="7530284385960092049">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::PlaySequenceLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7524793929807204996">
 				<Logic type="Story::StartObjectiveLogic">
 					<Attribute name="m_ObjectiveId" value="7524793063435387717"/>
@@ -47,6 +51,19 @@
 				<Start class="Story::StartObjectiveLogic"/>
 				<End class="Story::TakeItemLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7530284385960092049">
+				<Logic type="Story::PlaySequenceLogic">
+					<Attribute name="m_PlayLooped" value="1"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_SequenceEntity">
+						<Entity name="rs_islands/~66/rs_hide_hud_sq"/>
+					</Entities>
+				</Logic>
+			</Node>
 			<Node type="Actions::Node" uid="7525022658896937365">
 				<Logic type="Story::ShowLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1521,6 +1538,9 @@
 		</EditorNode>
 		<EditorNode uid="7526100025685062115">
 			<Position x="6435" y="1425"/>
+		</EditorNode>
+		<EditorNode uid="7530284385960092049">
+			<Position x="-750" y="-300"/>
 		</EditorNode>
 	</EditorData>
 </Quest>
