@@ -1,0 +1,107 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Balcony_Btm",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Balcony_Btm"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Top",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Top;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Balcony_Top"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "WindowType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "WindowType"
+              }
+            ]
+          },
+          {
+            "Name": "Front_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Front_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Front_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Left_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Left_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Right_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Back_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Back_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Back_IncludeBlockage"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part_c_ext"],
+            "m_Translate": [14, [0.0003079, 0.0, 0.0002436]]
+          },
+          "Fields": {
+            "Balcony_Btm": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "70",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "68",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Wall_Btm",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "68",
+                "Name": "Wall_Btm"
+              }
+            ]
+          },
+          {
+            "Name": "WindowType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "70",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "68",
+                "Name": "WindowType"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeRoof",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeRoof;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "69",
+                "Name": "IncludeRoof"
+              }
+            ]
+          },
+          {
+            "Name": "Wall_Top",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Top;",
+            "DestinationFields": [
+              {
+                "Uuid": "69",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Rooftop",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Rooftop;",
+            "DestinationFields": [
+              {
+                "Uuid": "69",
+                "Name": "Rooftop"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Top",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Top;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "70",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "68",
+                "Name": "Balcony_Top"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Btm",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "70",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "68",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "69",
+                "Name": "Balcony_Btm"
+              }
+            ]
+          },
+          {
+            "Name": "Btm_Front_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Front_IncludeBlockage;c:Windows - Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "68",
+                "Name": "Front_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Btm_Left_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Left_IncludeBlockage;c:Windows - Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "68",
+                "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Btm_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Right_IncludeBlockage;c:Windows - Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "68",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Btm_Back_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Back_IncludeBlockage;c:Windows - Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "68",
+                "Name": "Back_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "1h_Front_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Front_IncludeBlockage;c:Windows - 1h;",
+            "DestinationFields": [
+              {
+                "Uuid": "70",
+                "Name": "Front_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "1h_Left_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Left_IncludeBlockage;c:Windows - 1h;",
+            "DestinationFields": [
+              {
+                "Uuid": "70",
+                "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "1h_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Right_IncludeBlockage;c:Windows - 1h;",
+            "DestinationFields": [
+              {
+                "Uuid": "70",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "1h_Back_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Back_IncludeBlockage;c:Windows - 1h;",
+            "DestinationFields": [
+              {
+                "Uuid": "70",
+                "Name": "Back_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "2h_Front_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Front_IncludeBlockage;c:Windows - 2h;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Back_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "2h_Left_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Left_IncludeBlockage;c:Windows - 2h;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "2h_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Right_IncludeBlockage;c:Windows - 2h;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "2h_Back_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Back_IncludeBlockage;c:Windows - 2h;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Front_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "1h_Damage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Damage;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "70",
+                "Name": "Damage"
+              }
+            ]
+          },
+          {
+            "Name": "2h_Damage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Damage;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Damage"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 68],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part_btm"],
+            "m_Translate": [14, [-0.0000038, 2.605259794563608e-7, 0.0]]
+          },
+          "Fields": {
+            "Wall_Btm": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part_top"],
+            "m_Translate": [14, [0.0, 61.4399909, 0.0]]
+          },
+          "Fields": {
+            "IncludeRoof": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part"],
+            "m_Seed": [6, 3541536274],
+            "m_Translate": [14, [-0.0000038, 15.3600006, 0.0]]
+          },
+          "Fields": {
+            "SELECTOR": "",
+            "WindowType": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Seed": [6, 4200553037],
+            "m_Translate": [14, [-0.0000076, 38.4000053, 0.0000152]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

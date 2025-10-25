@@ -2,6 +2,28 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "1",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "2",
+                "Name": "Wall"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -9,7 +31,7 @@
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_halfx_wall"],
             "m_Rotate": [14, [-0.0000223, -45.0000038, -0.0000092]],
-            "m_Translate": [14, [-0.3393859, -6.230629878700711e-8, 0.3805847]]
+            "m_Translate": [14, [-0.3393858, -6.230629878700711e-8, 0.3805845]]
           }
         },
         {
@@ -18,7 +40,7 @@
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_halfx_wall"],
             "m_Rotate": [14, [-0.000009, 45.0000038, -0.0000092]],
-            "m_Translate": [14, [0.339447, -6.230629878700711e-8, 0.3805847]]
+            "m_Translate": [14, [0.3394469, -6.230629878700711e-8, 0.3805845]]
           }
         },
         {
@@ -27,7 +49,7 @@
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "rs_bld_modern_wall_mid_corner"],
             "m_Rotate": [14, [0.0000223, -45.0, 0.0000092]],
-            "m_Translate": [14, [0.0000305, -6.230629878700711e-8, 0.7199859]]
+            "m_Translate": [14, [0.0000304, -6.230629878700711e-8, 0.7199859]]
           }
         }
       ]

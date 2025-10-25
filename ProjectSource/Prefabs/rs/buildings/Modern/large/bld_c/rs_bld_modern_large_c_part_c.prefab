@@ -1,0 +1,98 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall_Pillar",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Pillar;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Wall_Pillar"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "WindowType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "WindowType"
+              }
+            ]
+          },
+          {
+            "Name": "Front_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Front_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Front_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Left_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Left_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Right_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Back_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Back_IncludeBlockage;c:Windows;",
+            "DestinationFields": [
+              {
+                "Uuid": "9",
+                "Name": "Back_IncludeBlockage"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_modern_large_c_part_c_ext"],
+            "m_Translate": [14, [-0.0000532, 0.0, -0.0004567]]
+          },
+          "Fields": {
+            "Left_IncludeBlockage": "",
+            "Wall_Pillar": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

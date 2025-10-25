@@ -5,63 +5,27 @@
       "Interface": {
         "VirtualFields": [
           {
-            "Name": "IncludeRoof",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeRoof;c:Architecture;",
-            "DestinationFields": [
-              {
-                "Uuid": "83",
-                "Name": "IncludeRoof"
-              }
-            ]
-          },
-          {
-            "Name": "WindowType",
-            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowType;c:Architecture;",
-            "DestinationFields": [
-              {
-                "Uuid": "86",
-                "Name": "WindowType"
-              },
-              {
-                "Uuid": "84",
-                "Name": "WindowType"
-              },
-              {
-                "Uuid": "85",
-                "Name": "WindowType"
-              },
-              {
-                "Uuid": "87",
-                "Name": "WindowType"
-              },
-              {
-                "Uuid": "82",
-                "Name": "WindowType"
-              }
-            ]
-          },
-          {
             "Name": "Wall",
             "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
             "DestinationFields": [
               {
-                "Uuid": "85",
+                "Uuid": "71",
                 "Name": "Wall"
               },
               {
-                "Uuid": "84",
+                "Uuid": "70",
                 "Name": "Wall"
               },
               {
-                "Uuid": "86",
+                "Uuid": "72",
                 "Name": "Wall"
               },
               {
-                "Uuid": "87",
+                "Uuid": "73",
                 "Name": "Wall"
               },
               {
-                "Uuid": "82",
+                "Uuid": "68",
                 "Name": "Wall"
               }
             ]
@@ -71,8 +35,120 @@
             "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Btm;",
             "DestinationFields": [
               {
-                "Uuid": "82",
+                "Uuid": "68",
                 "Name": "Wall_Btm"
+              }
+            ]
+          },
+          {
+            "Name": "WindowType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:WindowType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "70",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "72",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "73",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "68",
+                "Name": "WindowType"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeRoof",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeRoof;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "69",
+                "Name": "IncludeRoof"
+              }
+            ]
+          },
+          {
+            "Name": "Wall_Top",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Top;",
+            "DestinationFields": [
+              {
+                "Uuid": "69",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Rooftop",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Rooftop;",
+            "DestinationFields": [
+              {
+                "Uuid": "69",
+                "Name": "Rooftop"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Top",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Top;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "70",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "72",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "73",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "68",
+                "Name": "Balcony_Top"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Btm",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "70",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "72",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "73",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "68",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "69",
+                "Name": "Balcony_Btm"
               }
             ]
           },
@@ -81,7 +157,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Front_IncludeBlockage;c:Windows - Btm;",
             "DestinationFields": [
               {
-                "Uuid": "82",
+                "Uuid": "68",
                 "Name": "Front_IncludeBlockage"
               }
             ]
@@ -91,8 +167,18 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Left_IncludeBlockage;c:Windows - Btm;",
             "DestinationFields": [
               {
-                "Uuid": "82",
+                "Uuid": "68",
                 "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "Btm_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Right_IncludeBlockage;c:Windows - Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "68",
+                "Name": "Right_IncludeBlockage"
               }
             ]
           },
@@ -101,7 +187,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Btm_Back_IncludeBlockage;c:Windows - Btm;",
             "DestinationFields": [
               {
-                "Uuid": "82",
+                "Uuid": "68",
                 "Name": "Back_IncludeBlockage"
               }
             ]
@@ -111,7 +197,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Front_IncludeBlockage;c:Windows - 1h;",
             "DestinationFields": [
               {
-                "Uuid": "84",
+                "Uuid": "70",
                 "Name": "Front_IncludeBlockage"
               }
             ]
@@ -121,8 +207,18 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Left_IncludeBlockage;c:Windows - 1h;",
             "DestinationFields": [
               {
-                "Uuid": "84",
+                "Uuid": "70",
                 "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "1h_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Right_IncludeBlockage;c:Windows - 1h;",
+            "DestinationFields": [
+              {
+                "Uuid": "70",
+                "Name": "Right_IncludeBlockage"
               }
             ]
           },
@@ -131,7 +227,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Back_IncludeBlockage;c:Windows - 1h;",
             "DestinationFields": [
               {
-                "Uuid": "84",
+                "Uuid": "70",
                 "Name": "Back_IncludeBlockage"
               }
             ]
@@ -141,8 +237,8 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Front_IncludeBlockage;c:Windows - 2h;",
             "DestinationFields": [
               {
-                "Uuid": "85",
-                "Name": "Front_IncludeBlockage"
+                "Uuid": "71",
+                "Name": "Back_IncludeBlockage"
               }
             ]
           },
@@ -151,7 +247,17 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Left_IncludeBlockage;c:Windows - 2h;",
             "DestinationFields": [
               {
-                "Uuid": "85",
+                "Uuid": "71",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "2h_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Right_IncludeBlockage;c:Windows - 2h;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
                 "Name": "Left_IncludeBlockage"
               }
             ]
@@ -161,8 +267,8 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Back_IncludeBlockage;c:Windows - 2h;",
             "DestinationFields": [
               {
-                "Uuid": "85",
-                "Name": "Back_IncludeBlockage"
+                "Uuid": "71",
+                "Name": "Front_IncludeBlockage"
               }
             ]
           },
@@ -171,7 +277,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:3h_Front_IncludeBlockage;c:Windows - 3h;",
             "DestinationFields": [
               {
-                "Uuid": "86",
+                "Uuid": "72",
                 "Name": "Front_IncludeBlockage"
               }
             ]
@@ -181,8 +287,18 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:3h_Left_IncludeBlockage;c:Windows - 3h;",
             "DestinationFields": [
               {
-                "Uuid": "86",
+                "Uuid": "72",
                 "Name": "Left_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "3h_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:3h_Right_IncludeBlockage;c:Windows - 3h;",
+            "DestinationFields": [
+              {
+                "Uuid": "72",
+                "Name": "Right_IncludeBlockage"
               }
             ]
           },
@@ -191,7 +307,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:3h_Back_IncludeBlockage;c:Windows - 3h;",
             "DestinationFields": [
               {
-                "Uuid": "86",
+                "Uuid": "72",
                 "Name": "Back_IncludeBlockage"
               }
             ]
@@ -201,8 +317,8 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:4h_Front_IncludeBlockage;c:Windows - 4h;",
             "DestinationFields": [
               {
-                "Uuid": "87",
-                "Name": "Front_IncludeBlockage"
+                "Uuid": "73",
+                "Name": "Back_IncludeBlockage"
               }
             ]
           },
@@ -211,7 +327,17 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:4h_Left_IncludeBlockage;c:Windows - 4h;",
             "DestinationFields": [
               {
-                "Uuid": "87",
+                "Uuid": "73",
+                "Name": "Right_IncludeBlockage"
+              }
+            ]
+          },
+          {
+            "Name": "4h_Right_IncludeBlockage",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:4h_Right_IncludeBlockage;c:Windows - 4h;",
+            "DestinationFields": [
+              {
+                "Uuid": "73",
                 "Name": "Left_IncludeBlockage"
               }
             ]
@@ -221,8 +347,8 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:4h_Back_IncludeBlockage;c:Windows - 4h;",
             "DestinationFields": [
               {
-                "Uuid": "87",
-                "Name": "Back_IncludeBlockage"
+                "Uuid": "73",
+                "Name": "Front_IncludeBlockage"
               }
             ]
           },
@@ -231,7 +357,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:1h_Damage;c:Architecture;",
             "DestinationFields": [
               {
-                "Uuid": "84",
+                "Uuid": "70",
                 "Name": "Damage"
               }
             ]
@@ -241,7 +367,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:2h_Damage;c:Architecture;",
             "DestinationFields": [
               {
-                "Uuid": "85",
+                "Uuid": "71",
                 "Name": "Damage"
               }
             ]
@@ -251,7 +377,7 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:3h_Damage;c:Architecture;",
             "DestinationFields": [
               {
-                "Uuid": "86",
+                "Uuid": "72",
                 "Name": "Damage"
               }
             ]
@@ -261,18 +387,8 @@
             "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:4h_Damage;c:Architecture;",
             "DestinationFields": [
               {
-                "Uuid": "87",
+                "Uuid": "73",
                 "Name": "Damage"
-              }
-            ]
-          },
-          {
-            "Name": "Rooftop",
-            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Rooftop;",
-            "DestinationFields": [
-              {
-                "Uuid": "83",
-                "Name": "Rooftop"
               }
             ]
           }
@@ -282,66 +398,65 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 82],
-            "m_PrefabName": [12, "rs_bld_modern_large_e_part_btm"]
+            "m_PcId": [6, 68],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part_btm"],
+            "m_Translate": [14, [-0.0000038, 2.605259794563608e-7, 0.0]]
           },
           "Fields": {
-            "Front_IncludeBlockage": ""
+            "Wall_Btm": ""
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 83],
-            "m_PrefabName": [12, "rs_bld_modern_large_e_part_top"],
-            "m_Translate": [14, [0.0, 122.8799438, 0.0]]
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part_top"],
+            "m_Translate": [14, [0.0, 107.5200042, 0.0]]
           },
           "Fields": {
-            "SELECTOR": "",
             "IncludeRoof": ""
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 84],
-            "m_PrefabName": [12, "rs_bld_modern_large_e_part"],
-            "m_Seed": [6, 3936096689],
-            "m_Translate": [14, [0.0, 15.3600006, 0.0]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 85],
-            "m_PrefabName": [12, "rs_bld_modern_large_e_part"],
-            "m_Seed": [6, 1591464088],
-            "m_Translate": [14, [0.0, 42.2400016, 0.0]]
-          },
-          "Fields": {
-            "Wall": ""
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 86],
-            "m_PrefabName": [12, "rs_bld_modern_large_e_part"],
-            "m_Seed": [6, 1905456591],
-            "m_Translate": [14, [0.0, 69.1200027, 0.0]]
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part"],
+            "m_Seed": [6, 3541536274],
+            "m_Translate": [14, [-0.0000038, 15.3600006, 0.0]]
           },
           "Fields": {
             "SELECTOR": "",
-            "Wall": ""
+            "WindowType": ""
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_PcId": [6, 87],
-            "m_PrefabName": [12, "rs_bld_modern_large_e_part"],
-            "m_Seed": [6, 988370794],
-            "m_Translate": [14, [0.0, 95.9999923, 0.0]]
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Seed": [6, 4200553037],
+            "m_Translate": [14, [-0.0000076, 38.4000053, 0.0000152]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part"],
+            "m_Seed": [6, 980398259],
+            "m_Translate": [14, [-0.0000038, 61.4400138, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 73],
+            "m_PrefabName": [12, "rs_bld_modern_large_d_part"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Seed": [6, 2768141646],
+            "m_Translate": [14, [-0.0000076, 84.4800186, 0.0000152]]
           }
         }
       ]
