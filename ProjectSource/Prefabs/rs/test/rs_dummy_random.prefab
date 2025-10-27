@@ -1,0 +1,64 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:ObjectProperties;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Box"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_dummy_box"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0001442, 0.0, -0.0001825]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 5, 6],
+            "m_PcId": [6, 4]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Cylinder"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_dummy_cylinder"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0000609, 0.0, 0.0001065]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Sphere"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_dummy_sphere"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [0.0000609, 0.0, 0.0001065]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
