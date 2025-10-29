@@ -80,6 +80,26 @@ sub materials()
 		preset(0);
 		weight(0.000000);
 	}
+	material(4)
+	{
+		name("rs_trampled_snow");
+		clr_tex("rs_trampledsnow_dif.png");
+		nrm_tex("rs_trampledsnow_nrm.png");
+		spc_tex("rs_trampledsnow_spc.png");
+		rgh_tex("rs_trampledsnow_rgh.png");
+		dpt_tex("rs_trampledsnow_dpt.png");
+		clr2_tex("rs_trampledsnow_dif.png");
+		nrm2_tex("rs_trampledsnow_nrm.png");
+		spc2_tex("rs_trampledsnow_spc.png");
+		rgh2_tex("rs_trampledsnow_rgh.png");
+		mapping_multiplier(2.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(4);
+		surface_flags(0);
+		preset(0);
+		weight(0.000000);
+	}
 }
 sub layers()
 {
@@ -96,6 +116,13 @@ sub layers()
 		mat_top(3);
 		mat_side(1);
 		side_to_layer_name("roof_small_nature_r01a");
+		param(0.500000);
+	}
+	layer(2)
+	{
+		name("TrampledSnow");
+		mat_top(4);
+		mat_side(4);
 		param(0.500000);
 	}
 }
