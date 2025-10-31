@@ -1,0 +1,51 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Include",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Include;c:Nature;",
+            "DestinationFields": [
+              {
+                "Uuid": "18",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Yes"],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_bld_destroyed_facade_2x_cor_nature_config_a"]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 16, 19],
+            "m_PcId": [6, 18]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
