@@ -100,6 +100,26 @@ sub materials()
 		preset(0);
 		weight(0.000000);
 	}
+	material(5)
+	{
+		name("rs_river_rocks");
+		clr_tex("rs_river_rocks_dif.png");
+		nrm_tex("rs_river_rocks_nrm.png");
+		spc_tex("rs_river_rocks_spc.png");
+		rgh_tex("rs_river_rocks_rgh.png");
+		dpt_tex("rs_river_rocks_dpt.png");
+		clr2_tex("rs_river_rocks_dif.png");
+		nrm2_tex("rs_river_rocks_nrm.png");
+		spc2_tex("rs_river_rocks_spc.png");
+		rgh2_tex("rs_river_rocks_rgh.png");
+		mapping_multiplier(2.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(6);
+		surface_flags(0);
+		preset(0);
+		weight(0.000000);
+	}
 }
 sub layers()
 {
@@ -123,6 +143,13 @@ sub layers()
 		name("TrampledSnow");
 		mat_top(4);
 		mat_side(4);
+		param(0.500000);
+	}
+	layer(3)
+	{
+		name("RiverRocks");
+		mat_top(5);
+		mat_side(5);
 		param(0.500000);
 	}
 }
