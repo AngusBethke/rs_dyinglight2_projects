@@ -13,6 +13,16 @@
                 "Name": "SkinName"
               }
             ]
+          },
+          {
+            "Name": "LedgeStyle",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LedgeStyle;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "6",
+                "Name": "SelectName"
+              }
+            ]
           }
         ]
       },
@@ -29,41 +39,48 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.2073968, -0.0953534, 0.2081285, 0.2178604, 0.1163535, 0.2181287]],
-            "m_PcId": [6, 2],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;bld_ce_a_ledge_cor_m_1x_c"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Translate": [14, [0.320091, 0.0, 0.3196603]]
+            "m_Name": [12, "Full"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_cor_ledge"],
+            "m_Translate": [14, [-0.000465, 0.0, -0.0002743]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 5, 9, 11, 13],
+            "m_PcId": [6, 6]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "EndLeft"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_cor_ledge_end_left"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.000465, 0.0, -0.0002743]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0005001, -0.0953534, 0.2078998, 0.4905, 0.1163535, 0.2183575]],
-            "m_PcId": [6, 3],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;bld_ce_a_ledge_str_m_0x_c"],
-            "m_Scale": [14, [0.3407745, 1.0000001, 1.0000001]],
-            "m_Translate": [14, [0.1600704, 0.0, 0.3196603]]
-          },
-          "Fields": {
-            "SkinName": "Default"
+            "m_Name": [12, "EndRight"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rs_bld_classic_wall_mid_cor_ledge_end_right"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0004651, 0.0, -0.0002744]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0005001, -0.0953534, 0.2078998, 0.4905, 0.1163535, 0.2183575]],
-            "m_PcId": [6, 4],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;bld_ce_a_ledge_str_m_0x_c"],
-            "m_Rotate": [14, [0.0, 90.0, 0.0]],
-            "m_Scale": [14, [0.3407745, 0.9999998, 0.9999997]],
-            "m_Translate": [14, [0.3200682, 0.0, 0.1596602]]
-          },
-          "Fields": {
-            "SkinName": "Default"
+            "m_Name": [12, "None"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Translate": [14, [-0.0004673, 0.0, -0.0002897]]
           }
         }
       ]
