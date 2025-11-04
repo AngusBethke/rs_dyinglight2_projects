@@ -2,6 +2,24 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "2",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -16,7 +34,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004879, -0.4450972, 0.1697, 0.9630119, 0.5279553, 0.2091577]],
+            "m_EntityComponentsExtents": [69, [0.0004879, -0.4450973, 0.1697457, 0.963012, 0.5279554, 0.209173]],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_addon_1x_a"],
