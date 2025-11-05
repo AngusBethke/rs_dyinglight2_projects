@@ -2,11 +2,35 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Window",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Window;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          },
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0001606, 1.9102393, -0.0733289, 1.9654511, 1.985128, 0.0535718]],
+            "m_EntityComponentsExtents": [69, [0.0001606, 1.9102394, -0.0733289, 1.9654512, 1.9851281, 0.0535718]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_a_modern_wall_str_2x1h_b_close_a"]
@@ -22,7 +46,7 @@
             "m_PcId": [6, 4],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_modern_wall_str_2x_b_wd"],
-            "m_Rotate": [14, [180.0, -0.000005, 179.9999847]]
+            "m_Rotate": [14, [180.0, -0.0000049, 179.9999847]]
           }
         }
       ]

@@ -1,0 +1,76 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "3",
+                "Name": "Wall"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005031, 1.738386, -0.0387019, 1.6959089, 1.8055475, 0.0682114]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_truck_gate_rollup_a"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_bld_modern_wall_mid_corner"],
+            "m_Rotate": [14, [-0.0, 0.0, -0.0000173]],
+            "m_Translate": [14, [-1.9199831, 7.476692189811729e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_bld_modern_wall_mid_corner"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000049]],
+            "m_Translate": [14, [1.9200139, -7.476810992557148e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0052509, 1.8391156, 0.0745556, 2.3653597, 1.825994, 0.1090312]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_b_shop_rollup_3x_a_flp_frame"],
+            "m_Scale": [14, [0.725, 1.0000001, 1.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_mall_ledge_int_2x"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Translate": [14, [0.0000014, 3.8400011, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

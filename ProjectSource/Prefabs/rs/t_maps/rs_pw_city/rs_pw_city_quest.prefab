@@ -1,0 +1,303 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_generator_source_1"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000046, 179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [83.929634, 49.9199905, 55.3851737]]
+          },
+          "Fields": {
+            "Number": "1",
+            "cbs::IEnable::m_State": "0",
+            "m_CableLength": "104.000000",
+            "m_DestinationEntity": "/~2/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_generator_dest_1"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999995]],
+            "m_Translate": [14, [49.4624328, 69.1199417, -13.8606872]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~3;",
+            "Number": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_generator_source_2"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999995]],
+            "m_Translate": [14, [49.0889587, 69.1199417, -14.8174743]]
+          },
+          "Fields": {
+            "Number": "2",
+            "m_CableLength": "80.000000",
+            "m_DestinationEntity": "/~4/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_generator_dest_2"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [-0.0, 0.0000024, -0.0]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [93.4934463, 57.5999908, -38.6493835]]
+          },
+          "Fields": {
+            "ControlledObjects": "/~5;",
+            "Number": "2"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_generator_source_3"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "rs_ps_source_generator_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999992, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [83.3848037, 57.6080856, -39.3855285]]
+          },
+          "Fields": {
+            "Number": "3",
+            "m_CableLength": "100.000000",
+            "m_DestinationEntity": "/~6/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_generator_dest_3"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_ps_destination_generator_a"],
+            "m_Rotate": [14, [-0.0, 0.0000024, -0.0]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [25.6314125, 46.0800132, -43.1821594]]
+          },
+          "Fields": {
+            "Number": "3"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "rs_christmas_lamp_letter_merry_xmas"],
+            "m_Rotate": [14, [-0.0, -39.9999961, -0.0]],
+            "m_Translate": [14, [55.8250503, 118.2380142, 42.8371086]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0249357, 0.8380162, 0.3499907, 0.1484256, 0.9142901, 0.3499907]],
+            "m_Name": [12, "rs_fuse_top"],
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;TR_replacing_fuse"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [29.9176368, 103.6800079, 72.2182159]]
+          },
+          "Fields": {
+            "m_ControlledObjects": "/~36/~1/~1/~1;/~36/~5/~3/~1;/~36/~5/~7/~1;/~36/~5/~6/~1;/~36/~5/~5/~1;/~36/~5/~4/~1;/~36/~5/~1/~1;/~36/~5/~2/~1;/~36/~8/~3/~1;/~36/~8/~6/~1;/~36/~8/~7/~1;/~36/~8/~8/~1;/~36/~8/~9/~1;/~36/~8/~4/~1;/~36/~8/~5/~1;/~36/~8/~10/~1;/~36/~8/~11/~1;/~36/~9/~5/~1;/~36/~9/~9/~1;/~36/~9/~13/~1;/~36/~9/~15/~1;/~36/~9/~14/~1;/~36/~9/~2/~1;/~36/~9/~10/~1;/~36/~3/~9/~1;/~36/~3/~5/~1;/~36/~3/~11/~1;/~36/~3/~12/~1;/~36/~3/~10/~1;/~36/~3/~3/~1;/~36/~3/~2/~1;/~36/~3/~1/~1;/~36/~3/~4/~1;/~36/~4/~9/~1;/~36/~4/~5/~1;/~36/~4/~12/~1;/~36/~4/~11/~1;/~36/~4/~10/~1;/~36/~4/~4/~1;/~36/~4/~1/~1;/~36/~4/~2/~1;/~36/~4/~3/~1;/~36/~1/~5/~1;/~36/~1/~9/~1;/~36/~1/~8/~1;/~36/~1/~1/~1;/~36/~1/~3/~1;/~36/~1/~2/~1;/~36/~1/~4/~1;/~36/~1/~7/~1;/~36/~1/~6/~1;/~36/~6/~5/~1;/~36/~6/~8/~1;/~36/~6/~9/~1;/~36/~6/~6/~1;/~36/~6/~7/~1;/~36/~6/~4/~1;/~36/~6/~2/~1;/~36/~6/~3/~1;/~36/~6/~1/~1;/~36/~2/~8/~1;/~36/~2/~9/~1;/~36/~2/~6/~1;/~36/~2/~7/~1;/~36/~2/~5/~1;/~36/~2/~2/~1;/~36/~2/~3/~1;/~36/~2/~1/~1;/~36/~2/~4/~1;/~36/~7/~3/~1;/~36/~7/~7/~1;/~36/~7/~6/~1;/~36/~7/~5/~1;/~36/~7/~4/~1;/~36/~7/~9/~1;/~36/~7/~8/~1;/~36/~7/~2/~1;/~36/~7/~1/~1;"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;TR_Change",
+            "DestinationField": "m_OffStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0249357, 0.8380162, 0.3499907, 0.1484256, 0.9142901, 0.3499907]],
+            "m_Name": [12, "rs_fuse_btm"],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;TR_replacing_fuse"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [85.0309219, 49.9199981, 54.8885002]]
+          },
+          "Fields": {
+            "m_ControlledObjects": "/~1;"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;TR_Change",
+            "DestinationField": "m_OffStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "rs_fuse_box"],
+            "m_Translate": [14, [85.031044, 49.9200057, 54.8884086]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 40],
+            "m_PrefabName": [12, "rs_fuse_box"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [29.9174232, 103.6800155, 72.2180938]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0025065, -0.2538571, -0.0248579, 0.3404999, 0.7542995, 0.0605]],
+            "m_PcId": [6, 41],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;slums_antenna_cable_1_a"],
+            "m_Rotate": [14, [-0.0, 0.0, -89.9999923]],
+            "m_Translate": [14, [84.7958755, 51.3495101, 54.9254875]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_pw_city_sewer_entrance_checkpoint"],
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Scale": [14, [3.0563359, 0.9999998, 2.5497283]],
+            "m_Translate": [14, [86.7466735, 7.0207967, 148.8378295]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_pw_city_train_station_checkpoint"],
+            "m_PcId": [6, 43],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Scale": [14, [31.541809, 9.3258533, 2.5497281]],
+            "m_Translate": [14, [40.2204284, -14.4000015, 79.7652053]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_pw_city_tunnel_mall_entrance_checkpoint"],
+            "m_PcId": [6, 44],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Scale": [14, [3.0563354, 3.6797108, 4.1320037]],
+            "m_Translate": [14, [172.0161437, -15.3569946, -1.9721987]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_pw_city_parkour_part_1_checkpoint"],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Scale": [14, [17.3844928, 11.4670047, 19.4790229]],
+            "m_Translate": [14, [84.6941223, 42.2399902, 64.1912612]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_pw_city_home"],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Scale": [14, [17.384489, 11.4670028, 19.479021]],
+            "m_Translate": [14, [165.2729187, 115.3328018, 93.9350967]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.5000049, 0.000005, 0.5000049, 0.5000049, 0.500005]],
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;dummy_box"],
+            "m_Translate": [14, [159.7738952, 0.9600086, -5.4925541]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.5000049, 0.000005, 0.5000049, 0.5000049, 0.500005]],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;dummy_box"],
+            "m_Translate": [14, [170.2955627, 5.7599821, -2.4271242]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, -2.7939677238464357e-8, 0.0418022, 0.0281956, 0.0281955, 0.0419423]],
+            "m_Name": [12, "rs_fuse_2"],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "quest_object"],
+            "m_Translate": [14, [170.4366455, 6.8056707, -2.3887331]]
+          },
+          "Fields": {
+            "MeshName": "tr_prp_fuse_a.msh"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, -2.7939677238464357e-8, 0.0418022, 0.0281956, 0.0281955, 0.0419423]],
+            "m_Name": [12, "rs_fuse_1"],
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "quest_object"],
+            "m_Translate": [14, [159.8828735, 1.9892748, -5.4756169]]
+          },
+          "Fields": {
+            "MeshName": "tr_prp_fuse_a.msh"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

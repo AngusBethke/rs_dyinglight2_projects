@@ -1,0 +1,54 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "IsEnabled",
+            "Init": "e:EDIT;f:EDIT|QUEST;l:IsEnabled;c:Lamp;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "cbs::IEnable::m_State"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_christmas_lamp"],
+            "m_EntityComponentsExtents": [69, [0.0024403, 0.3058549, 0.0004999, 0.1317369, 0.3058762, 0.1305244]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "lamp"],
+            "m_PresetNames": [12, "Lamp Preset;Lantern d"]
+          },
+          "Fields": {
+            "m_ExternalLights": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0000151, 1.0774, 1.0774, 1.0774]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "light"],
+            "m_Rotate": [14, [30.0000076, 0.0, -0.0]],
+            "m_Scale": [14, [2.0000007, 3.0000016, 2.0000014]],
+            "m_Translate": [14, [-0.0001978, 0.0001678, 0.0005585]]
+          },
+          "Fields": {
+            "Color": "1.000000 0.000000 0.000000",
+            "Intensity": "10.000000"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
