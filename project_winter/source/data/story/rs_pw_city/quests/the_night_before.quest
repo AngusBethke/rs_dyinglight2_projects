@@ -26,112 +26,383 @@
 			<OutputSubIdEntries>
 				<OutputSubIdEntry connectorLogicNodeUid="7561458343793096635" subId="0"/>
 			</OutputSubIdEntries>
-			<Node type="Actions::Node" uid="7569381630495447181">
-				<Logic type="Story::CompleteObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380342958253770"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381630495447181" output="Out" input="In" end="7569381467934862058">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381630654144918">
-				<Logic type="Story::StartObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380342958253770"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381630654144918" output="Out" input="In" end="7569383336566006090">
-				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::TakeItemLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381179629146007">
-				<Logic type="Story::StartObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380801914008725"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381179629146007" output="Out" input="In" end="7569381348523908592">
-				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::WaitForSensorLogic"/>
-			</Connect>
 			<Node type="Actions::Node" uid="7561458343793096635">
 				<Logic type="Actions::EndLogic"/>
 			</Node>
-			<Node type="Actions::Node" uid="7569381720962402505">
-				<Logic type="Story::StartObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380025532280900"/>
+			<Node type="Actions::Group" uid="7569680883380489427">
+				<Logic type="Story::MissionLogic">
+					<Attribute name="m_Name" value="TheNightBefore"/>
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 						<Attribute name="show_indicator" value="1"/>
 						<Attribute name="indicator_type" value="Default"/>
 						<Attribute name="objective" value="Default"/>
 					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381720962402505" output="Out" input="In" end="7569381785623299030">
-				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::WaitForSensorLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381836921111246">
-				<Logic type="Story::WaitForSensorLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Output name="Entity" count="1"/>
-					<Entities name="m_Entities">
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_pw_city_tunnel_mall_entrance_checkpoint"/>
+					<Entities name="m_RespawnPoint">
+						<Entity name="rs_pw_city/MapStart"/>
 					</Entities>
 				</Logic>
+				<InputSubIdEntries>
+					<InputSubIdEntry connectorLogicNodeUid="7569680883104493872" subId="0"/>
+				</InputSubIdEntries>
+				<OutputSubIdEntries>
+					<OutputSubIdEntry connectorLogicNodeUid="7569680882676083788" subId="0"/>
+				</OutputSubIdEntries>
+				<Node type="Actions::Node" uid="7569680989353956740">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569258562350256051"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680989353956740" output="Out" input="In" end="7569680990340356319">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990519118242">
+					<Logic type="Story::UseLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_btm"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7569680990519118242" output="Out" input="In" end="7569680989548358506">
+					<Start class="Story::UseLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680989488692133">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380423401446327"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680989488692133" output="Out" input="In" end="7569680990519118242">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::UseLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680991048632748">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380801914008725"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680991048632748" output="Out" input="In" end="7569680991312867309">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990583140014">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380801914008725"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680990583140014" output="Out" input="In" end="7569681411498275033">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::CompleteMissionLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990271923153">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569258562350256051"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680990271923153" output="Out" input="In" end="7569680990955663856">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::WaitForPuzzleLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569681411498275033">
+					<Logic type="Story::CompleteMissionLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569681411498275033" output="Out" input="In" end="7569680882676083788">
+					<Start class="Story::CompleteMissionLogic"/>
+					<End class="Actions::EndLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680989911137754">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380025532280900"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680989911137754" output="Out" input="In" end="7569680990405278711">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990840454109">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380342958253770"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680990840454109" output="Out" input="In" end="7569680989338953727">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::TakeItemLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990779450078">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380342958253770"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680990779450078" output="Out" input="In" end="7569680989488692133">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990340356319">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380661422992107"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680990340356319" output="Out" input="In" end="7569680990812844072">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::UseLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990903380197">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380661422992107"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680990903380197" output="Out" input="In" end="7569680991048632748">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680991312867309">
+					<Logic type="Story::WaitForSensorLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_pw_city_home"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7569680991312867309" output="Out" input="In" end="7569680990583140014">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990955663856">
+					<Logic type="Story::WaitForPuzzleLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_generator_dest_3/external_lights_controller"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7569680990955663856" output="Out" input="In" end="7569680989353956740">
+					<Start class="Story::WaitForPuzzleLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990405278711">
+					<Logic type="Story::WaitForSensorLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_pw_city_sewer_entrance_checkpoint"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7569680990405278711" output="Out" input="In" end="7569680989538144308">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680989338953727">
+					<Logic type="Story::TakeItemLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="2"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_1"/>
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_2"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7569680989338953727" output="Out" input="In" end="7569680990779450078">
+					<Start class="Story::TakeItemLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990319750694">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380148656211290"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680990319750694" output="Out" input="In" end="7569680990379385931">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990812844072">
+					<Logic type="Story::UseLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_top"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7569680990812844072" output="Out" input="In" end="7569680990903380197">
+					<Start class="Story::UseLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680883104493872">
+					<Logic type="Actions::StartLogic"/>
+				</Node>
+				<Connect start="7569680883104493872" output="Out" input="In" end="7569681286334574433">
+					<Start class="Actions::StartLogic"/>
+					<End class="Story::StartMissionLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680989458069555">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380148656211290"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680989458069555" output="Out" input="In" end="7569680990840454109">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680989538144308">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380025532280900"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680989538144308" output="Out" input="In" end="7569680990319750694">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680990379385931">
+					<Logic type="Story::WaitForSensorLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_pw_city/rs_pw_city_quest/rs_pw_city_tunnel_mall_entrance_checkpoint"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7569680990379385931" output="Out" input="In" end="7569680989458069555">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680882676083788">
+					<Logic type="Actions::EndLogic"/>
+				</Node>
+				<Node type="Actions::Node" uid="7569681286334574433">
+					<Logic type="Story::StartMissionLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569681286334574433" output="Out" input="In" end="7569680989911137754">
+					<Start class="Story::StartMissionLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7569680989548358506">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7569380423401446327"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7569680989548358506" output="Out" input="In" end="7569680990271923153">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 			</Node>
-			<Connect start="7569381836921111246" output="Out" input="In" end="7569381666447083897">
-				<Start class="Story::WaitForSensorLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381093912764366">
-				<Logic type="Story::CompleteObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380661422992107"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381093912764366" output="Out" input="In" end="7569381179629146007">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381785623299030">
-				<Logic type="Story::WaitForSensorLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Output name="Entity" count="1"/>
-					<Entities name="m_Entities">
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_pw_city_sewer_entrance_checkpoint"/>
-					</Entities>
-				</Logic>
-			</Node>
-			<Connect start="7569381785623299030" output="Out" input="In" end="7569381721429156903">
-				<Start class="Story::WaitForSensorLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
+			<Connect start="7569680883380489427" output="Out:End" input="In" end="7561458343793096635">
+				<Start class="Story::MissionLogic"/>
+				<End class="Actions::EndLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7561458344465745127">
 				<Logic type="Actions::StartLogic"/>
@@ -139,190 +410,6 @@
 			<Connect start="7561458344465745127" output="Out" input="In" end="7569259141998026609">
 				<Start class="Actions::StartLogic"/>
 				<End class="Story::SetPlayerPresetLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381467934862058">
-				<Logic type="Story::StartObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380423401446327"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381467934862058" output="Out" input="In" end="7569381519450597670">
-				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::UseLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381348523908592">
-				<Logic type="Story::WaitForSensorLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Output name="Entity" count="1"/>
-					<Entities name="m_Entities">
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_pw_city_home"/>
-					</Entities>
-				</Logic>
-			</Node>
-			<Connect start="7569381348523908592" output="Out" input="In" end="7569381179608718974">
-				<Start class="Story::WaitForSensorLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569258747947126290">
-				<Logic type="Story::CompleteObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569258562350256051"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569258747947126290" output="Out" input="In" end="7569380999228401714">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381665246878493">
-				<Logic type="Story::StartObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380148656211290"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381665246878493" output="Out" input="In" end="7569381836921111246">
-				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::WaitForSensorLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381078023554598">
-				<Logic type="Story::UseLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Output name="Entity" count="1"/>
-					<Entities name="m_Entities">
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_top"/>
-					</Entities>
-				</Logic>
-			</Node>
-			<Connect start="7569381078023554598" output="Out" input="In" end="7569381093912764366">
-				<Start class="Story::UseLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381519450597670">
-				<Logic type="Story::UseLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Output name="Entity" count="1"/>
-					<Entities name="m_Entities">
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_btm"/>
-					</Entities>
-				</Logic>
-			</Node>
-			<Connect start="7569381519450597670" output="Out" input="In" end="7569381468189157709">
-				<Start class="Story::UseLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381721429156903">
-				<Logic type="Story::CompleteObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380025532280900"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381721429156903" output="Out" input="In" end="7569381665246878493">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569258537155154222">
-				<Logic type="Story::StartObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569258562350256051"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569258537155154222" output="Out" input="In" end="7569258266682707788">
-				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::WaitForPuzzleLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569380999228401714">
-				<Logic type="Story::StartObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380661422992107"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569380999228401714" output="Out" input="In" end="7569381078023554598">
-				<Start class="Story::StartObjectiveLogic"/>
-				<End class="Story::UseLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569383336566006090">
-				<Logic type="Story::TakeItemLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Output name="Entity" count="2"/>
-					<Entities name="m_Entities">
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_1"/>
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_fuse_2"/>
-					</Entities>
-				</Logic>
-			</Node>
-			<Connect start="7569383336566006090" output="Out" input="In" end="7569381630495447181">
-				<Start class="Story::TakeItemLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569258266682707788">
-				<Logic type="Story::WaitForPuzzleLogic">
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-					<Output name="Entity" count="1"/>
-					<Entities name="m_Entities">
-						<Entity name="rs_pw_city/rs_pw_city_quest/rs_generator_dest_3/external_lights_controller"/>
-					</Entities>
-				</Logic>
-			</Node>
-			<Connect start="7569258266682707788" output="Out" input="In" end="7569258747947126290">
-				<Start class="Story::WaitForPuzzleLogic"/>
-				<End class="Story::CompleteObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381468189157709">
-				<Logic type="Story::CompleteObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380423401446327"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381468189157709" output="Out" input="In" end="7569258537155154222">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7569259141998026609">
 				<Logic type="Story::SetPlayerPresetLogic">
@@ -334,37 +421,9 @@
 					</Object>
 				</Logic>
 			</Node>
-			<Connect start="7569259141998026609" output="Out" input="In" end="7569381720962402505">
+			<Connect start="7569259141998026609" output="Out" input="In:Start" end="7569680883380489427">
 				<Start class="Story::SetPlayerPresetLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381666447083897">
-				<Logic type="Story::CompleteObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380148656211290"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381666447083897" output="Out" input="In" end="7569381630654144918">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Story::StartObjectiveLogic"/>
-			</Connect>
-			<Node type="Actions::Node" uid="7569381179608718974">
-				<Logic type="Story::CompleteObjectiveLogic">
-					<Attribute name="m_ObjectiveId" value="7569380801914008725"/>
-					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-						<Attribute name="show_indicator" value="1"/>
-						<Attribute name="indicator_type" value="Default"/>
-						<Attribute name="objective" value="Default"/>
-					</Object>
-				</Logic>
-			</Node>
-			<Connect start="7569381179608718974" output="Out" input="In" end="7561458343793096635">
-				<Start class="Story::CompleteObjectiveLogic"/>
-				<End class="Actions::EndLogic"/>
+				<End class="Story::MissionLogic"/>
 			</Connect>
 		</Node>
 	</StoryData>
@@ -375,71 +434,86 @@
 		<EditorNode uid="7569259141998026609">
 			<Position x="-1200" y="-300"/>
 		</EditorNode>
-		<EditorNode uid="7569381720962402505">
-			<Position x="-607" y="-300"/>
+		<EditorNode uid="7569680883380489427">
+			<Position x="-750" y="-300"/>
 		</EditorNode>
-		<EditorNode uid="7569381785623299030">
-			<Position x="-150" y="-300"/>
+		<EditorNode uid="7569680883104493872">
+			<Position x="-1800" y="0"/>
 		</EditorNode>
-		<EditorNode uid="7569381721429156903">
-			<Position x="440" y="-300"/>
+		<EditorNode uid="7569681286334574433">
+			<Position x="-1500" y="0"/>
 		</EditorNode>
-		<EditorNode uid="7569381665246878493">
-			<Position x="-597" y="-1"/>
+		<EditorNode uid="7569680989911137754">
+			<Position x="-1194" y="1"/>
 		</EditorNode>
-		<EditorNode uid="7569381836921111246">
-			<Position x="-150" y="0"/>
+		<EditorNode uid="7569680990405278711">
+			<Position x="-737" y="1"/>
 		</EditorNode>
-		<EditorNode uid="7569381666447083897">
-			<Position x="450" y="-1"/>
+		<EditorNode uid="7569680989538144308">
+			<Position x="-147" y="1"/>
 		</EditorNode>
-		<EditorNode uid="7569381630654144918">
-			<Position x="-597" y="298"/>
+		<EditorNode uid="7569680990319750694">
+			<Position x="-1184" y="300"/>
 		</EditorNode>
-		<EditorNode uid="7569383336566006090">
-			<Position x="-150" y="300"/>
+		<EditorNode uid="7569680990379385931">
+			<Position x="-737" y="301"/>
 		</EditorNode>
-		<EditorNode uid="7569381630495447181">
-			<Position x="451" y="298"/>
+		<EditorNode uid="7569680989458069555">
+			<Position x="-137" y="300"/>
 		</EditorNode>
-		<EditorNode uid="7569381467934862058">
-			<Position x="-597" y="600"/>
+		<EditorNode uid="7569680990840454109">
+			<Position x="-1184" y="599"/>
 		</EditorNode>
-		<EditorNode uid="7569381519450597670">
-			<Position x="-150" y="600"/>
+		<EditorNode uid="7569680989338953727">
+			<Position x="-737" y="601"/>
 		</EditorNode>
-		<EditorNode uid="7569381468189157709">
-			<Position x="452" y="600"/>
+		<EditorNode uid="7569680990779450078">
+			<Position x="-136" y="599"/>
 		</EditorNode>
-		<EditorNode uid="7569258537155154222">
-			<Position x="-600" y="900"/>
+		<EditorNode uid="7569680989488692133">
+			<Position x="-1184" y="901"/>
 		</EditorNode>
-		<EditorNode uid="7569258266682707788">
-			<Position x="-150" y="900"/>
+		<EditorNode uid="7569680990519118242">
+			<Position x="-737" y="901"/>
 		</EditorNode>
-		<EditorNode uid="7569258747947126290">
-			<Position x="450" y="900"/>
+		<EditorNode uid="7569680989548358506">
+			<Position x="-135" y="901"/>
 		</EditorNode>
-		<EditorNode uid="7569380999228401714">
-			<Position x="-600" y="1200"/>
+		<EditorNode uid="7569680990271923153">
+			<Position x="-1187" y="1201"/>
 		</EditorNode>
-		<EditorNode uid="7569381078023554598">
-			<Position x="-150" y="1200"/>
+		<EditorNode uid="7569680990955663856">
+			<Position x="-737" y="1201"/>
 		</EditorNode>
-		<EditorNode uid="7569381093912764366">
-			<Position x="450" y="1200"/>
+		<EditorNode uid="7569680989353956740">
+			<Position x="-137" y="1201"/>
 		</EditorNode>
-		<EditorNode uid="7569381179629146007">
-			<Position x="-601" y="1502"/>
+		<EditorNode uid="7569680990340356319">
+			<Position x="-1187" y="1501"/>
 		</EditorNode>
-		<EditorNode uid="7569381348523908592">
-			<Position x="-150" y="1500"/>
+		<EditorNode uid="7569680990812844072">
+			<Position x="-737" y="1501"/>
 		</EditorNode>
-		<EditorNode uid="7569381179608718974">
-			<Position x="448" y="1502"/>
+		<EditorNode uid="7569680990903380197">
+			<Position x="-137" y="1501"/>
+		</EditorNode>
+		<EditorNode uid="7569680991048632748">
+			<Position x="-1188" y="1803"/>
+		</EditorNode>
+		<EditorNode uid="7569680991312867309">
+			<Position x="-737" y="1801"/>
+		</EditorNode>
+		<EditorNode uid="7569680990583140014">
+			<Position x="-139" y="1803"/>
+		</EditorNode>
+		<EditorNode uid="7569681411498275033">
+			<Position x="300" y="1800"/>
+		</EditorNode>
+		<EditorNode uid="7569680882676083788">
+			<Position x="600" y="1800"/>
 		</EditorNode>
 		<EditorNode uid="7561458343793096635">
-			<Position x="900" y="1500"/>
+			<Position x="-300" y="-300"/>
 		</EditorNode>
 	</EditorData>
 </Quest>
