@@ -2,6 +2,24 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Ceiling",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "Ceiling"
+              },
+              {
+                "Uuid": "8",
+                "Name": "Ceiling"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",

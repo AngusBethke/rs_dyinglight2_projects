@@ -45,11 +45,63 @@
             ]
           },
           {
+            "Name": "Balcony_Top",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Top;",
+            "DestinationFields": [
+              {
+                "Uuid": "149",
+                "Name": "Balcony_Top"
+              },
+              {
+                "Uuid": "150",
+                "Name": "Balcony_Top"
+              }
+            ]
+          },
+          {
+            "Name": "Balcony_Btm",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Balcony_Btm;",
+            "DestinationFields": [
+              {
+                "Uuid": "149",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "150",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "151",
+                "Name": "Balcony_Btm"
+              },
+              {
+                "Uuid": "152",
+                "Name": "Ceiling"
+              }
+            ]
+          },
+          {
             "Name": "Wall",
             "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall;",
             "DestinationFields": [
               {
                 "Uuid": "153",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "149",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "150",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "151",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "152",
                 "Name": "Wall"
               }
             ]
@@ -60,6 +112,22 @@
             "DestinationFields": [
               {
                 "Uuid": "153",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "149",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "150",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "151",
+                "Name": "WindowType"
+              },
+              {
+                "Uuid": "152",
                 "Name": "WindowType"
               }
             ]
@@ -106,7 +174,8 @@
             "m_Translate": [14, [0.0, 107.519989, 0.0]]
           },
           "Fields": {
-            "Balcony_Btm": ""
+            "Balcony_Btm": "",
+            "Wall": ""
           }
         },
         {
@@ -115,6 +184,15 @@
             "m_PcId": [6, 153],
             "m_PrefabName": [12, "rs_bld_modern_large_b_part_btm"],
             "m_Translate": [14, [0.0, 7.152556804612686e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 155],
+            "m_PrefabName": [12, "rs_bld_modern_large_b_custom_scene_interior"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [-13.4404296, 111.3599929, -3.8404092]]
           }
         }
       ]

@@ -47,7 +47,7 @@
           },
           "Fields": {
             "Number": "2",
-            "m_CableLength": "82.000000",
+            "m_CableLength": "81.000000",
             "m_DestinationEntity": "/~4/~5"
           }
         },
@@ -225,47 +225,14 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_Name": [12, "rs_pw_city_parkour_part_1_checkpoint"],
-            "m_PcId": [6, 45],
-            "m_PrefabName": [12, "sensor_activator"],
-            "m_Scale": [14, [17.3844928, 11.4670047, 19.4790229]],
-            "m_Translate": [14, [84.6941223, 42.2399902, 64.1912612]]
-          },
-          "Fields": {
-            "m_CollisionMask": "-4294311936"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
             "m_Name": [12, "rs_pw_city_home"],
             "m_PcId": [6, 46],
             "m_PrefabName": [12, "sensor_activator"],
-            "m_Scale": [14, [17.384489, 11.4670028, 19.479021]],
-            "m_Translate": [14, [165.2729187, 115.3328018, 93.9350967]]
+            "m_Scale": [14, [11.3978586, 3.612353, 11.3956756]],
+            "m_Translate": [14, [161.7790374, 111.3376312, 97.3641586]]
           },
           "Fields": {
             "m_CollisionMask": "-4294311936"
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 0.500005, 0.000005, 0.500005, 0.500005, 0.500005]],
-            "m_PcId": [6, 47],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;dummy_box"],
-            "m_Translate": [14, [159.7738952, 0.9600086, -5.4925541]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 0.500005, 0.000005, 0.500005, 0.500005, 0.500005]],
-            "m_PcId": [6, 48],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;dummy_box"],
-            "m_Translate": [14, [170.2955627, 5.7599821, -2.4271242]]
           }
         },
         {
@@ -275,7 +242,8 @@
             "m_Name": [12, "rs_fuse_2"],
             "m_PcId": [6, 49],
             "m_PrefabName": [12, "quest_object"],
-            "m_Translate": [14, [170.4366455, 6.8056707, -2.3887331]]
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Translate": [14, [169.3410491, 6.8200941, -2.8102729]]
           },
           "Fields": {
             "MeshName": "tr_prp_fuse_a.msh"
@@ -288,10 +256,294 @@
             "m_Name": [12, "rs_fuse_1"],
             "m_PcId": [6, 50],
             "m_PrefabName": [12, "quest_object"],
-            "m_Translate": [14, [159.8828735, 1.9892748, -5.4756169]]
+            "m_Translate": [14, [158.1405487, 1.1722172, -13.0306119]]
           },
           "Fields": {
             "MeshName": "tr_prp_fuse_a.msh"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0401477, 1.3110666, 0.2845211, 0.8358306, 1.3610665, 0.4154909]],
+            "m_Name": [12, "rs_pw_city_mall_exit"],
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_wooden_board"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [169.6722259, 5.759974, 29.8940505]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Move",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.478492, 0.4722561, 0.0263807, 0.5079773, 0.5129582, 0.161103]],
+            "m_Name": [12, "rs_pw_city_vent_cap_closed"],
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ac_vent_cap_a"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [179.5123443, 5.9384312, -6.5064406]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.4784919, 0.4722561, 0.0263807, 0.5079773, 0.5129582, 0.161103]],
+            "m_Name": [12, "rs_pw_city_vent_cap_open"],
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ac_vent_cap_a"],
+            "m_Rotate": [14, [45.0000076, 0.0, -0.0000049]],
+            "m_Scale": [14, [0.9999997, 0.9999998, 0.9999994]],
+            "m_Translate": [14, [178.5713348, 6.9032697, -6.5064406]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_pw_city_sewer_entrance_checkpoint_sp"],
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-180.0, -0.0000049, -180.0]],
+            "m_Translate": [14, [86.9383926, -7.8000016, 144.4847412]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_pw_city_train_station_checkpoint"],
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-180.0, 29.9999961, -180.0]],
+            "m_Translate": [14, [34.6011085, -10.4965181, 102.5816879]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_pw_city_tunnel_mall_entrance_checkpoint_sp"],
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-0.0, -45.0000038, -0.0]],
+            "m_Translate": [14, [165.0104217, -15.3599948, -1.914612]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.2627771]],
+            "m_Name": [12, "rs_pw_city_mall_interior_checkpoint_sp"],
+            "m_PcId": [6, 58],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-0.0, 15.0000019, -0.0]],
+            "m_Translate": [14, [178.6855316, 5.7599778, -4.3626718]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "rs_pw_city_mall_fuses_gathered_checkpoint_sp"],
+            "m_PcId": [6, 59],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-0.0, 60.0000114, -0.0]],
+            "m_Translate": [14, [171.827835, 5.7599778, -2.9400031]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_pw_city_mall_escaped_checkpoint_sp"],
+            "m_PcId": [6, 60],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.9999998, 0.9999997, 0.9999994]],
+            "m_Translate": [14, [172.0671234, 5.7599797, 34.7951736]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "rs_pw_city_cable_checkpoint_1_sp"],
+            "m_PcId": [6, 61],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-180.0, -60.0000038, -180.0]],
+            "m_Scale": [14, [0.9999997, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [88.2597122, 49.9199981, 57.5289154]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.2627771]],
+            "m_Name": [12, "rs_pw_city_cable_checkpoint_2_sp"],
+            "m_PcId": [6, 62],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-179.9999847, 75.0000228, 179.9999847]],
+            "m_Scale": [14, [0.9999997, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [47.2274208, 69.1199722, -15.3627357]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2190054, 0.0679944, 1.495648, 0.2627771]],
+            "m_Name": [12, "rs_pw_city_cable_checkpoint_3_sp"],
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [0.0000223, -75.0000534, 0.0000223]],
+            "m_Scale": [14, [0.9999995, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [82.8588943, 58.073738, -42.5156974]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2190206, 0.0679944, 1.4956479, 0.262777]],
+            "m_Name": [12, "rs_pw_city_cable_checkpoint_4_sp"],
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [0.0000223, -75.0000534, 0.0000223]],
+            "m_Scale": [14, [0.9999994, 0.9999991, 0.9999989]],
+            "m_Translate": [14, [27.1515541, 46.0800132, -45.0502128]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_Name": [12, "rs_pw_city_cable_checkpoint_5_sp"],
+            "m_PcId": [6, 65],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-0.0000092, 59.999958, 0.0000115]],
+            "m_Scale": [14, [0.9999992, 0.9999989, 0.9999991]],
+            "m_Translate": [14, [21.1469745, 103.9882278, 71.161148]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0401477, 1.3110666, 0.2845212, 0.8358308, 1.3610665, 0.415491]],
+            "m_Name": [12, "rs_pw_city_mall_second_fuse_board"],
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_wooden_board"],
+            "m_Rotate": [14, [0.0, -45.0000076, 0.000007]],
+            "m_Translate": [14, [175.4504547, 5.759972, -2.724488]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Move",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000261, 0.1600109, 0.0145719, 0.1100261]],
+            "m_Name": [12, "rs_pw_city_note_start"],
+            "m_PcId": [6, 67],
+            "m_PrefabName": [12, "quest_object_withbrief"],
+            "m_Translate": [14, [156.8450775, 112.2630157, 94.6624984]]
+          },
+          "Fields": {
+            "MeshName": "prp_office_notebook_a.msh",
+            "m_MenuTextQuestDesc": "[The note appears hastily written]\n\n[This section is circled several times]\n\nIn case I haven't returned: \n\n- I'm planning to make my way through the sewer tunnels to that back entrance of the Mall (the one we discovered a few weeks ago).\n- I'm damned sure there are some fuses in there somewhere... I promise this will be worth it.\n\n[End of the circled section]\n\nOli, if you're reading this it means that I haven't made it back. I can't explain why I did what I did, just that it would be worth it. Please don't follow me... but I know you will, so please be careful. ",
+            "m_MenuTextQuestName": "Note #1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000261, 0.1600108, 0.0145719, 0.1100261]],
+            "m_Name": [12, "rs_pw_city_note_end"],
+            "m_PcId": [6, 68],
+            "m_PrefabName": [12, "quest_object_withbrief"],
+            "m_Rotate": [14, [-0.0, 0.0, -90.0]],
+            "m_Translate": [14, [156.0309295, 113.1515197, 97.4493026]]
+          },
+          "Fields": {
+            "MeshName": "prp_office_notebook_a.msh",
+            "m_MenuTextQuestDesc": "So there you have it... I hope you like it. A little bit of joy in a world of darkness.",
+            "m_MenuTextQuestName": "Note #3"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000109, 0.0153799, 0.0000261, 0.1600109, 0.0145719, 0.1100261]],
+            "m_Name": [12, "rs_pw_city_note_mall"],
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "quest_object_withbrief"],
+            "m_Rotate": [14, [-0.0, 39.5000076, -0.0]],
+            "m_Translate": [14, [181.7036285, 5.7599778, -0.4118041]]
+          },
+          "Fields": {
+            "MeshName": "prp_office_notebook_a.msh",
+            "m_MenuTextQuestDesc": "[The note is smeared in blood and each letter is written erratically]\n\nI found the fuses... but they found me first. \n\n- There's one in the room next door, but I blocked the way, you'll need to gain access through a vent on the other side of the building.\n- The other is downstairs in a small fashion shop.\n\nThis place is crawling with them...\n\nListen, I mean read... whatever. I have already hooked everything up, you just need to make it to the top of the tall red building, and connect some cables along the way.\n\nPlease do it... for me.\n\nI wanted to go out this way, don't blame yourself...",
+            "m_MenuTextQuestName": "Note #2"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "rs_islands_db_matthias"],
+            "m_Translate": [14, [182.2502288, 5.7599778, -0.8915407]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_pw_city_mall_interior_checkpoint"],
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Scale": [14, [3.0563349, 3.6797103, 4.1320033]],
+            "m_Translate": [14, [179.1463317, 5.7599782, -4.5854496]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195729, 0.230906, 0.0690794, 1.5195729, 0.270789]],
+            "m_Name": [12, "rs_pw_city_sewer_entrance_checkpoint_marker"],
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "point_marker"],
+            "m_Translate": [14, [102.4759826, 6.4742784, 148.3868865]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195729, 0.230906, 0.0690794, 1.5195729, 0.270789]],
+            "m_Name": [12, "rs_pw_city_home_marker"],
+            "m_PcId": [6, 73],
+            "m_PrefabName": [12, "point_marker"],
+            "m_Translate": [14, [160.9023132, 111.3600006, 96.7311248]]
           }
         }
       ]
