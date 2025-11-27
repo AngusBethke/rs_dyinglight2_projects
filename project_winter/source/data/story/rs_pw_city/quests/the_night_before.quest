@@ -495,15 +495,7 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7569680990271923153" output="Out" input="In" end="7569680990955663856">
-					<Start class="Story::StartObjectiveLogic"/>
-					<End class="Story::WaitForPuzzleLogic"/>
-				</Connect>
 				<Connect start="7569680990271923153" output="Out" input="In" end="7571095070118147281">
-					<Start class="Story::StartObjectiveLogic"/>
-					<End class="Story::WaitForPuzzleLogic"/>
-				</Connect>
-				<Connect start="7569680990271923153" output="Out" input="In" end="7571095181466079433">
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::WaitForPuzzleLogic"/>
 				</Connect>
@@ -939,6 +931,10 @@
 						</Entities>
 					</Logic>
 				</Node>
+				<Connect start="7571095366097353000" output="Out" input="In" end="7569680990955663856">
+					<Start class="Story::MissionCheckpointLogic"/>
+					<End class="Story::WaitForPuzzleLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7569680883104493872">
 					<Logic type="Actions::StartLogic"/>
 				</Node>
@@ -1015,6 +1011,10 @@
 						</Entities>
 					</Logic>
 				</Node>
+				<Connect start="7571095310249685314" output="Out" input="In" end="7571095181466079433">
+					<Start class="Story::MissionCheckpointLogic"/>
+					<End class="Story::WaitForPuzzleLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7571097714709861450">
 					<Logic type="Story::FreezeTimeLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1419,11 +1419,23 @@
 		<EditorNode uid="7569680990271923153">
 			<Position x="-1202" y="2401"/>
 		</EditorNode>
+		<EditorNode uid="7571095070118147281">
+			<Position x="-750" y="2400"/>
+		</EditorNode>
+		<EditorNode uid="7571095310249685314">
+			<Position x="-150" y="2400"/>
+		</EditorNode>
+		<EditorNode uid="7571095181466079433">
+			<Position x="375" y="2400"/>
+		</EditorNode>
+		<EditorNode uid="7571095366097353000">
+			<Position x="975" y="2400"/>
+		</EditorNode>
 		<EditorNode uid="7569680990955663856">
-			<Position x="-752" y="2401"/>
+			<Position x="1500" y="2400"/>
 		</EditorNode>
 		<EditorNode uid="7569680989353956740">
-			<Position x="-152" y="2401"/>
+			<Position x="2250" y="2400"/>
 		</EditorNode>
 		<EditorNode uid="7571095378425210767">
 			<Position x="-1800" y="2700"/>
@@ -1442,18 +1454,6 @@
 		</EditorNode>
 		<EditorNode uid="7569680991048632748">
 			<Position x="-1203" y="3003"/>
-		</EditorNode>
-		<EditorNode uid="7571095070118147281">
-			<Position x="750" y="2100"/>
-		</EditorNode>
-		<EditorNode uid="7571095310249685314">
-			<Position x="1350" y="2100"/>
-		</EditorNode>
-		<EditorNode uid="7571095181466079433">
-			<Position x="750" y="2325"/>
-		</EditorNode>
-		<EditorNode uid="7571095366097353000">
-			<Position x="1350" y="2325"/>
 		</EditorNode>
 		<EditorNode uid="7571152214793695771">
 			<Position x="750" y="900"/>
