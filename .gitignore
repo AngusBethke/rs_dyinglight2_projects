@@ -21,8 +21,17 @@
 # Ensure prefabs are not included
 **/prefabs
 
+# We don't need to store the terrain textures, those are shared across projects
+**/Textures/**/*.png
+**/Textures/**/*.dds
+
+# We don't need to store the brushes, those are shared across projects
+**/Brushes/**/*.png
+
 # Ensure prefabs from the project source folder are included
 !/ProjectSource/Prefabs
+!/ProjectSource/Brushes/**/*
+!/ProjectSource/Textures/**/*
 
 # Ensure previews are not included
 **/previews
@@ -41,10 +50,3 @@ screeshot*.tga
 
 # Ensure extracted textures are not included
 **/textures_export/**/*
-
-# We don't need to store the terrain textures, those are shared across projects
-**/terrains/*.png
-**/terrains/*.dds
-
-# We don't need to store the brushes, those are shared across projects
-**/Brushes/**/*.png
