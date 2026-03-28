@@ -22,16 +22,15 @@
 **/prefabs
 
 # We don't need to store the terrain textures, those are shared across projects
-**/Textures/**/*.png
-**/Textures/**/*.dds
+**/Textures
 
 # We don't need to store the brushes, those are shared across projects
-**/Brushes/**/*.png
+**/Brushes
 
 # Ensure prefabs from the project source folder are included
 !/ProjectSource/Prefabs
-!/ProjectSource/Brushes/**/*
-!/ProjectSource/Textures/**/*
+!/ProjectSource/Brushes
+!/ProjectSource/Textures
 
 # Ensure previews are not included
 **/previews
