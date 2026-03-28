@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<Node type="Actions::Group" uid="7173258486043333727">
+	<Logic type="Story::QuestLogic">
+		<Attribute name="m_Quest" value="7173258484488023551"/>
+		<Attribute name="m_Name" value="Missing wallet"/>
+		<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+			<Attribute name="show_indicator" value="1"/>
+			<Attribute name="indicator_type" value="Default"/>
+			<Attribute name="objective" value=""/>
+		</Object>
+		<Entities name="m_QuestGiver">
+			<Entity name="town/Carl"/>
+		</Entities>
+		<Entities name="m_QuestArea">
+			<Entity name=""/>
+		</Entities>
+	</Logic>
+	<Node type="Actions::Node" uid="7173259035952983959">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173258742789518138"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="-30" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259035952983959" output="Out" input="In" end="7173259145794086361">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::DialogueLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259399364474267">
+		<Logic type="Actions::AllLogic">
+			<Input name="In" count="2"/>
+		</Logic>
+		<Editor>
+			<Position x="2940" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259399364474267" output="Out" input="In" end="7173259989006772663">
+		<Start class="Actions::AllLogic"/>
+		<End class="Story::DialogueSetupLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173258484434316708">
+		<Logic type="Actions::EndLogic"/>
+		<Editor>
+			<Position x="4845" y="-135"/>
+		</Editor>
+	</Node>
+	<Node type="Actions::Node" uid="7173259860637547697">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173259773291526545"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="4395" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259860637547697" output="Out" input="In" end="7173258484434316708">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Actions::EndLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173258484399921841">
+		<Logic type="Actions::StartLogic"/>
+		<Editor>
+			<Position x="-720" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7173258484399921841" output="Out" input="In" end="7173259177225229349">
+		<Start class="Actions::StartLogic"/>
+		<End class="Story::DialogueSetupLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259989006772663">
+		<Logic type="Story::DialogueSetupLogic">
+			<Attribute name="m_DialogName" value="give_wallet"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_DialogEntity">
+				<Entity name="town/~13"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="3150" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259989006772663" output="Out" input="In" end="7173259842557640215">
+		<Start class="Story::DialogueSetupLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173260117841302980">
+		<Logic type="Story::ClearLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_SpawnersEntites">
+				<Entity name="town/Spawner"/>
+			</Entities>
+			<Entities name="m_Entities">
+				<Entity name="town/Clear Area"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="1860" y="-285"/>
+		</Editor>
+	</Node>
+	<Connect start="7173260117841302980" output="Out" input="In" end="7173259692423866820">
+		<Start class="Story::ClearLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259692423866820">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173258803145425814"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="2505" y="-255"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259692423866820" output="Out" input="In:0" end="7173259399364474267">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Actions::AllLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259145794086361">
+		<Logic type="Story::DialogueLogic">
+			<Attribute name="m_DialogName" value="find_wallet"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_DialogEntity">
+				<Entity name="town/~12"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="330" y="-300"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259145794086361" output="Out:EndNode" input="In" end="7173259117090349637">
+		<Start class="Story::DialogueLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259310898399199">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173258932551976685"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1440" y="-105"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259310898399199" output="Out" input="In" end="7173260164912600701">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::TakeItemLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259910351414239">
+		<Logic type="Story::DialogueLogic">
+			<Attribute name="m_DialogName" value="give_wallet"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_DialogEntity">
+				<Entity name="town/~13"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="3870" y="-150"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259910351414239" output="Out:EndNode" input="In" end="7173259860637547697">
+		<Start class="Story::DialogueLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259705478756320">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173258932551976685"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="2505" y="-105"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259705478756320" output="Out" input="In:1" end="7173259399364474267">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Actions::AllLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259274774388240">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173258803145425814"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="1425" y="-285"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259274774388240" output="Out" input="In" end="7173260117841302980">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::ClearLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259842557640215">
+		<Logic type="Story::StartObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173259773291526545"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="3495" y="-165"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259842557640215" output="Out" input="In" end="7173259910351414239">
+		<Start class="Story::StartObjectiveLogic"/>
+		<End class="Story::DialogueLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259177225229349">
+		<Logic type="Story::DialogueSetupLogic">
+			<Attribute name="m_DialogName" value="find_wallet"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Entities name="m_DialogEntity">
+				<Entity name="town/~12"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="-435" y="-315"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259177225229349" output="Out" input="In" end="7173259035952983959">
+		<Start class="Story::DialogueSetupLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173259117090349637">
+		<Logic type="Story::CompleteObjectiveLogic">
+			<Attribute name="m_ObjectiveId" value="7173258742789518138"/>
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+		</Logic>
+		<Editor>
+			<Position x="990" y="-285"/>
+		</Editor>
+	</Node>
+	<Connect start="7173259117090349637" output="Out" input="In" end="7173259274774388240">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Connect start="7173259117090349637" output="Out" input="In" end="7173259310898399199">
+		<Start class="Story::CompleteObjectiveLogic"/>
+		<End class="Story::StartObjectiveLogic"/>
+	</Connect>
+	<Node type="Actions::Node" uid="7173260164912600701">
+		<Logic type="Story::TakeItemLogic">
+			<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+				<Attribute name="show_indicator" value="1"/>
+				<Attribute name="indicator_type" value="Default"/>
+				<Attribute name="objective" value="Default"/>
+			</Object>
+			<Output name="Entity" count="1"/>
+			<Entities name="m_Entities">
+				<Entity name="town/Wallet"/>
+			</Entities>
+		</Logic>
+		<Editor>
+			<Position x="1890" y="-45"/>
+		</Editor>
+	</Node>
+	<Connect start="7173260164912600701" output="Out" input="In" end="7173259705478756320">
+		<Start class="Story::TakeItemLogic"/>
+		<End class="Story::CompleteObjectiveLogic"/>
+	</Connect>
+</Node>
+

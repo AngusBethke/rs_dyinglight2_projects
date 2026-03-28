@@ -1,0 +1,14 @@
+sub material()
+{
+  preset("opaque;clp_0_tex;det_0_a_dtm_tex;nrm_0_tex;rgh_0_tex;spc_0_tex;");
+  nrm_0_tex("bld_ce_b_modern_shutters_a_a_nrm.png");
+  rgh_0_tex("bld_ce_b_modern_shutters_a_a_rgh.png");
+  spc_0_tex("bld_ce_b_modern_shutters_a_a_spc.png");
+  clp_0_tex("bld_ce_b_modern_shutters_a_a_clp.png");
+  det_0_a_dtm_tex("srf_metal_a_dtm.png");
+  det_0_a_dtm_nrm(1.0000000000);
+  det_0_a_dtm_dif(0.2500000000);
+  det_0_a_uv_cor(0.5000000000);
+  det_0_a_rot_ang(90.0000000000);
+  det_0_a_flip_h(-1.0000000000);
+}

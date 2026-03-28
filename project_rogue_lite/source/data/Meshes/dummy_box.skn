@@ -1,0 +1,343 @@
+!include("surface.def")
+!include("dummy_box_game.skn")
+
+Skin("common_default")
+{
+    FilterInEditor()
+    Replace("dummy.mat", "dummy.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("simple2 - demo")
+{
+    Replace("dummy.mat", "simple2.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("wd_bricks_tiled")
+{
+    Replace("dummy.mat", "wd_bricks_tiled.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("wd_roof_tiled")
+{
+    Replace("dummy.mat", "wd_roof_tiled.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("Null")
+{
+    //ColorI(0, 128, 128, 128)
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Null_no_climbing")
+{
+    //ColorI(0, 128, 128, 128)
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "BLOCK_CLIMBING")
+}
+
+Skin("Null_no_climbing_metal")
+{
+    //ColorI(0, 128, 128, 128)
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Metal", "BLOCK_CLIMBING")
+}
+
+Skin("Null_no_climbing_wood")
+{
+    //ColorI(0, 128, 128, 128)
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Wood", "BLOCK_CLIMBING")
+}
+
+Skin("default_no_climbing")
+{
+    //ColorI(0, 128, 128, 128)
+    Replace("dummy.mat", "dummy.mat")
+    ReplaceSurface("Unknown", "Unknown", "BLOCK_CLIMBING")
+}
+
+Skin("NullMetal")
+{
+    //ColorI(0, 128, 128, 128)
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Metal", "")
+}
+
+Skin("NullWood")
+{
+    //ColorI(0, 128, 128, 128)
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Wood", "")
+}
+
+
+Skin("Default")
+{
+    UseSkin("common_default", 1)
+    ReplaceSurface("Unknown", "Stone", "SHOOT_THROUGH")
+}
+
+Skin("Macbeth Chart")
+{
+    Replace("dummy.mat", "macbeth_chart.mat")
+    ReplaceSurface("Unknown", "Stone", "SHOOT_THROUGH")
+}
+Skin("HSB Test")
+{
+    Replace("dummy.mat", "hsb_test.mat")
+    ReplaceSurface("Unknown", "Stone", "SHOOT_THROUGH")
+}
+Skin("UserColor")
+{
+    Replace("dummy.mat", "dummy.mat")
+    ReplaceSurface("Unknown", "Stone", "SHOOT_THROUGH")
+}
+
+Skin("Red")
+{
+    UseSkin("common_default", 1)
+    ColorI(0, 128, 0, 0)
+    ReplaceSurface("Unknown", "Wood", "SHOOT_THROUGH")
+}
+
+Skin("Green")
+{
+    UseSkin("common_default", 1)
+    ColorI(0, 0, 128, 0)
+}
+
+Skin("Blue")
+{
+    UseSkin("common_default", 1)
+    ColorI(0, 0, 0, 128)
+}
+
+Skin("Grid")
+{
+    ColorI(0, 255, 255, 255)
+    Replace("dummy.mat", "dummy_texture.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Local Grid")
+{
+    ColorI(0, 255, 255, 255)
+    Replace("dummy.mat", "localuv.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Yellow")
+{
+    ColorI(0, 255, 225, 0)
+    Replace("dummy.mat", "dummy_texture.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Black")
+{
+    ColorI(0, 0, 0, 0)
+    Replace("dummy.mat", "dummy_texture.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Noise")
+{
+    ColorI(0, 255, 255, 255)
+    Replace("dummy.mat", "dummy_noise.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("wd_Grass WS")
+{
+    Replace("dummy.mat", "wd_grass_01.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("gui_inv_menu WS")
+{
+    Replace("dummy.mat", "gui_inv_menu.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("wd_Asphalt WS")
+{
+    Replace("dummy.mat", "wd_asphalt_01.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Grid WS")
+{
+    ColorI(0, 255, 255, 255)
+    Replace("dummy.mat", "dummy_texture_ws.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Grid WS 192")
+{
+    Replace("dummy.mat", "dummy_texture_ws192.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Grid UserColor")
+{
+    Replace("dummy.mat", "dummy_texture.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Placeholder_UserColor")
+{
+    Replace("dummy.mat", "dummy_texture_placeholder.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("Physical_Placeholder_UserColor")
+{
+    Replace("dummy.mat", "dummy_texture_placeholder.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("Grid WS UserColor")
+{
+    Replace("dummy.mat", "dummy_texture_ws.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("CastShadowsOnly")
+{
+    Replace("dummy.mat", "shadow_caster.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("CastShadowsOnlySlide")
+{
+    Replace("dummy.mat", "shadow_caster.mat")
+    ReplaceSurface("Unknown", "Unknown", "SLIDE")
+}
+
+Skin("CastShadowsOnlyBlockClimbing")
+{
+    Replace("dummy.mat", "shadow_caster.mat")
+    ReplaceSurface("Unknown", "Unknown", "BLOCK_CLIMBING")
+}
+
+Skin("Red_Slide_BlockClimb")
+{
+    UseSkin("common_default", 1)
+    ColorI(0, 128, 0, 0)
+    ReplaceSurface("Unknown", "Wood", "SHOOT_THROUGH | BLOCK_CLIMBING | SLIDE")
+}
+
+Skin("CastShadowsOnlyBlockAttach")
+{
+    Replace("dummy.mat", "shadow_caster.mat")
+    ReplaceSurface("Unknown", "Unknown", "BLOCK_ATTACH")
+}
+
+Skin("NoShadowsBlockAttach_BLOCK_CLIMBING")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "BLOCK_ATTACH | BLOCK_CLIMBING")
+}
+
+Skin("UserColor Only")
+{
+    Replace("dummy.mat", "user_color.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Lighting reference")
+{
+    Replace("dummy.mat", "dummy_lighting_reference.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("Glide_down")
+{
+    Replace("dummy.mat", "dummy_texture_ws.mat")
+    ReplaceSurface("Unknown", "Unknown", "GLIDE_DOWN")
+}
+
+Skin("Slide")
+{
+    Replace("dummy.mat", "dummy_texture_ws.mat")
+    ColorI(0, 128, 0, 0)
+    ReplaceSurface("Unknown", "Unknown", "SLIDE")
+}
+
+Skin("DLC_Car_Loot_Bonnet")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("DLC_Car_Loot_Bonnet_Police")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("DLC_Car_Loot_Bonnet_Police_Van")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("DLC_Car_Loot_Fuel")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("DLC_Car_Loot_Bonnet_Van")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("DLC_Car_Loot_Bonnet_Military")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("DLC_Car_Loot_Bonnet_Military_Lorry")
+{
+    Replace("dummy.mat", "null.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("dt_dummy_concrete")
+{
+    Replace("dummy.mat", "dt_dummy_concrete_ws.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("sw_concrete_a")
+{
+	Replace("dummy.mat", "sw_concrete_a.mat")
+	ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("ground_a")
+{
+    Replace("dummy.mat", "dummy_ground_a.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+Skin("default_ramp")
+{
+    Replace("dummy.mat", "shadow_caster.mat")
+    ReplaceSurface("Unknown", "Plastic", "")
+}
+
+Skin("Barrier Transparent")
+{
+    Replace("dummy.mat", "barrier.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+    ColorI(255, 255, 255, 255)
+}
+
+Skin("Emmisive Sky")
+{
+    Replace("dummy.mat", "dummy_ems_sky.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Interior_lod_wall")
+{
+    Replace("dummy.mat", "interior_lod_wall.mat")
+    ReplaceSurface("Unknown", "Unknown", "")
+}
+
+Skin("Default_LOD")
+{
+
+    Replace("dummy.mat", "dummy_lod.mat")
+    ReplaceSurface("Unknown", "Stone", "SHOOT_THROUGH")
+}

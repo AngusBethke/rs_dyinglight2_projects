@@ -1,0 +1,19 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("nm_grappling_hook_auto_aim_a.mat", "nm_grappling_hook_auto_aim_a.mat")
+    Replace("nm_grappling_hook_auto_aim_light.mat", "nm_grappling_hook_auto_aim_light.mat")
+{
+        Texture("ems_0_tex", "mt_container_wall_top_hatch_a_light_red_ems.png")
+    }
+    ReplaceSurface("Unknown", "", "")
+}
+
+Skin("activ")
+{
+    Replace("nm_grappling_hook_auto_aim_a.mat", "nm_grappling_hook_auto_aim_a.mat")
+    Replace("nm_grappling_hook_auto_aim_light.mat", "nm_grappling_hook_auto_aim_light.mat")
+
+    ReplaceSurface("Unknown", "", "")
+}

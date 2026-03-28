@@ -1,0 +1,18 @@
+sub material()
+{
+  preset("opaque;cast_shadows_def;cast_shadows_off;clp_0_tex;clp_usr_on;dif_0_tex;multiple_pivots;nrm_0_tex;nrm_flip2s_on;static_on;swap_rgh_dif_on;swap_rgh_on;swap_rgh_rgh_on;swap_spc_dif_on;swap_spc_on;swap_spc_spc_clr_on;swap_trn_dif_on;swap_trn_on;swap_trn_trn_on;wnd_hmsk_on;wnd_msk_pow_on;wnd_pivot_on;wnd_simple_on;zpass_def;zpass_on;");
+  dif_0_tex("nat_ground_plants_a_dif.png");
+  nrm_0_tex("nat_ground_plants_a_nrm.png");
+  clp_0_tex("nat_ground_plants_a_clp.png");
+  swap_spc_out_min(24.0000000000);
+  swap_spc_out_max(89.0000000000);
+  swap_rgh_in_min(32.0000000000);
+  swap_rgh_in_max(167.0000000000);
+  swap_trn_in_min(101.0000000000);
+  swap_trn_in_max(154.0000000000);
+  wnd_factor_s(0.6299999952);
+  wnd_factor_t(0.0500000007);
+  wnd_factor_o(1.0399999619);
+  wnd_factor_n(1.7000000477);
+  wnd_factor_d(0.1400000006);
+}

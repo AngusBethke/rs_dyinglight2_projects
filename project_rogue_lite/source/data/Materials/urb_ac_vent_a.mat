@@ -1,0 +1,16 @@
+sub material()
+{
+  preset("opaque;cast_shadows_def;cast_shadows_on;det_0_a_dtm_tex;nrm_0_tex;spc_0_tex;swap_rgh_on;swap_rgh_rgh_on;swap_rgh_spc_on;swap_spc_on;");
+  nrm_0_tex("urb_ac_vent_a_nrm.png");
+  spc_0_tex("urb_ac_vent_a_spc.png");
+  swap_rgh_in_min(195.0000000000);
+  swap_rgh_in_max(144.0000000000);
+  swap_rgh_out_min(78.0000000000);
+  swap_rgh_out_max(217.0000000000);
+  swap_rgh_mid(0.9499999881);
+  det_0_a_dtm_tex("srf_metal_a_dtm.png");
+  det_0_a_opacity_factor(0.2500000000);
+  det_0_a_dtm_dif(0.2500000000);
+  det_0_a_dtm_nrm(1.0000000000);
+  det_0_a_uv_cor(0.1666666716);
+}

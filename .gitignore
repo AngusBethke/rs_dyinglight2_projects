@@ -16,6 +16,7 @@
 !/project_adventure
 !/project_terror
 !/project_winter
+!/project_rogue_lite
 
 # Ensure prefabs are not included
 **/prefabs
@@ -40,3 +41,10 @@ screeshot*.tga
 
 # Ensure extracted textures are not included
 **/textures_export/**/*
+
+# We don't need to store the terrain textures, those are shared across projects
+**/terrains/*.png
+**/terrains/*.dds
+
+# We don't need to store the brushes, those are shared across projects
+**/Brushes/**/*.png

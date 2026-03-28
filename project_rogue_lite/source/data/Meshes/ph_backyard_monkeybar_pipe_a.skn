@@ -1,0 +1,9 @@
+!include("surface.def")
+
+Skin("Default")
+{
+    Replace("ph_backyard_monkeybar_pipe.mat", "ph_backyard_monkeybar_pipe.mat")
+    Replace("shadowcaster.mat", "shadowcaster.mat")
+
+    ReplaceSurface("Metal", "", "")
+}

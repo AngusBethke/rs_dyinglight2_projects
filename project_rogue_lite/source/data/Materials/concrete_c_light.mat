@@ -1,0 +1,14 @@
+sub material()
+{
+  preset("opaque;det_0_a_dtm_tex;dif_0_tex;nrm_0_tex;sb_u_0_on;sb_u_1_on;sb_u_unif;sb_u_x;sb_v_0_on;sb_v_1_on;sb_v_unif;sb_v_y;spc_0_tex;swap_rgh_dif_on;swap_rgh_on;swap_rgh_rgh_on;");
+  dif_0_tex("concrete_c_light_dif.png");
+  nrm_0_tex("concrete_c_light_nrm.png");
+  spc_0_tex("specular_spc.png");
+  swap_rgh_in_min(255.0000000000);
+  swap_rgh_in_max(0.0000000000);
+  det_0_a_dtm_tex("srf_concrete_a_dtm.png");
+  det_0_a_opacity_factor(0.3199999928);
+  det_0_a_dtm_dif(0.2500000000);
+  det_0_a_dtm_nrm(1.0000000000);
+  det_0_a_uv_cor(-0.5000000000);
+}

@@ -1,0 +1,17 @@
+sub material()
+{
+  preset("opaque;det_0_a_dtm_tex;det_0_msk_tex;dif_0_tex;grd_tex;idx_tex;msk_1_blend_add;nrm_0_tex;rgh_0_tex;spc_0_tex;");
+  dif_0_tex("travel_bag_new_dif.png");
+  nrm_0_tex("travel_bag_new_nrm.png");
+  rgh_0_tex("travel_bag_new_rgh.png");
+  spc_0_tex("travel_bag_new_spc.png");
+  det_0_msk_tex("travel_bag_new_det.png");
+  det_0_a_dtm_tex("srf_cotton_shorn_dtm.png");
+  det_0_a_dtm_dif(0.6700000167);
+  det_0_a_dtm_trn(-0.0299999993);
+  det_0_a_dtm_rgh(-0.7699999809);
+  det_0_a_dtm_spc(0.4300000072);
+  det_0_a_scale_factor(0.7500000000);
+  idx_tex("travel_bag_d_idx.png");
+  grd_tex("travel_bag_d_grd.png");
+}

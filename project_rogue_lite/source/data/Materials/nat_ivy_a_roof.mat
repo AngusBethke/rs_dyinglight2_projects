@@ -1,0 +1,16 @@
+sub material()
+{
+  preset("opaque;clp_0_tex;dif_0_tex;dye_def;dye_mul;dye_tex;grf_dif_tex;msk_1_blend_add;new_vertex_map;nrm_0_tex;wnd_msk_pow_on;wnd_simple_on;");
+  dif_0_tex("nat_ivy_a_roof_dif.png");
+  nrm_0_tex("nat_ivy_a_roof_nrm.png");
+  clp_0_tex("nat_ivy_a_roof_clp.png");
+  dye_tex("nat_ivy_b_roof_dye.png");
+  spcDef([0.2901960909, 0.2901960909, 0.2901960909]);
+  rghDef(0.4499999881);
+  trnDef(0.4399999976);
+  grf_dif_tex("plants_grf.png");
+  wnd_factor_s(1.0000000000);
+  wnd_factor_t(0.0299999993);
+  wnd_factor_o(2.6099998951);
+  wnd_factor_n(1.9800000191);
+}

@@ -1,0 +1,13 @@
+sub material()
+{
+  preset("opaque;dif_0_tex;nrm_0_tex;swap_rgh_dif_on;swap_rgh_on;swap_rgh_rgh_on;swap_spc_dif_on;swap_spc_on;swap_spc_spc_clr_on;");
+  dif_0_tex("ac_unit_elements_a_dif.png");
+  nrm_0_tex("ac_unit_elements_a_nrm.png");
+  swap_spc_in_min(59.0000000000);
+  swap_spc_in_max(34.0000000000);
+  swap_spc_out_min(56.0000000000);
+  swap_rgh_in_min(33.0000000000);
+  swap_rgh_in_max(184.0000000000);
+  swap_rgh_out_min(82.0000000000);
+  swap_rgh_mid(0.8899999857);
+}

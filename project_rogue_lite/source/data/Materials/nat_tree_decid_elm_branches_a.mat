@@ -1,0 +1,18 @@
+sub material()
+{
+  preset("opaque;b_wind_compute;cast_shadows_def;cast_shadows_off;clp_0_tex;contact_shadows_on;dif_0_tex;dye_def;dye_mul;dye_tex;grf_dif_tex;leaves_shading_on;msk_1_blend_add;new_vertex_map;nrm_0_tex;nrm_flip2s_on;trn_0_tex;wnd_nrm_on;wnd_simple_on;zpass_def;zpass_on;");
+  dif_0_tex("nat_tree_decid_elm_branches_a_dif.png");
+  nrm_0_tex("nat_tree_decid_elm_branches_a_nrm.png");
+  clp_0_tex("nat_tree_decid_elm_branches_a_clp.png");
+  dye_tex("nat_tree_decid_elm_branches_a_dye.png");
+  grf_dif_tex("tree_leaves_grf.png");
+  wnd_factor_s(0.5000000000);
+  wnd_factor_t(-0.0700000003);
+  wnd_factor_o(5.0000000000);
+  wnd_factor_n(0.7500000000);
+  wnd_factor_d(0.1400000006);
+  wnd_nrm_factor_s(0.0299999993);
+  wnd_nrm_factor_t(1.5599999428);
+  wnd_nrm_factor_f(0.3000000119);
+  wnd_nrm_factor_d(1.0000000000);
+}

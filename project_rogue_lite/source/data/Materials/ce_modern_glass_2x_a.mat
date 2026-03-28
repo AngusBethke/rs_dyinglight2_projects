@@ -1,0 +1,22 @@
+sub material()
+{
+  preset("opaque;cast_shadows_def;cast_shadows_off;cull_1s;cull_def;det_0_a_dtm_tex;dif_0_tex;grf_dif_tex;grf_id_tex;nrm_0_tex;od2_tex;of1_clamp_u_on;of1_clamp_v_on;of2_clamp_v_on;of3_clamp_v_on;ofc_tex;off_tex;rgh_0_tex;spc_0_tex;");
+  dif_0_tex("ce_modern_glass_2x_a_dif.png");
+  dif_0_val([0.0000000000, 0.0000000000, 0.0000000000]);
+  nrm_0_tex("normal_nrm.png");
+  rgh_0_tex("ce_modern_glass_2x_a_rgh.dds");
+  spc_0_tex("ce_modern_glass_2x_a_spc.dds");
+  grf_dif_tex("bld_ce_windows_glass_grf.png");
+  grf_id_tex("ce_modern_glass_2x_a_off.png");
+  det_0_a_dtm_tex("srf_glass_rain_dtm.png");
+  det_0_a_opacity_factor(0.5000000000);
+  off_tex("ce_modern_glass_2x_a_off.png");
+  od2_tex("ce_modern_glass_8x_a_od2.png");
+  of2_factor(0.1500000060);
+  of2_prop([0.2500000000, 1.0000000000]);
+  of2_pos([0.5000000000, 0.0000000000]);
+  ofc_tex("dt_glass_dirt_6_a_ofc.dds");
+  ofo_extents([1.0000000000, 1.0000000000, 1.0000000000]);
+  det_0_a_dtm_nrm(1.0000000000);
+  det_0_a_dtm_dif(0.2500000000);
+}

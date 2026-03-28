@@ -1,0 +1,11 @@
+sub material()
+{
+  preset("opaque;b_wind_compute;cast_shadows_def;cast_shadows_off;dif_0_tex;grf_dif_tex;new_vertex_map;nrm_0_tex;nrm_flip2s_on;swap_rgh_dif_on;swap_rgh_on;swap_rgh_rgh_on;swap_spc_dif_on;swap_spc_on;swap_spc_spc_clr_on;");
+  dif_0_tex("nat_tree_decid_elm_bark_a_dif.png");
+  nrm_0_tex("nat_tree_decid_elm_bark_a_nrm.png");
+  swap_spc_out_max(97.0000000000);
+  swap_rgh_in_min(206.0000000000);
+  swap_rgh_in_max(127.0000000000);
+  swap_rgh_out_min(147.0000000000);
+  grf_dif_tex("tree_bark_grf.png");
+}

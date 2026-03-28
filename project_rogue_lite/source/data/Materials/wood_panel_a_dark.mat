@@ -1,0 +1,17 @@
+sub material()
+{
+  preset("opaque;det_0_a_dtm_tex;dif_0_tex;nrm_0_tex;spc_0_tex;swap_rgh_dif_on;swap_rgh_on;swap_rgh_rgh_on;swap_spc_dif_on;swap_spc_on;swap_spc_spc_clr_on;");
+  dif_0_tex("wood_panel_a_dark_dif.png");
+  nrm_0_tex("plastic_panel_a_light_nrm.png");
+  swap_spc_in_min(28.0000000000);
+  swap_spc_in_max(220.0000000000);
+  swap_spc_out_min(27.0000000000);
+  swap_spc_out_max(54.0000000000);
+  swap_rgh_in_min(55.0000000000);
+  swap_rgh_in_max(209.0000000000);
+  swap_rgh_out_min(255.0000000000);
+  swap_rgh_out_max(0.0000000000);
+  det_0_a_dtm_tex("srf_wood_a_dtm.png");
+  det_0_a_dtm_dif(0.2500000000);
+  det_0_a_dtm_nrm(1.0000000000);
+}

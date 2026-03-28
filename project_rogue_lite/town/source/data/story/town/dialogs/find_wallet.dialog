@@ -1,0 +1,45 @@
+---
+- Dialog::Graph:
+  - m_Uid: 7173261310902343244
+  - m_PrefabType: Generate
+  - m_TemplatePrefab: template_1NPC_base
+  - m_AddSensorToPrefab: 0
+  - m_Nodes:
+    - Dialog::StartNode:
+      - m_Elements:
+        - Dialog::TriggerEvent:
+          - m_Uid: 7173261320895768744
+          - m_Output: 7173261542713511247
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: -315.000000
+          - y: -60.000000
+      - m_Uid: 7173261310474621568
+    - Dialog::EndNode:
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 450.000000
+          - y: -45.000000
+      - m_Uid: 7173261415466727950
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7173261543602839477
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 75.000000
+          - y: -45.000000
+      - m_Uid: 7173261542713511247
+      - m_Output: 7173261415466727950
+  - m_ActorsData:
+    - Dialog::AIData:
+      - m_GeneratorPreset: neutral
+      - m_Slot: Slot1
+      - m_Name: Carl
+      - m_SetupBehaviors:
+        - Dialog::SetupBehaviorAI:
+          - m_BehaviorName: single_static_m_stand_idle_placeholder_01
+          - m_NodeUid: 7173261310474621568
+      - m_HasTrigger: 1
+    - Dialog::PlayerData: 
+  - m_VariableData:
+    - Dialog::InstanceVariableData: 
+...

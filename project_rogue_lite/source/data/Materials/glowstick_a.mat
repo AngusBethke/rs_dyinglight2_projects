@@ -1,0 +1,9 @@
+sub material()
+{
+  preset("opaque;clamp_u_on;clamp_v_on;dif_0_tex;ems_0_tex;ems_usr_on;nrm_0_tex;rgh_0_tex;spc_0_tex;");
+  nrm_0_tex("glowstick_a_nrm.png");
+  rgh_0_tex("glowstick_a_rgh.png");
+  spc_0_tex("glowstick_a_spc.png");
+  dif_0_tex("glowstick_a_dif.png");
+  ems_0_tex("glowstick_a_ems.png");
+}

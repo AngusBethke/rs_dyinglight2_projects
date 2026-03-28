@@ -1,0 +1,8 @@
+sub material()
+{
+  preset("opaque;clamp_u_on;clamp_v_on;ems_0_tex;ems_usr_on;opc_0_tex;opc_usr_on;");
+  ems_0_tex("glowstick_glow_a_ems.png");
+  opc_0_tex("glowstick_glow_a_opc.png");
+  opc_3_ranges([62.0000000000, 255.0000000000]);
+  opc_4_ranges([2.0000000000, 255.0000000000]);
+}
