@@ -1,0 +1,279 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall_Interior_Shaft",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Interior_Shaft;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "22",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "55",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "56",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "26",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "51",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Floor_Interior_Shaft",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Floor_Interior_Shaft;",
+            "DestinationFields": [
+              {
+                "Uuid": "73",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "74",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "75",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "76",
+                "Name": "Floor"
+              }
+            ]
+          },
+          {
+            "Name": "Floor_Interior_Stairwell",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Floor_Interior_Stairwell;",
+            "DestinationFields": [
+              {
+                "Uuid": "71",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "69",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "72",
+                "Name": "Floor"
+              },
+              {
+                "Uuid": "70",
+                "Name": "Floor"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-3.8400046, 7.056651440962014e-8, -1.9200011]]
+          },
+          "Fields": {
+            "Wall": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-3.8400042, 7.056650730419278e-8, -5.7600021]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999989, 0.9999991, 0.9999989]],
+            "m_Translate": [14, [3.8399956, 7.0566471777056e-8, -5.7600016]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999988, 0.9999989, 0.9999988]],
+            "m_Translate": [14, [3.8399956, 7.056646467162864e-8, -1.9200005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0000223, -0.0000175, -0.0000223]],
+            "m_Scale": [14, [0.9999986, 0.9999986, 0.9999989]],
+            "m_Translate": [14, [-1.9200048, 7.056645756620128e-8, -7.6800031]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0001337, 0.480499, -2.8876361, 1.9291373, 0.4805011, 2.7682464]],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_0h_a"],
+            "m_Translate": [14, [-1.9199984, 4.768372150465439e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0001337, 0.480499, -2.8876361, 1.9291373, 0.4805011, 2.7682464]],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_0h_a"],
+            "m_Translate": [14, [1.9200011, 4.768372150465439e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0000223, -0.0000175, -0.0000223]],
+            "m_Scale": [14, [0.9999986, 0.9999985, 0.9999988]],
+            "m_Translate": [14, [1.9199955, -0.0000013, -7.6800022]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-179.9999847, 0.0000049, -180.0]],
+            "m_Scale": [14, [0.9999985, 0.9999988, 0.9999988]],
+            "m_Translate": [14, [1.9199955, -9.536744300930878e-7, -1.6117226664391638e-7]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-179.9999847, 0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.9999985, 0.9999986, 0.9999988]],
+            "m_Translate": [14, [-1.9200048, -0.0000013, -4.968759981238691e-7]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Translate": [14, [-0.9599996, 0.9600008, -8.6400012]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x"],
+            "m_Translate": [14, [-5.7599997, 0.9600008, -9.6000022]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Translate": [14, [-2.8799996, 0.9600008, -8.6400012]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Translate": [14, [-2.8799996, 0.9600008, -10.5600023]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 73],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x"],
+            "m_Translate": [14, [-1.9199992, 7.152558509915252e-7, -5.7600016]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 74],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x"],
+            "m_Translate": [14, [1.9200005, 7.152558509915252e-7, -5.7600016]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x"],
+            "m_Translate": [14, [1.9200005, 7.152558509915252e-7, -1.9200005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x"],
+            "m_Translate": [14, [-1.9199992, 7.152558509915252e-7, -1.9200005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "rs_elevator_stopper_btm"],
+            "m_Translate": [14, [-1.9199998, 7.152558509915252e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 88],
+            "m_PrefabName": [12, "rs_elevator_stopper_btm"],
+            "m_Translate": [14, [1.9200005, 7.152558509915252e-7, 0.0]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
