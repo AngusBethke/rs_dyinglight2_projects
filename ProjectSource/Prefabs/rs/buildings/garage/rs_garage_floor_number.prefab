@@ -1,0 +1,62 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Decal_Right",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Decal_Right;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "Wall_Decal_Painted"
+              }
+            ]
+          },
+          {
+            "Name": "Decal_Left",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Decal_Left;",
+            "DestinationFields": [
+              {
+                "Uuid": "4",
+                "Name": "Wall_Decal_Painted"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "wall_decal_painted"],
+            "m_PresetNames": [12, "Wall_Decal_Painted_skin;0;Generic_prop_color;Beige_b"],
+            "m_Scale": [14, [2.0, 2.0, 2.0]],
+            "m_Translate": [14, [0.8400021, 1.7180001, 0.1659997]]
+          },
+          "Fields": {
+            "UserData": "4286588421 128 4294901760 0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "wall_decal_painted"],
+            "m_PresetNames": [12, "Wall_Decal_Painted_skin;0;Generic_prop_color;Beige_b"],
+            "m_Scale": [14, [2.0, 2.0, 2.0]],
+            "m_Translate": [14, [-0.8399978, 1.7180001, 0.1659995]]
+          },
+          "Fields": {
+            "UserData": "4286588421 128 4294901760 0"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
