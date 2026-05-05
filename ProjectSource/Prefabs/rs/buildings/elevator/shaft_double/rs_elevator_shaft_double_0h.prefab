@@ -29,10 +29,6 @@
                 "Name": "Wall"
               },
               {
-                "Uuid": "7",
-                "Name": "Wall"
-              },
-              {
                 "Uuid": "8",
                 "Name": "Wall"
               },
@@ -89,6 +85,16 @@
             ]
           },
           {
+            "Name": "Ceiling_Interior_Stairwell",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling_Interior_Stairwell;",
+            "DestinationFields": [
+              {
+                "Uuid": "66",
+                "Name": "Ceiling"
+              }
+            ]
+          },
+          {
             "Name": "Wall_Interior_Shaft",
             "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Interior_Shaft;",
             "DestinationFields": [
@@ -109,10 +115,6 @@
                 "Name": "Wall"
               },
               {
-                "Uuid": "15",
-                "Name": "Wall"
-              },
-              {
                 "Uuid": "16",
                 "Name": "Wall"
               },
@@ -123,31 +125,16 @@
               {
                 "Uuid": "51",
                 "Name": "Wall"
-              }
-            ]
-          },
-          {
-            "Name": "Ceiling_Interior_Stairwell",
-            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling_Interior_Stairwell;",
-            "DestinationFields": [
+              },
               {
-                "Uuid": "66",
-                "Name": "Ceiling"
+                "Uuid": "15",
+                "Name": "Wall"
               }
             ]
           }
         ]
       },
       "Components": [
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_PcId": [6, 7],
-            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
-            "m_Rotate": [14, [0.0, -90.0, 0.0]],
-            "m_Translate": [14, [-3.8400049, 7.05665215150475e-8, -1.9200011]]
-          }
-        },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
@@ -209,12 +196,12 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_PcId": [6, 15],
-            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half_vent"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Translate": [14, [-3.8400046, 7.056651440962014e-8, -1.9200011]]
           },
           "Fields": {
-            "Wall": ""
+            "Wall": "concrete_c_light"
           }
         },
         {
@@ -474,8 +461,8 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 66],
             "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
-            "m_Rotate": [14, [-0.0, 0.000005, -0.0]],
-            "m_Translate": [14, [-0.9599995, 0.9600006, -10.5600042]]
+            "m_Rotate": [14, [-0.0, 0.0000049, -0.0]],
+            "m_Translate": [14, [-0.9599995, 0.9600005, -10.5600042]]
           }
         },
         {
