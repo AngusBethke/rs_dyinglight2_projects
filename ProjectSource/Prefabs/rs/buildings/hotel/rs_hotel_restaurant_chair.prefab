@@ -1,0 +1,54 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Include",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Include;c:Body;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "Include"
+              }
+            ]
+          },
+          {
+            "Name": "Type",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Type;c:Chair;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "rs_hotel_restaurant_chair_a"],
+            "m_Scale": [14, [1.0000005, 1.0000002, 1.0000002]],
+            "m_Translate": [14, [0.0000925, -0.0000057, -0.0002374]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 2],
+            "m_PcId": [6, 3]
+          },
+          "Presets": []
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
