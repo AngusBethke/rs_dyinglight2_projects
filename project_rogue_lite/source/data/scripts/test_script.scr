@@ -1,0 +1,8 @@
+import "test_script_exported_variables.scr"
+use_semantic "test_script_semantic.scr"
+
+sub main()
+{
+    Sample(true, "Value3", 5, 14.5, [1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0]);
+    Sample2(SAMPLE_TWO);
+}

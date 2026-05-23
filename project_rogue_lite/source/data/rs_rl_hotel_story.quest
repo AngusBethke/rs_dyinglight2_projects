@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Header>
+	<Version value="3"/>
+</Header>
+<Quest>
+	<StoryData>
+		<Node type="Actions::Group" uid="7642373277156770460">
+			<Logic type="Story::CampaignLogic">
+				<Attribute name="m_IndicatorType" value=""/>
+				<Attribute name="m_ShowIndicator" value="1"/>
+				<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+					<Attribute name="show_indicator" value="1"/>
+					<Attribute name="indicator_type" value="Default"/>
+					<Attribute name="objective" value="Default"/>
+				</Object>
+			</Logic>
+			<InputSubIdEntries>
+				<InputSubIdEntry connectorLogicNodeUid="7642373277567972868" subId="0"/>
+			</InputSubIdEntries>
+			<OutputSubIdEntries>
+				<OutputSubIdEntry connectorLogicNodeUid="7642373276953734183" subId="0"/>
+			</OutputSubIdEntries>
+			<Node file="rs_rl_hotel_quest.quest"/>
+			<Connect start="7642373475340927696" output="Out:End" input="In" end="7642373276953734183">
+				<Start class="Story::QuestLogic"/>
+				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7642373277567972868">
+				<Logic type="Actions::StartLogic"/>
+			</Node>
+			<Connect start="7642373277567972868" output="Out" input="In:Start" end="7642373475340927696">
+				<Start class="Actions::StartLogic"/>
+				<End class="Story::QuestLogic"/>
+			</Connect>
+			<Node type="Actions::Node" uid="7642373276953734183">
+				<Logic type="Actions::EndLogic"/>
+			</Node>
+		</Node>
+	</StoryData>
+	<EditorData>
+		<EditorNode uid="7642373277567972868">
+			<Position x="-750" y="0"/>
+		</EditorNode>
+		<EditorNode file="rs_rl_hotel_quest.quest">
+			<Position x="-450" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7642373276953734183">
+			<Position x="0" y="0"/>
+		</EditorNode>
+	</EditorData>
+</Quest>
+

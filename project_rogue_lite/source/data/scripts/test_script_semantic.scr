@@ -1,0 +1,41 @@
+import "test_script_exported_variables.scr"
+
+sub main()
+{
+    Sample(false, "Value1", 1, 1.0, [1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0, 1.0])
+    {
+        FieldName(0, "Some bool");
+        
+        FieldName(1, "Some string");
+        FieldDesc(1, "An example how callback works");
+        FieldFlags(1, "f:EDIT;e:EDIT|CALLBACK;");
+        FieldValues(1) //if CALLBACK is set we can give here values to choose 
+        {
+            Value("Key1", "Value1");
+            Value("Key2", "Value2");
+            Value("Key3", "Value3");
+        }
+        FieldName(2, "Some int");
+        FieldDesc(2, "An example how slider works");
+        FieldFlags(2, "f:EDIT;e:EDIT|SLIDER;m:-10;x:10;");
+        
+        FieldName(3, "Some float");
+        
+        FieldName(4, "Some vec2");
+        FieldDesc(4, "An example how range works");
+        FieldFlags(4, "e:EDIT|RANGE;f:EDIT; m:-100.0 -100.0; x:100.0 100.0 100.0; r:3;");
+        
+        FieldName(5, "Some vec3");
+        FieldDesc(5, "An example how color works");
+        FieldFlags(5, "f:EDIT;e:EDIT|BROWSE_COLOR;");
+        
+        FieldName(6, "Some vec4");
+    }
+    Sample2(SAMPLE_NONE)
+    {
+        FieldCategory("Test");
+        Variable(0);                 //Global for external global values
+        VariableFilter(0, "SAMPLE_");    //GlobalFilter for external global values
+        FieldFlags(0, "f:EDIT;e:EDIT|CALLBACK;");
+    }
+}
