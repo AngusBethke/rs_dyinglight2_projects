@@ -2,11 +2,33 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Floor",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Floor;",
+            "DestinationFields": [
+              {
+                "Uuid": "15",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "16",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "20",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004984, -0.4785243, -0.472819, 1.9205137, 0.4814735, 0.4738211]],
+            "m_EntityComponentsExtents": [69, [0.0004998, -0.4785243, -0.4728205, 1.9205131, 0.4814735, 0.4738206]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_tarace_damage_str_x2"]
@@ -22,7 +44,7 @@
             "m_PcId": [6, 15],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_sqr_1x1a_a"],
-            "m_Rotate": [14, [-0.0000093, -30.0000038, 0.0000256]],
+            "m_Rotate": [14, [-0.0000092, -30.0000038, 0.0000256]],
             "m_Scale": [14, [0.2499998, 0.25, 0.2499998]],
             "m_Translate": [14, [0.8434857, 0.0012857, -0.4318515]]
           },
@@ -33,13 +55,13 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000048, -0.0074974, 0.0000047, 0.9800049, 0.0125024, 0.980005]],
+            "m_EntityComponentsExtents": [69, [0.0000077, -0.0074974, 0.0000047, 0.9800059, 0.0125024, 0.9800051]],
             "m_PcId": [6, 16],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_sqr_1x1a_a"],
             "m_Rotate": [14, [-0.0000282, 15.0000085, 0.000023]],
             "m_Scale": [14, [0.2499998, 0.2499998, 0.2499998]],
-            "m_Translate": [14, [-0.3920823, 0.0022275, -0.3033008]]
+            "m_Translate": [14, [-0.3920823, 0.0022275, -0.3033007]]
           },
           "Fields": {
             "SkinName": "woodparquet_d_light"
@@ -48,7 +70,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.093378, -8.344650268554688e-7, 1.2188457, 0.1043167, 1.2188458]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.093378, -8.344650268554688e-7, 1.2188458, 0.1043168, 1.2188458]],
             "m_PcId": [6, 17],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;prp_debris_pile_small_a"],
@@ -60,12 +82,12 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.7888336, -0.1534999, -0.0007851, 0.1911666, 0.1664998, 1.9388532]],
+            "m_EntityComponentsExtents": [69, [-0.7888334, -0.1534999, -0.0007851, 0.1911666, 0.1664998, 1.9388532]],
             "m_PcId": [6, 20],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_damage_left_2x_a"],
             "m_Rotate": [14, [0.0, 90.0, 1.9999778]],
-            "m_Translate": [14, [-0.0000048, 0.0334696, -0.9550002]]
+            "m_Translate": [14, [-0.0000048, 0.0334694, -0.9550002]]
           },
           "Fields": {
             "SkinName": "woodparquet_d_light"

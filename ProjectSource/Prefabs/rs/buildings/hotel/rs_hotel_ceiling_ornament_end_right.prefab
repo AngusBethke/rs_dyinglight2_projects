@@ -2,6 +2,20 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Ornament",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ornament;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
@@ -11,7 +25,7 @@
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_ceiling_ornament_str_1x_c"],
             "m_Scale": [14, [0.25, 1.0000002, 1.0000002]],
-            "m_Translate": [14, [0.2399981, 0.0, 0.0000095]]
+            "m_Translate": [14, [0.2399981, 0.0, 0.0000093]]
           },
           "Fields": {
             "SkinName": "modern_black_a"
@@ -26,7 +40,7 @@
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_damage_beam_str_1x_a"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Scale": [14, [0.5000001, 1.0000002, 1.0000002]],
-            "m_Translate": [14, [0.4209981, -0.3225441, -0.4797135]]
+            "m_Translate": [14, [0.420998, -0.322544, -0.4797134]]
           }
         },
         {
@@ -38,7 +52,7 @@
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_damage_beam_str_1x_a"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Scale": [14, [0.3500001, 1.0000002, 2.0000004]],
-            "m_Translate": [14, [0.3085203, -0.2200699, -0.6239911]]
+            "m_Translate": [14, [0.3085201, -0.2200699, -0.623991]]
           }
         },
         {
@@ -49,8 +63,8 @@
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_damage_beam_str_1x_a"],
             "m_Rotate": [14, [89.9999923, 0.0, 179.9999847]],
-            "m_Scale": [14, [0.35, 1.0, 1.0]],
-            "m_Translate": [14, [0.2176263, -0.4265099, -1.0552637]]
+            "m_Scale": [14, [0.3499999, 1.0, 1.0]],
+            "m_Translate": [14, [0.2176263, -0.4265097, -1.0552637]]
           }
         }
       ]
