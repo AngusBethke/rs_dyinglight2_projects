@@ -2,11 +2,25 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Floor",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Floor;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.1684601, -0.4764494, -0.1672796, 0.1684601, 0.4793986, 0.1682789]],
+            "m_EntityComponentsExtents": [69, [0.1684601, -0.4764494, -0.1672782, 0.1684601, 0.4793986, 0.1682784]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;bld_ce_tarace_damage_coro_x1"]
@@ -18,12 +32,12 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.8261052, -0.1516595, 0.8315848, 0.1535331, 0.1683402, 0.1480539]],
+            "m_EntityComponentsExtents": [69, [-0.8261052, -0.1516595, 0.8315846, 0.1535331, 0.1683402, 0.148054]],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_floor_damage_cor_0x_a"],
-            "m_Rotate": [14, [-0.0, 0.0000047, 0.0000273]],
-            "m_Translate": [14, [0.960003, 0.0069434, -0.9600004]]
+            "m_Rotate": [14, [-0.0, 0.0000046, 0.0000273]],
+            "m_Translate": [14, [0.960003, 0.0069434, -0.9600002]]
           },
           "Fields": {
             "SkinName": "woodparquet_d_light"
