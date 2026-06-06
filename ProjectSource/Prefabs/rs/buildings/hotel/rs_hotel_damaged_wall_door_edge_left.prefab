@@ -2,17 +2,41 @@
   "__filename__": {
     "Version": 4,
     "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Interior",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Interior;",
+            "DestinationFields": [
+              {
+                "Uuid": "13",
+                "Name": "SkinName"
+              }
+            ]
+          },
+          {
+            "Name": "Exterior",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Exterior;",
+            "DestinationFields": [
+              {
+                "Uuid": "14",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
       "Components": [
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 1.9129338, 0.1525025, 0.9741471, 1.9270758, 0.0125025]],
+            "m_EntityComponentsExtents": [69, [0.000005, 1.9129339, 0.1525024, 0.9741473, 1.9270759, 0.0125025]],
             "m_PcId": [6, 11],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_em"],
             "m_Rotate": [14, [179.9999847, 0.0, -179.9999847]],
-            "m_Scale": [14, [0.14, 1.0000005, 1.0000008]],
-            "m_Translate": [14, [-0.0825977, 1.8440186977386475e-7, 0.095479]]
+            "m_Scale": [14, [0.14, 1.0000003, 1.0000008]],
+            "m_Translate": [14, [-0.0825977, 1.8440186977386475e-7, 0.0954788]]
           },
           "Fields": {
             "SkinName": "brick_plaster_a_light"
@@ -21,7 +45,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.2259559, 1.9205006, 0.0791609, 0.3580271, 1.9205008, 0.0976634]],
+            "m_EntityComponentsExtents": [69, [0.2259559, 1.9205001, 0.0791609, 0.358027, 1.9205003, 0.0976634]],
             "m_PcId": [6, 13],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_wall_damage_left_mid_0x_b"],
@@ -36,7 +60,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.2600612, 1.9214514, 0.0797155, 0.2610618, 1.9255913, 0.1312848]],
+            "m_EntityComponentsExtents": [69, [-0.2600612, 1.9214509, 0.0797155, 0.2610616, 1.9255908, 0.1312848]],
             "m_PcId": [6, 14],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_wall_damage_right_mid_0x_b"],
