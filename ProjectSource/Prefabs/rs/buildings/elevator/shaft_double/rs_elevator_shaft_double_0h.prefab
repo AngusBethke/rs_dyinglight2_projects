@@ -141,6 +141,16 @@
                 "Name": "Vent"
               }
             ]
+          },
+          {
+            "Name": "LadderType",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:LadderType;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "75",
+                "Name": "Type"
+              }
+            ]
           }
         ]
       },
@@ -335,7 +345,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0001337, 0.480499, -2.8876361, 1.9291374, 0.4805012, 2.7682464]],
+            "m_EntityComponentsExtents": [69, [0.0001337, 0.480499, -2.8876361, 1.9291373, 0.4805011, 2.7682464]],
             "m_PcId": [6, 48],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_0h_a"],
@@ -345,7 +355,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0001337, 0.480499, -2.8876361, 1.9291374, 0.4805012, 2.7682464]],
+            "m_EntityComponentsExtents": [69, [0.0001337, 0.480499, -2.8876361, 1.9291373, 0.4805011, 2.7682464]],
             "m_PcId": [6, 49],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_0h_a"],
@@ -414,10 +424,10 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004994, -0.1594995, 0.0004999, 1.0138099, 0.1905005, 0.0905]],
+            "m_EntityComponentsExtents": [69, [0.000499, -0.1594999, 0.0004998, 0.9605009, 0.1905, 0.0805]],
             "m_PcId": [6, 59],
             "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_a"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_c"],
             "m_Rotate": [14, [-0.0, 0.0000049, -0.0]],
             "m_Translate": [14, [-0.9599996, 0.9600005, -9.6000041]]
           }
@@ -425,10 +435,10 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004994, -0.1594995, 0.0004999, 1.0138099, 0.1905005, 0.0905]],
+            "m_EntityComponentsExtents": [69, [0.000499, -0.1594999, 0.0004998, 0.9605009, 0.1905, 0.0805]],
             "m_PcId": [6, 60],
             "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_a"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_c"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Translate": [14, [-1.9199998, 0.9600005, -10.5600042]]
           }
@@ -436,10 +446,10 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004994, -0.1594995, 0.0004999, 1.0138099, 0.1905005, 0.0905]],
+            "m_EntityComponentsExtents": [69, [0.000499, -0.1594999, 0.0004998, 0.9605009, 0.1905, 0.0805]],
             "m_PcId": [6, 61],
             "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_a"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_c"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Translate": [14, [5.066395374342392e-7, 4.768372150465439e-7, -10.5600042]]
           }
@@ -447,10 +457,10 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004994, -0.1594995, 0.0004999, 1.0138099, 0.1905005, 0.0905]],
+            "m_EntityComponentsExtents": [69, [0.000499, -0.1594999, 0.0004998, 0.9605009, 0.1905, 0.0805]],
             "m_PcId": [6, 62],
             "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_a"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_c"],
             "m_Rotate": [14, [0.0, -90.0, 0.0]],
             "m_Scale": [14, [0.9999998, 0.9999995, 0.9999994]],
             "m_Translate": [14, [5.066394805908203e-7, 4.768372150465439e-7, -8.6400032]]
@@ -478,21 +488,144 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 0.5328678, 0.0005003, 0.9704999, 0.5328677, 0.0966831]],
+            "m_EntityComponentsExtents": [69, [0.000945, 0.5034962, 5.21540641784668e-8, 0.9649999, 0.5051738, 0.055]],
             "m_PcId": [6, 67],
             "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_exclusive_stairs_railing_str_top_1x_a"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_balcony_railing_end_1x_a"],
             "m_Translate": [14, [-0.9599996, 0.9600005, -9.6000041]]
+          },
+          "Fields": {
+            "UserData": "4286643971 128 4294901760 0"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 0.5499904, 0.0005001, 0.0836134, 0.5599904, 0.0836141]],
-            "m_PcId": [6, 68],
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 69],
             "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;int_ce_a_exclusive_stairs_railing_pillar_a"],
-            "m_Translate": [14, [4.1723257027115326e-7, 0.9600005, -9.6000041]]
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, 90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [-3.709999, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, 90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [-0.3500021, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [0.34, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [3.7000007, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "rs_ladder_wall_quarterh"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-2.880001, 0.0, -7.440001]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-0.0000223, -0.0000073, 0.0000223]],
+            "m_Translate": [14, [1.9199944, 4.768372150465439e-7, -11.5200033]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 77],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Translate": [14, [-0.0000038, 4.768372150465439e-7, -9.6000022]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 78],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [179.9999847, -0.0000099, 180.0]],
+            "m_Translate": [14, [1.9199944, 0.0000012, -7.6800026]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000223]],
+            "m_Translate": [14, [3.839993, 2.9802325229866258e-7, -9.6000032]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [1.9197428, 0.9599995, -9.5995407]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [1.9197428, -5.960465188081798e-8, -9.5995378]]
+          },
+          "Fields": {
+            "Floor": "concrete_plates_a_light",
+            "FloorType": ""
           }
         }
       ]
