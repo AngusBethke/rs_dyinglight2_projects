@@ -233,6 +233,26 @@
                 "Name": "Enabled"
               }
             ]
+          },
+          {
+            "Name": "IncludeLeftFence",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeLeftFence;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "112",
+                "Name": "SelectName"
+              }
+            ]
+          },
+          {
+            "Name": "IncludeRightFence",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:IncludeRightFence;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "114",
+                "Name": "SelectName"
+              }
+            ]
           }
         ]
       },
@@ -798,6 +818,7 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
+            "m_Name": [12, "Yes"],
             "m_PcId": [6, 57],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -809,6 +830,7 @@
           "Class": "CEntity",
           "PrefabFieldsNative": {
             "m_EntityComponentsExtents": [69, [0.0004999, 2.024934, 0.0004999, 0.0929009, 1.9538381, 1.9522256]],
+            "m_Name": [12, "Yes"],
             "m_PcId": [6, 58],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;urb_concrete_barrier_a_fence"],
@@ -1071,10 +1093,101 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 98],
             "m_PrefabName": [12, "rs_elevator_shaft_lamp"],
-            "m_Translate": [14, [0.0002591, 9.536744300930878e-7, -7.6804637]]
+            "m_Translate": [14, [0.0002579, 9.536744300930878e-7, -7.6804637]]
           },
           "Fields": {
             "Enabled": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 104],
+            "m_PrefabName": [12, "rs_cable_wall_4x"],
+            "m_Translate": [14, [-0.9597436, 0.0, -7.6804628]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 106],
+            "m_PrefabName": [12, "rs_cable_wall_4x"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [3.8402562, 0.0, -6.7204623]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 107],
+            "m_PrefabName": [12, "rs_cable_wall_4x"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [3.8402562, 0.0, -3.8404617]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 108],
+            "m_PrefabName": [12, "rs_cable_wall_4x"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [3.8402562, 0.0, -2.8804614]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 109],
+            "m_PrefabName": [12, "rs_cable_wall_4x"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [3.8402562, 0.0, -1.920461]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 110],
+            "m_PrefabName": [12, "rs_cable_wall_4x"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-3.839745, 0.0, -3.8404622]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 58, 113],
+            "m_PcId": [6, 112]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 113],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-1.9197428, -0.2399999, -5.7604622]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 57, 115],
+            "m_PcId": [6, 114]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "No"],
+            "m_PcId": [6, 115],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [1.9202537, -0.2399999, -5.7604622]]
           }
         }
       ]
