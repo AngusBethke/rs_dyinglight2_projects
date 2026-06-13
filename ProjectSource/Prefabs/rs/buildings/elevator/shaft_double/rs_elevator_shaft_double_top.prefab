@@ -1,0 +1,1122 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Wall_Exterior",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Exterior;",
+            "DestinationFields": [
+              {
+                "Uuid": "14",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "13",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "12",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "57",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "58",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "8",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "37",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "9",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "39",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "10",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "53",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Wall_Interior_Shaft",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Interior_Shaft;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "22",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "55",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "56",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "16",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "15",
+                "Name": "Wall"
+              }
+            ]
+          },
+          {
+            "Name": "Vent",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Vent;c:Architecture;",
+            "DestinationFields": [
+              {
+                "Uuid": "15",
+                "Name": "Vent"
+              }
+            ]
+          },
+          {
+            "Name": "Ceiling_Interior_Stairwell",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling_Interior_Stairwell;",
+            "DestinationFields": [
+              {
+                "Uuid": "85",
+                "Name": "Ceiling"
+              }
+            ]
+          },
+          {
+            "Name": "Ceiling_Interior_Shaft",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Ceiling_Interior_Shaft;",
+            "DestinationFields": [
+              {
+                "Uuid": "84",
+                "Name": "Ceiling"
+              },
+              {
+                "Uuid": "66",
+                "Name": "Ceiling"
+              },
+              {
+                "Uuid": "82",
+                "Name": "Ceiling"
+              },
+              {
+                "Uuid": "83",
+                "Name": "Ceiling"
+              }
+            ]
+          },
+          {
+            "Name": "Wall_Interior_Stairwell",
+            "Init": "f:EDIT|SIMPLE;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:Skins;l:Wall_Interior_Stairwell;",
+            "DestinationFields": [
+              {
+                "Uuid": "92",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "88",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "91",
+                "Name": "SkinName"
+              },
+              {
+                "Uuid": "76",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "95",
+                "Name": "Wall"
+              },
+              {
+                "Uuid": "93",
+                "Name": "Wall"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-3.8400046, 7.056651440962014e-8, -5.7600021]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-7.6800045, 7.056650019876543e-8, -9.6000022]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-180.0, 0.0000024, -180.0]],
+            "m_Translate": [14, [-1.9200042, 7.056650019876543e-8, -11.5200033]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [3.8399963, 7.056648598791071e-8, -9.6000022]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999991]],
+            "m_Translate": [14, [3.839996, 7.056647888248335e-8, -5.7600016]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999989, 0.9999991, 0.9999989]],
+            "m_Translate": [14, [3.8399958, 7.0566471777056e-8, -1.9200005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half_vent"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-3.8400046, 7.056651440962014e-8, -1.9200011]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-3.8400042, 7.056650730419278e-8, -5.7600021]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999989, 0.9999991, 0.9999989]],
+            "m_Translate": [14, [3.8399956, 7.0566471777056e-8, -5.7600016]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Scale": [14, [0.9999988, 0.9999989, 0.9999988]],
+            "m_Translate": [14, [3.8399956, 7.056646467162864e-8, -1.9200005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0000223, -0.0000175, -0.0000223]],
+            "m_Scale": [14, [0.9999986, 0.9999986, 0.9999989]],
+            "m_Translate": [14, [-5.7600049, 7.056645046077392e-8, -7.6800031]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [179.9999847, 0.0000122, 179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999994, 0.9999994]],
+            "m_Translate": [14, [-5.7600045, 7.056647888248335e-8, -11.5200042]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [179.9999847, 0.0000023, 179.9999847]],
+            "m_Translate": [14, [1.9199955, 4.768372150465439e-7, -11.5200033]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-179.9999847, 0.0000049, -180.0]],
+            "m_Scale": [14, [0.9999985, 0.9999988, 0.9999988]],
+            "m_Translate": [14, [1.9199955, -9.536744300930878e-7, -1.6117226664391638e-7]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-179.9999847, 0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.9999985, 0.9999986, 0.9999988]],
+            "m_Translate": [14, [-1.9200048, -0.0000013, -4.968759981238691e-7]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-0.0000223, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [1.9199955, 9.536744300930878e-7, -1.192093463942001e-7]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 58],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-0.0000223, -0.0, 0.0]],
+            "m_Scale": [14, [0.9999986, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [-1.9200048, 9.536744300930878e-7, -1.1920940323761898e-7]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [-0.9599992, 0.0, -6.7200026]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, 90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [-3.709999, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, 90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [-0.3500021, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 71],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [0.34, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 72],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [-0.0, 0.0, -90.0]],
+            "m_Scale": [14, [0.5, 1.0, 1.0000001]],
+            "m_Translate": [14, [3.7000007, 0.4799998, -5.6400008]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Translate": [14, [-4.0010004, -1.9199986, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 78],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, -179.9999847]],
+            "m_Translate": [14, [1.9197429, -0.0000019, -5.7595453]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000223]],
+            "m_Translate": [14, [3.839993, 2.9802325229866258e-7, -9.6000032]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [1.9197428, 0.9599995, -9.5995407]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_2x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [1.9197428, -5.960465188081798e-8, -9.5995378]]
+          },
+          "Fields": {
+            "Floor": "concrete_plates_a_light",
+            "FloorType": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [0.9599992, 0.0, -6.7200026]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 83],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [2.8799974, 0.0, -6.7200026]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 84],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [-2.8799974, 0.0, -6.7200026]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 85],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [-0.9599992, 0.0, -8.6400032]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0042834, 0.2856389, -2.8919301, 1.9366996, 0.4108531, 2.917581]],
+            "m_PcId": [6, 86],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_top_a"],
+            "m_Translate": [14, [-1.9200022, 9.536744300930878e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000053, 0.0286041, 1.1145071, 1.0180147, 0.1086035, 1.0191781]],
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_top_flap_a"],
+            "m_Translate": [14, [-1.9200022, 0.555625, -2.5545005]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005003, 1.9134287, 0.0705, 0.9746425, 1.9275708, 0.0905]],
+            "m_PcId": [6, 88],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_dr"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-0.1609153, -3.8400006, -10.5600042]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000053, 0.0286041, 1.1145071, 1.0180147, 0.1086035, 1.0191781]],
+            "m_PcId": [6, 89],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_top_flap_a"],
+            "m_Translate": [14, [1.9199984, 0.555625, -2.554501]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0042834, 0.2856389, -2.8919301, 1.9366996, 0.4108531, 2.917581]],
+            "m_PcId": [6, 90],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_elevator_2x3_frame_top_a"],
+            "m_Translate": [14, [1.9199984, 9.536744300930878e-7, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004692, 0.9504999, -1.9195058, 0.0404692, 0.9704999, 1.9205058]],
+            "m_PcId": [6, 91],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_stairs_plug_tri_2x"],
+            "m_Rotate": [14, [0.0, -90.0, -179.9999847]],
+            "m_Translate": [14, [-5.920999, -1.9199986, -9.444004]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 92],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_0x_cor"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-0.1609154, -3.8400006, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 93],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_1x_wall"],
+            "m_Translate": [14, [-1.1209185, -3.840002, -9.6000051]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 95],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Translate": [14, [-4.0010004, -0.9599983, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "Default"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005003, 1.9134287, 0.0705, 0.9746425, 1.9275708, 0.0905]],
+            "m_PcId": [6, 96],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_wall_str_1x_a_dr"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-0.1609192, -3.8400006, -10.5600042]]
+          },
+          "Fields": {
+            "SkinName": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 97],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, -179.9999847]],
+            "m_Translate": [14, [-1.9202542, -9.536745437799255e-7, -5.7595448]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 99],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, -179.9999847]],
+            "m_Translate": [14, [-5.7602553, -9.536745437799255e-7, -7.6795458]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 100],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0000223]],
+            "m_Scale": [14, [0.9999998, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [-7.6802539, -9.536745437799255e-7, -9.5995464]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 101],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 0.0, 0.0000223]],
+            "m_Scale": [14, [0.9999995, 0.9999994, 0.9999995]],
+            "m_Translate": [14, [-5.7602553, -9.536745437799255e-7, -11.5195474]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 102],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 0.0, 0.0000223]],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999994]],
+            "m_Translate": [14, [-1.9202542, -9.536745437799255e-7, -11.5195474]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 103],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [0.0, 0.0, 0.0000223]],
+            "m_Scale": [14, [0.9999994, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [1.9197467, -9.536745437799255e-7, -11.5195474]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 106],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
+            "m_Translate": [14, [-2.8802573, 0.0, -6.7195367]]
+          },
+          "Fields": {
+            "Floor": "concrete_plates_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 107],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
+            "m_Translate": [14, [-0.9602587, 0.0, -6.7195367]]
+          },
+          "Fields": {
+            "Floor": "concrete_plates_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 108],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999994]],
+            "m_Translate": [14, [0.9597399, 0.0, -6.7195367]]
+          },
+          "Fields": {
+            "Floor": "concrete_plates_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 109],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Scale": [14, [0.9999992, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [2.8797385, 0.0, -6.7195367]]
+          },
+          "Fields": {
+            "Floor": "concrete_plates_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 110],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x"],
+            "m_Rotate": [14, [-179.9999847, 0.0, -179.9999847]],
+            "m_Translate": [14, [-1.920258, 0.9599993, -9.5995407]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 111],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_2x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [-5.7602591, 0.9599993, -9.5995407]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 112],
+            "m_PrefabName": [12, "rs_bld_classic_int_floor_1x"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999994]],
+            "m_Translate": [14, [-0.9602587, 0.0, -8.6395368]]
+          },
+          "Fields": {
+            "Floor": "concrete_plates_a_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 114],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [-4.0009965, -0.9599983, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 115],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_2x_wall_half"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [-4.0009965, -1.9199986, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 116],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_1x_wall"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [-1.1209144, -3.840002, -9.6000051]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004692, 0.9504999, -1.9195058, 0.0404692, 0.9704999, 1.9205058]],
+            "m_PcId": [6, 117],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_stairs_plug_tri_2x"],
+            "m_Rotate": [14, [0.0, -90.0, -179.9999847]],
+            "m_Translate": [14, [-5.920999, -1.9199986, -9.7583026]]
+          },
+          "Fields": {
+            "SkinName": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 118],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [-2.8799979, 0.9600002, -6.7200026]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 119],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [-0.9599993, 0.9600002, -6.7200026]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 120],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [0.9599993, 0.9600002, -6.7200026]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 121],
+            "m_PrefabName": [12, "rs_bld_classic_int_ceil_1x"],
+            "m_Rotate": [14, [-0.0, 0.0000048, -0.0]],
+            "m_Translate": [14, [2.8799979, 0.9600002, -6.7200026]]
+          },
+          "Fields": {
+            "Ceiling": "concrete_b_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 122],
+            "m_PrefabName": [12, "rs_hotel_door_industrial_short_blocked"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-0.1609915, -3.8399991, -10.5600042]]
+          },
+          "Fields": {
+            "IncludeOccluder": "No"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000499, -0.1594999, 0.0004998, 0.9605009, 0.1905, 0.0805]],
+            "m_PcId": [6, 123],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_c"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [-0.9599955, -3.8399991, -9.4410037]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004998, -0.1874887, 0.0005001, 0.1005, 0.3267896, 0.1005008]],
+            "m_PcId": [6, 124],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_cor_0x_c"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [0.0000038, -3.8399991, -9.4410037]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, 0.8042174, -1.9195002, 0.0805005, 1.1506766, 1.9205008]],
+            "m_PcId": [6, 125],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_stairs_railing_skw_2x0h_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0000223]],
+            "m_Translate": [14, [-1.9199948, -3.8399991, -9.4412078]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000499, -0.1594999, 0.0004998, 0.9605009, 0.1905, 0.0805]],
+            "m_PcId": [6, 126],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_c"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Translate": [14, [-5.7599959, -1.9199967, -8.6400041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000499, -0.1594999, 0.0004998, 0.9605009, 0.1905, 0.0805]],
+            "m_PcId": [6, 127],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_a_floor_ceiling_end_str_1x_c"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Translate": [14, [-5.7599959, -1.9199955, -10.5600051]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1811227, -0.1215331, 0.182193, 0.1851101, 0.2043912, 0.1851007]],
+            "m_PcId": [6, 128],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_cor_m_1x_a"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000223]],
+            "m_Translate": [14, [-5.7599997, 0.0000046, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1811227, -0.1215331, 0.182193, 0.1851101, 0.2043912, 0.1851007]],
+            "m_PcId": [6, 129],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_cor_m_1x_a"],
+            "m_Rotate": [14, [0.0000223, 0.0000049, -0.0]],
+            "m_Translate": [14, [-5.7599997, 0.0000046, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.1215172, 0.1666907, 0.9625, 0.2044072, 0.2061485]],
+            "m_PcId": [6, 130],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_1x_a"],
+            "m_Translate": [14, [-4.8000001, 0.0000019, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.1215172, 0.1666907, 0.9625, 0.2044072, 0.2061485]],
+            "m_PcId": [6, 131],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_1x_a"],
+            "m_Translate": [14, [-2.8800017, 0.0000019, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.1215172, 0.1666907, 0.9625, 0.2044072, 0.2061485]],
+            "m_PcId": [6, 132],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_1x_a"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [-2.8800017, 0.0000019, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.1215172, 0.1666907, 0.9625, 0.2044072, 0.2061485]],
+            "m_PcId": [6, 133],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_1x_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [-4.8000001, 0.0000019, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.1215172, 0.1666907, 0.9625, 0.2044072, 0.2061485]],
+            "m_PcId": [6, 134],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_1x_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [-0.9599993, 0.0000027, -9.6000041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.1215172, 0.1666907, 0.9625, 0.2044072, 0.2061485]],
+            "m_PcId": [6, 135],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_1x_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000223]],
+            "m_Scale": [14, [0.9999997, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [0.0, 0.0000027, -10.5600042]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.1920928955078126e-7, -0.1215172, 0.1666907, 0.9625, 0.2044072, 0.2061485]],
+            "m_PcId": [6, 136],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_ledge_str_m_1x_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [-2.8800017, 0.0000019, -7.6800031]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 137],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_0x_cor_quarter"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000049]],
+            "m_Translate": [14, [-5.920999, -0.9599983, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 138],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_0x_cor_quarter"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000049]],
+            "m_Translate": [14, [-5.920999, -1.9199986, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 139],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_0x_cor_quarter"],
+            "m_Rotate": [14, [0.0000049, 0.0000049, -0.0]],
+            "m_Translate": [14, [-5.920999, -1.9199986, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 140],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_0x_cor_quarter"],
+            "m_Rotate": [14, [0.0000049, 0.0000049, -0.0]],
+            "m_Translate": [14, [-5.920999, -0.9599983, -9.6000041]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 141],
+            "m_PrefabName": [12, "rs_bld_classic_wall_int_0x_cor_quarter"],
+            "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
+            "m_Translate": [14, [-3.8400011, 9.536745437799255e-7, -7.6800031]]
+          },
+          "Fields": {
+            "Wall": "concrete_c_light"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805003, 0.1905, 0.1005]],
+            "m_PcId": [6, 142],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [15.0000038, 0.0, -0.0]],
+            "m_Translate": [14, [-2.8799979, -0.0030125, -5.6726469]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805003, 0.1905, 0.1005]],
+            "m_PcId": [6, 143],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [15.0000019, 0.0, -0.0]],
+            "m_Translate": [14, [-0.9599993, -0.0030125, -5.6726469]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 144],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [15.0, 0.0, -0.0]],
+            "m_Translate": [14, [0.9599993, -0.0030125, -5.6726469]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005002, -0.1595002, 0.0005, 0.9805004, 0.1905, 0.1005]],
+            "m_PcId": [6, 145],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_id_a_floor_ceiling_end_str_1x_a"],
+            "m_Rotate": [14, [14.999999, 0.0, -0.0]],
+            "m_Translate": [14, [2.8799979, -0.0030125, -5.6726469]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
