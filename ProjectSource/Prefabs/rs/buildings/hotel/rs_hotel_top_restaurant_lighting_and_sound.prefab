@@ -6,7 +6,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0000002, 1.0, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 0.9999999]],
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "room_box"],
             "m_Scale": [14, [7.7200012, 4.3600006, 5.800002]],
@@ -19,7 +19,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999998, 0.9999999, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0000002, 1.0000002, 1.0000002]],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "room_box"],
             "m_Scale": [14, [5.8000001, 4.3599996, 15.4000053]],
@@ -32,7 +32,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 1.0, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
             "m_PcId": [6, 3],
             "m_PrefabName": [12, "room_box"],
             "m_Scale": [14, [1.9599988, 1.9599994, 5.8000011]],
@@ -45,9 +45,9 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 1.0000002, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 1.0, 1.0]],
             "m_PcId": [6, 4],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [0.0, 90.0, 0.0]],
             "m_Scale": [14, [5.800003, 1.9600005, 0.2399999]],
             "m_Translate": [14, [-7.6800022, 21.0000133, -21.1200103]]
@@ -58,16 +58,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "3",
+            "Priority": "1",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-3.5762786865234377e-7, 0.0, 0.0, 1.0000001, 0.9999998, 0.9999998]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 0.9999999]],
             "m_PcId": [6, 5],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-180.0, 89.9802169, -180.0]],
             "m_Scale": [14, [5.800002, 4.3600001, 0.2399999]],
             "m_Translate": [14, [7.6800012, 18.6000175, -21.1200103]]
@@ -78,16 +79,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "3",
+            "Priority": "1",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [5.960464477539063e-8, 0.0, -0.0000114, 0.9999999, 0.9999999, 1.0000038]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 1.0, 1.0]],
             "m_PcId": [6, 6],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-180.0, -0.0000098, -180.0]],
             "m_Scale": [14, [11.5600032, 1.9600001, 0.2399999]],
             "m_Translate": [14, [3.8400006, 16.2000083, -26.8800163]]
@@ -98,16 +100,16 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "3",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 1.0, 0.9999999]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 0.9999999, 1.0]],
             "m_PcId": [6, 7],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [0.0, -90.0, 0.0000049]],
             "m_Scale": [14, [11.5600042, 1.9599999, 0.2399999]],
             "m_Translate": [14, [19.2000064, 16.2000083, -11.5200109]]
@@ -118,16 +120,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "3",
+            "Priority": "1",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 0.9999999, 1.0]],
             "m_PcId": [6, 8],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
             "m_Scale": [14, [3.8800008, 3.8800005, 0.2399999]],
             "m_Translate": [14, [-3.8400018, 23.4000148, -19.2000102]]
@@ -138,16 +141,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0000002, 1.0, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 0.9999999, 0.9999998]],
             "m_PcId": [6, 9],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
             "m_Scale": [14, [1.9599988, 1.9599999, 0.2399999]],
             "m_Translate": [14, [1.9199992, 23.4000148, -17.2800083]]
@@ -158,16 +162,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0000002, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999998, 1.0, 1.0]],
             "m_PcId": [6, 10],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
             "m_Scale": [14, [1.9599987, 1.9599994, 0.2399999]],
             "m_Translate": [14, [-1.920001, 23.4000148, -13.4400072]]
@@ -178,16 +183,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 0.9999999]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0000002, 1.0, 1.0]],
             "m_PcId": [6, 11],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
             "m_Scale": [14, [1.9599982, 0.9999992, 0.2399998]],
             "m_Translate": [14, [4.8000001, 23.4000148, -5.7600049]]
@@ -198,16 +204,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0000002, 1.0000002]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 0.9999999, 1.0]],
             "m_PcId": [6, 12],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
             "m_Scale": [14, [3.8799986, 0.9999991, 0.2399998]],
             "m_Translate": [14, [6.7200007, 23.4000148, -5.7600049]]
@@ -218,16 +225,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, -7.152557373046875e-7, 0.0, 1.0, 1.0000002, 1.0000002]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
             "m_PcId": [6, 13],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
             "m_Scale": [14, [5.7999982, 1.9599992, 0.2399996]],
             "m_Translate": [14, [9.6000003, 23.4000148, -5.7600054]]
@@ -238,16 +246,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999998, 0.9999999, 0.9999998]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0000002, 1.0]],
             "m_PcId": [6, 14],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
             "m_Scale": [14, [3.8799962, 1.9599988, 0.2399996]],
             "m_Translate": [14, [13.4400024, 23.4000148, -3.8400049]]
@@ -258,16 +267,17 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0000002, 1.0, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 0.9999999, 1.0]],
             "m_PcId": [6, 15],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [-90.0, 0.0, 90.0]],
             "m_Scale": [14, [1.9600007, 1.9600005, 0.4800001]],
             "m_Translate": [14, [13.4400033, 23.8800106, -9.6000051]]
@@ -278,8 +288,22 @@
             "-X": "0",
             "-Y": "0",
             "BlendingEnabled": "1",
-            "Priority": "4",
+            "Priority": "2",
+            "SkipEnvprobeLighting": "1",
             "VisibilityRange": "35.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.6990699, 3.2199773, 10.5869503, 15.4000015, 4.3600053, 15.4000053]],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "room_logic"],
+            "m_PresetNames": [12, "Event_Group;ambience_office_space;Reverb_Group;Room_Big_Furnished"],
+            "m_Translate": [14, [8.5390672, 15.380022, -22.1069469]]
+          },
+          "Fields": {
+            "m_Areas": "/~1;/~2;/~3;/~4;/~5;/~6;/~7;/~8;/~9;/~10;/~11;/~12;/~13;/~14;/~15;"
           }
         }
       ]

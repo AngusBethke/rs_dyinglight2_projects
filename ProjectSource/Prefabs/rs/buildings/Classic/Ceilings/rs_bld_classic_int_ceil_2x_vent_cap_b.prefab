@@ -30,19 +30,22 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 1.0, 1.0]],
             "m_PcId": [6, 3],
-            "m_PrefabName": [12, "room_box"],
+            "m_PrefabName": [12, "envprobe"],
             "m_Rotate": [14, [90.0, 0.0, -0.0]],
-            "m_Scale": [14, [0.4800001, 0.4800004, 0.12]],
-            "m_Translate": [14, [-0.4799987, -0.1778984, -0.4799927]]
+            "m_Scale": [14, [0.4800001, 0.4800004, 0.1199999]],
+            "m_Translate": [14, [-0.4799987, -0.1778984, -0.4799926]]
           },
           "Fields": {
             "+X": "0",
             "+Y": "0",
             "-X": "0",
             "-Y": "0",
-            "BlendingEnabled": "1"
+            "BlendingEnabled": "1",
+            "Priority": "10",
+            "SkipEnvprobeLighting": "1",
+            "VisibilityRange": "25.000000"
           }
         }
       ]
