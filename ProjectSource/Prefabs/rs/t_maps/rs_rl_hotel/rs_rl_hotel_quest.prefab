@@ -1,0 +1,195 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0322887, 1.8508737, 0.3399974, 1.3887541, 1.8708736, 0.3600013]],
+            "m_Name": [12, "q1_parking_lot_shutter"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_store_shutter"],
+            "m_Rotate": [14, [179.9999847, 45.0000038, 179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999995]],
+            "m_Translate": [14, [-1.3576351, 9.5999794, -23.0799617]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Open",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0401477, 1.3110666, 0.284513, 0.8358305, 1.3610665, 0.4154847]],
+            "m_Name": [12, "q1_power_room_escape"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_wooden_board"],
+            "m_Rotate": [14, [-0.0000537, 45.0000038, 0.0000223]],
+            "m_Scale": [14, [0.9999995, 0.9999995, 0.9999994]],
+            "m_Translate": [14, [-8.092451, 4.8161215, 24.5863723]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Move",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q1_elevator_door_closed"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_elevator_door"],
+            "m_Rotate": [14, [179.9999847, 45.0000038, 179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999995]],
+            "m_Translate": [14, [1.3576507, 4.7999978, 1.3576492]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.1920928955078126e-7, 1.1699998, 0.3098341, 1.1531671, 1.2299997, 0.3901659]],
+            "m_Name": [12, "q1_elevator_door_open"],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_elevator_door"],
+            "m_Rotate": [14, [-179.9999847, 45.0000038, -179.9999847]],
+            "m_Translate": [14, [1.358, 4.8000001, 1.3580001]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Open",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0723503, 0.5992448, 0.2635025, 0.2111374, 0.6042448, 0.2685006]],
+            "m_Name": [12, "q1_generator_power_switch"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_MilitaryGenerator"],
+            "m_Rotate": [14, [179.9999847, 45.0000038, 179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999992, 0.9999994]],
+            "m_Translate": [14, [-5.9293947, 5.140367, 31.7066135]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_Off",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_On",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.000005, 0.0000039, 0.5000049, 0.5000049, 0.500006]],
+            "m_Name": [12, "q1_lobby_waypoint"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "contact_switch"],
+            "m_Rotate": [14, [-0.0, 45.0, -0.0]],
+            "m_Scale": [14, [2.3260052, 3.8507084, 3.0355534]],
+            "m_Translate": [14, [7.678277, 16.0626754, 5.8289375]]
+          },
+          "Fields": {
+            "m_CollisionMask": "655360"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.000005, 0.0000039, 0.5000051, 0.5000049, 0.500006]],
+            "m_Name": [12, "q2_hotel_room_enter_waypoint"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "contact_switch"],
+            "m_Rotate": [14, [-0.0, 45.0000076, -0.0]],
+            "m_Scale": [14, [3.6470124, 3.7338416, 5.714179]],
+            "m_Translate": [14, [11.5497798, 25.7547073, 8.8889303]]
+          },
+          "Fields": {
+            "m_CollisionMask": "655360"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000042, 0.000005, 0.0000039, 0.5000052, 0.500005, 0.500006]],
+            "m_Name": [12, "q2_hotel_room_exit_waypoint"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "contact_switch"],
+            "m_Rotate": [14, [-180.0, 45.0000038, -180.0]],
+            "m_Scale": [14, [2.3260047, 3.8507077, 3.0355527]],
+            "m_Translate": [14, [8.1554832, 35.469841, 6.3061447]]
+          },
+          "Fields": {
+            "m_CollisionMask": "655360"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0401473, 1.3110667, 0.2845164, 0.8358306, 1.3610666, 0.4154852]],
+            "m_Name": [12, "q2_hotel_room_exit_board"],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_wooden_board"],
+            "m_Rotate": [14, [-0.0000061, 66.0000076, 0.0000061]],
+            "m_Translate": [14, [8.7928867, 33.6080017, 7.9233078]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Move",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0150049, 0.0000049, 0.0150049, 0.0150049, 0.0150049]],
+            "m_Name": [12, "q2_hotel_room_exit_squeeze"],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "custommoveobject"],
+            "m_Rotate": [14, [-180.0, -45.0000038, -180.0]],
+            "m_Translate": [14, [9.0066347, 33.6000022, 7.2461347]]
+          },
+          "Fields": {
+            "m_Type": "WallSqueez"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
