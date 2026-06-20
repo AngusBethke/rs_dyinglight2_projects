@@ -108,46 +108,43 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 0.000005, 0.0000039, 0.5000049, 0.5000049, 0.500006]],
             "m_Name": [12, "q1_lobby_waypoint"],
             "m_PcId": [6, 18],
-            "m_PrefabName": [12, "contact_switch"],
+            "m_PrefabName": [12, "sensor_activator"],
             "m_Rotate": [14, [-0.0, 45.0, -0.0]],
-            "m_Scale": [14, [2.3260052, 3.8507084, 3.0355534]],
-            "m_Translate": [14, [7.678277, 16.0626754, 5.8289375]]
+            "m_Scale": [14, [2.3260049, 3.850708, 3.0355529]],
+            "m_Translate": [14, [7.6782765, 14.1426734, 5.8289375]]
           },
           "Fields": {
-            "m_CollisionMask": "655360"
+            "m_CollisionMask": "-4294311936"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.000005, 0.000005, 0.0000039, 0.5000051, 0.5000049, 0.500006]],
             "m_Name": [12, "q2_hotel_room_enter_waypoint"],
             "m_PcId": [6, 19],
-            "m_PrefabName": [12, "contact_switch"],
+            "m_PrefabName": [12, "sensor_activator"],
             "m_Rotate": [14, [-0.0, 45.0000076, -0.0]],
-            "m_Scale": [14, [3.6470124, 3.7338416, 5.714179]],
-            "m_Translate": [14, [11.5497798, 25.7547073, 8.8889303]]
+            "m_Scale": [14, [3.6470119, 3.7338411, 5.714178]],
+            "m_Translate": [14, [11.5497789, 23.8347053, 8.8889303]]
           },
           "Fields": {
-            "m_CollisionMask": "655360"
+            "m_CollisionMask": "-4294311936"
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000042, 0.000005, 0.0000039, 0.5000052, 0.500005, 0.500006]],
             "m_Name": [12, "q2_hotel_room_exit_waypoint"],
             "m_PcId": [6, 20],
-            "m_PrefabName": [12, "contact_switch"],
-            "m_Rotate": [14, [-180.0, 45.0000038, -180.0]],
-            "m_Scale": [14, [2.3260047, 3.8507077, 3.0355527]],
-            "m_Translate": [14, [8.1554832, 35.469841, 6.3061447]]
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [179.9999847, 45.0000038, 179.9999847]],
+            "m_Scale": [14, [2.3260045, 3.850707, 3.0355525]],
+            "m_Translate": [14, [8.1554822, 33.549839, 6.3061451]]
           },
           "Fields": {
-            "m_CollisionMask": "655360"
+            "m_CollisionMask": "-4294311936"
           }
         },
         {
@@ -184,6 +181,267 @@
           },
           "Fields": {
             "m_Type": "WallSqueez"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0401477, 1.3110667, 0.2845149, 0.8358306, 1.3610666, 0.4154848]],
+            "m_Name": [12, "q2_section_exit"],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "switch"],
+            "m_PresetNames": [12, "Style;SA_wooden_board"],
+            "m_Rotate": [14, [-0.0000049, -45.0000038, 0.0000049]],
+            "m_Translate": [14, [-9.6363811, 38.39999, 6.8733243]]
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;Move",
+            "DestinationField": "m_OffStateDescription"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "PresetNames": "TSD;_None",
+            "DestinationField": "m_OnStateDescription"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q3_safe_area"],
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "rs_rl_hotel_mid_safe_area"],
+            "m_Rotate": [14, [-179.9999847, 45.0000038, -179.9999847]],
+            "m_Translate": [14, [0.0, 43.2000007, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q2_safe_area"],
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "rs_rl_hotel_btm_safe_area"],
+            "m_Rotate": [14, [-179.9999847, 45.0000038, -179.9999847]],
+            "m_Translate": [14, [-0.0000079, 14.3999977, -0.0000189]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.0150049, 0.0000049, 0.0150049, 0.0150049, 0.0150049]],
+            "m_Name": [12, "q2_lobby_squeeze"],
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "custommoveobject"],
+            "m_Rotate": [14, [179.9999847, -30.0, 179.9999847]],
+            "m_Translate": [14, [-0.1335172, 14.3999948, -15.7669506]]
+          },
+          "Fields": {
+            "m_Type": "WallSqueez"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q4_safe_area"],
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "rs_rl_hotel_top_safe_area"],
+            "m_Rotate": [14, [-179.9999847, 45.0000038, -179.9999847]],
+            "m_Translate": [14, [0.0000079, 72.0, 0.0000189]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q3_hallway_waypoint"],
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [-0.0, 45.0000038, -0.0]],
+            "m_Scale": [14, [2.3260045, 3.8507072, 3.0355525]],
+            "m_Translate": [14, [-10.2546424, 43.0977935, 7.6252965]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q3_nest_enter_waypoint"],
+            "m_PcId": [6, 43],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [-0.0, 45.0000152, -0.0]],
+            "m_Scale": [14, [3.647011, 3.7338404, 5.7141766]],
+            "m_Translate": [14, [10.1921358, 47.8346977, 18.3924446]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q3_nest_exit_waypoint"],
+            "m_PcId": [6, 44],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [-0.0, 45.0000152, -0.0]],
+            "m_Scale": [14, [3.64701, 3.7338397, 5.7141752]],
+            "m_Translate": [14, [2.046261, 67.0346832, -0.614583]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q4_hallway_waypoint"],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [-0.0, 45.0000152, -0.0]],
+            "m_Scale": [14, [3.6470096, 3.733839, 5.7141737]],
+            "m_Translate": [14, [-10.1725416, 71.8346862, 8.888935]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "q4_rooftop_waypoint"],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "sensor_activator"],
+            "m_Rotate": [14, [-0.0, 45.0000152, -0.0]],
+            "m_Scale": [14, [42.6789131, 3.7338383, 42.7095489]],
+            "m_Translate": [14, [-2.732783, 95.834671, 5.5289654]]
+          },
+          "Fields": {
+            "m_CollisionMask": "-4294311936"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.9210605, 51.7999992, -5.7632102, 21.203617, 52.3000068, 21.2035064]],
+            "m_Name": [12, "PlayableArea_7"],
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [-179.9999847, 45.0000038, -179.9999847]],
+            "m_Translate": [14, [0.0, 3.8400001, 0.0]]
+          },
+          "Fields": {
+            "m_AreaHeight": "104.599998",
+            "m_AreaPoints": "19.282551 -0.500001 -26.966717;19.282557 -0.500004 15.440296;-23.124678 -0.499998 15.440297;-23.124678 -0.499996 -26.966705;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.9210586, 4.4999942, 0.3461875, 21.2036209, 5.0000047, 7.6270565]],
+            "m_Name": [12, "PlayableArea_2"],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [-179.9999847, 45.0, -179.9999847]],
+            "m_Translate": [14, [15.9523324, 10.0800056, -15.9523267]]
+          },
+          "Fields": {
+            "m_AreaHeight": "10.000000",
+            "m_AreaPoints": "19.282558 -0.500006 -7.280869;19.282560 -0.500010 7.973244;-23.124680 -0.500003 7.973244;-23.124678 -0.500001 -7.280857;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.9210586, 1.999994, -5.0843834, 10.3424434, 2.500004, 2.1964786]],
+            "m_Name": [12, "PlayableArea_1"],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [-179.9999847, 45.0000038, -179.9999847]],
+            "m_Scale": [14, [0.9999994, 0.9999995, 0.9999997]],
+            "m_Translate": [14, [15.9523353, 24.4800033, -15.9523172]]
+          },
+          "Fields": {
+            "m_AreaHeight": "5.000000",
+            "m_AreaPoints": "8.421381 -0.500004 -7.280862;8.421385 -0.500010 -2.887908;-12.263502 -0.500008 -2.887905;-12.263497 -0.500002 -7.280841;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.9210586, 1.999994, -5.0843834, 10.3424434, 2.500004, 2.1964786]],
+            "m_Name": [12, "PlayableArea_5"],
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [-179.9999542, -45.0000038, -179.9999847]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999995]],
+            "m_Translate": [14, [-24.0981922, 34.0800094, -13.2370166]]
+          },
+          "Fields": {
+            "m_AreaHeight": "5.000000",
+            "m_AreaPoints": "8.421381 -0.500004 -7.280862;8.421385 -0.500010 -2.887908;-12.263502 -0.500008 -2.887905;-12.263497 -0.500002 -7.280841;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [3.8489379, 1.9999947, -5.0843825, 16.1124401, 2.5000028, 2.1964778]],
+            "m_Name": [12, "PlayableArea_3"],
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [-179.9999542, -45.0000038, -179.9999847]],
+            "m_Scale": [14, [0.9999988, 0.9999989, 0.9999994]],
+            "m_Translate": [14, [-24.0981769, 86.8800048, -13.2369852]]
+          },
+          "Fields": {
+            "m_AreaHeight": "5.000000",
+            "m_AreaPoints": "19.961376 -0.500008 -7.280861;19.961380 -0.500008 -2.887907;-12.263502 -0.500008 -2.887905;-12.263497 -0.500002 -7.280841;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [5.5459938, 1.9999952, -5.0843849, 17.8094978, 2.5000033, 2.19648]],
+            "m_Name": [12, "PlayableArea_6"],
+            "m_PcId": [6, 52],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [0.000018, -44.9999923, -0.0000223]],
+            "m_Scale": [14, [0.9999988, 0.9999988, 0.9999994]],
+            "m_Translate": [14, [-32.2440414, 86.8799819, 16.6312084]]
+          },
+          "Fields": {
+            "m_AreaHeight": "5.000000",
+            "m_AreaPoints": "23.355490 -0.500008 -7.280865;23.355492 -0.500008 -2.887910;-12.263502 -0.500008 -2.887905;-12.263497 -0.500002 -7.280841;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-5.9939956, 1.7000005, -5.7632098, 25.2765502, 2.2000036, 17.8093948]],
+            "m_Name": [12, "PlayableArea_4"],
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [-179.9999847, 45.0, -179.9999847]],
+            "m_Translate": [14, [-9.999999974752428e-7, 0.0, -0.0000024]]
+          },
+          "Fields": {
+            "m_AreaHeight": "4.400000",
+            "m_AreaPoints": "19.282551 -0.500001 -23.572603;19.282555 -0.500003 12.046181;-31.270546 -0.499998 12.046185;-31.270548 -0.499996 -23.572594;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.8124628, 6.9999909, -5.0843763, 5.9300999, 7.5000042, 2.1964843]],
+            "m_Name": [12, "PlayableArea_8"],
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "map_playable_area"],
+            "m_Rotate": [14, [0.000018, -44.9999923, -0.0000223]],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999994]],
+            "m_Translate": [14, [-26.8134841, 24.479988, 21.3829288]]
+          },
+          "Fields": {
+            "m_AreaHeight": "15.000000",
+            "m_AreaPoints": "7.742558 -0.500006 -7.280861;7.742563 -0.500013 -2.887909;-4.117637 -0.500011 -2.887892;-4.117631 -0.500004 -7.280828;"
           }
         }
       ]
