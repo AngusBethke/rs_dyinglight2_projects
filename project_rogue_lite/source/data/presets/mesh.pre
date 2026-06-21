@@ -5,9 +5,9 @@ sub main()
     PresetDef("Meshes")
     {
         Description("Generated Preset. Do not edit!");
+        AddField("MeshName", "nomesh.msh", false, true, false);
         AddField("m_CollisionFlags", "2048", true, true, false);
         ReserveFlags("m_CollisionFlags", "2048|262144");
-        AddField("MeshName", "nomesh.msh", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset(" prp_hotel_number_10_a")
