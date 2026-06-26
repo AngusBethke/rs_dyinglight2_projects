@@ -20,6 +20,66 @@ sub materials()
 		preset(0);
 		weight(0.000000);
 	}
+	material(1)
+	{
+		name("Sand");
+		clr_tex("rs_ter_detail_sand_flat_b_dif.png");
+		nrm_tex("rs_ter_detail_sand_flat_b_nrm.png");
+		spc_tex("rs_ter_detail_sand_flat_b_spc.png");
+		rgh_tex("rs_ter_detail_sand_flat_b_rgh.png");
+		dpt_tex("rs_pt_sand_detail_a_dpt.png");
+		clr2_tex("rs_ter_detail_sand_flat_b_dif.png");
+		nrm2_tex("rs_ter_detail_sand_flat_b_nrm.png");
+		spc2_tex("rs_ter_detail_sand_flat_b_spc.png");
+		rgh2_tex("rs_ter_detail_sand_flat_b_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(5);
+		surface_flags(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(2)
+	{
+		name("Grass");
+		clr_tex("ter_detail_grass_b_dif.png");
+		nrm_tex("ter_detail_grass_b_nrm.png");
+		spc_tex("ter_detail_grass_b_spc.png");
+		rgh_tex("ter_detail_grass_b_rgh.png");
+		dpt_tex("ter_detail_grass_b_dpt.png");
+		clr2_tex("ter_base_grass_b_dif.png");
+		nrm2_tex("default_nrm.dds");
+		spc2_tex("default_spc.dds");
+		rgh2_tex("default_rgh.dds");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(7);
+		surface_flags(0);
+		preset(0);
+		weight(0.000000);
+	}
+	material(3)
+	{
+		name("Rock");
+		clr_tex("ter_detail_rock_a_dif.png");
+		nrm_tex("ter_detail_rock_a_nrm.png");
+		spc_tex("ter_detail_rock_a_spc.png");
+		rgh_tex("ter_detail_rock_a_rgh.png");
+		dpt_tex("ter_detail_rock_a_dpt.png");
+		clr2_tex("climb_rock_generic_dif.png");
+		nrm2_tex("climb_rock_generic_nrm.png");
+		spc2_tex("default_spc.dds");
+		rgh2_tex("climb_rock_generic_rgh.png");
+		mapping_multiplier(16.000000);
+		relief_scale(1.000000);
+		blend_scale(1.000000);
+		surface_id(18);
+		surface_flags(0);
+		preset(0);
+		weight(0.000000);
+	}
 }
 sub layers()
 {
@@ -28,6 +88,27 @@ sub layers()
 		name("Default");
 		mat_top(0);
 		mat_side(0);
+		param(0.500000);
+	}
+	layer(1)
+	{
+		name("Sand");
+		mat_top(1);
+		mat_side(1);
+		param(0.500000);
+	}
+	layer(2)
+	{
+		name("Grass");
+		mat_top(2);
+		mat_side(2);
+		param(0.500000);
+	}
+	layer(3)
+	{
+		name("Rock");
+		mat_top(3);
+		mat_side(3);
 		param(0.500000);
 	}
 }
