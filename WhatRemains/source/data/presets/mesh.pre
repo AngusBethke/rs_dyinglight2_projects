@@ -5,9 +5,9 @@ sub main()
     PresetDef("Meshes")
     {
         Description("Generated Preset. Do not edit!");
-        AddField("MeshName", "nomesh.msh", false, true, false);
         AddField("m_CollisionFlags", "2048", true, true, false);
         ReserveFlags("m_CollisionFlags", "2048|262144");
+        AddField("MeshName", "nomesh.msh", false, true, false);
         IgnoreField("UserData");
         IgnoreField("SkinName");
         Preset(" prp_hotel_number_10_a")
@@ -2222,6 +2222,10 @@ sub main()
             SetField("MeshName", "black_hole_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("black_hole_a_lodh")
+        {
+            SetField("MeshName", "black_hole_a_lodh.msh");
+        }
         Preset("black_hole_b")
         {
             SetField("MeshName", "black_hole_b.msh");
@@ -3425,13 +3429,25 @@ sub main()
             SetField("MeshName", "bld_ce_a_blocked_door_1x1_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("bld_ce_a_blocked_door_1x1_a_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_blocked_door_1x1_a_lodh.msh");
+        }
         Preset("bld_ce_a_blocked_door_1x1_b")
         {
             SetField("MeshName", "bld_ce_a_blocked_door_1x1_b.msh");
         }
+        Preset("bld_ce_a_blocked_door_1x1_b_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_blocked_door_1x1_b_lodh.msh");
+        }
         Preset("bld_ce_a_blocked_door_2x1_a")
         {
             SetField("MeshName", "bld_ce_a_blocked_door_2x1_a.msh");
+        }
+        Preset("bld_ce_a_blocked_door_2x1_a_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_blocked_door_2x1_a_lodh.msh");
         }
         Preset("bld_ce_a_blocked_door_2x1_b")
         {
@@ -4164,6 +4180,10 @@ sub main()
         Preset("bld_ce_a_firewallthin_sin_mid_1x1h_a_frame")
         {
             SetField("MeshName", "bld_ce_a_firewallthin_sin_mid_1x1h_a_frame.msh");
+        }
+        Preset("bld_ce_a_firewallthin_sin_mid_1x1h_a_frame_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_firewallthin_sin_mid_1x1h_a_frame_lodh.msh");
         }
         Preset("bld_ce_a_firewallthin_sin_mid_1x1h_a_lodh")
         {
@@ -11494,6 +11514,10 @@ sub main()
             SetField("MeshName", "bld_ce_a_roofbeam_str_1x1h_b.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("bld_ce_a_roofbeam_str_1x1h_b_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_roofbeam_str_1x1h_b_lodh.msh");
+        }
         Preset("bld_ce_a_roofbeam_str_1x2h_a")
         {
             SetField("MeshName", "bld_ce_a_roofbeam_str_1x2h_a.msh");
@@ -12291,6 +12315,10 @@ sub main()
         {
             SetField("MeshName", "bld_ce_a_wall_damage_str_btm_2x_dynamic_a_chunk_06.msh");
         }
+        Preset("bld_ce_a_wall_damage_str_btm_2x_dynamic_a_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_wall_damage_str_btm_2x_dynamic_a_lodh.msh");
+        }
         Preset("bld_ce_a_wall_damage_str_btm_2x_dynamic_b")
         {
             SetField("MeshName", "bld_ce_a_wall_damage_str_btm_2x_dynamic_b.msh");
@@ -12314,6 +12342,10 @@ sub main()
         Preset("bld_ce_a_wall_damage_str_btm_2x_dynamic_b_chunk_05")
         {
             SetField("MeshName", "bld_ce_a_wall_damage_str_btm_2x_dynamic_b_chunk_05.msh");
+        }
+        Preset("bld_ce_a_wall_damage_str_btm_2x_dynamic_b_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_wall_damage_str_btm_2x_dynamic_b_lodh.msh");
         }
         Preset("bld_ce_a_wall_damage_str_btm_4x2h_dynamic_a")
         {
@@ -12358,6 +12390,10 @@ sub main()
         Preset("bld_ce_a_wall_damage_str_btm_4x2h_dynamic_a_chunk_10")
         {
             SetField("MeshName", "bld_ce_a_wall_damage_str_btm_4x2h_dynamic_a_chunk_10.msh");
+        }
+        Preset("bld_ce_a_wall_damage_str_btm_4x2h_dynamic_a_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_wall_damage_str_btm_4x2h_dynamic_a_lodh.msh");
         }
         Preset("bld_ce_a_wall_deco_pediment_a")
         {
@@ -12598,6 +12634,10 @@ sub main()
         {
             SetField("MeshName", "bld_ce_a_wall_str_btm_2x1h_a_wd_simple.msh");
         }
+        Preset("bld_ce_a_wall_str_btm_2x1h_a_wd_simple_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_wall_str_btm_2x1h_a_wd_simple_lodh.msh");
+        }
         Preset("bld_ce_a_wall_str_btm_2x1h_b_wd")
         {
             SetField("MeshName", "bld_ce_a_wall_str_btm_2x1h_b_wd.msh");
@@ -12753,6 +12793,10 @@ sub main()
         Preset("bld_ce_a_wall_str_btm_3x1h_a_wd_simple")
         {
             SetField("MeshName", "bld_ce_a_wall_str_btm_3x1h_a_wd_simple.msh");
+        }
+        Preset("bld_ce_a_wall_str_btm_3x1h_a_wd_simple_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_wall_str_btm_3x1h_a_wd_simple_lodh.msh");
         }
         Preset("bld_ce_a_wall_str_btm_3x1h_b_dr_one")
         {
@@ -13201,6 +13245,10 @@ sub main()
         Preset("bld_ce_a_wall_str_mid_2x1h_dr_pediment_flat")
         {
             SetField("MeshName", "bld_ce_a_wall_str_mid_2x1h_dr_pediment_flat.msh");
+        }
+        Preset("bld_ce_a_wall_str_mid_2x1h_dr_pediment_flat_lodh")
+        {
+            SetField("MeshName", "bld_ce_a_wall_str_mid_2x1h_dr_pediment_flat_lodh.msh");
         }
         Preset("bld_ce_a_wall_str_mid_2x1h_dr_pediment_round")
         {
@@ -18253,6 +18301,10 @@ sub main()
             SetField("MeshName", "bld_ce_c_roofbeam_str_1x1h_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("bld_ce_c_roofbeam_str_1x1h_a_lodh")
+        {
+            SetField("MeshName", "bld_ce_c_roofbeam_str_1x1h_a_lodh.msh");
+        }
         Preset("bld_ce_c_scaffold_btm_1x_a")
         {
             SetField("MeshName", "bld_ce_c_scaffold_btm_1x_a.msh");
@@ -20315,6 +20367,10 @@ sub main()
         {
             SetField("MeshName", "bld_ce_window_l_a_foil.msh");
         }
+        Preset("bld_ce_window_l_a_lodh")
+        {
+            SetField("MeshName", "bld_ce_window_l_a_lodh.msh");
+        }
         Preset("bld_ce_window_l_block_roller_blind_lodh")
         {
             SetField("MeshName", "bld_ce_window_l_block_roller_blind_lodh.msh");
@@ -20350,6 +20406,10 @@ sub main()
         Preset("bld_ce_window_m_a_closed")
         {
             SetField("MeshName", "bld_ce_window_m_a_closed.msh");
+        }
+        Preset("bld_ce_window_m_a_closed_lodh")
+        {
+            SetField("MeshName", "bld_ce_window_m_a_closed_lodh.msh");
         }
         Preset("bld_ce_window_m_a_foil")
         {
@@ -20442,6 +20502,10 @@ sub main()
         Preset("bld_ce_window_s_a_closed")
         {
             SetField("MeshName", "bld_ce_window_s_a_closed.msh");
+        }
+        Preset("bld_ce_window_s_a_closed_lodh")
+        {
+            SetField("MeshName", "bld_ce_window_s_a_closed_lodh.msh");
         }
         Preset("bld_ce_window_s_a_foil")
         {
@@ -22981,9 +23045,17 @@ sub main()
         {
             SetField("MeshName", "bld_generic_doorframe_a_str_mid_1x1h_dr.msh");
         }
+        Preset("bld_generic_doorframe_a_str_mid_1x1h_dr_lodh")
+        {
+            SetField("MeshName", "bld_generic_doorframe_a_str_mid_1x1h_dr_lodh.msh");
+        }
         Preset("bld_generic_doorframe_a_str_mid_2x1h_dr")
         {
             SetField("MeshName", "bld_generic_doorframe_a_str_mid_2x1h_dr.msh");
+        }
+        Preset("bld_generic_doorframe_a_str_mid_2x1h_dr_lodh")
+        {
+            SetField("MeshName", "bld_generic_doorframe_a_str_mid_2x1h_dr_lodh.msh");
         }
         Preset("bld_mt_a_pavement_str_2x")
         {
@@ -27446,6 +27518,10 @@ sub main()
         {
             SetField("MeshName", "cd_blendshape_c.msh");
         }
+        Preset("cd_blendshape_c_lodh")
+        {
+            SetField("MeshName", "cd_blendshape_c_lodh.msh");
+        }
         Preset("cd_blendshape_f")
         {
             SetField("MeshName", "cd_blendshape_f.msh");
@@ -27475,6 +27551,10 @@ sub main()
         {
             SetField("MeshName", "cd_blendshape_h.msh");
         }
+        Preset("cd_blendshape_h_lodh")
+        {
+            SetField("MeshName", "cd_blendshape_h_lodh.msh");
+        }
         Preset("cd_cathedra_01")
         {
             SetField("MeshName", "cd_cathedra_01.msh");
@@ -27483,9 +27563,17 @@ sub main()
         {
             SetField("MeshName", "cd_roof_blendshape_a.msh");
         }
+        Preset("cd_roof_blendshape_a_lodh")
+        {
+            SetField("MeshName", "cd_roof_blendshape_a_lodh.msh");
+        }
         Preset("cd_roof_blendshape_b")
         {
             SetField("MeshName", "cd_roof_blendshape_b.msh");
+        }
+        Preset("cd_roof_blendshape_b_lodh")
+        {
+            SetField("MeshName", "cd_roof_blendshape_b_lodh.msh");
         }
         Preset("cd_roof_blendshape_c")
         {
@@ -31635,6 +31723,10 @@ sub main()
         {
             SetField("MeshName", "decal_wall_round_a.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("decal_wall_round_a_lodh")
+        {
+            SetField("MeshName", "decal_wall_round_a_lodh.msh");
         }
         Preset("decal_wall_round_b")
         {
@@ -40116,6 +40208,10 @@ sub main()
         {
             SetField("MeshName", "dlc_flat_rock_a_block_zpas.msh");
         }
+        Preset("dlc_flat_rock_a_lodh")
+        {
+            SetField("MeshName", "dlc_flat_rock_a_lodh.msh");
+        }
         Preset("dlc_flat_rock_c")
         {
             SetField("MeshName", "dlc_flat_rock_c.msh");
@@ -41305,6 +41401,10 @@ sub main()
         {
             SetField("MeshName", "dummy_box.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("dummy_box_lodh")
+        {
+            SetField("MeshName", "dummy_box_lodh.msh");
         }
         Preset("dummy_box_no_hooks")
         {
@@ -44233,6 +44333,10 @@ sub main()
             SetField("MeshName", "frn_old_bookcase_a_books.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("frn_old_bookcase_a_lodh")
+        {
+            SetField("MeshName", "frn_old_bookcase_a_lodh.msh");
+        }
         Preset("frn_old_bookcase_a_top")
         {
             SetField("MeshName", "frn_old_bookcase_a_top.msh");
@@ -44566,6 +44670,10 @@ sub main()
             SetField("MeshName", "frn_scandinavian_armchair_b.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("frn_scandinavian_armchair_b_lodh")
+        {
+            SetField("MeshName", "frn_scandinavian_armchair_b_lodh.msh");
+        }
         Preset("frn_scandinavian_bed_big_a")
         {
             SetField("MeshName", "frn_scandinavian_bed_big_a.msh");
@@ -44668,6 +44776,10 @@ sub main()
             SetField("MeshName", "frn_scandinavian_sofa_b.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("frn_scandinavian_sofa_b_lodh")
+        {
+            SetField("MeshName", "frn_scandinavian_sofa_b_lodh.msh");
+        }
         Preset("frn_scandinavian_table_a")
         {
             SetField("MeshName", "frn_scandinavian_table_a.msh");
@@ -44685,6 +44797,10 @@ sub main()
         Preset("frn_scandinavian_table_coffee_b")
         {
             SetField("MeshName", "frn_scandinavian_table_coffee_b.msh");
+        }
+        Preset("frn_scandinavian_table_coffee_b_lodh")
+        {
+            SetField("MeshName", "frn_scandinavian_table_coffee_b_lodh.msh");
         }
         Preset("frn_scandinavian_table_night_a")
         {
@@ -48079,10 +48195,18 @@ sub main()
             SetField("MeshName", "hub_ship_pk_prison_gate_base_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("hub_ship_pk_prison_gate_base_a_lodh")
+        {
+            SetField("MeshName", "hub_ship_pk_prison_gate_base_a_lodh.msh");
+        }
         Preset("hub_ship_pk_prison_gate_door_a")
         {
             SetField("MeshName", "hub_ship_pk_prison_gate_door_a.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("hub_ship_pk_prison_gate_door_a_lodh")
+        {
+            SetField("MeshName", "hub_ship_pk_prison_gate_door_a_lodh.msh");
         }
         Preset("hub_ship_pk_table_top_a")
         {
@@ -48404,6 +48528,10 @@ sub main()
         Preset("hw_wall_a")
         {
             SetField("MeshName", "hw_wall_a.msh");
+        }
+        Preset("hw_wall_a_lodh")
+        {
+            SetField("MeshName", "hw_wall_a_lodh.msh");
         }
         Preset("icons_helper")
         {
@@ -48808,6 +48936,10 @@ sub main()
         {
             SetField("MeshName", "int_ce_a_ceiling_damage_cor_0x_a.msh");
         }
+        Preset("int_ce_a_ceiling_damage_cor_0x_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_ceiling_damage_cor_0x_a_lodh.msh");
+        }
         Preset("int_ce_a_ceiling_damage_left_1x_a")
         {
             SetField("MeshName", "int_ce_a_ceiling_damage_left_1x_a.msh");
@@ -48823,6 +48955,10 @@ sub main()
         Preset("int_ce_a_ceiling_damage_top_1x_a")
         {
             SetField("MeshName", "int_ce_a_ceiling_damage_top_1x_a.msh");
+        }
+        Preset("int_ce_a_ceiling_damage_top_1x_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_ceiling_damage_top_1x_a_lodh.msh");
         }
         Preset("int_ce_a_ceiling_hatch_2x2_a")
         {
@@ -49105,6 +49241,10 @@ sub main()
         Preset("int_ce_a_doorframe_str_mid_1x1h_b_dr")
         {
             SetField("MeshName", "int_ce_a_doorframe_str_mid_1x1h_b_dr.msh");
+        }
+        Preset("int_ce_a_doorframe_str_mid_1x1h_b_dr_lodh")
+        {
+            SetField("MeshName", "int_ce_a_doorframe_str_mid_1x1h_b_dr_lodh.msh");
         }
         Preset("int_ce_a_doorframe_str_mid_1x1h_b_w")
         {
@@ -49423,17 +49563,33 @@ sub main()
         {
             SetField("MeshName", "int_ce_a_floor_damage_btm_1x_a.msh");
         }
+        Preset("int_ce_a_floor_damage_btm_1x_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_floor_damage_btm_1x_a_lodh.msh");
+        }
         Preset("int_ce_a_floor_damage_btm_1x_b")
         {
             SetField("MeshName", "int_ce_a_floor_damage_btm_1x_b.msh");
+        }
+        Preset("int_ce_a_floor_damage_btm_1x_b_lodh")
+        {
+            SetField("MeshName", "int_ce_a_floor_damage_btm_1x_b_lodh.msh");
         }
         Preset("int_ce_a_floor_damage_btm_2x_a")
         {
             SetField("MeshName", "int_ce_a_floor_damage_btm_2x_a.msh");
         }
+        Preset("int_ce_a_floor_damage_btm_2x_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_floor_damage_btm_2x_a_lodh.msh");
+        }
         Preset("int_ce_a_floor_damage_cor_0x_a")
         {
             SetField("MeshName", "int_ce_a_floor_damage_cor_0x_a.msh");
+        }
+        Preset("int_ce_a_floor_damage_cor_0x_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_floor_damage_cor_0x_a_lodh.msh");
         }
         Preset("int_ce_a_floor_damage_left_1x_a")
         {
@@ -50375,6 +50531,10 @@ sub main()
             SetField("MeshName", "int_ce_a_pillar_1h_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("int_ce_a_pillar_1h_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_pillar_1h_a_lodh.msh");
+        }
         Preset("int_ce_a_pillar_round_1h_a")
         {
             SetField("MeshName", "int_ce_a_pillar_round_1h_a.msh");
@@ -50722,6 +50882,10 @@ sub main()
         {
             SetField("MeshName", "int_ce_a_wall_damage_left_mid_0x_b.msh");
         }
+        Preset("int_ce_a_wall_damage_left_mid_0x_b_lodh")
+        {
+            SetField("MeshName", "int_ce_a_wall_damage_left_mid_0x_b_lodh.msh");
+        }
         Preset("int_ce_a_wall_damage_right_mid_0x_a")
         {
             SetField("MeshName", "int_ce_a_wall_damage_right_mid_0x_a.msh");
@@ -50729,6 +50893,10 @@ sub main()
         Preset("int_ce_a_wall_damage_right_mid_0x_b")
         {
             SetField("MeshName", "int_ce_a_wall_damage_right_mid_0x_b.msh");
+        }
+        Preset("int_ce_a_wall_damage_right_mid_0x_b_lodh")
+        {
+            SetField("MeshName", "int_ce_a_wall_damage_right_mid_0x_b_lodh.msh");
         }
         Preset("int_ce_a_wall_damage_sin_btm_0x_dynamic_a_chunk_01")
         {
@@ -50758,9 +50926,17 @@ sub main()
         {
             SetField("MeshName", "int_ce_a_wall_damage_str_2x_a.msh");
         }
+        Preset("int_ce_a_wall_damage_str_2x_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_wall_damage_str_2x_a_lodh.msh");
+        }
         Preset("int_ce_a_wall_damage_str_2x_b")
         {
             SetField("MeshName", "int_ce_a_wall_damage_str_2x_b.msh");
+        }
+        Preset("int_ce_a_wall_damage_str_2x_b_lodh")
+        {
+            SetField("MeshName", "int_ce_a_wall_damage_str_2x_b_lodh.msh");
         }
         Preset("int_ce_a_wall_damage_str_2x_c")
         {
@@ -50769,6 +50945,10 @@ sub main()
         Preset("int_ce_a_wall_damage_str_btm_1x_a")
         {
             SetField("MeshName", "int_ce_a_wall_damage_str_btm_1x_a.msh");
+        }
+        Preset("int_ce_a_wall_damage_str_btm_1x_a_lodh")
+        {
+            SetField("MeshName", "int_ce_a_wall_damage_str_btm_1x_a_lodh.msh");
         }
         Preset("int_ce_a_wall_damage_str_btm_1x_b")
         {
@@ -51135,6 +51315,10 @@ sub main()
         {
             SetField("MeshName", "int_ce_a_wall_str_2x_a_dr_frame_a.msh");
         }
+        Preset("int_ce_a_wall_str_2x_a_dr_lodh")
+        {
+            SetField("MeshName", "int_ce_a_wall_str_2x_a_dr_lodh.msh");
+        }
         Preset("int_ce_a_wall_str_2x_a_em")
         {
             SetField("MeshName", "int_ce_a_wall_str_2x_a_em.msh");
@@ -51186,6 +51370,10 @@ sub main()
         Preset("int_ce_a_wall_str_2x_b_wd")
         {
             SetField("MeshName", "int_ce_a_wall_str_2x_b_wd.msh");
+        }
+        Preset("int_ce_a_wall_str_2x_b_wd_lodh")
+        {
+            SetField("MeshName", "int_ce_a_wall_str_2x_b_wd_lodh.msh");
         }
         Preset("int_ce_a_wall_str_2x_c_dr_lodh")
         {
@@ -53463,15 +53651,27 @@ sub main()
             SetField("MeshName", "int_id_a_floor_ceiling_end_cor_0x_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("int_id_a_floor_ceiling_end_cor_0x_a_lodh")
+        {
+            SetField("MeshName", "int_id_a_floor_ceiling_end_cor_0x_a_lodh.msh");
+        }
         Preset("int_id_a_floor_ceiling_end_str_1x_a")
         {
             SetField("MeshName", "int_id_a_floor_ceiling_end_str_1x_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("int_id_a_floor_ceiling_end_str_1x_a_lodh")
+        {
+            SetField("MeshName", "int_id_a_floor_ceiling_end_str_1x_a_lodh.msh");
+        }
         Preset("int_id_a_floor_ceiling_end_str_2x_a")
         {
             SetField("MeshName", "int_id_a_floor_ceiling_end_str_2x_a.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("int_id_a_floor_ceiling_end_str_2x_a_lodh")
+        {
+            SetField("MeshName", "int_id_a_floor_ceiling_end_str_2x_a_lodh.msh");
         }
         Preset("int_id_a_floor_ceiling_end_str_4x_a")
         {
@@ -53706,6 +53906,10 @@ sub main()
         Preset("int_plywood_floor_board_dmg_part_big_a")
         {
             SetField("MeshName", "int_plywood_floor_board_dmg_part_big_a.msh");
+        }
+        Preset("int_plywood_floor_board_dmg_part_big_a_lodh")
+        {
+            SetField("MeshName", "int_plywood_floor_board_dmg_part_big_a_lodh.msh");
         }
         Preset("int_shop_modern_default_facade_str_2x1h_a")
         {
@@ -54497,6 +54701,10 @@ sub main()
         {
             SetField("MeshName", "l26587ffe1d1c9dee.msh");
         }
+        Preset("l2958ee84cbbf3944")
+        {
+            SetField("MeshName", "l2958ee84cbbf3944.msh");
+        }
         Preset("l2d20ffb82a79a3f8")
         {
             SetField("MeshName", "l2d20ffb82a79a3f8.msh");
@@ -54577,6 +54785,14 @@ sub main()
         {
             SetField("MeshName", "l5a0d88d3a5ffb330.msh");
         }
+        Preset("l5bb7f8be4023192e")
+        {
+            SetField("MeshName", "l5bb7f8be4023192e.msh");
+        }
+        Preset("l5bb7f8be404e374f")
+        {
+            SetField("MeshName", "l5bb7f8be404e374f.msh");
+        }
         Preset("l5dad9382ca019080")
         {
             SetField("MeshName", "l5dad9382ca019080.msh");
@@ -54648,6 +54864,14 @@ sub main()
         Preset("l963060823f40286b")
         {
             SetField("MeshName", "l963060823f40286b.msh");
+        }
+        Preset("l9d85d2010662d965")
+        {
+            SetField("MeshName", "l9d85d2010662d965.msh");
+        }
+        Preset("l9d85d2010662dff6")
+        {
+            SetField("MeshName", "l9d85d2010662dff6.msh");
         }
         Preset("la169af0ce92314e7")
         {
@@ -60353,6 +60577,10 @@ sub main()
             SetField("MeshName", "ms_puddle_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("ms_puddle_a_lodh")
+        {
+            SetField("MeshName", "ms_puddle_a_lodh.msh");
+        }
         Preset("ms_rock_a")
         {
             SetField("MeshName", "ms_rock_a.msh");
@@ -63644,6 +63872,10 @@ sub main()
             SetField("MeshName", "nat_tree_conif_chemical_small_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("nat_tree_conif_chemical_small_a_lodh")
+        {
+            SetField("MeshName", "nat_tree_conif_chemical_small_a_lodh.msh");
+        }
         Preset("nat_tree_conif_huge_a")
         {
             SetField("MeshName", "nat_tree_conif_huge_a.msh");
@@ -63739,6 +63971,10 @@ sub main()
         Preset("nat_tree_conif_med_b_lods_lod2_trees")
         {
             SetField("MeshName", "nat_tree_conif_med_b_lods_lod2_trees.msh");
+        }
+        Preset("nat_tree_conif_spruce_huge_a_lodh")
+        {
+            SetField("MeshName", "nat_tree_conif_spruce_huge_a_lodh.msh");
         }
         Preset("nat_tree_decid_dead_a")
         {
@@ -63870,6 +64106,10 @@ sub main()
         {
             SetField("MeshName", "nat_tree_decid_huge_c_dry.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("nat_tree_decid_huge_c_dry_lodh")
+        {
+            SetField("MeshName", "nat_tree_decid_huge_c_dry_lodh.msh");
         }
         Preset("nat_tree_decid_huge_c_lodh")
         {
@@ -64241,6 +64481,10 @@ sub main()
         {
             SetField("MeshName", "nat_tree_decid_tiny_a.msh");
         }
+        Preset("nat_tree_decid_tiny_a_lodh")
+        {
+            SetField("MeshName", "nat_tree_decid_tiny_a_lodh.msh");
+        }
         Preset("nat_tree_decid_tiny_b")
         {
             SetField("MeshName", "nat_tree_decid_tiny_b.msh");
@@ -64283,6 +64527,10 @@ sub main()
         Preset("nat_tree_stump_a")
         {
             SetField("MeshName", "nat_tree_stump_a.msh");
+        }
+        Preset("nat_tree_stump_a_lodh")
+        {
+            SetField("MeshName", "nat_tree_stump_a_lodh.msh");
         }
         Preset("nat_tree_stump_b")
         {
@@ -68722,6 +68970,10 @@ sub main()
             SetField("MeshName", "pa_windmills_pp_moving_ledge_hor_winch_beam_b.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("pa_windmills_pp_moving_ledge_hor_winch_beam_b_lodh")
+        {
+            SetField("MeshName", "pa_windmills_pp_moving_ledge_hor_winch_beam_b_lodh.msh");
+        }
         Preset("pa_windmills_pp_moving_ledge_ver_0x_a")
         {
             SetField("MeshName", "pa_windmills_pp_moving_ledge_ver_0x_a.msh");
@@ -69401,6 +69653,10 @@ sub main()
         {
             SetField("MeshName", "ph_door_c_blk.msh");
         }
+        Preset("ph_door_c_lodh")
+        {
+            SetField("MeshName", "ph_door_c_lodh.msh");
+        }
         Preset("ph_door_d")
         {
             SetField("MeshName", "ph_door_d.msh");
@@ -69440,6 +69696,10 @@ sub main()
         Preset("ph_door_i")
         {
             SetField("MeshName", "ph_door_i.msh");
+        }
+        Preset("ph_door_i_lodh")
+        {
+            SetField("MeshName", "ph_door_i_lodh.msh");
         }
         Preset("ph_door_i_spawn")
         {
@@ -71185,6 +71445,10 @@ sub main()
         {
             SetField("MeshName", "prologue_forest_embankment_a.msh");
         }
+        Preset("prologue_forest_embankment_a_lodh")
+        {
+            SetField("MeshName", "prologue_forest_embankment_a_lodh.msh");
+        }
         Preset("prologue_forest_embankment_b")
         {
             SetField("MeshName", "prologue_forest_embankment_b.msh");
@@ -71225,6 +71489,10 @@ sub main()
         {
             SetField("MeshName", "prologue_forest_rock_c.msh");
         }
+        Preset("prologue_forest_rock_c_lodh")
+        {
+            SetField("MeshName", "prologue_forest_rock_c_lodh.msh");
+        }
         Preset("prologue_forest_roots_a")
         {
             SetField("MeshName", "prologue_forest_roots_a.msh");
@@ -71232,6 +71500,10 @@ sub main()
         Preset("prologue_forest_roots_b")
         {
             SetField("MeshName", "prologue_forest_roots_b.msh");
+        }
+        Preset("prologue_forest_roots_b_lodh")
+        {
+            SetField("MeshName", "prologue_forest_roots_b_lodh.msh");
         }
         Preset("prologue_nat_ivy_b_lodh")
         {
@@ -72056,6 +72328,10 @@ sub main()
             SetField("MeshName", "prp_carpet_oblong_medium.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("prp_carpet_oblong_medium_lodh")
+        {
+            SetField("MeshName", "prp_carpet_oblong_medium_lodh.msh");
+        }
         Preset("prp_carpet_oblong_small")
         {
             SetField("MeshName", "prp_carpet_oblong_small.msh");
@@ -72407,13 +72683,25 @@ sub main()
             SetField("MeshName", "prp_debris_pile_big_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("prp_debris_pile_big_a_lodh")
+        {
+            SetField("MeshName", "prp_debris_pile_big_a_lodh.msh");
+        }
         Preset("prp_debris_pile_corner_big_a")
         {
             SetField("MeshName", "prp_debris_pile_corner_big_a.msh");
         }
+        Preset("prp_debris_pile_corner_big_a_lodh")
+        {
+            SetField("MeshName", "prp_debris_pile_corner_big_a_lodh.msh");
+        }
         Preset("prp_debris_pile_corner_small_a")
         {
             SetField("MeshName", "prp_debris_pile_corner_small_a.msh");
+        }
+        Preset("prp_debris_pile_corner_small_a_lodh")
+        {
+            SetField("MeshName", "prp_debris_pile_corner_small_a_lodh.msh");
         }
         Preset("prp_debris_pile_small_a")
         {
@@ -72424,9 +72712,17 @@ sub main()
         {
             SetField("MeshName", "prp_debris_pile_streight_big_a.msh");
         }
+        Preset("prp_debris_pile_streight_big_a_lodh")
+        {
+            SetField("MeshName", "prp_debris_pile_streight_big_a_lodh.msh");
+        }
         Preset("prp_debris_pile_streight_small_a")
         {
             SetField("MeshName", "prp_debris_pile_streight_small_a.msh");
+        }
+        Preset("prp_debris_pile_streight_small_a_lodh")
+        {
+            SetField("MeshName", "prp_debris_pile_streight_small_a_lodh.msh");
         }
         Preset("prp_destroyable_a")
         {
@@ -74260,9 +74556,17 @@ sub main()
             SetField("MeshName", "prp_window_debris_broken_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("prp_window_debris_broken_a_lodh")
+        {
+            SetField("MeshName", "prp_window_debris_broken_a_lodh.msh");
+        }
         Preset("prp_window_debris_broken_b")
         {
             SetField("MeshName", "prp_window_debris_broken_b.msh");
+        }
+        Preset("prp_window_debris_broken_b_lodh")
+        {
+            SetField("MeshName", "prp_window_debris_broken_b_lodh.msh");
         }
         Preset("prp_wood_dest_blockade_a")
         {
@@ -77189,6 +77493,14 @@ sub main()
         Preset("rough_rock_d")
         {
             SetField("MeshName", "rough_rock_d.msh");
+        }
+        Preset("rs_vault_logo_base")
+        {
+            SetField("MeshName", "rs_vault_logo_base.msh");
+        }
+        Preset("rs_vault_logo_text")
+        {
+            SetField("MeshName", "rs_vault_logo_text.msh");
         }
         Preset("rt_module_base_2x_a")
         {
@@ -80234,6 +80546,10 @@ sub main()
             SetField("MeshName", "street_prkr_ramp_04_b.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("street_prkr_ramp_04_b_lodh")
+        {
+            SetField("MeshName", "street_prkr_ramp_04_b_lodh.msh");
+        }
         Preset("street_prkr_ramp_04_lodh")
         {
             SetField("MeshName", "street_prkr_ramp_04_lodh.msh");
@@ -83117,6 +83433,10 @@ sub main()
             SetField("MeshName", "travel_bag_e.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("travel_bag_e_lodh")
+        {
+            SetField("MeshName", "travel_bag_e_lodh.msh");
+        }
         Preset("travel_bag_open_a")
         {
             SetField("MeshName", "travel_bag_open_a.msh");
@@ -83215,6 +83535,10 @@ sub main()
         {
             SetField("MeshName", "tunel_cable_str_03_a.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("tunel_cable_str_03_a_lodh")
+        {
+            SetField("MeshName", "tunel_cable_str_03_a_lodh.msh");
         }
         Preset("tunel_waterfall")
         {
@@ -87831,6 +88155,10 @@ sub main()
             SetField("MeshName", "urb_industrial_pipe_c_cor_45_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("urb_industrial_pipe_c_cor_45_a_lodh")
+        {
+            SetField("MeshName", "urb_industrial_pipe_c_cor_45_a_lodh.msh");
+        }
         Preset("urb_industrial_pipe_c_cor_90_a")
         {
             SetField("MeshName", "urb_industrial_pipe_c_cor_90_a.msh");
@@ -87851,10 +88179,18 @@ sub main()
             SetField("MeshName", "urb_industrial_pipe_c_deco_a.msh");
             SetField("m_CollisionFlags", "0");
         }
+        Preset("urb_industrial_pipe_c_deco_a_lodh")
+        {
+            SetField("MeshName", "urb_industrial_pipe_c_deco_a_lodh.msh");
+        }
         Preset("urb_industrial_pipe_c_deco_b")
         {
             SetField("MeshName", "urb_industrial_pipe_c_deco_b.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("urb_industrial_pipe_c_deco_b_lodh")
+        {
+            SetField("MeshName", "urb_industrial_pipe_c_deco_b_lodh.msh");
         }
         Preset("urb_industrial_pipe_c_deco_c")
         {
@@ -87870,6 +88206,10 @@ sub main()
         {
             SetField("MeshName", "urb_industrial_pipe_c_str_a.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("urb_industrial_pipe_c_str_a_lodh")
+        {
+            SetField("MeshName", "urb_industrial_pipe_c_str_a_lodh.msh");
         }
         Preset("urb_industrial_pipe_tank_a")
         {
@@ -91828,6 +92168,10 @@ sub main()
         {
             SetField("MeshName", "window_flower_pot_e.msh");
         }
+        Preset("window_flower_pot_lodh")
+        {
+            SetField("MeshName", "window_flower_pot_lodh.msh");
+        }
         Preset("window_hanger_e")
         {
             SetField("MeshName", "window_hanger_e.msh");
@@ -91836,6 +92180,10 @@ sub main()
         {
             SetField("MeshName", "window_laundry_dryer.msh");
             SetField("m_CollisionFlags", "0");
+        }
+        Preset("window_laundry_dryer_lodh")
+        {
+            SetField("MeshName", "window_laundry_dryer_lodh.msh");
         }
         Preset("wireframe_box")
         {
