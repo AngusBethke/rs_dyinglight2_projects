@@ -6,13 +6,13 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512833, 0.2189901, 0.0679944, 1.495648, 0.262777]],
+            "m_EntityComponentsExtents": [69, [-0.0002574, 1.4512832, 0.2189901, 0.0679944, 1.4956479, 0.262777]],
             "m_Name": [12, "MapStart"],
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "spawnpoint"],
-            "m_Rotate": [14, [-179.9999847, 0.000029, 179.9999847]],
-            "m_Scale": [14, [0.9999954, 0.9999958, 0.9999968]],
-            "m_Translate": [14, [-14.7916307, 0.0, 72.1938171]]
+            "m_Rotate": [14, [-0.0000327, -47.0000381, -0.0000461]],
+            "m_Scale": [14, [0.9999951, 0.9999955, 0.9999964]],
+            "m_Translate": [14, [-88.0530166, 15.5024118, 78.3514175]]
           }
         },
         {
@@ -35,23 +35,179 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004994, 0.5405001, 0.4404999, 1.2005002, 0.5405007, 0.4405007]],
             "m_PcId": [6, 22],
-            "m_PrefabName": [12, "rs_wroh_custommove_bar"],
-            "m_Translate": [14, [5.9677581, 0.0, 71.9020385]]
-          },
-          "Fields": {
-            "SELECTOR": ""
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_bar_table_high_a"],
+            "m_Translate": [14, [-14.3154344, 0.0, 67.6488723]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0573562, 0.0052544, 0.0735036, 0.0811987, 0.0838751, 0.1373003]],
             "m_PcId": [6, 23],
-            "m_PrefabName": [12, "rs_wroh_custommove_jump"],
-            "m_Translate": [14, [0.9491766, 0.0, 71.9956741]]
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [0.0, -75.0, 90.0]],
+            "m_Translate": [14, [-15.1543235, 1.1009453, 68.1441574]]
           },
           "Fields": {
-            "SELECTOR": ""
+            "ID": "Weapon_Firearm_Pistol",
+            "m_EditorItemName": "Weapon_Firearm_Pistol",
+            "m_ItemColor": "Violet",
+            "m_ItemReqLevel": "9",
+            "m_UpgradeLevel": "24"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0257032, 0.0, 0.0815, 0.026, 0.0498336]],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Translate": [14, [-14.9329624, 1.0799994, 68.1580734]]
+          },
+          "Fields": {
+            "ID": "Large_Bundle_Ammo_Firearm_Pistol",
+            "m_EditorItemName": "Large_Bundle_Ammo_Firearm_Pistol",
+            "m_ItemColor": "Violet",
+            "m_ItemReqLevel": "9",
+            "m_UpgradeLevel": "24"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0954923, 4.76837158203125e-7, 0.0099057, 0.14107, 0.6956666, 0.2266563]],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [0.0, -90.0, 90.0]],
+            "m_Translate": [14, [-14.5626678, 1.101469, 68.1608047]]
+          },
+          "Fields": {
+            "ID": "wpn_2hp_bow_t9",
+            "m_EditorItemName": "wpn_2hp_bow_t9",
+            "m_ItemColor": "Violet",
+            "m_ItemReqLevel": "9",
+            "m_UpgradeLevel": "24"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0005846, -0.0052381, 0.3923701, 0.0204993, 0.0183079, 0.4014209]],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Translate": [14, [-14.1361198, 1.0799994, 67.7076339]]
+          },
+          "Fields": {
+            "ID": "Bundle_Arrows",
+            "m_EditorItemName": "Bundle_Arrows",
+            "m_ItemColor": "Violet",
+            "m_ItemReqLevel": "9",
+            "m_UpgradeLevel": "24"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [2.2351741790771485e-7, 0.2169681, 0.0076985, 0.0215125, 0.3167215, 0.0346345]],
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [89.9999923, 75.0000228, -180.0]],
+            "m_Translate": [14, [-13.9531459, 1.0856162, 68.3103027]]
+          },
+          "Fields": {
+            "ID": "wpn_1hs_mach_w_fpp_r24",
+            "m_EditorItemName": "wpn_1hs_mach_w_fpp_r24",
+            "m_ItemColor": "Violet",
+            "m_ItemReqLevel": "9",
+            "m_UpgradeLevel": "24"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0170865, -0.1424117, 0.0566888, 0.0531755, 0.5205321, 0.1722814]],
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "itemspawner"],
+            "m_Rotate": [14, [0.0, 90.0, -90.0]],
+            "m_Translate": [14, [-13.5431308, 1.1167112, 67.9411468]]
+          },
+          "Fields": {
+            "ID": "wpn_2hs_h_fpp_r24",
+            "m_EditorItemName": "wpn_2hs_h_fpp_r24",
+            "m_ItemColor": "Violet",
+            "m_ItemReqLevel": "9",
+            "m_UpgradeLevel": "24"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_HeightmapMode": [20, 1],
+            "m_PcId": [6, 29],
+            "m_PrefabName": [12, "rs_wroh_oldtown_buildings_lower_north_bld_a"],
+            "m_Translate": [14, [-51.3486824, 1.9833983, 55.7548637]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_base_window"],
+            "m_Translate": [14, [-83.5690231, 12.3600034, 1.6960009]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 31],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_window"],
+            "m_Translate": [14, [-88.3689956, 12.3600025, 1.6958763]]
+          },
+          "Fields": {
+            "WallSkin": "R1_generic_a_3"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_wall"],
+            "m_Translate": [14, [-93.1690139, 12.3600025, 1.6960004]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_door"],
+            "m_Translate": [14, [-97.9690246, 12.3600025, 1.6960004]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "rs_wroh_building_damaged_wall_2x_floor_climb"],
+            "m_Translate": [14, [-102.76902, 12.3600025, 1.6960004]]
+          },
+          "Fields": {
+            "WallSkin": "R2_living_earth_1_b"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0101927, 1.9213931, 0.2451016, 0.9813573, 1.9308657, 0.0850295]],
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_ce_a_modern_wall_str_1x1h_a_dest_a"],
+            "m_Translate": [14, [-106.6090164, 12.3600025, 1.6960004]]
+          },
+          "Fields": {
+            "SkinName": "R1_generic_a_2"
           }
         },
         {
