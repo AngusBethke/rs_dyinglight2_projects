@@ -1,0 +1,85 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "Attachments",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;l:Attachments;c:CargoType;",
+            "DestinationFields": [
+              {
+                "Uuid": "13",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0049474, 1.092514, 0.0249959, 0.6686699, 1.093574, 1.355247]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_gre_cage_a"],
+            "m_Scale": [14, [0.4, 0.4, 0.4]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.4946603, 0.9238583, 0.0099119, 0.5071474, 0.9238584, 0.0613697]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_gre_cage_door_a"],
+            "m_Scale": [14, [0.4, 0.4, 0.4]],
+            "m_Translate": [14, [-0.1997147, 0.1027697, 0.481678]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Ammo"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "rs_van_armored_addon_crates_a"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0004453, -0.0001576, 0.0001065]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 10, 14, 15],
+            "m_PcId": [6, 13]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Cardboard"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "rs_van_armored_addon_crates_b"],
+            "m_RandomizationWeight": [6, 34],
+            "m_Translate": [14, [-0.0004454, -0.0001576, 0.0001065]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Water"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "rs_van_armored_addon_crates_c"],
+            "m_RandomizationWeight": [6, 33],
+            "m_Translate": [14, [-0.0004455, -0.0001576, 0.0001065]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
