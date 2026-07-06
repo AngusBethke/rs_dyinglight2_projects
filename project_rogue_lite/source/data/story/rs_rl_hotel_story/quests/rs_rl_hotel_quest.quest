@@ -58,6 +58,23 @@
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::WaitForSensorLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7659477641522839686">
+					<Logic type="Story::DialogueLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q1_info"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_safe_area/rs_rl_hotel_dialog_spike_q1_info"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7659477641522839686" output="Out:EndNode" input="In" end="7659472204252977422">
+					<Start class="Story::DialogueLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7659071517536098694">
 					<Logic type="Story::ShowLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -352,6 +369,20 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7659472159806157812">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7659471787393921951"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7659472159806157812" output="Out" input="In" end="7659477658078447668">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::DialogueSetupLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653266129856750840">
 					<Logic type="Story::FreezeTimeLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -425,6 +456,10 @@
 					<Start class="Story::DisableLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Connect start="7653271070594143495" output="Out" input="In" end="7659472159806157812">
+					<Start class="Story::DisableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7642374385316293643">
 					<Logic type="Story::CompleteMissionLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -438,6 +473,16 @@
 					<Start class="Story::CompleteMissionLogic"/>
 					<End class="Actions::EndLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7659472204252977422">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7659471787393921951"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
 				<Node type="Actions::Node" uid="7653268827339337237">
 					<Logic type="Story::UseLogic">
 						<Attribute name="m_DesiredValue" value="_ON"/>
@@ -555,6 +600,23 @@
 				<Connect start="7653270731157151537" output="Out" input="In" end="7653267955579138685">
 					<Start class="Story::WaitForSensorLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7659477658078447668">
+					<Logic type="Story::DialogueSetupLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q1_info"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_safe_area/rs_rl_hotel_dialog_spike_q1_info"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7659477658078447668" output="Out" input="In" end="7659477641522839686">
+					<Start class="Story::DialogueSetupLogic"/>
+					<End class="Story::DialogueLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267761867189051">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -1055,6 +1117,18 @@
 		</EditorNode>
 		<EditorNode uid="7642374131240960184">
 			<Position x="2175" y="3300"/>
+		</EditorNode>
+		<EditorNode uid="7659472159806157812">
+			<Position x="1350" y="-150"/>
+		</EditorNode>
+		<EditorNode uid="7659472204252977422">
+			<Position x="2640" y="-150"/>
+		</EditorNode>
+		<EditorNode uid="7659477658078447668">
+			<Position x="1725" y="-150"/>
+		</EditorNode>
+		<EditorNode uid="7659477641522839686">
+			<Position x="2175" y="-135"/>
 		</EditorNode>
 		<EditorNode uid="7642373474610012675">
 			<Position x="0" y="0"/>
