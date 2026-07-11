@@ -10,49 +10,49 @@
       - Value:
         - type: float
         - value: 0.000000
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499357789625
       - name: Antizine
       - Value:
         - type: float
         - value: 0.000000
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499838150391
       - name: PreInfection
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499153874292
       - name: Health
       - Value:
         - type: float
         - value: 0.000000
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498275798347
       - name: HealthPercentage
       - Value:
         - type: float
         - value: 0.000000
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498539317176
       - name: Stamina
       - Value:
         - type: float
         - value: 0.000000
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499563465588
       - name: WorldLevel
       - Value:
         - type: int
         - value: 1
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499417117887
       - name: CanUseWeapon
@@ -259,21 +259,21 @@
       - Value:
         - type: float
         - value: 16.000000
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498499359036
       - name: Minute
       - Value:
         - type: float
         - value: 0.000000
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499260315602
       - name: Phase
       - Value:
         - type: int
         - value: 1
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: morning,day,evening,night_is_comming,night_start,night_attack,night,night_final,none
     - Node:
       - id: 7355880499048521695
@@ -281,7 +281,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ReadOnly|ExternalNode|DummyExternalNode|EnumType
       - enum: day,night
     - Node:
       - id: 7355880499487737057
@@ -289,7 +289,7 @@
       - Value:
         - type: int
         - value: 1
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ReadOnly|ExternalNode|DummyExternalNode|EnumType
       - enum: Foggy,Clear,Overcast,Cloudy,Rainy,Stormy
   - Node:
     - id: 7355880499834462985
@@ -433,14 +433,14 @@
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498130904053
       - name: IsNewGamePlus
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
   - Node:
     - id: 7355880498626249300
     - name: Prologue
@@ -451,7 +451,7 @@
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
   - Node:
     - id: 7355880499020214194
     - name: Challenge
@@ -462,7 +462,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499929569311
@@ -470,7 +470,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498867934801
@@ -478,7 +478,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498977522635
@@ -486,7 +486,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498073113516
@@ -494,7 +494,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499961680856
@@ -502,7 +502,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500093930345
@@ -510,7 +510,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499369437464
@@ -518,7 +518,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499472008860
@@ -526,7 +526,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500056137847
@@ -534,7 +534,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498780431199
@@ -542,7 +542,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499583399254
@@ -550,7 +550,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498776459183
@@ -558,7 +558,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499113690986
@@ -566,7 +566,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499194609262
@@ -574,7 +574,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498251698393
@@ -582,7 +582,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498181578715
@@ -590,7 +590,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499270523561
@@ -598,7 +598,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499236662978
@@ -606,7 +606,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499462865089
@@ -614,7 +614,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499822409251
@@ -622,7 +622,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499528051720
@@ -630,7 +630,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499802439481
@@ -638,7 +638,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498339045482
@@ -646,7 +646,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498461064694
@@ -654,7 +654,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499878946251
@@ -662,7 +662,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498892890733
@@ -670,7 +670,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500147207720
@@ -678,7 +678,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498229389268
@@ -686,7 +686,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500055038079
@@ -694,7 +694,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499199397362
@@ -702,7 +702,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498099900212
@@ -710,7 +710,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498380421175
@@ -718,7 +718,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499768037895
@@ -726,7 +726,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498525734364
@@ -734,7 +734,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499476410080
@@ -742,7 +742,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499822110896
@@ -750,7 +750,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499899339253
@@ -758,7 +758,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499971677315
@@ -766,7 +766,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499641769234
@@ -774,7 +774,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499051771727
@@ -782,7 +782,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500095987482
@@ -790,7 +790,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498828896905
@@ -798,7 +798,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499090206703
@@ -806,7 +806,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498051369032
@@ -814,7 +814,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499008553567
@@ -822,7 +822,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499297108764
@@ -830,7 +830,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500104867030
@@ -838,7 +838,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498606079442
@@ -846,7 +846,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499858877142
@@ -854,7 +854,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499337701496
@@ -862,7 +862,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499632700559
@@ -870,7 +870,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499203336786
@@ -878,7 +878,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499931283211
@@ -886,7 +886,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499233064111
@@ -894,7 +894,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499708751556
@@ -902,7 +902,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499791904952
@@ -910,7 +910,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499429506976
@@ -918,7 +918,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499153709740
@@ -926,7 +926,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499703922863
@@ -934,7 +934,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500102702889
@@ -942,7 +942,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498741878552
@@ -950,7 +950,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498665562996
@@ -958,7 +958,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498740861716
@@ -966,7 +966,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499915263966
@@ -974,7 +974,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499887715058
@@ -982,7 +982,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498803706799
@@ -990,7 +990,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499748076402
@@ -998,7 +998,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499605879883
@@ -1006,7 +1006,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498216772089
@@ -1014,7 +1014,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498250106215
@@ -1022,7 +1022,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498712935540
@@ -1030,7 +1030,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499187535491
@@ -1038,7 +1038,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498672378842
@@ -1046,7 +1046,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498142347790
@@ -1054,7 +1054,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500043133357
@@ -1062,7 +1062,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499858902234
@@ -1070,7 +1070,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499226011127
@@ -1078,7 +1078,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499145992389
@@ -1086,7 +1086,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499947473541
@@ -1094,7 +1094,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500034026443
@@ -1102,7 +1102,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499688778106
@@ -1110,7 +1110,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499170598107
@@ -1118,7 +1118,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498519765101
@@ -1126,7 +1126,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499905933852
@@ -1134,7 +1134,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499003469484
@@ -1142,7 +1142,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500039493779
@@ -1150,7 +1150,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499923424346
@@ -1158,7 +1158,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498877467456
@@ -1166,7 +1166,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498043912582
@@ -1174,7 +1174,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499158192170
@@ -1182,7 +1182,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498487074671
@@ -1190,7 +1190,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498767567867
@@ -1198,7 +1198,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498472188808
@@ -1206,7 +1206,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498230530327
@@ -1214,7 +1214,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498710952700
@@ -1222,7 +1222,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498859117900
@@ -1230,7 +1230,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500132417225
@@ -1238,7 +1238,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499459412372
@@ -1246,7 +1246,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498413511591
@@ -1254,7 +1254,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498973393286
@@ -1262,7 +1262,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498206584399
@@ -1270,7 +1270,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498749736029
@@ -1278,7 +1278,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499022085096
@@ -1286,7 +1286,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498111047615
@@ -1294,7 +1294,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499424946080
@@ -1302,7 +1302,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499983762615
@@ -1310,7 +1310,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499585077690
@@ -1318,7 +1318,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499155132782
@@ -1326,7 +1326,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499745423768
@@ -1334,7 +1334,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498365804211
@@ -1342,7 +1342,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498189339534
@@ -1350,7 +1350,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499834510927
@@ -1358,7 +1358,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498922599549
@@ -1366,7 +1366,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498142558131
@@ -1374,7 +1374,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498663764099
@@ -1382,7 +1382,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498569925258
@@ -1390,7 +1390,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499127013200
@@ -1398,7 +1398,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499998001965
@@ -1406,7 +1406,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499168198612
@@ -1414,7 +1414,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499678784275
@@ -1422,7 +1422,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500000120421
@@ -1430,7 +1430,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498882834350
@@ -1438,7 +1438,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499332549522
@@ -1446,7 +1446,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499953853523
@@ -1454,7 +1454,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880500139861813
@@ -1462,7 +1462,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880498900760610
@@ -1470,7 +1470,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499329878674
@@ -1478,7 +1478,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499972105992
@@ -1486,7 +1486,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499922341235
@@ -1494,7 +1494,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499206063442
@@ -1502,7 +1502,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
     - Node:
       - id: 7355880499018880424
@@ -1510,7 +1510,7 @@
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Unknown,Seen,Failed,Finished,Bronze,Silver,Gold,Platinum
   - Node:
     - id: 7355880499425267561
@@ -1522,7 +1522,7 @@
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
   - Node:
     - id: 7355880498827975597
     - name: SurvivorMission
@@ -1533,154 +1533,154 @@
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499126829708
       - name: PM_002_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499268712275
       - name: PM_003_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499559715146
       - name: PM_004_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498816441148
       - name: PM_005_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499708278284
       - name: PM_006_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498851903660
       - name: PM_007_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498210134061
       - name: PM_008_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498375132571
       - name: PM_009_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498866605542
       - name: PM_010_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498375785927
       - name: PM_011_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500004612296
       - name: PM_012_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499282855161
       - name: PM_013_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499635336355
       - name: PM_014_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498392123745
       - name: PM_015_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499191582917
       - name: PM_016_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498578510812
       - name: PM_017_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498879599036
       - name: PM_018_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499509468454
       - name: PM_019_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498255243778
       - name: PM_020_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499606317630
       - name: PM_021_Start
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499361776185
       - name: IsElite
       - Value:
         - type: bool
         - value: 0
-      - flags: ReadOnly|NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ReadOnly|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500136259465
       - name: MissionBoardProgress
@@ -1688,7 +1688,7 @@
         - type: int
         - value: 0
       - flags: ExternalNode|DummyExternalNode|EnumType
-      - enum: none,empty,infoscreen,onlyone,all
+      - enum: none,empty,infoscreen,onlyone,all,towerraid
   - Node:
     - id: 7355880498091490780
     - name: Factions
@@ -1703,14 +1703,14 @@
         - Value:
           - type: float
           - value: 0.000000
-        - flags: NoGroupRollback|OnlyAddSubtract|ExternalNode|DummyExternalNode
+        - flags: OnlyAddSubtract|ExternalNode|DummyExternalNode
       - Node:
         - id: 7355880499958655704
         - name: Notoriety
         - Value:
           - type: float
           - value: 0.000000
-        - flags: NoGroupRollback|OnlyAddSubtract|ExternalNode|DummyExternalNode
+        - flags: OnlyAddSubtract|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498372892848
       - name: Peacekeepers
@@ -1721,14 +1721,14 @@
         - Value:
           - type: float
           - value: 0.000000
-        - flags: NoGroupRollback|OnlyAddSubtract|ExternalNode|DummyExternalNode
+        - flags: OnlyAddSubtract|ExternalNode|DummyExternalNode
       - Node:
         - id: 7355880499157016827
         - name: Notoriety
         - Value:
           - type: float
           - value: 0.000000
-        - flags: NoGroupRollback|OnlyAddSubtract|ExternalNode|DummyExternalNode
+        - flags: OnlyAddSubtract|ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499598428554
       - name: Exploration
@@ -1739,14 +1739,14 @@
         - Value:
           - type: float
           - value: 0.000000
-        - flags: NoGroupRollback|OnlyAddSubtract|ExternalNode|DummyExternalNode
+        - flags: OnlyAddSubtract|ExternalNode|DummyExternalNode
       - Node:
         - id: 7355880498114671009
         - name: Notoriety
         - Value:
           - type: float
           - value: 0.000000
-        - flags: NoGroupRollback|OnlyAddSubtract|ExternalNode|DummyExternalNode
+        - flags: OnlyAddSubtract|ExternalNode|DummyExternalNode
   - Node:
     - id: 7355880499774227058
     - name: ZoneLevel
@@ -1757,7 +1757,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499569838736
@@ -1765,7 +1765,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499765398876
@@ -1773,7 +1773,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880498397454011
@@ -1781,7 +1781,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499888751258
@@ -1789,7 +1789,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499312553082
@@ -1797,7 +1797,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880500071481938
@@ -1805,7 +1805,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499201988375
@@ -1813,7 +1813,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499518556993
@@ -1821,7 +1821,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499548464099
@@ -1829,7 +1829,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880498667153911
@@ -1837,7 +1837,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880498068383088
@@ -1845,7 +1845,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499853252934
@@ -1853,7 +1853,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880500113891747
@@ -1861,7 +1861,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880498349123352
@@ -1869,7 +1869,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880498746234049
@@ -1877,7 +1877,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880498590308528
@@ -1885,7 +1885,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499156001773
@@ -1893,7 +1893,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499692262555
@@ -1901,7 +1901,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880498308881332
@@ -1909,7 +1909,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499560510956
@@ -1917,7 +1917,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499734088591
@@ -1925,7 +1925,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499081800555
@@ -1933,7 +1933,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
     - Node:
       - id: 7355880499356794252
@@ -1941,7 +1941,7 @@
       - Value:
         - type: int
         - value: 3
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode|EnumType
+      - flags: ExternalNode|DummyExternalNode|EnumType
       - enum: Minus3,Minus2,Minus1,Zero,Plus1,Plus2,Plus3,Plus4,Plus5,Plus6,Plus7,Plus8,Plus9,Plus10,Plus11,Plus12
   - Node:
     - id: 7355880498911704800
@@ -1953,726 +1953,726 @@
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499728978861
       - name: PumpingStation
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498811671876
       - name: UVCenter
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498673471808
       - name: CommunicationCenter
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499984740475
       - name: MainMetroStation
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499788649783
       - name: MapRadio
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498857193208
       - name: Artisan
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499358847521
       - name: GREArtisan
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499197957969
       - name: MILITARYArtisan
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500160355137
       - name: GREDocks
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498385015684
       - name: Garden
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499840166603
       - name: Workshop
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498917455588
       - name: GREOpera
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499488391005
       - name: ElectricalSubstation_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498777336426
       - name: ElectricalSubstation_R02_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498387482322
       - name: ElectricalSubstation_R02_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499116449994
       - name: ElectricalSubstation_R03_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499206262692
       - name: ElectricalSubstation_R03_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500087756281
       - name: ElectricalSubstation_R04_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498857709415
       - name: ElectricalSubstation_R04_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499200027151
       - name: ElectricalSubstation_R05_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499819349041
       - name: ElectricalSubstation_R05_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498126745002
       - name: ElectricalSubstation_R06
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500061028331
       - name: WaterTower_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499115804215
       - name: WaterTower_R02_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499618518995
       - name: WaterTower_R02_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499932232396
       - name: WaterTower_R03_East
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498481311684
       - name: WaterTower_R03_West
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499167252098
       - name: WaterTower_R05_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500072151037
       - name: WaterTower_R05_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498880027492
       - name: WaterTower_R06
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500125209972
       - name: UVStation_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498163628401
       - name: UVStation_R02_One
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499381207041
       - name: UVStation_R02_Two
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499061894990
       - name: UVStation_R02_Three
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500025788135
       - name: UVStation_R02_Four
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498497685129
       - name: UVStation_R03_One
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498156630909
       - name: UVStation_R03_Two
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499866973095
       - name: UVStation_R03_Three
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498444499723
       - name: UVStation_R03_Four
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499494560342
       - name: UVStation_R05_One
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498889485333
       - name: UVStation_R05_Two
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499622883438
       - name: UVStation_R05_Three
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498398941350
       - name: UVStation_R05_Four
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498328225458
       - name: RadioTower_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499982429794
       - name: RadioTower_R02
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500156357736
       - name: RadioTower_R03
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499176730211
       - name: RadioTower_R04
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499090037574
       - name: RadioTower_R05
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500018436649
       - name: RadioTower_R06
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498139437893
       - name: RadioTower_Broadcast
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499986059309
       - name: MetroStation_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499848927825
       - name: MetroStation_R02_Central
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498649573839
       - name: MetroStation_R02_East
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498096585216
       - name: MetroStation_R02_West
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499274782143
       - name: MetroStation_R03_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498182716840
       - name: MetroStation_R03_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498854704396
       - name: MetroStation_R04
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498830708107
       - name: MetroStation_R05_East
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498872542843
       - name: MetroStation_R05_South
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498646628349
       - name: MetroStation_R05_West
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499052014303
       - name: MetroStation_R06
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499661559722
       - name: Prot_ElectricalSubstation_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498271698555
       - name: Prot_ElectricalSubstation_R02_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500028915299
       - name: Prot_WaterTower_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498748470977
       - name: Prot_WaterTower_R02_North
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498611525150
       - name: Prot_UVStation_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498780010726
       - name: Prot_UVStation_R02_One
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498712389137
       - name: Prot_RadioTower_R01
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499202032925
       - name: Prot_RadioTower_R02
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880500060266502
       - name: WaterTower_R1_3_Zone_03
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499781086084
       - name: WaterTower_R2_1_Zone_05
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499380804197
       - name: WaterTower_R2_2_Zone_06
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499262462718
       - name: WaterTower_R2_3_Zone_07
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498905101698
       - name: WaterTower_R2_4_Zone_08
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499601844115
       - name: WaterTower_R3_1_Zone_14
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499097890604
       - name: WaterTower_R4_4_Zone_08
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498081969418
       - name: WaterTower_R5_1_Zone_21
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499041723801
       - name: WaterTower_R5_4_Zone_24
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498116867034
       - name: WaterTower_R5_5_Zone_25
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498864083744
       - name: WaterTower_R6_1_Zone_17
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498656223662
       - name: WaterTower_R6_4_Zone_20
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498904297052
       - name: ElectricalSubstation_R1_4_Zone_04
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499179803647
       - name: ElectricalSubstation_R2_1_Zone_05
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499692742321
       - name: ElectricalSubstation_R2_2_Zone_06
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499153848986
       - name: ElectricalSubstation_R2_4_Zone_08
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498628459339
       - name: ElectricalSubstation_R2_5_Zone_09
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498218250517
       - name: ElectricalSubstation_R3_2_Zone_15
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499632192264
       - name: ElectricalSubstation_R3_3_Zone_16
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499280044400
       - name: ElectricalSubstation_R4_1_Zone_09
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498507146742
       - name: ElectricalSubstation_R5_2_Zone_22
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499042842489
       - name: ElectricalSubstation_R5_3_Zone_23
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499785760072
       - name: ElectricalSubstation_R6_2_Zone_18
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498911781815
       - name: RadioTower_R1_4_Zone_03
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498688515303
       - name: RadioTower_R2_3_Zone_07
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499646250461
       - name: RadioTower_R3_1_Zone_14
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499840078358
       - name: RadioTower_R4_1_Zone_09
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498462353941
       - name: RadioTower_R5_4_Zone_24
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499059004607
       - name: RadioTower_R6_4_Zone_20
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498488134053
       - name: RadioTower_VNC_Force_Chest_Activation
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498846475611
       - name: RadioTower_VNC_No_Main_Facility_Required
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498704676541
       - name: Atlas_ID_WaterTower
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880499552610206
       - name: Atlas_ID_RadioTower
       - Value:
         - type: bool
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
     - Node:
       - id: 7355880498114053233
       - name: PowerTokens
       - Value:
         - type: int
         - value: 0
-      - flags: NoGroupRollback|ExternalNode|DummyExternalNode
+      - flags: ExternalNode|DummyExternalNode
 ...
