@@ -1,0 +1,96 @@
+---
+- Dialog::Graph:
+  - m_Uid: 7659825473734803131
+  - m_AlwaysShowSubtitles: 1
+  - m_PrefabType: Generate
+  - m_TemplatePrefab: template_1NPC_base
+  - m_AddSensorToPrefab: 0
+  - m_Nodes:
+    - Dialog::StartNode:
+      - m_Elements:
+        - Dialog::TriggerEvent:
+          - m_Uid: 7659825550546072612
+          - m_Output: 7659825684488932676
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData: 
+      - m_Uid: 7659825473693742020
+    - Dialog::EndNode:
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1800.000000
+      - m_Uid: 7659825593983114197
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7659825683295836992
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 300.000000
+      - m_Uid: 7659825684488932676
+      - m_Output: 7659825869202167932
+    - Dialog::ChoiceNode:
+      - m_Elements:
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsRlHotelDialogSpikeQ2Info_choice_004
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_IsOnceOnlyChoice: 1
+              - m_ChoiceType: Progress
+          - m_Uid: 7659825924022265054
+          - m_Output: 7659826173480655766
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsRlHotelDialogSpikeQ2Info_choice_005
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_Group: Neutral2
+              - m_ChoiceType: Inquire
+          - m_Uid: 7659825928318850553
+          - m_Output: 7659826198473688724
+        - Dialog::ChoiceElement:
+          - m_TextId: DLG_RsRlHotelDialogSpikeQ2Info_choice_006
+          - m_ChoiceData:
+            - Dialog::GameChoiceData:
+              - m_Group: Positive
+              - m_ChoiceType: Inquire
+          - m_Uid: 7659825928124731900
+          - m_Output: 7659826211482880048
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 600.000000
+      - m_Uid: 7659825869202167932
+      - m_Output: 7659826173480655766
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7659826174545126027
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1500.000000
+      - m_Uid: 7659826173480655766
+      - m_Output: 7659825593983114197
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7659826198524574739
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 1200.000000
+          - y: 90.000000
+      - m_Uid: 7659826198473688724
+      - m_Output: 7659825869202167932
+    - Dialog::BlockNode:
+      - m_SequenceUid: 7659826211754433987
+      - m_NodeEditorData:
+        - Dialog::NodeEditorData:
+          - x: 900.000000
+          - y: 165.000000
+      - m_Uid: 7659826211482880048
+      - m_Output: 7659825869202167932
+  - m_ActorsData:
+    - Dialog::AIData:
+      - m_AddToPrefab: 1
+      - m_Slot: Slot1
+      - m_Name: Pilgrim
+      - m_SetupBehaviors:
+        - Dialog::SetupBehaviorAI:
+          - m_BehaviorName: single_static_m_stand_leaning_on_wall_left_shoulder_01_dialogue
+          - m_NodeUid: 7659825473693742020
+      - m_HasTrigger: 1
+    - Dialog::PlayerData: 
+  - m_VariableData:
+    - Dialog::InstanceVariableData: 
+...

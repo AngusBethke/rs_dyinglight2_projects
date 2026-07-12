@@ -1,0 +1,68 @@
+// Set to 10 AM Clear Weather Interally
+// This weather represents about 17 PM, Cloudy
+
+VarFloat("f_image_saturation", 0.95)
+
+VarFloat("f_camera_temperature", 3500.000000)
+
+VarFloat("f_soft_glow", 0.25)
+
+// VarFloat("f_fog_far", 0.62)
+VarFloat("f_fog_far", 0.00)
+VarFloat("f_fog_height", 0.31)
+VarFloat("f_fog_near", 0.15)
+
+// VarFloat("f_lights_volumetric_intensity", 0.01)
+VarFloat("f_lights_volumetric_intensity", 0.04)
+// ^ foggier but maybe better?
+VarFloat("f_engine_visrange_dynlights", 64.00000000000000000000)
+
+VarFloat("f_skybox_intensity", -1.0)
+
+VarFloat("f_wind_power", 0.225)
+VarString("s_skybox", "noon_overcast_a_sky.hdr")
+
+VarFloat("f_shading_sun_power", 0.7)
+
+VarVec3("v_shading_sun_color", [1.0, 0.78, 0.56])
+
+VarFloat("f_sun_rays", 0.0)
+VarFloat("f_skybox_sun_pos_u", 2551.0)
+VarFloat("f_skybox_sun_pos_v", 1551.0)
+VarFloat("f_skybox_sun_pos_v_real", 1551.0)
+VarFloat("f_skybox_sun_pos_u_real", 2551.0)
+// ^ new sun pos
+
+
+// h 4900 v 1551
+// h 4360, v 986
+
+VarFloat("f_glow_on", 1.0)
+VarFloat("f_glow_glare", 1.0)
+VarFloat("f_glow_lens_flare", 1.0)
+VarFloat("f_glow_streak_soft_horizontal", 1.0)
+VarVec3("v_glow_streak_fltr_clr", [0.0, 0.0, 1.0])
+VarFloat("f_glow_streak_sharp_horizontal", 0.0)
+VarFloat("f_glow_streak_sharp_vertical", 0.0)
+VarFloat("f_glow_streak_dl1", 1.0)
+
+VarFloat("f_auto_exposure_max", 3.50000000000000000000)
+VarFloat("f_auto_exposure_min", 2.07000000029802322388)
+
+VarInt("i_tonemap_mode", 1)
+VarString("s_color_grading_map", "ae_day_clear_a_aclg.png")
+
+VarFloat("f_tonemap_aces_aprox_a", 2.50999999046325683594)
+VarFloat("f_tonemap_aces_aprox_b", 0.02999999932944774628)
+VarFloat("f_tonemap_aces_aprox_c", 2.43000006675720214844)
+VarFloat("f_tonemap_aces_aprox_d", 0.58999997377395629883)
+VarFloat("f_tonemap_aces_aprox_e", 0.14000000059604644775)
+
+VarFloat("f_engine_shadows_slice_size", 30.0)
+// ^ Heavily affects fps
+
+VarString("s_heightmaps_variant_name", "forenoon_clear_a")
+
+VarFloat("f_vignetting", 0.4)
+VarString("s_vignetting", "flashback_pp_vgn.png")
+

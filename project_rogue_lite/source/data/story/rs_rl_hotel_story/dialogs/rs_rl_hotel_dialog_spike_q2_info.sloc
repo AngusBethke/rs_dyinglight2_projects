@@ -1,0 +1,102 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_LocalPlayer_002`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Your concern for my wellbeing is touching.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_LocalPlayer_014`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Anything else I should keep in mind?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_LocalPlayer_016`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Shit... okay, I'll keep you updated.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_001`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `See, you barely have a scratch on you.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_003`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `We have some more information from the scouts if you want it?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_007`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `<Placeholder>`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_008`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Looks like the GRE set up a makeshift THV ward right next door and all the floors above this one are barricaded... so we're guessing that their quarantine didn't go particularly well.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_009`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `That means you're probably going to have to flex those runner muscles of yours to get upstairs.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_010`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Also looks like the hotel rooms are barricaded, so you'll need to find a creative way in to check them out.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_011`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `The lobby needs to be cleared, so start there.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_012`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `We heard some noises in the hotel rooms as well, so you'll need to clear those out too.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_013`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Once the area is clear, make your way up to the 9th floor, that's where we'll be setting up the next safe zone.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_015`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `One of the scouts found their way into the rooms, but they haven't reported back - we expect the worst. Let us know if you find them.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_choice_004`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What are our next steps?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_choice_005`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What do we know about the layout?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_choice_006`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What kind of resistance are we expecting?`);
+    }
+}

@@ -1,0 +1,48 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeQ4Info_LocalPlayer_002`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `That... actually sounded genuine.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ4Info_Pilgrim_001`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Man am I glad to see you!`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ4Info_Pilgrim_003`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `It was. Don't get used to it.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ4Info_Pilgrim_004`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Look, we lost the last of our scouts to the nest, so I don't have any information about the last stretch for you.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ4Info_Pilgrim_005`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `The plan hasn't changed. You're going to need to clear us a path to the roof.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ4Info_Pilgrim_006`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `The vendors are here, grab what you can, this will be the last chance you get.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ4Info_Pilgrim_007`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Good luck!`);
+    }
+}

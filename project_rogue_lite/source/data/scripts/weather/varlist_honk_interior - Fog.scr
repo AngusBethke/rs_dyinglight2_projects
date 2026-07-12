@@ -1,0 +1,76 @@
+// HL: Alyx lighting basically with 0.55 contrast and 4500 temp
+
+// TOD: 19:30 PM Clear
+
+VarString("s_color_grading_map", "ae_sunrise_clear_a_aclg.png")
+
+VarFloat("f_image_contrast", 0.80)
+// VarFloat("f_image_contrast", 0.85)
+
+VarFloat("f_image_saturation", 0.80)
+// VarFloat("f_image_saturation", 0.65)
+// ^ actual desaturation 
+
+VarFloat("f_camera_temperature", 4500.000000)
+// ^ use with 0.55 or 0.85 contrast, 0.80 saturation, ae_sunrise color grading
+VarFloat("f_noise", 0.145)
+VarFloat("f_soft_glow", 0.05)
+// VarFloat("f_soft_glow", 0.45)
+// ^  global volumetric glow, can cause weird FPS issues sometimes though with bloom and transluscent objects
+
+VarFloat("f_fog_far", 0.72)
+VarFloat("f_fog_height", 0.72)
+VarFloat("f_fog_near", 0.19)
+// ^ less fog, clearer foreground
+
+// VarFloat("f_lights_volumetric_intensity", 0.003)
+VarFloat("f_lights_volumetric_intensity", 0.0015)
+// ^ expensive setting I think, but it makes a really nice global volumetric glow and allows fog to interact with light
+VarFloat("f_engine_visrange_dynlights", 42.0)
+
+// VarString("s_skybox", "morning_clear_a_sky.hdr")
+// VarFloat("f_skybox_intensity", 2.0)
+
+VarVec3("v_shading_sun_color", [0.0, 0.0, 0.0])
+VarFloat("f_shading_sun_power", 0.0) 
+
+VarFloat("f_wind_power", 0.1)
+
+// VarFloat("f_game_binoculars", 1.0)
+
+// VarFloat("f_game_zombie_vision", 0.5)
+// VarFloat("f_game_player_powershot_blur", 1.0)
+// VarFloat("f_anomaly", 1.0)
+// ^ both are edge blur effects
+
+// VarInt("i_pixelize_pp", 3)
+// ^ pixelization effect
+
+// VarFloat("f_game_player_screamer", 0.5)
+// ^ cool screen shake
+
+// VarFloat("f_gear_pp_0", 0.6)
+// ^ awesome refraction effect that covers meshes, not the screen.
+
+// VarFloat ("f_game_player_infection", 0.5)
+// ^ cool vein stuff
+
+VarFloat("f_vignetting", 0.2)
+VarString("s_vignetting", "flashback_pp_vgn.png")
+
+VarInt("i_indoor_on", 1)
+
+VarFloat("f_glow_on", 1.0)
+VarFloat("f_glow_glare", 0.75)
+// VarFloat("f_glow_glare", 1.0)
+VarFloat("f_glow_lens_flare", 0.0)
+VarFloat("f_glow_streak_soft_horizontal", 1.0)
+VarVec3("v_glow_streak_fltr_clr", [0.0, 0.0, 1.0])
+VarFloat("f_glow_streak_sharp_horizontal", 0.0)
+VarFloat("f_glow_streak_sharp_vertical", 0.0)
+VarFloat("f_glow_streak_dl1", 0.0)
+
+VarFloat("f_auto_exposure_max", 17.00000000000000000000)
+// VarFloat("f_auto_exposure_max", 15.00000000000000000000)
+VarFloat("f_auto_exposure_min", 15.00000000000000000000)
+// VarFloat("f_auto_exposure_min", 13.00000000000000000000)

@@ -1,0 +1,62 @@
+// Set to 12 PM Clear Weather Interally
+// This weather represents about 3 PM, Slightly Cloudy
+
+VarString("s_color_grading_map", "2_less_contrast_clg.dds")
+
+VarFloat("f_camera_temperature", 3600.000000)
+VarFloat("f_image_saturation", 0.90)
+// VarFloat("f_image_contrast", 0.40)
+VarInt("i_tonemap_mode", 1)
+
+// VarFloat("f_noise", 0.125)
+VarFloat("f_soft_glow", 0.3)
+
+VarFloat("f_fog_far", 0.82)
+VarFloat("f_fog_height", 0.42)
+VarFloat("f_fog_near", 0.54)
+
+
+VarFloat("f_lights_volumetric_intensity", 0.02)
+VarFloat("f_engine_visrange_dynlights", 64.00000000000000000000)
+
+VarFloat("f_skybox_intensity", 2.5)
+
+VarFloat("f_wind_power", 0.25)
+VarFloat("f_shadows_clouds_opacity", 1.00000000000000000000)
+
+VarFloat("f_shading_sun_power", 2.6) 
+// VarVec3("v_shading_sun_color", [1.41, 1.34, 1.28])
+// ^  havana lighting
+VarVec3("v_shading_sun_color", [1.48, 1.5, 1.38])
+VarFloat("f_skybox_sun_pos_u", 5101.0)
+VarFloat("f_skybox_sun_pos_v", 1130.0)
+VarFloat("f_skybox_sun_pos_v_real", 1130.0)
+VarFloat("f_skybox_sun_pos_u_real", 5101.0)
+
+VarFloat("f_glow_on", 1.0)
+VarFloat("f_glow_glare", 0.0)
+VarFloat("f_glow_lens_flare", 1.0)
+VarFloat("f_glow_streak_soft_horizontal", 0.0)
+VarVec3("v_glow_streak_fltr_clr", [0.0, 0.0, 1.0])
+VarFloat("f_glow_streak_sharp_horizontal", 0.0)
+VarFloat("f_glow_streak_sharp_vertical", 0.0)
+VarFloat("f_glow_streak_dl1", 0.0)
+
+VarFloat("f_tonemap_aces_aprox_a", 2.50999999046325683594)
+VarFloat("f_tonemap_aces_aprox_b", 0.02999999932944774628)
+VarFloat("f_tonemap_aces_aprox_c", 2.43000006675720214844)
+VarFloat("f_tonemap_aces_aprox_d", 0.58999997377395629883)
+VarFloat("f_tonemap_aces_aprox_e", 0.14000000059604644775)
+
+VarFloat("f_auto_exposure_max", 1.5000000000000000000)
+VarFloat("f_auto_exposure_min", 0.67000000029802322388)
+
+VarFloat("f_engine_shadows_slice_size", 10.0)
+// ^ Heavily affects fps
+
+VarString("s_weather_description_for_fx", "is_noon is_clear")
+VarString("s_weather_fx_name", "weather_clear_noon.gpufx;interior_dust_on_stick_01_a.gpufx")
+
+VarString("s_skybox", "afternoon_clear_a_sky.hdr")
+// VarString("s_skybox", "noon_cloudy_a_sky.hdr")
+VarString("s_heightmaps_variant_name", "noon_clear_a")

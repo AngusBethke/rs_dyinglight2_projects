@@ -1,7 +1,47 @@
+// ---------- //
+// -- FOG --- //
+// ---------- //
+VarFloat("f_fog_far", 0.35)
+VarFloat("f_fog_near", 0.85)
+VarFloat("f_fog_height", 0.4)
 
-VarFloat("f_fog_far", 0.9000000000000000000)
-VarFloat("f_fog_near", 0.9000000000000000000)
-VarFloat("f_rain", 0.00000000000000000000)
-VarFloat("f_wind_power", 0.10000000000000000000)
-VarString("s_weather_description_for_fx", "is_noon is_clear")
-VarString("s_weather_fx_name", "weather_clear_noon.gpufx;interior_dust_on_stick_01_a.gpufx")
+// ----------- //
+// -- RAIN --- //
+// ----------- //
+VarFloat("f_rain", 0.00)
+
+// ----------- //
+// -- WIND --- //
+// ----------- //
+VarFloat("f_wind_power", 0.10)
+
+// -------------- //
+// -- LIGHTING -- //
+// -------------- //
+VarFloat("f_lights_volumetric_intensity", 0.01)
+VarFloat("f_engine_visrange_dynlights", 64.00)
+VarFloat("f_shading_sun_power", 0.7)
+VarVec3("v_shading_sun_color", [1.0, 0.78, 0.56])
+VarFloat("f_sun_rays", 0.25)
+
+VarFloat("f_soft_glow", 0.25)
+VarFloat("f_glow_on", 1.0)
+VarFloat("f_glow_glare", 1.0)
+VarFloat("f_glow_lens_flare", 1.0)
+VarFloat("f_glow_streak_soft_horizontal", 1.0)
+VarVec3("v_glow_streak_fltr_clr", [0.0, 0.0, 1.0])
+VarFloat("f_glow_streak_sharp_horizontal", 0.0)
+VarFloat("f_glow_streak_sharp_vertical", 0.0)
+VarFloat("f_glow_streak_dl1", 1.0)
+
+// -------------- //
+// -- EXPOSURE -- //
+// -------------- //
+VarFloat("f_auto_exposure_max", 3.50)
+VarFloat("f_auto_exposure_min", 2.07)
+
+// ---------------- //
+// -- SATURATION -- //
+// ---------------- //
+VarFloat("f_image_saturation", 0.95)
+VarFloat("f_camera_temperature", 3500.00)

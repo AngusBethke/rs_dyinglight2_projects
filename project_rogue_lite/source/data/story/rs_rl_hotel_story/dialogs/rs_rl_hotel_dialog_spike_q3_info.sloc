@@ -1,0 +1,138 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_LocalPlayer_016`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Clear it? Can't we just bypass it?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_LocalPlayer_019`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Shit... no, we can't. Any last minute advice for me?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_LocalPlayer_022`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Yeah... will do.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_LocalPlayer_024`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Fuck.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_LocalPlayer_026`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What?! Why?! That's a death sentence!`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_009`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `<Placeholder>`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_010`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `There's quite a bit of damage, not sure exactly what caused it.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_011`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `The nest is also covered in that crystalline shit.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_012`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `One last thing.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_013`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `You might be able to find some hiding spots in the rooms that are still intact.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_014`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `It should give you some time to breathe if you get surrounded.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_015`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `You're going to have to clear the nest.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_017`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `We could... but do you really want to leave it to chance?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_018`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `They could break out and trap us, or worse - the scavengers with no combat experience, on the upper floors.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_020`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Don't Die...`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_021`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `... and let me know if you find the scouts, okay?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_023`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `So... bad news. There's a nest here.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_025`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `The last two scouts volunteered to gather information for you anyway.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_027`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `They felt the supplies would be worth it, I got some information out of them before we lost contact. What do you want to know?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_choice_001`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What do you need me to do?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_choice_002`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What do we know about the layout?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_choice_003`)
+    {
+        RequiresVO(false);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What kind of resistance are we expecting?`);
+    }
+}

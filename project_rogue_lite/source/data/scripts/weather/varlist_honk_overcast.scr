@@ -1,0 +1,66 @@
+// Set to 12 PM Clear Weather Interally
+// This weather represents about 3 PM, Overcast
+
+VarString("s_heightmaps_variant_name", "noon_clear_a")
+
+VarFloat("f_camera_temperature", 3400.000000)
+VarFloat("f_image_saturation", 0.8)
+VarInt("i_tonemap_mode", 1)
+
+// VarFloat("f_noise", 0.125)
+VarFloat("f_soft_glow", 0.25)
+
+VarFloat("f_fog_far", 0.62)
+VarFloat("f_fog_height", 0.35)
+VarFloat("f_fog_near", 0.39)
+
+VarFloat("f_lights_volumetric_intensity", 0.14)
+VarFloat("f_engine_visrange_dynlights", 48.00000000000000000000)
+
+VarFloat("f_skybox_intensity", 3)
+
+VarFloat("f_wind_power", 0.2)
+VarString("s_skybox", "noon_rainy_a_ee_sky.hdr")
+
+VarFloat("f_shading_sun_power", -2) 
+VarVec3("v_shading_sun_color", [0, 0, 0])
+VarVec3("v_shading_sun_color", [1.5, 1.5, 1.42])
+VarFloat("f_skybox_sun_pos_u", 3556.0)
+VarFloat("f_skybox_sun_pos_v", 677.0)
+VarFloat("f_skybox_sun_pos_v_real", 677.0)
+VarFloat("f_skybox_sun_pos_u_real", 3556.0)
+
+VarFloat("f_auto_exposure_max", 2.40000000000000000000)
+VarFloat("f_auto_exposure_min", 1.37000000029802322388)
+
+VarFloat("f_tonemap_aces_aprox_a", 2.50999999046325683594)
+VarFloat("f_tonemap_aces_aprox_b", 0.02999999932944774628)
+VarFloat("f_tonemap_aces_aprox_c", 2.43000006675720214844)
+VarFloat("f_tonemap_aces_aprox_d", 0.58999997377395629883)
+VarFloat("f_tonemap_aces_aprox_e", 0.14000000059604644775)
+
+VarFloat("f_dof_near", 0.0)
+VarFloat("f_dof_near_min", 0.0)
+VarFloat("f_dof_near_max", 0.0)
+VarFloat("f_dof_far_min", 30.0)
+VarFloat("f_dof_far_max", 60.0)
+// VarFloat("f_dof_far_max", 70.0)
+VarFloat("f_dof_far", 0.08)
+VarFloat("f_dof_lens_whacking", 0.0)
+// ^ must include whacking as 0 at least to even function as dof, no clue why
+
+VarFloat("f_glow_on", 1.0)
+VarFloat("f_glow_glare", 1.0)
+VarFloat("f_glow_lens_flare", 0.0)
+VarFloat("f_glow_streak_soft_horizontal", 0.0)
+VarVec3("v_glow_streak_fltr_clr", [0.0, 0.0, 1.0])
+VarFloat("f_glow_streak_sharp_horizontal", 0.0)
+VarFloat("f_glow_streak_sharp_vertical", 0.0)
+VarFloat("f_glow_streak_dl1", 1.0)
+
+VarFloat("f_vignetting", 0.2)
+VarString("s_vignetting", "flashback_pp_vgn.png")
+
+// VarFloat("f_engine_shadows_slice_size", 30.0)
+// ^ Heavily affects fps
+
