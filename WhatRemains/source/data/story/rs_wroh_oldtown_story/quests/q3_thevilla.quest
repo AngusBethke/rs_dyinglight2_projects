@@ -124,6 +124,23 @@
 				<Start class="Actions::AnyLogic"/>
 				<End class="Story::CompleteObjectiveLogic"/>
 			</Connect>
+			<Node type="Actions::Node" uid="7662422494661251513">
+				<Logic type="Story::PointOfInterestLogic">
+					<Attribute name="m_Name" value="Q3_Start"/>
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_Destination">
+						<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q2_moles_resting_place_1_group/rs_wroh_q2_moles_resting_place_1"/>
+					</Entities>
+				</Logic>
+			</Node>
+			<Connect start="7662422494661251513" output="Out" input="In" end="7354679236036938304">
+				<Start class="Story::PointOfInterestLogic"/>
+				<End class="Story::WaitLogic"/>
+			</Connect>
 			<Node type="Actions::Node" uid="7662068759572275392">
 				<Logic type="Story::HideIndicatorLogic">
 					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -132,7 +149,7 @@
 						<Attribute name="objective" value="Default"/>
 					</Object>
 					<Entities name="m_Entity">
-						<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q3_villa_goto_area_1_group/rs_wroh_q3_villa_goto_area_1"/>
+						<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q3_m2_respawn_point"/>
 					</Entities>
 				</Logic>
 			</Node>
@@ -154,9 +171,9 @@
 					</Entities>
 				</Logic>
 			</Node>
-			<Connect start="7354675877325052616" output="Out" input="In" end="7354679236036938304">
+			<Connect start="7354675877325052616" output="Out" input="In" end="7662422494661251513">
 				<Start class="Story::WaitForSensorLogic"/>
-				<End class="Story::WaitLogic"/>
+				<End class="Story::PointOfInterestLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7352803103337673175">
 				<Logic type="Story::StartQuestLogic">
@@ -1303,7 +1320,7 @@
 						<Attribute name="objective" value="Default"/>
 					</Object>
 					<Entities name="m_Entity">
-						<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q3_villa_goto_area_1_group/rs_wroh_q3_villa_goto_area_1"/>
+						<Entity name="oldtown/rs_wroh_oldtown_questline/rs_wroh_q3_m2_respawn_point"/>
 					</Entities>
 				</Logic>
 			</Node>
@@ -1311,18 +1328,21 @@
 	</StoryData>
 	<EditorData>
 		<EditorNode uid="7352802381957924748">
-			<Position x="-450" y="0"/>
+			<Position x="-900" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7352803103337673175">
-			<Position x="-225" y="0"/>
+			<Position x="-675" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7354681319232888142">
-			<Position x="-75" y="0"/>
+			<Position x="-450" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7354675958788079750">
-			<Position x="300" y="0"/>
+			<Position x="-75" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7354675877325052616">
+			<Position x="300" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7662422494661251513">
 			<Position x="675" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7354679236036938304">
