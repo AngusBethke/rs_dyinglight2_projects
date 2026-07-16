@@ -1,0 +1,637 @@
+import "shop_assortment_test.scr" 
+
+sub main() 
+{
+	//ItemsCountersByZoneLvl(-3, 100, 100, 100);
+	//ItemsCountersByZoneLvl(-2, 100, 100, 100);
+	//ItemsCountersByZoneLvl(-1, 100, 100, 100);
+	//ItemsCountersByZoneLvl(0, 100, 100, 100);
+	//ItemsCountersByZoneLvl(1, 100, 100, 100);
+	//ItemsCountersByZoneLvl(2, 100, 100, 100);
+	//ItemsCountersByZoneLvl(3, 100, 100, 100);
+	
+	//Set("ID OF THE SET FROM shop_item_sets.scr", "ID OF COLORSET FROM common_color_sets.scr", MIN ITEM INSTANCES IN SHOP - can't be lower than 1, MAX ITEM INSTANCES IN SHOP);
+	//{
+	//MinStatusLevel(MIN PLAYER LEVEL ON WHICH ITEM SET APPEARS IN SHOP);
+	//MaxZoneLevel(MAX PLAYER LEVEL ON WHICH ITEM SET APPEARS IN SHOP);
+	//MinZoneLevel(MIN CITY ALIGNMENT LVL TO FACTION SPECIFIED BY TRADER);
+	//MaxZoneLevel(MAX CITY ALIGNMENT LVL TO FACTION SPECIFIED BY TRADER);
+	//Limited(EMPTY MEANS QUANTITY OF ITEM CHOSEN FROM SET CANNOT BE HIGHER THAN 1 USED IN WEAPONS/OUTFITS ; MIN QUANTITY OF ITEM FROM ITEM SET, MAX QUANTITY OF ITEM FROM ITEM SET); <= NOT ADDING IT TO ASSORTMENT MEANS THE ITEM WILL HAVE MAX QUANTITY DEFINED IN ITEM DEFINITION (99+)
+	//Probability(NUMBER FROM 0 TO 1, DETERMINES CHANCE OF ENTIRE SET APPEARING IN THE SHOP OR NOT); 
+	//}
+	
+	Assortment("DEADCIRCUIT")
+    {
+        Buy()
+        {
+			//////////////Weapons 
+			Set("DeadCircuit", "weapons_shops", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("DeadCircuitConsumeables", "equal", 6, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(5);
+            }
+        }
+		Sell()
+		{
+		}
+    }
+
+	// -------------------------- //
+	// --- Rogue-like Weapons --- //
+	// -------------------------- //
+
+	Assortment("rs_assrt_rogue_like_weapons_stage_1")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_firearm_stage_1", "weapons_shops", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("Weapons_pool_r24_T2", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("rs_rogue_like_ammo_stage_1", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(3);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_weapons_stage_2")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_firearm_stage_2", "weapons_shops", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("Weapons_pool_r24_T2", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("rs_rogue_like_ammo_stage_2", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(4);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_weapons_stage_3")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_firearm_stage_3", "weapons_shops", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("Weapons_pool_r24_T3", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("rs_rogue_like_ammo_stage_3", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(5);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_weapons_stage_4")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_firearm_stage_4", "weapons_shops", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("Weapons_pool_r24_T3", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+
+			Set("rs_rogue_like_ammo_stage_4", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(6);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	// ----------------------- //
+	// --- Rogue-like Gear --- //
+	// ----------------------- //
+
+	Assortment("rs_assrt_rogue_like_gear_stage_1")
+	{
+		Buy()
+        {
+			Set("Outfit_Orange_T6", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_gear_stage_2")
+	{
+		Buy()
+        {
+			Set("Outfit_Orange_T7", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_gear_stage_3")
+	{
+		Buy()
+        {
+			Set("Outfit_Orange_T8", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_gear_stage_4")
+	{
+		Buy()
+        {
+			Set("Outfit_Orange_T9", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	// -------------------------- //
+	// --- Rogue-like Medical --- //
+	// -------------------------- //
+
+	Assortment("rs_assrt_rogue_like_medical_stage_1")
+	{
+		Buy()
+        {
+			Set("Chamomile", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(6);
+            }
+
+			Set("Honey", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(3);
+            }
+
+			Set("UVShroom", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(4);
+            }
+
+			Set("Healing_Military", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_medical_stage_2")
+	{
+		Buy()
+        {
+			Set("Chamomile", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(12);
+            }
+
+			Set("Honey", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(6);
+            }
+
+			Set("UVShroom", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(8);
+            }
+
+			Set("Healing_Military", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+
+			Set("Potions_R4", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_medical_stage_3")
+	{
+		Buy()
+        {
+			Set("Chamomile", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(12);
+            }
+
+			Set("Honey", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(6);
+            }
+
+			Set("UVShroom", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(8);
+            }
+
+			Set("Healing_Military", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(3);
+            }
+
+			Set("Potions_R5", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_medical_stage_4")
+	{
+		Buy()
+        {
+			Set("Chamomile", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(12);
+            }
+
+			Set("Honey", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(6);
+            }
+
+			Set("UVShroom", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(8);
+            }
+
+			Set("Healing_Military", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(4);
+            }
+
+			Set("Potions_R6", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	// ----------------------------- //
+	// --- Rogue-like Throwables --- //
+	// ----------------------------- //
+
+	Assortment("rs_assrt_rogue_like_throwable_stage_1")
+	{
+		Buy()
+        {
+			Set("UseItems_R3", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_throwable_stage_2")
+	{
+		Buy()
+        {
+			Set("UseItems_R4", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_throwable_stage_3")
+	{
+		Buy()
+        {
+			Set("UseItems_R5", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_throwable_stage_4")
+	{
+		Buy()
+        {
+			Set("UseItems_R6", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(2);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	// ----------------------------- //
+	// --- Rogue-like Inhibitors --- //
+	// ----------------------------- //
+
+	Assortment("rs_assrt_rogue_like_inhibitor_stage_1")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_inhibitor", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(6);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_inhibitor_stage_2")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_inhibitor", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(12);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_inhibitor_stage_3")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_inhibitor", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(18);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+
+	Assortment("rs_assrt_rogue_like_inhibitor_stage_4")
+	{
+		Buy()
+        {
+			Set("rs_rogue_like_inhibitor", "equal", 8, 9)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(24);
+            }
+        }
+		Sell()
+		{
+		}
+	}
+}

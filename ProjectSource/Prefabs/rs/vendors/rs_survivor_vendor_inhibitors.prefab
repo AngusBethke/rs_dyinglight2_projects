@@ -13,6 +13,36 @@
                 "Name": "Enabled"
               }
             ]
+          },
+          {
+            "Name": "Preset",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;c:AI;l:Preset;",
+            "DestinationFields": [
+              {
+                "Uuid": "27",
+                "Name": "Preset"
+              }
+            ]
+          },
+          {
+            "Name": "Behavior",
+            "Init": "f:EDIT;e:CALLBACK;c:AI;l:Behavior;d:Choose behavior from data/AI/BehaviorPlaces/;",
+            "DestinationFields": [
+              {
+                "Uuid": "27",
+                "Name": "Behavior"
+              }
+            ]
+          },
+          {
+            "Name": "AssortmentName",
+            "Init": "f:EDIT;e:CALLBACK;d:Assortment name;l:AssortmentName;c:Shop;",
+            "DestinationFields": [
+              {
+                "Uuid": "27",
+                "Name": "AssortmentName"
+              }
+            ]
           }
         ]
       },
@@ -32,7 +62,7 @@
             "m_PcId": [6, 2],
             "m_PrefabName": [12, "rs_survivor_vendor_sign"],
             "m_Rotate": [14, [-0.0000129, 0.0000048, 0.0000064]],
-            "m_Translate": [14, [0.0004193, 0.0000027, 0.0003414]]
+            "m_Translate": [14, [0.0004188, 0.0000027, 0.0003414]]
           }
         },
         {
@@ -85,7 +115,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0063421, 0.1280406, 0.0004862, 0.1219838, 0.1282851, 0.1867097]],
+            "m_EntityComponentsExtents": [69, [-0.0063421, 0.1280406, 0.0004877, 0.1219838, 0.1282851, 0.1867102]],
             "m_PcId": [6, 11],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;lab_stuff_c"],
@@ -96,7 +126,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0027875, 0.3449231, -0.0118127, 0.2287709, 0.3563989, 0.3684206]],
+            "m_EntityComponentsExtents": [69, [-0.0027875, 0.3449231, -0.0118127, 0.2287708, 0.3563989, 0.3684206]],
             "m_PcId": [6, 12],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;gre_lab_microscope_a"],
@@ -118,7 +148,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000574, 0.0346584, 0.0000049, 0.0152301, 0.0346584, 0.0150678]],
+            "m_EntityComponentsExtents": [69, [0.0000574, 0.0346584, 0.0000053, 0.0152301, 0.0346584, 0.0150679]],
             "m_PcId": [6, 14],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;lab_stuff_g"],
@@ -140,7 +170,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0396632, 0.0004999, 0.0004999, 0.1246614, 0.0180939, 0.0173277]],
+            "m_EntityComponentsExtents": [69, [0.0396632, 0.0004999, 0.0004999, 0.1246615, 0.0180939, 0.0173277]],
             "m_PcId": [6, 16],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;lab_stuff_f"],
@@ -151,7 +181,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0004999, 0.1230737, 0.0069598, 0.1858439, 0.1233611, 0.0605]],
+            "m_EntityComponentsExtents": [69, [0.0004999, 0.1230737, 0.0069598, 0.1858439, 0.1233611, 0.0604999]],
             "m_PcId": [6, 17],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;lab_stuff_j"],
@@ -233,7 +263,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000049, 0.1938047, 0.0000049, 0.0560243, 0.1938047, 0.0560596]],
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.1938047, 0.0000046, 0.0560243, 0.1938047, 0.0560597]],
             "m_PcId": [6, 24],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;plastic_bottle_a"],
@@ -244,7 +274,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000049, 0.1938047, 0.0000049, 0.0560243, 0.1938047, 0.0560596]],
+            "m_EntityComponentsExtents": [69, [0.0000049, 0.1938047, 0.0000046, 0.0560243, 0.1938047, 0.0560597]],
             "m_PcId": [6, 25],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;plastic_bottle_a"],
@@ -259,8 +289,17 @@
             "m_PcId": [6, 26],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;tr_online_hub_workbench_matte_a"],
-            "m_Rotate": [14, [0.0, 90.0, -0.000008]],
-            "m_Translate": [14, [-0.0590057, 0.9011633, 0.0021036]]
+            "m_Rotate": [14, [0.0, 90.0, -0.0000079]],
+            "m_Translate": [14, [-0.0590057, 0.9011632, 0.0021035]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "rs_survivor_vendor"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
+            "m_Translate": [14, [-0.0804938, -0.0, 1.165456]]
           }
         }
       ]

@@ -13,6 +13,36 @@
                 "Name": "Enabled"
               }
             ]
+          },
+          {
+            "Name": "Preset",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;c:AI;l:Preset;",
+            "DestinationFields": [
+              {
+                "Uuid": "40",
+                "Name": "Preset"
+              }
+            ]
+          },
+          {
+            "Name": "Behavior",
+            "Init": "f:EDIT;e:CALLBACK;c:AI;l:Behavior;d:Choose behavior from data/AI/BehaviorPlaces/;",
+            "DestinationFields": [
+              {
+                "Uuid": "40",
+                "Name": "Behavior"
+              }
+            ]
+          },
+          {
+            "Name": "AssortmentName",
+            "Init": "f:EDIT;e:CALLBACK;d:Assortment name;l:AssortmentName;c:Shop;",
+            "DestinationFields": [
+              {
+                "Uuid": "40",
+                "Name": "AssortmentName"
+              }
+            ]
           }
         ]
       },
@@ -24,39 +54,6 @@
             "m_PcId": [6, 1],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;pa_table_b"]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000014, 0.025703, 0.0, 0.0815004, 0.026, 0.0498336]],
-            "m_PcId": [6, 4],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_pistol_a_tpp"],
-            "m_Rotate": [14, [165.0, -0.0000043, 179.9999847]],
-            "m_Translate": [14, [-0.372574, 0.9261468, -0.2262859]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0008056, 0.0362448, 0.0002658, 0.1010753, 0.0362448, 0.0613783]],
-            "m_PcId": [6, 5],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_rifle_a_tpp"],
-            "m_Rotate": [14, [165.0, -0.0000043, 179.9999847]],
-            "m_Translate": [14, [-0.7228928, 0.9625179, -0.0888615]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0001598, 0.0355321, -0.0006432, 0.0717819, 0.0355321, 0.0727914]],
-            "m_PcId": [6, 6],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_shotgun_a_tpp"],
-            "m_Rotate": [14, [165.0, -0.0000043, 179.9999847]],
-            "m_Translate": [14, [-0.5421599, 0.9318078, -0.204996]]
           }
         },
         {
@@ -90,83 +87,6 @@
             "m_PresetNames": [12, "Meshes;loot_tools_box_a"],
             "m_Rotate": [14, [179.9999847, 0.0000049, 180.0]],
             "m_Translate": [14, [-0.5572586, 0.9011632, 0.4084854]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000014, 0.0257032, -3.557652235031128e-7, 0.0815004, 0.026, 0.0498337]],
-            "m_PcId": [6, 10],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_pistol_a_tpp"],
-            "m_Rotate": [14, [165.0, -0.0000043, 179.9999847]],
-            "m_Translate": [14, [-0.3725739, 0.9531911, -0.1253567]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000014, 0.025703, 0.0, 0.0815004, 0.026, 0.0498336]],
-            "m_PcId": [6, 11],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_pistol_a_tpp"],
-            "m_Rotate": [14, [165.0, -0.0000043, 179.9999847]],
-            "m_Translate": [14, [-0.3725739, 0.9796239, -0.0267066]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0, 0.0257032, 0.0, 0.0815, 0.026, 0.0498336]],
-            "m_PcId": [6, 12],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_pistol_a_tpp"],
-            "m_Rotate": [14, [74.9999923, 0.0000223, 179.9999847]],
-            "m_Translate": [14, [-0.3725739, 1.0525827, 0.0617388]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0001598, 0.0355321, -0.0006432, 0.0717819, 0.0355321, 0.0727914]],
-            "m_PcId": [6, 13],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_shotgun_a_tpp"],
-            "m_Rotate": [14, [165.0, -0.0000043, 179.9999847]],
-            "m_Translate": [14, [-0.5421599, 0.9694703, -0.0644379]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0001612, 0.0355321, -0.0006428, 0.0717815, 0.0355321, 0.0727913]],
-            "m_PcId": [6, 14],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_shotgun_a_tpp"],
-            "m_Rotate": [14, [74.9999923, 0.0000223, 179.9999847]],
-            "m_Translate": [14, [-0.5421599, 1.0754319, 0.0556029]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.0008056, 0.0362449, 0.0002658, 0.1010753, 0.0362448, 0.0613783]],
-            "m_PcId": [6, 15],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_rifle_a_tpp"],
-            "m_Rotate": [14, [165.0, -0.0000043, 179.9999847]],
-            "m_Translate": [14, [-0.7228928, 0.930095, -0.2098675]]
-          }
-        },
-        {
-          "Class": "CEntity",
-          "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [-0.000807, 0.0362448, 0.0002658, 0.1010749, 0.0362448, 0.0613783]],
-            "m_PcId": [6, 16],
-            "m_PrefabName": [12, "mesh"],
-            "m_PresetNames": [12, "Meshes;wpn_firearm_ammo_box_rifle_a_tpp"],
-            "m_Rotate": [14, [74.9999923, 0.0000223, 179.9999847]],
-            "m_Translate": [14, [-0.7228928, 1.0598224, 0.0258805]]
           }
         },
         {
@@ -295,7 +215,7 @@
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0000042, 0.1938047, 0.0000046, 0.0560245, 0.1938047, 0.0560597]],
+            "m_EntityComponentsExtents": [69, [0.0000042, 0.1938047, 0.0000042, 0.0560245, 0.1938047, 0.0560598]],
             "m_PcId": [6, 29],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;plastic_bottle_a"],
@@ -329,7 +249,7 @@
             "m_PcId": [6, 35],
             "m_PrefabName": [12, "rs_survivor_vendor_sign"],
             "m_Rotate": [14, [-0.0000129, 0.0000048, 0.0000064]],
-            "m_Translate": [14, [0.0003807, 0.0000027, 0.0003414]]
+            "m_Translate": [14, [0.0003803, 0.0000027, 0.0003414]]
           }
         },
         {
@@ -338,11 +258,100 @@
             "m_PcId": [6, 40],
             "m_PrefabName": [12, "rs_survivor_vendor"],
             "m_Rotate": [14, [-179.9999847, -0.0, -179.9999847]],
-            "m_Translate": [14, [0.1295705, 1.1175874448099421e-8, 1.128158]]
+            "m_Translate": [14, [0.1295703, 1.1175874448099421e-8, 1.1281578]]
           },
           "Fields": {
             "Behavior": "single_static_m_stand_smoking_loop_01",
             "Preset": "Character;Adrian"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0036856, 0.0537011, -0.0172, 0.1075335, 0.0592423, 0.1606852]],
+            "m_PcId": [6, 41],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;loot_shoes_a"],
+            "m_Rotate": [14, [165.0, 0.0, -179.9999847]],
+            "m_Translate": [14, [-0.3917827, 0.9538555, -0.1218848]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0053804, 0.0800519, -0.0152471, 0.1620907, 0.0825808, 0.1770607]],
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_cloth_b"],
+            "m_Rotate": [14, [165.0, 0.0, -179.9999847]],
+            "m_Translate": [14, [-0.6651238, 0.9514815, -0.1307442]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.000007, 0.8503251, 0.0003643, 0.6456291, 0.9293547, 0.1669336]],
+            "m_PcId": [6, 43],
+            "m_PrefabName": [12, "skinned_mesh"],
+            "m_PresetNames": [12, "SkinnedMeshes;player_healer_headwear_a_tpp"],
+            "m_Rotate": [14, [-180.0, 45.0000038, -180.0]],
+            "m_Translate": [14, [-0.7577735, -0.4710881, 0.243871]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0158496, 1.6501705, -0.0701041, 0.0901864, 0.1579097, 0.1174366]],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;mannequin_a_chunk_03"],
+            "m_Rotate": [14, [-179.9999694, 0.0, -179.9999847]],
+            "m_Translate": [14, [-0.3891907, -0.3246628, 0.1949632]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000071, 0.8503252, 0.0003644, 0.6456291, 0.9293548, 0.1669336]],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "skinned_mesh"],
+            "m_PresetNames": [12, "SkinnedMeshes;player_range_headwear_c_tpp"],
+            "m_Rotate": [14, [-165.0000152, -0.0, -179.9999847]],
+            "m_Translate": [14, [-0.4024296, -0.2469847, -0.1369702]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0065142, -0.4238431, 0.0058612, 0.28716, 0.4585735, 0.0774776]],
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;hanging_clothes_d"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [0.8966199, 1.2169083, 0.0097137]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005, 0.0005, 0.0004999, 0.0713136, 0.0660364, 1.3131672]],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_ce_modern_roof_glass_pillar_v_2x_a_bar_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.25, 0.25, 0.25]],
+            "m_Translate": [14, [0.6533752, 1.2169586, 0.01479]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0053819, 0.0800519, -0.0152471, 0.1620902, 0.0825808, 0.1770607]],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_cloth_b"],
+            "m_Scale": [14, [0.8999999, 0.8999999, 0.9000002]],
+            "m_Translate": [14, [-0.4207516, 1.1088525, 0.2611575]]
           }
         }
       ]
