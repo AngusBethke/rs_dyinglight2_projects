@@ -80,7 +80,7 @@
             "m_PcId": [6, 6],
             "m_PrefabName": [12, "rs_survivor_vendor_medical_boxes_decor_grp"],
             "m_Rotate": [14, [0.0, 90.0, 0.0000156]],
-            "m_Translate": [14, [-0.7512894, 0.9011632, 0.0458507]]
+            "m_Translate": [14, [-0.7512894, 0.9011632, -0.0693335]]
           }
         },
         {
@@ -90,8 +90,8 @@
             "m_PcId": [6, 8],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;loot_metal_box_a_anm"],
-            "m_Rotate": [14, [-0.0000079, 0.0000098, 0.0000013]],
-            "m_Translate": [14, [0.240242, 0.9011632, 0.179201]]
+            "m_Rotate": [14, [-0.0000079, 0.0000097, 0.0000013]],
+            "m_Translate": [14, [0.2927785, 0.9011632, 0.1792009]]
           }
         },
         {
@@ -99,14 +99,14 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 9],
             "m_PrefabName": [12, "rs_survivor_vendor_uv_desk_lamp"],
-            "m_Rotate": [14, [-0.0000079, 0.0000098, 0.0000013]],
-            "m_Translate": [14, [0.5897827, 0.9011632, 0.3085457]]
+            "m_Rotate": [14, [-0.0000079, 0.0000097, 0.0000013]],
+            "m_Translate": [14, [0.6334982, 0.9011632, 0.3085456]]
           }
         },
         {
           "Class": "CEntity",
           "PrefabFieldsNative": {
-            "m_EntityComponentsExtents": [69, [0.0001574, 0.0134703, -0.0486159, 0.2657994, 0.0134704, 0.4895355]],
+            "m_EntityComponentsExtents": [69, [0.0001574, 0.0134703, -0.0486166, 0.2657994, 0.0134704, 0.4895353]],
             "m_PcId": [6, 10],
             "m_PrefabName": [12, "mesh"],
             "m_PresetNames": [12, "Meshes;tr_online_hub_workbench_matte_a"],
@@ -306,8 +306,12 @@
           "PrefabFieldsNative": {
             "m_PcId": [6, 28],
             "m_PrefabName": [12, "rs_survivor_vendor"],
-            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]],
-            "m_Translate": [14, [-0.2366452, -0.0, 1.0733586]]
+            "m_Rotate": [14, [179.9999847, 0.0000048, 179.9999847]],
+            "m_Translate": [14, [-0.2366452, 0.0, 0.8456117]]
+          },
+          "Fields": {
+            "Behavior": "multiactivity_distance_static_w_stand_vendor_leaning_table_01",
+            "Preset": "Character;Anna"
           }
         }
       ]

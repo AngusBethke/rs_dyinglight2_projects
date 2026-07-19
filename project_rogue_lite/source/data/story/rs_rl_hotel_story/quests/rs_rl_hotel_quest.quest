@@ -229,6 +229,23 @@
 					<Start class="Story::ShowLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7664178448819063702">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="30000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7664178448819063702" output="Out" input="In" end="7664203879929475766">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653270421945705369">
 					<Logic type="Story::WaitForSensorLogic">
 						<Attribute name="m_RequiredCount" value="1"/>
@@ -371,13 +388,13 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7661570823795925932" output="Out" input="In" end="7653267834996298053">
-					<Start class="Story::FailObjectiveLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
-				</Connect>
 				<Connect start="7661570823795925932" output="Out" input="In" end="7661578060854572713">
 					<Start class="Story::FailObjectiveLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7661570823795925932" output="Out" input="In" end="7664182807887716192">
+					<Start class="Story::FailObjectiveLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653268884445848493">
 					<Logic type="Story::HideLogic">
@@ -453,6 +470,23 @@
 				<Connect start="7661560803044769205" output="Out" input="In" end="7661560803326317853">
 					<Start class="Story::CompleteMissionLogic"/>
 					<End class="Story::PointOfInterestLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7664203879929475766">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Collectable_Inhibitor_Q_001"/>
+						<Attribute name="m_ItemsCount" value="3"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7664203879929475766" output="Out" input="In" end="7653265920075705501">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::MissionCheckpointLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661561176719620535">
 					<Logic type="Story::DialogueSetupLogic">
@@ -544,7 +578,7 @@
 				<Node type="Actions::Node" uid="7661579718151123668">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Setup"/>
-						<Attribute name="m_Size" value="2166.000000 251.000000"/>
+						<Attribute name="m_Size" value="2766.000000 251.000000"/>
 					</Logic>
 				</Node>
 				<Node type="Actions::Node" uid="7653268084584147924">
@@ -830,6 +864,27 @@
 					<Start class="Story::CompleteMissionLogic"/>
 					<End class="Story::PointOfInterestLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7664183018247198228">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="60000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7664183018247198228" output="Out" input="In" end="7653268006627909348">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7664183018247198228" output="Out" input="In" end="7661582677591899706">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661561177781551636">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7661569904552543354"/>
@@ -951,13 +1006,9 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7653267569635787296" output="Out" input="In" end="7653267654947561264">
+				<Connect start="7653267569635787296" output="Out" input="In" end="7664180093354197050">
 					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
-				</Connect>
-				<Connect start="7653267569635787296" output="Out" input="In" end="7661561177781551636">
-					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653268913014111780">
 					<Logic type="Story::HideLogic">
@@ -1074,6 +1125,27 @@
 				<Connect start="7659477658078447668" output="Out" input="In" end="7659477641522839686">
 					<Start class="Story::DialogueSetupLogic"/>
 					<End class="Story::DialogueLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7664180093354197050">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="30000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7664180093354197050" output="Out" input="In" end="7653267654947561264">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7664180093354197050" output="Out" input="In" end="7661561177781551636">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661582677591899706">
 					<Logic type="Story::StartObjectiveLogic">
@@ -1256,6 +1328,23 @@
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::WaitForSensorLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7664182807887716192">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="45000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7664182807887716192" output="Out" input="In" end="7653267834996298053">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661580410778558305">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="End"/>
@@ -1437,9 +1526,9 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7642374385171628154" output="Out" input="In" end="7653265920075705501">
+				<Connect start="7642374385171628154" output="Out" input="In" end="7664178448819063702">
 					<Start class="Story::StartMissionLogic"/>
-					<End class="Story::MissionCheckpointLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267763536615802">
 					<Logic type="Story::StartObjectiveLogic">
@@ -1514,13 +1603,9 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7653267955579138685" output="Out" input="In" end="7653268006627909348">
+				<Connect start="7653267955579138685" output="Out" input="In" end="7664183018247198228">
 					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
-				</Connect>
-				<Connect start="7653267955579138685" output="Out" input="In" end="7661582677591899706">
-					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 			</Node>
 			<Connect start="7642374132626421977" output="Out:End" input="In" end="7642373474610012675">
@@ -1547,13 +1632,58 @@
 			<Position x="-450" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7642374132993365916">
-			<Position x="-580" y="-2035"/>
+			<Position x="-1185" y="-2025"/>
 		</EditorNode>
 		<EditorNode uid="7642374385171628154">
-			<Position x="-355" y="-2035"/>
+			<Position x="-975" y="-2025"/>
+		</EditorNode>
+		<EditorNode uid="7659829008901474959">
+			<Position x="2400" y="-960"/>
+		</EditorNode>
+		<EditorNode uid="7661561176010901094">
+			<Position x="2400" y="390"/>
+		</EditorNode>
+		<EditorNode uid="7661578061621231525">
+			<Position x="2700" y="1755"/>
+		</EditorNode>
+		<EditorNode uid="7661579434118789895">
+			<Position x="-2715" y="390"/>
+		</EditorNode>
+		<EditorNode uid="7661579533902126055">
+			<Position x="-2400" y="1755"/>
+		</EditorNode>
+		<EditorNode uid="7661579584935475499">
+			<Position x="-2400" y="3000"/>
+		</EditorNode>
+		<EditorNode uid="7661579718151123668">
+			<Position x="-1200" y="-2100"/>
+		</EditorNode>
+		<EditorNode uid="7661579795605642427">
+			<Position x="-615" y="-960"/>
+		</EditorNode>
+		<EditorNode uid="7661579907548374053">
+			<Position x="-615" y="390"/>
+		</EditorNode>
+		<EditorNode uid="7661580220814887068">
+			<Position x="-600" y="1755"/>
+		</EditorNode>
+		<EditorNode uid="7661580410778558305">
+			<Position x="-300" y="4800"/>
+		</EditorNode>
+		<EditorNode uid="7661580457086150345">
+			<Position x="-600" y="3000"/>
+		</EditorNode>
+		<EditorNode uid="7661582678505470566">
+			<Position x="2692" y="3002"/>
+		</EditorNode>
+		<EditorNode uid="7664178448819063702">
+			<Position x="-765" y="-2025"/>
+		</EditorNode>
+		<EditorNode uid="7664203879929475766">
+			<Position x="-450" y="-2025"/>
 		</EditorNode>
 		<EditorNode uid="7653265920075705501">
-			<Position x="-145" y="-2035"/>
+			<Position x="-75" y="-2025"/>
 		</EditorNode>
 		<EditorNode uid="7653266067017660018">
 			<Position x="170" y="-2035"/>
@@ -1563,9 +1693,6 @@
 		</EditorNode>
 		<EditorNode uid="7653268913014111780">
 			<Position x="695" y="-2035"/>
-		</EditorNode>
-		<EditorNode uid="7659829008901474959">
-			<Position x="2400" y="-960"/>
 		</EditorNode>
 		<EditorNode uid="7659829082252490828">
 			<Position x="1055" y="-2035"/>
@@ -1581,21 +1708,6 @@
 		</EditorNode>
 		<EditorNode uid="7653267418789390184">
 			<Position x="755" y="-895"/>
-		</EditorNode>
-		<EditorNode uid="7659472159806157812">
-			<Position x="2420" y="-880"/>
-		</EditorNode>
-		<EditorNode uid="7659477658078447668">
-			<Position x="2795" y="-880"/>
-		</EditorNode>
-		<EditorNode uid="7659477641522839686">
-			<Position x="3240" y="-885"/>
-		</EditorNode>
-		<EditorNode uid="7659472204252977422">
-			<Position x="3735" y="-870"/>
-		</EditorNode>
-		<EditorNode uid="7661561176010901094">
-			<Position x="2400" y="390"/>
 		</EditorNode>
 		<EditorNode uid="7661570573472178885">
 			<Position x="1130" y="-895"/>
@@ -1653,6 +1765,9 @@
 		</EditorNode>
 		<EditorNode uid="7653267569635787296">
 			<Position x="755" y="455"/>
+		</EditorNode>
+		<EditorNode uid="7664180093354197050">
+			<Position x="1275" y="450"/>
 		</EditorNode>
 		<EditorNode uid="7653267654947561264">
 			<Position x="-595" y="755"/>
@@ -1714,29 +1829,32 @@
 		<EditorNode uid="7653267761867189051">
 			<Position x="1595" y="1835"/>
 		</EditorNode>
-		<EditorNode uid="7661561177781551636">
-			<Position x="2415" y="450"/>
-		</EditorNode>
-		<EditorNode uid="7661561176719620535">
-			<Position x="2790" y="450"/>
-		</EditorNode>
-		<EditorNode uid="7661561176160577457">
-			<Position x="3225" y="450"/>
-		</EditorNode>
-		<EditorNode uid="7661561176567697012">
-			<Position x="3705" y="450"/>
-		</EditorNode>
 		<EditorNode uid="7661570823795925932">
 			<Position x="1970" y="1835"/>
 		</EditorNode>
+		<EditorNode uid="7661578060854572713">
+			<Position x="2715" y="1815"/>
+		</EditorNode>
+		<EditorNode uid="7661578060658881169">
+			<Position x="3090" y="1815"/>
+		</EditorNode>
+		<EditorNode uid="7661578059850696320">
+			<Position x="3525" y="1815"/>
+		</EditorNode>
+		<EditorNode uid="7661578060284001630">
+			<Position x="4063" y="1816"/>
+		</EditorNode>
+		<EditorNode uid="7664182807887716192">
+			<Position x="-570" y="2115"/>
+		</EditorNode>
 		<EditorNode uid="7653267834996298053">
-			<Position x="-580" y="2135"/>
+			<Position x="5" y="2135"/>
 		</EditorNode>
 		<EditorNode uid="7653270610848939922">
-			<Position x="20" y="2135"/>
+			<Position x="525" y="2130"/>
 		</EditorNode>
 		<EditorNode uid="7653267835242639603">
-			<Position x="770" y="2135"/>
+			<Position x="1020" y="2130"/>
 		</EditorNode>
 		<EditorNode uid="7653267908926303877">
 			<Position x="-580" y="2435"/>
@@ -1765,21 +1883,6 @@
 		<EditorNode uid="7661560802741757735">
 			<Position x="-1630" y="3065"/>
 		</EditorNode>
-		<EditorNode uid="7661578060854572713">
-			<Position x="2715" y="1815"/>
-		</EditorNode>
-		<EditorNode uid="7661578060658881169">
-			<Position x="3090" y="1815"/>
-		</EditorNode>
-		<EditorNode uid="7661578059850696320">
-			<Position x="3525" y="1815"/>
-		</EditorNode>
-		<EditorNode uid="7661578060284001630">
-			<Position x="4063" y="1816"/>
-		</EditorNode>
-		<EditorNode uid="7661578061621231525">
-			<Position x="2700" y="1755"/>
-		</EditorNode>
 		<EditorNode uid="7661578632104178082">
 			<Position x="-1330" y="3065"/>
 		</EditorNode>
@@ -1790,19 +1893,22 @@
 			<Position x="-580" y="3065"/>
 		</EditorNode>
 		<EditorNode uid="7653270731157151537">
-			<Position x="20" y="3065"/>
+			<Position x="-150" y="3060"/>
 		</EditorNode>
 		<EditorNode uid="7653267955579138685">
-			<Position x="770" y="3065"/>
+			<Position x="225" y="3060"/>
+		</EditorNode>
+		<EditorNode uid="7664183018247198228">
+			<Position x="675" y="3060"/>
 		</EditorNode>
 		<EditorNode uid="7653268006627909348">
 			<Position x="-580" y="3365"/>
 		</EditorNode>
 		<EditorNode uid="7653270803451330668">
-			<Position x="20" y="3365"/>
+			<Position x="-150" y="3360"/>
 		</EditorNode>
 		<EditorNode uid="7653268006835825841">
-			<Position x="770" y="3365"/>
+			<Position x="210" y="3360"/>
 		</EditorNode>
 		<EditorNode uid="7653268084584147924">
 			<Position x="-280" y="4865"/>
@@ -1812,33 +1918,6 @@
 		</EditorNode>
 		<EditorNode uid="7642374131240960184">
 			<Position x="395" y="4865"/>
-		</EditorNode>
-		<EditorNode uid="7661579434118789895">
-			<Position x="-2715" y="390"/>
-		</EditorNode>
-		<EditorNode uid="7661579533902126055">
-			<Position x="-2400" y="1755"/>
-		</EditorNode>
-		<EditorNode uid="7661579584935475499">
-			<Position x="-2400" y="3000"/>
-		</EditorNode>
-		<EditorNode uid="7661579718151123668">
-			<Position x="-600" y="-2100"/>
-		</EditorNode>
-		<EditorNode uid="7661579795605642427">
-			<Position x="-615" y="-960"/>
-		</EditorNode>
-		<EditorNode uid="7661579907548374053">
-			<Position x="-615" y="390"/>
-		</EditorNode>
-		<EditorNode uid="7661580220814887068">
-			<Position x="-600" y="1755"/>
-		</EditorNode>
-		<EditorNode uid="7661580410778558305">
-			<Position x="-300" y="4800"/>
-		</EditorNode>
-		<EditorNode uid="7661580457086150345">
-			<Position x="-600" y="3000"/>
 		</EditorNode>
 		<EditorNode uid="7661582677591899706">
 			<Position x="2707" y="3062"/>
@@ -1852,8 +1931,29 @@
 		<EditorNode uid="7661582677903766207">
 			<Position x="4055" y="3063"/>
 		</EditorNode>
-		<EditorNode uid="7661582678505470566">
-			<Position x="2692" y="3002"/>
+		<EditorNode uid="7661561177781551636">
+			<Position x="2415" y="450"/>
+		</EditorNode>
+		<EditorNode uid="7661561176719620535">
+			<Position x="2790" y="450"/>
+		</EditorNode>
+		<EditorNode uid="7661561176160577457">
+			<Position x="3225" y="450"/>
+		</EditorNode>
+		<EditorNode uid="7661561176567697012">
+			<Position x="3705" y="450"/>
+		</EditorNode>
+		<EditorNode uid="7659472159806157812">
+			<Position x="2420" y="-880"/>
+		</EditorNode>
+		<EditorNode uid="7659477658078447668">
+			<Position x="2795" y="-880"/>
+		</EditorNode>
+		<EditorNode uid="7659477641522839686">
+			<Position x="3240" y="-885"/>
+		</EditorNode>
+		<EditorNode uid="7659472204252977422">
+			<Position x="3735" y="-870"/>
 		</EditorNode>
 		<EditorNode uid="7642373474610012675">
 			<Position x="0" y="0"/>

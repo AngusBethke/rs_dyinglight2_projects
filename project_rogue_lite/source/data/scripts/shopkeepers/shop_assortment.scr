@@ -65,7 +65,7 @@ sub main()
                 Limited();
             }
 
-			Set("Weapons_pool_r24_T2", 8, 9)
+			Set("Weapons_pool_r24_T2", "weapons_shops", 8, 9)
 			{
                 MinStatusLevel(1);
                 MaxStatusLevel(50);
@@ -80,7 +80,7 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(3);
+                Limited(12);
             }
         }
 		Sell()
@@ -101,7 +101,7 @@ sub main()
                 Limited();
             }
 
-			Set("Weapons_pool_r24_T2", 8, 9)
+			Set("Weapons_pool_r24_T2", "weapons_shops", 8, 9)
 			{
                 MinStatusLevel(1);
                 MaxStatusLevel(50);
@@ -116,7 +116,7 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(4);
+                Limited(24);
             }
         }
 		Sell()
@@ -137,7 +137,7 @@ sub main()
                 Limited();
             }
 
-			Set("Weapons_pool_r24_T3", 8, 9)
+			Set("Weapons_pool_r24_T3", "weapons_shops", 8, 9)
 			{
                 MinStatusLevel(1);
                 MaxStatusLevel(50);
@@ -152,7 +152,7 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(5);
+                Limited(48);
             }
         }
 		Sell()
@@ -173,7 +173,7 @@ sub main()
                 Limited();
             }
 
-			Set("Weapons_pool_r24_T3", 8, 9)
+			Set("Weapons_pool_r24_T3", "weapons_shops", 8, 9)
 			{
                 MinStatusLevel(1);
                 MaxStatusLevel(50);
@@ -188,7 +188,7 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(6);
+                Limited(64);
             }
         }
 		Sell()
@@ -210,7 +210,8 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(1);
+                Limited();
+				Probability(1);
             }
         }
 		Sell()
@@ -228,7 +229,8 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(1);
+                Limited();
+				Probability(1);
             }
         }
 		Sell()
@@ -246,7 +248,8 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(1);
+                Limited();
+				Probability(1);
             }
         }
 		Sell()
@@ -264,7 +267,8 @@ sub main()
                 MaxStatusLevel(50);
 				MinZoneLevel(-100);
                 MaxZoneLevel(100);
-                Limited(1);
+                Limited();
+				Probability(1);
             }
         }
 		Sell()
