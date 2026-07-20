@@ -1,0 +1,75 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_PS"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "patrol_setup"],
+            "m_PresetNames": [12, "Activation - distance;Exterior"],
+            "m_Translate": [14, [-0.023102, -0.000003, -0.885056]]
+          },
+          "Fields": {
+            "IPatrolData::m_PatrolPoints": "/~2;/~3;",
+            "m_Preset": "Character;Volatile"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_1"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [180.0, 4.0000801, 180.0]],
+            "m_Translate": [14, [-4.8385162, 0.0, 0.0629919]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "10.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_2"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [180.0, 18.9999847, 180.0]],
+            "m_Translate": [14, [13.8276977, 0.0, 0.1859703]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "1.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 1.0000051, 0.0000051, 0.4939643, 1.0000051, 0.4939644]],
+            "m_IsEditorOnly": [11, true],
+            "m_Name": [12, "patrol_direction"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "marker"],
+            "m_Rotate": [14, [-0.0, 0.0, 90.0]],
+            "m_Scale": [14, [0.5, 6.1875, 0.5]],
+            "m_Translate": [14, [6.9108891, -0.0399998, -1.108582]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

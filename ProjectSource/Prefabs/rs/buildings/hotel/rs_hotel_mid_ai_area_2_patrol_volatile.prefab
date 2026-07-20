@@ -1,0 +1,164 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_PS"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "patrol_setup"],
+            "m_PresetNames": [12, "Activation - distance;Exterior;Spawner_Difficulty;Tier_9"],
+            "m_Rotate": [14, [-0.0, -75.0000228, -0.0]],
+            "m_Translate": [14, [12.004321, -0.0020093, 11.204298]]
+          },
+          "Fields": {
+            "IPatrolData::m_PatrolPoints": "/~2;/~3;/~5;/~6;/~7;/~8;/~9;",
+            "m_Preset": "Character;Volatile_Hive"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_9",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_1"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [-179.9999847, -70.9999237, -179.9999847]],
+            "m_Translate": [14, [3.5323572, -4.8020095, 8.0455188]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "5.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_2"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [-179.9999847, -41.0000228, -179.9999847]],
+            "m_Translate": [14, [-5.8153243, -4.7940196, -4.3198966]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "5.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 1.000005, 0.000005, 0.4939643, 1.000005, 0.4939643]],
+            "m_IsEditorOnly": [11, true],
+            "m_Name": [12, "patrol_direction"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "marker"],
+            "m_Rotate": [14, [-0.0, 0.0, 90.0]],
+            "m_Scale": [14, [0.5, 6.1875, 0.5]],
+            "m_Translate": [14, [6.9108891, -0.0399998, -1.108582]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_3"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [0.000006, -3.9999635, -0.0000047]],
+            "m_Translate": [14, [-11.1496458, -0.0020093, -6.3538179]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "5.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_4"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [0.0000019, -33.9999885, -0.0000176]],
+            "m_Translate": [14, [-5.3070464, -4.7960205, 7.888194]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "5.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_5"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [0.0003421, 86.0000228, -0.000319]],
+            "m_Scale": [14, [0.9999992, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [-9.5033588, -4.8007659, 14.8463325]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "5.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_6"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [0.0000918, 71.0000305, -0.0000617]],
+            "m_Scale": [14, [0.9999992, 0.9999991, 0.9999993]],
+            "m_Translate": [14, [-6.5310454, -0.0020093, 16.6919174]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "5.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Infected_BP_7"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "patrol_behaviorplace"],
+            "m_PresetNames": [12, "Ranges;Interior"],
+            "m_Rotate": [14, [-179.9999542, -26.0000171, -179.9999847]],
+            "m_Scale": [14, [0.9999989, 0.9999992, 0.9999992]],
+            "m_Translate": [14, [7.6240711, -0.0020179, 16.5164661]]
+          },
+          "Fields": {
+            "IPatrolPoint::m_UseGenericAnimation": "1",
+            "IPatrolPoint::m_WaitTime": "5.000000",
+            "m_BehaviorName": "biter_stand_reaching"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

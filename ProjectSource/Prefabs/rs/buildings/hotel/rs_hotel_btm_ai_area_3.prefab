@@ -1,0 +1,221 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.92, 1.9199999, -5.7600021, 21.1399993, 1.9199999, 21.1399993]],
+            "m_Name": [12, "rs_hotel_btm_ai_area_3_spawner_number"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_7"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.4549371, 0.9999998, 0.8167191]],
+            "m_Translate": [14, [-0.5447999, -0.0019232, 0.5135707]]
+          },
+          "Fields": {
+            "m_Height": "3.840000",
+            "m_NumOfAIsToSpawn": "9",
+            "m_Points": "19.219999 -0.500000 -26.900002;19.219999 -0.500000 15.379997;-23.059999 -0.500000 15.379997;-23.059999 -0.500000 -26.900002;",
+            "m_PointsSource": "4",
+            "m_PresetPoolName": "Biter_Prologue",
+            "m_ShuffleSpawnPoints": "1",
+            "m_SpawnPoints": "/~10;/~4;/~8;/~9;/~11;/~12;/~2;/~3;/~7;"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_7",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195729, 0.2309174, 0.0690794, 1.5195729, 0.2707928]],
+            "m_Name": [12, "viral_spawn_point_init"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [-179.9999847, -29.9999828, -179.9999847]],
+            "m_Translate": [14, [4.4103097, 0.0549087, 3.3081524]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_inf_eating_corpse_05",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Darkzone_Viral_Mix_Generic"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.2309002, 0.0690794, 1.5195728, 0.2707909]],
+            "m_Name": [12, "viral_spawn_point_init"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [179.9999694, -60.0000038, 179.9999694]],
+            "m_Translate": [14, [1.2139461, -0.0019168, 7.7097635]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_inf_eating_corpse_04",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Darkzone_Viral_Mix_Generic"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195729, 0.230906, 0.0690794, 1.5195729, 0.270789]],
+            "m_Name": [12, "biter_spawn_point_init"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [0.0000213, -0.0000569, 0.0000163]],
+            "m_Scale": [14, [0.9999973, 0.9999976, 0.9999976]],
+            "m_Translate": [14, [-4.881936, -0.0019187, 1.7065193]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_inf_idle_stand",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Biter_Prologue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.9200019, 4.3000001, -5.7599983, 21.1399974, 4.8000001, 21.1399955]],
+            "m_Name": [12, "rs_hotel_btm_ai_area_3_clear_area"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "clear_area"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [0.4502457, 0.9999998, 0.8162785]],
+            "m_Translate": [14, [-0.5454636, -0.0019273, 0.5397182]]
+          },
+          "Fields": {
+            "m_AreaHeight": "9.600000",
+            "m_AreaPoints": "19.219995 -0.500000 -26.899994;19.219995 -0.500000 15.379997;-23.059999 -0.500000 15.379997;-23.059999 -0.500000 -26.899994;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "rs_hotel_btm_ai_area_3_goon_boss"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "rs_ai_boss_spawner"],
+            "m_Rotate": [14, [0.0, -90.0, -0.000003]],
+            "m_Translate": [14, [0.2538768, 0.0, 4.0142292]]
+          },
+          "Fields": {
+            "BehaviorName": "single_static_inf_idle_stand",
+            "InitPresetPool": "Goon_Special_EndGame",
+            "Preset": "Character;Goon_Fire_Endgame",
+            "PresetPoolName": "Goon_Special_EndGame"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195729, 0.230906, 0.0690794, 1.5195729, 0.270789]],
+            "m_Name": [12, "viral_spawn_point_init"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [-0.0000023, -15.0, 0.0000161]],
+            "m_Translate": [14, [5.0652365, -0.0019149, 6.5245609]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_inf_eating_corpse_04",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Darkzone_Viral_Mix_Generic"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000057, 1.5195728, 0.230906, 0.0690813, 1.5195728, 0.270789]],
+            "m_Name": [12, "biter_spawn_point_init"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [179.9999847, -59.999958, 179.9999694]],
+            "m_Scale": [14, [0.9999973, 0.9999973, 0.9999976]],
+            "m_Translate": [14, [9.5869007, -0.0019187, 7.0394239]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_inf_idle_stand",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Biter_Prologue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000056, 1.5195729, 0.230906, 0.0690813, 1.5195729, 0.270789]],
+            "m_Name": [12, "biter_spawn_point_init"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [179.9999847, -59.999958, 179.9999694]],
+            "m_Scale": [14, [0.999997, 0.9999967, 0.9999976]],
+            "m_Translate": [14, [-11.2560386, -0.0019206, -6.0610074]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_inf_idle_stand",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Biter_Prologue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000056, 1.5195728, 0.2309002, 0.0690813, 1.5195728, 0.2707909]],
+            "m_Name": [12, "biter_spawn_point_init"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [0.0000266, -45.0000419, 0.0000252]],
+            "m_Scale": [14, [0.999997, 0.999997, 0.999997]],
+            "m_Translate": [14, [-14.6791963, -0.0019242, 8.7299346]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_inf_idle_stand",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Biter_Prologue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-5.587935447692871e-8, 1.5195728, 0.230906, 0.0690794, 1.5195728, 0.2707889]],
+            "m_Name": [12, "biter_spawn_point_init"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [179.9999389, -74.9999542, 179.9999389]],
+            "m_Scale": [14, [0.999997, 0.9999967, 0.999997]],
+            "m_Translate": [14, [-18.4768123, -0.0019244, 1.1989715]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_inf_idle_stand",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Biter_Prologue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000056, 1.5195728, 0.2309117, 0.0690813, 1.5195728, 0.2707909]],
+            "m_Name": [12, "biter_spawn_point_init"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [-0.0000091, 44.9999618, 0.0000252]],
+            "m_Scale": [14, [0.9999969, 0.9999967, 0.9999969]],
+            "m_Translate": [14, [-5.9697623, -0.0019206, -5.1759581]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_inf_idle_stand",
+            "m_DifficultyPerceptionVisualisation": "Tier_7",
+            "m_PresetPool": "Biter_Prologue"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

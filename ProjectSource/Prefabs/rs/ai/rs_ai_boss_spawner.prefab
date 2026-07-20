@@ -1,0 +1,119 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "MinDifficultyTier",
+            "Init": "f:EDIT;e:EDIT;l:MinDifficultyTier;c:Difficulty;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_MinDifficultyTier"
+              }
+            ]
+          },
+          {
+            "Name": "MaxDifficultyTier",
+            "Init": "f:EDIT;e:EDIT;l:MaxDifficultyTier;c:Difficulty;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_MaxDifficultyTier"
+              }
+            ]
+          },
+          {
+            "Name": "DifficultyModifier",
+            "Init": "f:EDIT;e:COMBO|CALLBACK;l:DifficultyModifier;c:Difficulty;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_DifficultyModifier"
+              }
+            ]
+          },
+          {
+            "Name": "BehaviorName",
+            "Init": "f:EDIT;e:CALLBACK;c:BehaviorPlace;l:BehaviorName;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "m_BehaviorName"
+              }
+            ]
+          },
+          {
+            "Name": "Preset",
+            "Init": "e:EDIT|CALLBACK;f:EDIT;d:Single preset-lowest priority;c:Presets;l:Preset;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_Preset"
+              },
+              {
+                "Uuid": "2",
+                "Name": "m_Preset"
+              }
+            ]
+          },
+          {
+            "Name": "PresetPool",
+            "Init": "e:EDIT|CALLBACK;f:EDIT;d:Preset pool name-highest priority. Pools are definied in AIPresetPool;c:Presets;l:PresetPool;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_PresetPoolName"
+              },
+              {
+                "Uuid": "2",
+                "Name": "m_PresetPool"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
+            "m_Name": [12, "rs_ai_boss_spawner_number"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "ai_spawner_number"],
+            "m_PresetNames": [12, "Spawner_Difficulty;Tier_9"]
+          },
+          "Fields": {
+            "m_ForcedTargetMode": "NearestPlayerCannotLose",
+            "m_NumOfAIsToSpawn": "1",
+            "m_PointsSource": "4",
+            "m_SpawnPoints": "/~2;"
+          },
+          "EmbeddedObject": {
+            "Class": "UserDefinedDifficultyRange",
+            "PresetNames": "Difficulty;Tier_9",
+            "DestinationField": "m_DifficultyRangeSource"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195727, 0.230906, 0.0690794, 1.5195727, 0.270789]],
+            "m_Name": [12, "rs_ai_boss_spawner_init"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "ai_spawn_point_init"],
+            "m_Rotate": [14, [-0.0, -0.0000049, -0.0]],
+            "m_Translate": [14, [-0.0002436, -0.0000104, 0.0004261]]
+          },
+          "Fields": {
+            "m_DifficultyPerceptionVisualisation": "Tier_9"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}
