@@ -61,6 +61,45 @@
 					<Start class="Story::DialogueLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665004470452098437">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1/rs_hotel_btm_ai_area_1_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2/rs_hotel_btm_ai_area_2_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3/rs_hotel_btm_ai_area_3_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1/rs_hotel_btm_ai_area_1_goon_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2/rs_hotel_btm_ai_area_2_goon_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3/rs_hotel_btm_ai_area_3_goon_boss/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665004470452098437" output="Out" input="In" end="7653267568470347360">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665010453074400901">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008756865116315"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665010453074400901" output="Out" input="In" end="7665011718860057626">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
+				</Connect>
+				<Connect start="7665010453074400901" output="Out" input="In" end="7665011718954075081">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653267908926303877">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7653267092838389103"/>
@@ -141,6 +180,108 @@
 					<Start class="Story::WaitForSensorLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665027113613432714">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_spawn_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665027113613432714" output="Out" input="In:0" end="7665027907698362282">
+					<Start class="Story::ClearLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665011106217321867">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008025942179285"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665011106217321867" output="Out" input="In:0" end="7665012097850313441">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665009528731077004">
+					<Logic type="Story::WaitForSensorLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_nest_spawn_part_2_waypoint"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665009528731077004" output="Out" input="In" end="7665009803007797007">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::EnableLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015790555253132">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_clear_area_ai_boss_spawner/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665015790555253132" output="Out" input="In" end="7665015791617993898">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665017422937551758">
+					<Logic type="Story::WaitForSensorLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_room_enter_waypoint"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665017422937551758" output="Out" input="In" end="7665017505216926547">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665017766929631631">
+					<Logic type="Story::ShowLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_room_section_exit_squeeze"/>
+						</Entities>
+					</Logic>
+				</Node>
 				<Node type="Actions::Node" uid="7659829008901474959">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Main Dialogue Spike 1"/>
@@ -197,6 +338,24 @@
 				<Connect start="7653270610848939922" output="Out" input="In" end="7653267835242639603">
 					<Start class="Story::WaitForSensorLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015792082304660">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008997144355879"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665015792082304660" output="Out" input="In" end="7665015790555253132">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
+				<Connect start="7665015792082304660" output="Out" input="In" end="7665015790631498206">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267702861010582">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -260,6 +419,45 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665011448452841624">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/rs_hotel_mid_ai_area_4_spawner_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/rs_hotel_mid_ai_area_4_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665011448452841624" output="Out" input="In:0" end="7665011667427437064">
+					<Start class="Story::ClearLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665010569105355929">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="30000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665010569105355929" output="Out" input="In:1" end="7665011215918734585">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653270421945705369">
 					<Logic type="Story::WaitForSensorLogic">
 						<Attribute name="m_RequiredCount" value="1"/>
@@ -288,9 +486,9 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7664677176163349914" output="Out" input="In" end="7664678133923236898">
+				<Connect start="7664677176163349914" output="Out" input="In" end="7665004361754345467">
 					<Start class="Story::HideObjectiveLogic"/>
-					<End class="Story::ShowLogic"/>
+					<End class="Story::EnableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664680542141675419">
 					<Logic type="Actions::AllLogic">
@@ -304,14 +502,14 @@
 				<Node type="Actions::Node" uid="7642374132993365916">
 					<Logic type="Actions::StartLogic"/>
 				</Node>
-				<Connect start="7642374132993365916" output="Out" input="In" end="7642374385171628154">
+				<Connect start="7642374132993365916" output="Out" input="In" end="7665036313207552053">
 					<Start class="Actions::StartLogic"/>
-					<End class="Story::StartMissionLogic"/>
+					<End class="Story::SetPlayerPresetLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661580220814887068">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Quest 3"/>
-						<Attribute name="m_Size" value="2913.000000 782.000000"/>
+						<Attribute name="m_Size" value="4503.000000 2852.000000"/>
 					</Logic>
 				</Node>
 				<Node type="Actions::Node" uid="7653265920075705501">
@@ -329,6 +527,37 @@
 				<Connect start="7653265920075705501" output="Out" input="In" end="7653266067017660018">
 					<Start class="Story::MissionCheckpointLogic"/>
 					<End class="Story::SetDayTimeLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665011857229802143">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="2"/>
+					</Logic>
+				</Node>
+				<Connect start="7665011857229802143" output="Out" input="In" end="7665011856138322678">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665028486462730912">
+					<Logic type="Story::DisableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1/rs_hotel_btm_ai_area_1_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2/rs_hotel_btm_ai_area_2_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3/rs_hotel_btm_ai_area_3_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_4/rs_hotel_btm_ai_area_4_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3/rs_hotel_btm_ai_area_3_goon_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2/rs_hotel_btm_ai_area_2_goon_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1/rs_hotel_btm_ai_area_1_goon_boss/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665028486462730912" output="Out" input="In" end="7653270550646233993">
+					<Start class="Story::DisableLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661578632104178082">
 					<Logic type="Story::HideLogic">
@@ -396,6 +625,28 @@
 						<Attribute name="m_Size" value="1725.000000 266.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665015635538672551">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_1/rs_hotel_top_ai_area_1_spawn_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_1/rs_hotel_top_ai_area_1_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665015635538672551" output="Out" input="In" end="7665015637161979922">
+					<Start class="Story::ClearLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7659071496802098344">
 					<Logic type="Story::UseLogic">
 						<Attribute name="m_DesiredValue" value="_ON"/>
@@ -446,6 +697,49 @@
 				<Connect start="7661578060854572713" output="Out" input="In" end="7661578060658881169">
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::DialogueSetupLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027907698362282">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="4"/>
+					</Logic>
+				</Node>
+				<Connect start="7665027907698362282" output="Out" input="In" end="7665027130617023016">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665009825631191978">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_patrol_volatile/Infected_PS/patrol_agenda"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665009825631191978" output="Out" input="In" end="7665010453074400901">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015791617993898">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="30000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665015791617993898" output="Out" input="In:1" end="7665015790964532944">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661570823795925932">
 					<Logic type="Story::FailObjectiveLogic">
@@ -513,6 +807,24 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Actions::AllLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665011448043567793">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/~22/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665011448043567793" output="Out" input="In" end="7665011448867394918">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661561176160577457">
 					<Logic type="Story::DialogueLogic">
 						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q2_info"/>
@@ -540,9 +852,9 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7653268006835825841" output="Out" input="In" end="7653268084584147924">
+				<Connect start="7653268006835825841" output="Out" input="In" end="7665028057285027299">
 					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::WaitLogic"/>
+					<End class="Story::EnableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267703432947379">
 					<Logic type="Story::StartObjectiveLogic">
@@ -557,6 +869,24 @@
 				<Connect start="7653267703432947379" output="Out" input="In" end="7653271878160469878">
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::UseLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665009464099870388">
+					<Logic type="Story::WaitForSensorLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_nest_spawn_part_1_waypoint"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665009464099870388" output="Out" input="In" end="7665009786207786782">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::EnableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661560803044769205">
 					<Logic type="Story::CompleteMissionLogic">
@@ -628,9 +958,44 @@
 				<Node type="Actions::Node" uid="7661579795605642427">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Quest 1"/>
-						<Attribute name="m_Size" value="2449.000000 1857.000000"/>
+						<Attribute name="m_Size" value="2734.000000 1857.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665010568194925243">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_patrol_volatile/Infected_PS/patrol_agenda"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665010568194925243" output="Out" input="In" end="7665010569105355929">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027774148010686">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="15000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665027774148010686" output="Out" input="In:3" end="7665027907698362282">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661582677903766207">
 					<Logic type="Story::CompleteObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7661577850786477355"/>
@@ -721,12 +1086,92 @@
 					<Start class="Story::ClearLogic"/>
 					<End class="Actions::AllLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665015790855684806">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008997144355879"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665015790855684806" output="Out" input="In:1" end="7665015910807763934">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665011718954075081">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_patrol_volatile/Infected_PS/patrol_agenda"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665011718954075081" output="Out" input="In" end="7665011719554549800">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661580457086150345">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Quest 4"/>
-						<Attribute name="m_Size" value="1681.000000 482.000000"/>
+						<Attribute name="m_Size" value="5101.000000 3002.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665027078822315467">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665014080864317026"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665027078822315467" output="Out" input="In" end="7665027113613432714">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
+				</Connect>
+				<Connect start="7665027078822315467" output="Out" input="In" end="7665027554225404276">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
+				<Connect start="7665027078822315467" output="Out" input="In" end="7665027632203559794">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
+				<Connect start="7665027078822315467" output="Out" input="In" end="7665027773457636096">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665010568016165579">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_spawner_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665010568016165579" output="Out" input="In:0" end="7665011215918734585">
+					<Start class="Story::ClearLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653270499124609742">
 					<Logic type="Story::WaitForSensorLogic">
 						<Attribute name="m_RequiredCount" value="1"/>
@@ -745,6 +1190,23 @@
 					<Start class="Story::WaitForSensorLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665009817227794894">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/rs_hotel_mid_ai_area_4_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/~22/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665009817227794894" output="Out" input="In" end="7665010423012110666">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7664680684931499215">
 					<Logic type="Story::CompleteObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7664679189451348134"/>
@@ -757,6 +1219,70 @@
 				</Node>
 				<Connect start="7664680684931499215" output="Out" input="In:1" end="7664681302471926787">
 					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015790964532944">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="2"/>
+					</Logic>
+				</Node>
+				<Connect start="7665015790964532944" output="Out" input="In" end="7665015790855684806">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015414145060051">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_1/rs_hotel_top_ai_area_1_spawn_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_spawn_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665015414145060051" output="Out" input="In" end="7653268006627909348">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7665015414145060051" output="Out" input="In" end="7661582677591899706">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7665015414145060051" output="Out" input="In" end="7665015637013306600">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7665015414145060051" output="Out" input="In" end="7665015792082304660">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7665015414145060051" output="Out" input="In" end="7665017221006664925">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665010717852373204">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_spawner_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665010717852373204" output="Out" input="In:0" end="7665011607339270729">
+					<Start class="Story::ClearLogic"/>
 					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661558925790616788">
@@ -772,10 +1298,28 @@
 					<Start class="Story::CompleteMissionLogic"/>
 					<End class="Story::PointOfInterestLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665009624272809940">
+					<Logic type="Story::WaitForSensorLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_nest_spawn_part_4_waypoint"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665009624272809940" output="Out" input="In" end="7665009825631191978">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::EnableLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661579718151123668">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Setup"/>
-						<Attribute name="m_Size" value="3141.000000 251.000000"/>
+						<Attribute name="m_Size" value="3891.000000 251.000000"/>
 					</Logic>
 				</Node>
 				<Node type="Actions::Node" uid="7664680663347076052">
@@ -794,7 +1338,7 @@
 				</Connect>
 				<Node type="Actions::Node" uid="7653268084584147924">
 					<Logic type="Story::WaitLogic">
-						<Attribute name="m_Delay" value="30.000000"/>
+						<Attribute name="m_Delay" value="5.000000"/>
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 							<Attribute name="show_indicator" value="1"/>
 							<Attribute name="indicator_type" value="Default"/>
@@ -805,6 +1349,22 @@
 				<Connect start="7653268084584147924" output="Out" input="In" end="7642374385316293643">
 					<Start class="Story::WaitLogic"/>
 					<End class="Story::CompleteMissionLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665029935170126294">
+					<Logic type="Story::MissionCheckpointLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_RespawnPoint">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_point_of_interest"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665029935170126294" output="Out" input="In" end="7653268084584147924">
+					<Start class="Story::MissionCheckpointLogic"/>
+					<End class="Story::WaitLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661563959227426262">
 					<Logic type="Story::HideLogic">
@@ -878,23 +1438,70 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::ShowLogic"/>
 				</Connect>
-				<Node type="Actions::Node" uid="7664678490166973660">
-					<Logic type="Story::ShowLogic">
+				<Node type="Actions::Node" uid="7665017221006664925">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665016572053355361"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665017221006664925" output="Out" input="In" end="7665017422937551758">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015790631498206">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_spawn_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665015790631498206" output="Out" input="In:0" end="7665015790964532944">
+					<Start class="Story::ClearLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665017686028562910">
+					<Logic type="Story::EnableLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 							<Attribute name="show_indicator" value="1"/>
 							<Attribute name="indicator_type" value="Default"/>
 							<Attribute name="objective" value="Default"/>
 						</Object>
 						<Entities name="m_Entities">
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_room_section_exit"/>
 						</Entities>
 					</Logic>
 				</Node>
-				<Connect start="7664678490166973660" output="Out" input="In" end="7661558925790616788">
-					<Start class="Story::ShowLogic"/>
-					<End class="Story::CompleteMissionLogic"/>
+				<Connect start="7665017686028562910" output="Out" input="In:2" end="7665015910807763934">
+					<Start class="Story::EnableLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Connect start="7665017686028562910" output="Out" input="In" end="7665018003147983406">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::UseLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015910807763934">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="4"/>
+					</Logic>
+				</Node>
+				<Connect start="7665015910807763934" output="Out" input="In" end="7665029935170126294">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::MissionCheckpointLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664680581082983649">
 					<Logic type="Actions::AllLogic">
@@ -904,6 +1511,15 @@
 				<Connect start="7664680581082983649" output="Out" input="In" end="7664680711597929393">
 					<Start class="Actions::AllLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665012097850313441">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="5"/>
+					</Logic>
+				</Node>
+				<Connect start="7665012097850313441" output="Out" input="In" end="7665012845174390022">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::EnableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664680357698402785">
 					<Logic type="Story::KillLogic">
@@ -922,6 +1538,22 @@
 				<Connect start="7664680357698402785" output="Out" input="In" end="7664680968090193082">
 					<Start class="Story::KillLogic"/>
 					<End class="Story::GiveItemLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665028057285027299">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_4/rs_hotel_top_ai_area_4_spawn_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665028057285027299" output="Out" input="In" end="7665028159815165191">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653268006627909348">
 					<Logic type="Story::StartObjectiveLogic">
@@ -943,6 +1575,20 @@
 						<Attribute name="m_Size" value="1351.000000 229.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665015637013306600">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008918205667054"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665015637013306600" output="Out" input="In" end="7665015635538672551">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661582677087117032">
 					<Logic type="Story::DialogueSetupLogic">
 						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q4_info"/>
@@ -976,6 +1622,28 @@
 				<Connect start="7661560533044563436" output="Out" input="In" end="7661560532552607001">
 					<Start class="Story::PointOfInterestLogic"/>
 					<End class="Story::StartMissionLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665028161085969132">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_4/rs_hotel_top_ai_area_4_spawn_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_4/rs_hotel_top_ai_area_4_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665028161085969132" output="Out" input="In" end="7665028160441646958">
+					<Start class="Story::ClearLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664677098894344941">
 					<Logic type="Story::WaitForSensorLogic">
@@ -1023,6 +1691,10 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Connect start="7653267835242639603" output="Out" input="In:0" end="7665010143092483928">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7659472159806157812">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7659471787393921951"/>
@@ -1037,6 +1709,20 @@
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::DialogueSetupLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665011856138322678">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008756865116315"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665011856138322678" output="Out" input="In:3" end="7665012097850313441">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653266129856750840">
 					<Logic type="Story::FreezeTimeLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1049,6 +1735,15 @@
 				<Connect start="7653266129856750840" output="Out" input="In" end="7653268913014111780">
 					<Start class="Story::FreezeTimeLogic"/>
 					<End class="Story::HideLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665011215918734585">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="2"/>
+					</Logic>
+				</Node>
+				<Connect start="7665011215918734585" output="Out" input="In" end="7665011106217321867">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664677631500219897">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -1063,6 +1758,23 @@
 				<Connect start="7664677631500219897" output="Out" input="In" end="7664677911299991513">
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::GiveItemLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665028542739983867">
+					<Logic type="Story::DisableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_banshee_boss/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665028542739983867" output="Out" input="In" end="7661558925790616788">
+					<Start class="Story::DisableLogic"/>
+					<End class="Story::CompleteMissionLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664680375292474107">
 					<Logic type="Story::KillLogic">
@@ -1096,6 +1808,22 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::HideLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665004361754345467">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_banshee_boss/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665004361754345467" output="Out" input="In" end="7664677562866522122">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653267535167322364">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7653266464573837569"/>
@@ -1126,6 +1854,24 @@
 					<Start class="Story::EnableLogic"/>
 					<End class="Actions::AllLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665027773457636096">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_3/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665027773457636096" output="Out" input="In" end="7665027774148010686">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661559090089960451">
 					<Logic type="Story::PointOfInterestLogic">
 						<Attribute name="m_Name" value="Quest2Start"/>
@@ -1151,6 +1897,36 @@
 				<Connect start="7664681302471926787" output="Out" input="In" end="7653267763536615802">
 					<Start class="Actions::AllLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665012845174390022">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_section_exit"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665012845174390022" output="Out" input="In" end="7661560803044769205">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::CompleteMissionLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665028159815165191">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665009164230062984"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665028159815165191" output="Out" input="In" end="7665028161085969132">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664680903764620807">
 					<Logic type="Story::GiveItemLogic">
@@ -1178,16 +1954,32 @@
 						</Object>
 						<Entities name="m_Entities">
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q2_section_exit"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_banshee_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1/rs_hotel_btm_ai_area_1_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2/rs_hotel_btm_ai_area_2_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3/rs_hotel_btm_ai_area_3_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_4/rs_hotel_btm_ai_area_4_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1/rs_hotel_btm_ai_area_1_goon_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2/rs_hotel_btm_ai_area_2_goon_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3/rs_hotel_btm_ai_area_3_goon_boss/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/rs_hotel_mid_ai_area_4_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/~22/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_1/rs_hotel_top_ai_area_1_spawn_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_spawn_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_clear_area_ai_boss_spawner/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_patrol_volatile/Infected_PS/patrol_agenda"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_patrol_volatile/Infected_PS/patrol_agenda"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_patrol_volatile/Infected_PS/patrol_agenda"/>
 						</Entities>
 					</Logic>
 				</Node>
-				<Connect start="7653271070594143495" output="Out" input="In" end="7653267376205375329">
+				<Connect start="7653271070594143495" output="Out" input="In" end="7665003103549650966">
 					<Start class="Story::DisableLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
-				</Connect>
-				<Connect start="7653271070594143495" output="Out" input="In" end="7659472159806157812">
-					<Start class="Story::DisableLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
+					<End class="Story::EnableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661579434118789895">
 					<Logic type="Actions::CommentLogic">
@@ -1195,6 +1987,15 @@
 						<Attribute name="m_Size" value="1924.000000 229.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665011667427437064">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="2"/>
+					</Logic>
+				</Node>
+				<Connect start="7665011667427437064" output="Out" input="In" end="7665011668514352660">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7664677562866522122">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7664677369960456529"/>
@@ -1232,6 +2033,23 @@
 						</Object>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665009803007797007">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_patrol_volatile/Infected_PS/patrol_agenda"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665009803007797007" output="Out" input="In" end="7665010378948075543">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7664679783411625745">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7664679189451348134"/>
@@ -1249,6 +2067,20 @@
 				<Connect start="7664679783411625745" output="Out" input="In" end="7664680375292474107">
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::KillLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665015637161979922">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008918205667054"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665015637161979922" output="Out" input="In:0" end="7665015910807763934">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661560533276064275">
 					<Logic type="Story::CompleteMissionLogic">
@@ -1276,13 +2108,23 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7664183018247198228" output="Out" input="In" end="7653268006627909348">
+				<Connect start="7664183018247198228" output="Out" input="In" end="7665028598402058070">
 					<Start class="Story::GiveItemLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
+					<End class="Story::DisableLogic"/>
 				</Connect>
-				<Connect start="7664183018247198228" output="Out" input="In" end="7661582677591899706">
-					<Start class="Story::GiveItemLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
+				<Node type="Actions::Node" uid="7665011668514352660">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008609953768263"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665011668514352660" output="Out" input="In:2" end="7665012097850313441">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661561177781551636">
 					<Logic type="Story::StartObjectiveLogic">
@@ -1317,6 +2159,26 @@
 					<Start class="Story::UseLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665003103549650966">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665003103549650966" output="Out" input="In" end="7653267376205375329">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Connect start="7665003103549650966" output="Out" input="In" end="7659472159806157812">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661578653344868119">
 					<Logic type="Story::ShowLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1349,6 +2211,24 @@
 					<Start class="Story::HideLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665010378948075543">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008442160418991"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665010378948075543" output="Out" input="In" end="7665010717852373204">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
+				</Connect>
+				<Connect start="7665010378948075543" output="Out" input="In" end="7665010719418115141">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661560532552607001">
 					<Logic type="Story::StartMissionLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1361,6 +2241,28 @@
 				<Connect start="7661560532552607001" output="Out" input="In" end="7661560533384196426">
 					<Start class="Story::StartMissionLogic"/>
 					<End class="Story::MissionCheckpointLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665011718860057626">
+					<Logic type="Story::ClearLogic">
+						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_SpawnersEntites">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_spawner_number"/>
+						</Entities>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_clear_area"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665011718860057626" output="Out" input="In:0" end="7665011857229802143">
+					<Start class="Story::ClearLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664683486118950427">
 					<Logic type="Story::StartObjectiveLogic">
@@ -1405,25 +2307,26 @@
 						</Entities>
 					</Logic>
 				</Node>
-				<Connect start="7659071955335083293" output="Out" input="In" end="7653270550646233993">
+				<Connect start="7659071955335083293" output="Out" input="In" end="7665028486462730912">
 					<Start class="Story::HideLogic"/>
-					<End class="Story::WaitForSensorLogic"/>
+					<End class="Story::DisableLogic"/>
 				</Connect>
-				<Node type="Actions::Node" uid="7664675324951331103">
-					<Logic type="Story::HideLogic">
+				<Node type="Actions::Node" uid="7665009786207786782">
+					<Logic type="Story::EnableLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 							<Attribute name="show_indicator" value="1"/>
 							<Attribute name="indicator_type" value="Default"/>
 							<Attribute name="objective" value="Default"/>
 						</Object>
 						<Entities name="m_Entities">
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_banshee_boss"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_patrol_volatile/Infected_PS/patrol_agenda"/>
 						</Entities>
 					</Logic>
 				</Node>
-				<Connect start="7664675324951331103" output="Out" input="In" end="7653271070594143495">
-					<Start class="Story::HideLogic"/>
-					<End class="Story::DisableLogic"/>
+				<Connect start="7665009786207786782" output="Out" input="In:1" end="7665010143092483928">
+					<Start class="Story::EnableLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664681951401335327">
 					<Logic type="Story::ClearLogic">
@@ -1475,22 +2378,6 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
-				<Node type="Actions::Node" uid="7664678133923236898">
-					<Logic type="Story::ShowLogic">
-						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-							<Attribute name="show_indicator" value="1"/>
-							<Attribute name="indicator_type" value="Default"/>
-							<Attribute name="objective" value="Default"/>
-						</Object>
-						<Entities name="m_Entities">
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai/rs_hotel_parking_lot_ai_banshee_boss"/>
-						</Entities>
-					</Logic>
-				</Node>
-				<Connect start="7664678133923236898" output="Out" input="In" end="7664677562866522122">
-					<Start class="Story::ShowLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
-				</Connect>
 				<Node type="Actions::Node" uid="7653268913014111780">
 					<Logic type="Story::HideLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1507,17 +2394,6 @@
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q2_section_exit_squeeze"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_safe_area"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_elevator_door_closed"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_1"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_2"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_3"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_btm_ai/rs_hotel_btm_ai_area_4"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_1"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2"/>
 						</Entities>
 					</Logic>
 				</Node>
@@ -1528,7 +2404,7 @@
 				<Node type="Actions::Node" uid="7661579907548374053">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Quest 2"/>
-						<Attribute name="m_Size" value="3621.000000 2817.000000"/>
+						<Attribute name="m_Size" value="3951.000000 2817.000000"/>
 					</Logic>
 				</Node>
 				<Node type="Actions::Node" uid="7661560802741757735">
@@ -1546,6 +2422,37 @@
 				<Connect start="7661560802741757735" output="Out" input="In" end="7661578632104178082">
 					<Start class="Story::MissionCheckpointLogic"/>
 					<End class="Story::HideLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665011719554549800">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="30000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665011719554549800" output="Out" input="In:1" end="7665011857229802143">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027130617023016">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665014080864317026"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665027130617023016" output="Out" input="In" end="7665017686028562910">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::EnableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664679757800803113">
 					<Logic type="Story::StartObjectiveLogic">
@@ -1571,6 +2478,24 @@
 						<Attribute name="m_Size" value="1643.000000 229.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665018003147983406">
+					<Logic type="Story::UseLogic">
+						<Attribute name="m_DesiredValue" value="_ON"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value=""/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_room_section_exit"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665018003147983406" output="Out" input="In" end="7665017766929631631">
+					<Start class="Story::UseLogic"/>
+					<End class="Story::ShowLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653267654947561264">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7653266634195795674"/>
@@ -1635,6 +2560,21 @@
 				<Connect start="7659477658078447668" output="Out" input="In" end="7659477641522839686">
 					<Start class="Story::DialogueSetupLogic"/>
 					<End class="Story::DialogueLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665036313207552053">
+					<Logic type="Story::SetPlayerPresetLogic">
+						<Attribute name="m_PresetName" value="GIVE_ALL"/>
+						<Attribute name="m_PresetSetupMode" value="ADD_ONLY"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665036313207552053" output="Out" input="In" end="7642374385171628154">
+					<Start class="Story::SetPlayerPresetLogic"/>
+					<End class="Story::StartMissionLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664180093354197050">
 					<Logic type="Story::GiveItemLogic">
@@ -1750,9 +2690,45 @@
 						</Entities>
 					</Logic>
 				</Node>
-				<Connect start="7661563458657992002" output="Out" input="In" end="7653267568470347360">
+				<Connect start="7661563458657992002" output="Out" input="In" end="7665004470452098437">
 					<Start class="Story::ShowLogic"/>
-					<End class="Story::StartObjectiveLogic"/>
+					<End class="Story::EnableLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665010315633562180">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008025942179285"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665010315633562180" output="Out" input="In" end="7665010568016165579">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
+				</Connect>
+				<Connect start="7665010315633562180" output="Out" input="In" end="7665010568194925243">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665010719418115141">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_patrol_volatile/Infected_PS/patrol_agenda"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665010719418115141" output="Out" input="In" end="7665010719512708710">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267834996298053">
 					<Logic type="Story::StartObjectiveLogic">
@@ -1767,6 +2743,15 @@
 				<Connect start="7653267834996298053" output="Out" input="In" end="7653270610848939922">
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665011607339270729">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="2"/>
+					</Logic>
+				</Node>
+				<Connect start="7665011607339270729" output="Out" input="In" end="7665011607967984481">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661560533384196426">
 					<Logic type="Story::MissionCheckpointLogic">
@@ -1784,6 +2769,24 @@
 					<Start class="Story::MissionCheckpointLogic"/>
 					<End class="Story::HideLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665010423012110666">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008609953768263"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665010423012110666" output="Out" input="In" end="7665011448043567793">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::KillLogic"/>
+				</Connect>
+				<Connect start="7665010423012110666" output="Out" input="In" end="7665011448452841624">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::ClearLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7659829082252490828">
 					<Logic type="Story::ShowLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1794,13 +2797,66 @@
 						<Entities name="m_Entities">
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_safe_area"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_elevator_door_closed"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_parking_lot_ai"/>
 						</Entities>
 					</Logic>
 				</Node>
-				<Connect start="7659829082252490828" output="Out" input="In" end="7664675324951331103">
+				<Connect start="7659829082252490828" output="Out" input="In" end="7653271070594143495">
 					<Start class="Story::ShowLogic"/>
-					<End class="Story::HideLogic"/>
+					<End class="Story::DisableLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027632931452241">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="15000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665027632931452241" output="Out" input="In:2" end="7665027907698362282">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665017505216926547">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665016572053355361"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665017505216926547" output="Out" input="In" end="7665027339861106534">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Story::EnableLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665028598402058070">
+					<Logic type="Story::DisableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/rs_hotel_mid_ai_area_4_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_patrol_volatile/Infected_PS/patrol_agenda"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_patrol_volatile/Infected_PS/patrol_agenda"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_patrol_volatile/Infected_PS/patrol_agenda"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_4/~22/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665028598402058070" output="Out" input="In" end="7665015414145060051">
+					<Start class="Story::DisableLogic"/>
+					<End class="Story::EnableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653270679790655318">
 					<Logic type="Story::WaitForSensorLogic">
@@ -1819,6 +2875,15 @@
 				<Connect start="7653270679790655318" output="Out" input="In" end="7659072156752016252">
 					<Start class="Story::WaitForSensorLogic"/>
 					<End class="Story::ShowLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665010143092483928">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="2"/>
+					</Logic>
+				</Node>
+				<Connect start="7665010143092483928" output="Out" input="In" end="7665010315633562180">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664680083853023578">
 					<Logic type="Story::ClearLogic">
@@ -1913,12 +2978,42 @@
 					<Start class="Story::GiveItemLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Connect start="7664182807887716192" output="Out" input="In" end="7665009464099870388">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Connect start="7664182807887716192" output="Out" input="In" end="7665009528731077004">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Connect start="7664182807887716192" output="Out" input="In" end="7665009571969942646">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
+				<Connect start="7664182807887716192" output="Out" input="In" end="7665009624272809940">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::WaitForSensorLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661580410778558305">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="End"/>
 						<Attribute name="m_Size" value="846.000000 182.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665011607967984481">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665008442160418991"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665011607967984481" output="Out" input="In:1" end="7665012097850313441">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653267376205375329">
 					<Logic type="Story::StartObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7653266293111454480"/>
@@ -1968,6 +3063,39 @@
 					<Start class="Story::DialogueLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665011448867394918">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="30000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665011448867394918" output="Out" input="In:1" end="7665011667427437064">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027339861106534">
+					<Logic type="Story::EnableLogic">
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_spawn_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665027339861106534" output="Out" input="In" end="7665027078822315467">
+					<Start class="Story::EnableLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661582678505470566">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Main Dialogue Spike 4"/>
@@ -1980,6 +3108,23 @@
 						<Attribute name="m_Size" value="1650.000000 266.000000"/>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665010719512708710">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="30000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665010719512708710" output="Out" input="In:1" end="7665011607339270729">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653267418789390184">
 					<Logic type="Story::CompleteObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7653266293111454480"/>
@@ -2011,6 +3156,20 @@
 				<Connect start="7653270803451330668" output="Out" input="In" end="7653268006835825841">
 					<Start class="Story::WaitForSensorLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665028160441646958">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665009164230062984"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665028160441646958" output="Out" input="In:3" end="7665015910807763934">
+					<Start class="Story::CompleteObjectiveLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661560804369782385">
 					<Logic type="Story::StartMissionLogic">
@@ -2051,9 +3210,45 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7653267907686791794" output="Out" input="In" end="7661560803044769205">
+				<Connect start="7653267907686791794" output="Out" input="In:4" end="7665012097850313441">
 					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::CompleteMissionLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027632203559794">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_2/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665027632203559794" output="Out" input="In" end="7665027632931452241">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027554225404276">
+					<Logic type="Story::KillLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_1/rs_ai_boss_spawner_number"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665027554225404276" output="Out" input="In" end="7665027555213476733">
+					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661561176567697012">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -2065,6 +3260,24 @@
 						</Object>
 					</Logic>
 				</Node>
+				<Node type="Actions::Node" uid="7665009571969942646">
+					<Logic type="Story::WaitForSensorLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_nest_spawn_part_3_waypoint"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665009571969942646" output="Out" input="In" end="7665009817227794894">
+					<Start class="Story::WaitForSensorLogic"/>
+					<End class="Story::EnableLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653271878160469878">
 					<Logic type="Story::UseLogic">
 						<Attribute name="m_DesiredValue" value="_ON"/>
@@ -2156,9 +3369,9 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7653267535580121468" output="Out" input="In" end="7664678490166973660">
+				<Connect start="7653267535580121468" output="Out" input="In" end="7665028542739983867">
 					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::ShowLogic"/>
+					<End class="Story::DisableLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653268184480651388">
 					<Logic type="Story::UseLogic">
@@ -2194,6 +3407,23 @@
 				<Connect start="7659072156752016252" output="Out" input="In" end="7659072277299831831">
 					<Start class="Story::ShowLogic"/>
 					<End class="Story::HideLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665027555213476733">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="15000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665027555213476733" output="Out" input="In:1" end="7665027907698362282">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267955579138685">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -2234,10 +3464,7 @@
 			<Position x="-450" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7642374132993365916">
-			<Position x="-1185" y="-2025"/>
-		</EditorNode>
-		<EditorNode uid="7642374385171628154">
-			<Position x="-975" y="-2025"/>
+			<Position x="-1770" y="-2025"/>
 		</EditorNode>
 		<EditorNode uid="7659829008901474959">
 			<Position x="2400" y="-960"/>
@@ -2246,7 +3473,7 @@
 			<Position x="3600" y="1200"/>
 		</EditorNode>
 		<EditorNode uid="7661578061621231525">
-			<Position x="2700" y="4350"/>
+			<Position x="4050" y="4350"/>
 		</EditorNode>
 		<EditorNode uid="7661579434118789895">
 			<Position x="-2715" y="1200"/>
@@ -2255,10 +3482,10 @@
 			<Position x="-2400" y="4350"/>
 		</EditorNode>
 		<EditorNode uid="7661579584935475499">
-			<Position x="-2400" y="5595"/>
+			<Position x="-2400" y="8400"/>
 		</EditorNode>
 		<EditorNode uid="7661579718151123668">
-			<Position x="-1200" y="-2100"/>
+			<Position x="-1800" y="-2100"/>
 		</EditorNode>
 		<EditorNode uid="7661579795605642427">
 			<Position x="-615" y="-960"/>
@@ -2270,13 +3497,19 @@
 			<Position x="-600" y="4350"/>
 		</EditorNode>
 		<EditorNode uid="7661580410778558305">
-			<Position x="-300" y="6585"/>
+			<Position x="5400" y="10200"/>
 		</EditorNode>
 		<EditorNode uid="7661580457086150345">
-			<Position x="-600" y="5595"/>
+			<Position x="-600" y="8400"/>
 		</EditorNode>
 		<EditorNode uid="7661582678505470566">
-			<Position x="2692" y="5597"/>
+			<Position x="4807" y="8402"/>
+		</EditorNode>
+		<EditorNode uid="7665036313207552053">
+			<Position x="-1515" y="-2025"/>
+		</EditorNode>
+		<EditorNode uid="7642374385171628154">
+			<Position x="-1050" y="-2025"/>
 		</EditorNode>
 		<EditorNode uid="7664178448819063702">
 			<Position x="-765" y="-2025"/>
@@ -2299,11 +3532,11 @@
 		<EditorNode uid="7659829082252490828">
 			<Position x="1055" y="-2035"/>
 		</EditorNode>
-		<EditorNode uid="7664675324951331103">
-			<Position x="1365" y="-2025"/>
-		</EditorNode>
 		<EditorNode uid="7653271070594143495">
-			<Position x="1725" y="-2025"/>
+			<Position x="1350" y="-2040"/>
+		</EditorNode>
+		<EditorNode uid="7665003103549650966">
+			<Position x="1725" y="-2040"/>
 		</EditorNode>
 		<EditorNode uid="7653267376205375329">
 			<Position x="-595" y="-895"/>
@@ -2316,18 +3549,6 @@
 		</EditorNode>
 		<EditorNode uid="7661570573472178885">
 			<Position x="1130" y="-895"/>
-		</EditorNode>
-		<EditorNode uid="7659472159806157812">
-			<Position x="2420" y="-880"/>
-		</EditorNode>
-		<EditorNode uid="7659477658078447668">
-			<Position x="2795" y="-880"/>
-		</EditorNode>
-		<EditorNode uid="7659477641522839686">
-			<Position x="3240" y="-885"/>
-		</EditorNode>
-		<EditorNode uid="7659472204252977422">
-			<Position x="3735" y="-870"/>
 		</EditorNode>
 		<EditorNode uid="7664683486118950427">
 			<Position x="-585" y="-600"/>
@@ -2362,7 +3583,7 @@
 		<EditorNode uid="7664677176163349914">
 			<Position x="750" y="0"/>
 		</EditorNode>
-		<EditorNode uid="7664678133923236898">
+		<EditorNode uid="7665004361754345467">
 			<Position x="1200" y="0"/>
 		</EditorNode>
 		<EditorNode uid="7664677562866522122">
@@ -2386,7 +3607,7 @@
 		<EditorNode uid="7653267535580121468">
 			<Position x="750" y="600"/>
 		</EditorNode>
-		<EditorNode uid="7664678490166973660">
+		<EditorNode uid="7665028542739983867">
 			<Position x="1200" y="600"/>
 		</EditorNode>
 		<EditorNode uid="7661558925790616788">
@@ -2410,11 +3631,14 @@
 		<EditorNode uid="7661563458657992002">
 			<Position x="-1045" y="1265"/>
 		</EditorNode>
+		<EditorNode uid="7665004470452098437">
+			<Position x="-555" y="1260"/>
+		</EditorNode>
 		<EditorNode uid="7653267568470347360">
-			<Position x="-595" y="1265"/>
+			<Position x="-150" y="1260"/>
 		</EditorNode>
 		<EditorNode uid="7653269390500403009">
-			<Position x="5" y="1250"/>
+			<Position x="300" y="1260"/>
 		</EditorNode>
 		<EditorNode uid="7653267569635787296">
 			<Position x="755" y="1250"/>
@@ -2552,31 +3776,34 @@
 			<Position x="-1315" y="4400"/>
 		</EditorNode>
 		<EditorNode uid="7659071517536098694">
-			<Position x="470" y="4415"/>
+			<Position x="480" y="4425"/>
 		</EditorNode>
 		<EditorNode uid="7659071955335083293">
-			<Position x="845" y="4430"/>
+			<Position x="795" y="4425"/>
+		</EditorNode>
+		<EditorNode uid="7665028486462730912">
+			<Position x="1050" y="4425"/>
 		</EditorNode>
 		<EditorNode uid="7653270550646233993">
-			<Position x="1220" y="4415"/>
+			<Position x="1685" y="4415"/>
 		</EditorNode>
 		<EditorNode uid="7653267761867189051">
-			<Position x="1610" y="4415"/>
+			<Position x="2075" y="4415"/>
 		</EditorNode>
 		<EditorNode uid="7661570823795925932">
-			<Position x="1970" y="4415"/>
+			<Position x="2435" y="4415"/>
 		</EditorNode>
 		<EditorNode uid="7661578060854572713">
-			<Position x="2730" y="4410"/>
+			<Position x="4080" y="4410"/>
 		</EditorNode>
 		<EditorNode uid="7661578060658881169">
-			<Position x="3105" y="4410"/>
+			<Position x="4455" y="4410"/>
 		</EditorNode>
 		<EditorNode uid="7661578059850696320">
-			<Position x="3525" y="4395"/>
+			<Position x="4875" y="4395"/>
 		</EditorNode>
 		<EditorNode uid="7661578060284001630">
-			<Position x="4078" y="4411"/>
+			<Position x="5428" y="4411"/>
 		</EditorNode>
 		<EditorNode uid="7664182807887716192">
 			<Position x="-570" y="4710"/>
@@ -2591,79 +3818,298 @@
 			<Position x="1035" y="4710"/>
 		</EditorNode>
 		<EditorNode uid="7653267908926303877">
-			<Position x="-580" y="5030"/>
+			<Position x="-450" y="6900"/>
 		</EditorNode>
 		<EditorNode uid="7653270679790655318">
-			<Position x="20" y="5030"/>
+			<Position x="0" y="6900"/>
 		</EditorNode>
 		<EditorNode uid="7659072156752016252">
-			<Position x="470" y="5030"/>
+			<Position x="450" y="6900"/>
 		</EditorNode>
 		<EditorNode uid="7659072277299831831">
-			<Position x="785" y="5030"/>
+			<Position x="750" y="6900"/>
 		</EditorNode>
 		<EditorNode uid="7653267907686791794">
-			<Position x="1070" y="5030"/>
+			<Position x="1050" y="6900"/>
+		</EditorNode>
+		<EditorNode uid="7665009464099870388">
+			<Position x="-300" y="5100"/>
+		</EditorNode>
+		<EditorNode uid="7665009786207786782">
+			<Position x="150" y="5100"/>
+		</EditorNode>
+		<EditorNode uid="7665010143092483928">
+			<Position x="750" y="5100"/>
+		</EditorNode>
+		<EditorNode uid="7665010315633562180">
+			<Position x="1050" y="5100"/>
+		</EditorNode>
+		<EditorNode uid="7665010568016165579">
+			<Position x="1500" y="5100"/>
+		</EditorNode>
+		<EditorNode uid="7665010568194925243">
+			<Position x="1500" y="5295"/>
+		</EditorNode>
+		<EditorNode uid="7665010569105355929">
+			<Position x="2055" y="5295"/>
+		</EditorNode>
+		<EditorNode uid="7665011215918734585">
+			<Position x="2400" y="5100"/>
+		</EditorNode>
+		<EditorNode uid="7665011106217321867">
+			<Position x="2625" y="5100"/>
+		</EditorNode>
+		<EditorNode uid="7665009528731077004">
+			<Position x="-300" y="5550"/>
+		</EditorNode>
+		<EditorNode uid="7665009803007797007">
+			<Position x="150" y="5550"/>
+		</EditorNode>
+		<EditorNode uid="7665010378948075543">
+			<Position x="750" y="5550"/>
+		</EditorNode>
+		<EditorNode uid="7665010717852373204">
+			<Position x="1200" y="5550"/>
+		</EditorNode>
+		<EditorNode uid="7665010719418115141">
+			<Position x="1200" y="5760"/>
+		</EditorNode>
+		<EditorNode uid="7665010719512708710">
+			<Position x="1770" y="5760"/>
+		</EditorNode>
+		<EditorNode uid="7665011607339270729">
+			<Position x="2100" y="5550"/>
+		</EditorNode>
+		<EditorNode uid="7665011607967984481">
+			<Position x="2400" y="5550"/>
+		</EditorNode>
+		<EditorNode uid="7665009571969942646">
+			<Position x="-300" y="6000"/>
+		</EditorNode>
+		<EditorNode uid="7665009817227794894">
+			<Position x="150" y="6000"/>
+		</EditorNode>
+		<EditorNode uid="7665010423012110666">
+			<Position x="750" y="6000"/>
+		</EditorNode>
+		<EditorNode uid="7665011448043567793">
+			<Position x="1200" y="6206"/>
+		</EditorNode>
+		<EditorNode uid="7665011448867394918">
+			<Position x="1770" y="6206"/>
+		</EditorNode>
+		<EditorNode uid="7665011448452841624">
+			<Position x="1200" y="5996"/>
+		</EditorNode>
+		<EditorNode uid="7665011667427437064">
+			<Position x="2100" y="6000"/>
+		</EditorNode>
+		<EditorNode uid="7665011668514352660">
+			<Position x="2400" y="6000"/>
+		</EditorNode>
+		<EditorNode uid="7665009624272809940">
+			<Position x="-300" y="6450"/>
+		</EditorNode>
+		<EditorNode uid="7665009825631191978">
+			<Position x="150" y="6450"/>
+		</EditorNode>
+		<EditorNode uid="7665010453074400901">
+			<Position x="750" y="6450"/>
+		</EditorNode>
+		<EditorNode uid="7665011718860057626">
+			<Position x="1195" y="6444"/>
+		</EditorNode>
+		<EditorNode uid="7665011718954075081">
+			<Position x="1195" y="6654"/>
+		</EditorNode>
+		<EditorNode uid="7665011719554549800">
+			<Position x="1765" y="6654"/>
+		</EditorNode>
+		<EditorNode uid="7665011857229802143">
+			<Position x="2100" y="6450"/>
+		</EditorNode>
+		<EditorNode uid="7665011856138322678">
+			<Position x="2400" y="6450"/>
+		</EditorNode>
+		<EditorNode uid="7665012097850313441">
+			<Position x="3135" y="6480"/>
+		</EditorNode>
+		<EditorNode uid="7665012845174390022">
+			<Position x="3390" y="6480"/>
 		</EditorNode>
 		<EditorNode uid="7661560803044769205">
-			<Position x="-2365" y="5645"/>
+			<Position x="-2365" y="8450"/>
 		</EditorNode>
 		<EditorNode uid="7661560803326317853">
-			<Position x="-2140" y="5645"/>
+			<Position x="-2140" y="8450"/>
 		</EditorNode>
 		<EditorNode uid="7661560804369782385">
-			<Position x="-1855" y="5645"/>
+			<Position x="-1855" y="8450"/>
 		</EditorNode>
 		<EditorNode uid="7661560802741757735">
-			<Position x="-1615" y="5660"/>
+			<Position x="-1615" y="8465"/>
 		</EditorNode>
 		<EditorNode uid="7661578632104178082">
-			<Position x="-1315" y="5645"/>
+			<Position x="-1315" y="8450"/>
 		</EditorNode>
 		<EditorNode uid="7661578653344868119">
-			<Position x="-940" y="5660"/>
+			<Position x="-940" y="8465"/>
 		</EditorNode>
 		<EditorNode uid="7653267956861816198">
-			<Position x="-580" y="5645"/>
+			<Position x="-450" y="8550"/>
 		</EditorNode>
 		<EditorNode uid="7653270731157151537">
-			<Position x="-150" y="5640"/>
+			<Position x="-45" y="8550"/>
 		</EditorNode>
 		<EditorNode uid="7653267955579138685">
-			<Position x="225" y="5640"/>
+			<Position x="330" y="8550"/>
 		</EditorNode>
 		<EditorNode uid="7664183018247198228">
-			<Position x="675" y="5640"/>
+			<Position x="780" y="8550"/>
+		</EditorNode>
+		<EditorNode uid="7665028598402058070">
+			<Position x="1200" y="8550"/>
+		</EditorNode>
+		<EditorNode uid="7665015414145060051">
+			<Position x="1575" y="8550"/>
 		</EditorNode>
 		<EditorNode uid="7653268006627909348">
-			<Position x="-580" y="5945"/>
+			<Position x="-450" y="10800"/>
 		</EditorNode>
 		<EditorNode uid="7653270803451330668">
-			<Position x="-150" y="5955"/>
+			<Position x="-75" y="10800"/>
 		</EditorNode>
 		<EditorNode uid="7653268006835825841">
-			<Position x="210" y="5940"/>
+			<Position x="300" y="10800"/>
 		</EditorNode>
-		<EditorNode uid="7653268084584147924">
-			<Position x="-265" y="6650"/>
+		<EditorNode uid="7665028057285027299">
+			<Position x="750" y="10800"/>
 		</EditorNode>
-		<EditorNode uid="7642374385316293643">
-			<Position x="110" y="6650"/>
+		<EditorNode uid="7665028159815165191">
+			<Position x="1200" y="10800"/>
 		</EditorNode>
-		<EditorNode uid="7642374131240960184">
-			<Position x="410" y="6650"/>
+		<EditorNode uid="7665028161085969132">
+			<Position x="1650" y="10800"/>
+		</EditorNode>
+		<EditorNode uid="7665028160441646958">
+			<Position x="2250" y="10800"/>
 		</EditorNode>
 		<EditorNode uid="7661582677591899706">
-			<Position x="2707" y="5657"/>
+			<Position x="4822" y="8462"/>
 		</EditorNode>
 		<EditorNode uid="7661582677087117032">
-			<Position x="3082" y="5642"/>
+			<Position x="5197" y="8447"/>
 		</EditorNode>
 		<EditorNode uid="7661582677769915493">
-			<Position x="3517" y="5657"/>
+			<Position x="5632" y="8462"/>
 		</EditorNode>
 		<EditorNode uid="7661582677903766207">
-			<Position x="4055" y="5658"/>
+			<Position x="6170" y="8463"/>
+		</EditorNode>
+		<EditorNode uid="7665015637013306600">
+			<Position x="-450" y="8850"/>
+		</EditorNode>
+		<EditorNode uid="7665015635538672551">
+			<Position x="0" y="8850"/>
+		</EditorNode>
+		<EditorNode uid="7665015637161979922">
+			<Position x="750" y="8850"/>
+		</EditorNode>
+		<EditorNode uid="7665015792082304660">
+			<Position x="-450" y="9300"/>
+		</EditorNode>
+		<EditorNode uid="7665015790555253132">
+			<Position x="0" y="9525"/>
+		</EditorNode>
+		<EditorNode uid="7665015791617993898">
+			<Position x="600" y="9525"/>
+		</EditorNode>
+		<EditorNode uid="7665015790631498206">
+			<Position x="0" y="9300"/>
+		</EditorNode>
+		<EditorNode uid="7665015790964532944">
+			<Position x="900" y="9300"/>
+		</EditorNode>
+		<EditorNode uid="7665015790855684806">
+			<Position x="1200" y="9300"/>
+		</EditorNode>
+		<EditorNode uid="7665017221006664925">
+			<Position x="-450" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665017422937551758">
+			<Position x="0" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665017505216926547">
+			<Position x="450" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665027339861106534">
+			<Position x="900" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665027078822315467">
+			<Position x="1305" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665027113613432714">
+			<Position x="1680" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665027554225404276">
+			<Position x="1680" y="10095"/>
+		</EditorNode>
+		<EditorNode uid="7665027555213476733">
+			<Position x="2250" y="10095"/>
+		</EditorNode>
+		<EditorNode uid="7665027632203559794">
+			<Position x="1680" y="10275"/>
+		</EditorNode>
+		<EditorNode uid="7665027632931452241">
+			<Position x="2250" y="10275"/>
+		</EditorNode>
+		<EditorNode uid="7665027773457636096">
+			<Position x="1680" y="10455"/>
+		</EditorNode>
+		<EditorNode uid="7665027774148010686">
+			<Position x="2250" y="10455"/>
+		</EditorNode>
+		<EditorNode uid="7665027907698362282">
+			<Position x="2550" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665027130617023016">
+			<Position x="2775" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665017686028562910">
+			<Position x="3150" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665015910807763934">
+			<Position x="3900" y="9450"/>
+		</EditorNode>
+		<EditorNode uid="7665029935170126294">
+			<Position x="4125" y="9450"/>
+		</EditorNode>
+		<EditorNode uid="7653268084584147924">
+			<Position x="5435" y="10265"/>
+		</EditorNode>
+		<EditorNode uid="7642374385316293643">
+			<Position x="5810" y="10265"/>
+		</EditorNode>
+		<EditorNode uid="7642374131240960184">
+			<Position x="6110" y="10265"/>
+		</EditorNode>
+		<EditorNode uid="7665018003147983406">
+			<Position x="3450" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665017766929631631">
+			<Position x="3900" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7659472159806157812">
+			<Position x="2420" y="-880"/>
+		</EditorNode>
+		<EditorNode uid="7659477658078447668">
+			<Position x="2795" y="-880"/>
+		</EditorNode>
+		<EditorNode uid="7659477641522839686">
+			<Position x="3240" y="-885"/>
+		</EditorNode>
+		<EditorNode uid="7659472204252977422">
+			<Position x="3735" y="-870"/>
 		</EditorNode>
 		<EditorNode uid="7642373474610012675">
 			<Position x="0" y="0"/>
