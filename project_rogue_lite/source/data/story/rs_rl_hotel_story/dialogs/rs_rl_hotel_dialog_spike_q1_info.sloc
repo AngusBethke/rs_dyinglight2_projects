@@ -121,7 +121,7 @@ sub main()
     {
         RequiresVO(true);
         Actor(`Pilgrim`);
-        Text(En, ALL, `<Placeholder>`);
+        Text(En, ALL, `Looks like mostly run-of-the-mill biters, with a few virals mixed in.`);
     }
     Entry(`DLG_RsRlHotelDialogSpikeQ1Info_Pilgrim_025`)
     {
@@ -151,7 +151,13 @@ sub main()
     {
         RequiresVO(true);
         Actor(`Pilgrim`);
-        Text(En, ALL, `The Hotel has been left largely untouched due to the large number of infected inside. So you'll probably also find some decent gear along the way.`);
+        Text(En, ALL, `The doc found some inhibitors for you to use. They should give you a little boost to get by. He needs to test them, so he'll provide a new batch as soon as he's done testing.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ1Info_Pilgrim_030`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Though the scouts reported wailing in the vents... so there might be a banshee around.`);
     }
     Entry(`DLG_RsRlHotelDialogSpikeQ1Info_choice_003`)
     {

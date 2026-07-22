@@ -37,7 +37,7 @@ sub main()
     {
         RequiresVO(true);
         Actor(`Pilgrim`);
-        Text(En, ALL, `<Placeholder>`);
+        Text(En, ALL, `The usual biters and virals we've come to expect.`);
     }
     Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_008`)
     {
@@ -80,6 +80,24 @@ sub main()
         RequiresVO(true);
         Actor(`Pilgrim`);
         Text(En, ALL, `One of the scouts found their way into the rooms, but they haven't reported back - we expect the worst. Let us know if you find them.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_017`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Though, and you can probably already hear them, there are three goons stomping about.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_018`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `They're of the messed up variety... so be careful.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Info_Pilgrim_019`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `We're not sure exactly what's going on the hotel rooms.`);
     }
     Entry(`DLG_RsRlHotelDialogSpikeQ2Info_choice_004`)
     {

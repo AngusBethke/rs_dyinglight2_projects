@@ -33,11 +33,23 @@ sub main()
         Actor(`LocalPlayer`);
         Text(En, ALL, `What?! Why?! That's a death sentence!`);
     }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_LocalPlayer_030`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Shit!`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_LocalPlayer_032`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Fuuuuck.`);
+    }
     Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_009`)
     {
         RequiresVO(true);
         Actor(`Pilgrim`);
-        Text(En, ALL, `<Placeholder>`);
+        Text(En, ALL, `Well... it isn't good.`);
     }
     Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_010`)
     {
@@ -116,6 +128,30 @@ sub main()
         RequiresVO(true);
         Actor(`Pilgrim`);
         Text(En, ALL, `They felt the supplies would be worth it, I got some information out of them before we lost contact. What do you want to know?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_028`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `A ton of virals and biters...`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_029`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `... and if that wasn't bad enough, several Volatiles as well.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_031`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `That's not the worst of it, one of the scouts also spotted a Demolisher.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Info_Pilgrim_033`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Yeah... good luck.`);
     }
     Entry(`DLG_RsRlHotelDialogSpikeQ3Info_choice_001`)
     {

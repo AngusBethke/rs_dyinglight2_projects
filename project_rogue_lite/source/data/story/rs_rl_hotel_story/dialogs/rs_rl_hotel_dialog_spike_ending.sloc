@@ -1,0 +1,36 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeEnding_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike... I did it... the hotel is clear.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeEnding_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `What?! That was a nightmare!`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeEnding_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I... I guess so... I need to sit down.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeEnding_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Good fucking job, I expected nothing less!`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeEnding_Pilgrim_004`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `... but you made it through, so it was nothing you couldn't handle.`);
+    }
+}

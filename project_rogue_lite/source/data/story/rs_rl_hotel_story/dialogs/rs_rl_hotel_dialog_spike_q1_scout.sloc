@@ -1,0 +1,36 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeQ1Scout_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, Aiden here. I found the scout...`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ1Scout_LocalPlayer_002`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `It looks like they got impaled by some rubble while making their way through the sewer tunnels and bled out.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ1Scout_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `They managed to light the way for me.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ1Scout_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Generators, basement level B2. Aiden out.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ1Scout_Pilgrim_004`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Damn. Where? I can send someone to pick them up once it's safe.`);
+    }
+}

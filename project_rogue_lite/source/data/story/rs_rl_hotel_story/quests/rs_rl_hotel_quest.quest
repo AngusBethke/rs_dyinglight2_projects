@@ -304,6 +304,23 @@
 					<Start class="Story::DisableLogic"/>
 					<End class="Story::ShowLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665393785768706961">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="10000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665393785768706961" output="Out" input="In" end="7665394452039670139">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::DialogueSetupLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661578060658881169">
 					<Logic type="Story::DialogueSetupLogic">
 						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q3_info"/>
@@ -619,6 +636,23 @@
 					<Start class="Story::HideLogic"/>
 					<End class="Story::DisableLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665393774874129573">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="10000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665393774874129573" output="Out" input="In" end="7665394426996509209">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::DialogueSetupLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661578061621231525">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Main Dialogue Spike 3"/>
@@ -666,6 +700,24 @@
 					<Start class="Story::UseLogic"/>
 					<End class="Story::ShowLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665393727689819817">
+					<Logic type="Story::TakeItemLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value=""/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_db_nightrunner_4/rs_hotel_db_nightrunner_4_journal"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665393727689819817" output="Out" input="In" end="7665393794356539647">
+					<Start class="Story::TakeItemLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7664680397722001577">
 					<Logic type="Story::KillLogic">
 						<Attribute name="m_RequiredCount" value="1"/>
@@ -698,6 +750,23 @@
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::DialogueSetupLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665394357704513961">
+					<Logic type="Story::DialogueSetupLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q1_scout"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394357704513961" output="Out" input="In" end="7665394375039085069">
+					<Start class="Story::DialogueSetupLogic"/>
+					<End class="Story::DialogueLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7665027907698362282">
 					<Logic type="Actions::AllLogic">
 						<Input name="In" count="4"/>
@@ -705,6 +774,23 @@
 				</Node>
 				<Connect start="7665027907698362282" output="Out" input="In" end="7665027130617023016">
 					<Start class="Actions::AllLogic"/>
+					<End class="Story::CompleteObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665393988069501098">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="40000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665393988069501098" output="Out" input="In" end="7665393972408869418">
+					<Start class="Story::GiveItemLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7665009825631191978">
@@ -792,6 +878,23 @@
 				<Connect start="7653268884445848493" output="Out" input="In" end="7653268861222395030">
 					<Start class="Story::HideLogic"/>
 					<End class="Story::ShowLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665393764807245487">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="10000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665393764807245487" output="Out" input="In" end="7665394357704513961">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::DialogueSetupLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7664680711597929393">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -1064,6 +1167,10 @@
 					<Start class="Story::FailObjectiveLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Connect start="7661570573472178885" output="Out" input="In" end="7665393442584345702">
+					<Start class="Story::FailObjectiveLogic"/>
+					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7664679865251561925">
 					<Logic type="Story::ClearLogic">
 						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
@@ -1263,6 +1370,23 @@
 					<Start class="Story::EnableLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665394649785831380">
+					<Logic type="Story::DialogueLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q3_scout_2"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value=""/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394649785831380" output="Out:EndNode" input="In:3" end="7665393950256581084">
+					<Start class="Story::DialogueLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7665010717852373204">
 					<Logic type="Story::ClearLogic">
 						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
@@ -1346,9 +1470,26 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7653268084584147924" output="Out" input="In" end="7642374385316293643">
+				<Connect start="7653268084584147924" output="Out" input="In" end="7665396592409068590">
 					<Start class="Story::WaitLogic"/>
-					<End class="Story::CompleteMissionLogic"/>
+					<End class="Story::DialogueSetupLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665394628281533653">
+					<Logic type="Story::DialogueLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q2_scout"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value=""/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394628281533653" output="Out:EndNode" input="In:1" end="7665393950256581084">
+					<Start class="Story::DialogueLogic"/>
+					<End class="Actions::AllLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7665029935170126294">
 					<Logic type="Story::MissionCheckpointLogic">
@@ -1433,6 +1574,15 @@
 				<Connect start="7653267655612867547" output="Out" input="In" end="7664681633735572346">
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Story::ShowLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665393950256581084">
+					<Logic type="Actions::AllLogic">
+						<Input name="In" count="4"/>
+					</Logic>
+				</Node>
+				<Connect start="7665393950256581084" output="Out" input="In" end="7665393988069501098">
+					<Start class="Actions::AllLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7665017221006664925">
 					<Logic type="Story::StartObjectiveLogic">
@@ -1719,6 +1869,12 @@
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Actions::AllLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665394120905491190">
+					<Logic type="Actions::CommentLogic">
+						<Attribute name="m_Comment" value="Missing Scouts Quest"/>
+						<Attribute name="m_Size" value="3376.000000 948.000000"/>
+					</Logic>
+				</Node>
 				<Node type="Actions::Node" uid="7653266129856750840">
 					<Logic type="Story::FreezeTimeLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1834,6 +1990,23 @@
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::WaitForSensorLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665393794356539647">
+					<Logic type="Story::GiveItemLogic">
+						<Attribute name="m_ItemId" value="Cash_Cash"/>
+						<Attribute name="m_ItemsCount" value="10000"/>
+						<Attribute name="m_Force" value="1"/>
+						<Attribute name="m_Silent" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665393794356539647" output="Out" input="In" end="7665394474909931376">
+					<Start class="Story::GiveItemLogic"/>
+					<End class="Story::DialogueSetupLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653271348422053120">
 					<Logic type="Story::EnableLogic">
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
@@ -1885,6 +2058,24 @@
 					<Start class="Story::PointOfInterestLogic"/>
 					<End class="Story::StartMissionLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665393684336690435">
+					<Logic type="Story::TakeItemLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value=""/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_db_nightrunner_2/rs_hotel_db_nightrunner_2_journal"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665393684336690435" output="Out" input="In" end="7665393774874129573">
+					<Start class="Story::TakeItemLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7664681302471926787">
 					<Logic type="Actions::AllLogic">
 						<Input name="In" count="4"/>
@@ -1893,6 +2084,24 @@
 				<Connect start="7664681302471926787" output="Out" input="In" end="7653267763536615802">
 					<Start class="Actions::AllLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665393667315529222">
+					<Logic type="Story::TakeItemLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value=""/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_db_nightrunner_1/rs_hotel_db_nightrunner_1_journal"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665393667315529222" output="Out" input="In" end="7665393764807245487">
+					<Start class="Story::TakeItemLogic"/>
+					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7665028159815165191">
 					<Logic type="Story::StartObjectiveLogic">
@@ -2003,6 +2212,23 @@
 					<Start class="Story::CompleteMissionLogic"/>
 					<End class="Actions::EndLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665394375039085069">
+					<Logic type="Story::DialogueLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q1_scout"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value=""/>
+							<Attribute name="objective" value=""/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394375039085069" output="Out:EndNode" input="In:0" end="7665393950256581084">
+					<Start class="Story::DialogueLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7659472204252977422">
 					<Logic type="Story::CompleteObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7659471787393921951"/>
@@ -2047,6 +2273,23 @@
 				<Connect start="7664679783411625745" output="Out" input="In" end="7664680375292474107">
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::KillLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665396617491949585">
+					<Logic type="Story::DialogueLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_ending"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value=""/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665396617491949585" output="Out:EndNode" input="In" end="7665396763091979885">
+					<Start class="Story::DialogueLogic"/>
+					<End class="Story::WaitLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7665015637161979922">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -2218,6 +2461,23 @@
 					<Start class="Story::StartMissionLogic"/>
 					<End class="Story::MissionCheckpointLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665394426996509209">
+					<Logic type="Story::DialogueSetupLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q2_scout"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394426996509209" output="Out" input="In" end="7665394628281533653">
+					<Start class="Story::DialogueSetupLogic"/>
+					<End class="Story::DialogueLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7665011718860057626">
 					<Logic type="Story::ClearLogic">
 						<Attribute name="m_AIsAmountToShowIndicators" value="3"/>
@@ -2256,14 +2516,14 @@
 				</Connect>
 				<Node type="Actions::Node" uid="7661560803326317853" flags="Disabled">
 					<Logic type="Story::PointOfInterestLogic">
-						<Attribute name="m_Name" value="Quest3Start"/>
+						<Attribute name="m_Name" value="Quest4Start"/>
 						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
 							<Attribute name="show_indicator" value="1"/>
 							<Attribute name="indicator_type" value="Default"/>
 							<Attribute name="objective" value="Default"/>
 						</Object>
 						<Entities name="m_Destination">
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_point_of_interest"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_point_of_interest"/>
 						</Entities>
 					</Logic>
 				</Node>
@@ -2448,6 +2708,16 @@
 					<Start class="Story::StartObjectiveLogic"/>
 					<End class="Story::KillLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665393972408869418">
+					<Logic type="Story::CompleteObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665390306853855964"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
 				<Node type="Actions::Node" uid="7661579584935475499">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="DEBUG ONLY - Quest 4 Invoke"/>
@@ -2471,6 +2741,23 @@
 				<Connect start="7665018003147983406" output="Out" input="In" end="7665017766929631631">
 					<Start class="Story::UseLogic"/>
 					<End class="Story::ShowLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665396592409068590">
+					<Logic type="Story::DialogueSetupLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_ending"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665396592409068590" output="Out" input="In" end="7665396617491949585">
+					<Start class="Story::DialogueSetupLogic"/>
+					<End class="Story::DialogueLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267654947561264">
 					<Logic type="Story::StartObjectiveLogic">
@@ -2969,7 +3256,7 @@
 				<Node type="Actions::Node" uid="7661580410778558305">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="End"/>
-						<Attribute name="m_Size" value="846.000000 182.000000"/>
+						<Attribute name="m_Size" value="2106.000000 302.000000"/>
 					</Logic>
 				</Node>
 				<Node type="Actions::Node" uid="7665011607967984481">
@@ -3068,6 +3355,32 @@
 					<Start class="Story::EnableLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665393442584345702">
+					<Logic type="Story::StartObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7665390306853855964"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665393442584345702" output="Out" input="In" end="7665393667315529222">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::TakeItemLogic"/>
+				</Connect>
+				<Connect start="7665393442584345702" output="Out" input="In" end="7665393684336690435">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::TakeItemLogic"/>
+				</Connect>
+				<Connect start="7665393442584345702" output="Out" input="In" end="7665393714160092020">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::TakeItemLogic"/>
+				</Connect>
+				<Connect start="7665393442584345702" output="Out" input="In" end="7665393727689819817">
+					<Start class="Story::StartObjectiveLogic"/>
+					<End class="Story::TakeItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7661582678505470566">
 					<Logic type="Actions::CommentLogic">
 						<Attribute name="m_Comment" value="Main Dialogue Spike 4"/>
@@ -3129,6 +3442,20 @@
 					<Start class="Story::WaitForSensorLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665396763091979885">
+					<Logic type="Story::WaitLogic">
+						<Attribute name="m_Delay" value="5.000000"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665396763091979885" output="Out" input="In" end="7642374385316293643">
+					<Start class="Story::WaitLogic"/>
+					<End class="Story::CompleteMissionLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7665028160441646958">
 					<Logic type="Story::CompleteObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7665009164230062984"/>
@@ -3142,6 +3469,23 @@
 				<Connect start="7665028160441646958" output="Out" input="In:3" end="7665015910807763934">
 					<Start class="Story::CompleteObjectiveLogic"/>
 					<End class="Actions::AllLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665394474909931376">
+					<Logic type="Story::DialogueSetupLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q3_scout_2"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394474909931376" output="Out" input="In" end="7665394649785831380">
+					<Start class="Story::DialogueSetupLogic"/>
+					<End class="Story::DialogueLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7661560804369782385" flags="Disabled">
 					<Logic type="Story::StartMissionLogic">
@@ -3202,6 +3546,24 @@
 				</Node>
 				<Connect start="7665027632203559794" output="Out" input="In" end="7665027632931452241">
 					<Start class="Story::KillLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665393714160092020">
+					<Logic type="Story::TakeItemLogic">
+						<Attribute name="m_RequiredCount" value="1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value=""/>
+						</Object>
+						<Output name="Entity" count="1"/>
+						<Entities name="m_Entities">
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_db_nightrunner_3/rs_hotel_db_nightrunner_3_journal"/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665393714160092020" output="Out" input="In" end="7665393785768706961">
+					<Start class="Story::TakeItemLogic"/>
 					<End class="Story::GiveItemLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7665027554225404276">
@@ -3269,6 +3631,23 @@
 					<Start class="Story::UseLogic"/>
 					<End class="Story::ShowLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665394641380269431">
+					<Logic type="Story::DialogueLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q3_scout_1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value=""/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394641380269431" output="Out:EndNode" input="In:2" end="7665393950256581084">
+					<Start class="Story::DialogueLogic"/>
+					<End class="Actions::AllLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7653268651291751033">
 					<Logic type="Story::UseLogic">
 						<Attribute name="m_DesiredValue" value="_ON"/>
@@ -3330,6 +3709,23 @@
 				<Connect start="7664681633735572346" output="Out" input="In" end="7664681904470495908">
 					<Start class="Story::ShowLogic"/>
 					<End class="Story::StartObjectiveLogic"/>
+				</Connect>
+				<Node type="Actions::Node" uid="7665394452039670139">
+					<Logic type="Story::DialogueSetupLogic">
+						<Attribute name="m_DialogName" value="rs_rl_hotel_dialog_spike_q3_scout_1"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+						<Entities name="m_DialogEntity">
+							<Entity name=""/>
+						</Entities>
+					</Logic>
+				</Node>
+				<Connect start="7665394452039670139" output="Out" input="In" end="7665394641380269431">
+					<Start class="Story::DialogueSetupLogic"/>
+					<End class="Story::DialogueLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7653267535580121468">
 					<Logic type="Story::CompleteObjectiveLogic">
@@ -3437,6 +3833,9 @@
 		</EditorNode>
 		<EditorNode uid="7642374132993365916">
 			<Position x="-1770" y="-2025"/>
+		</EditorNode>
+		<EditorNode uid="7659472204252977422">
+			<Position x="3735" y="-870"/>
 		</EditorNode>
 		<EditorNode uid="7659829008901474959">
 			<Position x="2400" y="-960"/>
@@ -4054,13 +4453,7 @@
 			<Position x="4125" y="9450"/>
 		</EditorNode>
 		<EditorNode uid="7653268084584147924">
-			<Position x="5435" y="10265"/>
-		</EditorNode>
-		<EditorNode uid="7642374385316293643">
-			<Position x="5810" y="10265"/>
-		</EditorNode>
-		<EditorNode uid="7642374131240960184">
-			<Position x="6110" y="10265"/>
+			<Position x="5430" y="10275"/>
 		</EditorNode>
 		<EditorNode uid="7665018003147983406">
 			<Position x="3450" y="9900"/>
@@ -4077,8 +4470,83 @@
 		<EditorNode uid="7659477641522839686">
 			<Position x="3240" y="-885"/>
 		</EditorNode>
-		<EditorNode uid="7659472204252977422">
-			<Position x="3735" y="-870"/>
+		<EditorNode uid="7665393442584345702">
+			<Position x="2430" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393667315529222">
+			<Position x="2880" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393684336690435">
+			<Position x="2880" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665393714160092020">
+			<Position x="2880" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665393727689819817">
+			<Position x="2880" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665393764807245487">
+			<Position x="3450" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393774874129573">
+			<Position x="3450" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665393785768706961">
+			<Position x="3450" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665393794356539647">
+			<Position x="3450" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665394120905491190">
+			<Position x="2400" y="-600"/>
+		</EditorNode>
+		<EditorNode uid="7665394357704513961">
+			<Position x="3795" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665394375039085069">
+			<Position x="4245" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665394426996509209">
+			<Position x="3795" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665394452039670139">
+			<Position x="3795" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665394474909931376">
+			<Position x="3795" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665394628281533653">
+			<Position x="4245" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665394641380269431">
+			<Position x="4245" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665394649785831380">
+			<Position x="4245" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665393950256581084">
+			<Position x="4815" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393988069501098">
+			<Position x="5085" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393972408869418">
+			<Position x="5445" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665396592409068590">
+			<Position x="5790" y="10275"/>
+		</EditorNode>
+		<EditorNode uid="7665396617491949585">
+			<Position x="6225" y="10275"/>
+		</EditorNode>
+		<EditorNode uid="7665396763091979885">
+			<Position x="6675" y="10275"/>
+		</EditorNode>
+		<EditorNode uid="7642374385316293643">
+			<Position x="7050" y="10275"/>
+		</EditorNode>
+		<EditorNode uid="7642374131240960184">
+			<Position x="7350" y="10275"/>
 		</EditorNode>
 		<EditorNode uid="7642373474610012675">
 			<Position x="0" y="0"/>

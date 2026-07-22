@@ -1,0 +1,159 @@
+---
+- Sequence:
+  - ClassName: Dialog::Sequence
+  - Field:
+    - Name: m_Length
+    - Value: 30.240002
+  - Field:
+    - Name: m_ConfigName
+    - Value: Dialog
+  - Field:
+    - Name: m_Uid
+    - Value: 7665387197623134068
+  - Track:
+    - ClassName: Dialog::ActorTrack
+    - Field:
+      - Name: m_ActorID
+      - Value: Pilgrim
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Actor
+    - Field:
+      - Name: m_Uid
+      - Value: 7665387198589558060
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7665387197353562930
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_Pilgrim_002
+        - Field:
+          - Name: m_Start
+          - Value: 4.160000
+        - Field:
+          - Name: m_Length
+          - Value: 2.200000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387288581394280
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_Pilgrim_006
+        - Field:
+          - Name: m_Start
+          - Value: 20.440001
+        - Field:
+          - Name: m_Length
+          - Value: 1.900000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387489762764655
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_Pilgrim_008
+        - Field:
+          - Name: m_Start
+          - Value: 25.220001
+        - Field:
+          - Name: m_Length
+          - Value: 5.020000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387554883771642
+  - Track:
+    - ClassName: Dialog::PlayerTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Player
+    - Field:
+      - Name: m_Uid
+      - Value: 7665387198288920721
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7665387198663168380
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_001
+        - Field:
+          - Name: m_Length
+          - Value: 4.060000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387210878987576
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_003
+        - Field:
+          - Name: m_Start
+          - Value: 6.460000
+        - Field:
+          - Name: m_Length
+          - Value: 4.960000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387373437284806
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_004
+        - Field:
+          - Name: m_Start
+          - Value: 11.520000
+        - Field:
+          - Name: m_Length
+          - Value: 6.100000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387416819733361
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_005
+        - Field:
+          - Name: m_Start
+          - Value: 17.720001
+        - Field:
+          - Name: m_Length
+          - Value: 2.620000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387457021241697
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_007
+        - Field:
+          - Name: m_Start
+          - Value: 22.440001
+        - Field:
+          - Name: m_Length
+          - Value: 2.680000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665387520774731909
+  - Track:
+    - ClassName: Actions::SceneTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Scene
+    - Field:
+      - Name: m_Uid
+      - Value: 7665387199384117926
+...

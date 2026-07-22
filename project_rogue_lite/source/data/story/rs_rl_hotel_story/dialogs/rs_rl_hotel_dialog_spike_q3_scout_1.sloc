@@ -1,0 +1,42 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, I found one. They didn't make it.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_002`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Looks like they put up a pretty good fight.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_004`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `I... I'm not sure, 12th - 13th floor maybe? This place is a mess.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `This looks to be what is left of a bathroom.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout1_Pilgrim_003`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Where are they? I'll send someone to grab them once you've cleared the place out.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout1_Pilgrim_006`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Okay, thanks Aiden.`);
+    }
+}

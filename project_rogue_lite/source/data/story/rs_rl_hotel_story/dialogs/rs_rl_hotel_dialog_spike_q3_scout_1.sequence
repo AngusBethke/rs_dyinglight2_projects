@@ -1,0 +1,131 @@
+---
+- Sequence:
+  - ClassName: Dialog::Sequence
+  - Field:
+    - Name: m_Length
+    - Value: 24.019999
+  - Field:
+    - Name: m_ConfigName
+    - Value: Dialog
+  - Field:
+    - Name: m_Uid
+    - Value: 7665388099925108023
+  - Track:
+    - ClassName: Dialog::ActorTrack
+    - Field:
+      - Name: m_ActorID
+      - Value: Pilgrim
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Actor
+    - Field:
+      - Name: m_Uid
+      - Value: 7665388099674689579
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7665388099559656215
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ3Scout1_Pilgrim_003
+        - Field:
+          - Name: m_Start
+          - Value: 7.180000
+        - Field:
+          - Name: m_Length
+          - Value: 5.860000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665388271555691357
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ3Scout1_Pilgrim_006
+        - Field:
+          - Name: m_Start
+          - Value: 21.879999
+        - Field:
+          - Name: m_Length
+          - Value: 2.140000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665388400585120239
+  - Track:
+    - ClassName: Dialog::PlayerTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Player
+    - Field:
+      - Name: m_Uid
+      - Value: 7665388099544786543
+    - SubTrack:
+      - ClassName: Dialog::PlaySpeechSubTrack
+      - Field:
+        - Name: m_Uid
+        - Value: 7665388101108526328
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_001
+        - Field:
+          - Name: m_Length
+          - Value: 3.400000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665388168935584021
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_002
+        - Field:
+          - Name: m_Start
+          - Value: 3.500000
+        - Field:
+          - Name: m_Length
+          - Value: 3.580000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665388221235569367
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_004
+        - Field:
+          - Name: m_Start
+          - Value: 13.139999
+        - Field:
+          - Name: m_Length
+          - Value: 4.900000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665388323867619087
+      - Key:
+        - ClassName: Dialog::GameActionPlaySpeech
+        - Field:
+          - Name: m_Params.subtitle_id
+          - Value: DLG_RsRlHotelDialogSpikeQ3Scout1_LocalPlayer_005
+        - Field:
+          - Name: m_Start
+          - Value: 18.139999
+        - Field:
+          - Name: m_Length
+          - Value: 3.640000
+        - Field:
+          - Name: m_Uid
+          - Value: 7665388361860696150
+  - Track:
+    - ClassName: Actions::SceneTrack
+    - Field:
+      - Name: m_TrackAlias
+      - Value: Scene
+    - Field:
+      - Name: m_Uid
+      - Value: 7665388100156409667
+...

@@ -1,0 +1,48 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout2_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, I found a dead scout.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout2_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `They... they made it out of the nest, they lit the path for me.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout2_LocalPlayer_004`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Shit, I'm sorry.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout2_LocalPlayer_006`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `14th floor hallway, by the vending machines.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout2_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Damnit!`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout2_Pilgrim_005`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Where will we find the body?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ3Scout2_Pilgrim_007`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Thanks Aiden.`);
+    }
+}

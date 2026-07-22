@@ -1,0 +1,54 @@
+
+import "lockit_globals.scr"
+
+sub main()
+{
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_001`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Spike, bad news. I found them. They didn't make it.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_003`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `Looks like they spooked some infected and got stuck in a bathroom.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_004`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `There's blood all over the place, I guess they got torn up pretty bad in the scuffle.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_005`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `They took the easy way out.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_LocalPlayer_007`)
+    {
+        RequiresVO(true);
+        Actor(`LocalPlayer`);
+        Text(En, ALL, `4th Floor, Room 044 I think.`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_Pilgrim_002`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Shit. What happened?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_Pilgrim_006`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Where are they?`);
+    }
+    Entry(`DLG_RsRlHotelDialogSpikeQ2Scout_Pilgrim_008`)
+    {
+        RequiresVO(true);
+        Actor(`Pilgrim`);
+        Text(En, ALL, `Okay, we'll come grab them when you've cleared the area. Spike out.`);
+    }
+}
