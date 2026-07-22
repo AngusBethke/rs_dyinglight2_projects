@@ -140,7 +140,6 @@
 						</Object>
 						<Entities name="m_Entities">
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q2_section_exit_squeeze"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_safe_area"/>
 						</Entities>
 					</Logic>
 				</Node>
@@ -397,7 +396,6 @@
 						</Object>
 						<Entities name="m_Entities">
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_elevator_door_open"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q2_safe_area"/>
 						</Entities>
 					</Logic>
 				</Node>
@@ -896,6 +894,20 @@
 					<Start class="Story::GiveItemLogic"/>
 					<End class="Story::DialogueSetupLogic"/>
 				</Connect>
+				<Node type="Actions::Node" uid="7665435464812017328">
+					<Logic type="Story::FailObjectiveLogic">
+						<Attribute name="m_ObjectiveId" value="7661577617261811968"/>
+						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+							<Attribute name="show_indicator" value="1"/>
+							<Attribute name="indicator_type" value="Default"/>
+							<Attribute name="objective" value="Default"/>
+						</Object>
+					</Logic>
+				</Node>
+				<Connect start="7665435464812017328" output="Out" input="In" end="7664183018247198228">
+					<Start class="Story::FailObjectiveLogic"/>
+					<End class="Story::GiveItemLogic"/>
+				</Connect>
 				<Node type="Actions::Node" uid="7664680711597929393">
 					<Logic type="Story::CompleteObjectiveLogic">
 						<Attribute name="m_ObjectiveId" value="7664679297393207202"/>
@@ -1347,6 +1359,7 @@
 						<Entities name="m_Entities">
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_1/rs_hotel_top_ai_area_1_spawn_number"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_spawn_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_2/rs_hotel_top_ai_area_2_clear_area_ai_boss_spawner/rs_ai_boss_spawner_number"/>
 						</Entities>
 					</Logic>
 				</Node>
@@ -2163,6 +2176,11 @@
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_1/rs_hotel_mid_ai_area_1_patrol_volatile/Infected_PS/patrol_agenda"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_2/rs_hotel_mid_ai_area_2_patrol_volatile/Infected_PS/patrol_agenda"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_mid_ai/rs_hotel_mid_ai_area_3/rs_hotel_mid_ai_area_3_patrol_volatile/Infected_PS/patrol_agenda"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_spawn_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_4/rs_hotel_top_ai_area_4_spawn_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_1/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_2/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_3/rs_ai_boss_spawner_number"/>
 						</Entities>
 					</Logic>
 				</Node>
@@ -2623,12 +2641,8 @@
 						</Object>
 						<Entities name="m_Entities">
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_elevator_door_open"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q3_safe_area"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_safe_area"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q2_safe_area"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q2_hotel_room_exit_squeeze"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q2_section_exit_squeeze"/>
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_safe_area"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_elevator_door_closed"/>
 						</Entities>
 					</Logic>
@@ -3054,7 +3068,6 @@
 							<Attribute name="objective" value="Default"/>
 						</Object>
 						<Entities name="m_Entities">
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_safe_area"/>
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q1_elevator_door_closed"/>
 						</Entities>
 					</Logic>
@@ -3131,9 +3144,9 @@
 						</Entities>
 					</Logic>
 				</Node>
-				<Connect start="7653270679790655318" output="Out" input="In" end="7659072156752016252">
+				<Connect start="7653270679790655318" output="Out" input="In" end="7659072277299831831">
 					<Start class="Story::WaitForSensorLogic"/>
-					<End class="Story::ShowLogic"/>
+					<End class="Story::HideLogic"/>
 				</Connect>
 				<Node type="Actions::Node" uid="7665010143092483928">
 					<Logic type="Actions::AllLogic">
@@ -3348,6 +3361,9 @@
 						</Object>
 						<Entities name="m_Entities">
 							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_spawn_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_1/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_2/rs_ai_boss_spawner_number"/>
+							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/rs_hotel_top_ai/rs_hotel_top_ai_area_3/rs_hotel_top_ai_area_3_clear_area_ai_boss_spawner_3/rs_ai_boss_spawner_number"/>
 						</Entities>
 					</Logic>
 				</Node>
@@ -3760,22 +3776,6 @@
 					<Start class="Story::UseLogic"/>
 					<End class="Story::CompleteObjectiveLogic"/>
 				</Connect>
-				<Node type="Actions::Node" uid="7659072156752016252">
-					<Logic type="Story::ShowLogic">
-						<Object name="m_ObjectiveData" type="Story::SObjectiveData">
-							<Attribute name="show_indicator" value="1"/>
-							<Attribute name="indicator_type" value="Default"/>
-							<Attribute name="objective" value="Default"/>
-						</Object>
-						<Entities name="m_Entities">
-							<Entity name="rs_rl_hotel/rs_rl_hotel_quest/q4_safe_area"/>
-						</Entities>
-					</Logic>
-				</Node>
-				<Connect start="7659072156752016252" output="Out" input="In" end="7659072277299831831">
-					<Start class="Story::ShowLogic"/>
-					<End class="Story::HideLogic"/>
-				</Connect>
 				<Node type="Actions::Node" uid="7665027555213476733">
 					<Logic type="Story::GiveItemLogic">
 						<Attribute name="m_ItemId" value="Cash_Cash"/>
@@ -3803,9 +3803,9 @@
 						</Object>
 					</Logic>
 				</Node>
-				<Connect start="7653267955579138685" output="Out" input="In" end="7664183018247198228">
+				<Connect start="7653267955579138685" output="Out" input="In" end="7665435464812017328">
 					<Start class="Story::CompleteObjectiveLogic"/>
-					<End class="Story::GiveItemLogic"/>
+					<End class="Story::FailObjectiveLogic"/>
 				</Connect>
 			</Node>
 			<Connect start="7642374132626421977" output="Out:End" input="In" end="7642373474610012675">
@@ -3833,9 +3833,6 @@
 		</EditorNode>
 		<EditorNode uid="7642374132993365916">
 			<Position x="-1770" y="-2025"/>
-		</EditorNode>
-		<EditorNode uid="7659472204252977422">
-			<Position x="3735" y="-870"/>
 		</EditorNode>
 		<EditorNode uid="7659829008901474959">
 			<Position x="2400" y="-960"/>
@@ -4212,11 +4209,8 @@
 		<EditorNode uid="7653270679790655318">
 			<Position x="0" y="6990"/>
 		</EditorNode>
-		<EditorNode uid="7659072156752016252">
-			<Position x="450" y="6990"/>
-		</EditorNode>
 		<EditorNode uid="7659072277299831831">
-			<Position x="750" y="6990"/>
+			<Position x="540" y="6990"/>
 		</EditorNode>
 		<EditorNode uid="7653267907686791794">
 			<Position x="1050" y="6990"/>
@@ -4332,14 +4326,92 @@
 		<EditorNode uid="7653267955579138685">
 			<Position x="330" y="8550"/>
 		</EditorNode>
+		<EditorNode uid="7659472159806157812">
+			<Position x="2420" y="-880"/>
+		</EditorNode>
+		<EditorNode uid="7659477658078447668">
+			<Position x="2795" y="-880"/>
+		</EditorNode>
+		<EditorNode uid="7659477641522839686">
+			<Position x="3240" y="-885"/>
+		</EditorNode>
+		<EditorNode uid="7659472204252977422">
+			<Position x="3735" y="-870"/>
+		</EditorNode>
+		<EditorNode uid="7665393442584345702">
+			<Position x="2430" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393667315529222">
+			<Position x="2880" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393684336690435">
+			<Position x="2880" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665393714160092020">
+			<Position x="2880" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665393727689819817">
+			<Position x="2880" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665393764807245487">
+			<Position x="3450" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393774874129573">
+			<Position x="3450" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665393785768706961">
+			<Position x="3450" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665393794356539647">
+			<Position x="3450" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665394120905491190">
+			<Position x="2400" y="-600"/>
+		</EditorNode>
+		<EditorNode uid="7665394357704513961">
+			<Position x="3795" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665394375039085069">
+			<Position x="4245" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665394426996509209">
+			<Position x="3795" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665394452039670139">
+			<Position x="3795" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665394474909931376">
+			<Position x="3795" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665394628281533653">
+			<Position x="4245" y="-300"/>
+		</EditorNode>
+		<EditorNode uid="7665394641380269431">
+			<Position x="4245" y="-75"/>
+		</EditorNode>
+		<EditorNode uid="7665394649785831380">
+			<Position x="4245" y="150"/>
+		</EditorNode>
+		<EditorNode uid="7665393950256581084">
+			<Position x="4815" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393988069501098">
+			<Position x="5085" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665393972408869418">
+			<Position x="5445" y="-525"/>
+		</EditorNode>
+		<EditorNode uid="7665435464812017328">
+			<Position x="795" y="8550"/>
+		</EditorNode>
 		<EditorNode uid="7664183018247198228">
-			<Position x="780" y="8550"/>
+			<Position x="1350" y="8550"/>
 		</EditorNode>
 		<EditorNode uid="7665028598402058070">
-			<Position x="1200" y="8550"/>
+			<Position x="1770" y="8550"/>
 		</EditorNode>
 		<EditorNode uid="7665015414145060051">
-			<Position x="1575" y="8550"/>
+			<Position x="2145" y="8550"/>
 		</EditorNode>
 		<EditorNode uid="7653268006627909348">
 			<Position x="-450" y="10800"/>
@@ -4455,84 +4527,6 @@
 		<EditorNode uid="7653268084584147924">
 			<Position x="5430" y="10275"/>
 		</EditorNode>
-		<EditorNode uid="7665018003147983406">
-			<Position x="3450" y="9900"/>
-		</EditorNode>
-		<EditorNode uid="7665017766929631631">
-			<Position x="3900" y="9900"/>
-		</EditorNode>
-		<EditorNode uid="7659472159806157812">
-			<Position x="2420" y="-880"/>
-		</EditorNode>
-		<EditorNode uid="7659477658078447668">
-			<Position x="2795" y="-880"/>
-		</EditorNode>
-		<EditorNode uid="7659477641522839686">
-			<Position x="3240" y="-885"/>
-		</EditorNode>
-		<EditorNode uid="7665393442584345702">
-			<Position x="2430" y="-525"/>
-		</EditorNode>
-		<EditorNode uid="7665393667315529222">
-			<Position x="2880" y="-525"/>
-		</EditorNode>
-		<EditorNode uid="7665393684336690435">
-			<Position x="2880" y="-300"/>
-		</EditorNode>
-		<EditorNode uid="7665393714160092020">
-			<Position x="2880" y="-75"/>
-		</EditorNode>
-		<EditorNode uid="7665393727689819817">
-			<Position x="2880" y="150"/>
-		</EditorNode>
-		<EditorNode uid="7665393764807245487">
-			<Position x="3450" y="-525"/>
-		</EditorNode>
-		<EditorNode uid="7665393774874129573">
-			<Position x="3450" y="-300"/>
-		</EditorNode>
-		<EditorNode uid="7665393785768706961">
-			<Position x="3450" y="-75"/>
-		</EditorNode>
-		<EditorNode uid="7665393794356539647">
-			<Position x="3450" y="150"/>
-		</EditorNode>
-		<EditorNode uid="7665394120905491190">
-			<Position x="2400" y="-600"/>
-		</EditorNode>
-		<EditorNode uid="7665394357704513961">
-			<Position x="3795" y="-525"/>
-		</EditorNode>
-		<EditorNode uid="7665394375039085069">
-			<Position x="4245" y="-525"/>
-		</EditorNode>
-		<EditorNode uid="7665394426996509209">
-			<Position x="3795" y="-300"/>
-		</EditorNode>
-		<EditorNode uid="7665394452039670139">
-			<Position x="3795" y="-75"/>
-		</EditorNode>
-		<EditorNode uid="7665394474909931376">
-			<Position x="3795" y="150"/>
-		</EditorNode>
-		<EditorNode uid="7665394628281533653">
-			<Position x="4245" y="-300"/>
-		</EditorNode>
-		<EditorNode uid="7665394641380269431">
-			<Position x="4245" y="-75"/>
-		</EditorNode>
-		<EditorNode uid="7665394649785831380">
-			<Position x="4245" y="150"/>
-		</EditorNode>
-		<EditorNode uid="7665393950256581084">
-			<Position x="4815" y="-525"/>
-		</EditorNode>
-		<EditorNode uid="7665393988069501098">
-			<Position x="5085" y="-525"/>
-		</EditorNode>
-		<EditorNode uid="7665393972408869418">
-			<Position x="5445" y="-525"/>
-		</EditorNode>
 		<EditorNode uid="7665396592409068590">
 			<Position x="5790" y="10275"/>
 		</EditorNode>
@@ -4547,6 +4541,12 @@
 		</EditorNode>
 		<EditorNode uid="7642374131240960184">
 			<Position x="7350" y="10275"/>
+		</EditorNode>
+		<EditorNode uid="7665018003147983406">
+			<Position x="3450" y="9900"/>
+		</EditorNode>
+		<EditorNode uid="7665017766929631631">
+			<Position x="3900" y="9900"/>
 		</EditorNode>
 		<EditorNode uid="7642373474610012675">
 			<Position x="0" y="0"/>

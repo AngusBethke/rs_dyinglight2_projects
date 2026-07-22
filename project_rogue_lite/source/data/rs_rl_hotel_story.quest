@@ -20,10 +20,26 @@
 			<OutputSubIdEntries>
 				<OutputSubIdEntry connectorLogicNodeUid="7642373276953734183" subId="0"/>
 			</OutputSubIdEntries>
+			<Node type="Actions::Node" uid="7665449264239101108">
+				<Logic type="Story::QuitWithTitlesLogic">
+					<Object name="m_ObjectiveData" type="Story::SObjectiveData">
+						<Attribute name="show_indicator" value="1"/>
+						<Attribute name="indicator_type" value="Default"/>
+						<Attribute name="objective" value="Default"/>
+					</Object>
+					<Entities name="m_SpawnPoint">
+						<Entity name="rs_rl_hotel/MapStart"/>
+					</Entities>
+				</Logic>
+			</Node>
 			<Node file="rs_rl_hotel_quest.quest"/>
 			<Connect start="7642373475340927696" output="Out:End" input="In" end="7642373276953734183">
 				<Start class="Story::QuestLogic"/>
 				<End class="Actions::EndLogic"/>
+			</Connect>
+			<Connect start="7642373475340927696" output="Out:End" input="In" end="7665449264239101108">
+				<Start class="Story::QuestLogic"/>
+				<End class="Story::QuitWithTitlesLogic"/>
 			</Connect>
 			<Node type="Actions::Node" uid="7642373277567972868">
 				<Logic type="Actions::StartLogic"/>
@@ -46,6 +62,9 @@
 		</EditorNode>
 		<EditorNode uid="7642373276953734183">
 			<Position x="0" y="0"/>
+		</EditorNode>
+		<EditorNode uid="7665449264239101108">
+			<Position x="0" y="150"/>
 		</EditorNode>
 	</EditorData>
 </Quest>
